@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast: B, PlayerRoles } = require('ranvier');
+const { Broadcast: B, PlayerRoles, CommandManager } = require('ranvier');
 
 /**
  * Command to allow you to reload a command's definition from disk without restarting the server
@@ -8,11 +8,22 @@ const { Broadcast: B, PlayerRoles } = require('ranvier');
 
 const subcommands = new CommandManager();
 
-/* -- Placeholder
 subcommands.add({
-  name: 'add'
+  name: 'add',
+  usage: 'hotfix add <name> <file> <bundle>',
+  comamnd: state => (args, player) => {
+
+    if(!args || !args.length < 3) {
+      return B.sayAt(player, 'Add which command?');
+    }
+
+    const newCommand = state.BundleManager.createCommand(args[0], args[1], args[2]);
+    state.CommandManager.add(newCommand);
+
+    B.sayAt(player, `<b><red>HOTFIX</red></b>: Done!`);
+  }
 });
-*/
+
 
 subcommands.add({
   name: 'modify',
@@ -49,7 +60,7 @@ module.exports = {
     }
 
     const [ command, ...commandArgs ] = args.split(' ');
-    const subCommand = subcommands.find(command);
+    const subcommand = subcommands.find(command);
 
     
     if(!subcommand) {

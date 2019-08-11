@@ -56,6 +56,16 @@ module.exports = {
   aliases: ['channels'],
   command: (state) => (args, player) => {
 
+    if (player.level == 2 && args && args.length) {
+      let command = state.CommandManager.find(args, true);
+
+      if(!command) {
+        return Broadcast.sayAt(player, `Command ${args} not found.`);
+      }
+
+      return Broadcast.sayAt(player, `Command file: ${command.file}, Command name: ${command.name}, Command Bundle: ${command.bundle}`)
+    }
+    
     // print standard commands
     Broadcast.sayAt(player, "<bold><white>                  Commands</bold></white>");
     Broadcast.sayAt(player, "<bold><white>===============================================</bold></white>");

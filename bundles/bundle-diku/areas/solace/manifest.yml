@@ -1,0 +1,12 @@
+title: "Town Of Solace"
+metadata:
+  id: 71
+  name: "Town Of Solace"
+  createdBy: "strahd"
+  starting_vnum: 10200
+  ending_vnum: 10349
+  item_requirements: 26000
+  filename: "solace.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

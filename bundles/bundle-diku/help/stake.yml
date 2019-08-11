@@ -1,0 +1,16 @@
+---
+body: |
+  Syntax: stake <character>
+  
+  To stake a vampire, you must be holding a stake in your hand. Once staked, a
+  vampire loses all it's powers and is no longer a member of the clan or even a
+  vampire anymore. Finding stakes is hard to do, as players were changing clans
+  very often, which is not something that they should be able to do. Therefore
+  stakes have been taken out of the game in most places, so the only way to find
+  one is to get one created using quest points, or use another stake. Once used, a
+  stake cannot be re-used.
+  
+  You cannot stake a vampire in human form, or one who has used the darkheart
+  discipline to tear out their own heart.
+  
+  - staking

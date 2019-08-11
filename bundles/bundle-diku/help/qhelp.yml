@@ -1,0 +1,17 @@
+---
+body: |
+  These are the following steps to completing a quest card.
+  
+  1 PRAC quest then train primal energy to decide the cost
+  of the quest card (100 primal = 100 point quest card) 
+  cast quest to generate a quest card.
+  2 Type complete card to see what object you have to collect
+  when you get the objects type complete card <object>.
+  3 When you have completed the card and there are no object left
+  on the card, you have to find a quest machine and then 
+  RECHARGE the card.
+  4 The machine will give you a token and you can then eat the
+  token to get the Quest points.
+  5 Then type QUEST to see what you can do with the tokens.
+  
+  - questhelp

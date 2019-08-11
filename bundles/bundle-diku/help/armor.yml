@@ -1,0 +1,7 @@
+---
+body: |
+  Syntax: cast armor <character>
+  
+  This spell decreases (improves) the armor class of the target character
+  by 20 points.
+  

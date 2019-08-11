@@ -1,0 +1,13 @@
+---
+body: |
+  A player's ATTRIBUTES are his/her STR, INT, DEX, WIS, and CON.
+  
+  These each affect various things:
+  
+  STR - How many items you can carry, How much weight you can carry, and 
+  your hitroll and damroll.
+  INT - How much your practices increase your skill/spells.
+  WIS - Base WIS reduces cost of training mana.
+  DEX - Affects your AC, base DEX reduces cost of training move.
+  CON - Base CON reduces cost of training hps.
+  

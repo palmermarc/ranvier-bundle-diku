@@ -1,0 +1,452 @@
+- id: m7800
+  keywords: ["cooshee","dog"]
+  name: "a cooshee"
+  description: >-
+    A rather large dog is here, wandering the valley.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 0
+- id: m7801
+  keywords: ["valley","elf"]
+  name: "a valley elf"
+  description: >-
+    A valley elf wanders here, cautious of your intrusion.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+      pools:
+        "valley:o7802": 75
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 1
+- id: m7802
+  keywords: ["valley","elf"]
+  name: "a valley elf"
+  description: >-
+    A female valley elf wanders here, skirting between the tall grasses.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+      pools:
+        "valley:o7802": 75
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 2
+- id: m7803
+  keywords: ["sentry","valley","elf"]
+  name: "a valley elf sentry"
+  description: >-
+    A valley elf sentry stands here, then noticing you, attacks quickly!
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+      pools:
+        "valley:o7800": 75
+        "valley:o7801": 75
+        "valley:o7802": 75
+        "valley:o7803": 75
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 1
+- id: m7804
+  keywords: ["sentry","valley","elf"]
+  name: "a valley elf sentry"
+  description: >-
+    A valley elf sentry stands here, then noticing you, attacks quickly!
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+      pools:
+        "valley:o7800": 75
+        "valley:o7801": 75
+        "valley:o7802": 75
+        "valley:o7803": 75
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 2
+- id: m7805
+  keywords: ["scout","valley","elf"]
+  name: "a valley elf scout"
+  description: >-
+    A valley elf scout wanders the valley, searching for intruders like you!
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+      pools:
+        "valley:o7801": 75
+        "valley:o7802": 75
+        "valley:o7803": 75
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 1
+- id: m7806
+  keywords: ["valley","elf"]
+  name: "a valley elf"
+  description: >-
+    A valley elf is here, doing her duties.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 2
+- id: m7807
+  keywords: ["elder","valley","elf"]
+  name: "a valley elf elder"
+  description: >-
+    A valley elf elder is here, studying.  He notices you.A valley elf elder shouts 'You have intruded wrongly.  Be prepared to die!'
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+      pools:
+        "valley:o7806": 75
+        "valley:o7807": 75
+        "valley:o7804": 75
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 1
+- id: m7808
+  keywords: ["elder","valley","elf"]
+  name: "a valley elf elder"
+  description: >-
+    A valley elf elder is here, studying.  She notices you.A valley elf elder says 'Your arrogance will be your end, human.'
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+      pools:
+        "valley:o7806": 75
+        "valley:o7807": 75
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 2
+- id: m7809
+  keywords: ["pyrohydra","pyro","hydra"]
+  name: "the pyrohydra"
+  description: >-
+    A big beast with many heads, each breathing fire, stares at you with malice.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "valley:o7805": 75
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 0
+- id: m7810
+  keywords: ["hermit","man","old"]
+  name: "an old hermit"
+  description: >-
+    An old hermit sits here, smoking a pipe.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 1
+- id: m7811
+  keywords: ["talemon","wizard","mage"]
+  name: "Talemon"
+  description: >-
+    An old mage busies himself with some chemicals.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "valley:o7806": 75
+        "valley:o7807": 75
+        "valley:o7824": 75
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 1
+- id: m7812
+  keywords: ["guardian","daemon"]
+  name: "the guardian daemon"
+  description: >-
+    A huge guardian daemon is here, watching the treasure.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 0
+- id: m7813
+  keywords: ["wolf"]
+  name: "a wolf"
+  description: >-
+    A wolf is here, looking for small prey.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 0
+- id: m7814
+  keywords: ["antelope"]
+  name: "an antelope"
+  description: >-
+    An antelope is here, peacefully munching on grass.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 81
+    exp_level: 6000
+    sex: 0

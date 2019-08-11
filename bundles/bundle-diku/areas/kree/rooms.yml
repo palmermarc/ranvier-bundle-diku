@@ -1,0 +1,197 @@
+- id: r6400
+  title: "Mudroom"
+  description: >-
+    You enter a spacious entranceway. Oak floors and trim, the place has a decieving aura of home. Enter this secret place at your own risk.
+  exits:
+    - roomId: "kree:r6401"
+      direction: north
+    - roomId: "olympus:r947"
+      direction: south
+  npcs:
+    - id: "kree:m6405"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6401
+  title: "Hallway"
+  description: >-
+    Well your ambitious bravado brings you to a set of stairs that lead up to the second floor. There is an archway here that leads into a strange sitting room.
+  exits:
+    - roomId: "kree:r6404"
+      direction: north
+    - roomId: "kree:r6400"
+      direction: south
+    - roomId: "kree:r6402"
+      direction: west
+    - roomId: "kree:r6403"
+      direction: up
+- id: r6402
+  title: "Sittingroom"
+  description: >-
+    Silence beats against the shimmering walls here. The fireplace ignites as you enter and the walls seem to fade in and out of existance. The only thing appearing semi stable are the throw pillows scattered about the entire floor.
+  exits:
+    - roomId: "kree:r6401"
+      direction: east
+  npcs:
+    - id: "kree:m6406"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6403
+  title: "Upstairs Hallway"
+  description: >-
+    This hallway is deceptive. Sometimes its end seems close at hand and other times within a blink of an eye it appears to stretch on for eternity.
+  exits:
+    - roomId: "kree:r6407"
+      direction: north
+    - roomId: "kree:r6401"
+      direction: down
+- id: r6404
+  title: "Hallway"
+  description: >-
+    You appear to be near one of the more normal settings of this place. However I wouldnt be so sure just yet. The living room lays through an archway while the kitchen lies hidden behind a door.
+  exits:
+    - roomId: "kree:r6401"
+      direction: south
+    - roomId: "kree:r6406"
+      direction: east
+    - roomId: "kree:r6405"
+      direction: west
+- id: r6405
+  title: "Living room"
+  description: >-
+    This room is dimly lit by a hundred candles and shadows reach every corner. Have you ever known fear?
+  exits:
+    - roomId: "kree:r6404"
+      direction: east
+  npcs:
+    - id: "kree:m6400"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "kree:m6403"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6406
+  title: "Kitchen"
+  description: >-
+    Maybe it wasnt such a good idea to enter here. There is a very large butcher block against the far wall where the chef is preparing the last UNWELCOMED guest.
+  exits:
+    - roomId: "kree:r6404"
+      direction: west
+  npcs:
+    - id: "kree:m6401"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6407
+  title: "Upstairs Hallway"
+  description: >-
+    The Hallway seems to lengthen out and leave your tail farrrrrrrr behind. However there is a door nearby if you care to try it.
+  exits:
+    - roomId: "kree:r6409"
+      direction: north
+    - roomId: "kree:r6403"
+      direction: south
+    - roomId: "kree:r6408"
+      direction: east
+- id: r6408
+  title: "Guest Room"
+  description: >-
+    The HUGE bed floats above the plush carpet while the drapes rustle gently from a breeze you cant feel.
+  exits:
+    - roomId: "kree:r6407"
+      direction: west
+  npcs:
+    - id: "kree:m6402"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "kree:m6404"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6409
+  title: "Upstairs Hallway"
+  description: >-
+    The hallway stretches far beyond your imagining but there is a portrait here to distract you, of the mistress who lives here. Long flowing dark auburn hair and piercing emerald eyes look daringly into yours as her translucent cape flows about her nubine, naked body.
+  exits:
+    - roomId: "kree:r6410"
+      direction: north
+    - roomId: "kree:r6407"
+      direction: south
+- id: r6410
+  title: "Upstairs Hallway"
+  description: >-
+    You travel forever and have come to the master bedroom. Its huge double doors are closed. A mural of vampire hunts from long ago lie carved deep in their surface. You can almost feel the angony and despair of the main vampire being staked.
+  exits:
+    - roomId: "kree:r6413"
+      direction: north
+    - roomId: "kree:r6409"
+      direction: south
+    - roomId: "kree:r6411"
+      direction: east
+- id: r6411
+  title: "Master Bedroom"
+  description: >-
+    This room is cast in candlelight and sets the pale lace glowing like the full moon. The fireplace is lit and welcoming, its warmth penetrating even the coolest soul. Out of the corner of your eye you catch a glimpse of deep auburn hair disappearing behind a curtain.
+  exits:
+    - roomId: "kree:r6412"
+      direction: east
+    - roomId: "kree:r6410"
+      direction: west
+  npcs:
+    - id: "kree:m6407"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6412
+  title: "Balcony"
+  description: >-
+    You are on a balcony of air with no support in sight. Before your very eyes a pair of emerald green eyes appear, almost smiling into yours.
+  exits:
+    - roomId: "kree:r6411"
+      direction: west
+- id: r6413
+  title: "Upstairs Hallway"
+  description: >-
+    The hallway reaches out and in the distance you can see another set of large double doors. It would appear to be the local residence office. Another portrait marks the wall, of the green eyed woman and by her side stands a man dark, with piercing violet, amber eyes.
+  exits:
+    - roomId: "kree:r6414"
+      direction: north
+    - roomId: "kree:r6410"
+      direction: south
+- id: r6414
+  title: "Upstairs Hallway"
+  description: >-
+    The portraits along this stretch of hallway distracts you from the distance you must travel to the office. Here is a picture of the man dark. His piercing violet, amber eyes seem to bore into yours as his silver hair rustles on a silent breeze. His order of dress betrays his perfected talents in war.
+  exits:
+    - roomId: "kree:r6415"
+      direction: north
+    - roomId: "kree:r6413"
+      direction: south
+- id: r6415
+  title: "Upstairs Hallway"
+  description: >-
+    Your gaze runs across the potrait here and your mind screams for you to get the heck out of here. A man/demon constructed of shadows stands in a background of flames and destruction. He wears a sneer of pleasure as all around him scream in pain. The man/demon comes from the darkest pits of hell!
+  exits:
+    - roomId: "kree:r6416"
+      direction: north
+    - roomId: "kree:r6414"
+      direction: south
+- id: r6416
+  title: "Upstairs Hallway"
+  description: >-
+    With a shudder of relief you now stand before the great doors to the residence office. The doors stand 10ft tall and each is 6ft wide, however will you get inside? Might be a good idea to request an audience.
+  exits:
+    - roomId: "kree:r6417"
+      direction: north
+    - roomId: "kree:r6415"
+      direction: south
+- id: r6417
+  title: "Kree's Office"
+  description: >-
+    A large fireplace ignites to life at your entrance and your gaze falls upon the simple comforts of the room, from the sitting pillows and low tables to the single portrait above the fireplace. The man is hard to see or define, strangly enough he always seems to be changing each time you blink your eyes. The only thing constant is the twisted smile that passes his lips.
+  exits:
+    - roomId: "kree:r6416"
+      direction: south
+  npcs:
+    - id: "kree:m6405"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "kree:m6407"
+      respawnChance: 100
+      maxLoad: "1"

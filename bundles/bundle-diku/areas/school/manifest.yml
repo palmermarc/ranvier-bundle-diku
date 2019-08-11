@@ -1,0 +1,12 @@
+title: "Mud School"
+metadata:
+  id: 64
+  name: "Mud School"
+  createdBy: "hatchet"
+  starting_vnum: 3700
+  ending_vnum: 3799
+  item_requirements: 0
+  filename: "school.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

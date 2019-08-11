@@ -1,0 +1,21 @@
+---
+body: |
+  Syntax: stance <style>
+  
+  In combat, the stance of the fighter plays a very important role; you 
+  can't just stand there and exchange blow for blow unless you are very 
+  confident of your ability. Each fighting stance has advantages and 
+  disadvantages, the basic outline of which follows:
+  CRANE : A solid stance, letting you hold your ground, while providing
+  good defensive moves.
+  MONGOOSE: A light-footed stance, which relies on leaps and acrobatics
+  to keep you out of harms way.
+  VIPER : A fast, striking stance, which sacrifices defence for speed
+  and accuracy.
+  BULL : A low stance designed for very powerful and aggressive attacks.
+  
+  To see a table with your skill leval in each basic stance, type: BASIC
+  There are also advanced stances. For help on these type : help ASTANCES 
+  See also: SKILL SSKILL WEAPON
+  
+  - stances

@@ -1,0 +1,172 @@
+- id: o3400
+  name: "candlestick"
+  roomDesc: "A pewter candlestick is standing here."
+  keywords: ["candlestick"]
+  description: "A pewter candlestick is standing here."
+  type: LIGHT
+- id: o3402
+  name: "tickler"
+  roomDesc: "A nightgaunt's tickler has been left here."
+  keywords: ["tickler"]
+  description: "A nightgaunt's tickler has been left here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3403
+  name: "plasma webbing"
+  roomDesc: "A pile of pink material is lying here"
+  keywords: ["plasma","webbing"]
+  description: "A pile of pink material is lying here"
+  type: LIGHTARMOR
+- id: o3410
+  name: "rod key"
+  roomDesc: "A queerly shaped rod is lying here."
+  keywords: ["rod","key"]
+  description: "A queerly shaped rod is lying here."
+  type: KEY
+- id: o3411
+  name: "large black dirty key"
+  roomDesc: "A large black dirty key is lying here"
+  keywords: ["large","black","dirty","key"]
+  description: "A large black dirty key is lying here"
+  type: KEY
+- id: o3412
+  name: "head jubal mummy"
+  roomDesc: "The mummified head of Jubal the Benevolent is lolling back and forth."
+  keywords: ["head","jubal","mummy"]
+  description: "The mummified head of Jubal the Benevolent is lolling back and forth."
+  type: CONTAINER
+  items: ["chapel:o3413"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o3413
+  name: "ring black marble"
+  roomDesc: "A black marble ring is lying here on the ground."
+  keywords: ["ring","black","marble"]
+  description: "A black marble ring is lying here on the ground."
+  type: ACCESSORY
+- id: o3414
+  name: "rapier thin"
+  roomDesc: "A rapier is lying here."
+  keywords: ["rapier","thin"]
+  description: "A rapier is lying here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3415
+  name: "sarcophagus coffin"
+  roomDesc: "A stone sarcophagus is sitting here."
+  keywords: ["sarcophagus","coffin"]
+  description: "A stone sarcophagus is sitting here."
+  type: CONTAINER
+  items: ["chapel:o3417","chapel:o3418"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o3416
+  name: "iron heavy key"
+  roomDesc: "A heavy iron key is lying here."
+  keywords: ["iron","heavy","key"]
+  description: "A heavy iron key is lying here."
+  type: KEY
+- id: o3417
+  name: "flask wineflask"
+  roomDesc: "A wineflask has been been left here."
+  keywords: ["flask","wineflask"]
+  description: "A wineflask has been been left here."
+  type: DRINKCON
+- id: o3418
+  name: "coins"
+  roomDesc: "You see a mound of coins fit for a dead king here"
+  keywords: ["coins"]
+  description: "You see a mound of coins fit for a dead king here"
+  type: MONEY
+- id: o3419
+  name: "key"
+  roomDesc: "The key to the coffin is lying here"
+  keywords: ["key"]
+  description: "The key to the coffin is lying here"
+  type: KEY
+- id: o3420
+  name: "rathcor"
+  roomDesc: ""
+  keywords: ["rathcor"]
+  description: ""
+  type: CONTAINER
+  items: ["chapel:o3410"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o3421
+  name: "rusty sword curved scimitar"
+  roomDesc: "A sword has been left lying here"
+  keywords: ["rusty","sword","curved","scimitar"]
+  description: "A sword has been left lying here"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3422
+  name: "piece slime"
+  roomDesc: "You step on a piece of slime...your foot squishes a bit"
+  keywords: ["piece","slime"]
+  description: "You step on a piece of slime...your foot squishes a bit"
+  type: TRASH
+- id: o3423
+  name: "smock"
+  roomDesc: "An artist's smock is lying here on the floor."
+  keywords: ["smock"]
+  description: "An artist's smock is lying here on the floor."
+  type: LIGHTARMOR
+- id: o3424
+  name: "scroll tightly rolled"
+  roomDesc: "A yellowing tightly rolled scroll is here"
+  keywords: ["scroll","tightly","rolled"]
+  description: "A yellowing tightly rolled scroll is here"
+  type: SCROLL
+- id: o3425
+  name: "auburn orb"
+  roomDesc: "An orb is here"
+  keywords: ["auburn","orb"]
+  description: "An orb is here"
+  type: STAFF
+- id: o3426
+  name: "bar gold"
+  roomDesc: "A bar of gold is lying here"
+  keywords: ["bar","gold"]
+  description: "A bar of gold is lying here"
+  type: TREASURE
+- id: o3427
+  name: "cape dark black"
+  roomDesc: "A dark black cape is lying here"
+  keywords: ["cape","dark","black"]
+  description: "A dark black cape is lying here"
+  type: ACCESSORY
+- id: o3428
+  name: "flaming sword long longsword"
+  roomDesc: "A sword lies here"
+  keywords: ["flaming","sword","long","longsword"]
+  description: "A sword lies here"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3429
+  name: "breast plate dented worn"
+  roomDesc: "A piece of armour is here."
+  keywords: ["breast","plate","dented","worn"]
+  description: "A piece of armour is here."
+  type: HEAVYARMOR
+- id: o3430
+  name: "key silver"
+  roomDesc: "You see a silver key here."
+  keywords: ["key","silver"]
+  description: "You see a silver key here."
+  type: KEY

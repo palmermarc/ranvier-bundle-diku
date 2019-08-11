@@ -1,0 +1,10 @@
+---
+body: |
+  Syntax: description <string>
+  Syntax: description + <string>
+  
+  Sets your long description to the given string. If the description string
+  starts with a '+', the part after the '+' is appended to your current
+  description, so that you can make multi-line descriptions.
+  
+  - desc

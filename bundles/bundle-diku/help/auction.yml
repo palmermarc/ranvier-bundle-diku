@@ -1,0 +1,31 @@
+---
+body: |
+  Syntax: auction <message>
+  Syntax: chat <message>
+  Syntax: music <message>
+  Syntax: question <message>
+  Syntax: answer <message>
+  Syntax: shout <message>
+  Syntax: yell <message>
+  syntax: bid <message>
+  
+  These commands send messages through communication channels to other players.
+  
+  SHOUT sends a message to all awake players in the world. To curb excessive
+  shouting, SHOUT imposes a three-second delay on the shouter.
+  
+  AUCTION/BID, CHAT, MUSIC, and QUESTION and ANSWER also send messages to all
+  interested players. '.' is a synonym for CHAT. The QUESTION and ANSWER
+  commands both use the same 'question' channel
+  
+  YELL sends a message to all awake players within your area.
+  
+  You can use the CHANNELS command to hear, or not hear, any of these channels.
+  
+  - chat
+  - music
+  - question
+  - answer
+  - shout
+  - yell
+  - bid

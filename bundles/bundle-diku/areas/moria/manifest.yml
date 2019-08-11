@@ -1,0 +1,12 @@
+title: "Moria"
+metadata:
+  id: 51
+  name: "Moria"
+  createdBy: "alfa"
+  starting_vnum: 4000
+  ending_vnum: 4199
+  item_requirements: 0
+  filename: "moria.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

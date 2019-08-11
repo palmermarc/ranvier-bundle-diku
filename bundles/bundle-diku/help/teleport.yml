@@ -1,0 +1,10 @@
+---
+body: |
+  Syntax: cast <teleport>
+  Syntax: cast <teleport> local
+  
+  This spell takes you from your current location to a random location somewhere
+  in the world, although it is only area wide, until you reach Grand Master in all
+  spell colours, when it becomes mud-wide. When you become GS all, you must 
+  type: cast <teleport> local to teleport within an area.
+  

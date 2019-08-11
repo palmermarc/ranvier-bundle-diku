@@ -1,0 +1,22 @@
+- id: o7909
+  name: "treasure coins"
+  roomDesc: "A huge treasure is lying here, looking very valuable."
+  keywords: ["treasure","coins"]
+  description: "A huge treasure is lying here, looking very valuable."
+  type: MONEY
+- id: o7910
+  name: "chest"
+  roomDesc: "A wooden chest stands in the corner."
+  keywords: ["chest"]
+  description: "A wooden chest stands in the corner."
+  type: CONTAINER
+  items: ["sewer:o7298","sewer:o7208"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o7911
+  name: "key"
+  roomDesc: "A small brass key lies here."
+  keywords: ["key"]
+  description: "A small brass key lies here."
+  type: KEY

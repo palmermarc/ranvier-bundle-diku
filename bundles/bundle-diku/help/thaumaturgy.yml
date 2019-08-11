@@ -1,0 +1,16 @@
+---
+body: |
+  #cGeomancy (Rank 1)
+  #e10% dmg reduction from spells. +10% spell damage to targets.
+  
+  #cSpark (Rank 2)
+  #eGenerate a small electrical discharge (can only be used in combat)
+  
+  #cVertigo (Rank 3)
+  #eCause a target to be disoriented and dizzy (Stun a target for 5 seconds)
+  
+  #cContortion (Rank 4)
+  #eMake a victim's limb constrict and become useless (Drops weapon cannot put it back until they have removed curse)
+  
+  #cBlood Boil (Rank 5)
+  #eThe target's blood is heated to a boil, dealing heavy damage to them. (10% max hp)

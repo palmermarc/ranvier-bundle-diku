@@ -1,0 +1,1349 @@
+- id: r10001
+  title: "Rock Outcropping"
+  description: >-
+    >From this rock outcropping the valley below seems peaceful, untouched.
+    Dense forests of pine carpet the mountainsides, broken only by thick aspen 
+    woods. The mountains, deep blue in the distance, circle the valley floor and 
+    form a soft highland bowl.
+    There is a sign nailed to a nearby tree.
+  exits:
+    - roomId: "joker1:r24213"
+      direction: north
+    - roomId: "crystalm:r10002"
+      direction: down
+- id: r10002
+  title: "Small Grove"
+  description: >-
+    Suddenly, soft music begins. Its source is slim, beautiful girl. Lyre in
+    hand, she sits gracefully as she plays; nearby, a large plainsman raises
+    a flute to his lips. Her voice clear as winter wind begins to sing...
+  exits:
+    - roomId: "crystalm:r10029"
+      direction: south
+    - roomId: "crystalm:r10003"
+      direction: west
+    - roomId: "crystalm:r10001"
+      direction: up
+  npcs:
+    - id: "crystalm:m10001"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "crystalm:m10003"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10003
+  title: "Entrance to the Town of Solace"
+  description: >-
+    A warm autumn breeze rustles the great vallenwood trees of Solace. The
+    road that wanders through the trees blazes in the bright colors of autumn.
+    The richly stained buildings of Solace rest cradled over head in the boughs
+    of the trees.
+  exits:
+    - roomId: "solace:r10201"
+      direction: north
+    - roomId: "crystalm:r10022"
+      direction: south
+    - roomId: "crystalm:r10002"
+      direction: east
+    - roomId: "crystalm:r10004"
+      direction: west
+- id: r10004
+  title: "East shore of Crystalmir Lake"
+  description: >-
+    The blue of the autumn sky darkens on the deep stillness of the lake. The
+    soft forests of giant vallenwood border the serene waters on the eastern, 
+    southern and western shores. To the north a patchwork of fields stretches
+    toward the distant purple mountains.
+  exits:
+    - roomId: "crystalm:r10007"
+      direction: north
+    - roomId: "crystalm:r10011"
+      direction: south
+    - roomId: "crystalm:r10003"
+      direction: east
+    - roomId: "crystalm:r10005"
+      direction: west
+- id: r10005
+  title: "Middle of Crystalmir Lake"
+  description: >-
+    You are in the middle of Crystalmir lake. The water is so still it is like a
+    thin sheet of glass.
+  exits:
+    - roomId: "crystalm:r10006"
+      direction: north
+    - roomId: "crystalm:r10010"
+      direction: south
+    - roomId: "crystalm:r10004"
+      direction: east
+    - roomId: "crystalm:r10008"
+      direction: west
+    - roomId: "crystalm:r10048"
+      direction: down
+  npcs:
+    - id: "crystalm:m10007"
+      respawnChance: 100
+      maxLoad: "25"
+    - id: "crystalm:m10007"
+      respawnChance: 100
+      maxLoad: "25"
+- id: r10006
+  title: "North shore of Crystalmir Lake"
+  description: >-
+    The blue of the autumn sky darkens on the deep stillness of the lake. The
+    soft forests of giant vallenwood border the serene waters on the eastern, 
+    southern and western shores. To the north a patchwork of fields stretches
+    toward the distant purple mountains.
+  exits:
+    - roomId: "crystalm:r10014"
+      direction: north
+    - roomId: "crystalm:r10005"
+      direction: south
+    - roomId: "crystalm:r10007"
+      direction: east
+    - roomId: "crystalm:r10009"
+      direction: west
+  npcs:
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r10007
+  title: "Path along lake"
+  description: >-
+    You are walking along a path that follows the shore of the lake.
+  exits:
+    - roomId: "crystalm:r10013"
+      direction: north
+    - roomId: "crystalm:r10004"
+      direction: south
+    - roomId: "crystalm:r10006"
+      direction: west
+- id: r10008
+  title: "West shore of Crystalmir Lake"
+  description: >-
+    The blue of the autumn sky darkens on the deep stillness of the lake. The
+    soft forests of giant vallenwood border the serene waters on the eastern, 
+    southern and western shores. To the north a patchwork of fields stretches
+    toward the distant purple mountains.
+  exits:
+    - roomId: "crystalm:r10009"
+      direction: north
+    - roomId: "crystalm:r10012"
+      direction: south
+    - roomId: "crystalm:r10005"
+      direction: east
+    - roomId: "crystalm:r10021"
+      direction: west
+- id: r10009
+  title: "Path along the Lake"
+  description: >-
+    You are walking on a path that follows the shore of the lake.
+  exits:
+    - roomId: "crystalm:r10015"
+      direction: north
+    - roomId: "crystalm:r10008"
+      direction: south
+    - roomId: "crystalm:r10006"
+      direction: east
+    - roomId: "crystalm:r10019"
+      direction: west
+- id: r10010
+  title: "South shore of Crystalmir Lake"
+  description: >-
+    The blue of the autumn sky darkens on the deep stillness of the lake. The
+    soft forests of giant vallenwood border the serene waters on the eastern, 
+    southern and western shores. To the north a patchwork of fields stretches
+    toward the distant purple mountains.
+  exits:
+    - roomId: "crystalm:r10005"
+      direction: north
+    - roomId: "crystalm:r10025"
+      direction: south
+    - roomId: "crystalm:r10011"
+      direction: east
+    - roomId: "crystalm:r10012"
+      direction: west
+  npcs:
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r10011
+  title: "Path along the lakeshore"
+  description: >-
+    You are walking along a path that follows the shore of Crystalmir Lake.
+  exits:
+    - roomId: "crystalm:r10004"
+      direction: north
+    - roomId: "crystalm:r10022"
+      direction: east
+    - roomId: "crystalm:r10010"
+      direction: west
+- id: r10012
+  title: "Path along the lakeshore"
+  description: >-
+    You are walking along a path that follows the shore of Crystalmir Lake.
+  exits:
+    - roomId: "crystalm:r10008"
+      direction: north
+    - roomId: "crystalm:r10010"
+      direction: east
+- id: r10013
+  title: "Nearfields"
+  description: >-
+    Here, farmers and thief workers tread through fields of grain. The thick
+    wheat falls smoothly before the flickering scythes.
+  exits:
+    - roomId: "crystalm:r10036"
+      direction: north
+    - roomId: "crystalm:r10007"
+      direction: south
+    - roomId: "crystalm:r10014"
+      direction: west
+  npcs:
+    - id: "crystalm:m10005"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "crystalm:m10006"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "crystalm:m10006"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "crystalm:m10006"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "crystalm:m10006"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "crystalm:m10006"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "crystalm:m10006"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "crystalm:m10006"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r10014
+  title: "Northfields"
+  description: >-
+    A sea of grain sweeps across the north flats. Stalks sag with ripened grain,
+    ready for harvest. But no one is around to harvest the grains or tend the crops.
+  exits:
+    - roomId: "crystalm:r10031"
+      direction: north
+    - roomId: "crystalm:r10006"
+      direction: south
+    - roomId: "crystalm:r10013"
+      direction: east
+    - roomId: "crystalm:r10015"
+      direction: west
+- id: r10015
+  title: "Twin Flat"
+  description: >-
+    A clear mountain valley sprawls about. To the northwest and southeast,
+    thick vallenwoods flash yellow and scarlet against the bright autumn sky.
+    To the east shimmers the cool blue of the Crystalmir Lake. Westward, the
+    valley enters a canyon rimmed by granite cliffs. The valley floor itself
+    continues to the northeast.
+    Some distance away, a group of huddled men pulls a large cart slowly
+    west down the Haven road. They sway rhythmically. Coarse, heavy robes
+    completely conceal their features.
+  exits:
+    - roomId: "crystalm:r10009"
+      direction: south
+    - roomId: "crystalm:r10014"
+      direction: east
+    - roomId: "crystalm:r10016"
+      direction: west
+  npcs:
+    - id: "crystalm:m10004"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r10016
+  title: "Jakanth Vale"
+  description: >-
+    Trails lead deeper into the woods, but even at its edge an unnatural
+    stillness has settled on the place. The woods seem much the same, but
+    there is a subtle difference, a heaviness in the air. Even the insects are
+    silent.
+  exits:
+    - roomId: "crystalm:r10017"
+      direction: north
+    - roomId: "crystalm:r10019"
+      direction: south
+    - roomId: "crystalm:r10015"
+      direction: east
+  npcs:
+    - id: "crystalm:m10012"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "crystalm:m10012"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "crystalm:m10012"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r10017
+  title: "Trail through forest"
+  description: >-
+    Heavily wrapped feet tread upon this trail a short time ago.
+    You smell smoke.
+  exits:
+    - roomId: "crystalm:r10016"
+      direction: south
+    - roomId: "crystalm:r10018"
+      direction: west
+- id: r10018
+  title: "Smoldering Campsite"
+  description: >-
+    The campsite smells like burned hair. Charred bones lie in the ashes of the
+    fire pit. The grass has been stamped down around the area.
+  exits:
+    - roomId: "tree:r10101"
+      direction: south
+    - roomId: "crystalm:r10017"
+      direction: east
+    - roomId: "sentinel:r12460"
+      direction: west
+  items:
+    - id: "crystalm:o10005"
+      respawnChance: 75
+- id: r10019
+  title: "Sentinal Gap"
+  description: >-
+    Walls of granite soar on either side of the narrow canyon floor. A chilly
+    breeze whistles and rumbles between the cliffs.
+  exits:
+    - roomId: "crystalm:r10016"
+      direction: north
+    - roomId: "crystalm:r10021"
+      direction: south
+    - roomId: "crystalm:r10009"
+      direction: east
+    - roomId: "crystalm:r10020"
+      direction: west
+- id: r10020
+  title: "Twin Peaks Vale"
+  description: >-
+    The twin peaks, Tasin and Fasin, stand to either side of the Shadow Canyon,
+    overlooking the north road to the city of Haven. In front of them, a lush
+    mountain valley echoes with the sweet sounds of the forest.
+  exits:
+    - roomId: "crystalm:r10019"
+      direction: east
+- id: r10021
+  title: "Prayers Eye Peak"
+  description: >-
+    The flaming colors of fall surround you, and autumn breeze ripples 
+    through your hair. To the southwest, the white-capped outline of Prayers
+    Eye Peak soars in the distance. Barely visible from here, a sharp crack
+    splits the peak as though it consisted of two hands pressed together.
+  exits:
+    - roomId: "crystalm:r10019"
+      direction: north
+    - roomId: "crystalm:r10028"
+      direction: south
+    - roomId: "crystalm:r10008"
+      direction: east
+- id: r10022
+  title: "Road through the forest"
+  description: >-
+    This is a well travelled dirt road.
+  exits:
+    - roomId: "crystalm:r10003"
+      direction: north
+    - roomId: "crystalm:r10023"
+      direction: south
+    - roomId: "crystalm:r10029"
+      direction: east
+    - roomId: "crystalm:r10011"
+      direction: west
+  npcs:
+    - id: "crystalm:m10011"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "crystalm:m10011"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "crystalm:m10011"
+      respawnChance: 100
+      maxLoad: "30"
+- id: r10023
+  title: "Stone bridge"
+  description: >-
+    The Solace Stream sparkles beneath an ancient stone brige. Water tumbles
+    out of the forest, over the rocks, and toward the Southpass that lies between
+    southern Sentinel Peaks. West of the bridge, the road splits in two, branching
+    to the south and the west. Both roads wind among the great vallenwoods,
+    whose boughs form a brilliant canopy over the roadway.
+  exits:
+    - roomId: "crystalm:r10022"
+      direction: north
+    - roomId: "crystalm:r10030"
+      direction: east
+    - roomId: "crystalm:r10024"
+      direction: west
+  npcs:
+    - id: "crystalm:m10011"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "crystalm:m10011"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "crystalm:m10011"
+      respawnChance: 100
+      maxLoad: "30"
+- id: r10024
+  title: "Road among the Vallenwoods."
+  description: >-
+    This dusty road winds among the vallenwoods. The breeze rustles the
+    leaves above your head, as if to speak to you. The Road continues
+    west into the mountains and south to Darkenwood.
+  exits:
+    - roomId: "crystalm:r10023"
+      direction: east
+    - roomId: "crystalm:r10025"
+      direction: west
+- id: r10025
+  title: "Mountain Trail"
+  description: >-
+    This rocky trail begins the ascent into the mountains. To the north
+    is Crystalmir Lake.
+  exits:
+    - roomId: "crystalm:r10010"
+      direction: north
+    - roomId: "crystalm:r10024"
+      direction: east
+    - roomId: "crystalm:r10026"
+      direction: west
+- id: r10026
+  title: "In the Mountains"
+  description: >-
+    You are walking on a rocky trail that winds through the mountains. From
+    here you can see the whole valley and Crystalmir Lake.
+  exits:
+    - roomId: "crystalm:r10025"
+      direction: east
+    - roomId: "crystalm:r10027"
+      direction: west
+  npcs:
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r10027
+  title: "In the Mountains"
+  description: >-
+    You are walking on a rocky trail that winds through the mountains. From
+    here you can see the whole valley and Crystalmir Lake.
+    From here it almost looks as if there is something at the bottom of the lake.
+  exits:
+    - roomId: "crystalm:r10028"
+      direction: north
+    - roomId: "crystalm:r10026"
+      direction: east
+    - roomId: "azurkeep:r9700"
+      direction: west
+  npcs:
+    - id: "crystalm:m10011"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "crystalm:m10011"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "crystalm:m10011"
+      respawnChance: 100
+      maxLoad: "30"
+- id: r10028
+  title: "In the Mountains"
+  description: >-
+    You are walking on a rocky trail that winds through the mountains. From
+    here you can see the whole valley and Crystalmir Lake.
+  exits:
+    - roomId: "crystalm:r10021"
+      direction: north
+    - roomId: "crystalm:r10027"
+      direction: south
+- id: r10029
+  title: "Among the Vallenwoods"
+  description: >-
+    You are walking among the peaceful vallenwoods. They sway in the
+    breeze in a dance of autumn.
+  exits:
+    - roomId: "crystalm:r10002"
+      direction: north
+    - roomId: "crystalm:r10030"
+      direction: south
+    - roomId: "crystalm:r10022"
+      direction: west
+  npcs:
+    - id: "crystalm:m10011"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "crystalm:m10011"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "crystalm:m10011"
+      respawnChance: 100
+      maxLoad: "30"
+- id: r10030
+  title: "Solace East Woods"
+  description: >-
+    The huge vallenwood trees tower above soft forest paths. Sunlight dapples
+    the floor of the woods, and sparrows and squirrels quarrel overhead. The
+    musty smell of fallen leaves rises through the fragrance of late wildflowers.
+  exits:
+    - roomId: "crystalm:r10029"
+      direction: north
+    - roomId: "crystalm:r10023"
+      direction: west
+  npcs:
+    - id: "crystalm:m10002"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10031
+  title: "Northfields"
+  description: >-
+    A sea of grain sweeps across the north flats. Stalks sag with ripened grain,
+    ready for harvest. But no one is around to harvest the grains or tend the crops.
+  exits:
+    - roomId: "crystalm:r10034"
+      direction: north
+    - roomId: "crystalm:r10014"
+      direction: south
+    - roomId: "crystalm:r10036"
+      direction: east
+    - roomId: "crystalm:r10032"
+      direction: west
+  npcs:
+    - id: "crystalm:m10014"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "crystalm:m10014"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "crystalm:m10014"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r10032
+  title: "Northfields"
+  description: >-
+    A sea of grain sweeps across the north flats. Stalks sag with ripened grain,
+    ready for harvest. But no one is around to harvest the grains or tend the crops.
+  exits:
+    - roomId: "crystalm:r10033"
+      direction: north
+    - roomId: "crystalm:r10038"
+      direction: south
+    - roomId: "crystalm:r10031"
+      direction: east
+    - roomId: "crystalm:r10038"
+      direction: west
+- id: r10033
+  title: "Northfields"
+  description: >-
+    A sea of grain sweeps across the north flats. Stalks sag with ripened grain,
+    ready for harvest. But no one is around to harvest the grains or tend the crops.
+  exits:
+    - roomId: "crystalm:r10037"
+      direction: south
+    - roomId: "crystalm:r10034"
+      direction: east
+    - roomId: "crystalm:r10032"
+      direction: west
+- id: r10034
+  title: "Northfields"
+  description: >-
+    A sea of grain sweeps across the north flats. Stalks sag with ripened grain,
+    ready for harvest. But no one is around to harvest the grains or tend the crops.
+  exits:
+    - roomId: "crystalm:r10031"
+      direction: north
+    - roomId: "crystalm:r10035"
+      direction: east
+    - roomId: "crystalm:r10033"
+      direction: west
+  npcs:
+    - id: "crystalm:m10015"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "crystalm:m10015"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "crystalm:m10015"
+      respawnChance: 100
+      maxLoad: "15"
+  items:
+    - id: "crystalm:o10012"
+      respawnChance: 75
+- id: r10035
+  title: "Northfields"
+  description: >-
+    A sea of grain sweeps across the north flats. Stalks sag with ripened grain,
+    ready for harvest. But no one is around to harvest the grains or tend the crops.
+  exits:
+    - roomId: "crystalm:r10034"
+      direction: south
+    - roomId: "crystalm:r10038"
+      direction: east
+    - roomId: "crystalm:r10036"
+      direction: west
+  npcs:
+    - id: "crystalm:m10014"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "crystalm:m10014"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "crystalm:m10014"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r10036
+  title: "Northfields"
+  description: >-
+    A sea of grain sweeps across the north flats. Stalks sag with ripened grain,
+    ready for harvest. But no one is around to harvest the grains or tend the crops.
+  exits:
+    - roomId: "crystalm:r10037"
+      direction: north
+    - roomId: "crystalm:r10031"
+      direction: south
+    - roomId: "crystalm:r10035"
+      direction: east
+    - roomId: "crystalm:r10013"
+      direction: west
+  items:
+    - id: "crystalm:o10012"
+      respawnChance: 75
+- id: r10037
+  title: "Northfields"
+  description: >-
+    A sea of grain sweeps across the north flats. Stalks sag with ripened grain,
+    ready for harvest. But no one is around to harvest the grains or tend the crops.
+  exits:
+    - roomId: "crystalm:r10039"
+      direction: north
+    - roomId: "crystalm:r10038"
+      direction: south
+    - roomId: "crystalm:r10036"
+      direction: east
+    - roomId: "crystalm:r10033"
+      direction: west
+  npcs:
+    - id: "crystalm:m10015"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "crystalm:m10015"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "crystalm:m10015"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r10038
+  title: "Northfields"
+  description: >-
+    A sea of grain sweeps across the north flats. Stalks sag with ripened grain,
+    ready for harvest. But no one is around to harvest the grains or tend the crops.
+  exits:
+    - roomId: "crystalm:r10035"
+      direction: north
+    - roomId: "crystalm:r10037"
+      direction: south
+    - roomId: "crystalm:r10032"
+      direction: east
+    - roomId: "crystalm:r10032"
+      direction: west
+  npcs:
+    - id: "crystalm:m10014"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "crystalm:m10014"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "crystalm:m10014"
+      respawnChance: 100
+      maxLoad: "15"
+  items:
+    - id: "crystalm:o10012"
+      respawnChance: 75
+- id: r10039
+  title: "A Farmer's House"
+  description: >-
+    A typical farmers house is here next to the endless fields of grain.
+  exits:
+    - roomId: "crystalm:r10037"
+      direction: north
+    - roomId: "crystalm:r10040"
+      direction: east
+  npcs:
+    - id: "crystalm:m10009"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "crystalm:m10009"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "crystalm:m10009"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "crystalm:m10009"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r10040
+  title: "Living Room"
+  description: >-
+    This is the living room of the farmer. you don't live here.
+    And you don't know the farmer. Why are you here?
+  exits:
+    - roomId: "crystalm:r10039"
+      direction: west
+    - roomId: "crystalm:r10041"
+      direction: up
+- id: r10041
+  title: "Top of Stairs"
+  description: >-
+    You are standing at the top of the stairs.
+    There is a picture of Grandma on the wall.
+  exits:
+    - roomId: "crystalm:r10042"
+      direction: north
+    - roomId: "crystalm:r10043"
+      direction: east
+    - roomId: "crystalm:r10040"
+      direction: down
+- id: r10042
+  title: "Bedroom"
+  description: >-
+    You are standing in the bedroom of the farmer.
+    There are family pictures hanging on the walls.
+    An antique bed sits in one corner of the room.
+  exits:
+    - roomId: "crystalm:r10041"
+      direction: south
+    - roomId: "crystalm:r10044"
+      direction: east
+  items:
+    - id: "crystalm:o10007"
+      respawnChance: 75
+- id: r10043
+  title: "Kids Room"
+  description: >-
+    You are standing in the kids bedroom.
+    There are posters plastered to every inch of wallspace.
+    An bunk bed sits against the wall.
+    You see a closet to the south.
+  exits:
+    - roomId: "crystalm:r10082"
+      direction: south
+    - roomId: "crystalm:r10041"
+      direction: west
+  npcs:
+    - id: "crystalm:m10013"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r10044
+  title: "In the closet"
+  description: >-
+    You are standing in the bedroom closet.
+    There are cedar blocks and
+    mothballs in here.
+    Uh oh....The door closed behind you.
+    You are locked in.
+  exits:
+    - roomId: "crystalm:r10042"
+      direction: west
+- id: r10048
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+  exits:
+    - roomId: "crystalm:r10055"
+      direction: north
+    - roomId: "crystalm:r10051"
+      direction: south
+    - roomId: "crystalm:r10049"
+      direction: east
+    - roomId: "crystalm:r10053"
+      direction: west
+    - roomId: "crystalm:r10005"
+      direction: up
+- id: r10049
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10056"
+      direction: north
+    - roomId: "crystalm:r10050"
+      direction: south
+    - roomId: "crystalm:r10058"
+      direction: east
+    - roomId: "crystalm:r10048"
+      direction: west
+  npcs:
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r10050
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10049"
+      direction: north
+    - roomId: "crystalm:r10061"
+      direction: south
+    - roomId: "crystalm:r10051"
+      direction: east
+    - roomId: "crystalm:r10059"
+      direction: west
+- id: r10051
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10048"
+      direction: north
+    - roomId: "crystalm:r10062"
+      direction: south
+    - roomId: "crystalm:r10050"
+      direction: east
+    - roomId: "crystalm:r10052"
+      direction: west
+  npcs:
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r10052
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10053"
+      direction: north
+    - roomId: "crystalm:r10063"
+      direction: south
+    - roomId: "crystalm:r10051"
+      direction: east
+    - roomId: "crystalm:r10065"
+      direction: west
+- id: r10053
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10048"
+      direction: north
+    - roomId: "crystalm:r10066"
+      direction: south
+    - roomId: "crystalm:r10054"
+      direction: east
+    - roomId: "crystalm:r10052"
+      direction: west
+  npcs:
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r10054
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10069"
+      direction: north
+    - roomId: "crystalm:r10053"
+      direction: south
+    - roomId: "crystalm:r10055"
+      direction: east
+    - roomId: "crystalm:r10067"
+      direction: west
+- id: r10055
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10070"
+      direction: north
+    - roomId: "crystalm:r10048"
+      direction: south
+    - roomId: "crystalm:r10056"
+      direction: east
+    - roomId: "crystalm:r10054"
+      direction: west
+  npcs:
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r10056
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10049"
+      direction: north
+    - roomId: "crystalm:r10071"
+      direction: south
+    - roomId: "crystalm:r10057"
+      direction: east
+    - roomId: "crystalm:r10055"
+      direction: west
+- id: r10057
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10072"
+      direction: north
+    - roomId: "crystalm:r10058"
+      direction: south
+    - roomId: "crystalm:r10067"
+      direction: east
+    - roomId: "crystalm:r10056"
+      direction: west
+  npcs:
+    - id: "crystalm:m10007"
+      respawnChance: 100
+      maxLoad: "25"
+- id: r10058
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10057"
+      direction: north
+    - roomId: "crystalm:r10059"
+      direction: south
+    - roomId: "crystalm:r10073"
+      direction: east
+    - roomId: "crystalm:r10049"
+      direction: west
+- id: r10059
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10058"
+      direction: north
+    - roomId: "crystalm:r10060"
+      direction: south
+    - roomId: "crystalm:r10050"
+      direction: west
+- id: r10060
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10059"
+      direction: north
+    - roomId: "crystalm:r10061"
+      direction: south
+    - roomId: "crystalm:r10072"
+      direction: east
+    - roomId: "crystalm:r10064"
+      direction: west
+- id: r10061
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10050"
+      direction: north
+    - roomId: "crystalm:r10071"
+      direction: south
+    - roomId: "crystalm:r10060"
+      direction: east
+    - roomId: "crystalm:r10062"
+      direction: west
+  npcs:
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r10062
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10051"
+      direction: north
+    - roomId: "crystalm:r10070"
+      direction: south
+    - roomId: "crystalm:r10061"
+      direction: east
+    - roomId: "crystalm:r10063"
+      direction: west
+- id: r10063
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10052"
+      direction: north
+    - roomId: "crystalm:r10069"
+      direction: south
+    - roomId: "crystalm:r10062"
+      direction: east
+    - roomId: "crystalm:r10064"
+      direction: west
+- id: r10064
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10065"
+      direction: north
+    - roomId: "crystalm:r10068"
+      direction: south
+    - roomId: "crystalm:r10063"
+      direction: east
+    - roomId: "crystalm:r10060"
+      direction: west
+  npcs:
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r10065
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10066"
+      direction: north
+    - roomId: "crystalm:r10064"
+      direction: south
+    - roomId: "crystalm:r10052"
+      direction: east
+    - roomId: "crystalm:r10074"
+      direction: west
+- id: r10066
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10067"
+      direction: north
+    - roomId: "crystalm:r10065"
+      direction: south
+    - roomId: "crystalm:r10053"
+      direction: east
+  npcs:
+    - id: "crystalm:m10007"
+      respawnChance: 100
+      maxLoad: "25"
+    - id: "crystalm:m10007"
+      respawnChance: 100
+      maxLoad: "25"
+- id: r10067
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10068"
+      direction: north
+    - roomId: "crystalm:r10066"
+      direction: south
+    - roomId: "crystalm:r10054"
+      direction: east
+    - roomId: "crystalm:r10057"
+      direction: west
+  npcs:
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r10068
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10064"
+      direction: north
+    - roomId: "crystalm:r10067"
+      direction: south
+    - roomId: "crystalm:r10069"
+      direction: east
+    - roomId: "crystalm:r10077"
+      direction: west
+- id: r10069
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10063"
+      direction: north
+    - roomId: "crystalm:r10054"
+      direction: south
+    - roomId: "crystalm:r10070"
+      direction: east
+    - roomId: "crystalm:r10068"
+      direction: west
+  npcs:
+    - id: "crystalm:m10007"
+      respawnChance: 100
+      maxLoad: "25"
+- id: r10070
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10062"
+      direction: north
+    - roomId: "crystalm:r10055"
+      direction: south
+    - roomId: "crystalm:r10071"
+      direction: east
+    - roomId: "crystalm:r10069"
+      direction: west
+- id: r10071
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10061"
+      direction: north
+    - roomId: "crystalm:r10056"
+      direction: south
+    - roomId: "crystalm:r10072"
+      direction: east
+    - roomId: "crystalm:r10070"
+      direction: west
+- id: r10072
+  title: "Underwater"
+  description: >-
+    It is very dim here. You can make out the faint surfaces of the lake floor
+    and other rocks. You hope you can hold your breath long enough.
+    It looks as if the surface of the lake is make of glass...
+    In fact you can't break the surface!...You need air SOON!
+  exits:
+    - roomId: "crystalm:r10060"
+      direction: north
+    - roomId: "crystalm:r10057"
+      direction: south
+    - roomId: "crystalm:r10071"
+      direction: west
+- id: r10073
+  title: "Underwater Cave"
+  description: >-
+    This is an underwater cave that seems to have trapped some air in it.
+    It seems as if the cave continued deeper, but it is blocked by a rock
+    slide.
+  exits:
+    - roomId: "crystalm:r10058"
+      direction: west
+  npcs:
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r10074
+  title: "Underwater Passageway"
+  description: >-
+    This passageway is almost completely filled with water. It seems to have
+    trapped some air. Some thing doesn't feel right. Maybe you should leave.
+  exits:
+    - roomId: "crystalm:r10065"
+      direction: east
+    - roomId: "crystalm:r10075"
+      direction: west
+- id: r10075
+  title: "Underwater Passageway"
+  description: >-
+    This passageway is almost completely filled with air. This is REALLY strange.
+    You wonder how this can be. Something is definetly wrong.
+    The air here is very humid and it seem to be getting warmer to the south.
+  exits:
+    - roomId: "crystalm:r10076"
+      direction: south
+    - roomId: "crystalm:r10074"
+      direction: east
+- id: r10076
+  title: "Cave of the Turtle Dragon"
+  description: >-
+    This Cave is enormous. It is mostly flooded with water. The air is very
+    humid and misty. Large piles of bones lay all over. The walls are covered
+    with scratches and claw marks.
+  exits:
+    - roomId: "crystalm:r10075"
+      direction: north
+  npcs:
+    - id: "crystalm:m10008"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "crystalm:m10008"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r10077
+  title: "Narrow Crack in the rock."
+  description: >-
+    This seems to a crack caused by some earthquake or other natural event.
+    The opening is large here, but seems to get smaller as it goes on.
+  exits:
+    - roomId: "crystalm:r10068"
+      direction: east
+    - roomId: "crystalm:r10078"
+      direction: west
+- id: r10078
+  title: "Small Tunnel"
+  description: >-
+    This is a small tunnel that seems to go deeper into the mountains.
+    It is completely filled with water.
+    Some light filters in through the muck to the east.
+  exits:
+    - roomId: "crystalm:r10080"
+      direction: north
+    - roomId: "crystalm:r10079"
+      direction: south
+    - roomId: "crystalm:r10077"
+      direction: east
+  npcs:
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+    - id: "crystalm:m10010"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r10079
+  title: "Dead end"
+  description: >-
+    The tunnel seems to dead end here.
+    There is nothing but mud and a small pocket of air.
+  exits:
+    - roomId: "crystalm:r10078"
+      direction: north
+  npcs:
+    - id: "crystalm:m10007"
+      respawnChance: 100
+      maxLoad: "25"
+    - id: "crystalm:m10007"
+      respawnChance: 100
+      maxLoad: "25"
+- id: r10080
+  title: "Nest Entrance"
+  description: >-
+    This seems to be the entrance to a nest of some kind.
+    The water here is very murky.
+  exits:
+    - roomId: "crystalm:r10081"
+      direction: north
+- id: r10081
+  title: "Barracuda Nest"
+  description: >-
+    You have disturbed a barracuda nest. They are none too pleased and
+    now plan to use you for their next feeding....
+  exits:
+    - roomId: "crystalm:r10080"
+      direction: south
+  npcs:
+    - id: "crystalm:m10007"
+      respawnChance: 100
+      maxLoad: "25"
+    - id: "crystalm:m10007"
+      respawnChance: 100
+      maxLoad: "25"
+- id: r10082
+  title: "Kids Closet."
+  description: >-
+    You are standing in the kids closet. There are piles of unwashed laundry
+    and toys. You see an evil looking book  lying against the south wall.
+  exits:
+    - roomId: "crystalm:r10043"
+      direction: north

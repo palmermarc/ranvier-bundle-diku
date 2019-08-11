@@ -1,0 +1,331 @@
+- id: r10101
+  title: "The Entrance to Yggdrasil"
+  description: >-
+    This is the entrance to Yggdrasil, the World Ash.  Through
+    this tree are conduits to many other planes of existence.
+  exits:
+    - roomId: "crystalm:r10018"
+      direction: north
+    - roomId: "tree:r10102"
+      direction: up
+    - roomId: "tree:r10108"
+      direction: down
+- id: r10102
+  title: "The Trunk of Yggdrasil "
+  description: >-
+    You are traveling in Yggdrasil, the World Ash.  Who knows
+    what other travelers you may encounter.
+  exits:
+    - roomId: "tree:r10103"
+      direction: up
+    - roomId: "tree:r10101"
+      direction: down
+  npcs:
+    - id: "tree:m10112"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r10103
+  title: "The Lower Trunk of Yggrasil"
+  description: >-
+    You are in the lower reaches of Yggdrasil.  The tree top 
+    cannot be seen.  Lesser astral travelers can be seen moving 
+    about.
+  exits:
+    - roomId: "tree:r10104"
+      direction: north
+    - roomId: "tree:r10112"
+      direction: south
+    - roomId: "tree:r10107"
+      direction: east
+    - roomId: "tree:r10106"
+      direction: west
+    - roomId: "tree:r10118"
+      direction: up
+    - roomId: "tree:r10102"
+      direction: down
+- id: r10104
+  title: "A Lower Branch of Yggdrasil"
+  description: >-
+    You are on a limb on the lower level of Yggdrasil.
+  exits:
+    - roomId: "tree:r10103"
+      direction: south
+  npcs:
+    - id: "tree:m10106"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "tree:m10106"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r10105
+  title: "The Crest of Yggdrasil"
+  description: >-
+    You are on the top of the World Ash.  You can see in the 
+    distance many realms and dimensions.  This is definitely a 
+    crossroads to the gods.
+  exits:
+    - roomId: "tree:r10119"
+      direction: down
+- id: r10106
+  title: "A Lower Branch of Yggdrasil"
+  description: >-
+    You are on a limb on the lower level of Yggdrasil.
+  exits:
+    - roomId: "tree:r10103"
+      direction: east
+- id: r10107
+  title: "A Lower Branch of Yggdrasil"
+  description: >-
+    You are on a limb on the lower level of Yggdrasil.
+  exits:
+    - roomId: "tree:r10103"
+      direction: west
+  npcs:
+    - id: "tree:m10105"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "tree:m10105"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r10108
+  title: "The Roots of Yggdrasil"
+  description: >-
+    You are under the ground among the roots of Yggdrasil.  You 
+    sense a greater preponderance of evil in this area.  Your 
+    fellow travelers also tend to be of the evil persuasion.
+  exits:
+    - roomId: "tree:r10124"
+      direction: north
+    - roomId: "tree:r10109"
+      direction: south
+    - roomId: "tree:r10110"
+      direction: east
+    - roomId: "tree:r10111"
+      direction: west
+    - roomId: "tree:r10101"
+      direction: up
+    - roomId: "tree:r10113"
+      direction: down
+  npcs:
+    - id: "tree:m10104"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "tree:m10104"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r10109
+  title: "The Roots of Yggdrasil"
+  description: >-
+    You are in the roots of the great tree.  Many odd creatures 
+    can be seen and felt wandering in the area.
+  exits:
+    - roomId: "tree:r10108"
+      direction: north
+  npcs:
+    - id: "tree:m10108"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10110
+  title: "The Roots of Yggdrasil"
+  description: >-
+    You are in the roots of the great tree.  Many odd creatures 
+    can be seen and felt wandering in the area.
+  exits:
+    - roomId: "tree:r10108"
+      direction: west
+- id: r10111
+  title: "The Roots of Yggdrasil"
+  description: >-
+    You are in the roots of the great tree.  Many odd creatures 
+    can be seen and felt wandering in the area.
+  exits:
+    - roomId: "tree:r10108"
+      direction: east
+  npcs:
+    - id: "tree:m10113"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "tree:m10113"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r10112
+  title: "A Lower Branch of Yggdrasil"
+  description: >-
+    You are on a limb on the lower level of Yggdrasil.
+  exits:
+    - roomId: "tree:r10103"
+      direction: north
+  npcs:
+    - id: "tree:m10109"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "tree:m10109"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r10113
+  title: "The Deepest Roots of Yggdrasil"
+  description: >-
+    You are at the tree's deepest point.  Looking down from here 
+    you can almost see the foul and evil realms of the followers 
+    of evil.  You can faintly hear the screams of their tortured 
+    victims.
+  exits:
+    - roomId: "vlord:r32004"
+      direction: north
+    - roomId: "tree:r10108"
+      direction: up
+  npcs:
+    - id: "tree:m10114"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r10114
+  title: "A Middle Branch of Yggdrasil"
+  description: >-
+    You are on a limb on the middle level of Yggdrasil.
+  exits:
+    - roomId: "tree:r10118"
+      direction: east
+  npcs:
+    - id: "tree:m10103"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r10115
+  title: "A Middle Branch of Yggdrasil"
+  description: >-
+    You are on a limb on the middle level of Yggdrasil.
+  exits:
+    - roomId: "tree:r10118"
+      direction: south
+  npcs:
+    - id: "tree:m10101"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "tree:m10101"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r10116
+  title: "A Middle Branch of Yggdrasil"
+  description: >-
+    You are on a limb on the middle level of Yggdrasil.
+  exits:
+    - roomId: "tree:r10118"
+      direction: west
+  npcs:
+    - id: "tree:m10110"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10117
+  title: "A Middle Branch of Yggdrasil"
+  description: >-
+    You are on a limb on the middle level of Yggdrasil.
+  exits:
+    - roomId: "tree:r10118"
+      direction: north
+  npcs:
+    - id: "tree:m10113"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "tree:m10113"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r10118
+  title: "The Middle Trunk of Yggrasil"
+  description: >-
+    You are in the middle parts of Yggdrasil.  The tree top 
+    still cannot be seen.  Many travelers are passing you in 
+    fulfillment of their quests.
+  exits:
+    - roomId: "tree:r10115"
+      direction: north
+    - roomId: "tree:r10117"
+      direction: south
+    - roomId: "tree:r10116"
+      direction: east
+    - roomId: "tree:r10114"
+      direction: west
+    - roomId: "tree:r10119"
+      direction: up
+    - roomId: "tree:r10103"
+      direction: down
+  npcs:
+    - id: "tree:m10112"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r10119
+  title: "The Upper Trunk of Yggrasil"
+  description: >-
+    You are in the topmost section of Yggdrasil.  The tree top 
+    is just above you.  Great power can be sensed in this area.  
+    There is also goodness here.
+  exits:
+    - roomId: "tree:r10122"
+      direction: north
+    - roomId: "tree:r10120"
+      direction: south
+    - roomId: "tree:r10123"
+      direction: east
+    - roomId: "tree:r10121"
+      direction: west
+    - roomId: "tree:r10105"
+      direction: up
+    - roomId: "tree:r10118"
+      direction: down
+  npcs:
+    - id: "tree:m10115"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10120
+  title: "An Upper Branch of Yggdrasil"
+  description: >-
+    You are on a limb on the upper level of Yggdrasil.
+  exits:
+    - roomId: "tree:r10119"
+      direction: north
+- id: r10121
+  title: "An Upper Branch of Yggdrasil"
+  description: >-
+    You are on a limb on the upper level of Yggdrasil.
+  exits:
+    - roomId: "tree:r10119"
+      direction: east
+  npcs:
+    - id: "tree:m10103"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r10122
+  title: "An Upper Branch of Yggdrasil"
+  description: >-
+    You are on a limb on the upper level of Yggdrasil.
+  exits:
+    - roomId: "tree:r10119"
+      direction: south
+  npcs:
+    - id: "tree:m10111"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10123
+  title: "An Upper Branch of Yggdrasil"
+  description: >-
+    You are on a limb on the upper level of Yggdrasil.
+  exits:
+    - roomId: "tree:r10119"
+      direction: west
+  npcs:
+    - id: "tree:m10102"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10124
+  title: "The Roots of Yggdrasil"
+  description: >-
+    You are in the roots of the great tree.  Many odd creatures 
+    can be seen and felt wandering in the area.
+  exits:
+    - roomId: "tree:r10108"
+      direction: south
+  npcs:
+    - id: "tree:m10107"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "tree:m10107"
+      respawnChance: 100
+      maxLoad: "4"

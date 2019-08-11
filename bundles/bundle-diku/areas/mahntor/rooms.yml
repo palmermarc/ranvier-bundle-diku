@@ -1,0 +1,1586 @@
+- id: r2300
+  title: "The dark woods"
+  description: >-
+    You are travelling through woods that are as dark as night. The trees above
+    block all light and wind. The air is stagnant and smells of death and decay.
+    The lack of sounds and other signs of life make your skin crawl and you feel
+    very much like turning back and heading for safer areas. The path leads north
+    into more open lands while it also leads south into the darkness of the forest.
+    A small sign is posted here.
+  exits:
+    - roomId: "thalos:r5280"
+      direction: north
+    - roomId: "mahntor:r2301"
+      direction: south
+- id: r2301
+  title: "The dark woods "
+  description: >-
+    You wearily travel through the darkness of the forest. Huge skeletal trees
+    line the edges of the path and tower above you. Errant rays of light spear
+    down through the gaps in the canopy above and provide small spots of light
+    that seem to attract what little foliage can grow on the dark forest floor.
+    The path winds north and south into darkness.
+  exits:
+    - roomId: "mahntor:r2300"
+      direction: north
+    - roomId: "mahntor:r2302"
+      direction: south
+- id: r2302
+  title: "The small intersection in the forest"
+  description: >-
+    The forest path splits here in three directions. Small paths lead to the east,
+    north, and south. The trees above leave a gap which allows light to fill the
+    intersection. It is almost as though you are in a circle of light that
+    provides sanctuary in this land of darkness.
+    Something has been scrawled in the dirt in blood here.
+  exits:
+    - roomId: "mahntor:r2301"
+      direction: north
+    - roomId: "mahntor:r2303"
+      direction: south
+    - roomId: "mahntor:r2304"
+      direction: east
+- id: r2303
+  title: "The edge of the forest and hills"
+  description: >-
+    You stand at the edge of a dark forest. A path leads north into the forest and
+    its deadly darkness and silence. Looking west, you see a path that leads up
+    into a foothills region. Standing here on the boundary between light and
+    darkness, you feel very vulnerable and alone.
+  exits:
+    - roomId: "mahntor:r2302"
+      direction: north
+    - roomId: "mahntor:r2309"
+      direction: west
+- id: r2304
+  title: "In the dense forest"
+  description: >-
+    You walk along a small path leading through a dark forest. No sounds can be
+    heard and little light penetrates the canopy of trees above you. The air here
+    smells musty and you long for a fresh breath. You see an intersection of paths
+    to the west. The path you are on leads south into the darkening woods.
+  exits:
+    - roomId: "mahntor:r2305"
+      direction: south
+    - roomId: "mahntor:r2302"
+      direction: west
+- id: r2305
+  title: "The dark forest path"
+  description: >-
+    You continue on through darkness and gloom. The path below you has become a
+    wet quagmire. It is difficult to walk, and you make squishing sounds as you
+    move on. Looking east, you see a swampy path. The main path leads north and
+    south into darkness.
+  exits:
+    - roomId: "mahntor:r2304"
+      direction: north
+    - roomId: "mahntor:r2306"
+      direction: south
+    - roomId: "mahntor:r2327"
+      direction: east
+- id: r2306
+  title: "A turn in the path"
+  description: >-
+    The forest path turns here towards the north and west. To the north, you see
+    that the ground has become dank and swampy, while the western path appears
+    to be entering a hilly area. You hear sounds of swamp creatures to the north
+    east.
+  exits:
+    - roomId: "mahntor:r2305"
+      direction: north
+    - roomId: "mahntor:r2307"
+      direction: west
+- id: r2307
+  title: "The bloody intersection"
+  description: >-
+    This is a small intersection. Paths lead east, west, and south. You are struck
+    by the carnage here when you enter the clearing. There appears to have been a
+    great battle here. Blood is everywhere and the ground is all torn up. Pieces
+    of beaten armour and broken blades lie all around. Examining the tracks here
+    lead you to believe that the dead and wounded were dragged off in two 
+    directions, south and east.
+  exits:
+    - roomId: "mahntor:r2310"
+      direction: south
+    - roomId: "mahntor:r2306"
+      direction: east
+    - roomId: "mahntor:r2308"
+      direction: west
+  npcs:
+    - id: "mahntor:m2300"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2308
+  title: "The rocky path"
+  description: >-
+    The path here winds among the low rocky hills. The long trek up and down the
+    hills begins to tire you greatly. Looking east, you see a small clearing. More
+    hills are to the north of here.
+  exits:
+    - roomId: "mahntor:r2309"
+      direction: north
+    - roomId: "mahntor:r2307"
+      direction: east
+- id: r2309
+  title: "The rocky path"
+  description: >-
+    The path here is very rocky and treacherous. The travelling is rough and you
+    slip and fall often. Looking south, you see that the path continues into the
+    hills. Smoother ground is to the east, but the path seems to lead into a dark
+    forest in that direction.
+  exits:
+    - roomId: "mahntor:r2308"
+      direction: south
+    - roomId: "mahntor:r2303"
+      direction: east
+- id: r2310
+  title: "Up the rocky hillside"
+  description: >-
+    You are climbing on a rocky hillside. As you scramble about, loose rocks and
+    small boulders bounce and fall down below you. Looking to the east and west,
+    you see more stable ground. The hillside itself goes on higher to the south
+    and it drops away to the north.
+  exits:
+    - roomId: "mahntor:r2307"
+      direction: north
+    - roomId: "mahntor:r2314"
+      direction: south
+    - roomId: "mahntor:r2312"
+      direction: east
+    - roomId: "mahntor:r2311"
+      direction: west
+- id: r2311
+  title: "The sparse foothills"
+  description: >-
+    You are in foothills that are sparsely covered by scraggly bushes and weather
+    beaten trees. There are little signs of life here. Only bare rock and dry dirt
+    can be seen. Looking east, you see a small pass that will allow you to leave
+    the foothills. The foothills themselves extend to the south.
+  exits:
+    - roomId: "mahntor:r2313"
+      direction: south
+    - roomId: "mahntor:r2310"
+      direction: east
+  npcs:
+    - id: "mahntor:m2303"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r2312
+  title: "Standing on level ground"
+  description: >-
+    You are standing at the edge of a steep set of foothills. Looking down, you
+    see what appears to be a marshy, dark forest. It reeks of death and decay.
+    Even here, you catch its scent on the winds. From here, you can travel south
+    deeper into the foothills or to the west where a small pass will allow you to
+    climb down.
+  exits:
+    - roomId: "mahntor:r2315"
+      direction: south
+    - roomId: "mahntor:r2310"
+      direction: west
+  npcs:
+    - id: "mahntor:m2303"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r2313
+  title: "In the foothills"
+  description: >-
+    You are in a barren set of foothills. Looking around, all you see are dead
+    plants and boulders. From the south, you get a whiff of salty air. Barren paths
+    lead east, north, and south into more barren hills.
+  exits:
+    - roomId: "mahntor:r2311"
+      direction: north
+    - roomId: "mahntor:r2317"
+      direction: south
+    - roomId: "mahntor:r2314"
+      direction: east
+  npcs:
+    - id: "mahntor:m2303"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r2314
+  title: "Before the huge tree"
+  description: >-
+    You enter a large ring of boulders. Sheltered by this wall of stones, a small
+    cluster of plants have sprung up. In the center of this group of trees and
+    bushes is a huge gnarled tree. It appears to have been twisted and torn by
+    the forces of nature. It sways and moans as a strong wind from the south tears
+    through its old feeble branches. The hills themselves lead in all directions.
+  exits:
+    - roomId: "mahntor:r2310"
+      direction: north
+    - roomId: "mahntor:r2318"
+      direction: south
+    - roomId: "mahntor:r2315"
+      direction: east
+    - roomId: "mahntor:r2313"
+      direction: west
+  npcs:
+    - id: "mahntor:m2301"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2315
+  title: "Before the dark cave"
+  description: >-
+    You stand directly before a huge dark cave. The rocks and boulders outside the
+    cave are covered with blood stains and all types of broken and shattered bones
+    lie around. An unbearable stench comes from within the cave itself. The dark
+    cave entrance looms to the east. The hills themselves lead towards the
+    north, south, and west.
+  exits:
+    - roomId: "mahntor:r2312"
+      direction: north
+    - roomId: "mahntor:r2319"
+      direction: south
+    - roomId: "mahntor:r2316"
+      direction: east
+    - roomId: "mahntor:r2314"
+      direction: west
+- id: r2316
+  title: "Inside the horrid cave"
+  description: >-
+    The stench is overwhelming. You can hardly breathe as you enter the cave.
+    Looking around, you realize that some bizarre and horrible creature uses this
+    cave as a home. Skeletal remains lie all over. Several half-eaten corpses are
+    rotting away slowly in the gloomy darkness. In the back of the cave, you see a
+    large pile of rotting cloth, fur, and plant matter. Light and safety is
+    towards the west.
+  exits:
+    - roomId: "mahntor:r2315"
+      direction: west
+  npcs:
+    - id: "mahntor:m2302"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2317
+  title: "The hills overlooking the shore"
+  description: >-
+    Standing at the edge of the foothills, you are able to look down upon a rocky
+    shoreline. It appears as though a vast ocean is to the south. Sea birds have
+    made their nests here in the rocks and you are heartened by the presence of
+    life here. It is possible to climb down to the shore here. The hills
+    themselves are to the north. The edge of the hills leads to the east along the
+    shoreline.
+  exits:
+    - roomId: "mahntor:r2313"
+      direction: north
+    - roomId: "mahntor:r2318"
+      direction: east
+    - roomId: "mahntor:r2320"
+      direction: down
+- id: r2318
+  title: "The hills overlooking the shoreline"
+  description: >-
+    You stand on a barren section of hills that overlook a rocky shoreline. The
+    stiff ocean wind has blown the rocks smooth here and you have to lean forward
+    a bit to keep your balance. The salty sea air fills your nostrils and you
+    notice signs of life in the rocky crags here. You can climb down towards the
+    shore or head north into the hills themselves. The rocky summit you are
+    standing leads east and west along the shoreline.
+  exits:
+    - roomId: "mahntor:r2314"
+      direction: north
+    - roomId: "mahntor:r2319"
+      direction: east
+    - roomId: "mahntor:r2317"
+      direction: west
+    - roomId: "mahntor:r2321"
+      direction: down
+- id: r2319
+  title: "The hills above the shoreline"
+  description: >-
+    You stand on a rocky summit overlooking a rough shoreline below. The sea wind
+    blows hard across the rocks here and they have been worn smooth with time.
+    Looking around, you notice that you can safely climb down towards the shore.
+    The hills themselves stretch towards the north. The rough summit you stand
+    upon leads west along the shoreline.
+  exits:
+    - roomId: "mahntor:r2315"
+      direction: north
+    - roomId: "mahntor:r2318"
+      direction: west
+    - roomId: "mahntor:r2322"
+      direction: down
+  npcs:
+    - id: "mahntor:m2303"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r2320
+  title: "The rocky shore"
+  description: >-
+    You are at the base of the rocky hills. Stretching to the south and east, you
+    see a rocky shore. To the southeast, you see a small altar of some sorts that
+    glows with an eerie blue light. It is possible to climb up into the hills here.
+  exits:
+    - roomId: "mahntor:r2323"
+      direction: south
+    - roomId: "mahntor:r2321"
+      direction: east
+    - roomId: "mahntor:r2317"
+      direction: up
+- id: r2321
+  title: "The rocky shoreline"
+  description: >-
+    You are on a rocky shore that borders a vast sea. A stiff wind blows here and
+    whistles among the rocks. You see an altar of some sort built on the shore to
+    the south. The shore itself leads east and west. Looking up, you see foothills
+    and rocky crags.
+  exits:
+    - roomId: "mahntor:r2324"
+      direction: south
+    - roomId: "mahntor:r2322"
+      direction: east
+    - roomId: "mahntor:r2320"
+      direction: west
+    - roomId: "mahntor:r2318"
+      direction: up
+- id: r2322
+  title: "The rocky shore"
+  description: >-
+    You stand at the base of some rocky hills, where they meet a rocky shore. A
+    vast sea is to your south. Looking to the southwest, you see a small altar
+    that glows with a eerie blue light. The shore stretches out to the south and
+    west. It is possible to climb up into the hills here.
+  exits:
+    - roomId: "mahntor:r2325"
+      direction: south
+    - roomId: "mahntor:r2321"
+      direction: west
+    - roomId: "mahntor:r2319"
+      direction: up
+- id: r2323
+  title: "The edge of the sea"
+  description: >-
+    You walk along the water's edge. The vastness of the ocean is staggering as
+    you look out across it. You notice a small altar that glows with blue light
+    to the east. The shore itself extends north away from the water's edge.
+  exits:
+    - roomId: "mahntor:r2320"
+      direction: north
+    - roomId: "mahntor:r2324"
+      direction: east
+- id: r2324
+  title: "The Blood Sea Portal"
+  description: >-
+    You stand on a small pedestal like altar that has been built on the shore here.
+    Standing here, you can look out across the sea. You can almost imagine that
+    you see a far away island. Dominating the altar is a small blue portal of
+    light. It is possible to walk south into the portal. The shore itself extends
+    to the north, east, and west.
+    There are small inscriptions on the rock at the base of the portal.
+  exits:
+    - roomId: "mahntor:r2321"
+      direction: north
+    - roomId: "mahntor:r2326"
+      direction: south
+    - roomId: "mahntor:r2325"
+      direction: east
+    - roomId: "mahntor:r2323"
+      direction: west
+- id: r2325
+  title: "The edge of the sea"
+  description: >-
+    You walk along the water's edge. The tide appears to have risen. Very little
+    debris is washed up on shore. You slip and slide as you tread across the
+    slippery rocks that make up the shore. To the west you see a small altar that
+    radiates blue light. The shore extends north away from the water's edge.
+  exits:
+    - roomId: "mahntor:r2322"
+      direction: north
+    - roomId: "mahntor:r2324"
+      direction: west
+- id: r2326
+  title: "Floating in blue light"
+  description: >-
+    You seem to be floating in blue weightlessness. You tumble head over heels and
+    finally right yourself. Gaining your bearings, you notice that there are two
+    "windows" in the sea of blue here. One to the south shows an image of a snowy
+    plain. Another window the the north shows an image of a rocky shore.
+  exits:
+    - roomId: "mahntor:r2324"
+      direction: north
+    - roomId: "mahntor:r2353"
+      direction: south
+- id: r2327
+  title: "The swampy path"
+  description: >-
+    This damp path seems to lead into a deep, dark swamp. The trees above block
+    out all light and stifle the wind. You smell swamp gas and hear damp squashing
+    sounds all around you. The path leads east deeper into the swamp. You also see
+    a dark forest to the west.
+  exits:
+    - roomId: "mahntor:r2328"
+      direction: east
+    - roomId: "mahntor:r2305"
+      direction: west
+- id: r2328
+  title: "The swampy path"
+  description: >-
+    You tread lightly in a wet, swampy path. All around you, you see pools of
+    quicksand and rotting vegetation. Unlike the forest to the west, the swamp is
+    teeming with life. Some of it is harmless, some is not. The path leads east
+    and west into more swamp.
+  exits:
+    - roomId: "mahntor:r2329"
+      direction: east
+    - roomId: "mahntor:r2327"
+      direction: west
+- id: r2329
+  title: "The swampy path"
+  description: >-
+    You weave your way through the treacherous swamp. Gas rises all around you and
+    a damp mist covers the ground, making it impossible to travel safely, without
+    carefully picking your way around obstacles. Large, gnarled trees rise above
+    you. Their moss covered branches block out all traces of the sun. The path
+    here leads east and west.
+  exits:
+    - roomId: "mahntor:r2330"
+      direction: east
+    - roomId: "mahntor:r2328"
+      direction: west
+- id: r2330
+  title: "The turn in the swampy path"
+  description: >-
+    You come upon a bend in the swampy path. The ground here is fairly sturdy,
+    as this place is elevated above the rest of the swamp. Looking around, you see
+    a dark, mist filled swamp. Small paths lead south and west into the mist.
+  exits:
+    - roomId: "mahntor:r2331"
+      direction: south
+    - roomId: "mahntor:r2329"
+      direction: west
+  npcs:
+    - id: "mahntor:m2304"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2331
+  title: "The swampy path"
+  description: >-
+    You tread lightly through the mirky water and sludge that makes up the path
+    you follow. To the east, there is a thick wall of mist. You can see nothing
+    within it. Harder ground rises to the north.
+  exits:
+    - roomId: "mahntor:r2330"
+      direction: north
+    - roomId: "mahntor:r2335"
+      direction: east
+- id: r2332
+  title: "Lost in the Mist"
+  description: >-
+    You wander, hopelessly lost. Swirling mist obscures your vision and clouds
+    your mind. You lose all concept of direction. Small, silent giggles can be
+    heard all around. You can wander in any direction.
+  exits:
+    - roomId: "mahntor:r2335"
+      direction: north
+    - roomId: "mahntor:r2334"
+      direction: south
+    - roomId: "mahntor:r2337"
+      direction: east
+    - roomId: "mahntor:r2334"
+      direction: west
+  npcs:
+    - id: "mahntor:m2305"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2333
+  title: "Lost in the Mist"
+  description: >-
+    You are in a thick misty area. The mist swirls around you, seeming to taunt
+    you and dare you to escape. You feel a slight electric charge in the mist. It
+    almost caresses your body as it floats about you. You can wander in any
+    direction.......
+  exits:
+    - roomId: "mahntor:r2336"
+      direction: north
+    - roomId: "mahntor:r2335"
+      direction: south
+    - roomId: "mahntor:r2333"
+      direction: east
+    - roomId: "mahntor:r2333"
+      direction: west
+  npcs:
+    - id: "mahntor:m2305"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2334
+  title: "Lost in the Mist"
+  description: >-
+    You try to peer through the mist......You see nothing. It swirls about you,
+    covering you in a damp sheen. There is no sound, all light is eagerly devoured
+    by the mist. You feel totally and hopelessly lost.
+  exits:
+    - roomId: "mahntor:r2338"
+      direction: north
+    - roomId: "mahntor:r2332"
+      direction: south
+    - roomId: "mahntor:r2332"
+      direction: east
+    - roomId: "mahntor:r2336"
+      direction: west
+- id: r2335
+  title: "Lost in the Mist"
+  description: >-
+    You stumble through the marsh here. The swamp seems to have swallowed you up
+    and denied you exit. This mist is your jailor. You cannot tell where you are.
+    You hear quiet laughter all about you.
+  exits:
+    - roomId: "mahntor:r2331"
+      direction: north
+    - roomId: "mahntor:r2333"
+      direction: south
+    - roomId: "mahntor:r2332"
+      direction: east
+    - roomId: "mahntor:r2337"
+      direction: west
+- id: r2336
+  title: "Lost in the Mist"
+  description: >-
+    You wander, lost, for what seems an eternity. Then....From nowhere....You see
+    what appears to be trees and hills to the east. The mist itself thickens to
+    the west, while it grows thin to the east.
+  exits:
+    - roomId: "mahntor:r2338"
+      direction: north
+    - roomId: "mahntor:r2339"
+      direction: south
+    - roomId: "mahntor:r2333"
+      direction: east
+    - roomId: "mahntor:r2334"
+      direction: west
+  npcs:
+    - id: "mahntor:m2306"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2337
+  title: "Lost in the Mist"
+  description: >-
+    You wander through the thick mist. It swirls all about you and makes it hard
+    to breathe. The ground below you makes a soft squishing sound as you trudge
+    on, but this noise is absorbed by the mist and does not travel. You can wander
+    in any direction.
+  exits:
+    - roomId: "mahntor:r2338"
+      direction: north
+    - roomId: "mahntor:r2332"
+      direction: south
+    - roomId: "mahntor:r2338"
+      direction: east
+    - roomId: "mahntor:r2335"
+      direction: west
+  npcs:
+    - id: "mahntor:m2305"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2338
+  title: "Lost in the Mist"
+  description: >-
+    You wander, lost hopelessly. The mist swirls all about you. You can discern no
+    direction. You stumble blindly through the mist, oblivious to your
+    surroundings.
+  exits:
+    - roomId: "mahntor:r2336"
+      direction: north
+    - roomId: "mahntor:r2334"
+      direction: south
+    - roomId: "mahntor:r2337"
+      direction: east
+    - roomId: "mahntor:r2337"
+      direction: west
+- id: r2339
+  title: "The solid path"
+  description: >-
+    A solid path rises out of the misty swamp. It leads north, into what appears
+    to be a forested area. The trees, above, allow light and air to penetrate and
+    you can see the sky above. A thick bank of mist is to your west.
+  exits:
+    - roomId: "mahntor:r2340"
+      direction: north
+    - roomId: "mahntor:r2336"
+      direction: west
+- id: r2340
+  title: "A forested path"
+  description: >-
+    The path here leads north through a thick forest. High bushes and forest
+    undergrowth line both sides of the trail. Looking north, you see a thin line
+    of smoke rising up above the tree line. You also notice a crude wooden gate
+    farther north on the trail. The trail itself leads south into murky territory.
+  exits:
+    - roomId: "mahntor:r2341"
+      direction: north
+    - roomId: "mahntor:r2339"
+      direction: south
+- id: r2341
+  title: "The gate before the Ogre Village"
+  description: >-
+    You stand before a huge pair of crude, wooden gates. They are thrown open.
+    Looking inside the gates, you see a crude village. Large humanoid creatures
+    are milling to and fro.......Ogres! You can head north through the gate or
+    south into the forest.
+  exits:
+    - roomId: "mahntor:r2343"
+      direction: north
+    - roomId: "mahntor:r2340"
+      direction: south
+  npcs:
+    - id: "mahntor:m2309"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "mahntor:m2309"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r2342
+  title: "Among the crude huts"
+  description: >-
+    You walk among the huts of the ogre village. The village appears to be cut
+    from the heart of the forest itself. The swamp, nearby, provides the ogres
+    with a prime hunting ground. Small paths lead north and east.
+  exits:
+    - roomId: "mahntor:r2345"
+      direction: north
+    - roomId: "mahntor:r2343"
+      direction: east
+  npcs:
+    - id: "mahntor:m2308"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "mahntor:m2309"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r2343
+  title: "Inside the gates"
+  description: >-
+    You stand just north of the gates to the village. Looking around, you see many
+    crude huts and cooking fires. To the north, you see a huge fire pit. Behind 
+    it, there appears to be a hut of sorts. Small paths lead east and west among 
+    the crude huts. The gates to the south provide an exit from the village.
+  exits:
+    - roomId: "mahntor:r2346"
+      direction: north
+    - roomId: "mahntor:r2341"
+      direction: south
+    - roomId: "mahntor:r2344"
+      direction: east
+    - roomId: "mahntor:r2342"
+      direction: west
+  npcs:
+    - id: "mahntor:m2307"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2344
+  title: "Among the crude huts"
+  description: >-
+    You walk through the crude village. Small huts made of wood and thatch
+    surround you. Every so often, you can hear grunts and snarls inside the huts.
+    The smell here is unbearable. You wonder what type of creature could possibly
+    live in such squalor. Small paths lead west and north here.
+  exits:
+    - roomId: "mahntor:r2347"
+      direction: north
+    - roomId: "mahntor:r2343"
+      direction: west
+  npcs:
+    - id: "mahntor:m2307"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2345
+  title: "The gathering place"
+  description: >-
+    This appears to be the clearing the ogres use to assemble. It is quite large
+    and has a raised mound in the center that contains a crude throne. The ground
+    in front of the throne is quite worn, as if it is sat on quite often. You get
+    the impression that this place is a crude sort of auditorium. Small paths lead
+    east and south.
+  exits:
+    - roomId: "mahntor:r2342"
+      direction: south
+    - roomId: "mahntor:r2346"
+      direction: east
+  npcs:
+    - id: "mahntor:m2307"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2346
+  title: "The firepit before the lodge"
+  description: >-
+    You stand at the edge of a huge firepit. The heat from the burning embers
+    makes you sweat as you stand here. Large spits above the pit are empty but
+    they appear to be quite large enough to hold hapless adventurers. A large
+    lodge is towards the north, while paths lead east, west, and south into the
+    village itself.
+  exits:
+    - roomId: "mahntor:r2348"
+      direction: north
+    - roomId: "mahntor:r2343"
+      direction: south
+    - roomId: "mahntor:r2347"
+      direction: east
+    - roomId: "mahntor:r2345"
+      direction: west
+  npcs:
+    - id: "mahntor:m2307"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "mahntor:m2308"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r2347
+  title: "The village dump"
+  description: >-
+    The smell here overpowers you. All around you are the rotting remains of the
+    village's refuse. Partially eaten corpses, rotting food, and other truly
+    disgusting things have been discarded here. Paths lead south and west towards
+    fresher air.
+  exits:
+    - roomId: "mahntor:r2344"
+      direction: south
+    - roomId: "mahntor:r2346"
+      direction: west
+  npcs:
+    - id: "mahntor:m2308"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r2348
+  title: "The entryway to the lodge"
+  description: >-
+    You are at the entry hall to a large lodge. Animal pelts and other trophies
+    line the walls here. Large chests on either side of the door appear to be
+    locked. The lodge stretches north, while the doors to the south provide an
+    exit into the village.
+  exits:
+    - roomId: "mahntor:r2349"
+      direction: north
+    - roomId: "mahntor:r2346"
+      direction: south
+  npcs:
+    - id: "mahntor:m2307"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "mahntor:m2308"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "mahntor:m2309"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r2349
+  title: "The throne room"
+  description: >-
+    You stand in a large, crudely decorated throne room. A huge throne adorned
+    with humanoid skulls sits against the west wall. A crude, blood stained altar
+    is against the east wall. A doorway is directly to the north, long strands of
+    beads blocking the view of the other side. Crude torches light the hall and 
+    smoke clings to the ceiling.
+  exits:
+    - roomId: "mahntor:r2350"
+      direction: north
+    - roomId: "mahntor:r2348"
+      direction: south
+  npcs:
+    - id: "mahntor:m2310"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2350
+  title: "The chieftain's room"
+  description: >-
+    This appears to be the ogre chieftain's private quarters. A huge pile of furs
+    is in the far corner. Large chests fill the room. All of them have heavy pad
+    locks. The room is filled with trophies of dead enemies. It is quite lavishly
+    decorated for such a crude inhabitant as an ogre. A beaded doorway is to the
+    south.
+  exits:
+    - roomId: "mahntor:r2349"
+      direction: south
+  npcs:
+    - id: "mahntor:m2311"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2351
+  title: "The frigid wastelands"
+  description: >-
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make impossible for you to
+    discern any directions.
+  exits:
+    - roomId: "mahntor:r2355"
+      direction: north
+    - roomId: "mahntor:r2352"
+      direction: south
+    - roomId: "mahntor:r2354"
+      direction: east
+    - roomId: "mahntor:r2353"
+      direction: west
+  npcs:
+    - id: "mahntor:m2312"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2352
+  title: "The frigid wastelands"
+  description: >-
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bine. Swirling snow and wind make it impossible to
+    discern any directions.
+  exits:
+    - roomId: "mahntor:r2358"
+      direction: north
+    - roomId: "mahntor:r2357"
+      direction: south
+    - roomId: "mahntor:r2354"
+      direction: east
+    - roomId: "mahntor:r2351"
+      direction: west
+  npcs:
+    - id: "mahntor:m2314"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2353
+  title: "The Glacier Temple"
+  description: >-
+    You are in a small temple. It appears to be built entirely from ice. The ice
+    walls are frosted and are opaque. There is a small blue portal here. You can
+    go north, to enter the portal. Looking south, you see a world of white outside
+    the open doorway. Swirling snow and bright light obscure your view.
+  exits:
+    - roomId: "mahntor:r2326"
+      direction: north
+    - roomId: "mahntor:r2351"
+      direction: south
+- id: r2354
+  title: "The frigid wastelands"
+  description: >-
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make it impossible for you
+    to discern any directions.
+  exits:
+    - roomId: "mahntor:r2356"
+      direction: north
+    - roomId: "mahntor:r2359"
+      direction: south
+    - roomId: "mahntor:r2352"
+      direction: east
+    - roomId: "mahntor:r2351"
+      direction: west
+  npcs:
+    - id: "mahntor:m2312"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "mahntor:m2314"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2355
+  title: "The frigid wastelands"
+  description: >-
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make it impossible for you
+    to discern any directions.
+  exits:
+    - roomId: "mahntor:r2356"
+      direction: north
+    - roomId: "mahntor:r2356"
+      direction: south
+    - roomId: "mahntor:r2357"
+      direction: east
+    - roomId: "mahntor:r2351"
+      direction: west
+  npcs:
+    - id: "mahntor:m2313"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2356
+  title: "The frigid wastelands"
+  description: >-
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make it impossible for you
+    to discern any directions.
+  exits:
+    - roomId: "mahntor:r2354"
+      direction: north
+    - roomId: "mahntor:r2355"
+      direction: south
+    - roomId: "mahntor:r2359"
+      direction: east
+    - roomId: "mahntor:r2355"
+      direction: west
+  npcs:
+    - id: "mahntor:m2314"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2357
+  title: "The frigid wastelands"
+  description: >-
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make it impossible for you
+    to discern any directions.
+  exits:
+    - roomId: "mahntor:r2359"
+      direction: north
+    - roomId: "mahntor:r2352"
+      direction: south
+    - roomId: "mahntor:r2358"
+      direction: east
+    - roomId: "mahntor:r2355"
+      direction: west
+  npcs:
+    - id: "mahntor:m2313"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2358
+  title: "The frigid wastelands"
+  description: >-
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make it impossible for you
+    to discern any direction.
+  exits:
+    - roomId: "mahntor:r2360"
+      direction: north
+    - roomId: "mahntor:r2359"
+      direction: south
+    - roomId: "mahntor:r2352"
+      direction: east
+    - roomId: "mahntor:r2357"
+      direction: west
+- id: r2359
+  title: "The frigid wastelands"
+  description: >-
+    You wander through the frigid wastelands. Your breath is a cloud before you.
+    The cold cuts to the bone. Swirling snow and wind make it impossible for you
+    to discern any directions.
+  exits:
+    - roomId: "mahntor:r2357"
+      direction: north
+    - roomId: "mahntor:r2356"
+      direction: south
+    - roomId: "mahntor:r2354"
+      direction: east
+    - roomId: "mahntor:r2358"
+      direction: west
+  npcs:
+    - id: "mahntor:m2312"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "mahntor:m2313"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2360
+  title: "The edge of the frigid wastes"
+  description: >-
+    You stand at the base of a steep rocky cliff. To the north, a vast arctic
+    wasteland stretches out. The snow falls lightly here and the wind is not
+    very fierce. You can climb up the rocky cliff or head north into the arctic
+    wastes.
+  exits:
+    - roomId: "mahntor:r2358"
+      direction: north
+    - roomId: "mahntor:r2361"
+      direction: up
+- id: r2361
+  title: "On the cliffside"
+  description: >-
+    You cling to the side of the cliff. Looking down, you are terrified by the
+    sheer distance to the ground below. You can climb up higher into the cliffs,
+    but the area above is obscured by clouds and you cannot tell what lies waiting
+    above.
+  exits:
+    - roomId: "mahntor:r2362"
+      direction: up
+    - roomId: "mahntor:r2360"
+      direction: down
+- id: r2362
+  title: "Before the gates of Mahn-Tor"
+  description: >-
+    You stand at the edge of a high cliff. Directly south, set back off the
+    cliff's edge, you see a huge pair of gates. These gates appear to be carved
+    almost completely out of ice. A huge city and keep appear to be on the other
+    side of these gates. There is also a possibility of climbing down the cliff 
+    face.
+  exits:
+    - roomId: "mahntor:r2364"
+      direction: south
+    - roomId: "mahntor:r2361"
+      direction: down
+  npcs:
+    - id: "mahntor:m2316"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2363
+  title: "The city streets of Mahn-Tor"
+  description: >-
+    You walk among the ice and snow covered shops and homes. Most of the doors are
+    closed and only the light from the windows betrays the presence of inhabitants.
+    A cold wind blows through here, scattering fine clouds of snow all about. Small
+    streets lead south and east.
+  exits:
+    - roomId: "mahntor:r2366"
+      direction: south
+    - roomId: "mahntor:r2364"
+      direction: east
+  npcs:
+    - id: "mahntor:m2315"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2364
+  title: "Inside the gates of Mahn-Tor"
+  description: >-
+    You stand just inside the gates to the city of Mahn-Tor. The city itself
+    spreads out in front of you. The buildings are sturdy, as they appear to be
+    made from the very rock of this mountain. Snow falls all around and a fine
+    sheet of ice can be seen covering all but the most used walk ways. Small city
+    streets lead east and west, while a main road appears to lead south.
+  exits:
+    - roomId: "mahntor:r2362"
+      direction: north
+    - roomId: "mahntor:r2367"
+      direction: south
+    - roomId: "mahntor:r2365"
+      direction: east
+    - roomId: "mahntor:r2363"
+      direction: west
+  npcs:
+    - id: "mahntor:m2315"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2365
+  title: "The city streets of Mahn-Tor"
+  description: >-
+    You trudge among the icy streets of Mahn-Tor. The streets themselves are made
+    of cobblestone and are quite treacherous. Small homes and businesses along
+    the street are closed tight and light from their windows throws eerie shadows
+    across the dark street. Small streets lead west and south here.
+  exits:
+    - roomId: "mahntor:r2368"
+      direction: south
+    - roomId: "mahntor:r2364"
+      direction: west
+  npcs:
+    - id: "mahntor:m2315"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2366
+  title: "The city streets of Mahn-Tor"
+  description: >-
+    You trudge through the snow covered streets. The street itself is made of
+    cobblestones and the footing is quite treacherous. To the south, you see what
+    appears to be a small tavern. Bright lights shine through the windows. Small
+    streets also lead north and east.
+    A small sign hangs outside the tavern.
+  exits:
+    - roomId: "mahntor:r2363"
+      direction: north
+    - roomId: "mahntor:r2369"
+      direction: south
+    - roomId: "mahntor:r2367"
+      direction: east
+  npcs:
+    - id: "mahntor:m2316"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2367
+  title: "The Square of Mahn-Tor"
+  description: >-
+    This appears to be the main square of Mahn-Tor. A huge fountain graces the
+    center of the square, but the extreme cold has turned it into an ice
+    sculpture. The water has frozen in arcs through the air. Snow and ice covers
+    the square and small streets lead east and west. To the north, you see
+    the gates to the city. You also notice a small store to the south.
+    A small sign hangs outside the store.
+  exits:
+    - roomId: "mahntor:r2364"
+      direction: north
+    - roomId: "mahntor:r2370"
+      direction: south
+    - roomId: "mahntor:r2368"
+      direction: east
+    - roomId: "mahntor:r2366"
+      direction: west
+  npcs:
+    - id: "mahntor:m2315"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "mahntor:m2317"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2368
+  title: "The streets of Mahn-Tor"
+  description: >-
+    You walk among the small stores and homes of Mahn-Tor. The cobblestone streets
+    are covered with ice and snow. Small snow drifts have formed at the edges of
+    the streets. The wind blows fiercely. Small streets lead in all directions.
+    There appears to be a large building to the east, but the snow obscures your
+    view.
+  exits:
+    - roomId: "mahntor:r2365"
+      direction: north
+    - roomId: "mahntor:r2371"
+      direction: south
+    - roomId: "mahntor:r2375"
+      direction: east
+    - roomId: "mahntor:r2367"
+      direction: west
+  npcs:
+    - id: "mahntor:m2316"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2369
+  title: "The Inn of the Broken Horn"
+  description: >-
+    You enter a warm tavern. The room is lit mainly by two huge fireplaces at each
+    end of the room. Small tables and a large bar furnish the room. The
+    inhabitants of the inn are all minotaurs of varying size and disposition. Most
+    seem to regard you with suspicion. Few approach you. A large door leads
+    north, out of the bar and back out into the cold.
+  exits:
+    - roomId: "mahntor:r2366"
+      direction: north
+- id: r2370
+  title: "The Mahn-Tor Equipment Shop"
+  description: >-
+    You are in a crude equipment shop. The store is filled with racks of various
+    items that adventurers could use. Large fireplaces light and heat the room.
+    A large desk occupies the back of the room. The door to the shop lies to the
+    north.
+  exits:
+    - roomId: "mahntor:r2367"
+      direction: north
+  npcs:
+    - id: "mahntor:m2315"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2371
+  title: "The Mahn-Tor General Store"
+  description: >-
+    You enter a small store that is dark and cold. Old empty shelves line the
+    walls and snow blows across the dirty stone floor. It is evident that this
+    store was once used, but it is no more. A small doorway leads north out into
+    the chilling snow and wind.
+  exits:
+    - roomId: "mahntor:r2368"
+      direction: north
+- id: r2372
+  title: "Gorak's Training Room"
+  description: >-
+    This room is full of all sorts of weapons and armours. Pieces of old targets
+    and practice dummies lie all around. The walls are chipped and scored from
+    weapon blows. This is obviously the room of an avid warrior. A red door leads
+    east.
+  exits:
+    - roomId: "mahntor:r2388"
+      direction: east
+  npcs:
+    - id: "mahntor:m2325"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2373
+  title: "Darkoth's Dark Study"
+  description: >-
+    This room is dark. It reeks of death and evil. Arcane symbols and a small
+    altar fill the room. Blood runs from the altar. It is evident that this room
+    is used for unholy purposes. A black door leads west.
+  exits:
+    - roomId: "mahntor:r2389"
+      direction: east
+  npcs:
+    - id: "mahntor:m2326"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2374
+  title: "Tyrgoth's Inner Sanctum"
+  description: >-
+    Idols to the gods of good fill the room. White furniture and decorations give
+    the room a holy appearance. It is evident that some being of supreme goodness
+    lives here. A white door leads east.
+  exits:
+    - roomId: "mahntor:r2392"
+      direction: east
+  npcs:
+    - id: "mahntor:m2327"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2375
+  title: "The road to the Keep of Mahn-Tor"
+  description: >-
+    You walk up a steep rocky road. It leads up a steep grade to the east. At the
+    end of this steep road, you see a huge keep. Snow swirls all about you and you
+    feel your breath freeze as it leaves your lungs. Blurry lights to the east and
+    west are all you can see from here.
+  exits:
+    - roomId: "mahntor:r2377"
+      direction: east
+    - roomId: "mahntor:r2368"
+      direction: west
+- id: r2376
+  title: "A small guard house"
+  description: >-
+    You enter a small guard house. A huge fireplace lights and warms the room.
+    Looking around, you see that the room is fairly well furnished. Thick rugs
+    and curtains help insulate the room and the beds themselves look quite warm.
+    A table in the center of the room has the remnants of a card game strewn
+    across it. A small door leads south.
+  exits:
+    - roomId: "mahntor:r2377"
+      direction: south
+  npcs:
+    - id: "mahntor:m2317"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2377
+  title: "Before the Keep of Mahn-Tor"
+  description: >-
+    You stand before a huge keep that has been carved into the side of the
+    mountain. Huge wooden gates before you provide entrance to the keep. It
+    appears as though the cold here has convinced the guards to seek warmth
+    inside. You see the lights of the city to the west. You also notice small
+    guard houses to the north and south.
+  exits:
+    - roomId: "mahntor:r2376"
+      direction: north
+    - roomId: "mahntor:r2378"
+      direction: south
+    - roomId: "mahntor:r2379"
+      direction: east
+    - roomId: "mahntor:r2375"
+      direction: west
+  npcs:
+    - id: "mahntor:m2318"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2378
+  title: "A small guard house"
+  description: >-
+    You enter a small, but warm, guard house. Deep rugs and thick curtains
+    insulate the room. A huge fireplace lights and warms the room. Outside, you
+    hear the roar of the freezing wind. A small door leads north out into the cold.
+  exits:
+    - roomId: "mahntor:r2377"
+      direction: north
+  npcs:
+    - id: "mahntor:m2317"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2379
+  title: "The entryway to the Keep of Mahn-Tor"
+  description: >-
+    You are at the entry hall to the huge keep. The high vaulted ceiling is carved
+    from solid stone. Huge stone pillars rise up from the floor to meet the
+    ceiling far above. The architecture appears to be dwarven. A huge pair of
+    gates stand to the west, protecting the keep from the harsh cold outside. A
+    large hall leads east, deeper into the keep.
+  exits:
+    - roomId: "mahntor:r2380"
+      direction: east
+    - roomId: "mahntor:r2377"
+      direction: west
+  npcs:
+    - id: "mahntor:m2319"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2380
+  title: "The Hall"
+  description: >-
+    You are in a huge hall. Large tapestries line the walls and huge statues of
+    various make and appearance are spread about. The ceiling above supports huge
+    candelabras, which light the room. To the east, you see a bright light and
+    hear sounds of inhabitation. Looking west, you see the entry gates to the keep.
+  exits:
+    - roomId: "mahntor:r2381"
+      direction: east
+    - roomId: "mahntor:r2379"
+      direction: west
+  npcs:
+    - id: "mahntor:m2319"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2381
+  title: "The Grand Hall"
+  description: >-
+    You are in the main hall of the Keep of Mahn-Tor. This hall is huge. The wide
+    floor of the hall is an expanse of marble. It shimmers in the light thrown
+    off by the torches that line the walls. To the east, you see what appears to
+    be a huge golden throne. The hall itself stretches south and a smaller hall
+    leads to the west.
+  exits:
+    - roomId: "mahntor:r2382"
+      direction: south
+    - roomId: "mahntor:r2383"
+      direction: east
+    - roomId: "mahntor:r2380"
+      direction: west
+- id: r2382
+  title: "The Great Hall"
+  description: >-
+    You stand in the great hall of the keep. Huge pillars rise up to the vaulted
+    ceiling and torch light glimmers off the marble floor here. You are amazed at
+    the sheer size of the hall. The hall itself leads north and east. You notice a
+    smaller hall leading south, deeper into the keep.
+  exits:
+    - roomId: "mahntor:r2381"
+      direction: north
+    - roomId: "mahntor:r2387"
+      direction: south
+    - roomId: "mahntor:r2384"
+      direction: east
+  npcs:
+    - id: "mahntor:m2320"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2383
+  title: "Standing before the throne"
+  description: >-
+    You stand before the throne of Mahn-Tor. This golden throne is so huge that it
+    takes up almost the entire wall, stretching far above the floor. Sitting upon
+    it, you feel small and feeble. It is evident that this throne is more of a
+    decoration than anything else. Only the largest of kings could sit upon it.
+    The hall leads south and west into other parts of the keep.
+  exits:
+    - roomId: "mahntor:r2384"
+      direction: south
+    - roomId: "mahntor:r2385"
+      direction: east
+    - roomId: "mahntor:r2381"
+      direction: west
+  npcs:
+    - id: "mahntor:m2320"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2384
+  title: "The Great Hall"
+  description: >-
+    You are in a great hall. Huge torches light the room and their light shimmers
+    off the marble floor below you. To the north, you see a huge golden throne.
+    Looking up, you grow dizzy at the height to which the vaulted ceiling rises.
+    The hall itself leads north and west.
+  exits:
+    - roomId: "mahntor:r2383"
+      direction: north
+    - roomId: "mahntor:r2382"
+      direction: west
+- id: r2385
+  title: "The secret hallway"
+  description: >-
+    You are in a small, torch lit hall. It leads from east to west. A large gold
+    door is to the west. To the east, you see a heavy stone door.
+  exits:
+    - roomId: "mahntor:r2386"
+      direction: east
+    - roomId: "mahntor:r2383"
+      direction: west
+  npcs:
+    - id: "mahntor:m2321"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "mahntor:m2321"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2386
+  title: "Entry to the Royal Chambers"
+  description: >-
+    You are at the entrance to the royal chambers of the keep. A plush shag rug
+    covers the stone floor. Large candelabras hang from the ceiling, lighting the
+    room. A huge fireplace warms the room. Beaded doorways lead south and east. A
+    huge stone door stands in the west wall.
+  exits:
+    - roomId: "mahntor:r2393"
+      direction: south
+    - roomId: "mahntor:r2395"
+      direction: east
+    - roomId: "mahntor:r2385"
+      direction: west
+- id: r2387
+  title: "The Guard Post"
+  description: >-
+    The hall here has been built into a guard post of sorts. It appears as though
+    it would be quite easy to defend in times of emergency. Obviously, something
+    important lies beyond. A small hall leads south, while the main hall can be
+    seen to the north.
+  exits:
+    - roomId: "mahntor:r2382"
+      direction: north
+    - roomId: "mahntor:r2388"
+      direction: south
+  npcs:
+    - id: "mahntor:m2324"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2388
+  title: "The guarded hall"
+  description: >-
+    You walk down a torch lit hallway. It has been carved out of pure stone. It is
+    very quiet in this hall. You notice rows of colored doors on each wall. To
+    your east, you see a yellow door. To your west, you see a red door. The hall
+    itself leads south and north.
+  exits:
+    - roomId: "mahntor:r2387"
+      direction: north
+    - roomId: "mahntor:r2389"
+      direction: south
+    - roomId: "mahntor:r2390"
+      direction: east
+    - roomId: "mahntor:r2372"
+      direction: west
+- id: r2389
+  title: "The guarded hall"
+  description: >-
+    You walk down a small, quiet, torch lit hallway. Doors of different colors are
+    in each wall. To your east, you see a maroon door. To your west, you see a
+    black door. The hall itself leads north and south.
+  exits:
+    - roomId: "mahntor:r2388"
+      direction: north
+    - roomId: "mahntor:r2392"
+      direction: south
+    - roomId: "mahntor:r2391"
+      direction: east
+    - roomId: "mahntor:r2373"
+      direction: west
+- id: r2390
+  title: "Sumaron's Sanctum"
+  description: >-
+    You enter a temple of sorts. A small altar is here and relics of many
+    religions lie around. It is evident that this is the room of a studying cleric.
+    A yellow door leads west.
+  exits:
+    - roomId: "mahntor:r2388"
+      direction: west
+  npcs:
+    - id: "mahntor:m2329"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2391
+  title: "Amyrok's Arcane Study"
+  description: >-
+    This room is full of shelves which hold various spell components. The center
+    of the room is occupied by a huge pentagram. The entire room smells of smoke
+    and incense. The room is obviously used extensively by a practicing mage. A
+    maroon door leads west.
+  exits:
+    - roomId: "mahntor:r2389"
+      direction: west
+  npcs:
+    - id: "mahntor:m2328"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2392
+  title: "The guarded hall"
+  description: >-
+    You walk down a quiet hall. The stone walls here are wet with moisture.
+    Colored doors can be seen in the walls here. To your east, you see a green
+    door. To your west, you see a white door. The hall itself leads north and
+    south.
+  exits:
+    - roomId: "mahntor:r2389"
+      direction: north
+    - roomId: "mahntor:r2397"
+      direction: south
+    - roomId: "mahntor:r2394"
+      direction: east
+    - roomId: "mahntor:r2374"
+      direction: west
+- id: r2393
+  title: "The Harem Room"
+  description: >-
+    This appears to be the harem room of the Keep. Huge piles of furs and beds
+    fill the room. The lighting is dim, but the room is very warm. You can hear
+    music playing quietly from somewhere. Beaded doorways lead north and east.
+  exits:
+    - roomId: "mahntor:r2386"
+      direction: north
+    - roomId: "mahntor:r2396"
+      direction: east
+  npcs:
+    - id: "mahntor:m2322"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "mahntor:m2322"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "mahntor:m2322"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "mahntor:m2322"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "mahntor:m2322"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2394
+  title: "Nasturn's Humble Abode"
+  description: >-
+    This room is filled with all types of natural items. Trees and plants have
+    been lovingly cultivated and grown by hand, in large pots. The room is like an
+    indoor garden. A green door leads west.
+  exits:
+    - roomId: "mahntor:r2392"
+      direction: west
+  npcs:
+    - id: "mahntor:m2330"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2395
+  title: "The main living room"
+  description: >-
+    This room is decorated with sturdy stone furniture that is carved and gilded.
+    Large candles light the room. A thick rug covers the floor. Thick furs and
+    tapestries decorate the walls. Beaded doorways lead south and west.
+  exits:
+    - roomId: "mahntor:r2396"
+      direction: south
+    - roomId: "mahntor:r2386"
+      direction: west
+  npcs:
+    - id: "mahntor:m2323"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2396
+  title: "The Master Bedroom"
+  description: >-
+    This appears to be the master bedroom. A huge bed fills the rooms. Piles of
+    furs and other rich furnishings adorn the room. Candles are everywhere and
+    they help a huge fireplace light the room. The lavishness of the room
+    overwhelms you. Beaded doorways lead north and west.
+  exits:
+    - roomId: "mahntor:r2395"
+      direction: north
+    - roomId: "mahntor:r2393"
+      direction: west
+  npcs:
+    - id: "mahntor:m2333"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2397
+  title: "The end of the guarded hall"
+  description: >-
+    You are at the end of the hall. Colored doors line the walls to the north. To
+    your west, you see a brown door. To you east, you see a grey door. The hall
+    itself leads north back along the rows of doors.
+  exits:
+    - roomId: "mahntor:r2392"
+      direction: north
+    - roomId: "mahntor:r2398"
+      direction: east
+    - roomId: "mahntor:r2399"
+      direction: west
+- id: r2398
+  title: "Dorgar's Dismal Domicile"
+  description: >-
+    This room is dirty and unkempt. Odds and ends of different items lie all over.
+    It is apparent that some type of pack-rat lives here. It appears as though
+    nothing has ever entered this room and ever left again. A grey door leads west.
+  exits:
+    - roomId: "mahntor:r2397"
+      direction: west
+  npcs:
+    - id: "mahntor:m2332"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2399
+  title: "Belrak's Green Room"
+  description: >-
+    This room is full of green. The furniture and all other items show the color
+    of nature. The room smells of pine and forest odors. From the items here, it
+    appears as though a woodsman of some sorts lives here. A brown door leads east.
+  exits:
+    - roomId: "mahntor:r2397"
+      direction: east
+  npcs:
+    - id: "mahntor:m2331"
+      respawnChance: 100
+      maxLoad: "1"

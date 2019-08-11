@@ -1,0 +1,22 @@
+---
+body: |
+  Syntax: PRACTICE (skill|spell>
+  Syntax: PRACTICE # <skill|spell>
+  
+  PRACTICE without an argument tells you your current ability in all the 
+  skills and spells available to you. You can check this anywhere.
+  
+  PRACTICE with an argument practices that skill or spell. Your learning
+  percentage varies from 0% (unlearned) to a maximum of 100%. You can 
+  practice anywhere.
+  
+  You can also type: practice # <skill|spell> so you can practice multiple
+  times. If you type: practice 14 <skill|spell> - you will max out the
+  spell or skill.
+  
+  The higher your intelligence, the more you will learn at each practice.
+  
+  Because the PRACTICE screen is so large, it is split up into two screens - type
+  PRAC1 and PRAC2 to see these two screens seperately.
+  
+  - prac

@@ -1,0 +1,96 @@
+- id: o8901
+  name: "closet"
+  roomDesc: "There is a wooden closet tucked into a corner."
+  keywords: ["closet"]
+  description: "There is a wooden closet tucked into a corner."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o8902
+  name: "jar"
+  roomDesc: "A small unlabeled spice jar is standing here."
+  keywords: ["jar"]
+  description: "A small unlabeled spice jar is standing here."
+  type: CONTAINER
+  items: ["grove:o8903","grove:o8904"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o8903
+  name: "powder black"
+  roomDesc: "Some strong-smelling black powder has been carelessly scattered here."
+  keywords: ["powder","black"]
+  description: "Some strong-smelling black powder has been carelessly scattered here."
+  type: FOOD
+- id: o8904
+  name: "kernel kernels"
+  roomDesc: "Some small yellow kernels have been accidentally left here."
+  keywords: ["kernel","kernels"]
+  description: "Some small yellow kernels have been accidentally left here."
+  type: FOOD
+- id: o8905
+  name: "paper wad"
+  roomDesc: "There is a crumpled wad of paper here, left behind by some messy bypasser."
+  keywords: ["paper","wad"]
+  description: "There is a crumpled wad of paper here, left behind by some messy bypasser."
+  type: TRASH
+- id: o8910
+  name: "staff wooden"
+  roomDesc: "You see a wooden staff on the floor."
+  keywords: ["staff","wooden"]
+  description: "You see a wooden staff on the floor."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o8911
+  name: "robe brown cloth"
+  roomDesc: "Some brown cloth is on the floor."
+  keywords: ["robe","brown","cloth"]
+  description: "Some brown cloth is on the floor."
+  type: LIGHTARMOR
+- id: o8913
+  name: "herbs"
+  roomDesc: "Some bluish herbs are scattered here."
+  keywords: ["herbs"]
+  description: "Some bluish herbs are scattered here."
+  type: PILL
+- id: o8914
+  name: "herbs"
+  roomDesc: "Some purplish herbs are scattered here."
+  keywords: ["herbs"]
+  description: "Some purplish herbs are scattered here."
+  type: PILL
+- id: o8915
+  name: "herbs"
+  roomDesc: "Some blackish herbs are scattered here."
+  keywords: ["herbs"]
+  description: "Some blackish herbs are scattered here."
+  type: PILL
+- id: o8916
+  name: "herbs"
+  roomDesc: "Some grayish herbs are scattered here."
+  keywords: ["herbs"]
+  description: "Some grayish herbs are scattered here."
+  type: PILL
+- id: o8917
+  name: "herbs"
+  roomDesc: "Some reddish herbs are scattered here."
+  keywords: ["herbs"]
+  description: "Some reddish herbs are scattered here."
+  type: PILL
+- id: o8918
+  name: "herbs"
+  roomDesc: "Some orangish herbs are scattered here."
+  keywords: ["herbs"]
+  description: "Some orangish herbs are scattered here."
+  type: PILL
+- id: o8919
+  name: "herbs"
+  roomDesc: "Some pinkish herbs are scattered here."
+  keywords: ["herbs"]
+  description: "Some pinkish herbs are scattered here."
+  type: PILL

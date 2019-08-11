@@ -1,0 +1,675 @@
+- id: m14200
+  keywords: ["guard","lazy","fat"]
+  name: "a fat guard"
+  description: >-
+    A fat lazy guard is standing here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14204": 75
+        "tarzaroth:o14200": 75
+        "tarzaroth:o14201": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14201
+  keywords: ["tiger","bengal"]
+  name: "a Bengal Tiger"
+  description: >-
+    A bengal tiger leaps at you.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14209": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14202
+  keywords: ["lion"]
+  name: "a Lion"
+  description: >-
+    A huge lion is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14202": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14203
+  keywords: ["slave"]
+  name: "a Slave"
+  description: >-
+    A scantily covered slave sits here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14204
+  keywords: ["slave"]
+  name: "a Slave"
+  description: >-
+    A slave is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14200": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 0
+- id: m14205
+  keywords: ["warrior","wounded"]
+  name: "a wounded warrior"
+  description: >-
+    A wounded warrior stands here clutching his wounds.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14201": 75
+        "tarzaroth:o14208": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14206
+  keywords: ["warrior"]
+  name: "a warrior"
+  description: >-
+    A warrior stands here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14200": 75
+        "tarzaroth:o14202": 75
+        "tarzaroth:o14201": 75
+        "tarzaroth:o14204": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14207
+  keywords: ["amazon"]
+  name: "an amazon"
+  description: >-
+    An amazon is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14210": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 2
+- id: m14208
+  keywords: ["amazon"]
+  name: "a wounded amazon"
+  description: >-
+    A badly wounded amazon is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14210": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 2
+- id: m14209
+  keywords: ["balrog"]
+  name: "the Balrog"
+  description: >-
+    A balrog demon is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14206": 75
+        "tarzaroth:o14207": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 0
+- id: m14210
+  keywords: ["master","pit"]
+  name: "the Pit Master"
+  description: >-
+    The pit master is here looking for his next victim.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14209": 75
+        "tarzaroth:o14207": 75
+        "tarzaroth:o14201": 75
+        "tarzaroth:o14204": 75
+        "tarzaroth:o14203": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14211
+  keywords: ["lord","ogre"]
+  name: "the Ogre Lord"
+  description: >-
+    An ogre lord is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14213": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14212
+  keywords: ["ogre"]
+  name: "an Ogre"
+  description: >-
+    An ogre is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14213": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 0
+- id: m14213
+  keywords: ["axeman","dwarf"]
+  name: "a dwarf axeman"
+  description: >-
+    A squat dwarf is here swinging with fury.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14203": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14214
+  keywords: ["minotaur"]
+  name: "the minotaur"
+  description: >-
+    An angry minotaur is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -20
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14203": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14215
+  keywords: ["thief","man"]
+  name: "the thief"
+  description: >-
+    A small man wanders around looting corpses.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 0
+- id: m14216
+  keywords: ["griffin"]
+  name: "a griffin"
+  description: >-
+    A griffin is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -240
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14212": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 0
+- id: m14217
+  keywords: ["slime","acid"]
+  name: "The acid slime"
+  description: >-
+    Oozing slime covers the floor here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 0
+- id: m14218
+  keywords: ["warrior","elven"]
+  name: "An elven warrior"
+  description: >-
+    An elven warrior stands here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 700
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14205": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14219
+  keywords: ["barbarian"]
+  name: "A barbarian"
+  description: >-
+    An ugly barbarian is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 340
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14203": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14220
+  keywords: ["kobold"]
+  name: "a kobold"
+  description: >-
+    A small green kobold is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -840
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 0
+- id: m14221
+  keywords: ["orc"]
+  name: "an Orc"
+  description: >-
+    An Orc is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -780
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14213": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1
+- id: m14222
+  keywords: ["dog","war"]
+  name: "a war dog"
+  description: >-
+    A war dog is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 0
+- id: m14223
+  keywords: ["gladiator"]
+  name: "a gladiator"
+  description: >-
+    A gladiator stands here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tarzaroth:o14201": 75
+        "tarzaroth:o14204": 75
+        "tarzaroth:o14208": 75
+        "tarzaroth:o14211": 75
+        "tarzaroth:o14202": 75
+  metadata:
+    areaId: 74
+    exp_level: 2000
+    sex: 1

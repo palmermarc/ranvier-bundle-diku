@@ -1,0 +1,12 @@
+title: "Bloodshrine"
+metadata:
+  id: 6
+  name: "Bloodshrine"
+  createdBy: "cane"
+  starting_vnum: 12500
+  ending_vnum: 12599
+  item_requirements: 24000
+  filename: "bloodshrine.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

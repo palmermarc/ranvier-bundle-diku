@@ -1,0 +1,12 @@
+title: "Great Eastern Desert"
+metadata:
+  id: 24
+  name: "Great Eastern Desert"
+  createdBy: "anon"
+  starting_vnum: 5000
+  ending_vnum: 5099
+  item_requirements: 10000
+  filename: "eastern.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

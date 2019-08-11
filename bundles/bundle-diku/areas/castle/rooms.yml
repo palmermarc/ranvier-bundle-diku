@@ -1,0 +1,588 @@
+- id: r24300
+  title: "On the top of the cliff"
+  description: >-
+    You are standing on top of a cliff, overlooking a golden beach and a deep 
+    blue sea. From here you finally catch a glimp of one of the most impressive
+    castles you have ever seen in your life. Which is a wonderful entrance to
+    this fine continent.
+  exits:
+    - roomId: "castle:r24301"
+      direction: west
+    - roomId: "joker1:r24215"
+      direction: down
+- id: r24301
+  title: "On a clifftop path "
+  description: >-
+    You are standing on a path that leads towards a huge castle in the distance.
+    As you look around, the wind blows over the tops of the cliff which is nice
+    and refreshing.
+  exits:
+    - roomId: "camelot:r3300"
+      direction: north
+    - roomId: "castle:r24300"
+      direction: east
+    - roomId: "castle:r24302"
+      direction: west
+- id: r24302
+  title: "On a path to the castle"
+  description: >-
+    The path widens as you approach the castle. Up ahead you can see a main road 
+    that obviously links up some of the large areas on this side of the sea. But 
+    the biggest thing for miles around is the castle.
+  exits:
+    - roomId: "castle:r24301"
+      direction: east
+    - roomId: "castle:r24303"
+      direction: west
+- id: r24303
+  title: "The main approach to the castle"
+  description: >-
+    The path has now joined the main road that goes to and from the castle. There
+    is a large moat and a huge entrance gate to the castle.
+  exits:
+    - roomId: "castle:r24304"
+      direction: north
+    - roomId: "castle:r24302"
+      direction: east
+    - roomId: "castle:r24331"
+      direction: west
+- id: r24304
+  title: "On a bridge over the moat"
+  description: >-
+    You are now standing on a bridge that goes over the moat for the castle. The 
+    moat looks murky and smell, who knows what lives in it ... if anything possibly
+    could!
+  exits:
+    - roomId: "castle:r24305"
+      direction: north
+    - roomId: "castle:r24303"
+      direction: south
+- id: r24305
+  title: "The castle entrance"
+  description: >-
+    You are standing in front of the castle, which has the biggest portcullise you
+    have ever seen! As you glance through the entrance you see a large courtyard 
+    full of poeple bustling around. And what appears to be some form of market
+    inside.
+  exits:
+    - roomId: "castle:r24306"
+      direction: north
+    - roomId: "castle:r24304"
+      direction: south
+  npcs:
+    - id: "castle:m24309"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r24306
+  title: "The castle courtyard"
+  description: >-
+    You area standing at the entrance of the castle courtyard. In front of you is 
+    one of the largest and most splendid markets you have every seen. The most
+    colourful stalls and full of all types of people bustling around looking at 
+    all the goods for sale.
+    There is a sign on the wall here ...
+  exits:
+    - roomId: "castle:r24313"
+      direction: north
+    - roomId: "castle:r24305"
+      direction: south
+    - roomId: "castle:r24307"
+      direction: east
+    - roomId: "castle:r24310"
+      direction: west
+  npcs:
+    - id: "castle:m24301"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r24307
+  title: "The castle market"
+  description: >-
+    As you wander through the colourful stalls, your eyes are treated to delight
+    after delight. Such an abundance of colours and smells that attack you senses.
+    Even the fish stall to the north smells nice, and you thought fish stalls 
+    always smelt bad.
+  exits:
+    - roomId: "castle:r24314"
+      direction: north
+    - roomId: "castle:r24308"
+      direction: east
+    - roomId: "castle:r24306"
+      direction: west
+- id: r24308
+  title: "The castle market"
+  description: >-
+    As you look around you see a most impressive collection of weapons from all 
+    over the world. There all here for you to buy. And the weaponsmith has kindly 
+    informed you that he is expecting delivery of a larger new stock.
+  exits:
+    - roomId: "castle:r24315"
+      direction: north
+    - roomId: "tower1:r24400"
+      direction: east
+    - roomId: "castle:r24307"
+      direction: west
+  npcs:
+    - id: "castle:m24304"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24309
+  title: "The castle market"
+  description: >-
+    There are bits of armour hanging up all over this stall. The brilliant sheen 
+    as the sun shines off of the highly polished armour blinds you momentarily.
+    There is bount do be something you would like to buy.
+  exits:
+    - roomId: "castle:r24311"
+      direction: north
+    - roomId: "castle:r24310"
+      direction: east
+  npcs:
+    - id: "castle:m24307"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24310
+  title: "The castle market"
+  description: >-
+    There is a small gap in between the market stalls, however you are convinced 
+    that in time another stall will appear. To the east is the entrance and to 
+    the west is the armour stall.
+  exits:
+    - roomId: "castle:r24312"
+      direction: north
+    - roomId: "castle:r24306"
+      direction: east
+    - roomId: "castle:r24309"
+      direction: west
+- id: r24311
+  title: "The castle market"
+  description: >-
+    There is a small gap in between the market stalls, however you are convinced 
+    that in time another stall will appear. To the south is the armour stall, 
+    the north is the elixir vendor and to the east is the grocer.
+  exits:
+    - roomId: "castle:r24316"
+      direction: north
+    - roomId: "castle:r24309"
+      direction: south
+    - roomId: "castle:r24312"
+      direction: east
+    - roomId: "castle:r24339"
+      direction: west
+- id: r24312
+  title: "The castle market"
+  description: >-
+    The grocers stall is here. This stall has all sorts of different vegetables.
+    Alas, the only down side to this stall is that it sells brussel sprouts.
+    Joker must have not noticed them ...... argh sprouts!
+  exits:
+    - roomId: "castle:r24317"
+      direction: north
+    - roomId: "castle:r24310"
+      direction: south
+    - roomId: "castle:r24313"
+      direction: east
+    - roomId: "castle:r24311"
+      direction: west
+  npcs:
+    - id: "castle:m24308"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24313
+  title: "The castle market"
+  description: >-
+    There is a small gap in between the market stalls, however you are convinced 
+    that in time another stall will appear. To the north is the healers, to the 
+    west is the gorcer, to the east is the fishmonger's.
+  exits:
+    - roomId: "castle:r24318"
+      direction: north
+    - roomId: "castle:r24306"
+      direction: south
+    - roomId: "castle:r24314"
+      direction: east
+    - roomId: "castle:r24312"
+      direction: west
+- id: r24314
+  title: "The castle market"
+  description: >-
+    The fishmonger's stall is here. Laid out in front of you is the most impressive
+    collection of fish you have ever seen. There are fish of every size and of
+    every colour under the sun. And the are so fresh, they're still wriggling.
+  exits:
+    - roomId: "castle:r24319"
+      direction: north
+    - roomId: "castle:r24307"
+      direction: south
+    - roomId: "castle:r24315"
+      direction: east
+    - roomId: "castle:r24313"
+      direction: west
+  npcs:
+    - id: "castle:m24300"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24315
+  title: "The castle market"
+  description: >-
+    There is a small gap in between the market stalls, however you are convinced 
+    that in time another stall will appear. To the north is the mapseller, 
+    the west is the fishmonger and to the south is the weaponsmith.
+  exits:
+    - roomId: "castle:r24320"
+      direction: north
+    - roomId: "castle:r24308"
+      direction: south
+    - roomId: "castle:r24340"
+      direction: east
+    - roomId: "castle:r24314"
+      direction: west
+- id: r24316
+  title: "The castle market"
+  description: >-
+    The Elixir vendor's stall is here. There are glass bottles containing a variety
+    of concoctions. Who knows what they are, the vendor seems to be as high as a 
+    kite. And he looks like he's just putting anything into each mixture.
+  exits:
+    - roomId: "castle:r24321"
+      direction: north
+    - roomId: "castle:r24311"
+      direction: south
+    - roomId: "castle:r24317"
+      direction: east
+    - roomId: "castle:r24334"
+      direction: west
+  npcs:
+    - id: "castle:m24313"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24317
+  title: "The castle market"
+  description: >-
+    There is a small gap in between the market stalls, however you are convinced 
+    that in time another stall will appear. To the north is the baker's stall, 
+    west is the elixir vendor, the south is the grocer and ot the east is the healers.
+  exits:
+    - roomId: "castle:r24322"
+      direction: north
+    - roomId: "castle:r24312"
+      direction: south
+    - roomId: "castle:r24318"
+      direction: east
+    - roomId: "castle:r24316"
+      direction: west
+- id: r24318
+  title: "The castle market"
+  description: >-
+    You enter the healers sanctum, immeditaly everything seems more tranquil and
+    peacful.You are immeadiatly relaxed. You wonder, is it really worth leaving 
+    this place?
+  exits:
+    - roomId: "castle:r24323"
+      direction: north
+    - roomId: "castle:r24313"
+      direction: south
+    - roomId: "castle:r24319"
+      direction: east
+    - roomId: "castle:r24317"
+      direction: west
+    - roomId: "clans:r24900"
+      direction: down
+  npcs:
+    - id: "castle:m24314"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24319
+  title: "The castle market"
+  description: >-
+    There is a small gap in between the market stalls, however you are convinced 
+    that in time another stall will appear. To the north is the cook's stall, to 
+    the west is the healer, to the south is the fishmonger and to the east is
+    the mapseller.
+  exits:
+    - roomId: "castle:r24324"
+      direction: north
+    - roomId: "castle:r24314"
+      direction: south
+    - roomId: "castle:r24320"
+      direction: east
+    - roomId: "castle:r24318"
+      direction: west
+- id: r24320
+  title: "The castle market"
+  description: >-
+    The mapseller's stall is here. And he has maps of all over the place. If you
+    really need to find somewhere, then this man can help. He's been everywhere.
+  exits:
+    - roomId: "castle:r24325"
+      direction: north
+    - roomId: "castle:r24315"
+      direction: south
+    - roomId: "castle:r24341"
+      direction: east
+    - roomId: "castle:r24319"
+      direction: west
+  npcs:
+    - id: "castle:m24311"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24321
+  title: "The castle market"
+  description: >-
+    The leather worker's stall is here. He has all sorts of equipment. Some of 
+    the goods have been tested by Joker and his many women. There are all sorts
+    of whips, harnasses and restraints hanging up here.
+  exits:
+    - roomId: "castle:r24326"
+      direction: north
+    - roomId: "castle:r24316"
+      direction: south
+    - roomId: "castle:r24322"
+      direction: east
+    - roomId: "castle:r24335"
+      direction: west
+  npcs:
+    - id: "castle:m24315"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24322
+  title: "The castle market"
+  description: >-
+    The baker's stall is here. And there is the most impressive collection of 
+    cakes,buns and other assorted goodies. You just cannot help but salivate.
+  exits:
+    - roomId: "castle:r24327"
+      direction: north
+    - roomId: "castle:r24317"
+      direction: south
+    - roomId: "castle:r24323"
+      direction: east
+    - roomId: "castle:r24321"
+      direction: west
+  npcs:
+    - id: "castle:m24305"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24323
+  title: "The castle market"
+  description: >-
+    Aha! You have found the bar ... you'll often find Joker hanging around here,
+    as running the mud can be a thirst task, and where better to relax than in
+    the Joker's own personal bar.
+  exits:
+    - roomId: "castle:r24328"
+      direction: north
+    - roomId: "castle:r24318"
+      direction: south
+    - roomId: "castle:r24324"
+      direction: east
+    - roomId: "castle:r24322"
+      direction: west
+  npcs:
+    - id: "castle:m24320"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24324
+  title: "The castle market"
+  description: >-
+    Hmmm home cooking, this is the cook's stall. They say the way to a mans heart 
+    is through his stomach. Possibly true, but through the chest with a blunt spoon 
+    is FAR more painful. However, you could just die for this food. It' just smells
+    yummy!
+  exits:
+    - roomId: "castle:r24329"
+      direction: north
+    - roomId: "castle:r24319"
+      direction: south
+    - roomId: "castle:r24325"
+      direction: east
+    - roomId: "castle:r24323"
+      direction: west
+  npcs:
+    - id: "castle:m24306"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24325
+  title: "The castle market"
+  description: >-
+    This is the brik a brak stall, and these goods look rather suspect. But it 
+    cannot be that bad, or his stall would not be tolerated.
+  exits:
+    - roomId: "castle:r24330"
+      direction: north
+    - roomId: "castle:r24320"
+      direction: south
+    - roomId: "castle:r24324"
+      direction: west
+  npcs:
+    - id: "castle:m24316"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24326
+  title: "The castle market"
+  description: >-
+    The jewellers stall is here. You have never seen such a glittery stall. And 
+    the owner claims they are all genuine. You cannot but assume they are, as Joker 
+    would not tolerate second rate goods being sold in his castle.
+  exits:
+    - roomId: "castle:r24336"
+      direction: north
+    - roomId: "castle:r24321"
+      direction: south
+    - roomId: "castle:r24327"
+      direction: east
+  npcs:
+    - id: "castle:m24310"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24327
+  title: "The castle market"
+  description: >-
+    There is a small gap in between the market stalls, however you are convinced 
+    that in time another stall will appear. To the west is the jeweller's, 
+    to the south is the bakers and to the east is the magician's.
+  exits:
+    - roomId: "castle:r24337"
+      direction: north
+    - roomId: "castle:r24322"
+      direction: south
+    - roomId: "castle:r24328"
+      direction: east
+    - roomId: "castle:r24326"
+      direction: west
+- id: r24328
+  title: "The castle market"
+  description: >-
+    The magicians small stand is here. If you want something thats magical, then 
+    this is the place. He makes the most useful stuff in the world! And what's 
+    more, it's not too expensive.
+  exits:
+    - roomId: "castle:r24323"
+      direction: south
+    - roomId: "castle:r24329"
+      direction: east
+    - roomId: "castle:r24327"
+      direction: west
+  npcs:
+    - id: "castle:m24312"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24329
+  title: "The castle market"
+  description: >-
+    There is a small gap in between the market stalls, however you are convinced 
+    that in time another stall will appear. To the east is the locksmith, the west 
+    is the magician and to the south is the cook's stall.
+  exits:
+    - roomId: "castle:r24338"
+      direction: north
+    - roomId: "castle:r24324"
+      direction: south
+    - roomId: "castle:r24330"
+      direction: east
+    - roomId: "castle:r24328"
+      direction: west
+- id: r24330
+  title: "The castle market"
+  description: >-
+    The locksmith's stall is here. He's not really supposed to be in here, but he
+    always manages to find a way in. So at the moment he is lurking in the corner
+    trying to avoid Joker.
+  exits:
+    - roomId: "castle:r24325"
+      direction: south
+    - roomId: "castle:r24329"
+      direction: west
+  npcs:
+    - id: "castle:m24317"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r24331
+  title: "Path by the castle."
+  description: >-
+    A small, overgrown path runs alongside the castle wall here.
+  exits:
+    - roomId: "castle:r24303"
+      direction: east
+    - roomId: "castle:r24332"
+      direction: west
+- id: r24332
+  title: "End of the path."
+  description: >-
+    The path ends here, completly overgrown with bushes and weeds.
+    There is a murky looking pool to the south.
+  exits:
+    - roomId: "castle:r24333"
+      direction: south
+    - roomId: "castle:r24331"
+      direction: east
+- id: r24333
+  title: "The murky pool."
+  description: >-
+    There is a small pool here, it is filthy, and looks putrid.
+    Definatly not the sort of place you want to go swimming.
+  exits:
+    - roomId: "castle:r24332"
+      direction: north
+- id: r24334
+  title: "An Archway."
+  description: >-
+    You stand in an archway at the edge of the castle courtyard.
+    A mosaic of the symbol for clan Ventrue adorns the floor.
+  exits:
+    - roomId: "castle:r24316"
+      direction: east
+- id: r24335
+  title: "An Archway."
+  description: >-
+    You stand in an archway at the edge of the castle courtyard.
+    A mosaic of the symbol for clan Lasombra adorns the floor.
+  exits:
+    - roomId: "castle:r24321"
+      direction: east
+- id: r24336
+  title: "An Archway."
+  description: >-
+    You stand in an archway at the edge of the castle courtyard.
+    A mosaic of the symbol for clan Assamite adorns the floor.
+  exits:
+    - roomId: "castle:r24326"
+      direction: south
+- id: r24337
+  title: "An Archway."
+  description: >-
+    You stand in an archway at the edge of the castle courtyard.
+    A mosaic of the symbol for clan Tzimisce adorns the floor.
+  exits:
+    - roomId: "castle:r24327"
+      direction: south
+- id: r24338
+  title: "An Archway."
+  description: >-
+    You stand in an archway at the edge of the castle courtyard.
+    A mosaic of the symbol for clan Tremere adorns the floor.
+    
+  exits:
+    - roomId: "castle:r24329"
+      direction: south
+- id: r24339
+  title: "An Archway."
+  description: >-
+    You stand in an archway at the edge of the castle courtyard.
+  exits:
+    - roomId: "castle:r24311"
+      direction: east
+- id: r24340
+  title: "An Archway."
+  description: >-
+    You stand in an archway at the edge of the castle courtyard.
+    A mosaic of the symbol for clan Toreador adorns the floor.
+  exits:
+    - roomId: "castle:r24315"
+      direction: west
+- id: r24341
+  title: "An Archway."
+  description: >-
+    You stand in an archway at the edge of the castle courtyard.
+  exits:
+    - roomId: "castle:r24320"
+      direction: west

@@ -1,0 +1,98 @@
+- id: o25000
+  name: "dagger"
+  roomDesc: "You see a small iron dagger here."
+  keywords: ["dagger"]
+  description: "You see a small iron dagger here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o25001
+  name: "short sword shortsword"
+  roomDesc: "You see an iron shortsword here."
+  keywords: ["short","sword","shortsword"]
+  description: "You see an iron shortsword here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o25002
+  name: "vest"
+  roomDesc: "You see a soft leather vest here."
+  keywords: ["vest"]
+  description: "You see a soft leather vest here."
+  type: MEDIUMARMOR
+- id: o25003
+  name: "shield"
+  roomDesc: "You see a small iron shield here."
+  keywords: ["shield"]
+  description: "You see a small iron shield here."
+  type: SHIELD
+- id: o25004
+  name: "lantern"
+  roomDesc: "A lantern is on the floor here."
+  keywords: ["lantern"]
+  description: "A lantern is on the floor here."
+  type: LIGHT
+- id: o25005
+  name: "book"
+  roomDesc: "A small leather-bound book lies here."
+  keywords: ["book"]
+  description: "A small leather-bound book lies here."
+  type: FURNITURE
+- id: o25006
+  name: "book"
+  roomDesc: "A small leather-bound book lies here."
+  keywords: ["book"]
+  description: "A small leather-bound book lies here."
+  type: FURNITURE
+- id: o25007
+  name: "book"
+  roomDesc: "A small leather-bound book lies here."
+  keywords: ["book"]
+  description: "A small leather-bound book lies here."
+  type: FURNITURE
+- id: o25008
+  name: "book"
+  roomDesc: "A small leather-bound book lies here."
+  keywords: ["book"]
+  description: "A small leather-bound book lies here."
+  type: FURNITURE
+- id: o25009
+  name: "book"
+  roomDesc: "A small leather-bound book lies here."
+  keywords: ["book"]
+  description: "A small leather-bound book lies here."
+  type: FURNITURE
+- id: o25010
+  name: "book"
+  roomDesc: "A small leather-bound book lies here."
+  keywords: ["book"]
+  description: "A small leather-bound book lies here."
+  type: FURNITURE
+- id: o25011
+  name: "book"
+  roomDesc: "A small leather-bound book lies here."
+  keywords: ["book"]
+  description: "A small leather-bound book lies here."
+  type: FURNITURE
+- id: o25012
+  name: "book"
+  roomDesc: "A small leather-bound book lies here."
+  keywords: ["book"]
+  description: "A small leather-bound book lies here."
+  type: FURNITURE
+- id: o25013
+  name: "book"
+  roomDesc: "A small leather-bound book lies here."
+  keywords: ["book"]
+  description: "A small leather-bound book lies here."
+  type: FURNITURE
+- id: o25014
+  name: "book"
+  roomDesc: "A small leather-bound book lies here."
+  keywords: ["book"]
+  description: "A small leather-bound book lies here."
+  type: FURNITURE

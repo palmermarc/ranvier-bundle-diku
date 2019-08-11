@@ -1,0 +1,218 @@
+- id: o26200
+  name: "ring of the Pomarj"
+  roomDesc: "A dark ring which seems to absorb all the light around it lies here."
+  keywords: ["ring","of","the","Pomarj"]
+  description: "A dark ring which seems to absorb all the light around it lies here."
+  type: ACCESSORY
+- id: o26201
+  name: "breastplate black iron breast plate"
+  roomDesc: "A breastplate made of the black iron from deep within the earth lies here."
+  keywords: ["breastplate","black","iron","breast","plate"]
+  description: "A breastplate made of the black iron from deep within the earth lies here."
+  type: HEAVYARMOR
+- id: o26202
+  name: "ever flaming torch"
+  roomDesc: "A torch made of fire crackles mysteriously here."
+  keywords: ["ever","flaming","torch"]
+  description: "A torch made of fire crackles mysteriously here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26203
+  name: "cape flame flaming red"
+  roomDesc: "A cape made of ethereal red fiber lies neatly folded on the ground here."
+  keywords: ["cape","flame","flaming","red"]
+  description: "A cape made of ethereal red fiber lies neatly folded on the ground here."
+  type: ACCESSORY
+- id: o26204
+  name: "boots wind"
+  roomDesc: "A pair of boots made from the hide of a baby Pegasus."
+  keywords: ["boots","wind"]
+  description: "A pair of boots made from the hide of a baby Pegasus."
+  type: MEDIUMARMOR
+- id: o26205
+  name: "helmet storm"
+  roomDesc: "A helmet that looks like it has weathered many storms has been set here."
+  keywords: ["helmet","storm"]
+  description: "A helmet that looks like it has weathered many storms has been set here."
+  type: HEAVYARMOR
+- id: o26206
+  name: "sword of Ilneval"
+  roomDesc: "A sword crackling with power lies here."
+  keywords: ["sword","of","Ilneval"]
+  description: "A sword crackling with power lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26207
+  name: "shield ilneval"
+  roomDesc: "A shield made entirely of energy buzzes here."
+  keywords: ["shield","ilneval"]
+  description: "A shield made entirely of energy buzzes here."
+  type: SHIELD
+- id: o26208
+  name: "winter wolf pelt icy"
+  roomDesc: "The pelt of a winter wolf who disobeyed its master lies here."
+  keywords: ["winter","wolf","pelt","icy"]
+  description: "The pelt of a winter wolf who disobeyed its master lies here."
+  type: ACCESSORY
+- id: o26209
+  name: "cloak slimey"
+  roomDesc: "A disgusting rotten cloak has been abandoned here."
+  keywords: ["cloak","slimey"]
+  description: "A disgusting rotten cloak has been abandoned here."
+  type: ACCESSORY
+- id: o26210
+  name: "amulet spinecastle"
+  roomDesc: "An amulet carved into strange and grotesque patters lies here."
+  keywords: ["amulet","spinecastle"]
+  description: "An amulet carved into strange and grotesque patters lies here."
+  type: ACCESSORY
+- id: o26211
+  name: "bracelet medegian lost ships"
+  roomDesc: "A bracelet made of magical coral."
+  keywords: ["bracelet","medegian","lost","ships"]
+  description: "A bracelet made of magical coral."
+  type: LIGHTARMOR
+- id: o26212
+  name: "armbands platinum bands"
+  roomDesc: "A pair of platinum arm bands, once worn by the hill giant, lie here."
+  keywords: ["armbands","platinum","bands"]
+  description: "A pair of platinum arm bands, once worn by the hill giant, lie here."
+  type: LIGHTARMOR
+- id: o26213
+  name: "legbands platinum bands"
+  roomDesc: "A pair of platinum leg bands, once worn by the hill giant, lie here."
+  keywords: ["legbands","platinum","bands"]
+  description: "A pair of platinum leg bands, once worn by the hill giant, lie here."
+  type: LIGHTARMOR
+- id: o26214
+  name: "wand"
+  roomDesc: "A fire wand lies forgotten on the ground."
+  keywords: ["wand"]
+  description: "A fire wand lies forgotten on the ground."
+  type: WAND
+- id: o26215
+  name: "staff ice"
+  roomDesc: "A ice staff lies forgotten on the ground."
+  keywords: ["staff","ice"]
+  description: "A ice staff lies forgotten on the ground."
+  type: STAFF
+- id: o26216
+  name: "staff earthquake"
+  roomDesc: "A earthquake staff lies forgotten on the ground."
+  keywords: ["staff","earthquake"]
+  description: "A earthquake staff lies forgotten on the ground."
+  type: WAND
+- id: o26217
+  name: "wand air wind"
+  roomDesc: "An air wand lies forgotten on the ground."
+  keywords: ["wand","air","wind"]
+  description: "An air wand lies forgotten on the ground."
+  type: WAND
+- id: o26218
+  name: "wand"
+  roomDesc: "A lightning wand lies forgotten on the ground."
+  keywords: ["wand"]
+  description: "A lightning wand lies forgotten on the ground."
+  type: WAND
+- id: o26219
+  name: "spiked club"
+  roomDesc: "A large spiked club lies on the ground."
+  keywords: ["spiked","club"]
+  description: "A large spiked club lies on the ground."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26220
+  name: "lode load lodestone loadstone stone"
+  roomDesc: "A dull red rock lies here amid the weeds."
+  keywords: ["lode","load","lodestone","loadstone","stone"]
+  description: "A dull red rock lies here amid the weeds."
+  type: WAND
+- id: o26221
+  name: "torch"
+  roomDesc: "A flaming torch burns on the ground."
+  keywords: ["torch"]
+  description: "A flaming torch burns on the ground."
+  type: LIGHT
+- id: o26222
+  name: "energy scroll"
+  roomDesc: "A scroll of energy replacement lies here."
+  keywords: ["energy","scroll"]
+  description: "A scroll of energy replacement lies here."
+  type: SCROLL
+- id: o26223
+  name: "ale jug"
+  roomDesc: "A large jug of ale stands here."
+  keywords: ["ale","jug"]
+  description: "A large jug of ale stands here."
+  type: DRINKCON
+- id: o26224
+  name: "pipeweed"
+  roomDesc: "A pile of pipeweed has gathered here."
+  keywords: ["pipeweed"]
+  description: "A pile of pipeweed has gathered here."
+  type: PILL
+- id: o26225
+  name: "flametounge sword"
+  roomDesc: "A longsword surrounded by buring flames lies here."
+  keywords: ["flametounge","sword"]
+  description: "A longsword surrounded by buring flames lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26226
+  name: "frostbrand sword"
+  roomDesc: "A longsword surrounded by a shimmering field of ice lies here."
+  keywords: ["frostbrand","sword"]
+  description: "A longsword surrounded by a shimmering field of ice lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26227
+  name: "mattock of the titans"
+  roomDesc: "A huge mattock has ben embedded in the ground!"
+  keywords: ["mattock","of","the","titans"]
+  description: "A huge mattock has ben embedded in the ground!"
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26228
+  name: "star morning"
+  roomDesc: "A chain with a star on the end lies here."
+  keywords: ["star","morning"]
+  description: "A chain with a star on the end lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26229
+  name: "torturers whip"
+  roomDesc: "An evil whip has been abandoned here."
+  keywords: ["torturers","whip"]
+  description: "An evil whip has been abandoned here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26230
+  name: "elixir anti"
+  roomDesc: "An potion to ward off elves has been left here."
+  keywords: ["elixir","anti"]
+  description: "An potion to ward off elves has been left here."
+  type: POTION

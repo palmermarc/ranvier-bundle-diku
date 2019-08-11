@@ -1,0 +1,15 @@
+---
+body: |
+  Syntax: bug <message>
+  Syntax: idea <message>
+  Syntax: typo <message>
+  
+  These commands will take your message and record it into a file as feedback
+  to the mud implementors.
+  
+  BUG reports a bug,
+  IDEA reports an idea, and
+  TYPO reports a mistake in a room description.
+  
+  - idea
+  - typo

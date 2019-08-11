@@ -1,0 +1,1430 @@
+- id: r5300
+  title: "The Grand Gate of Thalos"
+  description: >-
+    You stand in the archway of a gigantic stone archway. The two
+    steel gates look indestructible, yet they are elaborate in engravings.  You can
+    hear laughter and good cheer from the other side of these gates.  Obviously, 
+    the city is teeming with activity!  There is a small gold plaque on mounted
+    on the archway.
+  exits:
+    - roomId: "mirror:r5356"
+      direction: east
+    - roomId: "mirror:r5301"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5330"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "mirror:m5321"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "mirror:m5321"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "mirror:m5303"
+      respawnChance: 100
+      maxLoad: "11"
+- id: r5301
+  title: "Main Street "
+  description: >-
+    This is a magnificent street, immaculate all over. The streets are filled
+    with people rushing from building to building and a balmy zephyr blows by
+    you.  The whole city is teeming with activity.  A cobbled alley leads north
+    and south.  Children run pass you as they play tag.
+  exits:
+    - roomId: "mirror:r5339"
+      direction: north
+    - roomId: "mirror:r5355"
+      direction: south
+    - roomId: "mirror:r5300"
+      direction: east
+    - roomId: "mirror:r5302"
+      direction: west
+- id: r5302
+  title: "Main Street"
+  description: >-
+    This is a magnificent street, immaculate all over.  The streets are filled
+    with people rushing from building to building and a balmy zephyr blows by you.
+    The whole city is teeming with activity.  On one side is a beautiful house 
+    while on the other is the entrance to a large mansion.  Sounds of people hard
+    at work echo within the mansion.  Near the center of town you see a large 
+    domed building, magnificent and immense.
+  exits:
+    - roomId: "mirror:r5336"
+      direction: north
+    - roomId: "mirror:r5332"
+      direction: south
+    - roomId: "mirror:r5301"
+      direction: east
+    - roomId: "mirror:r5303"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5304"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5303
+  title: "A Garden Path"
+  description: >-
+    A circular path surrounds a magnificent domed temple in the center
+    of the city. Flowers grow on the sides of the path and the lush trees are 
+    laden with fruit.  Vines and ivy snake up the sides of the temple, making this
+    temple truly a blend of nature and man's work of art.
+  exits:
+    - roomId: "mirror:r5304"
+      direction: north
+    - roomId: "mirror:r5306"
+      direction: south
+    - roomId: "mirror:r5302"
+      direction: east
+    - roomId: "mirror:r5350"
+      direction: west
+- id: r5304
+  title: "A Garden Path"
+  description: >-
+    A circular path surrounds a magnificent domed temple in the center
+    of the city. Flowers grow on the sides of the path and the lush trees are
+    laden with fruit.  Vines and ivy snake up the sides of the temple, making this
+    temple truly a blend of nature and man's work of art.
+  exits:
+    - roomId: "mirror:r5311"
+      direction: north
+    - roomId: "mirror:r5303"
+      direction: south
+    - roomId: "mirror:r5305"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5303"
+      respawnChance: 100
+      maxLoad: "11"
+    - id: "mirror:m5302"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5305
+  title: "A garden path"
+  description: >-
+    A circular path surrounds a magnificent domed temple in the center
+    of the city. Flowers grow on the sides of the path and the lush trees are
+    laden with fruit.  Vines and ivy snake up the sides of the temple, making this
+    temple truly a blend of nature and man's work of art.
+  exits:
+    - roomId: "mirror:r5350"
+      direction: south
+    - roomId: "mirror:r5304"
+      direction: east
+- id: r5306
+  title: "A Garden Path"
+  description: >-
+    A circular path surrounds a magnificent domed temple in the center
+    of the city. Flowers grow on the sides of the path and the lush trees are
+    laden with fruit.  Vines and ivy snake up the sides of the temple, making this
+    temple truly a blend of nature and man's work of art.
+  exits:
+    - roomId: "mirror:r5303"
+      direction: north
+    - roomId: "mirror:r5312"
+      direction: south
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r5307
+  title: "The market place"
+  description: >-
+    You stand in the middle of a large square lined on each side with
+    baskets, carts, and stands of all shapes and sizes.  The little shops are 
+    filled with goods sold to the demanding public.
+  exits:
+    - roomId: "mirror:r5325"
+      direction: north
+    - roomId: "mirror:r5320"
+      direction: south
+    - roomId: "mirror:r5308"
+      direction: west
+  npcs:
+    - id: "mirror:m5303"
+      respawnChance: 100
+      maxLoad: "11"
+    - id: "mirror:m5304"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5308
+  title: "The market place"
+  description: >-
+    You stand in the middle of a large square lined on each side with
+    baskets, carts, and stands of all shapes and sizes.  The little shops are
+    filled with goods sold to the demanding public.
+  exits:
+    - roomId: "mirror:r5322"
+      direction: north
+    - roomId: "mirror:r5317"
+      direction: south
+    - roomId: "mirror:r5307"
+      direction: east
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5302"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5309
+  title: "A Side Street"
+  description: >-
+    This small side street leads east and west into back alleys while
+    to the south you see a beautifully designed temple. Shrieks of little
+    children playing games in the distance catch your attention.
+  exits:
+    - roomId: "mirror:r5310"
+      direction: south
+    - roomId: "mirror:r5343"
+      direction: east
+    - roomId: "mirror:r5328"
+      direction: west
+- id: r5310
+  title: "A Side Street"
+  description: >-
+    You are in the common section of the city. More buildings made of
+    clay and stone be dazzles you. Most of these homes are designed so
+    beautifully you just cant keep your eyes off them.  The street
+    continues north and south and buildings line the street.
+  exits:
+    - roomId: "mirror:r5309"
+      direction: north
+    - roomId: "mirror:r5311"
+      direction: south
+    - roomId: "mirror:r5344"
+      direction: east
+    - roomId: "mirror:r5326"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r5311
+  title: "A Side Street"
+  description: >-
+    This small side street leads away from the garden path to the south.
+    Around you stand large numbers of commoners' houses.  Many citizens
+    pass by you with a friendly hello.  You almost feel like home here.
+  exits:
+    - roomId: "mirror:r5310"
+      direction: north
+    - roomId: "mirror:r5304"
+      direction: south
+    - roomId: "mirror:r5337"
+      direction: east
+    - roomId: "mirror:r5327"
+      direction: west
+- id: r5312
+  title: "A side street"
+  description: >-
+    This small side street leads south away from the temple into the
+    business section of town. To the east is the famous City Hall of Thalos.  
+    Well disciplined guards stand at attention, watching over the city hall, but
+    you don't see any source of threats in THIS city.  North is a garden path,
+    west is a smithy, and this side street continues south.
+  exits:
+    - roomId: "mirror:r5306"
+      direction: north
+    - roomId: "mirror:r5313"
+      direction: south
+    - roomId: "mirror:r5332"
+      direction: east
+    - roomId: "mirror:r5321"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5304"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5313
+  title: "A side street"
+  description: >-
+    This small side street is lined with great beautifully designed
+    buildings. To the north is the magnificent temple while to the
+    south lies the entrance to a small friendly tavern. The street continues
+    north and south.
+  exits:
+    - roomId: "mirror:r5312"
+      direction: north
+    - roomId: "mirror:r5314"
+      direction: south
+    - roomId: "mirror:r5330"
+      direction: east
+    - roomId: "mirror:r5319"
+      direction: west
+  npcs:
+    - id: "mirror:m5303"
+      respawnChance: 100
+      maxLoad: "11"
+- id: r5314
+  title: "A side street"
+  description: >-
+    You are at the end of a long street leading to the center of the city.
+    A long alley runs east and west.
+  exits:
+    - roomId: "mirror:r5313"
+      direction: north
+    - roomId: "mirror:r5329"
+      direction: south
+    - roomId: "mirror:r5351"
+      direction: east
+    - roomId: "mirror:r5318"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r5315
+  title: "Under another grand watchtower"
+  description: >-
+    You stand at the base of a tall ivy covered watchtower built to
+    protect the city from invaders.  You get the feeling of safety here in
+    Thalos.
+  exits:
+    - roomId: "mirror:r5316"
+      direction: north
+    - roomId: "mirror:r5318"
+      direction: east
+    - roomId: "mirror:r5347"
+      direction: up
+  npcs:
+    - id: "mirror:m5303"
+      respawnChance: 100
+      maxLoad: "11"
+- id: r5316
+  title: "A back alley"
+  description: >-
+    This alley leads to the rear of meat stand. The aroma of fresh and
+    char-broiled meat catches your sense of smell.  You wipe the drool
+    off your chin the instant you know it is there.
+  exits:
+    - roomId: "mirror:r5317"
+      direction: north
+    - roomId: "mirror:r5315"
+      direction: south
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5302"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5317
+  title: "The meat stand"
+  description: >-
+    A large stand has been set up here with metal hooks and wooden racks
+    in the background.  Hanging on the hooks are huge slabs of meat
+    and other game.  This stand is packed with produce, and a sudden burst
+    of laughter catches you by surprise as little children play around
+    your ankles.
+  exits:
+    - roomId: "mirror:r5308"
+      direction: north
+    - roomId: "mirror:r5316"
+      direction: south
+    - roomId: "mirror:r5320"
+      direction: east
+  npcs:
+    - id: "mirror:m5311"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5318
+  title: "A back alley"
+  description: >-
+    A narrow alley leads east to a wider street and west to one of
+    the city watchtowers.
+  exits:
+    - roomId: "mirror:r5314"
+      direction: east
+    - roomId: "mirror:r5315"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r5319
+  title: "The guild house"
+  description: >-
+    You are standing in this city's ONLY guild house.  Tables and chairs
+    are set about for the occupants' comfort.  Weapons are stacked neatly on the
+    weapons rack.  Each weapon looks polished, sharpened, and oiled.
+    Draped along the back wall is the proud banner of Thalos in all its glory.
+  exits:
+    - roomId: "mirror:r5313"
+      direction: east
+  npcs:
+    - id: "mirror:m5306"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5320
+  title: "The produce stand"
+  description: >-
+    A large cart sits here carrying fresh fruit and vegetables.
+    Hungry children swarm all about the tasty treats the merchants are
+    giving out for free.
+  exits:
+    - roomId: "mirror:r5307"
+      direction: north
+    - roomId: "mirror:r5317"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5312"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5321
+  title: "The smithy"
+  description: >-
+    In here you find tools and anvils used to make various weapons
+    and items. The walls are fully stocked with pieces of armor and weaponry.
+  exits:
+    - roomId: "mirror:r5312"
+      direction: east
+  npcs:
+    - id: "mirror:m5314"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5322
+  title: "The tapestry stand"
+  description: >-
+    Beautiful tapestries and rugs hang all over the walls.  Fancy
+    robes and various articles of clothing hang about for sale. You stare with
+    awe at how much work must have been put into these cloths.
+  exits:
+    - roomId: "mirror:r5323"
+      direction: north
+    - roomId: "mirror:r5308"
+      direction: south
+    - roomId: "mirror:r5325"
+      direction: east
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r5323
+  title: "A back alley"
+  description: >-
+    A narrow alley leads north to one of the city watchtowers while
+    to the south there lies a market stand full of expensive clothes and rugs.
+  exits:
+    - roomId: "mirror:r5324"
+      direction: north
+    - roomId: "mirror:r5322"
+      direction: south
+- id: r5324
+  title: "Under the watchtower"
+  description: >-
+    You stand under one of the city watchtowers built to protect
+    the city from invaders.  You know that you are safe from any danger.
+  exits:
+    - roomId: "mirror:r5323"
+      direction: south
+    - roomId: "mirror:r5328"
+      direction: east
+    - roomId: "mirror:r5346"
+      direction: up
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5303"
+      respawnChance: 100
+      maxLoad: "11"
+- id: r5325
+  title: "The jewelery stand"
+  description: >-
+    A table stands covered with fine jewelery and gems.  The jeweler
+    stands proudly over his collection as he polishes and cleans each one.
+  exits:
+    - roomId: "mirror:r5307"
+      direction: south
+    - roomId: "mirror:r5322"
+      direction: west
+- id: r5326
+  title: "A simple clay dwelling"
+  description: >-
+    This is a very plain house with a few chairs and a bed.
+    A warmed and lit fireplace suggests that the dwelling is currently
+    occupied.  You should leave before the owner finds you here.
+  exits:
+    - roomId: "mirror:r5310"
+      direction: east
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5304"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5327
+  title: "A stone dwelling"
+  description: >-
+    This small house is the dwelling of a humble citizen of Thalos.
+    A few rafters stand with thatched straw blowing with the wind gusts
+    blowing through the city.
+  exits:
+    - roomId: "mirror:r5311"
+      direction: east
+  npcs:
+    - id: "mirror:m5302"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5328
+  title: "A back alley"
+  description: >-
+    A narrow alley leads east to one of the city watchtowers and west to
+    a small side street.
+  exits:
+    - roomId: "mirror:r5309"
+      direction: east
+    - roomId: "mirror:r5324"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r5329
+  title: "A busy shop"
+  description: >-
+    From the outside this place looks like an ordinary building,
+    but inside these cramped quarters you discover a shop filled with
+    armor, weapons, and various other goods. A small sign posted on the wall
+    flutters in the wind.
+  exits:
+    - roomId: "mirror:r5314"
+      direction: north
+  npcs:
+    - id: "mirror:m5313"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5330
+  title: "The Tavern of the Sun"
+  description: >-
+    A glorious place, this tavern is second home for many citizens of
+    Thalos.  Tables and chairs are set in rows, bottles and glasses filled, and
+    a small performance stage teaming with dazzling entertainment. Musical
+    instruments and personal belongings lie in piles belonging to each member
+    of this room.
+  exits:
+    - roomId: "mirror:r5313"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5329"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "mirror:m5329"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "mirror:m5310"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "mirror:m5304"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "mirror:m5302"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5331
+  title: "South wing of the city hall"
+  description: >-
+    You stand in a large room attached to this end of the hallway which
+    leads back north to the reception area. Pedestals and columns stand
+    faithfully.  Valuable items hang from the walls each to be admired
+    by onlookers.  Chairs lie around, and a large curved desk. To the east
+    is a vine-covered archway leading out into a private courtyard.
+  exits:
+    - roomId: "mirror:r5332"
+      direction: north
+    - roomId: "mirror:r5334"
+      direction: east
+  npcs:
+    - id: "mirror:m5309"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "mirror:m5303"
+      respawnChance: 100
+      maxLoad: "11"
+  items:
+    - id: "mirror:o5307"
+      respawnChance: 75
+- id: r5332
+  title: "The city hall"
+  description: >-
+    This is the main reception area of Thalos' city hall. The walls have
+    been painted in pure white and thick lush carpet line the floor wall to wall.
+    A side door on the west wall allows you to go out to one of the city's side 
+    streets.  Hallways lead south and east.
+  exits:
+    - roomId: "mirror:r5302"
+      direction: north
+    - roomId: "mirror:r5331"
+      direction: south
+    - roomId: "mirror:r5333"
+      direction: east
+    - roomId: "mirror:r5312"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5304"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5333
+  title: "East wing of the city hall"
+  description: >-
+    Here lies fancy office, possibly the mayor's. A few green plants
+    and pieces of furniture make this place breathtaking.  There is a large
+    glass cabinet along the wall. A long hallway leads west back to the
+    reception area and an ivy-covered archway leads south into a private
+    courtyard.
+  exits:
+    - roomId: "mirror:r5334"
+      direction: south
+    - roomId: "mirror:r5332"
+      direction: west
+  items:
+    - id: "mirror:o5308"
+      respawnChance: 75
+- id: r5334
+  title: "The private gardens and courtyard of Thalos"
+  description: >-
+    You stare in awe as the beauty of this place takes you by
+    surprise.  Exotic flowers and trees are planted in neat rows and lawn
+    benches line the walk ways.  A large marble fountain in the center of the
+    courtyard stands. Above stands one of the four watchtowers. Archways
+    north and west lead back into the city hall.
+  exits:
+    - roomId: "mirror:r5333"
+      direction: north
+    - roomId: "mirror:r5331"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5303"
+      respawnChance: 100
+      maxLoad: "11"
+  items:
+    - id: "mirror:o5306"
+      respawnChance: 75
+- id: r5335
+  title: "A small guard house"
+  description: >-
+    This is the barracks for Thalos' cityguards.  Guards populate this
+    shack ready, willing, and able to ward off any trouble.  This small
+    shack stands guarding both to the entrance to the city and to the city hall.
+  exits:
+    - roomId: "mirror:r5355"
+      direction: east
+  npcs:
+    - id: "mirror:m5320"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "mirror:m5320"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "mirror:m5320"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r5336
+  title: "An impressive house"
+  description: >-
+    This house houses the Defender of Thalos.  He represents all that
+    is good and right in this city.  As the most skilled fighting machine,
+    he is the commander of the guard.
+  exits:
+    - roomId: "mirror:r5302"
+      direction: south
+  npcs:
+    - id: "mirror:m5305"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r5337
+  title: "A Public Library"
+  description: >-
+    This seems to be the tallest structure in the city.  Rows and rows of books
+    line the 20 foot tall bookcases, and a quiet serenity can be felt by all here.
+  exits:
+    - roomId: "mirror:r5338"
+      direction: east
+    - roomId: "mirror:r5311"
+      direction: west
+    - roomId: "mirror:r5345"
+      direction: up
+  npcs:
+    - id: "mirror:m5315"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5338
+  title: "The Library Addition"
+  description: >-
+    There are more shelves and tables here.  Vials of strange potions line a
+    section of the wall, and books and other items of power line another.  The exit
+    is to the west.
+  exits:
+    - roomId: "mirror:r5337"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5317"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "mirror:m5302"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5339
+  title: "A back alley"
+  description: >-
+    A narrow back alley goes south to main street and north towards
+    a watchtower.  People quietly pass you by.
+  exits:
+    - roomId: "mirror:r5340"
+      direction: north
+    - roomId: "mirror:r5301"
+      direction: south
+- id: r5340
+  title: "A back alley"
+  description: >-
+    A narrow back alley leads north to one of the city watchtowers
+    and south towards main street.  The shade cast by the watchtower is very
+    refreshing.
+  exits:
+    - roomId: "mirror:r5341"
+      direction: north
+    - roomId: "mirror:r5339"
+      direction: south
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5304"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5341
+  title: "Under a watchtower"
+  description: >-
+    You stand under a tall watchtower. Narrow back alleys lead west and
+    south and a sturdy ladder leads up into the tower.
+  exits:
+    - roomId: "mirror:r5340"
+      direction: south
+    - roomId: "mirror:r5343"
+      direction: west
+    - roomId: "mirror:r5348"
+      direction: up
+  npcs:
+    - id: "mirror:m5303"
+      respawnChance: 100
+      maxLoad: "11"
+- id: r5342
+  title: "A bath house"
+  description: >-
+    This is the bath house for the commoners of the city. Hot steamy water 
+    wells up from a hole in the floor. Obviously there is a hot spring located 
+    under the city (making the decision to put a city here seem much more 
+    reasonable). To the west is another room.
+  exits:
+    - roomId: "mirror:r5343"
+      direction: north
+    - roomId: "mirror:r5344"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5319"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r5343
+  title: "A back alley"
+  description: >-
+    A narrow back alley leads west to a small side street and east to one
+    of the city watchtowers. Great amounts of steam issue forth from the
+    building to the south.  It looks very inviting.
+  exits:
+    - roomId: "mirror:r5342"
+      direction: south
+    - roomId: "mirror:r5341"
+      direction: east
+    - roomId: "mirror:r5309"
+      direction: west
+- id: r5344
+  title: "A Resting Room"
+  description: >-
+    You are in a resting room.  Soft mats line the floor, and you see many
+    people just relaxing on them.  The comfort of this place is so inviting, you 
+    want to join them.  Great amounts of steam issue forth from the hole in the 
+    east wall.
+  exits:
+    - roomId: "mirror:r5342"
+      direction: east
+    - roomId: "mirror:r5310"
+      direction: west
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5318"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "mirror:m5302"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "mirror:m5304"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5345
+  title: "On the second floor of the library"
+  description: >-
+    You see more books here.  Through windows, you have a glorious view of
+    a nearby bay.  Birds fly by your window.
+  exits:
+    - roomId: "mirror:r5337"
+      direction: down
+  npcs:
+    - id: "mirror:m5316"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r5346
+  title: "The north-west watchtower"
+  description: >-
+    You stand atop one of the city watchtowers. The view is magnificent
+    from here and you can see all the way to the western mountains.  You are 
+    confident nothing can touch this tower.
+  exits:
+    - roomId: "mirror:r5324"
+      direction: down
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5308"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r5347
+  title: "The south-west watchtower"
+  description: >-
+    You stand atop one of the city watchtowers. The view is magnificent
+    from here and you can see all the way to the western mountains. To the
+    south bay stretches to the horizon.  You are confident nothing can touch this
+    tower.
+  exits:
+    - roomId: "mirror:r5315"
+      direction: down
+  npcs:
+    - id: "mirror:m5308"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r5348
+  title: "The north-east watchtower"
+  description: >-
+    You stand atop one of the city watchtowers. The view is magnificent
+    from here.  Green fields stretch to the horizon.  You are confident nothing
+    can touch this tower.
+  exits:
+    - roomId: "mirror:r5341"
+      direction: down
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5308"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r5350
+  title: "The Temple of Thalos"
+  description: >-
+    You stand within one of the most holy places in the realm. This stunning 
+    domed temple houses the city's worshipers en masse. Long benches line the 
+    aisles and the altar glistens with the gold and platinum inlay.The walls and 
+    roof are all made of ceramic, making this place reflect the sun well.  
+        The greenery around the temple itself makes this place a great blend of
+    nature and man's works of art.
+  exits:
+    - roomId: "mirror:r5305"
+      direction: north
+    - roomId: "mirror:r5303"
+      direction: east
+  npcs:
+    - id: "mirror:m5300"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "mirror:m5307"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5303"
+      respawnChance: 100
+      maxLoad: "11"
+    - id: "mirror:m5302"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5351
+  title: "A back alley"
+  description: >-
+    A narrow alley leads east to a wider street and west to one of
+    the city watchtowers.  Little kids play tag around you.
+  exits:
+    - roomId: "mirror:r5352"
+      direction: east
+    - roomId: "mirror:r5314"
+      direction: west
+- id: r5352
+  title: "Under a watchtower"
+  description: >-
+    You stand at the base of a tall watchtower built to protect the city
+    from invaders.  From the looks of things, its doing a great job.
+  exits:
+    - roomId: "mirror:r5353"
+      direction: north
+    - roomId: "mirror:r5351"
+      direction: west
+    - roomId: "mirror:r5354"
+      direction: up
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5303"
+      respawnChance: 100
+      maxLoad: "11"
+- id: r5353
+  title: "A back alley"
+  description: >-
+    A narrow alley leads south to one of the city watchtowers.
+  exits:
+    - roomId: "mirror:r5355"
+      direction: north
+    - roomId: "mirror:r5352"
+      direction: south
+- id: r5354
+  title: "The south-east watchtower"
+  description: >-
+    You stand atop one of the city watchtowers. The view is magnificent
+    from here and you can see all the way to the western mountains. To the
+    south the you see the bay.  You're confident nothing can touch this tower.
+  exits:
+    - roomId: "mirror:r5352"
+      direction: down
+  npcs:
+    - id: "mirror:m5301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mirror:m5308"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r5355
+  title: "A back alley"
+  description: >-
+    A narrow alley leads north to the main street, and south toward a tall
+    watchtower.  A building is to the west.
+  exits:
+    - roomId: "mirror:r5301"
+      direction: north
+    - roomId: "mirror:r5353"
+      direction: south
+    - roomId: "mirror:r5335"
+      direction: west
+- id: r5356
+  title: "A trail at the end of the dwarf forest"
+  description: >-
+    The trail ends here, with tall, leafy, green trees all around you.
+    To the west, you can see a huge beautiful and radiant city.  Something
+    about it gives you a relaxed feeling.  To the east is your way back home.
+  exits:
+    - roomId: "mirror:r5357"
+      direction: east
+    - roomId: "mirror:r5300"
+      direction: west
+  npcs:
+    - id: "mirror:m5326"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r5357
+  title: "A trail at the end of the dwarf forest"
+  description: >-
+    A side trail here leads from the dwarf forest.  It is definitely milder
+    here.  The trail continues to the east from here.
+  exits:
+    - roomId: "mirror:r5358"
+      direction: east
+    - roomId: "mirror:r5356"
+      direction: west
+- id: r5358
+  title: "The dwarf forest"
+  description: >-
+    You see tall, healthy green trees here.  The trail bends north to
+    west from here.
+  exits:
+    - roomId: "mirror:r5359"
+      direction: north
+    - roomId: "mirror:r5357"
+      direction: west
+  npcs:
+    - id: "mirror:m5323"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r5359
+  title: "The dwarf forest"
+  description: >-
+    You see more big green trees here.  It looks almost as if this place was
+    blessed by a god to be green and mild.  The trail leads north and south.
+  exits:
+    - roomId: "mirror:r5360"
+      direction: north
+    - roomId: "mirror:r5358"
+      direction: south
+- id: r5360
+  title: "The dwarf forest"
+  description: >-
+    You see more big green trees here.  It looks almost as if this place was
+    blessed by a god to be green and mild.  The trail leads north and south.
+  exits:
+    - roomId: "mirror:r5361"
+      direction: north
+    - roomId: "mirror:r5359"
+      direction: south
+- id: r5361
+  title: "The dwarf forest"
+  description: >-
+    You see many big green trees here.  You see many leaves on these huge
+    trees.  Grass layer the ground with 2 inches of padding.
+  exits:
+    - roomId: "mirror:r5362"
+      direction: north
+    - roomId: "mirror:r5360"
+      direction: south
+  npcs:
+    - id: "mirror:m5304"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r5362
+  title: "The Cross Roads"
+  description: >-
+    The roads cross here.  Midgaard is to the west.  To the east, you see the
+    stately oaks and poplars of the holy grove.  A wide path leads south through
+    the dwarven forest.  To the north is a very desolate trail.
+  exits:
+    - roomId: "mirror:r5363"
+      direction: north
+    - roomId: "mirror:r5361"
+      direction: south
+    - roomId: "mirror:r5369"
+      direction: east
+    - roomId: "mirror:r5364"
+      direction: west
+- id: r5363
+  title: "The Lane"
+  description: >-
+    You are strolling along a pleasant, shady lane. The road is lined on both
+    sides by tall, stately trees which lend the scene with a sense of quiet
+    serenity. You can follow the road north or south.
+  exits:
+    - roomId: "mirror:r5365"
+      direction: north
+    - roomId: "mirror:r5362"
+      direction: south
+- id: r5364
+  title: "City Entrance"
+  description: >-
+    You stand on the outskirts of a construction site - Midgaard; the capital
+    of this land. The road leads east into the peace and quiet - and dangers -
+    of the forest; and to the west it becomes the main street of the town;
+    surrounded by building foundations of unfinished shops, houses, and temple.
+  exits:
+    - roomId: "mirror:r5362"
+      direction: east
+    - roomId: "mirror:r5385"
+      direction: west
+- id: r5365
+  title: "The Plains"
+  description: >-
+    You are standing on the plains. This is a vast desolate place where the
+    wind can howl undisturbed since nothing but you bars its way. However you
+    are not the first to wander here. Before you somebody has left footprints.
+    The footprints make a path that looks rather bewildered and is not the kind
+    of path to lead to anywhere significant or important but it seems to have
+    made up its mind to enter the hills far away north.  A little distance
+    further, you lose the trail and decide not to get lost.
+  exits:
+    - roomId: "mirror:r5363"
+      direction: south
+- id: r5366
+  title: "The holy grove"
+  description: >-
+    You are standing amidst the ancient oaks and poplars in the holy grove. You
+    can feel a strange sensation of contentedness and relief seeping through You,
+    as if great burdens have been lifted from Your shoulders. From here, friendly-
+    looking paths lead east and south.
+  exits:
+    - roomId: "mirror:r5369"
+      direction: south
+    - roomId: "mirror:r5367"
+      direction: east
+- id: r5367
+  title: "The holy grove"
+  description: >-
+    You are standing amidst the ancient oaks and poplars in the holy grove. You
+    feel unusually happy here, as if great burdens have been lifted from Your
+    shoulders. From here, pleasant-looking paths lead east, west and south.
+  exits:
+    - roomId: "mirror:r5370"
+      direction: south
+    - roomId: "mirror:r5368"
+      direction: east
+    - roomId: "mirror:r5366"
+      direction: west
+  npcs:
+    - id: "mirror:m5302"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "mirror:m5322"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r5368
+  title: "A clearing in the woods"
+  description: >-
+    You are standing in a clearing in the light woods. Somehow, this place
+    seems powerfully DIFFERENT from the rest of the forest, as if something is
+    severely strained in the fabric of reality here.
+  exits:
+    - roomId: "mirror:r5375"
+      direction: north
+    - roomId: "mirror:r5371"
+      direction: south
+    - roomId: "mirror:r5367"
+      direction: west
+  npcs:
+    - id: "mirror:m5327"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5369
+  title: "The holy grove"
+  description: >-
+    You are standing amidst the ancient oaks and poplars in the holy grove. You
+    feel calm and relaxed here, as if great burdens have been lifted from Your
+    shoulders. From here, pleasant-looking paths lead east, north and south. To
+    the west, through the trees, You can see the road to Midgaard's construction
+    site.
+  exits:
+    - roomId: "mirror:r5366"
+      direction: north
+    - roomId: "mirror:r5372"
+      direction: south
+    - roomId: "mirror:r5370"
+      direction: east
+    - roomId: "mirror:r5362"
+      direction: west
+  npcs:
+    - id: "mirror:m5324"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5370
+  title: "The sacred glade"
+  description: >-
+    You are standing in the middle of the sacred glades, where the citizens of
+    Thalos come to celebrate the spring, where farmers give thanks for bountiful
+    harvest in the fall, and where lovers stroll in summer. You feel seasons of
+    remembered happiness and joy taking Your sorrows and worries away from You,
+    leaving You calm and invigorate, ready for the world. Paths lead into the
+    holy grove to the east, north and west, while to the south a wide, sunny field
+    slopes down to a sparkling lake.
+  exits:
+    - roomId: "mirror:r5367"
+      direction: north
+    - roomId: "mirror:r5373"
+      direction: south
+    - roomId: "mirror:r5371"
+      direction: east
+    - roomId: "mirror:r5369"
+      direction: west
+  npcs:
+    - id: "mirror:m5323"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r5371
+  title: "The holy grove"
+  description: >-
+    You are standing amidst the ancient oaks and poplars in the holy grove. You
+    can feel a strange sensation of joy and calm seeping through You, as if great
+    burdens have been lifted from Your shoulders. To the south, You glimpse an open
+    area through the trees, while paths lead away north and west.
+  exits:
+    - roomId: "mirror:r5368"
+      direction: north
+    - roomId: "mirror:r5374"
+      direction: south
+    - roomId: "mirror:r5370"
+      direction: west
+  npcs:
+    - id: "mirror:m5327"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r5372
+  title: "The holy grove"
+  description: >-
+    You are standing amidst the tall, majestic trees in the southern end of the
+    holy grove. Paths lead north and east. To the east, You can see a wide, open
+    field, sloping gently down towards a bright, glittering lake. Somehow, here
+    you feel an inexplicable happiness, as if the world's troubles no longer
+    really matter to you.
+  exits:
+    - roomId: "mirror:r5369"
+      direction: north
+    - roomId: "mirror:r5373"
+      direction: east
+  npcs:
+    - id: "mirror:m5328"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "mirror:m5326"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r5373
+  title: "The sunny field"
+  description: >-
+    You are standing in the middle of a wide, summery, sunlit field. There is a
+    fragrance of spring in the air, a sound of summer and a feeling of eternal
+    Saturday afternoon. To the south is a clear, sparkling lake, and to the north
+    and west is the holy grove. In the wood's edge, to the east, is construction,
+    shimmering softly through the colors of the rainbow. You feel as if You
+    could spend the rest of your life here, lying on your back and looking at the
+    patterns of the clouds as they gently drift across the sky.
+  exits:
+    - roomId: "mirror:r5370"
+      direction: north
+    - roomId: "mirror:r5372"
+      direction: west
+  npcs:
+    - id: "mirror:m5325"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r5374
+  title: "The croquet lawn"
+  description: >-
+    You are standing on a immaculately manicured green lawn, the kind you only
+    get after 200 years of meticulous work. There is a winding stone path leading
+    from the wood's edge to the north, to the softly shimmering, rainbow-colored
+    dome covering construction to the south. This place enjoys a perpetual cool,
+    sunny summers after-noon.
+  exits:
+    - roomId: "mirror:r5371"
+      direction: north
+  npcs:
+    - id: "mirror:m5328"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5375
+  title: "The Void"
+  description: >-
+    You are standing in the middle of something you cannot explain.  You see
+    stars yet you cannot see what you are standing on.  You are not standing
+    on any sort of physical 'ground' as you can see yet you are not floating
+    either.  Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
+    rainbow then back to its normal state.  In the middle of this room is
+    a ladder standing vertical.
+  exits:
+    - roomId: "mirror:r5368"
+      direction: north
+    - roomId: "mirror:r5378"
+      direction: south
+    - roomId: "mirror:r5376"
+      direction: west
+    - roomId: "mirror:r5378"
+      direction: up
+    - roomId: "mirror:r5376"
+      direction: down
+- id: r5376
+  title: "The Void"
+  description: >-
+    You are standing in the middle of something you cannot explain.  You see
+    stars yet you cannot see what you are standing on.  You are not standing
+    on any sort of physical 'ground' as you can see yet you are not floating
+    either.  Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
+    rainbow then back to its normal state.
+  exits:
+    - roomId: "mirror:r5375"
+      direction: north
+    - roomId: "mirror:r5377"
+      direction: south
+    - roomId: "mirror:r5375"
+      direction: east
+    - roomId: "mirror:r5376"
+      direction: west
+    - roomId: "mirror:r5377"
+      direction: up
+    - roomId: "mirror:r5376"
+      direction: down
+- id: r5377
+  title: "The Void"
+  description: >-
+    You are standing in the middle of something you cannot explain.  You see
+    stars yet you cannot see what you are standing on.  You are not standing
+    on any sort of physical 'ground' as you can see yet you are not floating
+    either.  Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
+    rainbow then back to its normal state.
+  exits:
+    - roomId: "mirror:r5377"
+      direction: north
+    - roomId: "mirror:r5378"
+      direction: south
+    - roomId: "mirror:r5377"
+      direction: east
+    - roomId: "mirror:r5376"
+      direction: west
+    - roomId: "mirror:r5378"
+      direction: up
+    - roomId: "mirror:r5376"
+      direction: down
+- id: r5378
+  title: "The Void"
+  description: >-
+    You are standing in the middle of something you cannot explain.  You see
+    stars yet you cannot see what you are standing on.  You are not standing
+    on any sort of physical 'ground' as you can see yet you are not floating
+    either.  Occasionally, the starry 'sky' fades into a fuzzy, yet bright,
+    rainbow then back to its normal state.  In the middle of this room is
+    a ladder standing vertical.
+  exits:
+    - roomId: "mirror:r5375"
+      direction: north
+    - roomId: "mirror:r5375"
+      direction: south
+    - roomId: "mirror:r5377"
+      direction: west
+    - roomId: "grove:r8903"
+      direction: up
+    - roomId: "mirror:r5377"
+      direction: down
+- id: r5379
+  title: "The Temple Of Midgaard"
+  description: >-
+    You are in the southern end of the temple hall in the Temple of Midgaard.
+    The temple has been constructed from giant marble blocks, eternal in
+    appearance, and most of the walls are covered by ancient wall paintings
+    picturing Gods, Giants and peasants.
+       Large steps lead down through the grand temple gate, descending the huge
+    mound upon which the temple is built and ends on the temple square below.
+       You notice that this building is quite new.  A small plaque is on this wall.
+  exits:
+    - roomId: "mirror:r5386"
+      direction: north
+    - roomId: "mirror:r5380"
+      direction: south
+- id: r5380
+  title: "The Temple Square"
+  description: >-
+    You are standing on the temple square.  Huge marble steps lead up to the
+    temple gate.  The ground is just dirt but there are plans to make the road
+    cobble stone.  Just south of here you see a blooming market square, the
+    center of Midgaard.
+  exits:
+    - roomId: "mirror:r5379"
+      direction: north
+    - roomId: "mirror:r5381"
+      direction: south
+  npcs:
+    - id: "mirror:m5332"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r5381
+  title: "Market Square"
+  description: >-
+    You are standing on the market square, the Square of Midgaard.  It seems
+    that a large, peculiar looking statue is being built here in the middle of
+    the square.  Roads lead to the north and east, north to the temple square,
+    east is the main street.
+  exits:
+    - roomId: "mirror:r5380"
+      direction: north
+    - roomId: "mirror:r5382"
+      direction: east
+  npcs:
+    - id: "mirror:m5331"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5382
+  title: "The Main Street"
+  description: >-
+    You are on Main Street crossing through this booming town.  The main
+    street continues east.  To the west you see and hear a small market place.
+  exits:
+    - roomId: "mirror:r5383"
+      direction: east
+    - roomId: "mirror:r5381"
+      direction: west
+  npcs:
+    - id: "mirror:m5333"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r5383
+  title: "The Main Street"
+  description: >-
+    The main street, to the east you leave town and to the west the street
+    leads to the market square.
+  exits:
+    - roomId: "mirror:r5384"
+      direction: east
+    - roomId: "mirror:r5382"
+      direction: west
+- id: r5384
+  title: "Inside the East Gate of Midgaard"
+  description: >-
+    You are by two small newly built towers that have been built into the
+    city wall and connected with a footbridge across the heavy wooden gate.
+    Main Street leads west from here.
+  exits:
+    - roomId: "mirror:r5385"
+      direction: east
+    - roomId: "mirror:r5383"
+      direction: west
+  npcs:
+    - id: "mirror:m5334"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5385
+  title: "Outside the East Gate of Midgaard"
+  description: >-
+    You are by two small towers that have been built into the city wall and
+    connected with a footbridge across the heavy wooden gate.  To the east the
+    plains stretch out in the distance.
+  exits:
+    - roomId: "mirror:r5364"
+      direction: east
+    - roomId: "mirror:r5384"
+      direction: west
+- id: r5386
+  title: "By the Temple Altar"
+  description: >-
+    You are by the temple altar in the northern end of the Temple of Midgaard.
+    A huge altar made from white polished marble is standing in front of you and
+    behind it is a ten foot tall sitting statue of Odin, the King of the Gods.
+  exits:
+    - roomId: "mirror:r5379"
+      direction: south

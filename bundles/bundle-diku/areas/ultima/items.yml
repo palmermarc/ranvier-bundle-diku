@@ -1,0 +1,516 @@
+- id: o2400
+  name: "mantra compassion mu"
+  roomDesc: "Mu, the Mantra of Compassion is here."
+  keywords: ["mantra","compassion","mu"]
+  description: "Mu, the Mantra of Compassion is here."
+  type: KEY
+- id: o2401
+  name: "mantra humility lum"
+  roomDesc: "Lum, the Mantra of Humility is here."
+  keywords: ["mantra","humility","lum"]
+  description: "Lum, the Mantra of Humility is here."
+  type: KEY
+- id: o2402
+  name: "mantra justice beh"
+  roomDesc: "Beh, the Mantra of Justice is here."
+  keywords: ["mantra","justice","beh"]
+  description: "Beh, the Mantra of Justice is here."
+  type: KEY
+- id: o2403
+  name: "mantra spirituality ohm"
+  roomDesc: "Ohm, the Mantra of Spirituality is here."
+  keywords: ["mantra","spirituality","ohm"]
+  description: "Ohm, the Mantra of Spirituality is here."
+  type: KEY
+- id: o2404
+  name: "mantra honesty ahm"
+  roomDesc: "Ahm, the Mantra of Honesty is here."
+  keywords: ["mantra","honesty","ahm"]
+  description: "Ahm, the Mantra of Honesty is here."
+  type: KEY
+- id: o2405
+  name: "mantra sacrifice cah"
+  roomDesc: "Cah, the Mantra of Sacrifice is here."
+  keywords: ["mantra","sacrifice","cah"]
+  description: "Cah, the Mantra of Sacrifice is here."
+  type: KEY
+- id: o2406
+  name: "mantra valor ra"
+  roomDesc: "Ra, the Mantra of Valor is here."
+  keywords: ["mantra","valor","ra"]
+  description: "Ra, the Mantra of Valor is here."
+  type: KEY
+- id: o2407
+  name: "mantra honor summ"
+  roomDesc: "Summ, the Mantra of Honor is here."
+  keywords: ["mantra","honor","summ"]
+  description: "Summ, the Mantra of Honor is here."
+  type: KEY
+- id: o2408
+  name: "moonstone"
+  roomDesc: "A totally featureless Moonstone is here."
+  keywords: ["moonstone"]
+  description: "A totally featureless Moonstone is here."
+  type: KEY
+- id: o2409
+  name: "moonstone"
+  roomDesc: "A totally featureless Moonstone is here."
+  keywords: ["moonstone"]
+  description: "A totally featureless Moonstone is here."
+  type: KEY
+- id: o2410
+  name: "moonstone"
+  roomDesc: "A totally featureless Moonstone is here."
+  keywords: ["moonstone"]
+  description: "A totally featureless Moonstone is here."
+  type: KEY
+- id: o2411
+  name: "moonstone"
+  roomDesc: "A totally featureless Moonstone is here."
+  keywords: ["moonstone"]
+  description: "A totally featureless Moonstone is here."
+  type: KEY
+- id: o2412
+  name: "moonstone"
+  roomDesc: "A totally featureless Moonstone is here."
+  keywords: ["moonstone"]
+  description: "A totally featureless Moonstone is here."
+  type: KEY
+- id: o2413
+  name: "moonstone"
+  roomDesc: "A totally featureless Moonstone is here."
+  keywords: ["moonstone"]
+  description: "A totally featureless Moonstone is here."
+  type: KEY
+- id: o2414
+  name: "moonstone"
+  roomDesc: "A totally featureless Moonstone is here."
+  keywords: ["moonstone"]
+  description: "A totally featureless Moonstone is here."
+  type: KEY
+- id: o2415
+  name: "moonstone"
+  roomDesc: "A totally featureless Moonstone is here."
+  keywords: ["moonstone"]
+  description: "A totally featureless Moonstone is here."
+  type: KEY
+- id: o2416
+  name: "hourglass"
+  roomDesc: "You feel an aura of power emanating from the Hourglass."
+  keywords: ["hourglass"]
+  description: "You feel an aura of power emanating from the Hourglass."
+  type: KEY
+- id: o2417
+  name: "crook"
+  roomDesc: "The crook lies here."
+  keywords: ["crook"]
+  description: "The crook lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2418
+  name: "doll"
+  roomDesc: "An old rag doll is here."
+  keywords: ["doll"]
+  description: "An old rag doll is here."
+  type: TRASH
+- id: o2419
+  name: "sword"
+  roomDesc: "Katrina's sword gleams prettily."
+  keywords: ["sword"]
+  description: "Katrina's sword gleams prettily."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2420
+  name: "scroll"
+  roomDesc: "A scroll rescued from the spider's web."
+  keywords: ["scroll"]
+  description: "A scroll rescued from the spider's web."
+  type: SCROLL
+- id: o2421
+  name: "dagger"
+  roomDesc: "The magic dagger lies here, pulsating."
+  keywords: ["dagger"]
+  description: "The magic dagger lies here, pulsating."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2422
+  name: "robe"
+  roomDesc: "The robes of a mage lies here."
+  keywords: ["robe"]
+  description: "The robes of a mage lies here."
+  type: LIGHTARMOR
+- id: o2423
+  name: "horseshoes"
+  roomDesc: "Smithy's horseshoes are here."
+  keywords: ["horseshoes"]
+  description: "Smithy's horseshoes are here."
+  type: HEAVYARMOR
+- id: o2424
+  name: "instrument mandolin"
+  roomDesc: "The fine instrument lies here."
+  keywords: ["instrument","mandolin"]
+  description: "The fine instrument lies here."
+  type: TRASH
+- id: o2425
+  name: "cup"
+  roomDesc: "The beggar's cup is here."
+  keywords: ["cup"]
+  description: "The beggar's cup is here."
+  type: CONTAINER
+  items: ["ultima:o2426"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o2426
+  name: "gold"
+  roomDesc: "Gold pieces."
+  keywords: ["gold"]
+  description: "Gold pieces."
+  type: MONEY
+- id: o2427
+  name: "bottle"
+  roomDesc: "Iolo's bottle sits here."
+  keywords: ["bottle"]
+  description: "Iolo's bottle sits here."
+  type: POTION
+- id: o2428
+  name: "bow"
+  roomDesc: "Iolo's bow stands against a wall."
+  keywords: ["bow"]
+  description: "Iolo's bow stands against a wall."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2429
+  name: "chicken"
+  roomDesc: "A chicken is lying on the ground."
+  keywords: ["chicken"]
+  description: "A chicken is lying on the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2430
+  name: "infinity bow"
+  roomDesc: "The Infinity Bow floats here."
+  keywords: ["infinity","bow"]
+  description: "The Infinity Bow floats here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2431
+  name: "spear"
+  roomDesc: "A simple wooden spear lies here."
+  keywords: ["spear"]
+  description: "A simple wooden spear lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2432
+  name: "club"
+  roomDesc: "A stone club is here."
+  keywords: ["club"]
+  description: "A stone club is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2433
+  name: "gavel"
+  roomDesc: "The Judge's gavel lies here."
+  keywords: ["gavel"]
+  description: "The Judge's gavel lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2434
+  name: "staff"
+  roomDesc: "Janna's staff lies here."
+  keywords: ["staff"]
+  description: "Janna's staff lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2435
+  name: "sword"
+  roomDesc: "Geoffrey's sword gleams in the sun."
+  keywords: ["sword"]
+  description: "Geoffrey's sword gleams in the sun."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2436
+  name: "sword"
+  roomDesc: "A simple sword is here."
+  keywords: ["sword"]
+  description: "A simple sword is here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2437
+  name: "sword bastard"
+  roomDesc: "Simon's monstrous bastard sword lies here."
+  keywords: ["sword","bastard"]
+  description: "Simon's monstrous bastard sword lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2438
+  name: "hammer"
+  roomDesc: "A tinker's hammer lies here."
+  keywords: ["hammer"]
+  description: "A tinker's hammer lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2439
+  name: "sword"
+  roomDesc: "Julia's hot, glowing sword lies here."
+  keywords: ["sword"]
+  description: "Julia's hot, glowing sword lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2440
+  name: "amulet"
+  roomDesc: "The amulet of love is lovely!"
+  keywords: ["amulet"]
+  description: "The amulet of love is lovely!"
+  type: ACCESSORY
+- id: o2441
+  name: "sword"
+  roomDesc: "A sword lies on the ground."
+  keywords: ["sword"]
+  description: "A sword lies on the ground."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2442
+  name: "armour"
+  roomDesc: "A paladin's suit of armour lies here."
+  keywords: ["armour"]
+  description: "A paladin's suit of armour lies here."
+  type: HEAVYARMOR
+- id: o2443
+  name: "rapier"
+  roomDesc: "Dupre's rapier is here."
+  keywords: ["rapier"]
+  description: "Dupre's rapier is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2444
+  name: "boomerang"
+  roomDesc: "A gargoyle's boomerang is here."
+  keywords: ["boomerang"]
+  description: "A gargoyle's boomerang is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2445
+  name: "rusty sword"
+  roomDesc: "A corroded, rusty sword is here."
+  keywords: ["rusty","sword"]
+  description: "A corroded, rusty sword is here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2446
+  name: "rusty shield"
+  roomDesc: "A spiked rusty shield lies here."
+  keywords: ["rusty","shield"]
+  description: "A spiked rusty shield lies here."
+  type: SHIELD
+- id: o2447
+  name: "cloak"
+  roomDesc: "A magic cloak is here."
+  keywords: ["cloak"]
+  description: "A magic cloak is here."
+  type: ACCESSORY
+- id: o2448
+  name: "aura power"
+  roomDesc: "A bright light of power shoots into the air."
+  keywords: ["aura","power"]
+  description: "A bright light of power shoots into the air."
+  type: ACCESSORY
+- id: o2449
+  name: "red helmet face"
+  roomDesc: "The empty shell of the Guardian head lies here."
+  keywords: ["red","helmet","face"]
+  description: "The empty shell of the Guardian head lies here."
+  type: HEAVYARMOR
+- id: o2450
+  name: "spiked mace"
+  roomDesc: "Waves of corruption come off this evilly enchanted spiked mace."
+  keywords: ["spiked","mace"]
+  description: "Waves of corruption come off this evilly enchanted spiked mace."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2451
+  name: "black death armour"
+  roomDesc: "This completely black armor reeks of death."
+  keywords: ["black","death","armour"]
+  description: "This completely black armor reeks of death."
+  type: HEAVYARMOR
+- id: o2452
+  name: "evil charm"
+  roomDesc: "You see a very oddly shaped charm...  it might be worth it to\n\rlook at its shape."
+  keywords: ["evil","charm"]
+  description: "You see a very oddly shaped charm...  it might be worth it to\n\rlook at its shape."
+  type: ACCESSORY
+- id: o2453
+  name: "evil gem"
+  roomDesc: "The evil gem pulsates."
+  keywords: ["evil","gem"]
+  description: "The evil gem pulsates."
+  type: TREASURE
+- id: o2454
+  name: "helmet"
+  roomDesc: "Sentri's helmet is here."
+  keywords: ["helmet"]
+  description: "Sentri's helmet is here."
+  type: HEAVYARMOR
+- id: o2455
+  name: "sleeves"
+  roomDesc: "Sentri's sleeves lies here."
+  keywords: ["sleeves"]
+  description: "Sentri's sleeves lies here."
+  type: HEAVYARMOR
+- id: o2456
+  name: "girth"
+  roomDesc: "Sentri's girth is here."
+  keywords: ["girth"]
+  description: "Sentri's girth is here."
+  type: ACCESSORY
+- id: o2457
+  name: "two-handed sword"
+  roomDesc: "Sentri's two-handed sword is here."
+  keywords: ["two-handed","sword"]
+  description: "Sentri's two-handed sword is here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2458
+  name: "gloves"
+  roomDesc: "Sentri's gloves are here."
+  keywords: ["gloves"]
+  description: "Sentri's gloves are here."
+  type: HEAVYARMOR
+- id: o2459
+  name: "boots"
+  roomDesc: "Sentri's boots are here."
+  keywords: ["boots"]
+  description: "Sentri's boots are here."
+  type: HEAVYARMOR
+- id: o2460
+  name: "leggings"
+  roomDesc: "Sentri left his leggings here."
+  keywords: ["leggings"]
+  description: "Sentri left his leggings here."
+  type: HEAVYARMOR
+- id: o2461
+  name: "armour"
+  roomDesc: "Sentri left his armour here."
+  keywords: ["armour"]
+  description: "Sentri left his armour here."
+  type: HEAVYARMOR
+- id: o2462
+  name: "fellowship medallion"
+  roomDesc: "A triangular shaped medallion is here."
+  keywords: ["fellowship","medallion"]
+  description: "A triangular shaped medallion is here."
+  type: ACCESSORY
+- id: o2463
+  name: "glass sword"
+  roomDesc: "The most amazingly well crafted sword lies here."
+  keywords: ["glass","sword"]
+  description: "The most amazingly well crafted sword lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2464
+  name: "crown"
+  roomDesc: "A jewel encrusted crown is here."
+  keywords: ["crown"]
+  description: "A jewel encrusted crown is here."
+  type: LIGHTARMOR
+- id: o2465
+  name: "sceptre"
+  roomDesc: "A pure gold sceptre is topped with a perfect crystal orb of\n\rpower."
+  keywords: ["sceptre"]
+  description: "A pure gold sceptre is topped with a perfect crystal orb of\n\rpower."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2466
+  name: "silver amulet"
+  roomDesc: "A silver amulet lies here."
+  keywords: ["silver","amulet"]
+  description: "A silver amulet lies here."
+  type: ACCESSORY
+- id: o2467
+  name: "fountain"
+  roomDesc: "A fountain shaped in an Ankh pours water."
+  keywords: ["fountain"]
+  description: "A fountain shaped in an Ankh pours water."
+  type: FOUNTAIN
+- id: o2468
+  name: "boat"
+  roomDesc: "A boat lies here."
+  keywords: ["boat"]
+  description: "A boat lies here."
+  type: BOAT
+- id: o2469
+  name: "dragonquest666"
+  roomDesc: "A Silver Dragonstone lies here gleaming."
+  keywords: ["dragonquest666"]
+  description: "A Silver Dragonstone lies here gleaming."
+  type: FOOD

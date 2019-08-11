@@ -1,0 +1,17 @@
+---
+body: |
+  Your character advances in power by gaining experience.
+  
+  You gain experience by being part of a group that kills someone/something.
+  
+  You lose experience by dying or being decapitated.
+  
+  The experience you get from a kill depends on several things: how many 
+  players are in your group; your size (total hps/mana/move){this is the main 
+  factor}, your age, your status, how hard the mob is to kill, and some random
+  variations.
+  
+  See also help on STATUS and TRAIN.
+  
+  - xp
+  - exp

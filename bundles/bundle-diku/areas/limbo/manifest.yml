@@ -1,0 +1,12 @@
+title: "Limbo"
+metadata:
+  id: 43
+  name: "Limbo"
+  createdBy: "diku"
+  starting_vnum: 0
+  ending_vnum: 99
+  item_requirements: 0
+  filename: "limbo.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

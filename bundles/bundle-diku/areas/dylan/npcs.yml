@@ -1,0 +1,205 @@
+- id: m9101
+  keywords: ["harpy"]
+  name: "the screaming, filthy harpy"
+  description: >-
+    The screaming, filthy harpy claws madly at your face!
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 28975
+          max: 32025
+  metadata:
+    areaId: 23
+    exp_level: 4000
+    sex: 2
+- id: m9102
+  keywords: ["harpy","leader"]
+  name: "the screaming harpy leader"
+  description: >-
+    The screaming harpy leader tries to scratch your eyes out!
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 40375
+          max: 44625
+      pools:
+        "dylan:o9104": 75
+        "dylan:o9105": 75
+  metadata:
+    areaId: 23
+    exp_level: 4000
+    sex: 2
+- id: m9103
+  keywords: ["air","elemental"]
+  name: "the ghostly air elemental"
+  description: >-
+    The ghostly air elemental.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 23
+    exp_level: 4000
+    sex: 0
+- id: m9104
+  keywords: ["mysterious","effreeti"]
+  name: "the mysterious effreeti"
+  description: >-
+    The mysterious effreeti grins in delight at its new prey.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47500
+          max: 52500
+      pools:
+        "dylan:o9102": 75
+        "dylan:o9103": 75
+  metadata:
+    areaId: 23
+    exp_level: 4000
+    sex: 0
+- id: m9105
+  keywords: ["roc"]
+  name: "the gigantic roc"
+  description: >-
+    The gigantic roc.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 50
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 23
+    exp_level: 4000
+    sex: 2
+- id: m9106
+  keywords: ["roc"]
+  name: "the gigantic roc"
+  description: >-
+    The gigantic roc stares menacingly at you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 50
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 38000
+          max: 42000
+  metadata:
+    areaId: 23
+    exp_level: 4000
+    sex: 1
+- id: m9107
+  keywords: ["wicked","witch"]
+  name: "the ugly, wicked witch"
+  description: >-
+    The ugly, wicked witch cackles maniacally.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 190000
+          max: 210000
+  metadata:
+    areaId: 23
+    exp_level: 4000
+    sex: 2

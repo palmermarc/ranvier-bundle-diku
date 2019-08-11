@@ -1,0 +1,18 @@
+---
+body: |
+  syntax: quest <item> indest
+  
+  Players who reach status 10 <Adventurer> gain the ability to make their
+  eq 'indestructable.'
+  
+  This ability costs 500qp per item. Items that are made indestructable 
+  cannot be broken. The only drawbacks are: you lose the ability to
+  sacrifice the eq, and the 'indestructable' powers do not work if the 
+  player's status falls below 10.
+  
+  It is up to you to learn which pieces should be indested.
+  
+  See also: help fighterbonus
+  
+  
+  - indestructable

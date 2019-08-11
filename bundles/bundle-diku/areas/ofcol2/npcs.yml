@@ -1,0 +1,1062 @@
+- id: m600
+  keywords: ["cityguard","guard"]
+  name: "the Ofcol cityguard"
+  description: >-
+    An Ofcol cityguard is standing here, making sure there is no trouble.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "ofcol2:o620": 75
+        "ofcol2:o621": 75
+        "ofcol2:o630": 75
+        "ofcol2:o622": 75
+        "ofcol2:o623": 75
+        "ofcol2:o624": 75
+        "ofcol2:o625": 75
+        "ofcol2:o626": 75
+        "ofcol2:o627": 75
+        "ofcol2:o628": 75
+        "ofcol2:o629": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m601
+  keywords: ["marshall","diana"]
+  name: "Marshall Diana"
+  description: >-
+    Diana, the Marshall of Ofcol, stands here proudly.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "ofcol2:o620": 75
+        "ofcol2:o639": 75
+        "ofcol2:o640": 75
+        "ofcol2:o641": 75
+        "ofcol2:o642": 75
+        "ofcol2:o643": 75
+        "ofcol2:o644": 75
+        "ofcol2:o645": 75
+        "ofcol2:o646": 75
+        "ofcol2:o647": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 2
+- id: m602
+  keywords: ["derrick","captain","guard","cityguard"]
+  name: "Captain Derrick"
+  description: >-
+    Derrick, Captain of the Guard, is here disciplining his guards.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "ofcol2:o620": 75
+        "ofcol2:o631": 75
+        "ofcol2:o653": 75
+        "ofcol2:o632": 75
+        "ofcol2:o633": 75
+        "ofcol2:o634": 75
+        "ofcol2:o635": 75
+        "ofcol2:o626": 75
+        "ofcol2:o627": 75
+        "ofcol2:o628": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m603
+  keywords: ["jacklyn","captain","guard","cityguard"]
+  name: "Captain Jacklyn"
+  description: >-
+    Jacklyn, Captain of the Citadel Guard, is herebringing her soldiers' morale up.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "ofcol2:o620": 75
+        "ofcol2:o631": 75
+        "ofcol2:o653": 75
+        "ofcol2:o632": 75
+        "ofcol2:o623": 75
+        "ofcol2:o624": 75
+        "ofcol2:o625": 75
+        "ofcol2:o636": 75
+        "ofcol2:o637": 75
+        "ofcol2:o638": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 2
+- id: m604
+  keywords: ["jim","blacksmith"]
+  name: "Jim the Blacksmith"
+  description: >-
+    Jim the Blacksmith is here, selling his latest works of metal.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 71250
+          max: 78750
+      pools:
+        "ofcol2:o600": 75
+        "ofcol2:o601": 75
+        "ofcol2:o615": 75
+        "ofcol2:o667": 75
+  metadata:
+    vendor:
+      items:
+        "ofcol2:o600":
+          cost: 100
+          currency: gold
+        "ofcol2:o601":
+          cost: 150
+          currency: gold
+        "ofcol2:o615":
+          cost: 50
+          currency: gold
+        "ofcol2:o667":
+          cost: 100
+          currency: gold
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m605
+  keywords: ["sam"]
+  name: "Sam"
+  description: >-
+    Sam is here, selling his leather works.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 14250
+          max: 15750
+      pools:
+        "ofcol2:o616": 75
+        "ofcol2:o617": 75
+        "ofcol2:o618": 75
+        "ofcol2:o619": 75
+  metadata:
+    vendor:
+      items:
+        "ofcol2:o616":
+          cost: 50
+          currency: gold
+        "ofcol2:o617":
+          cost: 50
+          currency: gold
+        "ofcol2:o618":
+          cost: 50
+          currency: gold
+        "ofcol2:o619":
+          cost: 50
+          currency: gold
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m606
+  keywords: ["madam","tracy"]
+  name: "Madam Tracy"
+  description: >-
+    Madam Tracy is here, selling and buying little treasures.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 23750
+          max: 26250
+      pools:
+        "ofcol2:o606": 75
+        "ofcol2:o607": 75
+        "ofcol2:o608": 75
+  metadata:
+    vendor:
+      items:
+        "ofcol2:o606":
+          cost: 10000
+          currency: gold
+        "ofcol2:o607":
+          cost: 100
+          currency: gold
+        "ofcol2:o608":
+          cost: 10000
+          currency: gold
+    areaId: 56
+    exp_level: 1000
+    sex: 2
+- id: m607
+  keywords: ["marty"]
+  name: "Marty"
+  description: >-
+    Marty the meat store owner is here, selling you his choice meats.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "ofcol2:o602": 75
+        "ofcol2:o603": 75
+        "ofcol2:o604": 75
+        "ofcol2:o605": 75
+  metadata:
+    vendor:
+      items:
+        "ofcol2:o602":
+          cost: 50
+          currency: gold
+        "ofcol2:o603":
+          cost: 45
+          currency: gold
+        "ofcol2:o604":
+          cost: 60
+          currency: gold
+        "ofcol2:o605":
+          cost: 30
+          currency: gold
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m608
+  keywords: ["elizabeth","farmer"]
+  name: "Farmer Elizabeth"
+  description: >-
+    Farmer Elizabeth is here, selling the latest crop.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "ofcol2:o609": 75
+        "ofcol2:o610": 75
+        "ofcol2:o611": 75
+        "ofcol2:o612": 75
+        "ofcol2:o613": 75
+  metadata:
+    vendor:
+      items:
+        "ofcol2:o609":
+          cost: 20
+          currency: gold
+        "ofcol2:o610":
+          cost: 20
+          currency: gold
+        "ofcol2:o611":
+          cost: 40
+          currency: gold
+        "ofcol2:o612":
+          cost: 5
+          currency: gold
+        "ofcol2:o613":
+          cost: 5
+          currency: gold
+    areaId: 56
+    exp_level: 1000
+    sex: 2
+- id: m609
+  keywords: ["granny","jenkins"]
+  name: "Granny Jenkins"
+  description: >-
+    Granny Jenkins is here, running the still.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 2
+- id: m610
+  keywords: ["jack"]
+  name: "Jack"
+  description: >-
+    Jack is here slaughtering away at the animals.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "ofcol2:o601": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m611
+  keywords: ["sara","farmer"]
+  name: "Farmer Sara"
+  description: >-
+    Farmer Sara is here, milking the cows.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "ofcol2:o615": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 2
+- id: m612
+  keywords: ["chicken","hen"]
+  name: "a hen"
+  description: >-
+    A hen is here, squawking at your intrusion.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 2
+- id: m613
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    A cow is here, munching on grass.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 0
+- id: m614
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    A cow is here, waiting to be milked.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 2
+- id: m615
+  keywords: ["horse","young"]
+  name: "the young horse"
+  description: >-
+    A young horse is here, grazing.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 0
+- id: m616
+  keywords: ["pig"]
+  name: "the pig"
+  description: >-
+    A pig is playing here, getting itself and you dirty.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 0
+- id: m617
+  keywords: ["citizen","man"]
+  name: "the citizen"
+  description: >-
+    A citizen is here, smiling at you.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m618
+  keywords: ["citizen","woman"]
+  name: "the citizen"
+  description: >-
+    A citizen is here, smiling at you.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 2
+- id: m619
+  keywords: ["child","boy"]
+  name: "the boy"
+  description: >-
+    A boy is here, playing tag and other kids' games.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m620
+  keywords: ["child","girl"]
+  name: "the girl"
+  description: >-
+    A girl is here, playing jump jacks and other kids' games.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 2
+- id: m621
+  keywords: ["maid","woman"]
+  name: "the maid"
+  description: >-
+    A maid is here, cleaning the house and preparing the next meal.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "ofcol2:o666": 75
+        "ofcol2:o665": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 2
+- id: m622
+  keywords: ["Nyles"]
+  name: "Nyles the Bartender"
+  description: >-
+    Nyles the Bartender is here, ready to serve you up a good brew.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "ofcol2:o648": 75
+        "ofcol2:o649": 75
+        "ofcol2:o650": 75
+  metadata:
+    vendor:
+      items:
+        "ofcol2:o648":
+          cost: 10
+          currency: gold
+        "ofcol2:o649":
+          cost: 20
+          currency: gold
+        "ofcol2:o650":
+          cost: 20
+          currency: gold
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m623
+  keywords: ["cityguard","guard"]
+  name: "the Ofcol cityguard"
+  description: >-
+    An Ofcol cityguard is posted here to guard the gate.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "ofcol2:o620": 75
+        "ofcol2:o621": 75
+        "ofcol2:o630": 75
+        "ofcol2:o627": 75
+        "ofcol2:o651": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m624
+  keywords: ["bard"]
+  name: "a bard"
+  description: >-
+    A bard is here, singing of the glories of Ofcol.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m625
+  keywords: ["servant"]
+  name: "a servant"
+  description: >-
+    A servant is here, carrying the duties of the Keeper of the Golden Citadel.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m626
+  keywords: ["squire"]
+  name: "a squire"
+  description: >-
+    A squire is here, scurrying from duty to duty.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m627
+  keywords: ["page"]
+  name: "a page"
+  description: >-
+    A page is here, sending a message to his knight.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m628
+  keywords: ["priestess"]
+  name: "the Priestess of Ofcol"
+  description: >-
+    The Priestess of Ofcol is here, blessing you with her beatific smile.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "ofcol2:o620": 75
+        "ofcol2:o664": 75
+        "ofcol2:o652": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 2
+- id: m629
+  keywords: ["chaplain","Jerrold"]
+  name: "Chaplain Jerrold"
+  description: >-
+    Jerrold, the chaplain of this Citadel, is here directing the activities of the people around here.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "ofcol2:o664": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m630
+  keywords: ["dragonlord","lord","dragon"]
+  name: "a Dragonlord"
+  description: >-
+    A knight wearing the scales of a dragon stands here.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "ofcol2:o620": 75
+        "ofcol2:o654": 75
+        "ofcol2:o660": 75
+        "ofcol2:o662": 75
+        "ofcol2:o656": 75
+        "ofcol2:o657": 75
+        "ofcol2:o658": 75
+        "ofcol2:o659": 75
+        "ofcol2:o661": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m631
+  keywords: ["dragon","gold"]
+  name: "The Ancient Gold Dragon"
+  description: >-
+    An old dragon shimmering with the colors of this cavern peers at you sleepily.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "ofcol2:o620": 75
+        "ofcol2:o662": 75
+        "ofcol2:o663": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m632
+  keywords: ["attendant"]
+  name: "an attendant of the dragon"
+  description: >-
+    A person robed in gold is attending to the Keeper of the Citadel.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "ofcol2:o620": 75
+        "ofcol2:o664": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m633
+  keywords: ["dragonknight","knight","dragon"]
+  name: "a Dragonknight"
+  description: >-
+    A person dressed in the scales of a gold dragon stands here, guarding the Golden Citadel.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "ofcol2:o620": 75
+        "ofcol2:o654": 75
+        "ofcol2:o660": 75
+        "ofcol2:o662": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1
+- id: m634
+  keywords: ["cityguard","guard"]
+  name: "the Ofcol cityguard"
+  description: >-
+    An Ofcol cityguard is posted here to guard the gate.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "ofcol2:o620": 75
+        "ofcol2:o621": 75
+        "ofcol2:o630": 75
+        "ofcol2:o627": 75
+        "ofcol2:o651": 75
+  metadata:
+    areaId: 56
+    exp_level: 1000
+    sex: 1

@@ -1,0 +1,6 @@
+- id: o1250
+  name: "clan lasombra book"
+  roomDesc: "A tomb filled with clan secrets lies here."
+  keywords: ["clan","lasombra","book"]
+  description: "A tomb filled with clan secrets lies here."
+  type: FURNITURE

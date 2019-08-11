@@ -1,0 +1,310 @@
+- id: m8900
+  keywords: ["hierophant"]
+  name: "The Hierophant"
+  description: >-
+    The old Hierophant of the holy grove is here, gathering hollies.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "grove:o8910": 75
+        "grove:o8911": 75
+        "grove:o8919": 75
+        "grove:o8918": 75
+  metadata:
+    areaId: 31
+    exp_level: 10000
+    sex: 1
+- id: m8901
+  keywords: ["hierophant"]
+  name: "The Hierophant"
+  description: >-
+    The old Hierophant of the holy grove is here, gathering ivy.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "grove:o8910": 75
+        "grove:o8911": 75
+        "grove:o8913": 75
+        "grove:o8915": 75
+  metadata:
+    areaId: 31
+    exp_level: 10000
+    sex: 2
+- id: m8902
+  keywords: ["elder","druid"]
+  name: "an elder druid"
+  description: >-
+    An elder druid stands here, watching the local flora and wildlife.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "grove:o8910": 75
+        "grove:o8914": 75
+        "grove:o8916": 75
+  metadata:
+    areaId: 31
+    exp_level: 10000
+    sex: 1
+- id: m8903
+  keywords: ["elder","druidess"]
+  name: "an elder druidess"
+  description: >-
+    An elder druidess stands here, watching the local fauna and feeding rabbits.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "grove:o8910": 75
+        "grove:o8919": 75
+        "grove:o8917": 75
+  metadata:
+    areaId: 31
+    exp_level: 10000
+    sex: 2
+- id: m8904
+  keywords: ["doe"]
+  name: "a doe"
+  description: >-
+    A doe is here, munching on grass.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 31
+    exp_level: 10000
+    sex: 2
+- id: m8905
+  keywords: ["deer"]
+  name: "a deer"
+  description: >-
+    A deer is here, staring back at you.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 31
+    exp_level: 10000
+    sex: 1
+- id: m8906
+  keywords: ["stag","deer","large"]
+  name: "a stag"
+  description: >-
+    A large deer stag is here, protecting his territory.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 31
+    exp_level: 10000
+    sex: 1
+- id: m8907
+  keywords: ["bunny","rabbit"]
+  name: "a small bunny"
+  description: >-
+    A small bunny is here, poking from bush to bush.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 31
+    exp_level: 10000
+    sex: 0
+- id: m8908
+  keywords: ["snake"]
+  name: "a harmless snake"
+  description: >-
+    A small snake slithers between the grass.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 31
+    exp_level: 10000
+    sex: 0
+- id: m8909
+  keywords: ["druid"]
+  name: "a druid"
+  description: >-
+    A druid is here in meditation.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "grove:o8913": 75
+        "grove:o8916": 75
+  metadata:
+    areaId: 31
+    exp_level: 10000
+    sex: 1
+- id: m8910
+  keywords: ["druidess"]
+  name: "a druidess"
+  description: >-
+    A druidess is here, peering at you.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "grove:o8914": 75
+        "grove:o8918": 75
+  metadata:
+    areaId: 31
+    exp_level: 10000
+    sex: 2

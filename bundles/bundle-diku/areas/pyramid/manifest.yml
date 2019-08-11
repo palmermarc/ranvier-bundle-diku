@@ -1,0 +1,12 @@
+title: "The Great Pyramid"
+metadata:
+  id: 61
+  name: "The Great Pyramid"
+  createdBy: "andi"
+  starting_vnum: 4200
+  ending_vnum: 4299
+  item_requirements: 24000
+  filename: "pyramid.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

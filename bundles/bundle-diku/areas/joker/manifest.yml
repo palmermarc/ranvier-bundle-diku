@@ -1,0 +1,12 @@
+title: "Quest level 1"
+metadata:
+  id: 38
+  name: "Quest level 1"
+  createdBy: "joker"
+  starting_vnum: 20000
+  ending_vnum: 20149
+  item_requirements: 0
+  filename: "joker.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,438 @@
+- id: o24300
+  name: "haddock"
+  roomDesc: "A piece of haddock."
+  keywords: ["haddock"]
+  description: "A piece of haddock."
+  type: FOOD
+- id: o24301
+  name: "cod"
+  roomDesc: "A piece of cod."
+  keywords: ["cod"]
+  description: "A piece of cod."
+  type: FOOD
+- id: o24302
+  name: "salmon"
+  roomDesc: "A lovely slice of salmon."
+  keywords: ["salmon"]
+  description: "A lovely slice of salmon."
+  type: FOOD
+- id: o24303
+  name: "fish cake"
+  roomDesc: "A fish cake, with a lovely golden batter to it."
+  keywords: ["fish","cake"]
+  description: "A fish cake, with a lovely golden batter to it."
+  type: FOOD
+- id: o24304
+  name: "pork pie"
+  roomDesc: "A large pork pie lies here."
+  keywords: ["pork","pie"]
+  description: "A large pork pie lies here."
+  type: FOOD
+- id: o24305
+  name: "sausage roll"
+  roomDesc: "A sausage roll lies here."
+  keywords: ["sausage","roll"]
+  description: "A sausage roll lies here."
+  type: FOOD
+- id: o24306
+  name: "crisps"
+  roomDesc: "A packet of salted crisps lays here."
+  keywords: ["crisps"]
+  description: "A packet of salted crisps lays here."
+  type: FOOD
+- id: o24307
+  name: "stew"
+  roomDesc: "A bowl of beef stew is lying here."
+  keywords: ["stew"]
+  description: "A bowl of beef stew is lying here."
+  type: FOOD
+- id: o24308
+  name: "Steak"
+  roomDesc: "A large juicy steak is lying here."
+  keywords: ["Steak"]
+  description: "A large juicy steak is lying here."
+  type: FOOD
+- id: o24309
+  name: "red key"
+  roomDesc: "A small rey key lays here."
+  keywords: ["red","key"]
+  description: "A small rey key lays here."
+  type: KEY
+- id: o24310
+  name: "green key"
+  roomDesc: "A small green key lays here."
+  keywords: ["green","key"]
+  description: "A small green key lays here."
+  type: KEY
+- id: o24311
+  name: "golden key"
+  roomDesc: "A small golden key lays here."
+  keywords: ["golden","key"]
+  description: "A small golden key lays here."
+  type: KEY
+- id: o24312
+  name: "black key"
+  roomDesc: "A small dirty black key lays here."
+  keywords: ["black","key"]
+  description: "A small dirty black key lays here."
+  type: KEY
+- id: o24313
+  name: "blue elixir"
+  roomDesc: "An elixir of the deepest blue is here."
+  keywords: ["blue","elixir"]
+  description: "An elixir of the deepest blue is here."
+  type: POTION
+- id: o24314
+  name: "green elixir"
+  roomDesc: "A vial of clear green elixir is here."
+  keywords: ["green","elixir"]
+  description: "A vial of clear green elixir is here."
+  type: POTION
+- id: o24315
+  name: "yellow elixir"
+  roomDesc: "A vial of clear yellow elixir is here."
+  keywords: ["yellow","elixir"]
+  description: "A vial of clear yellow elixir is here."
+  type: POTION
+- id: o24316
+  name: "red elixir"
+  roomDesc: "A a vial of dark red elixir is here."
+  keywords: ["red","elixir"]
+  description: "A a vial of dark red elixir is here."
+  type: POTION
+- id: o24317
+  name: "brown vial"
+  roomDesc: "A vial of brown elixir is here."
+  keywords: ["brown","vial"]
+  description: "A vial of brown elixir is here."
+  type: POTION
+- id: o24318
+  name: "black elixir"
+  roomDesc: "A a vial of black elixir lies here."
+  keywords: ["black","elixir"]
+  description: "A a vial of black elixir lies here."
+  type: POTION
+- id: o24319
+  name: "runed scroll"
+  roomDesc: "A a scroll riddled with ancient runes lays here."
+  keywords: ["runed","scroll"]
+  description: "A a scroll riddled with ancient runes lays here."
+  type: SCROLL
+- id: o24320
+  name: "white scroll"
+  roomDesc: "A white scroll is laying here."
+  keywords: ["white","scroll"]
+  description: "A white scroll is laying here."
+  type: SCROLL
+- id: o24321
+  name: "black wand"
+  roomDesc: "A small black stick is here."
+  keywords: ["black","wand"]
+  description: "A small black stick is here."
+  type: WAND
+- id: o24322
+  name: "wooden staff"
+  roomDesc: "A large wooden staff is here."
+  keywords: ["wooden","staff"]
+  description: "A large wooden staff is here."
+  type: STAFF
+- id: o24323
+  name: "green pills pot"
+  roomDesc: "A small tub of uppers are here."
+  keywords: ["green","pills","pot"]
+  description: "A small tub of uppers are here."
+  type: PILL
+- id: o24324
+  name: "pike"
+  roomDesc: "A large pike is propped up again the wall."
+  keywords: ["pike"]
+  description: "A large pike is propped up again the wall."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o24325
+  name: "morning star"
+  roomDesc: "A rather heavy looking morning star is here."
+  keywords: ["morning","star"]
+  description: "A rather heavy looking morning star is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o24326
+  name: "black dirk"
+  roomDesc: "A small black dirk is laying on the floor."
+  keywords: ["black","dirk"]
+  description: "A small black dirk is laying on the floor."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o24327
+  name: "huge sword"
+  roomDesc: "A huge dark green sword rests here."
+  keywords: ["huge","sword"]
+  description: "A huge dark green sword rests here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o24328
+  name: "smokey quartz"
+  roomDesc: "A a large cluster of smokey quartz is laying on the floor."
+  keywords: ["smokey","quartz"]
+  description: "A a large cluster of smokey quartz is laying on the floor."
+  type: TREASURE
+- id: o24329
+  name: "rose quartz"
+  roomDesc: "A lump of a pink rock is here."
+  keywords: ["rose","quartz"]
+  description: "A lump of a pink rock is here."
+  type: TREASURE
+- id: o24330
+  name: "ingot gold"
+  roomDesc: "A large ingot of gold lays here."
+  keywords: ["ingot","gold"]
+  description: "A large ingot of gold lays here."
+  type: TREASURE
+- id: o24331
+  name: "black diamond"
+  roomDesc: "A large black piece of exceptionally shiny carbon is here."
+  keywords: ["black","diamond"]
+  description: "A large black piece of exceptionally shiny carbon is here."
+  type: TREASURE
+- id: o24332
+  name: "lettuce"
+  roomDesc: "A nice fresh lettuce is here."
+  keywords: ["lettuce"]
+  description: "A nice fresh lettuce is here."
+  type: FOOD
+- id: o24333
+  name: "bunch carrot carrots"
+  roomDesc: "A large bunch of carrots are here."
+  keywords: ["bunch","carrot","carrots"]
+  description: "A large bunch of carrots are here."
+  type: FOOD
+- id: o24334
+  name: "sack potatoes"
+  roomDesc: "A large sack of potatoes are leaning against the stall."
+  keywords: ["sack","potatoes"]
+  description: "A large sack of potatoes are leaning against the stall."
+  type: FOOD
+- id: o24335
+  name: "sprouts"
+  roomDesc: "The scourge of the univers lays here .... SPROUTS!!"
+  keywords: ["sprouts"]
+  description: "The scourge of the univers lays here .... SPROUTS!!"
+  type: FOOD
+- id: o24336
+  name: "steel plate"
+  roomDesc: "A shiny new vest of steel lays here."
+  keywords: ["steel","plate"]
+  description: "A shiny new vest of steel lays here."
+  type: HEAVYARMOR
+- id: o24337
+  name: "rainbow bracer"
+  roomDesc: "A bracer of many colours lays here."
+  keywords: ["rainbow","bracer"]
+  description: "A bracer of many colours lays here."
+  type: LIGHTARMOR
+- id: o24338
+  name: "steel helm"
+  roomDesc: "A new shiny steel helm is here."
+  keywords: ["steel","helm"]
+  description: "A new shiny steel helm is here."
+  type: HEAVYARMOR
+- id: o24339
+  name: "steel shield"
+  roomDesc: "A large steel shield is propped up here.."
+  keywords: ["steel","shield"]
+  description: "A large steel shield is propped up here.."
+  type: SHIELD
+- id: o24340
+  name: "inflatable dinghy"
+  roomDesc: "A a small inflatable dinghy is here."
+  keywords: ["inflatable","dinghy"]
+  description: "A a small inflatable dinghy is here."
+  type: BOAT
+- id: o24341
+  name: "flask"
+  roomDesc: "A large flask made of a light material is here."
+  keywords: ["flask"]
+  description: "A large flask made of a light material is here."
+  type: DRINKCON
+- id: o24342
+  name: "torch"
+  roomDesc: "A torch is laying here."
+  keywords: ["torch"]
+  description: "A torch is laying here."
+  type: LIGHT
+- id: o24343
+  name: "small rucksack"
+  roomDesc: "A samll rucksack is laying on the floor."
+  keywords: ["small","rucksack"]
+  description: "A samll rucksack is laying on the floor."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o24344
+  name: "leather whip"
+  roomDesc: "A long leather whip lays here."
+  keywords: ["leather","whip"]
+  description: "A long leather whip lays here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o24345
+  name: "leather vest"
+  roomDesc: "A leather vest is here."
+  keywords: ["leather","vest"]
+  description: "A leather vest is here."
+  type: MEDIUMARMOR
+- id: o24346
+  name: "leather boots"
+  roomDesc: "A pair of leather boots have been discarded here."
+  keywords: ["leather","boots"]
+  description: "A pair of leather boots have been discarded here."
+  type: MEDIUMARMOR
+- id: o24347
+  name: "leather bracer"
+  roomDesc: "A leather bracer lays here."
+  keywords: ["leather","bracer"]
+  description: "A leather bracer lays here."
+  type: MEDIUMARMOR
+- id: o24348
+  name: "scroll of healing"
+  roomDesc: "A scroll of healing is here."
+  keywords: ["scroll","of","healing"]
+  description: "A scroll of healing is here."
+  type: SCROLL
+- id: o24349
+  name: "heal pill"
+  roomDesc: "A pill of healing is here."
+  keywords: ["heal","pill"]
+  description: "A pill of healing is here."
+  type: PILL
+- id: o24350
+  name: "salve healing"
+  roomDesc: "A healing salve is lying here."
+  keywords: ["salve","healing"]
+  description: "A healing salve is lying here."
+  type: POTION
+- id: o24351
+  name: "staff healing"
+  roomDesc: "A satff of healing is here."
+  keywords: ["staff","healing"]
+  description: "A satff of healing is here."
+  type: STAFF
+- id: o24352
+  name: "bread"
+  roomDesc: "A large loaf of bread lays here."
+  keywords: ["bread"]
+  description: "A large loaf of bread lays here."
+  type: FOOD
+- id: o24353
+  name: "scone"
+  roomDesc: "A small scone lays here."
+  keywords: ["scone"]
+  description: "A small scone lays here."
+  type: FOOD
+- id: o24354
+  name: "cake"
+  roomDesc: "A large lump of spong cake is here."
+  keywords: ["cake"]
+  description: "A large lump of spong cake is here."
+  type: FOOD
+- id: o24355
+  name: "biscuit"
+  roomDesc: "A shortbread biscuit is here."
+  keywords: ["biscuit"]
+  description: "A shortbread biscuit is here."
+  type: FOOD
+- id: o24356
+  name: "map midgaard"
+  roomDesc: "A map is rolled up here."
+  keywords: ["map","midgaard"]
+  description: "A map is rolled up here."
+  type: TRASH
+- id: o24357
+  name: "map concourse"
+  roomDesc: "A map is rolled up here."
+  keywords: ["map","concourse"]
+  description: "A map is rolled up here."
+  type: TRASH
+- id: o24358
+  name: "map moria"
+  roomDesc: "A map lays here rolled up."
+  keywords: ["map","moria"]
+  description: "A map lays here rolled up."
+  type: TRASH
+- id: o24359
+  name: "map moria"
+  roomDesc: "A map olays here rolled up."
+  keywords: ["map","moria"]
+  description: "A map olays here rolled up."
+  type: TRASH
+- id: o24360
+  name: "map moria"
+  roomDesc: "A map lays here on the floor."
+  keywords: ["map","moria"]
+  description: "A map lays here on the floor."
+  type: TRASH
+- id: o24361
+  name: "map sewer"
+  roomDesc: "A map lays here rolled up."
+  keywords: ["map","sewer"]
+  description: "A map lays here rolled up."
+  type: TRASH
+- id: o24362
+  name: "map sewer"
+  roomDesc: "A map lays here rolled up."
+  keywords: ["map","sewer"]
+  description: "A map lays here rolled up."
+  type: TRASH
+- id: o24363
+  name: "map sewer"
+  roomDesc: "A map lays here rolled up."
+  keywords: ["map","sewer"]
+  description: "A map lays here rolled up."
+  type: TRASH
+- id: o24364
+  name: "map midennir"
+  roomDesc: "A map is rolled up on the floor."
+  keywords: ["map","midennir"]
+  description: "A map is rolled up on the floor."
+  type: TRASH
+- id: o24365
+  name: "bottle Lemonade"
+  roomDesc: "A bottle of lemonade is laying here."
+  keywords: ["bottle","Lemonade"]
+  description: "A bottle of lemonade is laying here."
+  type: DRINKCON
+- id: o24366
+  name: "bottle liquid"
+  roomDesc: "A bottle of dark liquid lays here."
+  keywords: ["bottle","liquid"]
+  description: "A bottle of dark liquid lays here."
+  type: DRINKCON
+- id: o24367
+  name: "bottle beer"
+  roomDesc: "A bottle of castle beer lays here."
+  keywords: ["bottle","beer"]
+  description: "A bottle of castle beer lays here."
+  type: DRINKCON
+- id: o24368
+  name: "shot whisky"
+  roomDesc: "A bottle of the best caslte whisky"
+  keywords: ["shot","whisky"]
+  description: "A bottle of the best caslte whisky"
+  type: DRINKCON

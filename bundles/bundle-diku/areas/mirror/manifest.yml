@@ -1,0 +1,12 @@
+title: "Old Thalos"
+metadata:
+  id: 48
+  name: "Old Thalos"
+  createdBy: "kahn"
+  starting_vnum: 5300
+  ending_vnum: 5399
+  item_requirements: 0
+  filename: "mirror.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

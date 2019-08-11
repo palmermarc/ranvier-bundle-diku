@@ -1,0 +1,192 @@
+- id: o900
+  name: "aegis plate"
+  roomDesc: "A powerful breast plate has been left here."
+  keywords: ["aegis","plate"]
+  description: "A powerful breast plate has been left here."
+  type: HEAVYARMOR
+- id: o901
+  name: "hammer thunder bolt thunderbolt"
+  roomDesc: "A huge hammer has been carelessly dropped here."
+  keywords: ["hammer","thunder","bolt","thunderbolt"]
+  description: "A huge hammer has been carelessly dropped here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o902
+  name: "helmet winged"
+  roomDesc: "A helmet with small wings lies here."
+  keywords: ["helmet","winged"]
+  description: "A helmet with small wings lies here."
+  type: HEAVYARMOR
+- id: o903
+  name: "spear ares"
+  roomDesc: "A wicked spear rests on the ground here."
+  keywords: ["spear","ares"]
+  description: "A wicked spear rests on the ground here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o904
+  name: "sandals winged"
+  roomDesc: "A pair of well made sandals lies here."
+  keywords: ["sandals","winged"]
+  description: "A pair of well made sandals lies here."
+  type: LIGHTARMOR
+- id: o905
+  name: "staff ivory"
+  roomDesc: "An ivory staff."
+  keywords: ["staff","ivory"]
+  description: "An ivory staff."
+  type: STAFF
+- id: o906
+  name: "trident poseidon"
+  roomDesc: "A huge three pronged spear lies here."
+  keywords: ["trident","poseidon"]
+  description: "A huge three pronged spear lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o907
+  name: "bow silver"
+  roomDesc: "A silver bow."
+  keywords: ["bow","silver"]
+  description: "A silver bow."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o908
+  name: "gauntlets flaming"
+  roomDesc: "A pair of metal gauntlets flame here."
+  keywords: ["gauntlets","flaming"]
+  description: "A pair of metal gauntlets flame here."
+  type: HEAVYARMOR
+- id: o909
+  name: "vial potion ambrosia"
+  roomDesc: "A vial of ambrosia lies here."
+  keywords: ["vial","potion","ambrosia"]
+  description: "A vial of ambrosia lies here."
+  type: POTION
+- id: o910
+  name: "necklace glowing"
+  roomDesc: "A necklace with an inner glow lies here."
+  keywords: ["necklace","glowing"]
+  description: "A necklace with an inner glow lies here."
+  type: ACCESSORY
+- id: o911
+  name: "ring sapphire"
+  roomDesc: "A sapphire ring lies here."
+  keywords: ["ring","sapphire"]
+  description: "A sapphire ring lies here."
+  type: ACCESSORY
+- id: o912
+  name: "shield glowing"
+  roomDesc: "A shield lies here, filling the room with its aura."
+  keywords: ["shield","glowing"]
+  description: "A shield lies here, filling the room with its aura."
+  type: SHIELD
+- id: o913
+  name: "axe notched"
+  roomDesc: "A notched axe."
+  keywords: ["axe","notched"]
+  description: "A notched axe."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o914
+  name: "grapes"
+  roomDesc: "A bunch of grapes."
+  keywords: ["grapes"]
+  description: "A bunch of grapes."
+  type: FOOD
+- id: o915
+  name: "fan"
+  roomDesc: "A fan made of peacock feathers."
+  keywords: ["fan"]
+  description: "A fan made of peacock feathers."
+  type: TRASH
+- id: o916
+  name: "lute"
+  roomDesc: "A lute."
+  keywords: ["lute"]
+  description: "A lute."
+  type: TRASH
+- id: o917
+  name: "nugget gold"
+  roomDesc: "A gold nugget lies gleaming here."
+  keywords: ["nugget","gold"]
+  description: "A gold nugget lies gleaming here."
+  type: TREASURE
+- id: o918
+  name: "apple"
+  roomDesc: "An apple is here."
+  keywords: ["apple"]
+  description: "An apple is here."
+  type: PILL
+- id: o919
+  name: "pear"
+  roomDesc: "A pear is here."
+  keywords: ["pear"]
+  description: "A pear is here."
+  type: PILL
+- id: o920
+  name: "orange"
+  roomDesc: "A orange is here."
+  keywords: ["orange"]
+  description: "A orange is here."
+  type: PILL
+- id: o921
+  name: "kiwi"
+  roomDesc: "A kiwi is here."
+  keywords: ["kiwi"]
+  description: "A kiwi is here."
+  type: PILL
+- id: o922
+  name: "amulet"
+  roomDesc: "A sun shaped medallion is lying here."
+  keywords: ["amulet"]
+  description: "A sun shaped medallion is lying here."
+  type: ACCESSORY
+- id: o923
+  name: "sun sword"
+  roomDesc: "A beautiful sword with the rising sun etched on the pommel is lying here."
+  keywords: ["sun","sword"]
+  description: "A beautiful sword with the rising sun etched on the pommel is lying here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o924
+  name: "robe blue"
+  roomDesc: "A deep blue robe is on the ground here."
+  keywords: ["robe","blue"]
+  description: "A deep blue robe is on the ground here."
+  type: LIGHTARMOR
+- id: o925
+  name: "hat"
+  roomDesc: "A hat is lying here."
+  keywords: ["hat"]
+  description: "A hat is lying here."
+  type: LIGHTARMOR
+- id: o926
+  name: "nectar"
+  roomDesc: "A vial of nectar is lying here."
+  keywords: ["nectar"]
+  description: "A vial of nectar is lying here."
+  type: POTION
+- id: o927
+  name: "key cell"
+  roomDesc: "A key has been left here."
+  keywords: ["key","cell"]
+  description: "A key has been left here."
+  type: KEY

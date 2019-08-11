@@ -1,0 +1,16 @@
+---
+body: |
+  Syntax: north
+  Syntax: south
+  Syntax: east
+  Syntax: west
+  Syntax: up
+  Syntax: down
+  
+  Use these commands to walk in a particular direction.
+  
+  - south
+  - east
+  - west
+  - up
+  - down

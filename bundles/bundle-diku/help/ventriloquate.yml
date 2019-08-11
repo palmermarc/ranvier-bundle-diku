@@ -1,0 +1,10 @@
+---
+body: |
+  Syntax: cast ventriloquate <speaker> <message>
+  
+  This spell throws your voice, making it appear that some other object or
+  character in the room is saying your message. Victims who make their saving
+  throw will know that someone is using ventriloquism, but not who. Victims who
+  fail their saving throw will think that the object or character really did say
+  your message.
+  

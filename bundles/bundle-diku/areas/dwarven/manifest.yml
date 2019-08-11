@@ -1,0 +1,12 @@
+title: "Dwarven Kingdom"
+metadata:
+  id: 22
+  name: "Dwarven Kingdom"
+  createdBy: "anon"
+  starting_vnum: 6500
+  ending_vnum: 6599
+  item_requirements: 2000
+  filename: "dwarven.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

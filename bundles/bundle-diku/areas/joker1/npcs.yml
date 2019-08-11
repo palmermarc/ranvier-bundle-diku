@@ -1,0 +1,79 @@
+- id: m24000
+  keywords: ["hydra","seahydra"]
+  name: "the sea hydra"
+  description: >-
+    A multiheaded sea hydra is here.
+  level: 250
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 250
+    damroll: 1000
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "joker1:o24000": 75
+  metadata:
+    areaId: 39
+    exp_level: 16001
+    sex: 1
+- id: m24001
+  keywords: ["gatekeeper","gate","keeper"]
+  name: "the gate keeper"
+  description: >-
+    The gate keeper is here.
+  level: 399
+  attributes:
+    health: 30000
+    armor: -1000
+    hitroll: 1000
+    damroll: 10000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 39
+    exp_level: 29999
+    sex: 1
+- id: m24002
+  keywords: ["Troll","Guard"]
+  name: "A troll guard"
+  description: >-
+    A troll stands here, on guard.
+  level: 333
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 500
+    damroll: 500
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 39
+    exp_level: 25001
+    sex: 1

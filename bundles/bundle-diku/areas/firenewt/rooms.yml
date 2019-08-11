@@ -1,0 +1,517 @@
+- id: r2900
+  title: "Obsidian hills"
+  description: >-
+    You see before you some shiny black hills. There is very little vegetation
+    here. The hills appear to lead to a high mountain to the south east
+  exits:
+    - roomId: "juargan:r4785"
+      direction: north
+    - roomId: "firenewt:r2901"
+      direction: south
+- id: r2901
+  title: "Obsidian hills "
+  description: >-
+    You see before you some shiny black hills. There is very little vegetation
+    here. The hills appear to lead to a high mountain to the south east
+  exits:
+    - roomId: "firenewt:r2900"
+      direction: north
+    - roomId: "firenewt:r2902"
+      direction: south
+- id: r2902
+  title: "Obsidian hills"
+  description: >-
+    You see before you some shiny black hills. There is very little vegetation
+    here. The hills appear to lead to a high mountain to the south east
+  exits:
+    - roomId: "firenewt:r2901"
+      direction: north
+    - roomId: "firenewt:r2903"
+      direction: east
+- id: r2903
+  title: "Mountain side"
+  description: >-
+    The mountain is very high and looks to be quite old. There are a few cracks
+    in the side of the mountain
+  exits:
+    - roomId: "firenewt:r2904"
+      direction: south
+    - roomId: "firenewt:r2902"
+      direction: west
+  npcs:
+    - id: "firenewt:m2901"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2904
+  title: "Mountain side"
+  description: >-
+    The mountain is very high and looks to be quite old. There is smoke coming
+    from the top of the mountain.
+  exits:
+    - roomId: "firenewt:r2903"
+      direction: north
+    - roomId: "firenewt:r2905"
+      direction: south
+  npcs:
+    - id: "firenewt:m2901"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "firenewt:m2902"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "firenewt:m2902"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "firenewt:m2903"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "firenewt:m2903"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "firenewt:m2903"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "firenewt:m2903"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "firenewt:m2903"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "firenewt:m2903"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2905
+  title: "Mountain top"
+  description: >-
+    You've reached the top of the mountain. You can see more smoke from up here.
+    The smoke seems to come from a hole to the south.
+  exits:
+    - roomId: "firenewt:r2904"
+      direction: north
+    - roomId: "firenewt:r2906"
+      direction: south
+- id: r2906
+  title: "Entrance to the mountain"
+  description: >-
+    The smoke comes from inside the hole.  It also looks like there is a path
+    that leads down.
+  exits:
+    - roomId: "firenewt:r2905"
+      direction: north
+    - roomId: "firenewt:r2909"
+      direction: south
+    - roomId: "firenewt:r2907"
+      direction: east
+    - roomId: "firenewt:r2908"
+      direction: west
+    - roomId: "firenewt:r2910"
+      direction: down
+- id: r2907
+  title: "Mountain top"
+  description: >-
+    You are standing at the top of the mountain. The mountain looks like it has
+    been ravaged by something.
+  exits:
+    - roomId: "firenewt:r2906"
+      direction: west
+- id: r2908
+  title: "Mountain top"
+  description: >-
+    You are standing at the top of the mountain. There are several cracks in the
+    ground and you don't feel safe!
+  exits:
+    - roomId: "firenewt:r2906"
+      direction: east
+- id: r2909
+  title: "Mountain top"
+  description: >-
+    You are standing on the top of the mountain and think you should move north.
+  exits:
+    - roomId: "firenewt:r2906"
+      direction: north
+- id: r2910
+  title: "Inside the mountain"
+  description: >-
+    You are standing inside the mountain.
+  exits:
+    - roomId: "firenewt:r2911"
+      direction: east
+    - roomId: "firenewt:r2912"
+      direction: west
+    - roomId: "firenewt:r2906"
+      direction: up
+    - roomId: "firenewt:r2913"
+      direction: down
+  npcs:
+    - id: "firenewt:m2904"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2911
+  title: "Guard room"
+  description: >-
+    You are standing in a room with beds, tables, and fire newts!
+    There are paintings on the wall.  They show battle scenes.
+  exits:
+    - roomId: "firenewt:r2910"
+      direction: west
+  npcs:
+    - id: "firenewt:m2905"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "firenewt:m2905"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "firenewt:m2905"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2912
+  title: "Guard room"
+  description: >-
+    You are standing in a room with beds, chairs, tables, and fire newts!
+    There are paintings on the wall that show great leaders.
+  exits:
+    - roomId: "firenewt:r2910"
+      direction: east
+  npcs:
+    - id: "firenewt:m2905"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "firenewt:m2905"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "firenewt:m2905"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2913
+  title: "Inside the mountain"
+  description: >-
+    You are standing inside the mountain.
+  exits:
+    - roomId: "firenewt:r2914"
+      direction: north
+    - roomId: "firenewt:r2915"
+      direction: south
+    - roomId: "firenewt:r2910"
+      direction: up
+    - roomId: "firenewt:r2916"
+      direction: down
+- id: r2914
+  title: "Store room"
+  description: >-
+    You see nothing special in this room.  There are some boxes and fire newt
+    workers here.  There is also some trash piled up in the room.
+  exits:
+    - roomId: "firenewt:r2913"
+      direction: south
+  npcs:
+    - id: "firenewt:m2904"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "firenewt:m2904"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2915
+  title: "Workers' quarters"
+  description: >-
+    You are standing in the workers' quarters.  There are several workers here.  
+    The room is messy and has nothing of value in it.  The party the night before
+    must have destroyed everything.
+  exits:
+    - roomId: "firenewt:r2913"
+      direction: north
+  npcs:
+    - id: "firenewt:m2906"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "firenewt:m2906"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "firenewt:m2906"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "firenewt:m2906"
+      respawnChance: 100
+      maxLoad: "4"
+  items:
+    - id: "firenewt:o2906"
+      respawnChance: 75
+- id: r2916
+  title: "Bottom of the mountain"
+  description: >-
+    You are standing at the bottom of the shaft.
+  exits:
+    - roomId: "firenewt:r2917"
+      direction: north
+    - roomId: "firenewt:r2913"
+      direction: up
+  npcs:
+    - id: "firenewt:m2904"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2917
+  title: "The tunnel"
+  description: >-
+    You are standing in a dry, dark tunnel.
+  exits:
+    - roomId: "firenewt:r2918"
+      direction: north
+    - roomId: "firenewt:r2916"
+      direction: south
+  npcs:
+    - id: "firenewt:m2904"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "firenewt:m2907"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2918
+  title: "Bend in the tunnel"
+  description: >-
+    You are standing in a dark tunnel.
+  exits:
+    - roomId: "firenewt:r2917"
+      direction: south
+    - roomId: "firenewt:r2919"
+      direction: east
+  npcs:
+    - id: "firenewt:m2904"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "firenewt:m2907"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2919
+  title: "The tunnel"
+  description: >-
+    You are standing in a dark tunnel.
+  exits:
+    - roomId: "firenewt:r2921"
+      direction: north
+    - roomId: "firenewt:r2920"
+      direction: east
+    - roomId: "firenewt:r2918"
+      direction: west
+  npcs:
+    - id: "firenewt:m2904"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "firenewt:m2907"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2920
+  title: "Fire Newt House"
+  description: >-
+    You are standing in a fire newt house.  There is a mother fire newt here
+    playing with her children.  The room is full of newt toys- they look very
+    boring.
+  exits:
+    - roomId: "firenewt:r2919"
+      direction: west
+  npcs:
+    - id: "firenewt:m2908"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "firenewt:m2909"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "firenewt:m2909"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "firenewt:m2909"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "firenewt:m2909"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "firenewt:m2909"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "firenewt:m2909"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r2921
+  title: "The tunnel"
+  description: >-
+    You are standing in a dark tunnel.
+  exits:
+    - roomId: "firenewt:r2923"
+      direction: north
+    - roomId: "firenewt:r2919"
+      direction: south
+    - roomId: "firenewt:r2922"
+      direction: west
+  npcs:
+    - id: "firenewt:m2904"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "firenewt:m2904"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "firenewt:m2907"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2922
+  title: "Fire Newt House"
+  description: >-
+    You are standing in a fire newt house.  There is a fire newt mother here
+    playing with her children.  The room has several torn baby newt diapers here
+    ... how disgusting!
+  exits:
+    - roomId: "firenewt:r2921"
+      direction: east
+  npcs:
+    - id: "firenewt:m2908"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "firenewt:m2909"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "firenewt:m2909"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "firenewt:m2909"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "firenewt:m2909"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "firenewt:m2909"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "firenewt:m2909"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r2923
+  title: "The tunnel"
+  description: >-
+    You are standing in the dark tunnel.
+  exits:
+    - roomId: "firenewt:r2921"
+      direction: south
+    - roomId: "firenewt:r2927"
+      direction: east
+    - roomId: "firenewt:r2924"
+      direction: west
+  npcs:
+    - id: "firenewt:m2904"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "firenewt:m2907"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "firenewt:m2907"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2924
+  title: "Entrance to the town hall"
+  description: >-
+    You are standing in the entrance to the town hall.  The room is large and
+    ornate.
+  exits:
+    - roomId: "firenewt:r2923"
+      direction: east
+    - roomId: "firenewt:r2925"
+      direction: west
+  npcs:
+    - id: "firenewt:m2910"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2925
+  title: "The Waiting Room"
+  description: >-
+    You are standing in the waiting room of the town hall.  There is a big door
+    to the west.  The room has pictures of the villages history.
+  exits:
+    - roomId: "firenewt:r2924"
+      direction: east
+    - roomId: "firenewt:r2926"
+      direction: west
+  npcs:
+    - id: "firenewt:m2911"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "firenewt:m2911"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r2926
+  title: "The Leader's Office"
+  description: >-
+    You are standing in the fire newt leader's office.
+  exits:
+    - roomId: "firenewt:r2925"
+      direction: east
+  npcs:
+    - id: "firenewt:m2912"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2927
+  title: "Outside the temple"
+  description: >-
+    You are standing outside the fire newt temple.  The temple has some very
+    large arches and towers.
+  exits:
+    - roomId: "firenewt:r2928"
+      direction: east
+    - roomId: "firenewt:r2923"
+      direction: west
+  npcs:
+    - id: "firenewt:m2910"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2928
+  title: "Entrance to the temple"
+  description: >-
+    You are standing at the entrance to the temple.  The temple is very neat. 
+    The sates are set in straight rows and the alter is very large.
+  exits:
+    - roomId: "firenewt:r2929"
+      direction: east
+    - roomId: "firenewt:r2927"
+      direction: west
+  npcs:
+    - id: "firenewt:m2911"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "firenewt:m2911"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r2929
+  title: "Inside the Temple"
+  description: >-
+    You are standing inside the fire newt temple.
+  exits:
+    - roomId: "firenewt:r2928"
+      direction: west
+    - roomId: "firenewt:r2930"
+      direction: down
+  npcs:
+    - id: "firenewt:m2913"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2930
+  title: "The room before the doors"
+  description: >-
+    You are standing before a pair of huge doors.
+  exits:
+    - roomId: "firenewt:r2931"
+      direction: east
+    - roomId: "firenewt:r2929"
+      direction: up
+  npcs:
+    - id: "firenewt:m2914"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "firenewt:m2914"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2931
+  title: "The Egg Room"
+  description: >-
+    You are standing in a room that has several dozen piles of eggs.  There is
+    a chest on the floor also.
+  exits:
+    - roomId: "firenewt:r2930"
+      direction: west
+  items:
+    - id: "firenewt:o2915"
+      respawnChance: 75

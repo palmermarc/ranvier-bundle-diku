@@ -1,0 +1,1106 @@
+- id: r9216
+  title: "The Floor of the Canyon"
+  description: >-
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The Canyon floor extends north, south and west.
+  exits:
+    - roomId: "canyon:r9219"
+      direction: north
+    - roomId: "canyon:r9213"
+      direction: south
+    - roomId: "canyon:r9215"
+      direction: west
+  npcs:
+    - id: "canyon:m9231"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9217
+  title: "The Floor of the Canyon"
+  description: >-
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about. The canyon floor extends east and south.  You can
+    climb a rise in the canyon floor to the north.
+  exits:
+    - roomId: "canyon:r9253"
+      direction: north
+    - roomId: "canyon:r9214"
+      direction: south
+    - roomId: "canyon:r9218"
+      direction: east
+  npcs:
+    - id: "canyon:m9203"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9218
+  title: "The Floor of the Canyon"
+  description: >-
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The canyon floor extends east, south, and west.
+  exits:
+    - roomId: "canyon:r9215"
+      direction: south
+    - roomId: "canyon:r9219"
+      direction: east
+    - roomId: "canyon:r9217"
+      direction: west
+  npcs:
+    - id: "canyon:m9203"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9205"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9207"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "canyon:m9207"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "canyon:m9233"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r9219
+  title: "The Floor of the Canyon"
+  description: >-
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The canyon floor extends south and west.  You can
+    climb a rise in the canyon floor to the north.
+  exits:
+    - roomId: "canyon:r9254"
+      direction: north
+    - roomId: "canyon:r9216"
+      direction: south
+    - roomId: "canyon:r9218"
+      direction: west
+  npcs:
+    - id: "canyon:m9203"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9220
+  title: "Dark Cave"
+  description: >-
+    You notice a path winding east among some huge boulders.  You feel a powerful
+    source of energy from that direction.
+  exits:
+    - roomId: "canyon:r9221"
+      direction: east
+    - roomId: "canyon:r9210"
+      direction: west
+  npcs:
+    - id: "canyon:m9236"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9220"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9221
+  title: "Darker Caves"
+  description: >-
+    You can barely see your way even with a light source.  The rocks of the cave
+    are even darker than the darkness.  You hear a powerful humming all around
+    you.  Cave paths go south and east roughly, its hard to tell exactly when you
+    can't see where you are going.
+  exits:
+    - roomId: "canyon:r9223"
+      direction: south
+    - roomId: "canyon:r9222"
+      direction: east
+    - roomId: "canyon:r9220"
+      direction: west
+  npcs:
+    - id: "canyon:m9217"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9220"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "canyon:m9223"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9222
+  title: "Darker Caves"
+  description: >-
+    You can barely see your way even with a light source.  The rocks of the cave
+    are even darker than the darkness.  You hear a powerful humming all around
+    you.  Cave paths go south and west roughly; it's hard to tell exactly when you
+    can't see where you are going.
+  exits:
+    - roomId: "canyon:r9224"
+      direction: south
+    - roomId: "canyon:r9221"
+      direction: west
+  npcs:
+    - id: "canyon:m9205"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "canyon:m9217"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9221"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "canyon:m9221"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "canyon:m9224"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9223
+  title: "Darker Caves"
+  description: >-
+    You can barely see your way even with a light source.  The rocks of the cave
+    are even darker than the darkness.  You hear a powerful humming all around you.
+    Cave paths go north, south and east roughly; it's hard to tell exactly when
+    you can't see where you are going.
+  exits:
+    - roomId: "canyon:r9221"
+      direction: north
+    - roomId: "canyon:r9225"
+      direction: south
+    - roomId: "canyon:r9224"
+      direction: east
+  npcs:
+    - id: "canyon:m9217"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9224
+  title: "Darker Caves"
+  description: >-
+    You can barely see your way even with a light source.  The rocks of the cave
+    are even darker than the darkness.  You hear a powerful humming all around you.
+    Cave paths go north, south and west roughly, it's hard to tell exactly when you
+    can't see where you are going.
+  exits:
+    - roomId: "canyon:r9222"
+      direction: north
+    - roomId: "canyon:r9226"
+      direction: south
+    - roomId: "canyon:r9223"
+      direction: west
+  npcs:
+    - id: "canyon:m9217"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9225
+  title: "Darkest Caves"
+  description: >-
+    Your light doesn't even seem to work here.  Even magical light sources seem
+    only to illuminate about a foot ahead of you.  You suddenly realize that the
+    path has descended quite a bit but you didn't notice before because of the
+    darkness.  You sense a great presence off to the east aways.
+  exits:
+    - roomId: "canyon:r9223"
+      direction: north
+    - roomId: "canyon:r9226"
+      direction: east
+  npcs:
+    - id: "canyon:m9206"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "canyon:m9217"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9216"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9226
+  title: "Darkest Caves"
+  description: >-
+    Your light doesn't even seem to work here.  Even magical light sources seem
+    only to illuminate about a foot ahead of you.  You suddenly realize that the
+    path has descended quite a bit but you didn't notice before because of the
+    darkness.  You sense a great presence directly to the east.
+  exits:
+    - roomId: "canyon:r9224"
+      direction: north
+    - roomId: "canyon:r9227"
+      direction: east
+    - roomId: "canyon:r9225"
+      direction: west
+  npcs:
+    - id: "canyon:m9217"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9227
+  title: "Earth Chamber"
+  description: >-
+    This is the abode of the Earth Ruler.  He decides about earthquakes,
+    landslides, and avalanches.  The Earth Ruler sits upon a huge marble throne
+    carved into the wall.
+  exits:
+    - roomId: "canyon:r9226"
+      direction: west
+  npcs:
+    - id: "canyon:m9208"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "canyon:m9217"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9217"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9224"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9228
+  title: "By the River"
+  description: >-
+    The water in the river seems to bubble and froth with magic.  Though it
+    splashes playfully on you, it does not seem wet.  The path leads north closer
+    to the water. To the west you see a T-intersection.
+  exits:
+    - roomId: "canyon:r9229"
+      direction: north
+    - roomId: "canyon:r9213"
+      direction: west
+  npcs:
+    - id: "canyon:m9236"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9219"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9229
+  title: "In the River"
+  description: >-
+    To continue you had to walk right in the river.  Though you walk along in
+    water up to your knees, you do not seem to get wet.  A bay stretches out to
+    the north and the river goes south.
+  exits:
+    - roomId: "canyon:r9230"
+      direction: north
+    - roomId: "canyon:r9228"
+      direction: south
+  npcs:
+    - id: "canyon:m9219"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9230
+  title: "Elemental Bay"
+  description: >-
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  Then you realize you are walking on the water itself.  Truly
+    magical water indeed.  Though you splash through the bay you do not get wet.
+  exits:
+    - roomId: "canyon:r9233"
+      direction: north
+    - roomId: "canyon:r9229"
+      direction: south
+    - roomId: "canyon:r9231"
+      direction: east
+  npcs:
+    - id: "canyon:m9234"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "canyon:m9214"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9231
+  title: "Elemental Bay"
+  description: >-
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  Then you realize you are walking on the water itself.  Truly
+    magical water indeed.  Though you splash through the bay you do not get wet.
+  exits:
+    - roomId: "canyon:r9234"
+      direction: north
+    - roomId: "canyon:r9232"
+      direction: east
+    - roomId: "canyon:r9230"
+      direction: west
+  npcs:
+    - id: "canyon:m9214"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9221"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "canyon:m9221"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9232
+  title: "Elemental Bay"
+  description: >-
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  Then you realize you are walking on the water itself.  Truly
+    magical water indeed.  Though you splash through the bay you do not get wet.
+  exits:
+    - roomId: "canyon:r9235"
+      direction: north
+    - roomId: "canyon:r9231"
+      direction: west
+  npcs:
+    - id: "canyon:m9214"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9216"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "canyon:m9216"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "canyon:m9222"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9233
+  title: "Elemental Bay"
+  description: >-
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  Then you realize you are walking on the water itself.  Truly
+    magical water indeed.  Though you splash through the bay you do not get wet.
+  exits:
+    - roomId: "canyon:r9230"
+      direction: south
+    - roomId: "canyon:r9234"
+      direction: east
+  npcs:
+    - id: "canyon:m9214"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9234
+  title: "Elemental Bay"
+  description: >-
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  Then you realize you are walking on the water itself.  Truly
+    magical water indeed.  Though you splash through the bay you do not get wet.
+  exits:
+    - roomId: "canyon:r9231"
+      direction: south
+    - roomId: "canyon:r9235"
+      direction: east
+    - roomId: "canyon:r9233"
+      direction: west
+  npcs:
+    - id: "canyon:m9205"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "canyon:m9214"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9235
+  title: "Elemental Bay"
+  description: >-
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  Then you realize you are walking on the water itself.  Truly
+    magical water indeed.  Though you splash through the bay you do not get wet.
+  exits:
+    - roomId: "canyon:r9232"
+      direction: south
+    - roomId: "canyon:r9234"
+      direction: west
+    - roomId: "canyon:r9236"
+      direction: down
+  npcs:
+    - id: "canyon:m9214"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9236
+  title: "Water Chamber"
+  description: >-
+    This chamber was magically created here on the floor of the bay.  It looks
+    like it's been here for a long, long time.  Though you are 'under water' there
+    is no difficulty breathing normally, `nd oddly you do not feel the pressure of
+    the water above you.
+  exits:
+    - roomId: "canyon:r9235"
+      direction: up
+  npcs:
+    - id: "canyon:m9212"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "canyon:m9214"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9214"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9237
+  title: "A Fiery Pathway"
+  description: >-
+    You tread carefully along a path which dips and turns among geysers of fire.
+    Miniature volcanoes spew lava in rivers.  The fire is hot but not altogether
+    dangerous.  The path extends east and south.
+  exits:
+    - roomId: "canyon:r9238"
+      direction: south
+    - roomId: "canyon:r9214"
+      direction: east
+  npcs:
+    - id: "canyon:m9236"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9238
+  title: "A Fiery Pathway"
+  description: >-
+    You tread carefully along a path which dips and turns among pits of fire and
+    beds of coals.  A garden to the west glows with an everlasting fire.
+  exits:
+    - roomId: "canyon:r9237"
+      direction: north
+    - roomId: "canyon:r9242"
+      direction: west
+  npcs:
+    - id: "canyon:m9226"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "canyon:m9227"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "canyon:m9234"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "canyon:m9219"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "canyon:m9220"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9242
+  title: "The Burning Gardens"
+  description: >-
+    Everywhere around you the landscape is afire; the rocks, the shrubs and even
+    the air seems to be aflame.  Curiously, the magical fire does not seem to
+    consume its hosts.  A path leads east among some fire pits.
+  exits:
+    - roomId: "canyon:r9238"
+      direction: east
+    - roomId: "canyon:r9245"
+      direction: west
+  npcs:
+    - id: "canyon:m9207"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "canyon:m9228"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "canyon:m9229"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "canyon:m9230"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "canyon:m9215"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9215"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9215"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9220"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9245
+  title: "The Fire Chamber"
+  description: >-
+    The fire ruler sits upon a throne made of blue flame.  Little flickers of
+    flame dance to and fro for the entertainment of the ruler.
+  exits:
+    - roomId: "canyon:r9242"
+      direction: east
+  npcs:
+    - id: "canyon:m9209"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "canyon:m9215"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9215"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9215"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9246
+  title: "Electric Pathway"
+  description: >-
+    The pathway glows and hums because of the electricity pulsing through it.
+    It seems almost soothing to your weary feet.  To the north there is a
+    sunken-in area.  A path leads east also.
+  exits:
+    - roomId: "canyon:r9248"
+      direction: north
+    - roomId: "canyon:r9253"
+      direction: east
+  npcs:
+    - id: "canyon:m9206"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "canyon:m9236"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9218"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9219"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9247
+  title: "The Electric Playground"
+  description: >-
+    Though there is a seemingly carefree atmosphere here, you sense that
+    something much more important takes place near by.  The electric playground
+    extends north and east.
+  exits:
+    - roomId: "canyon:r9249"
+      direction: north
+    - roomId: "canyon:r9248"
+      direction: east
+  npcs:
+    - id: "canyon:m9218"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9248
+  title: "The Electric Playground"
+  description: >-
+    Though there is a seemingly carefree atmosphere here, you sense that
+    something much more important takes place near by.  There is an electric
+    path heading away south.  The playground extends north and west.
+  exits:
+    - roomId: "canyon:r9250"
+      direction: north
+    - roomId: "canyon:r9246"
+      direction: south
+    - roomId: "canyon:r9247"
+      direction: west
+  npcs:
+    - id: "canyon:m9218"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9223"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9249
+  title: "The Electric Playground"
+  description: >-
+    Though there is a seemingly carefree atmosphere here, you sense that
+    something much more important takes place near by.  The playground continues
+    south and east.
+  exits:
+    - roomId: "canyon:r9247"
+      direction: south
+    - roomId: "canyon:r9250"
+      direction: east
+  npcs:
+    - id: "canyon:m9235"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "canyon:m9218"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9250
+  title: "The Electric Playground"
+  description: >-
+    Though there is a seemingly carefree atmosphere here, you sense that
+    something much more important takes place near by.  The playground is
+    south and west.  Something more important catches your eye to the east.
+  exits:
+    - roomId: "canyon:r9248"
+      direction: south
+    - roomId: "canyon:r9251"
+      direction: east
+    - roomId: "canyon:r9249"
+      direction: west
+  npcs:
+    - id: "canyon:m9205"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "canyon:m9218"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9251
+  title: "Lightning Causeway"
+  description: >-
+    Up a set of stairs carved into the hill you see intermittent flashes of
+    lightning.  A continuous hum also comes form that direction.  To the west
+    is the electric playground.
+  exits:
+    - roomId: "canyon:r9250"
+      direction: west
+    - roomId: "canyon:r9252"
+      direction: up
+  npcs:
+    - id: "canyon:m9218"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9252
+  title: "Lightning Chamber"
+  description: >-
+    There is some sort of control panel here. Apparently the Lightning Ruler
+    observes and controls electric forces from here.  A set of steps carved into
+    the hill lead down to a causeway.
+  exits:
+    - roomId: "canyon:r9251"
+      direction: down
+  npcs:
+    - id: "canyon:m9211"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "canyon:m9218"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9218"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9253
+  title: "Mesa West"
+  description: >-
+    An electric path starts to the west.  The mesa continues to the east.
+    Or you can climb down to the canyon floor to the south.
+  exits:
+    - roomId: "canyon:r9217"
+      direction: south
+    - roomId: "canyon:r9254"
+      direction: east
+    - roomId: "canyon:r9246"
+      direction: west
+  npcs:
+    - id: "canyon:m9233"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "canyon:m9223"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9254
+  title: "Mesa East"
+  description: >-
+    A path starts to the north.  The mesa continues to the west.
+    Or you can climb down to the canyon floor to the south.
+  exits:
+    - roomId: "canyon:r9255"
+      direction: north
+    - roomId: "canyon:r9219"
+      direction: south
+    - roomId: "canyon:r9253"
+      direction: west
+  npcs:
+    - id: "canyon:m9206"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "canyon:m9222"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9255
+  title: "Floating in Air"
+  description: >-
+    Last you knew, you were walking on the mesa.  Abruptly the path dropped
+    from beneath your feet much to quick for you to recover.  Instead of
+    plunging to your death, you seemingly miss the ground and begin walking
+    on air.  The space to the north and east seems just thin air, but you can
+    walk there.  The pathway you came from is to the south.
+  exits:
+    - roomId: "canyon:r9257"
+      direction: north
+    - roomId: "canyon:r9254"
+      direction: south
+    - roomId: "canyon:r9256"
+      direction: east
+  npcs:
+    - id: "canyon:m9233"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "canyon:m9236"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9225"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9225"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9222"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9256
+  title: "Floating in Air"
+  description: >-
+    You look down and see the ground 100 feet below you.  The wind whispering
+    in your ear seems to reassure you that this is fine.  To the north aways
+    you spy a portal of sorts.  To the west is more thin air.
+  exits:
+    - roomId: "canyon:r9258"
+      direction: north
+    - roomId: "canyon:r9255"
+      direction: west
+  npcs:
+    - id: "canyon:m9225"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9257
+  title: "Floating in Air"
+  description: >-
+    You look down and see the ground 100 feet below you.  The wind whispering
+    in your ear seems to reassure you that this is fine.  To the east aways
+    you spy a portal of sorts.  To the south is more thin air.
+  exits:
+    - roomId: "canyon:r9255"
+      direction: south
+    - roomId: "canyon:r9258"
+      direction: east
+  npcs:
+    - id: "canyon:m9235"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "canyon:m9225"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9224"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9258
+  title: "Floating in Air"
+  description: >-
+    You look down and see the ground 100 feet below you.  The wind whispering
+    in your ear seems to reassure you that this is fine. There is a portal
+    hanging in midair here. It is to the east.  You can float south or west
+    if you'd like.
+  exits:
+    - roomId: "canyon:r9256"
+      direction: south
+    - roomId: "canyon:r9259"
+      direction: east
+    - roomId: "canyon:r9257"
+      direction: west
+  npcs:
+    - id: "canyon:m9225"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9259
+  title: "Windy Tunnel"
+  description: >-
+    A tunnel leads east.  To the west you can enter a portal. The wind in
+    this tunnel is quite fierce, it seems as if it's forced.
+  exits:
+    - roomId: "canyon:r9260"
+      direction: east
+    - roomId: "canyon:r9258"
+      direction: west
+  npcs:
+    - id: "canyon:m9225"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9224"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9260
+  title: "Air Chamber"
+  description: >-
+    Tiny tornadoes come and go and dance along the ground here.  At the back
+    of the chamber you notice a huge throne made of swirling clouds.
+    A tunnel leads west.
+  exits:
+    - roomId: "vlord:r32005"
+      direction: north
+    - roomId: "canyon:r9259"
+      direction: west
+  npcs:
+    - id: "canyon:m9210"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "canyon:m9207"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "canyon:m9225"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9225"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9201
+  title: "A Mountain Path"
+  description: >-
+    You are on a mountain path which ascends a steep mountainside.  The trail
+    curves around the mountain so that you cannot really see what lies ahead.
+    You do sense great power though coming from the area behind the mountain.
+  exits:
+    - roomId: "thalos:r5267"
+      direction: north
+    - roomId: "canyon:r9202"
+      direction: up
+  npcs:
+    - id: "canyon:m9201"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r9202
+  title: "A Mountain Path"
+  description: >-
+    You are on a rocky mountain path leading up and around a steep mountainside.
+    You sense a glow from the area beyond the mountain, which you cannot see yet.
+  exits:
+    - roomId: "canyon:r9203"
+      direction: up
+    - roomId: "canyon:r9201"
+      direction: down
+  npcs:
+    - id: "canyon:m9201"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "canyon:m9236"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9203
+  title: "Mountainside Tombs"
+  description: >-
+    There are a few stone heaps here and there, the tombs of those who did not
+    last the arduous journey up the mountain.  Curiously you notice a few
+    uncovered bodies which don't seem to have died of exhaustion.  The path curves
+    east around the mountain.
+  exits:
+    - roomId: "canyon:r9204"
+      direction: up
+    - roomId: "canyon:r9202"
+      direction: down
+  npcs:
+    - id: "canyon:m9201"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "canyon:m9238"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9204
+  title: "A Blind Curve on the Mountain Path."
+  description: >-
+    This looks like a normal mountain path, but it is NOT!  This section of the
+    path is habitated by a huge (and of course, man-eating) Cyclops.  The path
+    makes its final ascent to an overlook.
+  exits:
+    - roomId: "canyon:r9205"
+      direction: up
+    - roomId: "canyon:r9203"
+      direction: down
+  npcs:
+    - id: "canyon:m9202"
+      respawnChance: 100
+      maxLoad: "0"
+- id: r9205
+  title: "Vista"
+  description: >-
+    This is a stunning vista overlooking a canyon.  There is a sign here that says:
+    		BEHOLD -- ELEMENTAL CANYON
+    Fire leaps up from firepits in the western part of the canyon.  The sky looks
+    funny, and the air seems hazy to the northwest.  Electricity sparks
+    intermittently in the northeast.  To the east you see a strong, magic-looking
+    river flowing through the canyon.  Also to the east you spy a cave entrance
+    leading into the canyon wall.  The path descends to the north to another
+    overlook.
+  exits:
+    - roomId: "canyon:r9206"
+      direction: north
+    - roomId: "canyon:r9204"
+      direction: down
+- id: r9206
+  title: "The Overlook"
+  description: >-
+    You see various elemental servants wandering around the canyon.  The noise of
+    humming coming from the canyon gets louder.  The path makes a steep descent
+    into the canyon here.
+  exits:
+    - roomId: "canyon:r9205"
+      direction: south
+    - roomId: "canyon:r9207"
+      direction: down
+- id: r9207
+  title: "Entrance to Elemental Canyon"
+  description: >-
+    You are awed by the sounds and sights of great powers at works here.
+    Elemental servants bustle back and forth doing the biddings of the elemental
+    rulers.  You see a sort of cross roads to the north, `nd you can climb up to
+    the overlook here.
+  exits:
+    - roomId: "canyon:r9209"
+      direction: north
+    - roomId: "canyon:r9206"
+      direction: up
+  npcs:
+    - id: "canyon:m9205"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "canyon:m9236"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9208
+  title: "The Floor of the Canyon"
+  description: >-
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at all.
+    In general, it is calm, yet there is always a incessant buzz of things
+    going on about.  The canyon continues north and east.
+  exits:
+    - roomId: "canyon:r9211"
+      direction: north
+    - roomId: "canyon:r9209"
+      direction: east
+  npcs:
+    - id: "canyon:m9203"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9232"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9209
+  title: "Elemental Gateway"
+  description: >-
+    To the west a path dips and winds among some flowing firepits.  To the
+    northeast a path goes toward the river.  Beyond toward the northeast and
+    northwest are outcrops which rise up from the canyon floor. To the east there
+    is a cave mouth which leads into the canyon wall.  And to the south the path
+    leads up, away, `nd out of the canyon.  Various pure and cross-breeds of
+    elemental forms wander the canyon floor, which extends in a wide swath
+    northwards.
+  exits:
+    - roomId: "canyon:r9212"
+      direction: north
+    - roomId: "canyon:r9207"
+      direction: south
+    - roomId: "canyon:r9210"
+      direction: east
+    - roomId: "canyon:r9208"
+      direction: west
+  npcs:
+    - id: "canyon:m9204"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "canyon:m9205"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "canyon:m9207"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "canyon:m9232"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9210
+  title: "The Floor of the Canyon"
+  description: >-
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always a incessant buzz of
+    things going on about.  The canyon floor extends north and west.  There is a
+    cave mouth set into the canyon wall to the east.
+  exits:
+    - roomId: "canyon:r9213"
+      direction: north
+    - roomId: "canyon:r9220"
+      direction: east
+    - roomId: "canyon:r9209"
+      direction: west
+  npcs:
+    - id: "canyon:m9203"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9223"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9211
+  title: "The Floor of the Canyon"
+  description: >-
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The canyon floor extends off to the north, east,
+    and south.
+  exits:
+    - roomId: "canyon:r9214"
+      direction: north
+    - roomId: "canyon:r9208"
+      direction: south
+    - roomId: "canyon:r9212"
+      direction: east
+  npcs:
+    - id: "canyon:m9231"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9212
+  title: "The Floor of the Canyon"
+  description: >-
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The canyon floor extends in all directions.
+  exits:
+    - roomId: "canyon:r9215"
+      direction: north
+    - roomId: "canyon:r9209"
+      direction: south
+    - roomId: "canyon:r9213"
+      direction: east
+    - roomId: "canyon:r9211"
+      direction: west
+  npcs:
+    - id: "canyon:m9206"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "canyon:m9216"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9213
+  title: "The Floor of the Canyon"
+  description: >-
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The canyon floor extends north, south, and west.
+    A path follows a stream to the east.
+  exits:
+    - roomId: "canyon:r9216"
+      direction: north
+    - roomId: "canyon:r9210"
+      direction: south
+    - roomId: "canyon:r9228"
+      direction: east
+    - roomId: "canyon:r9212"
+      direction: west
+  npcs:
+    - id: "canyon:m9222"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9214
+  title: "The Floor of the Canyon"
+  description: >-
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about. The canyon floor extends north, east, and south.
+    To the west a garden is on fire.
+  exits:
+    - roomId: "canyon:r9217"
+      direction: north
+    - roomId: "canyon:r9211"
+      direction: south
+    - roomId: "canyon:r9215"
+      direction: east
+    - roomId: "canyon:r9237"
+      direction: west
+- id: r9215
+  title: "The Floor of the Canyon"
+  description: >-
+    Various elemental forms wander the floor of the canyon.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always an incessant buzz of
+    things going on about.  The canyon floor extends in all directions.
+  exits:
+    - roomId: "canyon:r9218"
+      direction: north
+    - roomId: "canyon:r9212"
+      direction: south
+    - roomId: "canyon:r9216"
+      direction: east
+    - roomId: "canyon:r9214"
+      direction: west
+  npcs:
+    - id: "canyon:m9203"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "canyon:m9203"
+      respawnChance: 100
+      maxLoad: "15"

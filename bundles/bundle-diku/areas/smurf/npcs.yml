@@ -1,0 +1,321 @@
+- id: m101
+  keywords: ["smurf"]
+  name: "a vampire smurf"
+  description: >-
+    A vampire smurf is singing and walking along.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 19
+          max: 21
+      pools:
+        "smurf:o102": 75
+  metadata:
+    areaId: 70
+    exp_level: 1000
+    sex: 1
+- id: m102
+  keywords: ["smurf"]
+  name: "a vampire smurf"
+  description: >-
+    A vampire smurf is here, picking berries.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 19
+          max: 21
+      pools:
+        "smurf:o100": 75
+  metadata:
+    areaId: 70
+    exp_level: 1000
+    sex: 1
+- id: m103
+  keywords: ["insane","malkavian","smurf"]
+  name: "Insane Malkavian Smurf"
+  description: >-
+    Insane Malkavian Smurf is here, mumbling something to himself.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 28.5
+          max: 31.5
+      pools:
+        "smurf:o101": 75
+  metadata:
+    areaId: 70
+    exp_level: 1000
+    sex: 1
+- id: m104
+  keywords: ["handy","smurf"]
+  name: "Vampire Handy Smurf"
+  description: >-
+    Vampire Handy Smurf is building something here.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 28.5
+          max: 31.5
+      pools:
+        "smurf:o103": 75
+  metadata:
+    areaId: 70
+    exp_level: 1000
+    sex: 1
+- id: m105
+  keywords: ["sleepy","smurf"]
+  name: "Vampire Sleepy Smurf"
+  description: >-
+    Vampire Sleepy Smurf is sleep walking here.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 28.5
+          max: 31.5
+  metadata:
+    areaId: 70
+    exp_level: 1000
+    sex: 1
+- id: m106
+  keywords: ["psycho","smurf"]
+  name: "Psycho Vampire Smurf"
+  description: >-
+    Psycho Vampire Smurf is here, frothing at the mouth.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 28.5
+          max: 31.5
+      pools:
+        "smurf:o103": 75
+  metadata:
+    areaId: 70
+    exp_level: 1000
+    sex: 1
+- id: m107
+  keywords: ["grumpy","smurf"]
+  name: "Vampire Grumpy Smurf"
+  description: >-
+    Vampire Grumpy Smurf is here, swearing.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 28.5
+          max: 31.5
+  metadata:
+    areaId: 70
+    exp_level: 1000
+    sex: 1
+- id: m108
+  keywords: ["jokey","smurf"]
+  name: "Vampire Jokey Smurf"
+  description: >-
+    Vampire Jokey Smurf is here, holding a present.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 28.5
+          max: 31.5
+  metadata:
+    areaId: 70
+    exp_level: 1000
+    sex: 1
+- id: m109
+  keywords: ["smurfette"]
+  name: "Vampire Smurfette"
+  description: >-
+    Vampire Smurfette is here looking beautiful, undead, but beautiful.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 28.5
+          max: 31.5
+      pools:
+        "smurf:o104": 75
+        "smurf:o107": 75
+  metadata:
+    areaId: 70
+    exp_level: 1000
+    sex: 2
+- id: m110
+  keywords: ["papa","smurf"]
+  name: "Vampire Papa Smurf"
+  description: >-
+    Vampire Papa Smurf is practicing magic here.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "smurf:o105": 75
+        "smurf:o109": 75
+  metadata:
+    areaId: 70
+    exp_level: 1000
+    sex: 1
+- id: m111
+  keywords: ["gargamel"]
+  name: "WereGargamel"
+  description: >-
+    WereGargamel is here, cursing out the smurfs.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "smurf:o106": 75
+  metadata:
+    areaId: 70
+    exp_level: 1000
+    sex: 1
+- id: m112
+  keywords: ["azreal","cat"]
+  name: "WerePussycat Azreal"
+  description: >-
+    WerePussycat Azreal is here, licking himself.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 19
+          max: 21
+  metadata:
+    areaId: 70
+    exp_level: 1000
+    sex: 1

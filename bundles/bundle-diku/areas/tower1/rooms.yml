@@ -1,0 +1,1735 @@
+- id: r24400
+  title: "A corridor in the SE tower "
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24401"
+      direction: east
+    - roomId: "castle:r24308"
+      direction: west
+- id: r24401
+  title: "A corridor in the SE tower "
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24405"
+      direction: south
+    - roomId: "tower1:r24402"
+      direction: east
+    - roomId: "tower1:r24400"
+      direction: west
+- id: r24402
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24403"
+      direction: east
+    - roomId: "tower1:r24401"
+      direction: west
+    - roomId: "tower1:r24416"
+      direction: up
+- id: r24403
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24404"
+      direction: east
+    - roomId: "tower1:r24402"
+      direction: west
+- id: r24404
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24406"
+      direction: south
+    - roomId: "tower1:r24403"
+      direction: west
+- id: r24405
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24401"
+      direction: north
+    - roomId: "tower1:r24408"
+      direction: south
+- id: r24406
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24404"
+      direction: north
+    - roomId: "tower1:r24410"
+      direction: south
+    - roomId: "tower1:r24418"
+      direction: up
+- id: r24407
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24411"
+      direction: south
+    - roomId: "tower1:r24408"
+      direction: east
+- id: r24408
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24405"
+      direction: north
+    - roomId: "tower1:r24407"
+      direction: west
+    - roomId: "tower1:r24419"
+      direction: up
+- id: r24409
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24413"
+      direction: south
+    - roomId: "tower1:r24410"
+      direction: east
+- id: r24410
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24406"
+      direction: north
+    - roomId: "tower1:r24409"
+      direction: west
+- id: r24411
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24407"
+      direction: north
+- id: r24412
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24413"
+      direction: east
+- id: r24413
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24409"
+      direction: north
+    - roomId: "tower1:r24415"
+      direction: south
+    - roomId: "tower1:r24412"
+      direction: west
+- id: r24414
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24422"
+      direction: up
+- id: r24415
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24413"
+      direction: north
+- id: r24416
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24425"
+      direction: up
+    - roomId: "tower1:r24402"
+      direction: down
+- id: r24417
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24418"
+      direction: east
+- id: r24418
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24417"
+      direction: west
+    - roomId: "tower1:r24406"
+      direction: down
+- id: r24419
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24421"
+      direction: south
+    - roomId: "tower1:r24420"
+      direction: east
+    - roomId: "tower1:r24408"
+      direction: down
+- id: r24420
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24419"
+      direction: west
+- id: r24421
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24419"
+      direction: north
+    - roomId: "tower1:r24422"
+      direction: south
+    - roomId: "tower1:r24430"
+      direction: up
+- id: r24422
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24421"
+      direction: north
+    - roomId: "tower1:r24414"
+      direction: down
+- id: r24423
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24424"
+      direction: east
+- id: r24424
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24425"
+      direction: east
+    - roomId: "tower1:r24423"
+      direction: west
+    - roomId: "tower1:r24432"
+      direction: up
+- id: r24425
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24428"
+      direction: south
+    - roomId: "tower1:r24426"
+      direction: east
+    - roomId: "tower1:r24424"
+      direction: west
+    - roomId: "tower1:r24416"
+      direction: down
+- id: r24426
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24427"
+      direction: east
+    - roomId: "tower1:r24425"
+      direction: west
+    - roomId: "tower1:r24433"
+      direction: up
+- id: r24427
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24426"
+      direction: west
+- id: r24428
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24425"
+      direction: north
+- id: r24429
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24437"
+      direction: up
+- id: r24430
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24421"
+      direction: down
+- id: r24431
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24441"
+      direction: up
+- id: r24432
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24434"
+      direction: south
+    - roomId: "tower1:r24443"
+      direction: up
+    - roomId: "tower1:r24424"
+      direction: down
+- id: r24433
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24435"
+      direction: south
+    - roomId: "tower1:r24444"
+      direction: up
+    - roomId: "tower1:r24426"
+      direction: down
+- id: r24434
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24432"
+      direction: north
+    - roomId: "tower1:r24438"
+      direction: south
+- id: r24435
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24433"
+      direction: north
+    - roomId: "tower1:r24436"
+      direction: east
+- id: r24436
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24435"
+      direction: west
+    - roomId: "tower1:r24445"
+      direction: up
+- id: r24437
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24440"
+      direction: south
+    - roomId: "tower1:r24438"
+      direction: east
+    - roomId: "tower1:r24446"
+      direction: up
+    - roomId: "tower1:r24429"
+      direction: down
+- id: r24438
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24434"
+      direction: north
+    - roomId: "tower1:r24439"
+      direction: east
+    - roomId: "tower1:r24437"
+      direction: west
+- id: r24439
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24438"
+      direction: west
+    - roomId: "tower1:r24447"
+      direction: up
+- id: r24440
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24437"
+      direction: north
+- id: r24441
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24442"
+      direction: south
+    - roomId: "tower1:r24450"
+      direction: up
+    - roomId: "tower1:r24431"
+      direction: down
+- id: r24442
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24441"
+      direction: north
+    - roomId: "tower1:r24451"
+      direction: up
+- id: r24443
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24432"
+      direction: down
+- id: r24444
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24433"
+      direction: down
+- id: r24445
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24448"
+      direction: south
+    - roomId: "tower1:r24436"
+      direction: down
+- id: r24446
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24437"
+      direction: down
+- id: r24447
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24449"
+      direction: south
+    - roomId: "tower1:r24439"
+      direction: down
+- id: r24448
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24445"
+      direction: north
+    - roomId: "tower1:r24450"
+      direction: south
+- id: r24449
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24447"
+      direction: north
+- id: r24450
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24448"
+      direction: north
+    - roomId: "tower1:r24451"
+      direction: south
+    - roomId: "tower1:r24441"
+      direction: down
+- id: r24451
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24450"
+      direction: north
+    - roomId: "tower1:r24452"
+      direction: up
+    - roomId: "tower1:r24442"
+      direction: down
+- id: r24452
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24454"
+      direction: north
+    - roomId: "tower1:r24451"
+      direction: down
+- id: r24453
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24463"
+      direction: up
+- id: r24454
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24452"
+      direction: south
+    - roomId: "tower1:r24455"
+      direction: west
+    - roomId: "tower1:r24465"
+      direction: up
+- id: r24455
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24457"
+      direction: north
+    - roomId: "tower1:r24454"
+      direction: east
+- id: r24456
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24467"
+      direction: up
+- id: r24457
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24459"
+      direction: north
+    - roomId: "tower1:r24455"
+      direction: south
+    - roomId: "tower1:r24458"
+      direction: west
+- id: r24458
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24457"
+      direction: east
+    - roomId: "tower1:r24470"
+      direction: up
+- id: r24459
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24461"
+      direction: north
+    - roomId: "tower1:r24457"
+      direction: south
+- id: r24460
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24462"
+      direction: north
+    - roomId: "tower1:r24474"
+      direction: up
+- id: r24461
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24459"
+      direction: south
+    - roomId: "tower1:r24475"
+      direction: up
+- id: r24462
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24460"
+      direction: south
+- id: r24463
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24466"
+      direction: north
+    - roomId: "tower1:r24453"
+      direction: down
+- id: r24464
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24468"
+      direction: north
+- id: r24465
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24469"
+      direction: north
+    - roomId: "tower1:r24478"
+      direction: up
+    - roomId: "tower1:r24454"
+      direction: down
+- id: r24466
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24470"
+      direction: north
+    - roomId: "tower1:r24463"
+      direction: south
+    - roomId: "tower1:r24467"
+      direction: west
+    - roomId: "tower1:r24479"
+      direction: up
+- id: r24467
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24466"
+      direction: east
+    - roomId: "tower1:r24468"
+      direction: west
+    - roomId: "tower1:r24456"
+      direction: down
+- id: r24468
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24464"
+      direction: south
+    - roomId: "tower1:r24467"
+      direction: east
+    - roomId: "tower1:r24480"
+      direction: up
+- id: r24469
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24471"
+      direction: north
+    - roomId: "tower1:r24465"
+      direction: south
+- id: r24470
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24472"
+      direction: north
+    - roomId: "tower1:r24466"
+      direction: south
+    - roomId: "tower1:r24458"
+      direction: down
+- id: r24471
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24469"
+      direction: south
+    - roomId: "tower1:r24482"
+      direction: up
+- id: r24472
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24470"
+      direction: south
+    - roomId: "tower1:r24473"
+      direction: west
+- id: r24473
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24476"
+      direction: north
+    - roomId: "tower1:r24472"
+      direction: east
+    - roomId: "tower1:r24474"
+      direction: west
+- id: r24474
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24473"
+      direction: east
+    - roomId: "tower1:r24484"
+      direction: up
+    - roomId: "tower1:r24460"
+      direction: down
+- id: r24475
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24461"
+      direction: down
+- id: r24476
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24473"
+      direction: south
+    - roomId: "tower1:r24487"
+      direction: up
+- id: r24477
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24478"
+      direction: north
+- id: r24478
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24477"
+      direction: south
+    - roomId: "tower1:r24465"
+      direction: down
+- id: r24479
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24466"
+      direction: down
+- id: r24480
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24468"
+      direction: down
+- id: r24481
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24483"
+      direction: north
+    - roomId: "tower1:r24489"
+      direction: up
+- id: r24482
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24485"
+      direction: north
+    - roomId: "tower1:r24483"
+      direction: west
+    - roomId: "tower1:r24471"
+      direction: down
+- id: r24483
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24481"
+      direction: south
+    - roomId: "tower1:r24482"
+      direction: east
+- id: r24484
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24474"
+      direction: down
+- id: r24485
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24482"
+      direction: south
+    - roomId: "tower1:r24492"
+      direction: up
+- id: r24486
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24487"
+      direction: west
+- id: r24487
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24486"
+      direction: east
+    - roomId: "tower1:r24494"
+      direction: up
+    - roomId: "tower1:r24476"
+      direction: down
+- id: r24488
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24489"
+      direction: north
+    - roomId: "tower1:r24496"
+      direction: up
+- id: r24489
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24488"
+      direction: south
+    - roomId: "tower1:r24481"
+      direction: down
+- id: r24490
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24491"
+      direction: north
+    - roomId: "tower1:r24498"
+      direction: up
+- id: r24491
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24494"
+      direction: north
+    - roomId: "tower1:r24490"
+      direction: south
+- id: r24492
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24493"
+      direction: west
+    - roomId: "tower1:r24485"
+      direction: down
+- id: r24493
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24492"
+      direction: east
+    - roomId: "tower1:r24501"
+      direction: up
+- id: r24494
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24491"
+      direction: south
+    - roomId: "tower1:r24495"
+      direction: west
+    - roomId: "tower1:r24487"
+      direction: down
+- id: r24495
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24494"
+      direction: east
+    - roomId: "tower1:r24502"
+      direction: up
+- id: r24496
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24488"
+      direction: down
+- id: r24497
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24500"
+      direction: north
+- id: r24498
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24490"
+      direction: down
+- id: r24499
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24501"
+      direction: north
+    - roomId: "tower1:r24500"
+      direction: west
+- id: r24500
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24497"
+      direction: south
+    - roomId: "tower1:r24499"
+      direction: east
+- id: r24501
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24499"
+      direction: south
+    - roomId: "tower1:r24493"
+      direction: down
+- id: r24502
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24503"
+      direction: up
+    - roomId: "tower1:r24495"
+      direction: down
+- id: r24503
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24504"
+      direction: south
+    - roomId: "tower1:r24502"
+      direction: down
+- id: r24504
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24503"
+      direction: north
+    - roomId: "tower1:r24505"
+      direction: east
+    - roomId: "tower1:r24516"
+      direction: up
+- id: r24505
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24508"
+      direction: south
+    - roomId: "tower1:r24506"
+      direction: east
+    - roomId: "tower1:r24504"
+      direction: west
+- id: r24506
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24507"
+      direction: east
+    - roomId: "tower1:r24505"
+      direction: west
+- id: r24507
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24506"
+      direction: west
+- id: r24508
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24505"
+      direction: north
+    - roomId: "tower1:r24511"
+      direction: south
+- id: r24509
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24521"
+      direction: up
+- id: r24510
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24511"
+      direction: east
+- id: r24511
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24508"
+      direction: north
+    - roomId: "tower1:r24514"
+      direction: south
+    - roomId: "tower1:r24512"
+      direction: east
+    - roomId: "tower1:r24510"
+      direction: west
+    - roomId: "tower1:r24522"
+      direction: up
+- id: r24512
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24513"
+      direction: east
+    - roomId: "tower1:r24511"
+      direction: west
+- id: r24513
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24512"
+      direction: west
+- id: r24514
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24511"
+      direction: north
+- id: r24515
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24526"
+      direction: up
+- id: r24516
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24518"
+      direction: south
+    - roomId: "tower1:r24529"
+      direction: up
+    - roomId: "tower1:r24504"
+      direction: down
+- id: r24517
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24521"
+      direction: south
+- id: r24518
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24516"
+      direction: north
+- id: r24519
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24520"
+      direction: east
+    - roomId: "tower1:r24532"
+      direction: up
+- id: r24520
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24521"
+      direction: east
+    - roomId: "tower1:r24519"
+      direction: west
+- id: r24521
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24517"
+      direction: north
+    - roomId: "tower1:r24520"
+      direction: west
+    - roomId: "tower1:r24509"
+      direction: down
+- id: r24522
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24511"
+      direction: down
+- id: r24523
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24524"
+      direction: east
+- id: r24524
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24523"
+      direction: west
+    - roomId: "tower1:r24536"
+      direction: up
+- id: r24525
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24529"
+      direction: south
+- id: r24526
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24530"
+      direction: south
+    - roomId: "tower1:r24527"
+      direction: east
+    - roomId: "tower1:r24539"
+      direction: up
+    - roomId: "tower1:r24515"
+      direction: down
+- id: r24527
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24528"
+      direction: east
+    - roomId: "tower1:r24526"
+      direction: west
+- id: r24528
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24527"
+      direction: west
+    - roomId: "tower1:r24540"
+      direction: up
+- id: r24529
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24525"
+      direction: north
+    - roomId: "tower1:r24541"
+      direction: up
+    - roomId: "tower1:r24516"
+      direction: down
+- id: r24530
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24526"
+      direction: north
+    - roomId: "tower1:r24532"
+      direction: south
+- id: r24531
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24532"
+      direction: east
+- id: r24532
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24530"
+      direction: north
+    - roomId: "tower1:r24531"
+      direction: west
+    - roomId: "tower1:r24519"
+      direction: down
+- id: r24533
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24535"
+      direction: south
+    - roomId: "tower1:r24546"
+      direction: up
+- id: r24534
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24536"
+      direction: south
+- id: r24535
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24533"
+      direction: north
+- id: r24536
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24534"
+      direction: north
+    - roomId: "tower1:r24537"
+      direction: east
+    - roomId: "tower1:r24548"
+      direction: up
+    - roomId: "tower1:r24524"
+      direction: down
+- id: r24537
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24536"
+      direction: west
+- id: r24538
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24542"
+      direction: south
+    - roomId: "tower1:r24539"
+      direction: east
+- id: r24539
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24538"
+      direction: west
+    - roomId: "tower1:r24526"
+      direction: down
+- id: r24540
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24528"
+      direction: down
+- id: r24541
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24544"
+      direction: south
+    - roomId: "tower1:r24542"
+      direction: east
+    - roomId: "tower1:r24529"
+      direction: down
+- id: r24542
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24538"
+      direction: north
+    - roomId: "tower1:r24541"
+      direction: west
+    - roomId: "tower1:r24549"
+      direction: up
+- id: r24543
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24551"
+      direction: up
+- id: r24544
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24541"
+      direction: north
+    - roomId: "tower1:r24546"
+      direction: south
+- id: r24545
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24553"
+      direction: up
+- id: r24546
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24544"
+      direction: north
+    - roomId: "tower1:r24554"
+      direction: up
+    - roomId: "tower1:r24533"
+      direction: down
+- id: r24547
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24556"
+      direction: up
+- id: r24548
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24560"
+      direction: up
+    - roomId: "tower1:r24536"
+      direction: down
+- id: r24549
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24550"
+      direction: east
+    - roomId: "tower1:r24542"
+      direction: down
+- id: r24550
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24551"
+      direction: east
+    - roomId: "tower1:r24549"
+      direction: west
+- id: r24551
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24552"
+      direction: east
+    - roomId: "tower1:r24550"
+      direction: west
+    - roomId: "tower1:r24543"
+      direction: down
+- id: r24552
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24553"
+      direction: south
+    - roomId: "tower1:r24551"
+      direction: west
+- id: r24553
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24552"
+      direction: north
+    - roomId: "tower1:r24557"
+      direction: south
+    - roomId: "tower1:r24545"
+      direction: down
+- id: r24554
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24558"
+      direction: south
+    - roomId: "tower1:r24555"
+      direction: east
+    - roomId: "tower1:r24546"
+      direction: down
+- id: r24555
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24556"
+      direction: east
+    - roomId: "tower1:r24554"
+      direction: west
+- id: r24556
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24559"
+      direction: south
+    - roomId: "tower1:r24555"
+      direction: west
+    - roomId: "tower1:r24547"
+      direction: down
+- id: r24557
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24553"
+      direction: north
+    - roomId: "tower1:r24561"
+      direction: south
+- id: r24558
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24554"
+      direction: north
+- id: r24559
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+  exits:
+    - roomId: "tower1:r24556"
+      direction: north
+    - roomId: "tower1:r24560"
+      direction: east
+- id: r24560
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24561"
+      direction: east
+    - roomId: "tower1:r24559"
+      direction: west
+    - roomId: "tower1:r24548"
+      direction: down
+- id: r24561
+  title: "A corridor in the SE tower"
+  description: >-
+    You are standing in a corridor in the south east tower of Joker's castle.
+    It's dark all around and all the corridors look the same, what a pain!
+    There is a staircase here.
+  exits:
+    - roomId: "tower1:r24557"
+      direction: north
+    - roomId: "tower1:r24560"
+      direction: west
+    - roomId: "tower1:r24562"
+      direction: up
+- id: r24562
+  title: "A corridor in the SE tower"
+  description: >-
+    You have reached the top of the tower!
+    From here you can see above the clouds, there is a guard here.
+    He is the guardian of the rift. If you wish to enter the rift, you will have to
+    pay him well.
+  exits:
+    - roomId: "tower1:r24561"
+      direction: down

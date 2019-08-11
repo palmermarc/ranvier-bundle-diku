@@ -1,0 +1,12 @@
+title: "Elemental Canyon"
+metadata:
+  id: 8
+  name: "Elemental Canyon"
+  createdBy: "raff"
+  starting_vnum: 9200
+  ending_vnum: 9299
+  item_requirements: 4000
+  filename: "canyon.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,838 @@
+- id: m9301
+  keywords: ["poor","mudder"]
+  name: "a poor mudder"
+  description: >-
+    A poor mudder, lost in this place.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9302
+  keywords: ["star"]
+  name: "a beautiful star"
+  description: >-
+    A beautiful white star smiles at you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 2
+- id: m9303
+  keywords: ["nebula","young"]
+  name: "a young nebula"
+  description: >-
+    A young nebula, waiting to become a star.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 2
+- id: m9304
+  keywords: ["comet","speedy"]
+  name: "a speedy comet"
+  description: >-
+    A speedy comet is waiting to crush your head in.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+      pools:
+        "galaxy:o9301": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9305
+  keywords: ["red","supergiant"]
+  name: "a red supergiant"
+  description: >-
+    An enormous, red supergiant is forced to protect the galaxy.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9306
+  keywords: ["white","dwarf"]
+  name: "a white dwarf"
+  description: >-
+    A tiny white dwarf is trying to sneak away from duty. 
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9307
+  keywords: ["horsehead","nebula"]
+  name: "a horsehead nebula"
+  description: >-
+    A huge nebula is here, resembling a horsehead.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 5700
+          max: 6300
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9308
+  keywords: ["andromeda"]
+  name: "poor Andromeda"
+  description: >-
+    The poor Andromeda is chained to the wall, suffering ...
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 7125
+          max: 7875
+      pools:
+        "galaxy:o9328": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 2
+- id: m9309
+  keywords: ["hercules"]
+  name: "the mighty Hercules"
+  description: >-
+    The Mighty Hercules is working hard on his extra Labours for the Gods.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 7125
+          max: 7875
+      pools:
+        "galaxy:o9302": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9310
+  keywords: ["pegasus"]
+  name: "the wild Pegasus"
+  description: >-
+    The wild pegasus is grazing peacefully.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 300
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 0
+- id: m9311
+  keywords: ["orion"]
+  name: "Orion the hunter"
+  description: >-
+    Orion is still hunting for Scorpio.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 300
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 7125
+          max: 7875
+      pools:
+        "galaxy:o9304": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9312
+  keywords: ["pleiades"]
+  name: "the Pleiades"
+  description: >-
+    The Pleiades are here, weeping for the loss of their sisters.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 300
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 2850
+          max: 3150
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 2
+- id: m9313
+  keywords: ["draco","head"]
+  name: "the Head of Draco"
+  description: >-
+    The gigantic Head of Draco lurks out from beneath and prepares to roast you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 14250
+          max: 15750
+      pools:
+        "galaxy:o9305": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 0
+- id: m9314
+  keywords: ["draco","baby"]
+  name: "a baby draco"
+  description: >-
+    A baby draco is crawling on the Draco's body.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 3800
+          max: 4200
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 0
+- id: m9315
+  keywords: ["aries"]
+  name: "Aries"
+  description: >-
+    Aries is sitting here, welcoming you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 700
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "galaxy:o9306": 75
+        "galaxy:o9324": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9316
+  keywords: ["taurus"]
+  name: "Taurus"
+  description: >-
+    Taurus wants to leave, but has been forced to stay as a guardian here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "galaxy:o9307": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9317
+  keywords: ["gemini"]
+  name: "Gemini"
+  description: >-
+    Gemini is looking for his brother; have you seen him?
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "galaxy:o9308": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9318
+  keywords: ["gemini"]
+  name: "Gemini"
+  description: >-
+    Gemini is hiding from his brother, grinning evilly at you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9319
+  keywords: ["cancer"]
+  name: "Cancer"
+  description: >-
+    Cancer the crab is here, hoarding the treasure away from you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "galaxy:o9309": 75
+        "galaxy:o9325": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9320
+  keywords: ["leo"]
+  name: "Leo"
+  description: >-
+    Leo the lion is roaring at you, ready for a strike!
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "galaxy:o9310": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9321
+  keywords: ["virgo"]
+  name: "Virgo"
+  description: >-
+    Virgo is sitting here, winking at you suggestively ... you are alarmed!
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "galaxy:o9311": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 2
+- id: m9322
+  keywords: ["libra"]
+  name: "Libra"
+  description: >-
+    Libra, the fair and just, is staring at you, weighing up the sins of your past.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "galaxy:o9313": 75
+        "galaxy:o9326": 75
+        "galaxy:o9312": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9323
+  keywords: ["scorpio"]
+  name: "Scorpio"
+  description: >-
+    Scorpio is moving his tail towards you, waiting to put an end to some mortals.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "galaxy:o9314": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9324
+  keywords: ["sagittarius"]
+  name: "Sagittarius"
+  description: >-
+    Sagittarius the centaur is waiting to let go of his well aimed arrow ...
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "galaxy:o9315": 75
+        "galaxy:o9316": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9325
+  keywords: ["capricorn"]
+  name: "Capricorn"
+  description: >-
+    Capricorn is here, feeling bored ... he wants a fight!
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 700
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "galaxy:o9317": 75
+        "galaxy:o9327": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9326
+  keywords: ["aquarius"]
+  name: "Aquarius"
+  description: >-
+    The beautiful Aquarius is standing here, holding THE vessel.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "galaxy:o9318": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 2
+- id: m9327
+  keywords: ["pisces","mermaid"]
+  name: "Pisces the mermaid"
+  description: >-
+    Pisces the mermaid is sitting here, waiting for your help.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "galaxy:o9319": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 2
+- id: m9328
+  keywords: ["pisces","fish"]
+  name: "Pisces the fish"
+  description: >-
+    Pisces the fish, is jealous of your approach...
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9329
+  keywords: ["bear","ursa","major"]
+  name: "Ursa Major the bear"
+  description: >-
+    Ursa Major the bear is the last defense against any intruders.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 14250
+          max: 15750
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 0
+- id: m9330
+  keywords: ["cassiopeia","queen"]
+  name: "Cassiopeia the Queen"
+  description: >-
+    Cassiopeia, the queen of the Universe, is sitting on her throne.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 700
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "galaxy:o9320": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 2
+- id: m9331
+  keywords: ["cepheus","king"]
+  name: "Cepheus the King"
+  description: >-
+    Cepheus, the king of the Universe, is sitting on his throne.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 700
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "galaxy:o9321": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1
+- id: m9332
+  keywords: ["polaris","polar","star"]
+  name: "Polaris, the polar star"
+  description: >-
+    Polaris, the polar star, who commands the whole Universe, stands before you!
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 19000
+          max: 21000
+      pools:
+        "galaxy:o9322": 75
+        "galaxy:o9323": 75
+  metadata:
+    areaId: 28
+    exp_level: 8000
+    sex: 1

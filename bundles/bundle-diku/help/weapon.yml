@@ -1,0 +1,10 @@
+---
+body: |
+  syntax: <weapons>
+  
+  WEAPONS is a new command that shows you your
+  skill in the various weapon types.
+  
+  see also: help SKILL, SPELL, BASIC, ASTANCE.
+  
+  

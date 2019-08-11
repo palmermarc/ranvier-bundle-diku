@@ -1,0 +1,444 @@
+- id: o600
+  name: "handaxe hand axe"
+  roomDesc: "A handaxe is on the floor here."
+  keywords: ["handaxe","hand","axe"]
+  description: "A handaxe is on the floor here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o601
+  name: "meat cleaver"
+  roomDesc: "A sharp meat cleaver is just lying on the floor here!"
+  keywords: ["meat","cleaver"]
+  description: "A sharp meat cleaver is just lying on the floor here!"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o602
+  name: "side meat beef"
+  roomDesc: "A side of beef is here on the floor."
+  keywords: ["side","meat","beef"]
+  description: "A side of beef is here on the floor."
+  type: FOOD
+- id: o603
+  name: "side meat pork"
+  roomDesc: "A side of pork is here on the floor."
+  keywords: ["side","meat","pork"]
+  description: "A side of pork is here on the floor."
+  type: FOOD
+- id: o604
+  name: "side meat horse"
+  roomDesc: "A side of horse is here on the floor."
+  keywords: ["side","meat","horse"]
+  description: "A side of horse is here on the floor."
+  type: FOOD
+- id: o605
+  name: "meat chicken"
+  roomDesc: "A defeathered chicken is here on the floor."
+  keywords: ["meat","chicken"]
+  description: "A defeathered chicken is here on the floor."
+  type: FOOD
+- id: o606
+  name: "emerald ring"
+  roomDesc: "An emerald ring is on the floor, gathering dust."
+  keywords: ["emerald","ring"]
+  description: "An emerald ring is on the floor, gathering dust."
+  type: ACCESSORY
+- id: o607
+  name: "glass trinket"
+  roomDesc: "A glass trinket is on the floor, gathering dust."
+  keywords: ["glass","trinket"]
+  description: "A glass trinket is on the floor, gathering dust."
+  type: TREASURE
+- id: o608
+  name: "golden necklace"
+  roomDesc: "A golden necklace is on the floor, gathering dust."
+  keywords: ["golden","necklace"]
+  description: "A golden necklace is on the floor, gathering dust."
+  type: ACCESSORY
+- id: o609
+  name: "cabbage"
+  roomDesc: "Some fresh cabbage is here, get it while it lasts!"
+  keywords: ["cabbage"]
+  description: "Some fresh cabbage is here, get it while it lasts!"
+  type: FOOD
+- id: o610
+  name: "lettuce"
+  roomDesc: "Some fresh lettuce is here, get it while it lasts!"
+  keywords: ["lettuce"]
+  description: "Some fresh lettuce is here, get it while it lasts!"
+  type: FOOD
+- id: o611
+  name: "milk bottle"
+  roomDesc: "A glass bottle of milk is on a shelf here, fresh from the cow."
+  keywords: ["milk","bottle"]
+  description: "A glass bottle of milk is on a shelf here, fresh from the cow."
+  type: DRINKCON
+- id: o612
+  name: "apple"
+  roomDesc: "An apple is on the ground."
+  keywords: ["apple"]
+  description: "An apple is on the ground."
+  type: FOOD
+- id: o613
+  name: "corn"
+  roomDesc: "An ear of corn is on the ground."
+  keywords: ["corn"]
+  description: "An ear of corn is on the ground."
+  type: FOOD
+- id: o614
+  name: "hay pile"
+  roomDesc: "There is a big pile of hay here."
+  keywords: ["hay","pile"]
+  description: "There is a big pile of hay here."
+  type: TRASH
+- id: o615
+  name: "pitchfork fork"
+  roomDesc: "A pitchfork is on the floor."
+  keywords: ["pitchfork","fork"]
+  description: "A pitchfork is on the floor."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o616
+  name: "vest"
+  roomDesc: "A leather vest is on the floor."
+  keywords: ["vest"]
+  description: "A leather vest is on the floor."
+  type: MEDIUMARMOR
+- id: o617
+  name: "sleeves"
+  roomDesc: "Some leather sleeves are on the floor."
+  keywords: ["sleeves"]
+  description: "Some leather sleeves are on the floor."
+  type: MEDIUMARMOR
+- id: o618
+  name: "leggings"
+  roomDesc: "Some leather leggings are on the floor."
+  keywords: ["leggings"]
+  description: "Some leather leggings are on the floor."
+  type: MEDIUMARMOR
+- id: o619
+  name: "boots"
+  roomDesc: "Some leather boots are on the floor."
+  keywords: ["boots"]
+  description: "Some leather boots are on the floor."
+  type: MEDIUMARMOR
+- id: o620
+  name: "signet ring"
+  roomDesc: "A shiny ring of gold is in the dirt."
+  keywords: ["signet","ring"]
+  description: "A shiny ring of gold is in the dirt."
+  type: ACCESSORY
+- id: o621
+  name: "plate brass"
+  roomDesc: "A pile of brass plates is against the wall here. Maybe they could be used as armor."
+  keywords: ["plate","brass"]
+  description: "A pile of brass plates is against the wall here. Maybe they could be used as armor."
+  type: HEAVYARMOR
+- id: o622
+  name: "helm brass"
+  roomDesc: "A brass helm is against the wall here."
+  keywords: ["helm","brass"]
+  description: "A brass helm is against the wall here."
+  type: HEAVYARMOR
+- id: o623
+  name: "leggings brass"
+  roomDesc: "A pile of brass plates is against the wall here."
+  keywords: ["leggings","brass"]
+  description: "A pile of brass plates is against the wall here."
+  type: HEAVYARMOR
+- id: o624
+  name: "boots brass"
+  roomDesc: "Some brass boots are against the wall here."
+  keywords: ["boots","brass"]
+  description: "Some brass boots are against the wall here."
+  type: HEAVYARMOR
+- id: o625
+  name: "gauntlets brass"
+  roomDesc: "Some brass gauntlets are against the wall here."
+  keywords: ["gauntlets","brass"]
+  description: "Some brass gauntlets are against the wall here."
+  type: HEAVYARMOR
+- id: o626
+  name: "sleeves brass"
+  roomDesc: "A pile of brass plates is against the wall here."
+  keywords: ["sleeves","brass"]
+  description: "A pile of brass plates is against the wall here."
+  type: HEAVYARMOR
+- id: o627
+  name: "shield brass"
+  roomDesc: "A big plate of brass is against the wall here."
+  keywords: ["shield","brass"]
+  description: "A big plate of brass is against the wall here."
+  type: SHIELD
+- id: o628
+  name: "girth brass"
+  roomDesc: "A brass girth is against the wall here."
+  keywords: ["girth","brass"]
+  description: "A brass girth is against the wall here."
+  type: ACCESSORY
+- id: o629
+  name: "bracer brass"
+  roomDesc: "A brass bracer is against the wall here."
+  keywords: ["bracer","brass"]
+  description: "A brass bracer is against the wall here."
+  type: HEAVYARMOR
+- id: o630
+  name: "claymore sword"
+  roomDesc: "A VERY big sword is against the wall here."
+  keywords: ["claymore","sword"]
+  description: "A VERY big sword is against the wall here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o631
+  name: "plate silver"
+  roomDesc: "A pile of silver plating and chain is on the floor."
+  keywords: ["plate","silver"]
+  description: "A pile of silver plating and chain is on the floor."
+  type: HEAVYARMOR
+- id: o632
+  name: "helm silver"
+  roomDesc: "A shiny helm is on the floor."
+  keywords: ["helm","silver"]
+  description: "A shiny helm is on the floor."
+  type: HEAVYARMOR
+- id: o633
+  name: "leggings silver"
+  roomDesc: "Some shiny leggings are on the floor."
+  keywords: ["leggings","silver"]
+  description: "Some shiny leggings are on the floor."
+  type: HEAVYARMOR
+- id: o634
+  name: "boots silver"
+  roomDesc: "Some shiny boots are on the floor."
+  keywords: ["boots","silver"]
+  description: "Some shiny boots are on the floor."
+  type: HEAVYARMOR
+- id: o635
+  name: "gauntlets silver"
+  roomDesc: "Some shiny gauntlets are on the floor."
+  keywords: ["gauntlets","silver"]
+  description: "Some shiny gauntlets are on the floor."
+  type: HEAVYARMOR
+- id: o636
+  name: "sleeves silver"
+  roomDesc: "Some shiny sleeves are on the floor."
+  keywords: ["sleeves","silver"]
+  description: "Some shiny sleeves are on the floor."
+  type: HEAVYARMOR
+- id: o637
+  name: "shield silver"
+  roomDesc: "A shiny shield is on the floor."
+  keywords: ["shield","silver"]
+  description: "A shiny shield is on the floor."
+  type: SHIELD
+- id: o638
+  name: "girth silver"
+  roomDesc: "A shiny girth is on the floor."
+  keywords: ["girth","silver"]
+  description: "A shiny girth is on the floor."
+  type: ACCESSORY
+- id: o639
+  name: "plate platinum"
+  roomDesc: "A pile of silvery metal is on the floor."
+  keywords: ["plate","platinum"]
+  description: "A pile of silvery metal is on the floor."
+  type: HEAVYARMOR
+- id: o640
+  name: "helmet platinum"
+  roomDesc: "A silvery helmet is on the floor."
+  keywords: ["helmet","platinum"]
+  description: "A silvery helmet is on the floor."
+  type: HEAVYARMOR
+- id: o641
+  name: "leggings platinum"
+  roomDesc: "Some silvery leggings are on the floor."
+  keywords: ["leggings","platinum"]
+  description: "Some silvery leggings are on the floor."
+  type: HEAVYARMOR
+- id: o642
+  name: "boots platinum"
+  roomDesc: "Some silvery boots are on the floor."
+  keywords: ["boots","platinum"]
+  description: "Some silvery boots are on the floor."
+  type: HEAVYARMOR
+- id: o643
+  name: "gauntlets platinum"
+  roomDesc: "A pair of silvery gauntlets are on the floor."
+  keywords: ["gauntlets","platinum"]
+  description: "A pair of silvery gauntlets are on the floor."
+  type: HEAVYARMOR
+- id: o644
+  name: "sleeves platinum"
+  roomDesc: "A pair of silvery sleeves are on the floor."
+  keywords: ["sleeves","platinum"]
+  description: "A pair of silvery sleeves are on the floor."
+  type: HEAVYARMOR
+- id: o645
+  name: "shield spiked platinum"
+  roomDesc: "A jagged, silvery shield is on the floor."
+  keywords: ["shield","spiked","platinum"]
+  description: "A jagged, silvery shield is on the floor."
+  type: SHIELD
+- id: o646
+  name: "girth platinum"
+  roomDesc: "A silvery girth is on the floor."
+  keywords: ["girth","platinum"]
+  description: "A silvery girth is on the floor."
+  type: ACCESSORY
+- id: o647
+  name: "avenger holy sword"
+  roomDesc: "A glowing silvery sword is hovering here, ready to possess an owner."
+  keywords: ["avenger","holy","sword"]
+  description: "A glowing silvery sword is hovering here, ready to possess an owner."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o648
+  name: "whiskey shot"
+  roomDesc: "A shot of whiskey is on the table."
+  keywords: ["whiskey","shot"]
+  description: "A shot of whiskey is on the table."
+  type: DRINKCON
+- id: o649
+  name: "ale quart"
+  roomDesc: "A quart of ale is on the table."
+  keywords: ["ale","quart"]
+  description: "A quart of ale is on the table."
+  type: DRINKCON
+- id: o650
+  name: "port brew quart"
+  roomDesc: "A quart of port brew is on the table."
+  keywords: ["port","brew","quart"]
+  description: "A quart of port brew is on the table."
+  type: DRINKCON
+- id: o651
+  name: "key citadel"
+  roomDesc: "A key is on the floor."
+  keywords: ["key","citadel"]
+  description: "A key is on the floor."
+  type: KEY
+- id: o652
+  name: "symbol holy"
+  roomDesc: "A very shiny symbol is on the floor."
+  keywords: ["symbol","holy"]
+  description: "A very shiny symbol is on the floor."
+  type: ACCESSORY
+- id: o653
+  name: "ranseur polearm"
+  roomDesc: "A heavy polearm is against the wall here, ready to inflict damage."
+  keywords: ["ranseur","polearm"]
+  description: "A heavy polearm is against the wall here, ready to inflict damage."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o654
+  name: "torso dragonscale golden"
+  roomDesc: "A golden dragonscale torso is on the floor!"
+  keywords: ["torso","dragonscale","golden"]
+  description: "A golden dragonscale torso is on the floor!"
+  type: HEAVYARMOR
+- id: o655
+  name: "dragonhelm golden"
+  roomDesc: "A golden dragonhelm is on the floor!"
+  keywords: ["dragonhelm","golden"]
+  description: "A golden dragonhelm is on the floor!"
+  type: HEAVYARMOR
+- id: o656
+  name: "leggings golden"
+  roomDesc: "Some golden dragonscale leggings are on the floor!"
+  keywords: ["leggings","golden"]
+  description: "Some golden dragonscale leggings are on the floor!"
+  type: HEAVYARMOR
+- id: o657
+  name: "boots golden"
+  roomDesc: "Some golden dragonscale boots are on the floor!"
+  keywords: ["boots","golden"]
+  description: "Some golden dragonscale boots are on the floor!"
+  type: HEAVYARMOR
+- id: o658
+  name: "gauntlets golden"
+  roomDesc: "Some golden dragonscale gauntlets are on the floor!"
+  keywords: ["gauntlets","golden"]
+  description: "Some golden dragonscale gauntlets are on the floor!"
+  type: HEAVYARMOR
+- id: o659
+  name: "sleeves golden"
+  roomDesc: "Some golden dragonscale sleeves are on the floor!"
+  keywords: ["sleeves","golden"]
+  description: "Some golden dragonscale sleeves are on the floor!"
+  type: HEAVYARMOR
+- id: o660
+  name: "shield golden"
+  roomDesc: "A golden dragonscale shield is on the floor!"
+  keywords: ["shield","golden"]
+  description: "A golden dragonscale shield is on the floor!"
+  type: SHIELD
+- id: o661
+  name: "girth golden"
+  roomDesc: "A golden dragonscale girth is on the floor!"
+  keywords: ["girth","golden"]
+  description: "A golden dragonscale girth is on the floor!"
+  type: ACCESSORY
+- id: o662
+  name: "claw golden"
+  roomDesc: "A huge golden claw is on the floor"
+  keywords: ["claw","golden"]
+  description: "A huge golden claw is on the floor"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o663
+  name: "orb dragonorb"
+  roomDesc: "A very large pearl-like sphere is in the center of this room."
+  keywords: ["orb","dragonorb"]
+  description: "A very large pearl-like sphere is in the center of this room."
+  type: STAFF
+- id: o664
+  name: "robe golden"
+  roomDesc: "A golden robe is on the floor."
+  keywords: ["robe","golden"]
+  description: "A golden robe is on the floor."
+  type: LIGHTARMOR
+- id: o665
+  name: "house key"
+  roomDesc: "A house key is on the floor."
+  keywords: ["house","key"]
+  description: "A house key is on the floor."
+  type: KEY
+- id: o666
+  name: "broom"
+  roomDesc: "A broom is against the wall here."
+  keywords: ["broom"]
+  description: "A broom is against the wall here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o667
+  name: "chest"
+  roomDesc: "A chest is on the floor here."
+  keywords: ["chest"]
+  description: "A chest is on the floor here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true

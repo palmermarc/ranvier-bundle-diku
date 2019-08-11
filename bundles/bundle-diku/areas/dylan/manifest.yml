@@ -1,0 +1,12 @@
+title: "Dylan's Area"
+metadata:
+  id: 23
+  name: "Dylan's Area"
+  createdBy: "dylan"
+  starting_vnum: 9100
+  ending_vnum: 9199
+  item_requirements: 4000
+  filename: "dylan.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

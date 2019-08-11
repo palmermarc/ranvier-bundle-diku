@@ -1,0 +1,12 @@
+---
+body: |
+  Syntax: cast invis <character>
+  Syntax: cast 'mass invis'
+  
+  The INVIS spell makes the target character invisible. Invisible characters
+  will become visible when they attack.
+  
+  The MASS INVIS spell makes all characters in the caster's group invisible,
+  including the caster.
+  
+  - massinvis

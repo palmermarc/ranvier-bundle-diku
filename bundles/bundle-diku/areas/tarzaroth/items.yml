@@ -1,0 +1,126 @@
+- id: o14200
+  name: "sword serated"
+  roomDesc: "A sword rests here."
+  keywords: ["sword","serated"]
+  description: "A sword rests here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14201
+  name: "plate breast iron"
+  roomDesc: "A breastplate made of iron rests here."
+  keywords: ["plate","breast","iron"]
+  description: "A breastplate made of iron rests here."
+  type: HEAVYARMOR
+- id: o14202
+  name: "hide lion skin"
+  roomDesc: "A hide of lion skin is here."
+  keywords: ["hide","lion","skin"]
+  description: "A hide of lion skin is here."
+  type: ACCESSORY
+- id: o14203
+  name: "axe large"
+  roomDesc: "A large axe lies here."
+  keywords: ["axe","large"]
+  description: "A large axe lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14204
+  name: "helmet helm steel"
+  roomDesc: "A sturdy steel helm rests here."
+  keywords: ["helmet","helm","steel"]
+  description: "A sturdy steel helm rests here."
+  type: HEAVYARMOR
+- id: o14205
+  name: "bow elven"
+  roomDesc: "A simple looking bow lies here."
+  keywords: ["bow","elven"]
+  description: "A simple looking bow lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14206
+  name: "Lance fire balrog"
+  roomDesc: "A large fire wrought lance burns on the ground here."
+  keywords: ["Lance","fire","balrog"]
+  description: "A large fire wrought lance burns on the ground here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14207
+  name: "skin balrog cloak"
+  roomDesc: "A black sticky cloak lies here."
+  keywords: ["skin","balrog","cloak"]
+  description: "A black sticky cloak lies here."
+  type: ACCESSORY
+- id: o14208
+  name: "trident"
+  roomDesc: "A trident rests here."
+  keywords: ["trident"]
+  description: "A trident rests here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14209
+  name: "cape tiger"
+  roomDesc: "A tiger skin cape lies crumpled on the ground."
+  keywords: ["cape","tiger"]
+  description: "A tiger skin cape lies crumpled on the ground."
+  type: ACCESSORY
+- id: o14210
+  name: "spear"
+  roomDesc: "A sharp wooden spear has been left here."
+  keywords: ["spear"]
+  description: "A sharp wooden spear has been left here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14211
+  name: "net"
+  roomDesc: "A gladiators net is on the ground."
+  keywords: ["net"]
+  description: "A gladiators net is on the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14212
+  name: "talons griffin"
+  roomDesc: "A griffons talon is here."
+  keywords: ["talons","griffin"]
+  description: "A griffons talon is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14213
+  name: "club spiked"
+  roomDesc: "An orcs spiked club rests here."
+  keywords: ["club","spiked"]
+  description: "An orcs spiked club rests here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14214
+  name: "fountain"
+  roomDesc: "A wrought iron fountain overflows with clear water."
+  keywords: ["fountain"]
+  description: "A wrought iron fountain overflows with clear water."
+  type: FOUNTAIN

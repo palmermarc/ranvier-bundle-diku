@@ -1,0 +1,22 @@
+---
+body: |
+  Syntax: wimpy
+  Syntax: wimpy <number>
+  
+  WIMPY sets your wimpy value. When your character takes damage that reduces
+  your hit points below your wimpy value, you will automatically attempt to flee.
+  
+  WIMPY with no argument sets your wimpy value to 20% of your maximum hit points.
+  
+  Some monsters are wimpy.
+  
+  NOTE - Higher status people do not have the same luxuries as low status
+  people. After all, you should not be Fighter and above if you are
+  a coward. Because of this, if you are fighter or above, you will
+  not earn as much experience if you have a wimpy value set, and
+  once you reach Adventurer status, you may not have a wimpy value
+  set at all (for those of you that are Adventurer or above allready
+  and have a wimpy set, it will no longer make you flee in combat ;p ).
+  
+  See also HELP FLEE
+  

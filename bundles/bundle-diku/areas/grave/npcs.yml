@@ -1,0 +1,187 @@
+- id: m3600
+  keywords: ["henry","gardener"]
+  name: "Henry the Gardener"
+  description: >-
+    Henry the Gardener is sitting here, looking drunk.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 350
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "grave:o3601": 75
+  metadata:
+    areaId: 30
+    exp_level: 2000
+    sex: 1
+- id: m3601
+  keywords: ["zombie"]
+  name: "the rotting zombie"
+  description: >-
+    A rotting zombie is staggering towards you with outstretched hands.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "grave:o3611": 75
+  metadata:
+    areaId: 30
+    exp_level: 2000
+    sex: 1
+- id: m3602
+  keywords: ["ghoul"]
+  name: "the ghastly ghoul"
+  description: >-
+    A ghastly ghoul is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "grave:o3612": 75
+  metadata:
+    areaId: 30
+    exp_level: 2000
+    sex: 1
+- id: m3603
+  keywords: ["skeleton"]
+  name: "a dusty skeleton"
+  description: >-
+    A dusty skeleton lies here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 30
+    exp_level: 2000
+    sex: 1
+- id: m3604
+  keywords: ["skeleton"]
+  name: "a dusty skeleton"
+  description: >-
+    A dusty skeleton lies here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 30
+    exp_level: 2000
+    sex: 1
+- id: m3605
+  keywords: ["zombie"]
+  name: "the rotting zombie"
+  description: >-
+    A rotting zombie is staggering towards you with outstretched hands.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 30
+    exp_level: 2000
+    sex: 1

@@ -1,0 +1,1641 @@
+- id: r3300
+  title: "Before the Forest Arden"
+  description: >-
+    Before you stretches the vast forest Arden, consisting of towering oaks 
+    and unknown wildlife. A path leads northwards into the forest. There is a 
+    piece parchment nailed to an old oak, and a guilded plaque is affixed to a 
+    boulder.
+  exits:
+    - roomId: "camelot:r3301"
+      direction: north
+    - roomId: "castle:r24301"
+      direction: south
+- id: r3301
+  title: "The Crossroads of Arden"
+  description: >-
+    You stand at the crossroads of two dusty paths. Dappled sunlight lights 
+    the intersection and you notice horsesign in the dirt. The path continues 
+    in the north, south, east and west directions.
+  exits:
+    - roomId: "camelot:r3304"
+      direction: north
+    - roomId: "camelot:r3300"
+      direction: south
+    - roomId: "camelot:r3305"
+      direction: east
+    - roomId: "camelot:r3302"
+      direction: west
+  npcs:
+    - id: "camelot:m3306"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3302
+  title: "The Forest Arden"
+  description: >-
+    You are on a path in the great forest Arden. Boy you wish there wern't 
+    so many of those pesky knats. The trail leads south and east.
+  exits:
+    - roomId: "camelot:r3303"
+      direction: south
+    - roomId: "camelot:r3301"
+      direction: east
+  npcs:
+    - id: "camelot:m3314"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3303
+  title: "Trail of Bones"
+  description: >-
+    The trail narrows and darkens and you notice a crunching sound. You look 
+    down-BONES! The trail darkens to the west and lightens to the north.
+  exits:
+    - roomId: "camelot:r3302"
+      direction: north
+    - roomId: "camelot:r3306"
+      direction: west
+- id: r3304
+  title: "A Hut in Forest Arden"
+  description: >-
+    You stand before a weathered thatch hut. There are weeds everywhere-
+    obviously this place has been abandoned for some time. The door to the 
+    hut lies to the west and a dirty trail leads south.
+  exits:
+    - roomId: "camelot:r3301"
+      direction: south
+    - roomId: "camelot:r3307"
+      direction: west
+  npcs:
+    - id: "camelot:m3329"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r3305
+  title: "A Fork in the Dirty Trail"
+  description: >-
+    You are at a fork in the dirty trail in Forest Arden. There is horsesign 
+    in the dirt, and the trail goes north, east, and west from here.
+  exits:
+    - roomId: "camelot:r3308"
+      direction: north
+    - roomId: "camelot:r3309"
+      direction: east
+    - roomId: "camelot:r3301"
+      direction: west
+- id: r3306
+  title: "Lair of the Questing Beast"
+  description: >-
+    You have found the lair of the questing beast! Bones are strewn everywhere.
+    The only exit is to the east.
+  exits:
+    - roomId: "camelot:r3303"
+      direction: east
+  npcs:
+    - id: "camelot:m3315"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "camelot:o3323"
+      respawnChance: 75
+    - id: "camelot:o3324"
+      respawnChance: 75
+    - id: "camelot:o3325"
+      respawnChance: 75
+- id: r3307
+  title: "Inside a Hut"
+  description: >-
+    You stand inside an old, abandonned hut. The ceiling is low, and the 
+    rafters are covered in soot. There is a workbench and an old fireplace.
+  exits:
+    - roomId: "camelot:r3304"
+      direction: east
+- id: r3308
+  title: "Mists of Arden"
+  description: >-
+    You have steadily travelled downhill into a misty forested area. The tall 
+    black silhoettes of the towering oaks crowd your limited vision. You squint 
+    at the dirty trail which leads north and south and notice horsesign.
+  exits:
+    - roomId: "camelot:r3312"
+      direction: north
+    - roomId: "camelot:r3305"
+      direction: south
+- id: r3309
+  title: "Deep Woods"
+  description: >-
+    You are in a deeply wooded section of the forest Arden. Shadows lengthen 
+    and play in the breeze. The trail continues north, east, and west.
+  exits:
+    - roomId: "camelot:r3310"
+      direction: north
+    - roomId: "camelot:r3311"
+      direction: east
+    - roomId: "camelot:r3305"
+      direction: west
+- id: r3310
+  title: "Cursed Glade"
+  description: >-
+    You have entered a glade where all the vegetation is dead. There is no 
+    sounds of wildlife, and no light reaches here from above. There are bones 
+    from previous visitors scattered about the glade. Maybe you should rest 
+    for a while
+  exits:
+    - roomId: "camelot:r3311"
+      direction: up
+- id: r3311
+  title: "Dark Hollow"
+  description: >-
+    You have entered a dark hollow. The air is heavy, damp and oppressive 
+    broken only bye the cackling of a crow. To the west is a dusty trail.
+  exits:
+    - roomId: "camelot:r3309"
+      direction: west
+  npcs:
+    - id: "camelot:m3308"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3312
+  title: "The Forest Arden"
+  description: >-
+    You have entered a bright and cheerful section of the Forest Arden. 
+    Squirrels chase one and another around the ancient oaks, and butterfiles 
+    dance in the dappled sunshine. The air smells sweet, the sun is on your 
+    back, and the horsetrodden trail leads north, south, and east.
+  exits:
+    - roomId: "camelot:r3313"
+      direction: north
+    - roomId: "camelot:r3308"
+      direction: south
+    - roomId: "camelot:r3318"
+      direction: east
+- id: r3313
+  title: "A Creek in the Forest Arden"
+  description: >-
+    You have stopped for water at a little creek which cuts across the trail. 
+    To the south the forest brightens. To the west the forest darkens. The 
+    sky is blue and the sunlight flashes off the silvery waters.
+  exits:
+    - roomId: "camelot:r3312"
+      direction: south
+    - roomId: "camelot:r3314"
+      direction: west
+  npcs:
+    - id: "camelot:m3302"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "camelot:m3322"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r3314
+  title: "Battleplain of Arden"
+  description: >-
+    Before you stretches the grizzly battleplain of Arden. Countless centuries 
+    of war have littered the plain with bones and broken weapons of its 
+    combattants. There are signs of a recent carnage with several knights 
+    and their steeds lying in twisted heaps. A dirty trail continues to the 
+    west and east, and a winding road heads north.
+  exits:
+    - roomId: "camelot:r3315"
+      direction: north
+    - roomId: "camelot:r3313"
+      direction: east
+    - roomId: "camelot:r3316"
+      direction: west
+  npcs:
+    - id: "camelot:m3305"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3325"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3318"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "camelot:m3318"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "camelot:m3319"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r3315
+  title: "Before Blackmoor"
+  description: >-
+    You stand before Blackmoor the keep of the evil Mordred. The curtain wall 
+    is some 25 feet high and towers flank the gate and corners. The breeze 
+    brings a high pitched girlish laughter to you sending chills up your spine. 
+    To the north lies the black iron gates of Blackmoor, and to the south 
+    stretches a winding road.
+  exits:
+    - roomId: "camelot:r3326"
+      direction: north
+    - roomId: "camelot:r3314"
+      direction: south
+  npcs:
+    - id: "camelot:m3322"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r3316
+  title: "Forest Blackmoor"
+  description: >-
+    You have entered Blackmoor, the forest of the damned. Thorns and crooked 
+    trees scratch and tear at you, almost as if they were alive. The well worn 
+    path has has vanished and you have lost your bearings.
+  exits:
+    - roomId: "camelot:r3314"
+      direction: up
+    - roomId: "camelot:r3317"
+      direction: down
+  npcs:
+    - id: "camelot:m3304"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3317
+  title: "Before an Inviting Hut"
+  description: >-
+    You stand in front of an inviting hut. Smoke curls from the chimney 
+    bringing you the smell of fresh venison. Lamplight cuts through the 
+    darkness and the windows. A delightful song can be heard from inside. 
+    To the west is the door (adjar) to the hut, and a dirty trail leads 
+    to the south.
+  exits:
+    - roomId: "camelot:r3316"
+      direction: south
+    - roomId: "camelot:r3322"
+      direction: west
+  npcs:
+    - id: "camelot:m3318"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "camelot:m3318"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r3318
+  title: "The Chasm"
+  description: >-
+    You stand before a deep chasm. You can see the fettered ends of an 
+    old rope bridge cut and hanging into the chasm. To the west is a 
+    dirty trail, and the cut rope bridge leads down.
+  exits:
+    - roomId: "camelot:r3312"
+      direction: west
+    - roomId: "camelot:r3319"
+      direction: down
+- id: r3319
+  title: "Hanging on the Rope Bridge"
+  description: >-
+    You are hanging at the tattered end of a rope bridge. Your grip is 
+    fairly strong. You can either try to swing east across the chasm to 
+    the other loose part of the bridge, or you can climb up and out, or 
+    you can let go into the yawning depths of the chasm.
+  exits:
+    - roomId: "camelot:r3320"
+      direction: east
+    - roomId: "camelot:r3318"
+      direction: up
+    - roomId: "camelot:r3323"
+      direction: down
+- id: r3320
+  title: "Hanging on the Rope Bridge"
+  description: >-
+    You are hanging on the frayed end of the rope bridge. You can either 
+    attempt to swing to the east side, climb up the bridge, or go down 
+    into the yawning depths of the chasm.
+  exits:
+    - roomId: "camelot:r3319"
+      direction: west
+    - roomId: "camelot:r3321"
+      direction: up
+    - roomId: "camelot:r3323"
+      direction: down
+- id: r3321
+  title: "The Chasm"
+  description: >-
+    You stand at the brink of a deep chasm. The rope bridge across it has 
+    been cut by some vile villian and lies hanging down into the chasm. 
+    You can either climb down the bridge into the chasm or head to the 
+    green field to the east.
+  exits:
+    - roomId: "camelot:r3324"
+      direction: east
+    - roomId: "camelot:r3320"
+      direction: down
+  npcs:
+    - id: "camelot:m3326"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3322
+  title: "Inside the Inviting Hut"
+  description: >-
+    You are inside an inviting hut. Around you is the comfortable interior, 
+    complete with feather bed and fireplace. A table of fresh meat and 
+    vegatables has been set, and on it is an ornate chalice filled with 
+    wine. A candle burns brightly and there is a single chair at the table.
+  exits:
+    - roomId: "camelot:r3317"
+      direction: east
+  npcs:
+    - id: "camelot:m3313"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3323
+  title: "The Yawning Depths"
+  description: >-
+    Blue...NO GREEN!
+       AHHHHHHHHHHHHHHHH
+           AHHHHHHHHHHHHHHHH
+               AHHHHHHHHHHHHHHHH
+    SPLAAAAT.
+- id: r3324
+  title: "The Green Field Before Camelot"
+  description: >-
+    You stand under the open sky in the emerald green field before Camelot.
+    Camelot lies ontop of a hill overlooking the field. Flags and banners 
+    snap in the fresh breeze from the proud towers of Camelot. You can either 
+    head east to Camelot or west to the chasm.
+  exits:
+    - roomId: "camelot:r3325"
+      direction: east
+    - roomId: "camelot:r3321"
+      direction: west
+- id: r3325
+  title: "The Western Gate of Camelot"
+  description: >-
+    You stand at the gates to Camelot. You have a commanding view of the emerald 
+    plane below. White granite walls rise impressively into the air.
+  exits:
+    - roomId: "camelot:r3340"
+      direction: east
+    - roomId: "camelot:r3324"
+      direction: west
+- id: r3326
+  title: "Bailey of Blackmoor"
+  description: >-
+    You stand inside the bailey of Blackmoor. Murder holes line the walls and 
+    towers rise ahead. To the north and south are black iron gates.
+  exits:
+    - roomId: "camelot:r3327"
+      direction: north
+    - roomId: "camelot:r3315"
+      direction: south
+  npcs:
+    - id: "camelot:m3319"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r3327
+  title: "Inside the Curtain Wall"
+  description: >-
+    You stand on a road inside the Curtain Wall of Blackmoor. The keep proper 
+    is to your north. The road continues to the east and west, and a black iron 
+    gate is to the south.
+  exits:
+    - roomId: "camelot:r3326"
+      direction: south
+    - roomId: "camelot:r3328"
+      direction: east
+    - roomId: "camelot:r3329"
+      direction: west
+- id: r3328
+  title: "Inside the Curtain Wall"
+  description: >-
+    You stand on the road inside the curtain wall of Blackmoor. Stairs lead up 
+    to the eastern bailey tower and the road continues to the north and west.
+  exits:
+    - roomId: "camelot:r3334"
+      direction: north
+    - roomId: "camelot:r3327"
+      direction: west
+    - roomId: "camelot:r3338"
+      direction: up
+- id: r3329
+  title: "Inside the Curtain Wall"
+  description: >-
+    You stand on the road inside the curtain wall. Stairs lead up to the western 
+    bailey tower, and the road continues north and east.
+  exits:
+    - roomId: "camelot:r3330"
+      direction: north
+    - roomId: "camelot:r3327"
+      direction: east
+    - roomId: "camelot:r3337"
+      direction: up
+  npcs:
+    - id: "camelot:m3322"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r3330
+  title: "Inside the Curtain Wall"
+  description: >-
+    You stand on a road inside the curtain wall of Blackmoor. The keep proper 
+    is to the east of you. The bloody road continues north and south.
+  exits:
+    - roomId: "camelot:r3331"
+      direction: north
+    - roomId: "camelot:r3329"
+      direction: south
+- id: r3331
+  title: "Inside the Curtain Wall"
+  description: >-
+    You stand on a road inside the curtain wall of Blackmoor. Stairs lead up to 
+    the northwestern tower of blackmoor. The road continues to the south, and 
+    to the east where the entrance to the keep proper is.
+  exits:
+    - roomId: "camelot:r3330"
+      direction: south
+    - roomId: "camelot:r3332"
+      direction: east
+    - roomId: "camelot:r3335"
+      direction: up
+  npcs:
+    - id: "camelot:m3322"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r3332
+  title: "Entrance to the Keep Proper"
+  description: >-
+    You stand on a road inside the curtain wall of Blackmoor. To the south is 
+    a massive wooden door, from which you hear elfin laughter. The road 
+    continues to the east and west.
+  exits:
+    - roomId: "camelot:r3339"
+      direction: south
+    - roomId: "camelot:r3333"
+      direction: east
+    - roomId: "camelot:r3331"
+      direction: west
+- id: r3333
+  title: "Inside the Curtain Wall"
+  description: >-
+    You stand on a road inside the curtain wall of Blackmoor. Stairs lead up 
+    to the northeastern tower of Blackmoor. The road continues to the south 
+    and west, where the entrance to the keep proper is located.
+  exits:
+    - roomId: "camelot:r3334"
+      direction: south
+    - roomId: "camelot:r3332"
+      direction: west
+    - roomId: "camelot:r3336"
+      direction: up
+- id: r3334
+  title: "Inside the Curtain Wall"
+  description: >-
+    You stand on a road inside the curtain wall of Blackmoor. To the west 
+    looms the keep proper. The road continues north and south.
+  exits:
+    - roomId: "camelot:r3333"
+      direction: north
+    - roomId: "camelot:r3328"
+      direction: south
+  npcs:
+    - id: "camelot:m3322"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r3335
+  title: "The Northwest Tower of Blackmoor"
+  description: >-
+    You stand inside the northwestern tower. You have a commanding view of 
+    the keep and the moor itself. Stairs lead downward.
+  exits:
+    - roomId: "camelot:r3331"
+      direction: down
+  npcs:
+    - id: "camelot:m3318"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "camelot:m3318"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r3336
+  title: "The Northeastern Tower of Blackmoor"
+  description: >-
+    You stand inside the northeastern tower. You have a commanding view of 
+    the keep and the surrounding moor. Stairs lead down.
+  exits:
+    - roomId: "camelot:r3333"
+      direction: down
+  npcs:
+    - id: "camelot:m3327"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3337
+  title: "West Bailey Tower"
+  description: >-
+    You stand inside the western bailey tower. You have a great view of the 
+    bailey and you could fire a ranged weapon through the murder hole. Stairs 
+    lead down.
+  exits:
+    - roomId: "camelot:r3329"
+      direction: down
+  npcs:
+    - id: "camelot:m3318"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "camelot:m3318"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r3338
+  title: "East Bailey Tower"
+  description: >-
+    You stand inside the eastern bailey tower. You have a commanding view of 
+    the bailey and could fire uncontested through the murder hole. Stairs lead 
+    down.
+  exits:
+    - roomId: "camelot:r3328"
+      direction: down
+  npcs:
+    - id: "camelot:m3322"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r3339
+  title: "The Dark Hall of Mordred"
+  description: >-
+    You stand in the foul hall of Mordred. Smoke writhes upward to the rafters 
+    from a firepit in the center. Armor from defeated knights is hung from 
+    hooks on the wall. Knights sit in a circle about the fire staring woodenly 
+    into the flames. A young elvin lad in golden armor laughs as he weaves a 
+    dance amongst them.
+  exits:
+    - roomId: "camelot:r3332"
+      direction: north
+  npcs:
+    - id: "camelot:m3317"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3318"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "camelot:m3318"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "camelot:m3319"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "camelot:m3322"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r3340
+  title: "Victory Road and Knights Way"
+  description: >-
+    You stand on a marbled road inside the great walls of Camelot. Pinnons 
+    fly from high towers and the buildings gleam of white stone. Victory Road 
+    contiues east into the keep, and Knights Way runs north and south.
+  exits:
+    - roomId: "camelot:r3341"
+      direction: north
+    - roomId: "camelot:r3343"
+      direction: south
+    - roomId: "camelot:r3342"
+      direction: east
+    - roomId: "camelot:r3325"
+      direction: west
+  npcs:
+    - id: "camelot:m3301"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "camelot:m3302"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "camelot:m3302"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r3341
+  title: "Knights Way before the stables"
+  description: >-
+    You stand on the white marbled road, Knights Way. You smell horses to 
+    the east. To the west the high walls of camelot rise. Knights way continues 
+    to the north and south.
+  exits:
+    - roomId: "camelot:r3344"
+      direction: north
+    - roomId: "camelot:r3340"
+      direction: south
+    - roomId: "camelot:r3397"
+      direction: east
+- id: r3342
+  title: "Victory Road"
+  description: >-
+    You stand on victory road. Knights pennons are stuck in the ground on 
+    both sides of the road, with their coat of arms flapping in the breeze. 
+    There are available slots for other coats of arms. Victory road continues 
+    to the east and west.
+  exits:
+    - roomId: "camelot:r3346"
+      direction: east
+    - roomId: "camelot:r3340"
+      direction: west
+- id: r3343
+  title: "Knights Way at the Armory"
+  description: >-
+    You stand on the white marbled Knights Way. To your west the towering 
+    walls of Camelot rise, and to the east is the armory of Camelot. Knights 
+    Way continues north and south.
+  exits:
+    - roomId: "camelot:r3340"
+      direction: north
+    - roomId: "camelot:r3348"
+      direction: south
+    - roomId: "camelot:r3347"
+      direction: east
+- id: r3344
+  title: "Corner of Knight's Way and Squire's Run"
+  description: >-
+    You stand at the corner of Knight's way and Squire's run. An arched 
+    doorway rises up into a stalwart tower. You can see lettering above the 
+    arch.  Knight's way continues south, and Squire's Run heads east.
+  exits:
+    - roomId: "camelot:r3341"
+      direction: south
+    - roomId: "camelot:r3349"
+      direction: east
+    - roomId: "camelot:r3350"
+      direction: up
+- id: r3345
+  title: "Behind the Pict Lines"
+  description: >-
+    You have battled your way through the ranks of the Picts, and your 
+    salley has placed you behind the Pict lines! To the east the battle 
+    rages, and you see fleeing Picts headed this way.  A barbarian is winding 
+    a horn with the recall signal.
+  exits:
+    - roomId: "camelot:r3396"
+      direction: east
+  npcs:
+    - id: "camelot:m3301"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "camelot:m3355"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3346
+  title: "Victory Road"
+  description: >-
+    Here Victory Road ends at the great Tourney Yard of Camelot. A podium 
+    for tourney winners is erected here- today it bears the coat of arms 
+    of Lancelot. Flanking the road are the standards of the other knights 
+    of the round table. A strange peace fills the air here. Victory road 
+    continues to the west, and the Tourney Yard of Camelot is to the east.
+  exits:
+    - roomId: "camelot:r3351"
+      direction: east
+    - roomId: "camelot:r3342"
+      direction: west
+- id: r3347
+  title: "Armory"
+  description: >-
+    You stand in the Armory of Camelot. The master blacksmith and his 3 
+    apprentices are busy fabricating a suit of armor for a knight. Various 
+    pieces of armor are here in varying states of repair. There is a large  
+    weapons rack on the eastern wall. To the west is Knight's Way.
+  exits:
+    - roomId: "camelot:r3343"
+      direction: west
+  npcs:
+    - id: "camelot:m3301"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "camelot:m3329"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "camelot:m3337"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3348
+  title: "Corner of Knight's Way and Noble Road"
+  description: >-
+    You stand at the corner of Knights Way and Noble Road. A tower rises up 
+    from here by a winding staircase. There is an inscription above the archway 
+    to the tower. Knights way continues north and Noble Road goes east.
+  exits:
+    - roomId: "camelot:r3343"
+      direction: north
+    - roomId: "camelot:r3353"
+      direction: east
+    - roomId: "camelot:r3352"
+      direction: up
+  npcs:
+    - id: "camelot:m3331"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r3349
+  title: "Squire's Run"
+  description: >-
+    You stand on Squire's Run. Squires bustle up and down the road on various 
+    errands for their lords. You notice a scroll lying on the ground. Squire's
+    Run contines east and west.
+  exits:
+    - roomId: "camelot:r3354"
+      direction: east
+    - roomId: "camelot:r3344"
+      direction: west
+- id: r3350
+  title: "Tower of Valor"
+  description: >-
+    You stand in the tower of valor. The walls bear murals of battle scenes, 
+    of knights fighting knights and various unearthly beasts. There is a hollow 
+    in one of the walls in which a fire takes the edge off the cold of the room. 
+    The smoke puts you in a strange daze in which the MURALS seem to come to 
+    life. Stairs lead down to the street below.
+  exits:
+    - roomId: "camelot:r3344"
+      direction: down
+  npcs:
+    - id: "camelot:m3307"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3351
+  title: "Tourney Yard of Camelot"
+  description: >-
+    You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+    one and another for a claim to a seat on the round table. You can make out 
+    several contests underway- perhaps you would like to joust?
+  exits:
+    - roomId: "camelot:r3359"
+      direction: north
+    - roomId: "camelot:r3357"
+      direction: south
+    - roomId: "camelot:r3358"
+      direction: east
+    - roomId: "camelot:r3346"
+      direction: west
+  npcs:
+    - id: "camelot:m3301"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r3352
+  title: "Tower of Honor"
+  description: >-
+    You stand in the tower of honor. MURALS cover the walls and domed ceiling.
+    Smoke rolls out in an erie caress from the fire hollow in the walls. A 
+    strange tingling sensation rushes through your body. Stairs lead to the 
+    street below.
+  exits:
+    - roomId: "camelot:r3348"
+      direction: down
+  npcs:
+    - id: "camelot:m3300"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r3353
+  title: "Noble Road"
+  description: >-
+    You stand on Noble Road. The street is paved in yellow stone, giving the 
+    impression of gold in the wet sections. A statue of Uther Pendragon is 
+    here. The road continues east and west.
+  exits:
+    - roomId: "camelot:r3360"
+      direction: east
+    - roomId: "camelot:r3348"
+      direction: west
+  npcs:
+    - id: "camelot:m3330"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r3354
+  title: "Squire's Run at the North Gate"
+  description: >-
+    You stand on Squire's run. A steady stream of traffic is coming and going 
+    to the south, where the squire's barracks is. To the north is the Great 
+    Northern Gate of Camelot. Squire's run continues to the west, and the 
+    Tourney Yard of Camelot is to the west. At your feet sits a beggar holding 
+    a cup.
+  exits:
+    - roomId: "camelot:r3355"
+      direction: north
+    - roomId: "camelot:r3356"
+      direction: south
+    - roomId: "camelot:r3361"
+      direction: east
+    - roomId: "camelot:r3349"
+      direction: west
+  npcs:
+    - id: "camelot:m3300"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "camelot:m3300"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "camelot:m3330"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r3355
+  title: "The Great Northern Gate of Camelot"
+  description: >-
+    You stand before the great northern gate of Camelot. A dirt road winds 
+    down the hill upon which Camelot rests into the rolling grass hills of 
+    the north. To the south is Squire's Run.
+  exits:
+    - roomId: "camelot:r3381"
+      direction: north
+    - roomId: "camelot:r3354"
+      direction: south
+- id: r3356
+  title: "Squire's Barracks"
+  description: >-
+    You stand in the squire's barracks. It is here that all of the lackeys 
+    of the knights of the round table reside while their lords are in court. 
+    The place is a jumble of beds, lockers, and tables. Activity swirls 
+    around the long wooden benches and tables where at present people are 
+    eating. There is a rudimentry camp kitchin, with a roster of the day 
+    (your name is not on it).
+  exits:
+    - roomId: "camelot:r3354"
+      direction: north
+  npcs:
+    - id: "camelot:m3301"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "camelot:m3301"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "camelot:m3301"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r3357
+  title: "Tourney Yard of Camelot"
+  description: >-
+    You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+    one and another for a claim to a seat on the round table. You can make out 
+    several contests underway- perhaps you would like to joust?
+  exits:
+    - roomId: "camelot:r3351"
+      direction: north
+    - roomId: "camelot:r3363"
+      direction: south
+    - roomId: "camelot:r3362"
+      direction: east
+  npcs:
+    - id: "camelot:m3302"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r3358
+  title: "Tourney Yard of Camelot"
+  description: >-
+    You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+    one and another for a claim to a seat on the round table. You can make out 
+    several contests underway- perhaps you would like to joust?
+  exits:
+    - roomId: "camelot:r3364"
+      direction: north
+    - roomId: "camelot:r3362"
+      direction: south
+    - roomId: "camelot:r3369"
+      direction: east
+    - roomId: "camelot:r3351"
+      direction: west
+  npcs:
+    - id: "camelot:m3311"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3359
+  title: "Tourney Yard of Camelot"
+  description: >-
+    You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+    one and another for a claim to a seat on the round table. You can make out 
+    several contests underway- perhaps you would like to joust?
+  exits:
+    - roomId: "camelot:r3361"
+      direction: north
+    - roomId: "camelot:r3351"
+      direction: south
+    - roomId: "camelot:r3364"
+      direction: east
+- id: r3360
+  title: "Noble Road at the South Gate"
+  description: >-
+    You stand at on Noble road at the Great Southern Gate of Camelot. To the 
+    north lies the Noble quarters, where visiting nobility reside. The 
+    tournament yard is to the east and Noble Road continues west. There is a 
+    statue here of a knight.
+  exits:
+    - roomId: "camelot:r3365"
+      direction: north
+    - roomId: "camelot:r3366"
+      direction: south
+    - roomId: "camelot:r3363"
+      direction: east
+    - roomId: "camelot:r3353"
+      direction: west
+  npcs:
+    - id: "camelot:m3323"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3300"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "camelot:m3300"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r3361
+  title: "Tourney Yard of Camelot"
+  description: >-
+    You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+    one and another for a claim to a seat on the round table. You can make out 
+    several contests underway- perhaps you would like to joust?
+  exits:
+    - roomId: "camelot:r3359"
+      direction: south
+    - roomId: "camelot:r3367"
+      direction: east
+    - roomId: "camelot:r3354"
+      direction: west
+  npcs:
+    - id: "camelot:m3301"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r3362
+  title: "Tourney Yard of Camelot"
+  description: >-
+    You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+    one and another for a claim to a seat on the round table. You can make out 
+    several contests underway- perhaps you would like to joust?
+  exits:
+    - roomId: "camelot:r3358"
+      direction: north
+    - roomId: "camelot:r3357"
+      direction: west
+- id: r3363
+  title: "Tourney Yard of Camelot"
+  description: >-
+    You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+    one and another for a claim to a seat on the round table. You can make out 
+    several contests underway- perhaps you would like to joust?
+  exits:
+    - roomId: "camelot:r3357"
+      direction: north
+    - roomId: "camelot:r3360"
+      direction: west
+- id: r3364
+  title: "Tourney Yard of Camelot"
+  description: >-
+    You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+    one and another for a claim to a seat on the round table. You can make out 
+    several contests underway- perhaps you would like to joust?
+  exits:
+    - roomId: "camelot:r3367"
+      direction: north
+    - roomId: "camelot:r3358"
+      direction: south
+    - roomId: "camelot:r3359"
+      direction: west
+  npcs:
+    - id: "camelot:m3302"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r3365
+  title: "Noble's Quarters"
+  description: >-
+    You are inside the quarters in which visiting nobleman reside.
+    There is a courtyard with a fountain where you stand, and there are several 
+    individual chambers shooting off of the courtyard.
+  exits:
+    - roomId: "camelot:r3377"
+      direction: north
+    - roomId: "camelot:r3360"
+      direction: south
+    - roomId: "camelot:r3378"
+      direction: east
+    - roomId: "camelot:r3379"
+      direction: west
+  npcs:
+    - id: "camelot:m3300"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "camelot:m3335"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3366
+  title: "The Great Southern Gate"
+  description: >-
+    You stand before the great southern gate of Camelot. Southwards a cobbled 
+    road winds through fertile cultivated plains. Serfs are tilling the field 
+    with horse drawn ploughs. Corn, wheat, and beans are growing. Your vantage 
+    is fantastic, and the breeze clears your nose of the city smells.
+  exits:
+    - roomId: "camelot:r3360"
+      direction: north
+    - roomId: "camelot:r3390"
+      direction: south
+- id: r3367
+  title: "Tourney Yard of Camelot"
+  description: >-
+    You stand in the reknowned tourney yard of Camelot. Here knights challenge 
+    one and another for a claim to a seat on the round table. You can make out 
+    several contests underway- perhaps you would like to joust?
+  exits:
+    - roomId: "camelot:r3364"
+      direction: south
+    - roomId: "camelot:r3361"
+      direction: west
+  npcs:
+    - id: "camelot:m3309"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3368
+  title: "Tourney Yard of Camelot"
+  description: >-
+    You stand in the reknowned tourney yard of Camelot. Here knights challenge
+    one and another for a claim to a seat on the round table. You can make out
+    several contests underway- perhaps you would like to joust?
+  exits:
+    - roomId: "camelot:r3362"
+      direction: north
+    - roomId: "camelot:r3363"
+      direction: west
+  npcs:
+    - id: "camelot:m3316"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3369
+  title: "The Court of Camelot"
+  description: >-
+    You stand in the fabled court of Camelot. Here in the sunny courtyard noblemen
+    and knights walk barefoot in the grass discussing chivalry and wars to come.
+    Troubadours play ballads on their lutes and entertainers hop and leap into the
+    air all for a chance of earning the kings favor. Ladies in waiting play their
+    love games with young knights and squires. The whole world seems like a much
+    better place here, where friendship thrives and the high ideals of chivalry
+    breathe.  You have a commanding vantage of the Tourney Yard of Camelot from
+    here.  Exits lead to the knights barracks, the round table, the feast hall,
+    and the tourney yard of Camelot.
+  exits:
+    - roomId: "camelot:r3373"
+      direction: north
+    - roomId: "camelot:r3370"
+      direction: south
+    - roomId: "camelot:r3375"
+      direction: east
+    - roomId: "camelot:r3358"
+      direction: west
+  npcs:
+    - id: "camelot:m3303"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3324"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3320"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "camelot:m3332"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3334"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3370
+  title: "The Feast Hall"
+  description: >-
+    You have arrived in the feast hall of Camelot. You are in luck. A feast is 
+    in progress. There are many open bench type tables with sevants scurrying 
+    too and fro. Some tables hold knights, while others have ladies. A bards 
+    song adds to the festive air of celebration. A huge fire rages in a great 
+    stone hearth, over which a whole boar is being slowly cooked to perfection. 
+    Exits are north to the court of Camelot, and south to the ladies' chambers.
+  exits:
+    - roomId: "camelot:r3369"
+      direction: north
+    - roomId: "camelot:r3371"
+      direction: south
+  npcs:
+    - id: "camelot:m3300"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "camelot:m3301"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "camelot:m3302"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "camelot:m3320"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "camelot:m3328"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3329"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "camelot:m3333"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3335"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "camelot:m3335"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3371
+  title: "The Ladies' Chambers"
+  description: >-
+    You are in the ladies' chambers. I hope you are a lady, for you are in big 
+    trouble if you are not! There are many many rooms here, some occupied, some 
+    not, but there certainly is a lot of activity. A young girl stands in sorrow 
+    here weeping, and you notice a group of ladies off in the corner. There is 
+    a door north of here leading to the feast hall, and a staircase winding up 
+    to a tower.
+  exits:
+    - roomId: "camelot:r3370"
+      direction: north
+    - roomId: "camelot:r3372"
+      direction: up
+  npcs:
+    - id: "camelot:m3320"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "camelot:m3335"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3372
+  title: "The Maiden's Tower"
+  description: >-
+    Oh yes, it is here that the virginal maidens of the court reside, pining 
+    away for their knights who travel far and wide on Arthurs missions. The 
+    main activity here is tapestry making, and presently there are 3 tapestries 
+    under construction.
+  exits:
+    - roomId: "camelot:r3371"
+      direction: down
+  npcs:
+    - id: "camelot:m3320"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "camelot:m3320"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "camelot:m3320"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "camelot:m3331"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "camelot:m3335"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "camelot:m3335"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3373
+  title: "Knight's Barracks"
+  description: >-
+    You have entered the knights barracks. Cots and armor stands fill the room.
+    Some knights are here sleeping and healing from their war wounds. A simple 
+    wash stand is at the end of the quarters, and the windows are shaded to 
+    darken the room. The only conversation is in hushed tones. There is a door 
+    leading south to the court of Camelot, and a staircase winds its way upwards 
+    to a tower.
+  exits:
+    - roomId: "camelot:r3369"
+      direction: south
+    - roomId: "camelot:r3374"
+      direction: up
+  npcs:
+    - id: "camelot:m3310"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3300"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "camelot:m3300"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "camelot:m3302"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "camelot:m3302"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "camelot:m3335"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3374
+  title: "Merlin's Tower"
+  description: >-
+    You have found Merlin's tower. It is a jumbled mess of books, scrolls, 
+    wands, staves, etc. There are rickety worn out tables and chairs upon 
+    which a variety of curiosities rest. Merlin also has several animals 
+    and specimens of this and that in crocks on wooden shelves. You take a 
+    glimpse out the open window of Merlin's tower and see the rolling hills 
+    of Camelot as far as you gaze. But most of all you notice the large 
+    pulsating pentagram in the center of the room which throbs and humms 
+    in time to your heartbeat. There is also a SIGN here with unearthly 
+    glowing red lettering which blinks over and over the message "LOOK AT ME"
+  exits:
+    - roomId: "camelot:r3380"
+      direction: up
+    - roomId: "camelot:r3373"
+      direction: down
+  npcs:
+    - id: "camelot:m3312"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "camelot:o3335"
+      respawnChance: 75
+- id: r3375
+  title: "The Round Table"
+  description: >-
+    You have entered the Round Table, where warcouncil is held between Arthur 
+    and his companions. The Round Table is 30' in diameter, and made of polished 
+    cherry. Around it are 50 chairs. The room which houses the table is also 
+    round and far above you see the domed ceiling. Light streams down in long 
+    rays to hit the gold and crystal candelabra, where it is broken into a 
+    brilliant prismatic spray. A door leads west to the court of Camelot, and 
+    a staircase winds upward.
+  exits:
+    - roomId: "camelot:r3369"
+      direction: west
+    - roomId: "camelot:r3376"
+      direction: up
+  npcs:
+    - id: "camelot:m3302"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r3376
+  title: "Arthur's Chambers"
+  description: >-
+    You have entered the private chambers of King Arthur. A dragon banner serves 
+    as a canopy and curtains for his large four posted bed. He has a marble 
+    basin and a cherry desk and chair. A huge ermine rug lies on the floor. A 
+    staircase winds downwards. Tapestries depicting him pulling Excalibur from 
+    the stone, and his campaigns of unification adorn the walls.
+  exits:
+    - roomId: "camelot:r3375"
+      direction: down
+  npcs:
+    - id: "camelot:m3321"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3377
+  title: "Noble's Chambers"
+  description: >-
+    You are tresspassing in a Nobles chamber. He negligently forgot to lock his 
+    door, relying upon the honor of all within Camelot to protect his posessions.
+    The chambers consist of a common room, several bed chambers, and a servant 
+    area.
+  exits:
+    - roomId: "camelot:r3365"
+      direction: south
+  npcs:
+    - id: "camelot:m3335"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3378
+  title: "Noble's Chambers"
+  description: >-
+    You are standing in vacated chambers. Perhaps you will stay a while and 
+    visit the court? The chambers consist of several bed chambers, a sitting 
+    room, and a small garden.
+  exits:
+    - roomId: "camelot:r3365"
+      direction: west
+- id: r3379
+  title: "Noble's Chambers"
+  description: >-
+    You are tresspassing in a Noble's chamber. This noble locked his door, 
+    anticipating intrusion from scum like you. The chambers consist of a common 
+    room, several bed chambers, and a servant area.
+  exits:
+    - roomId: "camelot:r3365"
+      direction: east
+  items:
+    - id: "camelot:o3338"
+      respawnChance: 75
+- id: r3380
+  title: "The Pentagram"
+  description: >-
+    Well you have done it. You have stepped into the pentagram. You are blasted 
+    by a hellish heat, and cackling assails you from all sides. Your entire body 
+    is wracked in pain, and you hear yourself screaming in and endless cry of 
+    horror. You are stuck here forever!!!!!!
+  npcs:
+    - id: "camelot:m3336"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3381
+  title: "The Rolling Hills"
+  description: >-
+    You have spent the day travelling a road through the rolling hills north of
+    Camelot. You have gone through several villages. The people you have met 
+    are generally a happy lot. You presently stand at a crossroads. To the 
+    north, the road continues through the rolling hills. To the east the road 
+    goes into a grassy plain. To the south the road goes to Camelot.
+  exits:
+    - roomId: "camelot:r3382"
+      direction: north
+    - roomId: "camelot:r3355"
+      direction: south
+    - roomId: "camelot:r3383"
+      direction: east
+- id: r3382
+  title: "The Rolling Hills"
+  description: >-
+    You have spent the day travelling a road through the rolling hills north of
+    Camelot. You have gone through several villages. The people you have met are 
+    generally a happy lot. To the north, the road winds upwards into the 
+    highlands. The road continues south into the rolling hills.
+  exits:
+    - roomId: "camelot:r3384"
+      direction: north
+    - roomId: "camelot:r3381"
+      direction: south
+- id: r3383
+  title: "The Grassy Plains"
+  description: >-
+    You spend a week travelling through a great grassy plain. You have crossed 
+    several baronies in you travels. You have encounterd knights and pilgrims 
+    on your journey, and slept in many a hayloft and haystack. The farmland is 
+    productive here, and there have been many horse ranches, in which the fine 
+    steeds of Camelot are produced. At present you stand in a strange stone 
+    formation in the vast plain. The road stretches west to the rolling hills, 
+    and east to the rocky coast.
+  exits:
+    - roomId: "camelot:r3385"
+      direction: east
+    - roomId: "camelot:r3381"
+      direction: west
+- id: r3384
+  title: "The Highlands"
+  description: >-
+    You have spent the day travelling in the highlands, and you are very tired.
+    You stand at an old Wall that runs east and west through the hills. Not 
+    many trees grow here, as all has been cleared north of the wall. South of 
+    the wall stretches a winding road. North of the wall is the untamed Scottish 
+    highlands. There is an outpost to the east.
+  exits:
+    - roomId: "camelot:r3386"
+      direction: north
+    - roomId: "camelot:r3387"
+      direction: east
+    - roomId: "camelot:r3382"
+      direction: west
+- id: r3385
+  title: "The Rocky Coast"
+  description: >-
+    You have picked your way through the rocky coast. The weather has been 
+    foul, which has influenced your mood. The road vanished 2 days ago. Now 
+    you stand on a cliff overlooking the vast ocean. The mist obscures your 
+    view of the horizon, but you know its there- somewhere. Far below you is 
+    a rocky beach.
+  exits:
+    - roomId: "camelot:r3383"
+      direction: west
+    - roomId: "camelot:r3388"
+      direction: down
+- id: r3386
+  title: "The Scottish Highlands"
+  description: >-
+    You have spent several days wandering in the Scottish highlands. You have 
+    spied the lassies tending the sheep, and several bands of wandering Scot 
+    raiders, which you have sensibly evaded. Up ahead, on the bluff rises a keep.
+    You are not certain you should go in.
+  exits:
+    - roomId: "camelot:r3384"
+      direction: south
+    - roomId: "camelot:r3389"
+      direction: up
+- id: r3387
+  title: "An Outpost"
+  description: >-
+    You are in the outpost for the wall. It is a stone keep, with little in the 
+    way of creatur comforts. There are barracks and a main hall. Guards are 
+    posted along the wall. Your arrival has been a source of great interest, 
+    as these bordermen don't see many people.
+  exits:
+    - roomId: "camelot:r3384"
+      direction: west
+  npcs:
+    - id: "camelot:m3345"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "camelot:m3346"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3388
+  title: "The rocky beach"
+  description: >-
+    You stand on the rocky beach wishing you had a boat. You had a tough climb 
+    down through all of those crevices. There are several caves and grottos 
+    here.
+  exits:
+    - roomId: "camelot:r3385"
+      direction: up
+  npcs:
+    - id: "camelot:m3342"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3343"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "camelot:m3344"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3362"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r3389
+  title: "Scots Keep"
+  description: >-
+    You are in the speldor of a Scots keep. Walls are draped with animal hides.
+    Women and children are sprawled among pallets of skins and hides. A great 
+    roaring fire blazes in a huge stone hearth, taking the chill from your 
+    bones. The men were doing a dance involving leaping over swords, but they 
+    have stopped since you are here. There is a big iron pot warming from a 
+    chain in the fire.
+  exits:
+    - roomId: "camelot:r3386"
+      direction: down
+  npcs:
+    - id: "camelot:m3347"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "camelot:m3348"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3390
+  title: "Farms"
+  description: >-
+    You have spent a day travelling though the breadbasket of Camelot, following 
+    a cobble stone road. The fields are producing well this year, and the 
+    peasants are out harvesting a bountiful crop. Soon the harvest end festivals 
+    will begin and all will celebrate another fine year. In fact you have 3 
+    invitations for various festivals from the people you have met along the 
+    way.
+  exits:
+    - roomId: "camelot:r3366"
+      direction: north
+    - roomId: "camelot:r3391"
+      direction: south
+    - roomId: "camelot:r3392"
+      direction: west
+  npcs:
+    - id: "camelot:m3349"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r3391
+  title: "Farms"
+  description: >-
+    You have spent a day travelling though the breadbasket of Camelot, following 
+    a cobble stone road. The fields are producing well this year, and the 
+    peasants are out harvesting a bountiful crop. Soon the harvest end festivals 
+    will begin and all will celebrate another fine year. Your pleasant mood is 
+    interrupted by the sight of smoke and the sounds of screams from the south.
+  exits:
+    - roomId: "camelot:r3390"
+      direction: north
+    - roomId: "camelot:r3394"
+      direction: south
+    - roomId: "camelot:r3393"
+      direction: west
+  npcs:
+    - id: "camelot:m3349"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r3392
+  title: "Farms"
+  description: >-
+    You have spent a day travelling though the breadbasket of Camelot, 
+    following a cobble stone road. The fields are producing well this year, 
+    and the peasants are out harvesting a bountiful crop. Soon the harvest 
+    end festivals will begin and all will celebrate another fine year. In fact 
+    you have 2 invitations for various festivals from the people you have met 
+    along the way.
+  exits:
+    - roomId: "camelot:r3393"
+      direction: south
+    - roomId: "camelot:r3390"
+      direction: east
+  npcs:
+    - id: "camelot:m3349"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r3393
+  title: "Farms"
+  description: >-
+    You have spent a day travelling though the breadbasket of Camelot, 
+    following a cobble stone road. This paticular section of farms is not 
+    doing as well, as signs of raiding and pillaging abound here. The peasants 
+    seem to be bouncing back, and the fields are once again with crop. To 
+    the west is a heavily travelled muddy road, and the fields continue to 
+    the east and north.
+  exits:
+    - roomId: "camelot:r3392"
+      direction: north
+    - roomId: "camelot:r3391"
+      direction: east
+    - roomId: "camelot:r3395"
+      direction: west
+  npcs:
+    - id: "camelot:m3349"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r3394
+  title: "Angle Raid!"
+  description: >-
+    You are in the whirling chaos of an Angle raid on this farming village.
+    Farmers are defending themselves from the raiders with their farm tools.
+    Women are gathering the children and running north. Some unlucky women 
+    are being raped by the brutish Angles, who are so named for the long 
+    angled polearm they use. The village is on fire, and you can make out 
+    the raider ship on the shore to the west.
+  exits:
+    - roomId: "camelot:r3391"
+      direction: north
+  npcs:
+    - id: "camelot:m3350"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "camelot:m3351"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3359"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "camelot:o3342"
+      respawnChance: 75
+- id: r3395
+  title: "An Outpost"
+  description: >-
+    You have reached a fortified outpost. Your boots sink in the mud which 
+    is rutted and groved by the supply wagons which come her.
+    You talk to the guards and they warn you of the merciless Picts to the 
+    west, with whom Camelot is at war. The men are hardened by warfare, and 
+    stare at you with eyes that have seen terrible atrocity. To the east are 
+    farms, and to the west you hear the terrible clash of war.
+  exits:
+    - roomId: "camelot:r3393"
+      direction: east
+    - roomId: "camelot:r3396"
+      direction: west
+  npcs:
+    - id: "camelot:m3361"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "camelot:m3360"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3396
+  title: "Battle!"
+  description: >-
+    You have boldly entered the heart of a raging battle between the knights 
+    of Camelot and the barbaric Picts. The knights have set up a skirmish 
+    line across the field, spreading out the Picts, while two calvary units 
+    are sweeping around the ends in a pincher like move. Holding the center 
+    of the line are several knights of reknown. The Picts are faring badly, 
+    as their leader has already left the field in cowardly retreat.
+  exits:
+    - roomId: "camelot:r3395"
+      direction: east
+    - roomId: "camelot:r3345"
+      direction: west
+  npcs:
+    - id: "camelot:m3352"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3353"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3354"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3356"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3357"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3358"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3397
+  title: "Stables"
+  description: >-
+    You stand in the vast stables of Camelot. Row upon row of stalls greet 
+    your eye. Smells of horse sweat and fresh straw combine in a pleasant mix. 
+    Stable hands are busy currying animals, shoeing horses, and feeding the 
+    magnificant chargers of Camelot. Light filters in through the rafters. 
+    To your west is Knight's Way.
+  exits:
+    - roomId: "camelot:r3341"
+      direction: west
+  npcs:
+    - id: "camelot:m3320"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "camelot:m3329"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "camelot:m3338"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3398
+  title: "Pet Storage for Stables"
+  description: >-
+    This is actual stables where the horses are kept to be sold.
+  npcs:
+    - id: "camelot:m3339"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3340"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "camelot:m3341"
+      respawnChance: 100
+      maxLoad: "1"

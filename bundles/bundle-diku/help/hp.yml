@@ -1,0 +1,17 @@
+---
+body: |
+  The main stats your character have are it's Hps, Mana, and Move. These 
+  stats help determine how powerful your character is.
+  
+  HPS - How much damage you can take before you are killed or
+  mortally wounded.
+  Mana - The number of spells you can cast before you must sleep or 
+  regenerate. This also affects the power of some spells.
+  Move - Affects how far you can walk without sleeping (mortals). Also 
+  affects some Vampire Disciplines.
+  
+  see also: help ATTRIBUTES, TRAIN, HITROLL, DAMROLL, AC
+  
+  - hps
+  - mana
+  - move

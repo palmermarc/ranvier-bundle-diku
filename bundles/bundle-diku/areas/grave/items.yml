@@ -1,0 +1,78 @@
+- id: o3600
+  name: "candlestick"
+  roomDesc: "A pewter candlestick is standing here."
+  keywords: ["candlestick"]
+  description: "A pewter candlestick is standing here."
+  type: LIGHT
+- id: o3601
+  name: "brandy bottle"
+  roomDesc: "A brandy bottle is lying here."
+  keywords: ["brandy","bottle"]
+  description: "A brandy bottle is lying here."
+  type: DRINKCON
+- id: o3602
+  name: "brandy bottle"
+  roomDesc: "A brandy bottle is lying here."
+  keywords: ["brandy","bottle"]
+  description: "A brandy bottle is lying here."
+  type: DRINKCON
+- id: o3603
+  name: "wheelbarrow"
+  roomDesc: "A green-painted wheelbarrow is standing here."
+  keywords: ["wheelbarrow"]
+  description: "A green-painted wheelbarrow is standing here."
+  type: BOAT
+- id: o3604
+  name: "shovel"
+  roomDesc: "A shovel is lying here."
+  keywords: ["shovel"]
+  description: "A shovel is lying here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3605
+  name: "rake"
+  roomDesc: "A rake is lying here."
+  keywords: ["rake"]
+  description: "A rake is lying here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3610
+  name: "skeleton"
+  roomDesc: "A dusty skeleton lies here."
+  keywords: ["skeleton"]
+  description: "A dusty skeleton lies here."
+  type: FURNITURE
+- id: o3611
+  name: "amethyst gem"
+  roomDesc: "A large, beautifully polished amethyst has been left here."
+  keywords: ["amethyst","gem"]
+  description: "A large, beautifully polished amethyst has been left here."
+  type: TREASURE
+- id: o3612
+  name: "pendant silver"
+  roomDesc: "A silver pendant has been left here."
+  keywords: ["pendant","silver"]
+  description: "A silver pendant has been left here."
+  type: ACCESSORY
+- id: o3613
+  name: "dagger silver"
+  roomDesc: "A long silver dagger is lying here."
+  keywords: ["dagger","silver"]
+  description: "A long silver dagger is lying here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3614
+  name: "clan assamite book"
+  roomDesc: "A book filled with clan secrets lies here."
+  keywords: ["clan","assamite","book"]
+  description: "A book filled with clan secrets lies here."
+  type: FURNITURE

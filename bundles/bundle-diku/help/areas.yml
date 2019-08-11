@@ -1,0 +1,12 @@
+---
+body: |
+  Syntax: areas
+  Syntax: commands
+  
+  AREAS shows you all the areas in the game and the author's name.
+  
+  COMMANDS shows you all the (non-social) commands available to you.
+  
+  ** Please note that all commands can be abbreviated to their shortest form**
+  
+  - commands

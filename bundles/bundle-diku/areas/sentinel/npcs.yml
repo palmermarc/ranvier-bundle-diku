@@ -1,0 +1,215 @@
+- id: m12452
+  keywords: ["sentinel"]
+  name: "a sentinel"
+  description: >-
+    A sentinel stands here, guarding some ancient secret.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "sentinel:o12454": 75
+        "sentinel:o12452": 75
+  metadata:
+    areaId: 66
+    exp_level: 8000
+    sex: 1
+- id: m12453
+  keywords: ["wanderer"]
+  name: "a wanderer"
+  description: >-
+    A wanderer cluelessly looks around.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "sentinel:o12453": 75
+        "sentinel:o12454": 75
+  metadata:
+    areaId: 66
+    exp_level: 8000
+    sex: 1
+- id: m12454
+  keywords: ["wanderer"]
+  name: "a wanderer"
+  description: >-
+    A wandererer clueless wanders around.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 66
+    exp_level: 8000
+    sex: 1
+- id: m12455
+  keywords: ["wanderer",""]
+  name: "a wanderer"
+  description: >-
+    A wanderer cluelessly wanders around.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 66
+    exp_level: 8000
+    sex: 1
+- id: m12456
+  keywords: ["wanderer"]
+  name: "a wanderer"
+  description: >-
+    A wanderer cluelessly wanders around.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 66
+    exp_level: 8000
+    sex: 1
+- id: m12457
+  keywords: ["sentinel"]
+  name: "a sentinel"
+  description: >-
+    A sentinel stands here, silently guarding some ancient secret.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "sentinel:o12453": 75
+        "sentinel:o12454": 75
+  metadata:
+    areaId: 66
+    exp_level: 8000
+    sex: 1
+- id: m12458
+  keywords: ["sentinel"]
+  name: "a sentinel"
+  description: >-
+    A sentinel stands here, guarding an ancient secret.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "sentinel:o12453": 75
+        "sentinel:o12454": 75
+  metadata:
+    areaId: 66
+    exp_level: 8000
+    sex: 1

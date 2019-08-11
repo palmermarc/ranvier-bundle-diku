@@ -1,0 +1,481 @@
+- id: m5000
+  keywords: ["dervish","raggity"]
+  name: "The dervish"
+  description: >-
+    The raggity dervish walks on aimlessly.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 900
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 66.5
+          max: 73.5
+      pools:
+        "eastern:o3021": 75
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 1
+- id: m5001
+  keywords: ["dervish","large"]
+  name: "The dervish"
+  description: >-
+    The large dervish watches for signs of trouble.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 650
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 142.5
+          max: 157.5
+      pools:
+        "eastern:o3022": 75
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 1
+- id: m5002
+  keywords: ["snake","coral"]
+  name: "The coral snake"
+  description: >-
+    A brightly colored snake slithers along the sands.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -10
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 0
+- id: m5003
+  keywords: ["scorpion","small"]
+  name: "The small scorpion"
+  description: >-
+    A small, red scorpion scuttles away at your approach.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -50
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 0
+- id: m5004
+  keywords: ["worm","giant"]
+  name: "The giant, purple sand worm"
+  description: >-
+    A giant, purple sand worm thrusts up out of the sand and attacks!
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 2413
+          max: 2667
+      pools:
+        "eastern:o5019": 75
+        "eastern:o5020": 75
+        "eastern:o5021": 75
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 0
+- id: m5005
+  keywords: ["dragon","brass"]
+  name: "the brass dragon"
+  description: >-
+    The brass dragon steps out of the darkness and says 'Hello'.Then adds to it, 'Prepare to die, have a nice day!'
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 450
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 5225
+          max: 5775
+      pools:
+        "eastern:o5024": 75
+        "eastern:o5022": 75
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 2
+- id: m5006
+  keywords: ["nomad","leader"]
+  name: "The nomad leader"
+  description: >-
+    The nomad leader sits silently in prayer.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 950
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "eastern:o5016": 75
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 1
+- id: m5007
+  keywords: ["nomad","commander"]
+  name: "The nomad commander"
+  description: >-
+    The nomad commander stands here staring suspiciously at you.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 570
+          max: 630
+      pools:
+        "eastern:o5017": 75
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 1
+- id: m5008
+  keywords: ["nomad","warrior"]
+  name: "The nomad warrior"
+  description: >-
+    A proud nomad warrior stands here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 700
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 285
+          max: 315
+      pools:
+        "eastern:o5018": 75
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 1
+- id: m5009
+  keywords: ["slave","young"]
+  name: "The slave"
+  description: >-
+    A young slave sits here staring at you with pleading eyes.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 2
+- id: m5010
+  keywords: ["dracolich","lich"]
+  name: "The dracolich"
+  description: >-
+    A pile of bones rises up to form a skeletal dracolich.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 71250
+          max: 78750
+      pools:
+        "eastern:o5001": 75
+        "eastern:o5002": 75
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 0
+- id: m5011
+  keywords: ["drider","drow"]
+  name: "The drider"
+  description: >-
+    The drider looks at you viciously while it draws its sword.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "eastern:o3022": 75
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 2
+- id: m5012
+  keywords: ["duergar","dwarf"]
+  name: "The dark dwarf"
+  description: >-
+    A duergar is here mining precious stones with his pick.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -850
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 161.5
+          max: 178.5
+      pools:
+        "eastern:o5000": 75
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 1
+- id: m5013
+  keywords: ["myconoid"]
+  name: "the myconoid"
+  description: >-
+    A myconoid lumbers along peacefully.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 850
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 1
+- id: m5014
+  keywords: ["myconoid","shaman"]
+  name: "The myconoid shaman"
+  description: >-
+    A rather large myconoid stands here chanting in a strange tongue.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 850
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+      pools:
+        "eastern:o5003": 75
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 1
+- id: m5015
+  keywords: ["dustdigger"]
+  name: "The dustdigger"
+  description: >-
+    A small oasis invites you to dive in.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 427.5
+          max: 472.5
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 0
+- id: m5017
+  keywords: ["camel"]
+  name: "The rabid camel"
+  description: >-
+    A very dangerous rabid camel snorts at you.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -351
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 256.5
+          max: 283.5
+  metadata:
+    areaId: 24
+    exp_level: 10000
+    sex: 0

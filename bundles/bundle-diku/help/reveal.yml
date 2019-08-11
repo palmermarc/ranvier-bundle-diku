@@ -1,0 +1,10 @@
+---
+body: |
+  Syntax: cast reveal
+  Syntax: cast reveal <player>
+  
+  REVEAL is a spell that, when cast on another player, reveals their true nature,
+  ie if they are a vampire in human form, it turns them from vampire to human.
+  
+  REVEAL with no arguments casts reveal on the caster.
+  

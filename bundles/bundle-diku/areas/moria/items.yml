@@ -1,0 +1,106 @@
+- id: o4100
+  name: "blade black demon"
+  roomDesc: "An evil black demon blade is here."
+  keywords: ["blade","black","demon"]
+  description: "An evil black demon blade is here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o4101
+  name: "gloves"
+  roomDesc: "Some gloves are here.  They look like the right equipment for fighting."
+  keywords: ["gloves"]
+  description: "Some gloves are here.  They look like the right equipment for fighting."
+  type: LIGHTARMOR
+- id: o4102
+  name: "scroll ysafg"
+  roomDesc: "A scroll which reads \"ysafg\", it looks very fragile and quite old."
+  keywords: ["scroll","ysafg"]
+  description: "A scroll which reads \"ysafg\", it looks very fragile and quite old."
+  type: SCROLL
+- id: o4103
+  name: "slime mold"
+  roomDesc: "A green slime mold is here. Stinks like sh**."
+  keywords: ["slime","mold"]
+  description: "A green slime mold is here. Stinks like sh**."
+  type: FOOD
+- id: o4104
+  name: "slime mold"
+  roomDesc: "A green slime mold is here. Stinks like sh**."
+  keywords: ["slime","mold"]
+  description: "A green slime mold is here. Stinks like sh**."
+  type: FOOD
+- id: o4150
+  name: "black potion"
+  roomDesc: "A thick black potion is here."
+  keywords: ["black","potion"]
+  description: "A thick black potion is here."
+  type: POTION
+- id: o4151
+  name: "staff oak"
+  roomDesc: "A ancient heavy oak staff is here."
+  keywords: ["staff","oak"]
+  description: "A ancient heavy oak staff is here."
+  type: STAFF
+- id: o4152
+  name: "dagger light silver"
+  roomDesc: "A light silver dagger is here."
+  keywords: ["dagger","light","silver"]
+  description: "A light silver dagger is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o4000
+  name: "ring yellow green"
+  roomDesc: "A ring, with yellow and green ornamentation. It looks very old."
+  keywords: ["ring","yellow","green"]
+  description: "A ring, with yellow and green ornamentation. It looks very old."
+  type: ACCESSORY
+- id: o4001
+  name: "corpse"
+  roomDesc: "A halfway decayed corpse of a goblin."
+  keywords: ["corpse"]
+  description: "A halfway decayed corpse of a goblin."
+  type: CONTAINER
+  items: ["moria:o4002"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o4002
+  name: "coins"
+  roomDesc: "A small pile of coins."
+  keywords: ["coins"]
+  description: "A small pile of coins."
+  type: MONEY
+- id: o4050
+  name: "potion purple"
+  roomDesc: "A purple potion is here."
+  keywords: ["potion","purple"]
+  description: "A purple potion is here."
+  type: POTION
+- id: o4051
+  name: "helmet metal"
+  roomDesc: "A metal helmet is here."
+  keywords: ["helmet","metal"]
+  description: "A metal helmet is here."
+  type: HEAVYARMOR
+- id: o4052
+  name: "mushroom"
+  roomDesc: "A small mushroom is here."
+  keywords: ["mushroom"]
+  description: "A small mushroom is here."
+  type: FOOD
+- id: o4053
+  name: "dirk"
+  roomDesc: "A beautifully crafted dirk is lying here."
+  keywords: ["dirk"]
+  description: "A beautifully crafted dirk is lying here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

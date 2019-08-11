@@ -1,0 +1,12 @@
+title: "Wolf Den"
+metadata:
+  id: 84
+  name: "Wolf Den"
+  createdBy: "azazel"
+  starting_vnum: 25900
+  ending_vnum: 25949
+  item_requirements: 2000
+  filename: "wolfden.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

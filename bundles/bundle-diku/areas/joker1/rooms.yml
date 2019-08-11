@@ -1,0 +1,3081 @@
+- id: r24000
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you.
+    Thankfully you still have your bearings, so you know where you are,
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24010"
+      direction: north
+    - roomId: "joker1:r24204"
+      direction: east
+    - roomId: "joker1:r24001"
+      direction: west
+- id: r24001
+  title: "The open sea "
+  description: >-
+    As you look around, all you can see is open sea all around you.
+    Thankfully you still have your bearings, so you know where you are,
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24011"
+      direction: north
+    - roomId: "joker1:r24000"
+      direction: east
+    - roomId: "joker1:r24002"
+      direction: west
+- id: r24002
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24012"
+      direction: north
+    - roomId: "joker1:r24001"
+      direction: east
+    - roomId: "joker1:r24003"
+      direction: west
+- id: r24003
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you.
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24013"
+      direction: north
+    - roomId: "joker1:r24002"
+      direction: east
+    - roomId: "joker1:r24004"
+      direction: west
+- id: r24004
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you.
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24014"
+      direction: north
+    - roomId: "joker1:r24003"
+      direction: east
+    - roomId: "joker1:r24005"
+      direction: west
+- id: r24005
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24015"
+      direction: north
+    - roomId: "joker1:r24004"
+      direction: east
+    - roomId: "joker1:r24006"
+      direction: west
+- id: r24006
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you.
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24016"
+      direction: north
+    - roomId: "joker1:r24005"
+      direction: east
+    - roomId: "joker1:r24007"
+      direction: west
+- id: r24007
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you.
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24017"
+      direction: north
+    - roomId: "joker1:r24006"
+      direction: east
+    - roomId: "joker1:r24008"
+      direction: west
+- id: r24008
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you.
+    Thankfully you still have your bearings, so you know where you are,
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24018"
+      direction: north
+    - roomId: "joker1:r24007"
+      direction: east
+    - roomId: "joker1:r24009"
+      direction: west
+- id: r24009
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you.
+    Thankfully you still have your bearings, so you know where you are,
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24019"
+      direction: north
+    - roomId: "joker1:r24008"
+      direction: east
+- id: r24010
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24020"
+      direction: north
+    - roomId: "joker1:r24000"
+      direction: south
+    - roomId: "joker1:r24011"
+      direction: west
+- id: r24011
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24010"
+      direction: north
+    - roomId: "joker1:r24012"
+      direction: south
+    - roomId: "joker1:r24021"
+      direction: east
+    - roomId: "joker1:r24001"
+      direction: west
+- id: r24012
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24013"
+      direction: north
+    - roomId: "joker1:r24022"
+      direction: south
+    - roomId: "joker1:r24011"
+      direction: east
+    - roomId: "joker1:r24012"
+      direction: west
+- id: r24013
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24023"
+      direction: north
+    - roomId: "joker1:r24013"
+      direction: south
+    - roomId: "joker1:r24014"
+      direction: east
+    - roomId: "joker1:r24012"
+      direction: west
+- id: r24014
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24024"
+      direction: north
+    - roomId: "joker1:r24013"
+      direction: south
+    - roomId: "joker1:r24014"
+      direction: east
+    - roomId: "joker1:r24014"
+      direction: west
+- id: r24015
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24025"
+      direction: north
+    - roomId: "joker1:r24005"
+      direction: south
+    - roomId: "joker1:r24014"
+      direction: east
+    - roomId: "joker1:r24016"
+      direction: west
+- id: r24016
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24026"
+      direction: north
+    - roomId: "joker1:r24016"
+      direction: south
+    - roomId: "joker1:r24017"
+      direction: east
+    - roomId: "joker1:r24015"
+      direction: west
+- id: r24017
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24018"
+      direction: north
+    - roomId: "joker1:r24016"
+      direction: south
+    - roomId: "joker1:r24027"
+      direction: east
+    - roomId: "joker1:r24017"
+      direction: west
+- id: r24018
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24028"
+      direction: north
+    - roomId: "joker1:r24019"
+      direction: south
+    - roomId: "joker1:r24017"
+      direction: east
+    - roomId: "joker1:r24018"
+      direction: west
+- id: r24019
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24009"
+      direction: north
+    - roomId: "joker1:r24029"
+      direction: south
+    - roomId: "joker1:r24018"
+      direction: east
+    - roomId: "joker1:r24019"
+      direction: west
+- id: r24020
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24030"
+      direction: north
+    - roomId: "joker1:r24010"
+      direction: south
+    - roomId: "joker1:r24021"
+      direction: west
+- id: r24021
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24031"
+      direction: north
+    - roomId: "joker1:r24022"
+      direction: south
+    - roomId: "joker1:r24011"
+      direction: east
+    - roomId: "joker1:r24021"
+      direction: west
+- id: r24022
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24012"
+      direction: north
+    - roomId: "joker1:r24032"
+      direction: south
+    - roomId: "joker1:r24021"
+      direction: east
+    - roomId: "joker1:r24023"
+      direction: west
+- id: r24023
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24033"
+      direction: north
+    - roomId: "joker1:r24013"
+      direction: south
+    - roomId: "joker1:r24024"
+      direction: east
+    - roomId: "joker1:r24022"
+      direction: west
+- id: r24024
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24023"
+      direction: north
+    - roomId: "joker1:r24025"
+      direction: south
+    - roomId: "joker1:r24014"
+      direction: east
+    - roomId: "joker1:r24034"
+      direction: west
+- id: r24025
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24035"
+      direction: north
+    - roomId: "joker1:r24015"
+      direction: south
+    - roomId: "joker1:r24024"
+      direction: east
+    - roomId: "joker1:r24026"
+      direction: west
+- id: r24026
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24036"
+      direction: north
+    - roomId: "joker1:r24016"
+      direction: south
+    - roomId: "joker1:r24027"
+      direction: east
+    - roomId: "joker1:r24026"
+      direction: west
+- id: r24027
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24017"
+      direction: north
+    - roomId: "joker1:r24028"
+      direction: south
+    - roomId: "joker1:r24037"
+      direction: east
+    - roomId: "joker1:r24026"
+      direction: west
+- id: r24028
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24038"
+      direction: north
+    - roomId: "joker1:r24027"
+      direction: south
+    - roomId: "joker1:r24018"
+      direction: east
+    - roomId: "joker1:r24029"
+      direction: west
+- id: r24029
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24028"
+      direction: north
+    - roomId: "joker1:r24039"
+      direction: south
+    - roomId: "joker1:r24019"
+      direction: east
+    - roomId: "joker1:r24029"
+      direction: west
+- id: r24030
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24040"
+      direction: north
+    - roomId: "joker1:r24020"
+      direction: south
+    - roomId: "joker1:r24031"
+      direction: west
+- id: r24031
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24032"
+      direction: north
+    - roomId: "joker1:r24021"
+      direction: south
+    - roomId: "joker1:r24041"
+      direction: east
+    - roomId: "joker1:r24031"
+      direction: west
+- id: r24032
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24033"
+      direction: north
+    - roomId: "joker1:r24031"
+      direction: south
+    - roomId: "joker1:r24042"
+      direction: east
+    - roomId: "joker1:r24022"
+      direction: west
+- id: r24033
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24023"
+      direction: north
+    - roomId: "joker1:r24032"
+      direction: south
+    - roomId: "joker1:r24043"
+      direction: east
+    - roomId: "joker1:r24034"
+      direction: west
+- id: r24034
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24024"
+      direction: north
+    - roomId: "joker1:r24044"
+      direction: south
+    - roomId: "joker1:r24033"
+      direction: east
+    - roomId: "joker1:r24034"
+      direction: west
+- id: r24035
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24045"
+      direction: north
+    - roomId: "joker1:r24025"
+      direction: south
+    - roomId: "joker1:r24034"
+      direction: east
+    - roomId: "joker1:r24036"
+      direction: west
+- id: r24036
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24036"
+      direction: north
+    - roomId: "joker1:r24026"
+      direction: south
+    - roomId: "joker1:r24046"
+      direction: east
+    - roomId: "joker1:r24037"
+      direction: west
+- id: r24037
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24047"
+      direction: north
+    - roomId: "joker1:r24036"
+      direction: south
+    - roomId: "joker1:r24038"
+      direction: east
+    - roomId: "joker1:r24027"
+      direction: west
+- id: r24038
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24028"
+      direction: north
+    - roomId: "joker1:r24048"
+      direction: south
+    - roomId: "joker1:r24039"
+      direction: east
+    - roomId: "joker1:r24037"
+      direction: west
+- id: r24039
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24039"
+      direction: north
+    - roomId: "joker1:r24029"
+      direction: south
+    - roomId: "joker1:r24038"
+      direction: east
+    - roomId: "joker1:r24049"
+      direction: west
+- id: r24040
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24050"
+      direction: north
+    - roomId: "joker1:r24030"
+      direction: south
+    - roomId: "joker1:r24041"
+      direction: west
+- id: r24041
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24041"
+      direction: north
+    - roomId: "joker1:r24041"
+      direction: south
+    - roomId: "joker1:r24031"
+      direction: east
+    - roomId: "joker1:r24042"
+      direction: west
+- id: r24042
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24032"
+      direction: north
+    - roomId: "joker1:r24042"
+      direction: south
+    - roomId: "joker1:r24043"
+      direction: east
+    - roomId: "joker1:r24041"
+      direction: west
+- id: r24043
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24033"
+      direction: north
+    - roomId: "joker1:r24044"
+      direction: south
+    - roomId: "joker1:r24042"
+      direction: east
+    - roomId: "joker1:r24053"
+      direction: west
+- id: r24044
+  title: "A savage storm"
+  description: >-
+    The wind whips up, and the seas turn dark and choppy. The waves
+    increase in size and you become disorientated. You get tossed about
+    and have no idea which way north is. You are lost, and you can but
+    hope you survive the storm.
+  exits:
+    - roomId: "joker1:r24034"
+      direction: north
+    - roomId: "joker1:r24043"
+      direction: south
+    - roomId: "joker1:r24044"
+      direction: east
+    - roomId: "joker1:r24044"
+      direction: west
+- id: r24045
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24055"
+      direction: north
+    - roomId: "joker1:r24035"
+      direction: south
+    - roomId: "joker1:r24044"
+      direction: east
+    - roomId: "joker1:r24046"
+      direction: west
+- id: r24046
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24036"
+      direction: north
+    - roomId: "joker1:r24046"
+      direction: south
+    - roomId: "joker1:r24047"
+      direction: east
+    - roomId: "joker1:r24046"
+      direction: west
+- id: r24047
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24037"
+      direction: north
+    - roomId: "joker1:r24046"
+      direction: south
+    - roomId: "joker1:r24048"
+      direction: east
+    - roomId: "joker1:r24047"
+      direction: west
+- id: r24048
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24049"
+      direction: north
+    - roomId: "joker1:r24048"
+      direction: south
+    - roomId: "joker1:r24038"
+      direction: east
+    - roomId: "joker1:r24047"
+      direction: west
+- id: r24049
+  title: "The doldrums"
+  description: >-
+    You are becalmed! Everywhere you look the sea is a mirror. Not a
+    breath of wind is felt. You slowly drift with no idea of direction.
+    Much more of this and you'll go mad. Lost and drifting, with no
+    sense of direction. How cruel the sea can be.
+  exits:
+    - roomId: "joker1:r24059"
+      direction: north
+    - roomId: "joker1:r24039"
+      direction: south
+    - roomId: "joker1:r24048"
+      direction: east
+    - roomId: "joker1:r24049"
+      direction: west
+- id: r24050
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24060"
+      direction: north
+    - roomId: "joker1:r24040"
+      direction: south
+    - roomId: "joker1:r24051"
+      direction: west
+- id: r24051
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24061"
+      direction: north
+    - roomId: "joker1:r24041"
+      direction: south
+    - roomId: "joker1:r24050"
+      direction: east
+    - roomId: "joker1:r24052"
+      direction: west
+- id: r24052
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24062"
+      direction: north
+    - roomId: "joker1:r24042"
+      direction: south
+    - roomId: "joker1:r24051"
+      direction: east
+    - roomId: "joker1:r24053"
+      direction: west
+- id: r24053
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24063"
+      direction: north
+    - roomId: "joker1:r24043"
+      direction: south
+    - roomId: "joker1:r24052"
+      direction: east
+    - roomId: "joker1:r24054"
+      direction: west
+- id: r24054
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24064"
+      direction: north
+    - roomId: "joker1:r24044"
+      direction: south
+    - roomId: "joker1:r24053"
+      direction: east
+    - roomId: "joker1:r24055"
+      direction: west
+    - roomId: "ultima:r2400"
+      direction: up
+  npcs:
+    - id: "joker1:m24000"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r24055
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24065"
+      direction: north
+    - roomId: "joker1:r24045"
+      direction: south
+    - roomId: "joker1:r24054"
+      direction: east
+    - roomId: "joker1:r24056"
+      direction: west
+- id: r24056
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24066"
+      direction: north
+    - roomId: "joker1:r24046"
+      direction: south
+    - roomId: "joker1:r24055"
+      direction: east
+    - roomId: "joker1:r24057"
+      direction: west
+- id: r24057
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24067"
+      direction: north
+    - roomId: "joker1:r24047"
+      direction: south
+    - roomId: "joker1:r24056"
+      direction: east
+    - roomId: "joker1:r24058"
+      direction: west
+- id: r24058
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24068"
+      direction: north
+    - roomId: "joker1:r24048"
+      direction: south
+    - roomId: "joker1:r24057"
+      direction: east
+    - roomId: "joker1:r24059"
+      direction: west
+- id: r24059
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24069"
+      direction: north
+    - roomId: "joker1:r24049"
+      direction: south
+    - roomId: "joker1:r24058"
+      direction: east
+    - roomId: "joker1:r24100"
+      direction: west
+    - roomId: "notale:r14100"
+      direction: up
+- id: r24060
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24050"
+      direction: north
+    - roomId: "joker1:r24060"
+      direction: south
+    - roomId: "joker1:r24061"
+      direction: east
+    - roomId: "joker1:r24070"
+      direction: west
+- id: r24061
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24071"
+      direction: north
+    - roomId: "joker1:r24061"
+      direction: south
+    - roomId: "joker1:r24062"
+      direction: east
+    - roomId: "joker1:r24060"
+      direction: west
+- id: r24062
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24061"
+      direction: north
+    - roomId: "joker1:r24062"
+      direction: south
+    - roomId: "joker1:r24063"
+      direction: east
+    - roomId: "joker1:r24072"
+      direction: west
+- id: r24063
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24073"
+      direction: north
+    - roomId: "joker1:r24063"
+      direction: south
+    - roomId: "joker1:r24063"
+      direction: east
+    - roomId: "joker1:r24062"
+      direction: west
+- id: r24064
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24074"
+      direction: north
+    - roomId: "joker1:r24054"
+      direction: south
+    - roomId: "joker1:r24063"
+      direction: east
+    - roomId: "joker1:r24065"
+      direction: west
+- id: r24065
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24065"
+      direction: north
+    - roomId: "joker1:r24066"
+      direction: south
+    - roomId: "joker1:r24075"
+      direction: east
+    - roomId: "joker1:r24064"
+      direction: west
+- id: r24066
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24066"
+      direction: north
+    - roomId: "joker1:r24065"
+      direction: south
+    - roomId: "joker1:r24067"
+      direction: east
+    - roomId: "joker1:r24076"
+      direction: west
+- id: r24067
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24066"
+      direction: north
+    - roomId: "joker1:r24077"
+      direction: south
+    - roomId: "joker1:r24068"
+      direction: east
+    - roomId: "joker1:r24057"
+      direction: west
+- id: r24068
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24069"
+      direction: north
+    - roomId: "joker1:r24068"
+      direction: south
+    - roomId: "joker1:r24078"
+      direction: east
+    - roomId: "joker1:r24067"
+      direction: west
+- id: r24069
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24079"
+      direction: north
+    - roomId: "joker1:r24068"
+      direction: south
+    - roomId: "joker1:r24069"
+      direction: east
+    - roomId: "joker1:r24069"
+      direction: west
+- id: r24070
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24071"
+      direction: north
+    - roomId: "joker1:r24070"
+      direction: south
+    - roomId: "joker1:r24060"
+      direction: east
+    - roomId: "joker1:r24080"
+      direction: west
+- id: r24071
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24061"
+      direction: north
+    - roomId: "joker1:r24081"
+      direction: south
+    - roomId: "joker1:r24072"
+      direction: east
+    - roomId: "joker1:r24070"
+      direction: west
+- id: r24072
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24062"
+      direction: north
+    - roomId: "joker1:r24071"
+      direction: south
+    - roomId: "joker1:r24073"
+      direction: east
+    - roomId: "joker1:r24082"
+      direction: west
+- id: r24073
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24063"
+      direction: north
+    - roomId: "joker1:r24072"
+      direction: south
+    - roomId: "joker1:r24074"
+      direction: east
+    - roomId: "joker1:r24083"
+      direction: west
+- id: r24074
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24084"
+      direction: north
+    - roomId: "joker1:r24064"
+      direction: south
+    - roomId: "joker1:r24073"
+      direction: east
+    - roomId: "joker1:r24075"
+      direction: west
+- id: r24075
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24085"
+      direction: north
+    - roomId: "joker1:r24076"
+      direction: south
+    - roomId: "joker1:r24075"
+      direction: east
+    - roomId: "joker1:r24065"
+      direction: west
+- id: r24076
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24075"
+      direction: north
+    - roomId: "joker1:r24086"
+      direction: south
+    - roomId: "joker1:r24077"
+      direction: east
+    - roomId: "joker1:r24066"
+      direction: west
+- id: r24077
+  title: "The whirlpool vortex"
+  description: >-
+    You are trapped in the vortex of the whirlpool. As hard as you paddle
+    you cannot escape the pull of the whirlpool, and you are sucked down
+    into the depths of the funnel.
+- id: r24078
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24068"
+      direction: north
+    - roomId: "joker1:r24079"
+      direction: south
+    - roomId: "joker1:r24088"
+      direction: east
+    - roomId: "joker1:r24077"
+      direction: west
+- id: r24079
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24078"
+      direction: north
+    - roomId: "joker1:r24079"
+      direction: south
+    - roomId: "joker1:r24069"
+      direction: east
+    - roomId: "joker1:r24089"
+      direction: west
+- id: r24080
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24080"
+      direction: north
+    - roomId: "joker1:r24081"
+      direction: south
+    - roomId: "joker1:r24090"
+      direction: east
+    - roomId: "joker1:r24070"
+      direction: west
+- id: r24081
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24082"
+      direction: north
+    - roomId: "joker1:r24091"
+      direction: south
+    - roomId: "joker1:r24071"
+      direction: east
+    - roomId: "joker1:r24080"
+      direction: west
+- id: r24082
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24092"
+      direction: north
+    - roomId: "joker1:r24081"
+      direction: south
+    - roomId: "joker1:r24083"
+      direction: east
+    - roomId: "joker1:r24072"
+      direction: west
+- id: r24083
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24093"
+      direction: north
+    - roomId: "joker1:r24083"
+      direction: south
+    - roomId: "joker1:r24073"
+      direction: east
+    - roomId: "joker1:r24082"
+      direction: west
+- id: r24084
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24094"
+      direction: north
+    - roomId: "joker1:r24074"
+      direction: south
+    - roomId: "joker1:r24083"
+      direction: east
+    - roomId: "joker1:r24085"
+      direction: west
+- id: r24085
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24075"
+      direction: north
+    - roomId: "joker1:r24085"
+      direction: south
+    - roomId: "joker1:r24086"
+      direction: east
+    - roomId: "joker1:r24085"
+      direction: west
+- id: r24086
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24085"
+      direction: north
+    - roomId: "joker1:r24086"
+      direction: south
+    - roomId: "joker1:r24076"
+      direction: east
+    - roomId: "joker1:r24087"
+      direction: west
+- id: r24087
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24097"
+      direction: north
+    - roomId: "joker1:r24088"
+      direction: south
+    - roomId: "joker1:r24077"
+      direction: east
+    - roomId: "joker1:r24086"
+      direction: west
+- id: r24088
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24088"
+      direction: north
+    - roomId: "joker1:r24078"
+      direction: south
+    - roomId: "joker1:r24089"
+      direction: east
+    - roomId: "joker1:r24087"
+      direction: west
+- id: r24089
+  title: "The whirlpool"
+  description: >-
+    You are sucked into a whirlpool. As you cirlce the main vortex you
+    spin wildly and rapidly, making you very dizzy and sick. You very
+    quickly lose all sense of direction as you try and escape the
+    inevitable.
+  exits:
+    - roomId: "joker1:r24088"
+      direction: north
+    - roomId: "joker1:r24079"
+      direction: south
+    - roomId: "joker1:r24089"
+      direction: east
+    - roomId: "joker1:r24089"
+      direction: west
+- id: r24090
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24090"
+      direction: north
+    - roomId: "joker1:r24091"
+      direction: south
+    - roomId: "joker1:r24090"
+      direction: east
+    - roomId: "joker1:r24080"
+      direction: west
+- id: r24091
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24092"
+      direction: north
+    - roomId: "joker1:r24081"
+      direction: south
+    - roomId: "joker1:r24090"
+      direction: east
+    - roomId: "joker1:r24091"
+      direction: west
+- id: r24092
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24091"
+      direction: north
+    - roomId: "joker1:r24093"
+      direction: south
+    - roomId: "joker1:r24082"
+      direction: east
+    - roomId: "joker1:r24092"
+      direction: west
+- id: r24093
+  title: "The sea mist"
+  description: >-
+    The sea mist envelops you and sends your compass haywire. There
+    are no stars to navigate by and no compass readings. You are lost
+    and your only company is the blanket of whiteness which is the fog.
+    You occasionally hear noises coing from the fog. And you occasionally
+    glimps movement within the fog, shapeless shadows fleeting just out
+    of you line of sight.
+  exits:
+    - roomId: "joker1:r24093"
+      direction: north
+    - roomId: "joker1:r24093"
+      direction: south
+    - roomId: "joker1:r24083"
+      direction: east
+    - roomId: "joker1:r24092"
+      direction: west
+- id: r24094
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24084"
+      direction: south
+    - roomId: "joker1:r24093"
+      direction: east
+    - roomId: "joker1:r24095"
+      direction: west
+- id: r24095
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24085"
+      direction: south
+    - roomId: "joker1:r24094"
+      direction: east
+    - roomId: "joker1:r24096"
+      direction: west
+- id: r24096
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24086"
+      direction: south
+    - roomId: "joker1:r24095"
+      direction: east
+    - roomId: "joker1:r24097"
+      direction: west
+- id: r24097
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24087"
+      direction: south
+    - roomId: "joker1:r24096"
+      direction: east
+    - roomId: "joker1:r24098"
+      direction: west
+- id: r24098
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24088"
+      direction: south
+    - roomId: "joker1:r24097"
+      direction: east
+    - roomId: "joker1:r24099"
+      direction: west
+- id: r24099
+  title: "The open sea"
+  description: >-
+    As you look around, all you can see is open sea all around you. 
+    Thankfully you still have your bearings, so you know where you are, 
+    but you just pray that you are never lost here. For such an expanse
+    of sea with no land marks can be treacherous to those who are lost.
+  exits:
+    - roomId: "joker1:r24089"
+      direction: south
+    - roomId: "joker1:r24098"
+      direction: east
+    - roomId: "joker1:r24215"
+      direction: west
+- id: r24100
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24100"
+      direction: north
+    - roomId: "joker1:r24100"
+      direction: south
+    - roomId: "joker1:r24059"
+      direction: east
+    - roomId: "joker1:r24101"
+      direction: west
+- id: r24101
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24101"
+      direction: north
+    - roomId: "joker1:r24102"
+      direction: south
+    - roomId: "joker1:r24116"
+      direction: east
+    - roomId: "joker1:r24100"
+      direction: west
+- id: r24102
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24101"
+      direction: north
+    - roomId: "joker1:r24103"
+      direction: south
+    - roomId: "joker1:r24104"
+      direction: east
+    - roomId: "joker1:r24103"
+      direction: west
+- id: r24103
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24102"
+      direction: north
+    - roomId: "joker1:r24105"
+      direction: south
+    - roomId: "joker1:r24117"
+      direction: east
+    - roomId: "joker1:r24102"
+      direction: west
+- id: r24104
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24105"
+      direction: north
+    - roomId: "joker1:r24106"
+      direction: south
+    - roomId: "joker1:r24102"
+      direction: east
+    - roomId: "joker1:r24107"
+      direction: west
+- id: r24105
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24106"
+      direction: north
+    - roomId: "joker1:r24103"
+      direction: south
+    - roomId: "joker1:r24108"
+      direction: east
+    - roomId: "joker1:r24104"
+      direction: west
+- id: r24106
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24109"
+      direction: north
+    - roomId: "joker1:r24105"
+      direction: south
+    - roomId: "joker1:r24104"
+      direction: east
+    - roomId: "joker1:r24118"
+      direction: west
+- id: r24107
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24110"
+      direction: north
+    - roomId: "joker1:r24111"
+      direction: south
+    - roomId: "joker1:r24104"
+      direction: east
+    - roomId: "joker1:r24108"
+      direction: west
+- id: r24108
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24105"
+      direction: north
+    - roomId: "joker1:r24112"
+      direction: south
+    - roomId: "joker1:r24109"
+      direction: east
+    - roomId: "joker1:r24107"
+      direction: west
+- id: r24109
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24110"
+      direction: north
+    - roomId: "joker1:r24108"
+      direction: south
+    - roomId: "joker1:r24113"
+      direction: east
+    - roomId: "joker1:r24106"
+      direction: west
+- id: r24110
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24107"
+      direction: north
+    - roomId: "joker1:r24109"
+      direction: south
+    - roomId: "joker1:r24119"
+      direction: east
+    - roomId: "joker1:r24114"
+      direction: west
+- id: r24111
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24115"
+      direction: north
+    - roomId: "joker1:r24107"
+      direction: south
+    - roomId: "joker1:r24116"
+      direction: east
+    - roomId: "joker1:r24112"
+      direction: west
+- id: r24112
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24108"
+      direction: north
+    - roomId: "joker1:r24111"
+      direction: south
+    - roomId: "joker1:r24117"
+      direction: east
+    - roomId: "joker1:r24113"
+      direction: west
+    - roomId: "antharia:r1801"
+      direction: down
+- id: r24113
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24118"
+      direction: north
+    - roomId: "joker1:r24112"
+      direction: south
+    - roomId: "joker1:r24114"
+      direction: east
+    - roomId: "joker1:r24109"
+      direction: west
+  npcs:
+    - id: "joker1:m24000"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r24114
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24115"
+      direction: north
+    - roomId: "joker1:r24110"
+      direction: south
+    - roomId: "joker1:r24113"
+      direction: east
+    - roomId: "joker1:r24119"
+      direction: west
+- id: r24115
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24120"
+      direction: north
+    - roomId: "joker1:r24120"
+      direction: south
+    - roomId: "joker1:r24114"
+      direction: east
+    - roomId: "joker1:r24111"
+      direction: west
+- id: r24116
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24111"
+      direction: north
+    - roomId: "joker1:r24121"
+      direction: south
+    - roomId: "joker1:r24101"
+      direction: east
+    - roomId: "joker1:r24117"
+      direction: west
+- id: r24117
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24118"
+      direction: north
+    - roomId: "joker1:r24112"
+      direction: south
+    - roomId: "joker1:r24103"
+      direction: east
+    - roomId: "joker1:r24116"
+      direction: west
+- id: r24118
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24119"
+      direction: north
+    - roomId: "joker1:r24106"
+      direction: south
+    - roomId: "joker1:r24117"
+      direction: east
+    - roomId: "joker1:r24113"
+      direction: west
+- id: r24119
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24120"
+      direction: north
+    - roomId: "joker1:r24110"
+      direction: south
+    - roomId: "joker1:r24118"
+      direction: east
+    - roomId: "joker1:r24114"
+      direction: west
+- id: r24120
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24121"
+      direction: north
+    - roomId: "joker1:r24115"
+      direction: south
+    - roomId: "joker1:r24119"
+      direction: east
+    - roomId: "joker1:r24115"
+      direction: west
+- id: r24121
+  title: "The Bermuda Triangle"
+  description: >-
+    You are in the infamous Bermuda Triangle, where there is no direction 
+    and people who enter it hardly ever leave it..... well not alive 
+    anyway! Better be careful and try and find a way out.
+  exits:
+    - roomId: "joker1:r24121"
+      direction: north
+    - roomId: "joker1:r24120"
+      direction: south
+    - roomId: "joker1:r24116"
+      direction: east
+    - roomId: "joker1:r24122"
+      direction: west
+- id: r24122
+  title: "A volcanic beach"
+  description: >-
+    You find yourself on a beach, a strange black beach. You realise 
+    that the reason for this is probably the giant volcano that occupies 
+    practically the whole island. You just hope that it's dormant.
+  exits:
+    - roomId: "joker1:r24121"
+      direction: south
+    - roomId: "joker1:r24123"
+      direction: east
+    - roomId: "joker1:r24124"
+      direction: west
+- id: r24123
+  title: "A volcanic beach"
+  description: >-
+    You find yourself on a beach, a strange black beach. You realise 
+    that the reason for this is probably the giant volcano that occupies 
+    practically the whole island. You just hope that it's dormant.
+  exits:
+    - roomId: "joker1:r24125"
+      direction: north
+    - roomId: "joker1:r24122"
+      direction: west
+- id: r24124
+  title: "A volcanic beach"
+  description: >-
+    You find yourself on a beach, a strange black beach. You realise 
+    that the reason for this is probably the giant volcano that occupies 
+    practically the whole island. You just hope that it's dormant.
+  exits:
+    - roomId: "joker1:r24129"
+      direction: north
+    - roomId: "joker1:r24122"
+      direction: east
+- id: r24125
+  title: "A volcanic beach"
+  description: >-
+    You find yourself on a beach, a strange black beach. You realise 
+    that the reason for this is probably the giant volcano that occupies 
+    practically the whole island. You just hope that it's dormant.
+  exits:
+    - roomId: "joker1:r24130"
+      direction: north
+    - roomId: "joker1:r24123"
+      direction: south
+    - roomId: "pyramid:r4201"
+      direction: east
+    - roomId: "joker1:r24126"
+      direction: up
+- id: r24126
+  title: "On the slopes of the volcano"
+  description: >-
+    You are halfway up the side of the volcano, as you look around you 
+    have a magnificent view of the blue sea and the black beach 
+    stretching around the island. Still, not at the top yet though.
+  exits:
+    - roomId: "joker1:r24127"
+      direction: west
+    - roomId: "joker1:r24125"
+      direction: down
+- id: r24127
+  title: "The summit of the volcano"
+  description: >-
+    You have reached the summit of the volcano. As you look into the crater
+    you can see several holes that appear to lead down into the depths of
+    the volcano. As you examine these you find one with the initials JKR
+    carved into the side. So, someone has been here before you. Determined,
+    you decide that if you are going to enter, it will be down this cave.
+  exits:
+    - roomId: "joker1:r24133"
+      direction: north
+    - roomId: "joker1:r24134"
+      direction: south
+    - roomId: "joker1:r24126"
+      direction: east
+    - roomId: "joker1:r24128"
+      direction: west
+    - roomId: "joker1:r24135"
+      direction: down
+- id: r24128
+  title: "On the slopes of the volcano"
+  description: >-
+    You are halfway up the side of the volcano, as you look around you 
+    have a magnificent view of the blue sea and the black beach 
+    stretching around the island. Still, not at the top yet though.
+  exits:
+    - roomId: "joker1:r24127"
+      direction: east
+    - roomId: "joker1:r24129"
+      direction: down
+- id: r24129
+  title: "A volcanic beach"
+  description: >-
+    You find yourself on a beach, a strange black beach. You realise 
+    that the reason for this is probably the giant volcano that occupies 
+    practically the whole island. You just hope that it's dormant.
+  exits:
+    - roomId: "joker1:r24132"
+      direction: north
+    - roomId: "joker1:r24124"
+      direction: south
+    - roomId: "joker1:r24128"
+      direction: up
+- id: r24130
+  title: "A volcanic beach"
+  description: >-
+    You find yourself on a beach, a strange black beach. You realise 
+    that the reason for this is probably the giant volcano that occupies 
+    practically the whole island. You just hope that it's dormant.
+  exits:
+    - roomId: "joker1:r24125"
+      direction: south
+    - roomId: "joker1:r24131"
+      direction: west
+- id: r24131
+  title: "A volcanic beach"
+  description: >-
+    You find yourself on a beach, a strange black beach. You realise 
+    that the reason for this is probably the giant volcano that occupies 
+    practically the whole island. You just hope that it's dormant.
+  exits:
+    - roomId: "joker1:r24130"
+      direction: east
+    - roomId: "joker1:r24132"
+      direction: west
+    - roomId: "joker1:r24133"
+      direction: up
+- id: r24132
+  title: "A volcanic beach"
+  description: >-
+    You find yourself on a beach, a strange black beach. You realise 
+    that the reason for this is probably the giant volcano that occupies 
+    practically the whole island. You just hope that it's dormant.
+  exits:
+    - roomId: "joker1:r24129"
+      direction: south
+    - roomId: "joker1:r24131"
+      direction: east
+- id: r24133
+  title: "On the slopes of the volcano"
+  description: >-
+    You are halfway up the side of the volcano, as you look around you 
+    have a magnificent view of the blue sea and the black beach 
+    stretching around the island. Still, not at the top yet though.
+  exits:
+    - roomId: "joker1:r24127"
+      direction: south
+    - roomId: "joker1:r24131"
+      direction: down
+- id: r24134
+  title: "On the slopes of the volcano"
+  description: >-
+    You are halfway up the side of the volcano, as you look around you 
+    have a magnificent view of the blue sea and the black beach 
+    stretching around the island. Still, not at the top yet though.
+  exits:
+    - roomId: "joker1:r24127"
+      direction: north
+- id: r24135
+  title: "Inside the first cave"
+  description: >-
+    This is the first cave into the volcano. Here you can see the
+    initials JKR scratched into the side of one of the walls. So at
+    least you know someone has been here before you. Still, who knows
+    how far he got? You look around and you do not see much. Just
+    darkness as the tunnel runs deeper into the volcano.
+  exits:
+    - roomId: "joker1:r24127"
+      direction: up
+    - roomId: "joker1:r24136"
+      direction: down
+- id: r24136
+  title: "Inside the volcano"
+  description: >-
+    You find yourself in a tunnel deep within the volcano. It's pretty
+    dark in here.And it seems almost too quiet, and noone iit going to hear 
+    you from deep within a volcano. All the tunnels appear to be the same, 
+    if only there was some way to tell them apart. 
+    Still, no point in hanging around, best press on.
+  exits:
+    - roomId: "joker1:r24137"
+      direction: north
+    - roomId: "joker1:r24135"
+      direction: up
+- id: r24137
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24136"
+      direction: south
+    - roomId: "joker1:r24138"
+      direction: east
+- id: r24138
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24139"
+      direction: south
+    - roomId: "joker1:r24137"
+      direction: west
+- id: r24139
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24138"
+      direction: north
+    - roomId: "joker1:r24140"
+      direction: south
+- id: r24140
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24139"
+      direction: north
+    - roomId: "joker1:r24141"
+      direction: west
+- id: r24141
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24140"
+      direction: east
+    - roomId: "joker1:r24142"
+      direction: west
+- id: r24142
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24143"
+      direction: north
+    - roomId: "joker1:r24141"
+      direction: east
+- id: r24143
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24144"
+      direction: north
+    - roomId: "joker1:r24142"
+      direction: south
+- id: r24144
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24143"
+      direction: south
+    - roomId: "joker1:r24193"
+      direction: down
+- id: r24145
+  title: "An opening"
+  description: >-
+    You look out from the tunnel and see that there is a huge area
+    of tropical jungle. You are astounded to see what really is at 
+    the centre of the world. And yet, you are not totally surprised.
+  exits:
+    - roomId: "joker1:r24146"
+      direction: north
+- id: r24146
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24145"
+      direction: south
+    - roomId: "joker1:r24147"
+      direction: west
+    - roomId: "joker1:r24162"
+      direction: up
+- id: r24147
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24148"
+      direction: north
+    - roomId: "joker1:r24146"
+      direction: east
+  npcs:
+    - id: "joker1:m24002"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r24148
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24147"
+      direction: south
+- id: r24149
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24150"
+      direction: west
+    - roomId: "joker1:r24163"
+      direction: up
+- id: r24150
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24149"
+      direction: east
+- id: r24151
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24160"
+      direction: up
+- id: r24152
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24155"
+      direction: up
+- id: r24153
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24154"
+      direction: up
+- id: r24154
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24165"
+      direction: up
+    - roomId: "joker1:r24153"
+      direction: down
+- id: r24155
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24158"
+      direction: south
+    - roomId: "joker1:r24152"
+      direction: down
+- id: r24156
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24166"
+      direction: up
+- id: r24157
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24159"
+      direction: south
+    - roomId: "joker1:r24167"
+      direction: up
+- id: r24158
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24155"
+      direction: north
+    - roomId: "joker1:r24160"
+      direction: south
+    - roomId: "joker1:r24168"
+      direction: up
+  npcs:
+    - id: "joker1:m24002"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r24159
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24157"
+      direction: north
+    - roomId: "joker1:r24162"
+      direction: south
+  npcs:
+    - id: "joker1:m24002"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r24160
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24158"
+      direction: north
+    - roomId: "joker1:r24151"
+      direction: down
+- id: r24161
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24163"
+      direction: south
+    - roomId: "joker1:r24171"
+      direction: up
+- id: r24162
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24159"
+      direction: north
+    - roomId: "joker1:r24173"
+      direction: up
+    - roomId: "joker1:r24146"
+      direction: down
+- id: r24163
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24161"
+      direction: north
+    - roomId: "joker1:r24163"
+      direction: down
+- id: r24164
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24165"
+      direction: east
+- id: r24165
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24164"
+      direction: west
+    - roomId: "joker1:r24175"
+      direction: up
+    - roomId: "joker1:r24154"
+      direction: down
+- id: r24166
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24170"
+      direction: south
+    - roomId: "joker1:r24156"
+      direction: down
+- id: r24167
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24157"
+      direction: down
+- id: r24168
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24169"
+      direction: east
+    - roomId: "joker1:r24177"
+      direction: up
+    - roomId: "joker1:r24158"
+      direction: down
+- id: r24169
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24170"
+      direction: east
+    - roomId: "joker1:r24168"
+      direction: west
+- id: r24170
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24166"
+      direction: north
+    - roomId: "joker1:r24171"
+      direction: south
+    - roomId: "joker1:r24169"
+      direction: west
+- id: r24171
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24170"
+      direction: north
+    - roomId: "joker1:r24172"
+      direction: east
+    - roomId: "joker1:r24194"
+      direction: up
+    - roomId: "joker1:r24161"
+      direction: down
+  npcs:
+    - id: "joker1:m24002"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r24172
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24174"
+      direction: south
+    - roomId: "joker1:r24173"
+      direction: east
+    - roomId: "joker1:r24171"
+      direction: west
+- id: r24173
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24180"
+      direction: up
+    - roomId: "joker1:r24162"
+      direction: down
+- id: r24174
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24172"
+      direction: north
+- id: r24175
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24176"
+      direction: south
+    - roomId: "joker1:r24154"
+      direction: down
+- id: r24176
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24175"
+      direction: north
+    - roomId: "joker1:r24190"
+      direction: up
+- id: r24177
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24186"
+      direction: up
+    - roomId: "joker1:r24168"
+      direction: down
+- id: r24178
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24179"
+      direction: east
+- id: r24179
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24180"
+      direction: south
+    - roomId: "joker1:r24178"
+      direction: west
+- id: r24180
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24179"
+      direction: north
+    - roomId: "joker1:r24181"
+      direction: south
+    - roomId: "joker1:r24182"
+      direction: up
+    - roomId: "joker1:r24173"
+      direction: down
+  npcs:
+    - id: "joker1:m24002"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r24181
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24180"
+      direction: north
+- id: r24182
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24180"
+      direction: down
+- id: r24183
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24184"
+      direction: west
+- id: r24184
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24186"
+      direction: north
+    - roomId: "joker1:r24183"
+      direction: east
+- id: r24185
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24189"
+      direction: north
+- id: r24186
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24191"
+      direction: north
+    - roomId: "joker1:r24184"
+      direction: south
+    - roomId: "joker1:r24177"
+      direction: down
+- id: r24187
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24188"
+      direction: west
+- id: r24188
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24187"
+      direction: east
+    - roomId: "joker1:r24189"
+      direction: west
+- id: r24189
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24192"
+      direction: north
+    - roomId: "joker1:r24185"
+      direction: south
+    - roomId: "joker1:r24188"
+      direction: east
+    - roomId: "joker1:r24190"
+      direction: west
+- id: r24190
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24189"
+      direction: east
+    - roomId: "joker1:r24191"
+      direction: west
+    - roomId: "joker1:r24176"
+      direction: down
+- id: r24191
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24193"
+      direction: north
+    - roomId: "joker1:r24186"
+      direction: south
+    - roomId: "joker1:r24190"
+      direction: east
+- id: r24192
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24189"
+      direction: south
+- id: r24193
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24191"
+      direction: south
+    - roomId: "joker1:r24144"
+      direction: up
+- id: r24194
+  title: "Inside the volcano"
+  description: >-
+    Another dark tunnel, sounds echo back and forth but you cannot make
+    any sense of them. Maybe it's just your own movement causing the
+    strange effect, or maybe not. Who know what lives down here? You just
+    hope you don't run into any!
+  exits:
+    - roomId: "joker1:r24171"
+      direction: down
+- id: r24195
+  title: "On the Haon-Dor river"
+  description: >-
+    You are now just outside Midgaard, as you look back you can see
+    the city gates. Also you see the grate that normally stops people
+    from just wandering in on the river. The river seems to extend
+    westwards, but all you can tell is that is disappears into the
+    dreaded Haon-Dor forest. But at least you will have the current
+    with you, should you decide to carry on downstream.
+  exits:
+    - roomId: "midgaard:r3200"
+      direction: east
+    - roomId: "joker1:r24196"
+      direction: west
+- id: r24196
+  title: "On the river"
+  description: >-
+    You are now well into the Haon-Dor forest, the trees overhang the
+    river most of the way down. Almost totally blocking out the sun.
+    The only noises are of wild creatures within the forest and the
+    occasional bump as a root of a tree bangs the underside of the boat.
+    At least, you hope it's a root!
+  exits:
+    - roomId: "joker1:r24195"
+      direction: east
+    - roomId: "joker1:r24197"
+      direction: west
+- id: r24197
+  title: "On the river"
+  description: >-
+    You are approaching the heart of the Haon-Dor wood, and now a 
+    strange kind of silence has fallen around you. No noise can
+    penetrate the forest this deep. And any cries from help from you
+    would never reach even the edge of the forest. For this area is
+    cursed and most people never survive to tell of their passage
+    through it. Be careful.
+  exits:
+    - roomId: "joker1:r24196"
+      direction: east
+    - roomId: "joker1:r24198"
+      direction: west
+- id: r24198
+  title: "On the river"
+  description: >-
+    Phew, made it! Still, there is a long way to go yet. Best not 
+    hang around here too long, just get out of this cursed wood while
+    you still can!
+  exits:
+    - roomId: "joker1:r24197"
+      direction: east
+    - roomId: "joker1:r24199"
+      direction: west
+- id: r24199
+  title: "On the river"
+  description: >-
+    You find yourself at the entrance to the swamps. This is the lowland of the
+    river where the river has silted up making the water very murky and very
+    smelly. Best move of, the smell is appauling.
+  exits:
+    - roomId: "joker1:r24198"
+      direction: east
+    - roomId: "joker1:r24200"
+      direction: west
+- id: r24200
+  title: "On the river"
+  description: >-
+    The river continues towards the west. But you are now deep within a
+    rather smelly swap. The water is more solid than a liquid. You just
+    begin to wonder whjat could possibly live here! As you look around
+    you can see a track leading from the waters edge into the swamp.
+  exits:
+    - roomId: "joker1:r24199"
+      direction: east
+    - roomId: "joker1:r24201"
+      direction: west
+- id: r24201
+  title: "On the river"
+  description: >-
+    You are still stuck in this reeking swamp, further to the west you
+    can see a fork in the river. In the far distance to the west you
+    catch a glimps of a deep blue sea.
+  exits:
+    - roomId: "joker1:r24200"
+      direction: east
+    - roomId: "joker1:r24202"
+      direction: west
+- id: r24202
+  title: "On the river"
+  description: >-
+    You find yourself at a fork in the river. One north and one south. You
+    wonder what they could lead to ..... or maybe you should just forget it 
+    and carry on westwards, towards the sea and fresh air.
+  exits:
+    - roomId: "joker1:r24205"
+      direction: north
+    - roomId: "joker1:r24210"
+      direction: south
+    - roomId: "joker1:r24201"
+      direction: east
+    - roomId: "joker1:r24203"
+      direction: west
+- id: r24203
+  title: "On the river"
+  description: >-
+    To the north you can see a rather large forboding tower, but it's
+    twin is to the south of you. They almost seem to be guarding this
+    inlet from something from the west. Or maybe they are here to keep
+    you from going west?
+  exits:
+    - roomId: "joker1:r24202"
+      direction: east
+    - roomId: "joker1:r24204"
+      direction: west
+- id: r24204
+  title: "Mouth of the river"
+  description: >-
+    You are at the mouth of the river, away from the delta swamp and breathing
+    in fresh air again! The open sea lies to your west, or the way back home
+    lays to the east. Still you cannot decide the exact reason for the two 
+    towers, yet they seem strangly empty. Who knows, someday someone will
+    fill them again.....what a frightening thought!
+  exits:
+    - roomId: "joker1:r24203"
+      direction: east
+    - roomId: "joker1:r24000"
+      direction: west
+- id: r24205
+  title: "On the river"
+  description: >-
+    You are north of the fork, and you see a huge tower to the west. 
+    You wonder what reason such a structure could be built.
+  exits:
+    - roomId: "joker1:r24206"
+      direction: north
+    - roomId: "joker1:r24202"
+      direction: south
+- id: r24206
+  title: "On the river"
+  description: >-
+    Still in the stinking swamp, and that tower just seems too strange for
+    words.
+  exits:
+    - roomId: "joker1:r24207"
+      direction: north
+    - roomId: "joker1:r24205"
+      direction: south
+- id: r24207
+  title: "Bend in the river"
+  description: >-
+    The river bends towards the west, heading back to the sea. And yet, it
+    takes you closer to the landing pier of the northern tower.
+  exits:
+    - roomId: "joker1:r24206"
+      direction: south
+    - roomId: "joker1:r24208"
+      direction: west
+- id: r24208
+  title: "On the river"
+  description: >-
+    You can see the sea to the west, and a landing pier for the tower 
+    just before that.
+  exits:
+    - roomId: "joker1:r24207"
+      direction: east
+    - roomId: "joker1:r24209"
+      direction: west
+- id: r24209
+  title: "Mouth of the river"
+  description: >-
+    You are at the northern mouth of the river. There is a pier here 
+    that leads to land to the south.
+  exits:
+    - roomId: "krytos:r13104"
+      direction: south
+    - roomId: "joker1:r24208"
+      direction: east
+- id: r24210
+  title: "On the river"
+  description: >-
+    To the north you see a fork in the river. The river also carries on to
+    the south.
+  exits:
+    - roomId: "joker1:r24202"
+      direction: north
+    - roomId: "joker1:r24211"
+      direction: south
+- id: r24211
+  title: "On the river"
+  description: >-
+    To the south you see a bend in the river. To the west is the dark south
+    tower. Far to the north is a fork in the river.
+  exits:
+    - roomId: "joker1:r24210"
+      direction: north
+    - roomId: "joker1:r24212"
+      direction: south
+- id: r24212
+  title: "Bend in the river"
+  description: >-
+    You are at a bend in the river. Far to the north is a fork in the river
+    and the norther tower. To the west is a landing pier and open sea.
+  exits:
+    - roomId: "joker1:r24211"
+      direction: north
+    - roomId: "joker1:r24213"
+      direction: west
+- id: r24213
+  title: "On the river"
+  description: >-
+    To the east is a bend in the river. To the west is a badly kept landing
+    pier and beyond that the open sea. To the south is a large rock outcropping.
+  exits:
+    - roomId: "crystalm:r10001"
+      direction: south
+    - roomId: "joker1:r24212"
+      direction: east
+    - roomId: "joker1:r24214"
+      direction: west
+- id: r24214
+  title: "Mouth of the river"
+  description: >-
+    There is a landing pier here that leads to the north. And to the west 
+    the open sea. Further to the north you see a large castle.
+  exits:
+    - roomId: "tanu:r8700"
+      direction: north
+    - roomId: "joker1:r24212"
+      direction: east
+- id: r24215
+  title: "The beach"
+  description: >-
+    You find yourself on a golden beach that stretches for miles
+    both north and south. You are just relieved to get away from the
+    sea. This seems a safe spot to rest, until you are ready to
+    carry on with your travels.
+  exits:
+    - roomId: "joker1:r24099"
+      direction: east
+    - roomId: "castle:r24300"
+      direction: up
+- id: r24242
+  title: "Joker's little get-away"
+  description: >-
+    This is Jokers spare room, kinda his secret getaway...leave those
+    Deities and thier problems behind...just GO AWAY!
+  exits:
+    - roomId: "joker:r20000"
+      direction: north
+    - roomId: "midgaard:r3054"
+      direction: south
+    - roomId: "castle:r24318"
+      direction: down
+- id: r24243
+  title: "Jokers Room"
+  description: >-
+    This is Jokers room, visitors are not welcome.
+    The room is full of electrical equipment, and Large bed and a large
+    wardrobe. In the corner is a huge jukebox, full of his favourite CD's
+    you name it, it is there.
+- id: r24244
+  title: "Avalons Room"
+  description: >-
+    Avalon needs to send Valis a desc :>

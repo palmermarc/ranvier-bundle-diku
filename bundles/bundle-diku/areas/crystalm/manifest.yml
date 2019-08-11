@@ -1,0 +1,12 @@
+title: "Crystalmir Lake"
+metadata:
+  id: 15
+  name: "Crystalmir Lake"
+  createdBy: "strahd"
+  starting_vnum: 10000
+  ending_vnum: 10099
+  item_requirements: 10000
+  filename: "crystalm.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

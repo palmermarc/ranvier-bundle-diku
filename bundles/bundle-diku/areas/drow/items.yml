@@ -1,0 +1,126 @@
+- id: o5100
+  name: "longsword commoner"
+  roomDesc: "A commoner's longsword made of adamantite has been left here."
+  keywords: ["longsword","commoner"]
+  description: "A commoner's longsword made of adamantite has been left here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5101
+  name: "longsword noble"
+  roomDesc: "A drow noble's longsword made of adamantite lies here."
+  keywords: ["longsword","noble"]
+  description: "A drow noble's longsword made of adamantite lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5102
+  name: "whip snake two-headed"
+  roomDesc: "A whip with two snakes heads lies here."
+  keywords: ["whip","snake","two-headed"]
+  description: "A whip with two snakes heads lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5103
+  name: "whip snake three-headed"
+  roomDesc: "A whip with three snake heads has been left here."
+  keywords: ["whip","snake","three-headed"]
+  description: "A whip with three snake heads has been left here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5104
+  name: "whip snake four-headed"
+  roomDesc: "A whip with four snake heads has been left here."
+  keywords: ["whip","snake","four-headed"]
+  description: "A whip with four snake heads has been left here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5105
+  name: "longsword black"
+  roomDesc: "A black longsword has been carelessly left here."
+  keywords: ["longsword","black"]
+  description: "A black longsword has been carelessly left here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5106
+  name: "whip snake five-headed"
+  roomDesc: "A whip with five snake heads is lying here."
+  keywords: ["whip","snake","five-headed"]
+  description: "A whip with five snake heads is lying here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5107
+  name: "whip snake six-headed"
+  roomDesc: "A whip with six snake heads has been dropped here."
+  keywords: ["whip","snake","six-headed"]
+  description: "A whip with six snake heads has been dropped here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5108
+  name: "bracers iron"
+  roomDesc: "A pair of bracers has been dropped here."
+  keywords: ["bracers","iron"]
+  description: "A pair of bracers has been dropped here."
+  type: HEAVYARMOR
+- id: o5109
+  name: "gauntlets iron"
+  roomDesc: "A pair of gauntlets has been dropped here."
+  keywords: ["gauntlets","iron"]
+  description: "A pair of gauntlets has been dropped here."
+  type: HEAVYARMOR
+- id: o5110
+  name: "wand blue silver"
+  roomDesc: "A silvery blue wand has been dropped in the dirt."
+  keywords: ["wand","blue","silver"]
+  description: "A silvery blue wand has been dropped in the dirt."
+  type: WAND
+- id: o5111
+  name: "helmet helm"
+  roomDesc: "A small helmet lies up against a rock."
+  keywords: ["helmet","helm"]
+  description: "A small helmet lies up against a rock."
+  type: HEAVYARMOR
+- id: o5112
+  name: "ring ruby"
+  roomDesc: "A small ruby ring lies in the dirt."
+  keywords: ["ring","ruby"]
+  description: "A small ruby ring lies in the dirt."
+  type: ACCESSORY
+- id: o5113
+  name: "dagger sacrificial"
+  roomDesc: "A dagger with spider leg shaped blades lies on the ground."
+  keywords: ["dagger","sacrificial"]
+  description: "A dagger with spider leg shaped blades lies on the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5114
+  name: "hat green"
+  roomDesc: "A small bright green hat lies in the dirt."
+  keywords: ["hat","green"]
+  description: "A small bright green hat lies in the dirt."
+  type: LIGHTARMOR

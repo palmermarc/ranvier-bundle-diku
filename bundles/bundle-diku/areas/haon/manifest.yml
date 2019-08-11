@@ -1,0 +1,12 @@
+title: "Haon Dor"
+metadata:
+  id: 32
+  name: "Haon Dor"
+  createdBy: "diku"
+  starting_vnum: 6000
+  ending_vnum: 6199
+  item_requirements: 2000
+  filename: "haon.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

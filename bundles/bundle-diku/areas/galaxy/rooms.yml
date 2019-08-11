@@ -1,0 +1,1067 @@
+- id: r9301
+  title: "Inside a Tavern"
+  description: >-
+    You are inside a dimly-lit room.  The atmosphere makes you feel uncomfortable.
+    In front of you stands a mysterious gypsy.  She whispers 'Your fate and
+    destiny lie beyond this world.'  You are still wondering what she means when
+    you suddenly notice the crystal ball ... it glows fiercely and displays the
+    Universe!
+  exits:
+    - roomId: "shadow:r1256"
+      direction: west
+    - roomId: "galaxy:r9302"
+      direction: down
+- id: r9302
+  title: "Inside the Crystal Ball "
+  description: >-
+    You have touched the crystal ball and find that you have gone inside it:
+    a world of stars and wonders!  As you look back you figure out there is no
+    choice but to go forward.
+  exits:
+    - roomId: "galaxy:r9303"
+      direction: north
+- id: r9303
+  title: "Inside the Galaxy"
+  description: >-
+    You are now inside the galaxy, around you you see stars and nebulae smiling
+    at your presence, and comets and meteors wandering around you.  You realize
+    that this world may not be the true galaxy after all, but just another
+    fantasy zone.  Exits lie virtually in all directions.
+  exits:
+    - roomId: "galaxy:r9304"
+      direction: north
+    - roomId: "galaxy:r9302"
+      direction: south
+    - roomId: "galaxy:r9308"
+      direction: east
+    - roomId: "galaxy:r9321"
+      direction: west
+- id: r9304
+  title: "On an InterGalactic Walkway"
+  description: >-
+    You are on a well-paved path which seems that it was made deliberately for
+    visitors like you.  The walkway continues north and a small exit lies west.
+  exits:
+    - roomId: "galaxy:r9305"
+      direction: north
+    - roomId: "galaxy:r9303"
+      direction: south
+    - roomId: "galaxy:r9322"
+      direction: west
+  npcs:
+    - id: "galaxy:m9302"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "galaxy:m9305"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9305
+  title: "End of the InterGalactic Walkway"
+  description: >-
+    You notice the walkway has come to an abrupt end and you wonder why. You see
+    that there is still a small path which leads north and one to the west.
+    To the east lies a bridge.
+  exits:
+    - roomId: "galaxy:r9306"
+      direction: north
+    - roomId: "galaxy:r9304"
+      direction: south
+    - roomId: "galaxy:r9309"
+      direction: east
+    - roomId: "galaxy:r9323"
+      direction: west
+- id: r9306
+  title: "At the Undeveloped Part of the Galaxy"
+  description: >-
+    This place looks deserted, covered with space debris.  Not a sign of life
+    is around.
+  exits:
+    - roomId: "galaxy:r9305"
+      direction: south
+    - roomId: "galaxy:r9324"
+      direction: west
+  npcs:
+    - id: "galaxy:m9306"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9308
+  title: "On the Bridge of Stars"
+  description: >-
+    This bridge has been made by the stars to honour their ancestors.  The
+    bridge itself shines brightly and makes you feel that you are walking on
+    a path of light.  An entrance to an ancient building lies north and to
+    the east lies the Milky Way.
+  exits:
+    - roomId: "galaxy:r9331"
+      direction: north
+    - roomId: "galaxy:r9312"
+      direction: east
+    - roomId: "galaxy:r9303"
+      direction: west
+  npcs:
+    - id: "galaxy:m9302"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "galaxy:m9305"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9309
+  title: "On the Bridge of Nebulae"
+  description: >-
+    This bridge, like the other, was made as a memorial.  The nebulae had to
+    make one just to show that they are as capable as the stars.  North lies
+    a throne room.
+  exits:
+    - roomId: "galaxy:r9310"
+      direction: north
+    - roomId: "galaxy:r9314"
+      direction: east
+    - roomId: "galaxy:r9305"
+      direction: west
+  npcs:
+    - id: "galaxy:m9305"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9310
+  title: "The Throne Room of the Nebula King"
+  description: >-
+    You can only faintly make out that it is a throne room as it is too
+    dark in here.  In the middle is an empty throne.  You wonder where
+    the King has gone, maybe he is hiding from you?
+  exits:
+    - roomId: "galaxy:r9309"
+      direction: south
+  npcs:
+    - id: "galaxy:m9303"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "galaxy:m9303"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "galaxy:m9303"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "galaxy:m9307"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r9312
+  title: "At the Start of the Milky Way"
+  description: >-
+    It is here that the famous old Milky Way starts flowing.  You are surrounded
+    by streams of mist the moment you tread on it.  You can't see well in
+    here ... luckily you haven't fallen yet!
+  exits:
+    - roomId: "galaxy:r9313"
+      direction: north
+    - roomId: "galaxy:r9308"
+      direction: west
+  npcs:
+    - id: "galaxy:m9302"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r9313
+  title: "Along the Milky Way"
+  description: >-
+    You are still travelling inside this path of mist.  You notice a small
+    opening to the east.
+  exits:
+    - roomId: "galaxy:r9314"
+      direction: north
+    - roomId: "galaxy:r9312"
+      direction: south
+    - roomId: "galaxy:r9317"
+      direction: east
+  npcs:
+    - id: "galaxy:m9301"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "galaxy:m9305"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9314
+  title: "At the End of the Milky Way"
+  description: >-
+    Just as you started enjoying this journey inside the mist, you have come to
+    the end of it.  West leads to a bridge and east leads to somewhere else.
+  exits:
+    - roomId: "galaxy:r9313"
+      direction: south
+    - roomId: "galaxy:r9318"
+      direction: east
+    - roomId: "galaxy:r9309"
+      direction: west
+  npcs:
+    - id: "galaxy:m9306"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9317
+  title: "A Small Clearing"
+  description: >-
+    You are inside a small clearing.  You can see that there are signs of a
+    living creature nearby.
+  exits:
+    - roomId: "galaxy:r9318"
+      direction: north
+    - roomId: "galaxy:r9313"
+      direction: west
+  npcs:
+    - id: "galaxy:m9304"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "galaxy:m9304"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "galaxy:m9310"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9318
+  title: "An Edge of the Galaxy"
+  description: >-
+    You are on the very edge of the galaxy.  Nothing is here except that there
+    is a path which leads down.
+  exits:
+    - roomId: "galaxy:r9317"
+      direction: south
+    - roomId: "galaxy:r9314"
+      direction: west
+    - roomId: "galaxy:r9319"
+      direction: down
+  npcs:
+    - id: "galaxy:m9303"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9319
+  title: "Very Near to a Gigantic Star"
+  description: >-
+    You are very near to a gigantic red star.  While you are still fascinated
+    by its beauty, the star keeps on growing ... suddenly you realize that you'd
+    better leave.
+  exits:
+    - roomId: "galaxy:r9320"
+      direction: north
+    - roomId: "galaxy:r9320"
+      direction: south
+    - roomId: "galaxy:r9320"
+      direction: east
+    - roomId: "galaxy:r9320"
+      direction: west
+- id: r9320
+  title: "Too Bright to Tell"
+  description: >-
+    Indeed it is too bright to tell.  Because what you are witnessing is the
+    rare event of a Supernova, how a star explodes itself into galactic dust.
+    You may find yourself lucky to witness this rare event but even luckier,
+    you have finally got out of this galaxy as your body turns into dust.
+    That really HURTS!
+- id: r9321
+  title: "The Star Cluster"
+  description: >-
+    You are inside the home of the stars.  All you can see around you are stars
+    and nothing else.  You eyes become pretty hurt as you look at them.
+  exits:
+    - roomId: "galaxy:r9322"
+      direction: north
+    - roomId: "galaxy:r9303"
+      direction: east
+  npcs:
+    - id: "galaxy:m9302"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "galaxy:m9302"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "galaxy:m9302"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "galaxy:m9302"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r9322
+  title: "Another Edge of the Galaxy"
+  description: >-
+    This is another uninhabited place.  Exits lie north, east and south.
+  exits:
+    - roomId: "galaxy:r9323"
+      direction: north
+    - roomId: "galaxy:r9321"
+      direction: south
+    - roomId: "galaxy:r9304"
+      direction: east
+  npcs:
+    - id: "galaxy:m9301"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "galaxy:m9303"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "galaxy:m9304"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "galaxy:m9304"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "galaxy:m9306"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9323
+  title: "Corner of the Galaxy"
+  description: >-
+    You wonder why the galaxy is limited.  All you have done in Astronomy
+    courses now prove worthless.  Well who told you to take one at the start?
+  exits:
+    - roomId: "galaxy:r9324"
+      direction: north
+    - roomId: "galaxy:r9322"
+      direction: south
+    - roomId: "galaxy:r9305"
+      direction: east
+  npcs:
+    - id: "galaxy:m9301"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9324
+  title: "Lost in Space"
+  description: >-
+    You are now lost in space.  Compasses don't work here, sorry.  What's more
+    you can sense darkness engulfing you.  You'd better get out quick.
+  exits:
+    - roomId: "galaxy:r9325"
+      direction: north
+    - roomId: "galaxy:r9323"
+      direction: south
+    - roomId: "galaxy:r9306"
+      direction: east
+- id: r9325
+  title: "Black Hole"
+  description: >-
+    Well you have chosen the wrong path, sorry.  Nothing can escape from this
+    monster, not even light.
+    PANIC!  You can't escape!
+- id: r9326
+  title: "The Homes of the Pleiades"
+  description: >-
+    This is where the famous Seven Sisters live.  You'd better not disturb them.
+  exits:
+    - roomId: "galaxy:r9327"
+      direction: south
+    - roomId: "galaxy:r9329"
+      direction: east
+  npcs:
+    - id: "galaxy:m9312"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "galaxy:m9312"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "galaxy:m9312"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "galaxy:m9312"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "galaxy:m9312"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "galaxy:m9312"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "galaxy:m9312"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r9327
+  title: "Western Side of the Temple"
+  description: >-
+    You are still wandering around this temple.  You notice exits lie in all
+    directions except west.
+  exits:
+    - roomId: "galaxy:r9326"
+      direction: north
+    - roomId: "galaxy:r9328"
+      direction: south
+    - roomId: "galaxy:r9330"
+      direction: east
+- id: r9328
+  title: "Orion's Hunting Lodge"
+  description: >-
+    This is dedicated to the Great Hunter of all time -- Orion.
+    Scattered on the floor is the famous hunting equipment used by him.
+  exits:
+    - roomId: "galaxy:r9327"
+      direction: north
+    - roomId: "galaxy:r9331"
+      direction: east
+  npcs:
+    - id: "galaxy:m9311"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9329
+  title: "Northern Side of the Temple"
+  description: >-
+    You are still wandering around this temple.  You notice exits lie in all
+    directions except north.
+  exits:
+    - roomId: "galaxy:r9330"
+      direction: south
+    - roomId: "galaxy:r9332"
+      direction: east
+    - roomId: "galaxy:r9326"
+      direction: west
+- id: r9330
+  title: "The Offering Chamber"
+  description: >-
+    This is the sacred offering chamber in which sacrifices are made.  You see a
+    young girl here, chained to the wall, as if she is waiting for execution.
+    You look up and realize the chains are sent down directly from above.
+    Below you recognize the temple of Thalos.
+  exits:
+    - roomId: "galaxy:r9329"
+      direction: north
+    - roomId: "galaxy:r9331"
+      direction: south
+    - roomId: "galaxy:r9333"
+      direction: east
+    - roomId: "galaxy:r9327"
+      direction: west
+    - roomId: "galaxy:r9339"
+      direction: up
+    - roomId: "thalos:r5250"
+      direction: down
+  npcs:
+    - id: "galaxy:m9308"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9331
+  title: "The Entrance of the Ancient Temple"
+  description: >-
+    You have entered into this old temple, which was built originally for the gods
+    in Mount Olympia, but it is now deserted as someone took over this part of the
+    Universe.
+  exits:
+    - roomId: "galaxy:r9330"
+      direction: north
+    - roomId: "galaxy:r9308"
+      direction: south
+    - roomId: "galaxy:r9334"
+      direction: east
+    - roomId: "galaxy:r9328"
+      direction: west
+- id: r9332
+  title: "Hercules' Mighty Throne"
+  description: >-
+    You stand before the throne of a long-forgotten hero.  It is full of bounty
+    that he got from the Ten Labours.
+  exits:
+    - roomId: "galaxy:r9333"
+      direction: south
+    - roomId: "galaxy:r9329"
+      direction: west
+  npcs:
+    - id: "galaxy:m9309"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9333
+  title: "Eastern Side of the Temple"
+  description: >-
+    You are still wandering around this temple.  You notice exits lie in all
+    directions except east.
+  exits:
+    - roomId: "galaxy:r9332"
+      direction: north
+    - roomId: "galaxy:r9334"
+      direction: south
+    - roomId: "galaxy:r9330"
+      direction: west
+  npcs:
+    - id: "galaxy:m9302"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r9334
+  title: "Perseus' Chamber"
+  description: >-
+    It is the chamber of the prince, Perseus.  However, he seems not to be here.
+    Maybe he has gone to get Pegasus to save Andromeda?
+  exits:
+    - roomId: "galaxy:r9333"
+      direction: north
+    - roomId: "galaxy:r9331"
+      direction: west
+- id: r9339
+  title: "On the Mystic Chains"
+  description: >-
+    You are dangling on the chains.  You notice exits lie in all directions.
+    Up above you see the chains continue upwards.  But a forcefield prevents
+    you from going further upwards.
+    The symbol of clan Tremere shimmers in the air here.
+  exits:
+    - roomId: "galaxy:r9348"
+      direction: north
+    - roomId: "galaxy:r9342"
+      direction: south
+    - roomId: "galaxy:r9351"
+      direction: east
+    - roomId: "galaxy:r9345"
+      direction: west
+    - roomId: "galaxy:r9354"
+      direction: up
+    - roomId: "galaxy:r9330"
+      direction: down
+- id: r9342
+  title: "On a Hill"
+  description: >-
+    Suddenly you find yourself on a hillside.  As you look around, you notice
+    that Spring has descended upon you.
+  exits:
+    - roomId: "galaxy:r9339"
+      direction: north
+    - roomId: "galaxy:r9353"
+      direction: east
+    - roomId: "galaxy:r9343"
+      direction: west
+  npcs:
+    - id: "galaxy:m9315"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9343
+  title: "Inside a Spanish Bull-Ring"
+  description: >-
+    You are inside what used to be a ground for bull fighting.  But you notice
+    there are no Matadors around.  Maybe they are all dead?
+  exits:
+    - roomId: "galaxy:r9342"
+      direction: east
+    - roomId: "galaxy:r9344"
+      direction: west
+  npcs:
+    - id: "galaxy:m9316"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9344
+  title: "Inside a study"
+  description: >-
+    This is a strange study. Besides the desks and chairs you also see a large
+    mirror in the middle.  So, you wonder, is this how you make a Gemini into
+    two Gemini?
+  exits:
+    - roomId: "galaxy:r9343"
+      direction: east
+  npcs:
+    - id: "galaxy:m9317"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "galaxy:m9318"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9345
+  title: "Along the seashore"
+  description: >-
+    You start to feel the heat of Summer.  Amongst the rocky beach you notice
+    hidden forms which could be camouflaged crabs.
+  exits:
+    - roomId: "galaxy:r9339"
+      direction: east
+    - roomId: "galaxy:r9346"
+      direction: west
+  npcs:
+    - id: "galaxy:m9319"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9346
+  title: "Within the Deep Jungle"
+  description: >-
+    Nearby you can hear the roar of an animal.  Peering through the dense
+    overgrowth you think you glimpse a pair of menacing eyes.
+  exits:
+    - roomId: "galaxy:r9345"
+      direction: east
+  npcs:
+    - id: "galaxy:m9320"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9347
+  title: "Inside a Luxurious Bedroom"
+  description: >-
+    A peaceful feeling overtakes you.  You see a magnificent four-poster bed.
+    It's a double bed and there is only room for one more!  Well, what now ... ?
+  exits:
+    - roomId: "galaxy:r9348"
+      direction: west
+  npcs:
+    - id: "galaxy:m9321"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9348
+  title: "The Supreme Court"
+  description: >-
+    You are standing inside the dock of a court.  You feel an overwhelming
+    sense of guilt and you want to protest your innocence!  You fear retribution
+    and feel yourself exposed, just like the trees in Autumn.
+  exits:
+    - roomId: "galaxy:r9339"
+      direction: south
+    - roomId: "galaxy:r9349"
+      direction: west
+  npcs:
+    - id: "galaxy:m9322"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9349
+  title: "In the Dry Desert"
+  description: >-
+    You are confused by the shifting sands around you.  Through the shimmering
+    heat you see the hazy outline of a giant scorpion ... is this a mirage?
+  exits:
+    - roomId: "galaxy:r9348"
+      direction: east
+    - roomId: "galaxy:r9350"
+      direction: west
+  npcs:
+    - id: "galaxy:m9323"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9350
+  title: "In the Woods"
+  description: >-
+    You find yourself in the center of a Centaurion hunting party.  You'd better
+    hide yourself before you become the 'center attraction'!
+  exits:
+    - roomId: "galaxy:r9349"
+      direction: east
+  npcs:
+    - id: "galaxy:m9324"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9351
+  title: "On a Mountain Peak"
+  description: >-
+    You are on the highest peak of the Universe.  You look around and notice
+    clouds below you.  One of the clouds resembles a goat-like form.
+  exits:
+    - roomId: "galaxy:r9352"
+      direction: east
+    - roomId: "galaxy:r9339"
+      direction: west
+  npcs:
+    - id: "galaxy:m9325"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9352
+  title: "Inside a Waterfall"
+  description: >-
+    The noise is deafening.  You are about to take a drink when you realize
+    that the water is being poured out of a vessel of mind-boggling proportions!
+  exits:
+    - roomId: "galaxy:r9351"
+      direction: west
+  npcs:
+    - id: "galaxy:m9326"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9353
+  title: "Inside a Gigantic Clam"
+  description: >-
+    You feel uneasy here as if some evil magic is being cast on you.
+    You suspect something fishy is going on in here.
+  exits:
+    - roomId: "galaxy:r9342"
+      direction: west
+  npcs:
+    - id: "galaxy:m9327"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "galaxy:m9328"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9354
+  title: "End of the Mystic Chains"
+  description: >-
+    You have reached the end of the mystic chains.  Looking up, you notice a
+    small landing on which you can climb.  However, there seems to be another
+    forcefield blocking your way.
+  exits:
+    - roomId: "galaxy:r9355"
+      direction: up
+    - roomId: "galaxy:r9339"
+      direction: down
+- id: r9355
+  title: "On the Draco"
+  description: >-
+    You realize you are standing on scaly ground.  As you wonder what the ground
+    is made of, you feel the ground move.
+  exits:
+    - roomId: "galaxy:r9356"
+      direction: north
+    - roomId: "galaxy:r9354"
+      direction: down
+  npcs:
+    - id: "galaxy:m9302"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r9356
+  title: "Tail of the Draco"
+  description: >-
+    At last you realize that you are on a giant snake-like dragon called the
+    Draco, the guardian of the inner galaxy.  You realize that the Draco is
+    actually flying now!
+  exits:
+    - roomId: "galaxy:r9357"
+      direction: north
+    - roomId: "galaxy:r9355"
+      direction: south
+- id: r9357
+  title: "Path of the Draco"
+  description: >-
+    As you struggle along this scaly creature you realize that the only way
+    you can reach to the inner galaxy is by going all the way to the head.
+  exits:
+    - roomId: "galaxy:r9358"
+      direction: north
+    - roomId: "galaxy:r9356"
+      direction: south
+- id: r9358
+  title: "Near the Legs of Draco"
+  description: >-
+    You are approaching the leg part of this creature.  You look around and see
+    that the surrounding is all dark except for some faint lights from the
+    distant stars.
+  exits:
+    - roomId: "galaxy:r9359"
+      direction: north
+    - roomId: "galaxy:r9357"
+      direction: south
+  npcs:
+    - id: "galaxy:m9314"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "galaxy:m9314"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r9359
+  title: "On the Back of Draco"
+  description: >-
+    At last you are half way through this long, weary journey. You can see
+    the wings are to the east but it seems that another forcefield is in the way.
+  exits:
+    - roomId: "galaxy:r9358"
+      direction: south
+    - roomId: "galaxy:r9360"
+      direction: east
+- id: r9360
+  title: "Between the Wings of Draco"
+  description: >-
+    You hear some giant flapping sounds nearby.  You desperately try to get hold
+    of something as the forceful gusts sweep you away.
+  exits:
+    - roomId: "galaxy:r9361"
+      direction: east
+    - roomId: "galaxy:r9359"
+      direction: west
+  npcs:
+    - id: "galaxy:m9314"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "galaxy:m9314"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r9361
+  title: "Near the Arms of Draco"
+  description: >-
+    >From above you can faintly make out the gigantic arms which extend far
+    beyond into the darkness.
+  exits:
+    - roomId: "galaxy:r9362"
+      direction: south
+    - roomId: "galaxy:r9360"
+      direction: west
+- id: r9362
+  title: "On the Neck of Draco"
+  description: >-
+    Your journey is now approaching the end.  However, this neck seems to be
+    endless.
+  exits:
+    - roomId: "galaxy:r9361"
+      direction: north
+    - roomId: "galaxy:r9363"
+      direction: west
+- id: r9363
+  title: "Approaching the Head of Draco"
+  description: >-
+    You have come to the end of Draco, but you can't find the head!
+    You see a forcefield to the south, some distance away, beyond reach.
+    If only the head were here ...
+  exits:
+    - roomId: "galaxy:r9364"
+      direction: south
+    - roomId: "galaxy:r9362"
+      direction: east
+  npcs:
+    - id: "galaxy:m9313"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9364
+  title: "At the Entrance of the Great Dipper"
+  description: >-
+    Now you are in the innermost part of the galaxy.  What you are walking on now
+    is the path of the Great Dipper or the Plough.  You notice that there are
+    seven rooms in this zone, representing the seven stars of the Dipper.
+  exits:
+    - roomId: "galaxy:r9363"
+      direction: north
+    - roomId: "galaxy:r9365"
+      direction: south
+    - roomId: "galaxy:r9366"
+      direction: west
+- id: r9365
+  title: "Cassiopeia's Throne"
+  description: >-
+    This is the Throne room of the Queen of the Universe.  From here you can see
+    every star and constellation in the Universe.
+  exits:
+    - roomId: "galaxy:r9364"
+      direction: north
+    - roomId: "galaxy:r9367"
+      direction: west
+  npcs:
+    - id: "galaxy:m9330"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9366
+  title: "Along the Path of the Dipper"
+  description: >-
+    You see stars around you but nothing of special interest.
+  exits:
+    - roomId: "galaxy:r9367"
+      direction: south
+    - roomId: "galaxy:r9364"
+      direction: east
+- id: r9367
+  title: "Cepheus' Throne"
+  description: >-
+    This is the Throne room of the King of the Universe.  From here you can see
+    every star and constellation in the Universe.
+  exits:
+    - roomId: "galaxy:r9366"
+      direction: north
+    - roomId: "galaxy:r9368"
+      direction: south
+    - roomId: "galaxy:r9365"
+      direction: east
+  npcs:
+    - id: "galaxy:m9331"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9368
+  title: "Along the path of the Dipper"
+  description: >-
+    You see stars around you but nothing of special interest.
+  exits:
+    - roomId: "galaxy:r9367"
+      direction: north
+    - roomId: "galaxy:r9369"
+      direction: west
+- id: r9369
+  title: "Along the path of the Dipper"
+  description: >-
+    You see stars around you but nothing of special interest.
+  exits:
+    - roomId: "galaxy:r9370"
+      direction: south
+    - roomId: "galaxy:r9368"
+      direction: east
+- id: r9370
+  title: "End of the Dipper"
+  description: >-
+    You have finished the path of the Dipper.  Here, the most prominent feature
+    is a set of claw-marks.  You also notice a room to the south; it looks as
+    if Polaris could lie here.
+  exits:
+    - roomId: "galaxy:r9369"
+      direction: north
+    - roomId: "galaxy:r9371"
+      direction: south
+  npcs:
+    - id: "galaxy:m9329"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9371
+  title: "The Polar Star"
+  description: >-
+    You have entered the private chamber of Polaris.  This is a room of great
+    significance.  You can see a powerful telescope pointing down towards the
+    Universe (SNOOPING!).  It is from here that Polaris commands the Universe.
+    You feel you have come to end of your search in this galaxy ...
+  exits:
+    - roomId: "galaxy:r9370"
+      direction: north
+  npcs:
+    - id: "galaxy:m9332"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9372
+  title: "Entrance to the Tremere clan rooms."
+  description: >-
+    You squint uncontrollably trying to make out the images that lie before
+    you.  Deep, ominous eyes appear to be fixated on your every move.  The 
+    dark black of night engulfs all corners of this room making it totally
+    dark except for one dim spark of light.  You hear heavy breathing around
+    you. . . the eyes flicker. . . but what is there?
+    Someone leaps from their concealment!
+    Someone gets into an advanced stance, the likes of which you have never seen!
+  exits:
+    - roomId: "galaxy:r9374"
+      direction: north
+- id: r9373
+  title: "The Key To The Universe."
+  description: >-
+    All vampires find ample time for travel in their immortality, but this
+    clan in particular has developed a special affinity for the stars.  Some
+    claim that Tremere can actually transcend both time and space and enter
+    into other galaxies, or even touch the stars.  There are many strange
+    symbols on the floor, you look at them pondering their meaning.
+  exits:
+    - roomId: "galaxy:r9376"
+      direction: north
+    - roomId: "galaxy:r9374"
+      direction: east
+- id: r9374
+  title: "The Hall Of Princes."
+  description: >-
+    You enter a hall that glimmers and shines with sapphires, emeralds, and
+    any other precious gem imaginable.  You look at the lavish monuments upon
+    the walls that boast the deeds of each prince in the clan.  Each prince
+    has their own and all are engraved with many the names of many they have
+    decapitated and drained, many foes they have vanguished, and the high
+    levels of skill and the spells they have attained.
+  exits:
+    - roomId: "galaxy:r9377"
+      direction: north
+    - roomId: "galaxy:r9372"
+      direction: south
+    - roomId: "galaxy:r9375"
+      direction: east
+    - roomId: "galaxy:r9373"
+      direction: west
+- id: r9375
+  title: "The Weapons Of Decapitation."
+  description: >-
+    Lining this room are some of the most bitching weapons you've ever seen.
+    Many of these weapons are on display. . . as they were used to
+    decapitate some of the most powerful vampires the other clans had ever
+    produced.  Others were forged and created on the whims of Tremeres that
+    just didn't feel a weapon existed that suited their needs for maiming,
+    torture, and destruction.
+  exits:
+    - roomId: "galaxy:r9378"
+      direction: north
+    - roomId: "galaxy:r9374"
+      direction: west
+- id: r9376
+  title: "An Ancient Study."
+  description: >-
+    This room sports the vast collection of Tremere knowledge collected
+    over many millenia.  Volumes on various fighting skills, lore of the old
+    Tremere and their exploits, and complete studies of the other clans line
+    the room's many shelves.  There are a couple of desks and a few chairs
+    to provide new kender with ample space to learn what they have become,
+    and how they may aspire to stay that way.
+  exits:
+    - roomId: "galaxy:r9379"
+      direction: north
+    - roomId: "galaxy:r9373"
+      direction: south
+    - roomId: "galaxy:r9377"
+      direction: east
+  items:
+    - id: "galaxy:o9329"
+      respawnChance: 75
+- id: r9377
+  title: "A Spacious Den."
+  description: >-
+    You see many luxurious couches and plush chairs throughout the room.
+    Every precaution has been taken to ensure that clan members could relax
+    here with the availability of every pleasure one could imagine.  Swirling
+    patterns of colors and lights line the ceiling to lull the dreamy Tremere
+    to a relaxing nap.
+  exits:
+    - roomId: "galaxy:r9380"
+      direction: north
+    - roomId: "galaxy:r9374"
+      direction: south
+    - roomId: "galaxy:r9378"
+      direction: east
+    - roomId: "galaxy:r9376"
+      direction: west
+- id: r9378
+  title: "The Tremere Bar."
+  description: >-
+    You stride into the bar non-chalantly, and take a stool opposite the
+    hideous ghoul the clan has taken under it's control to serve the drinks
+    and listen to your various stories of glorious battle against the other
+    clans.  You hear a scream from a mortal, and smile to yourself.  Probably
+    another order for a Bloody Mary.  Type AB negative. . . ahhhhh, your
+    favorite.
+  exits:
+    - roomId: "galaxy:r9381"
+      direction: north
+    - roomId: "galaxy:r9375"
+      direction: south
+    - roomId: "galaxy:r9377"
+      direction: west
+- id: r9379
+  title: "The Chamber Of Disembowelment."
+  description: >-
+    This room is dominated with gray and black, though you could swear the
+    red stains in the walls seem to bleed at times.  The floor is covered
+    with leather straps, decadent and charred bones, and a plethora of stains
+    in all colors.  You could only dream what cruel torture could have been
+    dealt to the clans enemies to procure such markings of pain.  You smile
+    sadistically, glad you'll never taste the likes of such wrath, and dream
+    of the torture you might do to an enemy one day that attacks this honored
+    establishment.
+  exits:
+    - roomId: "galaxy:r9376"
+      direction: south
+    - roomId: "galaxy:r9380"
+      direction: east
+- id: r9380
+  title: "The Encrypted Caverns."
+  description: >-
+    In this long dingy hall-like structure you find many coffins, most of
+    which are encrypted with various symbols, not all of one language, but all
+    to represent their eternal patrons.  Every Tremere has their own sleeping
+    quarters here, though other clans often swear a Tremere vampire sleeps
+    with theirweapons drawn and their bodies stanced for combat.
+  exits:
+    - roomId: "galaxy:r9382"
+      direction: north
+    - roomId: "galaxy:r9377"
+      direction: south
+    - roomId: "galaxy:r9381"
+      direction: east
+    - roomId: "galaxy:r9379"
+      direction: west
+- id: r9381
+  title: "The Room Of The High Council."
+  description: >-
+    This room is octagonal in shape and scarlet red on all walls.  There is
+    an obsidian table in the center of the room and a dozen chairs crafted of
+    the finest marble.  This room is used for official clan meetings and
+    boasts a special engraved chair for each prince.  There are 2 windows in
+    this room shaped in the form of a diamond and composed of a dark material
+    that gives a good view of the outside while blocking all rays of harmful
+    sunlight for any members that have yet to acquire golconda.
+  exits:
+    - roomId: "galaxy:r9378"
+      direction: south
+    - roomId: "galaxy:r9380"
+      direction: west
+- id: r9382
+  title: "The Tremere Vault."
+  description: >-
+    As you enter the room your eyes light up and glimmer with all colours as 
+    they are greeted by countless jewels, stacks of gold, and a vast array of
+    items from all over the world.  Contributions have been made over
+    centuries by the clan, with the intention of furthering our rule.  Take
+    what you like, Tremere.
+  exits:
+    - roomId: "galaxy:r9380"
+      direction: south

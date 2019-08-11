@@ -1,0 +1,7 @@
+---
+body: |
+  Syntax: cast refresh <character>
+  
+  This spell refreshes the movement points of a character who is out of movement
+  points.
+  

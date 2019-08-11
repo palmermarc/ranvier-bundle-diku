@@ -1,0 +1,1682 @@
+- id: m3300
+  keywords: ["knight","reknown"]
+  name: "The knight of reknown"
+  description: >-
+    A knight of reknown slaps you with his gauntlet and challenges you!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3301": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3301
+  keywords: ["squire"]
+  name: "The squire"
+  description: >-
+    A squire is here on an errand for his lord.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3300": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3302
+  keywords: ["knight","quality"]
+  name: "the knight of quality"
+  description: >-
+    A knight of quality looks down upon you from his mount.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 750
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3302": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3303
+  keywords: ["arthur","king"]
+  name: "King Arthur"
+  description: >-
+    King Arthur sits upon his throne awaiting the return of the grail.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3310": 75
+        "camelot:o3309": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3304
+  keywords: ["benlad","knight","green"]
+  name: "Sir Benlad de Haudtesert (the green knight)"
+  description: >-
+    Sir Benlad slaps you with his gauntlet and challenges you!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 250
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3303": 75
+        "camelot:o3304": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3305
+  keywords: ["galahad","knight"]
+  name: "Sir Galahad"
+  description: >-
+    Sir Galahad, paragon of chivalry, bastard of Lancelot & Elane, stands here.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3305": 75
+        "camelot:o3306": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3306
+  keywords: ["black","knight"]
+  name: "the black knight"
+  description: >-
+    A knight dressed in black armor says "NONE SHALL PASS"
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3317": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3307
+  keywords: ["gareth","knight"]
+  name: "Sir Gareth"
+  description: >-
+    A knight with armor of many colors stands here.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 750
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3307": 75
+        "camelot:o3308": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3308
+  keywords: ["garlon","knight"]
+  name: "Sir Garlon"
+  description: >-
+    Sir Garlon, the invisible knight, is waiting here.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3311": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3309
+  keywords: ["gawaine","knight"]
+  name: "Sir Gawaine"
+  description: >-
+    Sir Gawaine, the strong, is on a mission of vengeance!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3312": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3310
+  keywords: ["lamorak","knight"]
+  name: "Sir Lamorak"
+  description: >-
+    Sir Lamorak hefts his bastard sword as he considers you.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3313": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3311
+  keywords: ["lancelot","knight"]
+  name: "Sir Lancelot du Lake"
+  description: >-
+    Sir Lancelot, champion of the Round Table, smiles at you.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3314": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3312
+  keywords: ["merlin","mage"]
+  name: "Merlin"
+  description: >-
+    The mighty Merlin is here grumbling over a book.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 750
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3315": 75
+        "camelot:o3316": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3313
+  keywords: ["le","fey","mage"]
+  name: "Morgan Le Fey"
+  description: >-
+    A beautiful woman with an inviting smile beckons to you!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3318": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 2
+- id: m3314
+  keywords: ["pellinore","king"]
+  name: "King Pellinore"
+  description: >-
+    King Pellinore is here searching for the Questing Beast.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3319": 75
+        "camelot:o3320": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3315
+  keywords: ["beast","questing"]
+  name: "the Questing Beast"
+  description: >-
+    A long necked, lion pawed, spotted, creature is here knawing on a femur.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 0
+- id: m3316
+  keywords: ["tristram"]
+  name: "Sir Tristram of Lyoness"
+  description: >-
+    Sir Tristram smirks at you.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3326": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3317
+  keywords: ["mordred"]
+  name: "Mordred"
+  description: >-
+    An boy in golden armor gives you an elfin laugh and strikes with his spear!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3327": 75
+        "camelot:o3328": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3318
+  keywords: ["charmed","knight","reknown"]
+  name: "Charmed knight of reknown"
+  description: >-
+    A charmed knight of reknown woodenly attacks you!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3319
+  keywords: ["charmed","knight","quality"]
+  name: "Charmed knight of quality"
+  description: >-
+    A charmed knight of quality woodenly attacks you!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3320
+  keywords: ["lady","waiting"]
+  name: "a lady in waiting"
+  description: >-
+    A lady in waiting bats her eyes at you!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3329": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 2
+- id: m3321
+  keywords: ["queen","gwenivere"]
+  name: "Queen Gwenivere"
+  description: >-
+    A raven haired queen winks at you from behind her fan.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3330": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 2
+- id: m3322
+  keywords: ["squire","charmed"]
+  name: "Charmed Squire"
+  description: >-
+    A charmed squire stands here woodenly
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3323
+  keywords: ["barant","king","apres","knight"]
+  name: "Barant Les Apres (King of the Hundred Knights)"
+  description: >-
+    A knight in a flowing white cape and swings a spiked ball here.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 750
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3331": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3324
+  keywords: ["dagonet","jester","fool"]
+  name: "Dagonet (Arthur's Court Jester)"
+  description: >-
+    A fool in motley cavorts here!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3332": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3325
+  keywords: ["turquine","knight"]
+  name: "Turquine"
+  description: >-
+    A knight with a wolf helm cackles with glee!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3333": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3326
+  keywords: ["perimones","knight"]
+  name: "Perimones (the Red Knight)"
+  description: >-
+    A knight dressed red shimmering armor faces you!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3334": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3327
+  keywords: ["damsel","lady","woman","distress"]
+  name: "A damsel in distress"
+  description: >-
+    A damsel in distress is here, screaming for help!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3336": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 2
+- id: m3328
+  keywords: ["nobleman"]
+  name: "A nobleman"
+  description: >-
+    A nobleman stands here in all his finery.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3338": 75
+        "camelot:o3330": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3329
+  keywords: ["serf"]
+  name: "A serf"
+  description: >-
+    A dirty serf shuffles along here.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3330
+  keywords: ["merchant"]
+  name: "A merchant"
+  description: >-
+    A brightly clothed merchant hawks his goods to you!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3331
+  keywords: ["monk"]
+  name: "A monk"
+  description: >-
+    A monk is here in his mumbling in Latin here.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3332
+  keywords: ["troubadour"]
+  name: "A troubadour"
+  description: >-
+    A troubadour is here, strumming a merry tune.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 2
+- id: m3333
+  keywords: ["bard"]
+  name: "A bard"
+  description: >-
+    A bard is here, singing a sweet ballad.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3334
+  keywords: ["entertainer"]
+  name: "An entertainer"
+  description: >-
+    An entertainer is here, leaping with great acrobatic prowess!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3335
+  keywords: ["servant"]
+  name: "A servant"
+  description: >-
+    A servant is rushing by
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 2
+- id: m3336
+  keywords: ["demon"]
+  name: "A towering, black scaled demon"
+  description: >-
+    A towering, black scaled demon has come to eat your soul!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 0
+- id: m3337
+  keywords: ["jack","iron"]
+  name: "Iron Jack"
+  description: >-
+    Iron Jack, the armorer of Camelot is here.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3300": 75
+        "camelot:o3301": 75
+        "camelot:o3302": 75
+  metadata:
+    vendor:
+      items:
+        "camelot:o3300":
+          cost: 5000
+          currency: gold
+        "camelot:o3301":
+          cost: 5000
+          currency: gold
+        "camelot:o3302":
+          cost: 5000
+          currency: gold
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3338
+  keywords: ["stirrup","stablemaster"]
+  name: "Stirrup"
+  description: >-
+    Stirrup, the stable master of Camelot is here.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3339
+  keywords: ["horse","riding"]
+  name: "A riding horse"
+  description: >-
+    A riding horse is here.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 2
+- id: m3340
+  keywords: ["warhorse","medium"]
+  name: "A medium warhorse"
+  description: >-
+    A medium warhorse is tethered here.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 2
+- id: m3341
+  keywords: ["warhorse","heavy"]
+  name: "A heavy warhorse"
+  description: >-
+    A heavy warhorse paws the ground and snorts in preparation for battle!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3342
+  keywords: ["raider","saxon"]
+  name: "A Saxon raider"
+  description: >-
+    A Saxon raider is here, ready to take your head as a trophy
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3343
+  keywords: ["slave"]
+  name: "A slave"
+  description: >-
+    A slave is here, cringing from battle.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 2
+- id: m3344
+  keywords: ["chief","saxon","render"]
+  name: "A Saxon chief"
+  description: >-
+    A Saxon chief is here, leading his raiders into battle!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3339": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3345
+  keywords: ["guard","border","northern"]
+  name: "A northern border guard"
+  description: >-
+    A northern border guard is here, stoically holding the line against intruders.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 300
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3346
+  keywords: ["commander","outpost"]
+  name: "The northern outpost commander"
+  description: >-
+    The northern outpost commander is here, safe in the respect of his men.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3340": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3347
+  keywords: ["clansman","scot"]
+  name: "A Scot clansman"
+  description: >-
+    A Scot clansman is here, ready to seize your women and whiskey!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3348
+  keywords: ["chief","clan","scot"]
+  name: "The Scot clan chief"
+  description: >-
+    The Scot clan chief is here, seizing his clansman's women and whiskey!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3341": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3349
+  keywords: ["serf","busy"]
+  name: "A busy serf"
+  description: >-
+    A busy serf is here, tilling the fields for harvest.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3350
+  keywords: ["raider","angle"]
+  name: "An Angle raider"
+  description: >-
+    An Angle raider is here, burning huts and raping women!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3351
+  keywords: ["chief","angle"]
+  name: "The Angle chief"
+  description: >-
+    The Angle chief is here, leading the massacre!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3343": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3352
+  keywords: ["calvary","unit"]
+  name: "The calvary unit"
+  description: >-
+    A calvary unit is here, flanking the enemy lines.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 0
+- id: m3353
+  keywords: ["infantry","unit"]
+  name: "The infantry unit"
+  description: >-
+    An infantry unit is here, fighting the Pict hoards.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 0
+- id: m3354
+  keywords: ["hoard","pict","picts"]
+  name: "The pict hoard"
+  description: >-
+    A hoard of Picts is here, fighting the troops of Camelot.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 0
+- id: m3355
+  keywords: ["leader","pict"]
+  name: "The Pict leader"
+  description: >-
+    The Pict leader is here, retreating from battle.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: -400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3344": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3356
+  keywords: ["persante","knight"]
+  name: "Persante of Inde (the blue knight)"
+  description: >-
+    Persante of Inde is here, marshalling the troops of Camelot.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3345": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3357
+  keywords: ["dodinas","knight"]
+  name: "Dodinas le Savage"
+  description: >-
+    Dodinas le Savage is here, holding the center of the line!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3346": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3358
+  keywords: ["lionel","knight"]
+  name: "Lionel"
+  description: >-
+    Lionel is here, unhorsed, and fighting for his life!
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3347": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3359
+  keywords: ["gaheris","knight"]
+  name: "Gaheris"
+  description: >-
+    Gaheris (Gawaine's brother) is here putting down the raiders.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3348": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3360
+  keywords: ["commander","outpost","southern"]
+  name: "The southern outpost commander"
+  description: >-
+    The southern outpost commander is here, safe in the respect of his men.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "camelot:o3340": 75
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3361
+  keywords: ["guard","border","southern"]
+  name: "A southern border guard"
+  description: >-
+    A southern border guard is here, stoically holding the line against intruders.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 300
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 1
+- id: m3362
+  keywords: ["slave"]
+  name: "A slave"
+  description: >-
+    A slave is here, cringing from battle.
+  level: 350
+  attributes:
+    health: 46174
+    armor: 23360
+    hitroll: 5800
+    damroll: 2900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 7
+    exp_level: 30000
+    sex: 2

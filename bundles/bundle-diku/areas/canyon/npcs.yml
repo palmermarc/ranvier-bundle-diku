@@ -1,0 +1,983 @@
+- id: m9216
+  keywords: ["snowflake","snow","flake","ice","elemental"]
+  name: "a small snowflake"
+  description: >-
+    A frozen snowflake water elemental.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 520
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 902.5
+          max: 997.5
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9217
+  keywords: ["pebble","rock","earth","stone","elemental"]
+  name: "a small rock"
+  description: >-
+    A small rock.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 93.1
+          max: 102.9
+      pools:
+        "canyon:o9217": 75
+        "canyon:o9220": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9218
+  keywords: ["spark","lightning","energy","elemental"]
+  name: "a small spark"
+  description: >-
+    A small spark of electricity fizzles here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 142.5
+          max: 157.5
+      pools:
+        "canyon:o9219": 75
+        "canyon:o9218": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9219
+  keywords: ["acid","blob","elemental"]
+  name: "a small blob of acid"
+  description: >-
+    A small blob of acid eats away at the stone aimlessly.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9220
+  keywords: ["lava","elemental"]
+  name: "a lava beast"
+  description: >-
+    A lava beast spews from place to place.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 297.35
+          max: 328.65
+      pools:
+        "canyon:o9222": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9221
+  keywords: ["mud","elemental"]
+  name: "a mud monster"
+  description: >-
+    A mud monster slops around.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 380
+          max: 420
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9222
+  keywords: ["mist","elemental"]
+  name: "an elemental mist"
+  description: >-
+    The air is magically misty here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 285
+          max: 315
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9223
+  keywords: ["particle","elemental"]
+  name: "a particle"
+  description: >-
+    A sub-atomic particle is too small for you to see.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+      pools:
+        "canyon:o9221": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9224
+  keywords: ["dust","elemental"]
+  name: "a dust cloud"
+  description: >-
+    A dust cloud blowing by makes you sneeze.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "canyon:o9225": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9225
+  keywords: ["eddie","elemental"]
+  name: "an eddie"
+  description: >-
+    A small eddie current swirls junk around here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 28.5
+          max: 31.5
+      pools:
+        "canyon:o9218": 75
+        "canyon:o9225": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9226
+  keywords: ["blue","flame"]
+  name: "the Blue Flame"
+  description: >-
+    The Blue Flame burns mysteriously here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 2375
+          max: 2625
+      pools:
+        "canyon:o9226": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9227
+  keywords: ["magneto"]
+  name: "the Magneto"
+  description: >-
+    The Magneto considers zapping you for the heck of it.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -150
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "canyon:o9230": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9228
+  keywords: ["ice","bandit"]
+  name: "the Ice Bandit"
+  description: >-
+    The Ice Bandit strikes cold fear in your heart.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -250
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 2850
+          max: 3150
+      pools:
+        "canyon:o9227": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9229
+  keywords: ["rock","monster"]
+  name: "the Rock Monster"
+  description: >-
+    The Rock Monster considers you in stoney silence.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -310
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1805
+          max: 1995
+      pools:
+        "canyon:o9228": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9230
+  keywords: ["hurricane"]
+  name: "the Hurricane"
+  description: >-
+    A Hurricane rages across the sky.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -10
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 3972.9
+          max: 4391.1
+      pools:
+        "canyon:o9229": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9231
+  keywords: ["magician"]
+  name: "an elemental magician"
+  description: >-
+    An elemental magician seeks magical stones for a spell.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -50
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 760
+          max: 840
+      pools:
+        "canyon:o9215": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9232
+  keywords: ["rainbow","warrior"]
+  name: "a rainbow warrior"
+  description: >-
+    A warrior of the Rainbow Cult swears his loyalty.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 150
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 760
+          max: 840
+      pools:
+        "canyon:o9220": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9233
+  keywords: ["illusionist"]
+  name: "an illusionist"
+  description: >-
+    The illusionist seeks the aid of the elemental forces.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -50
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 855
+          max: 945
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9234
+  keywords: ["alchemist"]
+  name: "an alchemist"
+  description: >-
+    An alchemist wanders by in search of magical herbs.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -50
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 855
+          max: 945
+      pools:
+        "canyon:o9218": 75
+        "canyon:o9217": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9235
+  keywords: ["baby","rainbow","dragon"]
+  name: "a baby rainbow dragon"
+  description: >-
+    A baby rainbow dragon plays among the elements here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "canyon:o9216": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9236
+  keywords: ["imp"]
+  name: "a little imp"
+  description: >-
+    A little imp runs along being annoying.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 902.5
+          max: 997.5
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9237
+  keywords: ["HUGE","elemental"]
+  name: "a HUGE elemental"
+  description: >-
+    A HUGE elemental form stands here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 30
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9238
+  keywords: ["vendor"]
+  name: "the elixir vendor"
+  description: >-
+    A vendor is willing to sell you elixirs.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 902.5
+          max: 997.5
+      pools:
+        "canyon:o9231": 75
+  metadata:
+    vendor:
+      items:
+        "canyon:o9231":
+          cost: 100
+          currency: gold
+    areaId: 8
+    exp_level: 4000
+    sex: 1
+- id: m9201
+  keywords: ["mountain","climber","mountainclimber"]
+  name: "the mountain climber"
+  description: >-
+    A mountain climber is making the same trek that you are.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "canyon:o9231": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 1
+- id: m9202
+  keywords: ["cyclops"]
+  name: "the cyclops"
+  description: >-
+    A hungry cyclops snarls at you!
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "canyon:o9213": 75
+        "canyon:o9214": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9203
+  keywords: ["tiny","elemental"]
+  name: "a tiny elemental"
+  description: >-
+    A tiny elemental form wanders about.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 10.45
+          max: 11.55
+      pools:
+        "canyon:o9225": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9204
+  keywords: ["elemental","guardian"]
+  name: "the elemental guardian"
+  description: >-
+    The elemental guardian of the canyon.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "canyon:o9211": 75
+        "canyon:o9212": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9205
+  keywords: ["small","elemental"]
+  name: "a small elemental"
+  description: >-
+    A small, rather non-descript elemental.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 237.5
+          max: 262.5
+      pools:
+        "canyon:o9224": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9206
+  keywords: ["medium","elemental"]
+  name: "a medium elemental"
+  description: >-
+    A medium-sized elemental.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 10
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 712.5
+          max: 787.5
+      pools:
+        "canyon:o9221": 75
+        "canyon:o9219": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9207
+  keywords: ["large","elemental"]
+  name: "a large elemental"
+  description: >-
+    A large elemental.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 20
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "canyon:o9220": 75
+        "canyon:o9223": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9208
+  keywords: ["earth","elemental","ruler"]
+  name: "the Earth Ruler"
+  description: >-
+    The Ruler of the earth elementals.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "canyon:o9201": 75
+        "canyon:o9202": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9209
+  keywords: ["fire","elemental","ruler"]
+  name: "the Fire Ruler"
+  description: >-
+    The Ruler of the fire elementals.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9210
+  keywords: ["air","elemental","ruler"]
+  name: "The Air Ruler"
+  description: >-
+    The Ruler of the air elementals.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "canyon:o9205": 75
+        "canyon:o9206": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9211
+  keywords: ["lightning","elemental","ruler"]
+  name: "The Lightning Ruler"
+  description: >-
+    The Ruler of the lightning elementals.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "canyon:o9207": 75
+        "canyon:o9208": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9212
+  keywords: ["water","elemental","ruler"]
+  name: "The Water Ruler"
+  description: >-
+    The Ruler of the water elementals.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "canyon:o9209": 75
+        "canyon:o9210": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9214
+  keywords: ["water","puddle","elemental"]
+  name: "a puddle"
+  description: >-
+    A small puddle of water elemental.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 213.75
+          max: 236.25
+      pools:
+        "canyon:o9216": 75
+        "canyon:o9224": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0
+- id: m9215
+  keywords: ["fire","flame","elemental"]
+  name: "a flame"
+  description: >-
+    A small flickering flame elemental.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 142.5
+          max: 157.5
+      pools:
+        "canyon:o9215": 75
+  metadata:
+    areaId: 8
+    exp_level: 4000
+    sex: 0

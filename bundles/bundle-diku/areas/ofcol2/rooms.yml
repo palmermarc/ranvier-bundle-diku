@@ -1,0 +1,1419 @@
+- id: r600
+  title: "Granny's Still Room"
+  description: >-
+    You are in Granny Jenkins' still room.  The smell of whiskey is heady, and
+    the bottles of it on the floor make your mouth water and your mind swirl.  You
+    also see a very large still.  So THIS is why there are so many grain fields!
+    The exit is to the east.
+  exits:
+    - roomId: "ofcol2:r616"
+      direction: east
+  npcs:
+    - id: "ofcol2:m609"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "ofcol2:o649"
+      respawnChance: 75
+- id: r601
+  title: "The Big Intersection "
+  description: >-
+    You are in the big intersection between Raff Way and Impy Way.  Crowds 
+    of people walk past you as they go on their daily tasks.  Raff Way continues
+    east and west, and Impy Way runs north and south.
+  exits:
+    - roomId: "ofcol2:r625"
+      direction: north
+    - roomId: "ofcol2:r602"
+      direction: south
+    - roomId: "ofcol2:r666"
+      direction: east
+    - roomId: "ofcol:r5553"
+      direction: west
+  npcs:
+    - id: "ofcol2:m600"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "ofcol2:m601"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "ofcol2:m617"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r602
+  title: "Impy Way"
+  description: >-
+    You are on Impy Way.  You can see a leather shop east and a blacksmith
+    west.  To the north you see a big intersection, and Impy Way continues south.
+  exits:
+    - roomId: "ofcol2:r601"
+      direction: north
+    - roomId: "ofcol2:r605"
+      direction: south
+    - roomId: "ofcol2:r604"
+      direction: east
+    - roomId: "ofcol2:r603"
+      direction: west
+- id: r603
+  title: "The Blacksmith"
+  description: >-
+    You are in a black and smelly room.  Pieces of metal are strewn all over
+    the floor, and a wave of heat from a big furnace hits you.  An anvil sits on 
+    one side of the room, and on the other side is a workbench.  The exit is east.
+  exits:
+    - roomId: "ofcol2:r602"
+      direction: east
+  npcs:
+    - id: "ofcol2:m604"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r604
+  title: "The Leather Shop"
+  description: >-
+    You are in a brown and smelly room.  Pieces of leather are strewn all over
+    the floor.  The smell of burnt hide assaults your nose.  You can tell by the
+    looks that the tanning is done VERY CLOSE to here!   A table is near the
+    entrance.  The exit is west.
+  exits:
+    - roomId: "ofcol2:r602"
+      direction: west
+  npcs:
+    - id: "ofcol2:m600"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "ofcol2:m605"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r605
+  title: "Impy Way"
+  description: >-
+    You are on Impy Way.  To the east is a meat store, and to the west is a
+    pawn shop.  Impy Way continues north and south.  People are rushing around you
+    to go to these stores.
+  exits:
+    - roomId: "ofcol2:r602"
+      direction: north
+    - roomId: "ofcol2:r608"
+      direction: south
+    - roomId: "ofcol2:r607"
+      direction: east
+    - roomId: "ofcol2:r606"
+      direction: west
+- id: r606
+  title: "The Pawn Shop."
+  description: >-
+    You are in a little shop filled with a lot of knick knacks and semi-
+    valuable goods.  There is a display case full of little treasures that you are
+    sure that you or any other little kid would like to touch!  The exit is east.
+  exits:
+    - roomId: "ofcol2:r605"
+      direction: east
+  npcs:
+    - id: "ofcol2:m606"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r607
+  title: "The Meat Store"
+  description: >-
+    You are in a meat store.  Hanging on hooks are meats of many kinds of
+    animals.  In the background, you can hear the sound of blade against flesh.
+    It smells like meat here (which is not a good smell).  The exit is west.
+  exits:
+    - roomId: "ofcol2:r605"
+      direction: west
+  npcs:
+    - id: "ofcol2:m607"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r608
+  title: "Impy Way"
+  description: >-
+    You are on Impy Way.  To the east is Farmer's Market, and to the west is
+    Nyles' House of Ale.  Impy Way runs north and ends south of here.  You can hear
+    the sound of housewives gossiping at the market.
+  exits:
+    - roomId: "ofcol2:r605"
+      direction: north
+    - roomId: "ofcol2:r611"
+      direction: south
+    - roomId: "ofcol2:r610"
+      direction: east
+    - roomId: "ofcol2:r609"
+      direction: west
+  npcs:
+    - id: "ofcol2:m600"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r609
+  title: "Nyles' House of Ale"
+  description: >-
+    This is a very busy bar, with everyone holding homemade bottles of
+    ale.  You see even the more gentile persons here, laughing along with
+    Nyles, who offers you a quart of ale too.
+  exits:
+    - roomId: "ofcol2:r608"
+      direction: east
+  npcs:
+    - id: "ofcol2:m622"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "ofcol2:m624"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r610
+  title: "Farmer's Market"
+  description: >-
+    You see many carts filled with fruits and vegetables.  Many farmers are
+    all trying to sell you their produce, each saying their's is better.  The exit
+    is west.
+  exits:
+    - roomId: "ofcol2:r608"
+      direction: west
+  npcs:
+    - id: "ofcol2:m608"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r611
+  title: "The End of Impy Way"
+  description: >-
+    You are at the end of Impy and of the city part of Ofcol.  To the east is
+    a dirt road leading toward the farm animals.  West from here are fields.  Impy
+    Way continues north.
+  exits:
+    - roomId: "ofcol2:r608"
+      direction: north
+    - roomId: "hc:r12000"
+      direction: south
+    - roomId: "ofcol2:r668"
+      direction: east
+    - roomId: "ofcol2:r612"
+      direction: west
+  npcs:
+    - id: "ofcol2:m618"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r612
+  title: "Fields"
+  description: >-
+    You are in a corn field.  You can't see far, since the corn stalks are
+    taller than you are.  You remember that the end of Impy Way is east of here, 
+    and you think you see a building to the north.  The field continues south and 
+    west.
+  exits:
+    - roomId: "ofcol2:r616"
+      direction: north
+    - roomId: "ofcol2:r613"
+      direction: south
+    - roomId: "ofcol2:r611"
+      direction: east
+    - roomId: "ofcol2:r615"
+      direction: west
+- id: r613
+  title: "Fields"
+  description: >-
+    You are among fruit trees in a field.  You see many apple and orange 
+    trees.  You can make out the corn fields north and some vegetable patches west.
+    The sight of the fruit makes your mouth water.
+  exits:
+    - roomId: "ofcol2:r612"
+      direction: north
+    - roomId: "ofcol2:r614"
+      direction: west
+- id: r614
+  title: "Fields"
+  description: >-
+    You are among the vegetable fields.  You see many cabbage and lettuce
+    patches, along with tomato bushes and potato plants.  To the east are some
+    fruit trees, and north are some wheat fields.
+  exits:
+    - roomId: "ofcol2:r615"
+      direction: north
+    - roomId: "ofcol2:r613"
+      direction: east
+- id: r615
+  title: "Fields"
+  description: >-
+    You are among the wheat fields.  The gentle caress of the wheat and the
+    cool shadow from the tall stalks and scarecrow lulls you to sleep and dream
+    of a little girl and little dog from a faraway place.  To the east are the corn
+    stalks, and south of you are the vegetable patches.
+  exits:
+    - roomId: "ofcol2:r614"
+      direction: south
+    - roomId: "ofcol2:r612"
+      direction: east
+- id: r616
+  title: "The Shed"
+  description: >-
+    You are in the storage shed.  Bales of wheat, corn and hay are piled
+    against the wall, and some vegetables are in carts.  You see a small door
+    on the west door.  The main exit is south.
+  exits:
+    - roomId: "ofcol2:r612"
+      direction: south
+    - roomId: "ofcol2:r600"
+      direction: west
+- id: r617
+  title: "Slaughterhouse"
+  description: >-
+    You are in the slaughterhouse, where all the animals are slaughtered so
+    that they can be sold or their skins be tanned.  The scream of dying animals
+    makes your stomach churn.  The exit is to the west.
+  exits:
+    - roomId: "ofcol2:r668"
+      direction: west
+  npcs:
+    - id: "ofcol2:m610"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r618
+  title: "Dirt Road"
+  description: >-
+    You are on a dirt road.  To the east is a barn, and you see a big chicken
+    coop south of you.  The dirt road continues north and west.
+  exits:
+    - roomId: "ofcol2:r668"
+      direction: north
+    - roomId: "ofcol2:r619"
+      direction: south
+    - roomId: "ofcol2:r620"
+      direction: east
+    - roomId: "ofcol2:r621"
+      direction: west
+- id: r619
+  title: "Chicken Coop"
+  description: >-
+    You are in the chicken coop.  The smell of chickens and chicken droppings
+    makes you gasp.  The exit is north.
+  exits:
+    - roomId: "ofcol2:r618"
+      direction: north
+  npcs:
+    - id: "ofcol2:m612"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "ofcol2:m612"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "ofcol2:m612"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "ofcol2:m612"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r620
+  title: "Barn"
+  description: >-
+    You are in a barn.  There are some cows here, munching on mounds of hay.
+    Milk is milked and bottled here.  You see the exit west.
+  exits:
+    - roomId: "ofcol2:r618"
+      direction: west
+  npcs:
+    - id: "ofcol2:m611"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "ofcol2:m614"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "ofcol2:m614"
+      respawnChance: 100
+      maxLoad: "3"
+  items:
+    - id: "ofcol2:o614"
+      respawnChance: 75
+    - id: "ofcol2:o611"
+      respawnChance: 75
+- id: r621
+  title: "Dirt Road"
+  description: >-
+    You are on a dirt road.  To the north and south, you see some grass 
+    fields.  There is a pigsty west, and the dirt road continues east.
+  exits:
+    - roomId: "ofcol2:r622"
+      direction: north
+    - roomId: "ofcol2:r623"
+      direction: south
+    - roomId: "ofcol2:r618"
+      direction: east
+    - roomId: "ofcol2:r624"
+      direction: west
+- id: r622
+  title: "Grass Field"
+  description: >-
+    You are in a grass field.  Fences block the way north, east, and west.
+    The dirt road is to the south.
+  exits:
+    - roomId: "ofcol2:r621"
+      direction: south
+  npcs:
+    - id: "ofcol2:m615"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "ofcol2:m615"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "ofcol2:m615"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "ofcol2:m615"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r623
+  title: "Grass Field"
+  description: >-
+    You are in a grass field.  Fences block the way south, east, and west.
+    The dirt road is to the north.
+  exits:
+    - roomId: "ofcol2:r621"
+      direction: north
+  npcs:
+    - id: "ofcol2:m613"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "ofcol2:m613"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "ofcol2:m613"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r624
+  title: "Pig Sty"
+  description: >-
+    For some reason, you are in a pig sty.  You wonder why you are standing in
+    muck.  To realize your senses and notice the dirt road is to the east.
+  exits:
+    - roomId: "ofcol2:r621"
+      direction: east
+  npcs:
+    - id: "ofcol2:m616"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "ofcol2:m616"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "ofcol2:m616"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "ofcol2:m616"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r625
+  title: "Impy Way"
+  description: >-
+    You are on Impy Way.  East and west of you are big houses.  Impy Way
+    continues north and reaches a big intersection south.  Children are running to
+    from home to home.
+  exits:
+    - roomId: "ofcol2:r632"
+      direction: north
+    - roomId: "ofcol2:r601"
+      direction: south
+    - roomId: "ofcol2:r626"
+      direction: east
+    - roomId: "ofcol2:r629"
+      direction: west
+- id: r626
+  title: "Big House"
+  description: >-
+    You are in a big house.  Evidently, the owners of this house are richer
+    than the average citizen, since there is more than one room to this house.  A
+    door leads to the kitchen east, and a bedroom is upstairs.  The exit is to the
+    west.
+  exits:
+    - roomId: "ofcol2:r628"
+      direction: east
+    - roomId: "ofcol2:r625"
+      direction: west
+    - roomId: "ofcol2:r627"
+      direction: up
+- id: r627
+  title: "Bedroom"
+  description: >-
+    You are in the bedroom.  There isn't much of interest except for a bed and
+    a closet.  The stairs lead back down.
+  exits:
+    - roomId: "ofcol2:r626"
+      direction: down
+  npcs:
+    - id: "ofcol2:m621"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r628
+  title: "Kitchen"
+  description: >-
+    You are in a kitchen.  There isn't much of interest here.  The main room
+    is west of here.
+  exits:
+    - roomId: "ofcol2:r626"
+      direction: west
+- id: r629
+  title: "Big House"
+  description: >-
+    You are in a big house.  Evidently, the owners of this house are richer
+    than the average citizen, since there is more than one room to this house.  A
+    door leads to the kitchen west, and a bedroom is upstairs.  The exit is to the
+    east.
+  exits:
+    - roomId: "ofcol2:r625"
+      direction: east
+    - roomId: "ofcol2:r631"
+      direction: west
+    - roomId: "ofcol2:r630"
+      direction: up
+  npcs:
+    - id: "ofcol2:m621"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r630
+  title: "Bedroom"
+  description: >-
+    You are in the bedroom.  There isn't much of interest except for a bed and
+    a closet.  The stairs lead back down.
+  exits:
+    - roomId: "ofcol2:r629"
+      direction: down
+- id: r631
+  title: "Kitchen"
+  description: >-
+    You are in a kitchen.  There isn't much of interest here.  The main room
+    is east of here.
+  exits:
+    - roomId: "ofcol2:r629"
+      direction: east
+- id: r632
+  title: "Impy Way"
+  description: >-
+    You are on Impy Way.  Houses are to the east and west of here.  Impy Way
+    continues north and south.  There are many people walking along the streets.
+  exits:
+    - roomId: "ofcol2:r637"
+      direction: north
+    - roomId: "ofcol2:r625"
+      direction: south
+    - roomId: "ofcol2:r633"
+      direction: east
+    - roomId: "ofcol2:r635"
+      direction: west
+- id: r633
+  title: "House"
+  description: >-
+    You are in a house.  The living room and kitchen are all bundled into
+    this room.  There is a bedroom south of here.  The exit is west.
+  exits:
+    - roomId: "ofcol2:r634"
+      direction: south
+    - roomId: "ofcol2:r632"
+      direction: west
+- id: r634
+  title: "Bedroom"
+  description: >-
+    You are in a bedroom.  There isn't much of interest here except for a bed
+    and a dresser.  The main room of the house is north of here.
+  exits:
+    - roomId: "ofcol2:r633"
+      direction: north
+- id: r635
+  title: "House"
+  description: >-
+    You are in a house.  The living room and kitchen are all bundled into
+    this room.  There is a bedroom south of here.  The exit is east.
+  exits:
+    - roomId: "ofcol2:r636"
+      direction: south
+    - roomId: "ofcol2:r632"
+      direction: east
+  npcs:
+    - id: "ofcol2:m620"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r636
+  title: "Bedroom"
+  description: >-
+    You are in a bedroom.  There isn't much of interest here except for a bed
+    and a dresser.  The main room of the house is north of here.
+  exits:
+    - roomId: "ofcol2:r635"
+      direction: north
+- id: r637
+  title: "Impy Way"
+  description: >-
+    You are on Impy Way.  Houses are to the east and west of here.  Impy Way
+    continues south.  To the north is a big intersection.  There are many people
+    walking along the streets.
+  exits:
+    - roomId: "ofcol2:r642"
+      direction: north
+    - roomId: "ofcol2:r632"
+      direction: south
+    - roomId: "ofcol2:r638"
+      direction: east
+    - roomId: "ofcol2:r640"
+      direction: west
+  npcs:
+    - id: "ofcol2:m600"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "ofcol2:m618"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r638
+  title: "House"
+  description: >-
+    You are in a house.  The living room and kitchen are all bundled into
+    this room.  There is a bedroom south of here.  The exit is west.
+  exits:
+    - roomId: "ofcol2:r639"
+      direction: south
+    - roomId: "ofcol2:r637"
+      direction: west
+- id: r639
+  title: "Bedroom"
+  description: >-
+    You are in a bedroom.  There isn't much of interest here except for a bed
+    and a dresser.  The main room of the house is north of here.
+  exits:
+    - roomId: "ofcol2:r638"
+      direction: north
+- id: r640
+  title: "House"
+  description: >-
+    You are in a house.  The living room and kitchen are all bundled into
+    this room.  There is a bedroom south of here.  The exit is east.
+  exits:
+    - roomId: "ofcol2:r641"
+      direction: south
+    - roomId: "ofcol2:r637"
+      direction: east
+- id: r641
+  title: "Bedroom"
+  description: >-
+    You are in a bedroom.  There isn't much of interest here except for a bed
+    and a dresser.  The main room of the house is north of here.
+  exits:
+    - roomId: "ofcol2:r640"
+      direction: north
+- id: r642
+  title: "The Big Intersection"
+  description: >-
+    You are on the intersection of Impy Way and Swiftest Way.  To the north of
+    you is a big house.  Swiftest Way runs east and west, and Impy way continues
+    south.  There are quite a few people on this intersection.
+  exits:
+    - roomId: "ofcol2:r643"
+      direction: north
+    - roomId: "ofcol2:r637"
+      direction: south
+    - roomId: "ofcol2:r646"
+      direction: east
+    - roomId: "ofcol2:r649"
+      direction: west
+  npcs:
+    - id: "ofcol2:m600"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r643
+  title: "Big House"
+  description: >-
+    You are in a big house.  Evidently, the owners of this house are richer
+    than the average citizen, since there is more than one room to this house.  A
+    door leads to the kitchen north, and a bedroom is upstairs.  The exit is to 
+    the south.
+  exits:
+    - roomId: "ofcol2:r645"
+      direction: north
+    - roomId: "ofcol2:r642"
+      direction: south
+    - roomId: "ofcol2:r644"
+      direction: up
+  npcs:
+    - id: "ofcol2:m621"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r644
+  title: "Bedroom"
+  description: >-
+    You are in the bedroom.  There isn't much of interest except for a bed 
+    and a closet.  The stairs lead back down.
+  exits:
+    - roomId: "ofcol2:r643"
+      direction: down
+- id: r645
+  title: "Kitchen"
+  description: >-
+    You are in a kitchen.  There isn't much of interest here.  The main room
+    is east of here.
+  exits:
+    - roomId: "ofcol2:r643"
+      direction: south
+- id: r646
+  title: "Swiftest Way"
+  description: >-
+    You are on Swiftest Way, the commoner's residential area.  Small houses
+    are north and south of you.  Swiftest Way continues east, and west is a big
+    intersection.
+  exits:
+    - roomId: "ofcol2:r652"
+      direction: north
+    - roomId: "ofcol2:r653"
+      direction: south
+    - roomId: "ofcol2:r647"
+      direction: east
+    - roomId: "ofcol2:r642"
+      direction: west
+- id: r647
+  title: "Swiftest Way"
+  description: >-
+    You are on Swiftest Way, the commoner's residential area.  Small houses
+    are north and south of you.  Swiftest Way continues east and west.
+  exits:
+    - roomId: "ofcol2:r654"
+      direction: north
+    - roomId: "ofcol2:r655"
+      direction: south
+    - roomId: "ofcol2:r648"
+      direction: east
+    - roomId: "ofcol2:r646"
+      direction: west
+  npcs:
+    - id: "ofcol2:m600"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r648
+  title: "End of Swiftest Way"
+  description: >-
+    You are on Swiftest Way, the commoner's residential area.  Small houses
+    are north, south, and east of you.  Swiftest Way continues west.
+  exits:
+    - roomId: "ofcol2:r656"
+      direction: north
+    - roomId: "ofcol2:r658"
+      direction: south
+    - roomId: "ofcol2:r657"
+      direction: east
+    - roomId: "ofcol2:r647"
+      direction: west
+  npcs:
+    - id: "ofcol2:m617"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r649
+  title: "Swiftest Way"
+  description: >-
+    You are on Swiftest Way, the commoner's residential area.  Small houses
+    are north and south of you.  Swiftest Way continues west, and to the east you
+    see a big intersection.
+  exits:
+    - roomId: "ofcol2:r659"
+      direction: north
+    - roomId: "ofcol2:r660"
+      direction: south
+    - roomId: "ofcol2:r642"
+      direction: east
+    - roomId: "ofcol2:r650"
+      direction: west
+- id: r650
+  title: "Swiftest Way"
+  description: >-
+    You are on Swiftest Way, the commoner's residential area.  Small houses
+    are north and south of you.  Swiftest Way continues east and west.
+  exits:
+    - roomId: "ofcol2:r661"
+      direction: north
+    - roomId: "ofcol2:r662"
+      direction: south
+    - roomId: "ofcol2:r649"
+      direction: east
+    - roomId: "ofcol2:r651"
+      direction: west
+  npcs:
+    - id: "ofcol2:m600"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "ofcol2:m617"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r651
+  title: "The end of Swiftest Way"
+  description: >-
+    You are on Swiftest Way, the commoner's residential area.  Small houses
+    are north, south, and west of you.  Swiftest Way continues east.
+  exits:
+    - roomId: "ofcol2:r663"
+      direction: north
+    - roomId: "ofcol2:r664"
+      direction: south
+    - roomId: "ofcol2:r650"
+      direction: east
+    - roomId: "ofcol2:r665"
+      direction: west
+- id: r652
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the south.
+  exits:
+    - roomId: "ofcol2:r646"
+      direction: south
+  npcs:
+    - id: "ofcol2:m620"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r653
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the north.
+  exits:
+    - roomId: "ofcol2:r646"
+      direction: north
+- id: r654
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the south.
+  exits:
+    - roomId: "ofcol2:r647"
+      direction: south
+- id: r655
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the north.
+  exits:
+    - roomId: "ofcol2:r647"
+      direction: north
+  npcs:
+    - id: "ofcol2:m619"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r656
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the south.
+  exits:
+    - roomId: "ofcol2:r648"
+      direction: south
+- id: r657
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the west.
+  exits:
+    - roomId: "ofcol2:r648"
+      direction: west
+- id: r658
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the north.
+  exits:
+    - roomId: "ofcol2:r648"
+      direction: north
+- id: r659
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the south.
+  exits:
+    - roomId: "ofcol2:r649"
+      direction: south
+- id: r660
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the north.
+  exits:
+    - roomId: "ofcol2:r649"
+      direction: north
+- id: r661
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the south.
+  exits:
+    - roomId: "ofcol2:r650"
+      direction: south
+  npcs:
+    - id: "ofcol2:m619"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r662
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the north.
+  exits:
+    - roomId: "ofcol2:r650"
+      direction: north
+- id: r663
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the south.
+  exits:
+    - roomId: "ofcol2:r651"
+      direction: south
+- id: r664
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the north.
+  exits:
+    - roomId: "ofcol2:r651"
+      direction: north
+- id: r665
+  title: "Small House"
+  description: >-
+    You are in a small house, owned by a commoner of Ofcol.  There isn't much
+    of value here to you, but you'd bet that the owner really cherishes the pile
+    of stuff here.  The exit is to the east.
+  exits:
+    - roomId: "ofcol2:r651"
+      direction: east
+- id: r666
+  title: "Raff Way"
+  description: >-
+    You are on Raff Way.  To the west, you can see a big intersection.  To 
+    the east, you see Raff Way continue toward the Golden Citadel.  There are 
+    beautiful flowers growing along the rode here, making this more of a garden
+    than a rode.
+  exits:
+    - roomId: "ofcol2:r667"
+      direction: east
+    - roomId: "ofcol2:r601"
+      direction: west
+  npcs:
+    - id: "ofcol2:m618"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r667
+  title: "Raff Way"
+  description: >-
+    You are on Raff Way.  Raff Way continues west to the city of Ofcol.  To 
+    the east, you see Raff Way continue toward the Golden Citadel.  There are 
+    beautiful flowers growing along the rode here, making this more of a garden
+    than a rode.
+  exits:
+    - roomId: "ofcol2:r699"
+      direction: east
+    - roomId: "ofcol2:r666"
+      direction: west
+  npcs:
+    - id: "ofcol2:m600"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r668
+  title: "Dirt Road"
+  description: >-
+    You are on a dirt road.  To the east is a large building with a bad smell
+    emanating from it.  To the west is the end of Impy Way, and this road continues
+    south.
+  exits:
+    - roomId: "ofcol2:r618"
+      direction: south
+    - roomId: "ofcol2:r617"
+      direction: east
+    - roomId: "ofcol2:r611"
+      direction: west
+- id: r669
+  title: "The Temple of Ofcol"
+  description: >-
+    You are in the Temple of Ofcol.  Golden tiles cover the floor, and solid
+    gold columns reach the twelve foot ceiling of this vast chamber.  Servants in
+    golden livery wander this place, making even the raggiest messenger boy look
+    richer than you are.  Exits lead to the anterooms in the cardinal directions.
+  exits:
+    - roomId: "ofcol2:r670"
+      direction: north
+    - roomId: "ofcol2:r673"
+      direction: south
+    - roomId: "ofcol2:r672"
+      direction: east
+    - roomId: "ofcol2:r671"
+      direction: west
+  npcs:
+    - id: "ofcol2:m602"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "ofcol2:m628"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r670
+  title: "The Anteroom to the Temple of Ofcol"
+  description: >-
+    You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
+    floor, and servants in golden livery pass you by peaceably.  The temple is to
+    the south, and to the north is a hallway.  A stairways leads up.
+  exits:
+    - roomId: "ofcol2:r675"
+      direction: north
+    - roomId: "ofcol2:r669"
+      direction: south
+    - roomId: "ofcol2:r686"
+      direction: up
+- id: r671
+  title: "The Anteroom to the Temple of Ofcol"
+  description: >-
+    You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
+    floor, and servants in golden livery pass you by peaceably.  The temple is to
+    the east, and to the west is a hallway.  A stairways leads up.
+  exits:
+    - roomId: "ofcol2:r669"
+      direction: east
+    - roomId: "ofcol2:r679"
+      direction: west
+    - roomId: "ofcol2:r687"
+      direction: up
+- id: r672
+  title: "The Anteroom to the Temple of Ofcol"
+  description: >-
+    You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
+    floor, and servants in golden livery pass you by peaceably.  The temple is to
+    the west, and to the east is a hallway.  A stairways leads up.
+  exits:
+    - roomId: "ofcol2:r680"
+      direction: east
+    - roomId: "ofcol2:r669"
+      direction: west
+    - roomId: "ofcol2:r689"
+      direction: up
+- id: r673
+  title: "The Anteroom to the Temple of Ofcol"
+  description: >-
+    You are in an anteroom to the Temple of Ofcol.  Gold tiles cover the
+    floor, and servants in golden livery pass you by peaceably.  The temple is to
+    the north, and to the south is a hallway.  A stairways leads up.
+  exits:
+    - roomId: "ofcol2:r669"
+      direction: north
+    - roomId: "ofcol2:r684"
+      direction: south
+    - roomId: "ofcol2:r690"
+      direction: up
+  npcs:
+    - id: "ofcol2:m625"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r674
+  title: "A Hallway of the Golden Citadel"
+  description: >-
+    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+    and rich golden tapestries drape the walls.  Servants in golden livery pass you
+    by peaceably.  Exits lead east and south.
+  exits:
+    - roomId: "ofcol2:r677"
+      direction: south
+    - roomId: "ofcol2:r675"
+      direction: east
+  npcs:
+    - id: "ofcol2:m625"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r675
+  title: "A Hallway of the Golden Citadel"
+  description: >-
+    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+    and rich golden tapestries drape the walls.  Servants in golden livery pass you
+    by peaceably.  Exits lead east, west, and south.
+  exits:
+    - roomId: "ofcol2:r670"
+      direction: south
+    - roomId: "ofcol2:r676"
+      direction: east
+    - roomId: "ofcol2:r674"
+      direction: west
+- id: r676
+  title: "A Hallway of the Golden Citadel"
+  description: >-
+    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+    and rich golden tapestries drape the walls.  Servants in golden livery pass you
+    by peaceably.  Exits lead west and south.
+  exits:
+    - roomId: "ofcol2:r678"
+      direction: south
+    - roomId: "ofcol2:r675"
+      direction: west
+  npcs:
+    - id: "ofcol2:m633"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r677
+  title: "A Hallway of the Golden Citadel"
+  description: >-
+    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+    and rich golden tapestries drape the walls.  Servants in golden livery pass you
+    by peaceably.  Exits lead north and south.
+  exits:
+    - roomId: "ofcol2:r674"
+      direction: north
+    - roomId: "ofcol2:r679"
+      direction: south
+- id: r678
+  title: "A Hallway of the Golden Citadel"
+  description: >-
+    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+    and rich golden tapestries drape the walls.  Servants in golden livery pass you
+    by peaceably.  Exits lead north and south.
+  exits:
+    - roomId: "ofcol2:r676"
+      direction: north
+    - roomId: "ofcol2:r680"
+      direction: south
+  npcs:
+    - id: "ofcol2:m627"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r679
+  title: "A Hallway of the Golden Citadel"
+  description: >-
+    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+    and rich golden tapestries drape the walls.  Servants in golden livery pass you
+    by peaceably.  Exits lead to the cardinal directions, with the east leading
+    toward the Temple of Ofcol, and west leading toward the City of Ofcol.
+  exits:
+    - roomId: "ofcol2:r677"
+      direction: north
+    - roomId: "ofcol2:r681"
+      direction: south
+    - roomId: "ofcol2:r671"
+      direction: east
+    - roomId: "ofcol2:r698"
+      direction: west
+- id: r680
+  title: "A Hallway of the Golden Citadel"
+  description: >-
+    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+    and rich golden tapestries drape the walls.  Servants in golden livery pass you
+    by peaceably.  Exits lead west, north and south.
+  exits:
+    - roomId: "ofcol2:r678"
+      direction: north
+    - roomId: "ofcol2:r682"
+      direction: south
+    - roomId: "ofcol2:r672"
+      direction: west
+- id: r681
+  title: "A Hallway of the Golden Citadel"
+  description: >-
+    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+    and rich golden tapestries drape the walls.  Servants in golden livery pass you
+    by peaceably.  Exits lead north and south.
+  exits:
+    - roomId: "ofcol2:r679"
+      direction: north
+    - roomId: "ofcol2:r683"
+      direction: south
+  npcs:
+    - id: "ofcol2:m633"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r682
+  title: "A Hallway of the Golden Citadel"
+  description: >-
+    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+    and rich golden tapestries drape the walls.  Servants in golden livery pass you
+    by peaceably.  Exits lead north and south.
+  exits:
+    - roomId: "ofcol2:r680"
+      direction: north
+    - roomId: "ofcol2:r685"
+      direction: south
+  npcs:
+    - id: "ofcol2:m626"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r683
+  title: "A Hallway of the Golden Citadel"
+  description: >-
+    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+    and rich golden tapestries drape the walls.  Servants in golden livery pass you
+    by peaceably.  Exits lead north and east.
+  exits:
+    - roomId: "ofcol2:r681"
+      direction: north
+    - roomId: "ofcol2:r684"
+      direction: east
+  npcs:
+    - id: "ofcol2:m626"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r684
+  title: "A Hallway of the Golden Citadel"
+  description: >-
+    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+    and rich golden tapestries drape the walls.  Servants in golden livery pass you
+    by peaceably.  Exits lead east, west, and north.
+  exits:
+    - roomId: "ofcol2:r673"
+      direction: north
+    - roomId: "ofcol2:r685"
+      direction: east
+    - roomId: "ofcol2:r683"
+      direction: west
+- id: r685
+  title: "A Hallway of the Golden Citadel"
+  description: >-
+    You are in a hallway of the Golden Citadel.  Gold tiles cover the floors,
+    and rich golden tapestries drape the walls.  Servants in golden livery pass you
+    by peaceably.  Exits lead west and north.
+  exits:
+    - roomId: "ofcol2:r682"
+      direction: north
+    - roomId: "ofcol2:r684"
+      direction: west
+- id: r686
+  title: "An Upper Chamber of the Golden Citadel"
+  description: >-
+    You are in one of the upper chambers of the Golden Citadel.  The decora-
+    tions of this place surpass even those of the first floor.  Gold tiles etched
+    with platinum cover the floor, walls and the ceiling.  The lights from numerous
+    torches reflect from these shimmering planes, giving the illusion that you are
+    standing in a gem.  Stairways lead up and down, and the hall leads south.
+  exits:
+    - roomId: "ofcol2:r688"
+      direction: south
+    - roomId: "ofcol2:r691"
+      direction: up
+    - roomId: "ofcol2:r670"
+      direction: down
+- id: r687
+  title: "An Upper Chamber of the Golden Citadel"
+  description: >-
+    You are in one of the upper chambers of the Golden Citadel.  The decora-
+    tions of this place surpass even those of the first floor.  Gold tiles etched
+    with platinum cover the floor, walls and the ceiling.  The lights from numerous
+    torches reflect from these shimmering planes, giving the illusion that you are
+    standing in a gem.  Stairways lead up and down, and the hall leads east.
+  exits:
+    - roomId: "ofcol2:r688"
+      direction: east
+    - roomId: "ofcol2:r692"
+      direction: up
+    - roomId: "ofcol2:r671"
+      direction: down
+- id: r688
+  title: "The Hall of the DragonLords"
+  description: >-
+    You are in a vast hall, filled with the commanders of the Golden Citadel.
+    Golden tiles etched with platinum cover the floors, and weapons of all types
+    are mounted on the walls of this meeting hall.  Surrounding a solid gold table
+    are four sons of the Keeper of the Golden Citadel.  They smile at you and ask 
+    you to join them in lunch.  Exits lead to the cardinal directions.
+  exits:
+    - roomId: "ofcol2:r686"
+      direction: north
+    - roomId: "ofcol2:r690"
+      direction: south
+    - roomId: "ofcol2:r689"
+      direction: east
+    - roomId: "ofcol2:r687"
+      direction: west
+  npcs:
+    - id: "ofcol2:m629"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "ofcol2:m630"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "ofcol2:m630"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "ofcol2:m630"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r689
+  title: "An Upper Chamber of the Golden Citadel"
+  description: >-
+    You are in one of the upper chambers of the Golden Citadel.  The decora-
+    tions of this place surpass even those of the first floor.  Gold tiles etched
+    with platinum cover the floor, walls and the ceiling.  The lights from numerous
+    torches reflect from these shimmering planes, giving the illusion that you are
+    standing in a gem.  Stairways lead up and down, and the hall leads west.
+  exits:
+    - roomId: "ofcol2:r688"
+      direction: west
+    - roomId: "ofcol2:r694"
+      direction: up
+    - roomId: "ofcol2:r672"
+      direction: down
+- id: r690
+  title: "An Upper Chamber of the Golden Citadel"
+  description: >-
+    You are in one of the upper chambers of the Golden Citadel.  The decora-
+    tions of this place surpass even those of the first floor.  Gold tiles etched
+    with platinum cover the floor, walls and the ceiling.  The lights from numerous
+    torches reflect from these shimmering planes, giving the illusion that you are
+    standing in a gem.  Stairways lead up and down, and the hall leads north.
+  exits:
+    - roomId: "ofcol2:r688"
+      direction: north
+    - roomId: "ofcol2:r695"
+      direction: up
+    - roomId: "ofcol2:r673"
+      direction: down
+  npcs:
+    - id: "ofcol2:m633"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r691
+  title: "A Top Chamber of the Golden Citadel"
+  description: >-
+    You are in one of the top chambers of the Golden Citadel.  The decorations
+    of this room looks like a dragon's hoard.  The whole room is carved out of pure
+    gold, and gems of all types glitter from the walls, ceiling, even the floor.
+    It is obvious that this room was not meant for you to intrude upon.  A stair-
+    case leads back down, and a doorway leads south.
+  exits:
+    - roomId: "ofcol2:r693"
+      direction: south
+    - roomId: "ofcol2:r686"
+      direction: down
+- id: r692
+  title: "A Top Chamber of the Golden Citadel"
+  description: >-
+    You are in one of the top chambers of the Golden Citadel.  The decorations
+    of this room looks like a dragon's hoard.  The whole room is carved out of pure
+    gold, and gems of all types glitter from the walls, ceiling, even the floor.
+    It is obvious that this room was not meant for you to intrude upon.  A stair-
+    case leads back down, and a doorway leads east.
+  exits:
+    - roomId: "ofcol2:r693"
+      direction: east
+    - roomId: "ofcol2:r687"
+      direction: down
+- id: r693
+  title: "The Dragon Chamber"
+  description: >-
+    You are in a vast chamber carved from gold and platinum.  Gems the size of
+    a man's fist protrude from the walls, ceiling, and the floor, making your step
+    painful.  A vast open sky-light lets fresh air come in from the top.  In the
+    center of this chamber, you see a great wealth of coins, and on top of that
+    pile of coins, you see a golden dragon squinting at you.  Exits lead to the
+    cardinal directions to the anterooms.
+  exits:
+    - roomId: "ofcol2:r691"
+      direction: north
+    - roomId: "ofcol2:r695"
+      direction: south
+    - roomId: "ofcol2:r694"
+      direction: east
+    - roomId: "ofcol2:r692"
+      direction: west
+    - roomId: "ofcol2:r696"
+      direction: up
+  npcs:
+    - id: "ofcol2:m631"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "ofcol2:m632"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "ofcol2:m632"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r694
+  title: "A Top Chamber of the Golden Citadel"
+  description: >-
+    You are in one of the top chambers of the Golden Citadel.  The decorations
+    of this room looks like a dragon's hoard.  The whole room is carved out of pure
+    gold, and gems of all types glitter from the walls, ceiling, even the floor.
+    It is obvious that this room was not meant for you to intrude upon.  A stair-
+    case leads back down, and a doorway leads west.
+  exits:
+    - roomId: "ofcol2:r693"
+      direction: west
+    - roomId: "ofcol2:r689"
+      direction: down
+- id: r695
+  title: "A Top Chamber of the Golden Citadel"
+  description: >-
+    You are in one of the top chambers of the Golden Citadel.  The decorations
+    of this room looks like a dragon's hoard.  The whole room is carved out of pure
+    gold, and gems of all types glitter from the walls, ceiling, even the floor.
+    It is obvious that this room was not meant for you to intrude upon.  A stair-
+    case leads back down, and a doorway leads north.
+  exits:
+    - roomId: "ofcol2:r695"
+      direction: east
+    - roomId: "ofcol2:r690"
+      direction: down
+- id: r696
+  title: "Above the Dragon Chamber"
+  description: >-
+    You are above the Dragon Chamber.  You curiously note that this shaft that
+    connects the chamber to the sky is wide enough that even a dragon can fit
+    through.  This shaft leads up and down.
+  exits:
+    - roomId: "ofcol2:r697"
+      direction: up
+    - roomId: "ofcol2:r693"
+      direction: down
+- id: r697
+  title: "In the Shaft from the Dragon Chamber"
+  description: >-
+    You are in the shaft leading from the Dragon Chamber.  Below you lies the
+    Dragon Chamber of the Golden Citadel.  Above you, you see the sky, but 
+    currently, the way out is sealed by a layer of diamond that looks impenetrable.
+  exits:
+    - roomId: "ofcol2:r696"
+      direction: down
+- id: r698
+  title: "Inside the Entrance to the Golden Citadel"
+  description: >-
+    You are inside the entrance to the Golden Citadel.  Rich golden tapestries
+    line the walls, and golden tiles cover the floors.  The exit to this citadel is
+    to the west, while the citadel itself is to the east.
+  exits:
+    - roomId: "ofcol2:r679"
+      direction: east
+    - roomId: "ofcol2:r699"
+      direction: west
+  npcs:
+    - id: "ofcol2:m634"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "ofcol2:m634"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "ofcol2:m634"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r699
+  title: "Outside the Entrance to the Golden Citadel"
+  description: >-
+    You are outside the entrance to the Golden Citadel.  A great gate is to
+    to the east, marking the entranceway into the citadel.  The road also leads
+    back west to Raff Way.
+  exits:
+    - roomId: "ofcol2:r698"
+      direction: east
+    - roomId: "ofcol2:r667"
+      direction: west
+  npcs:
+    - id: "ofcol2:m603"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "ofcol2:m623"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "ofcol2:m623"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "ofcol2:m623"
+      respawnChance: 100
+      maxLoad: "5"

@@ -1,0 +1,12 @@
+title: "Thalos"
+metadata:
+  id: 75
+  name: "Thalos"
+  createdBy: "anon"
+  starting_vnum: 5200
+  ending_vnum: 5299
+  item_requirements: 0
+  filename: "thalos.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,10 @@
+---
+body: |
+  Syntax: cast 'charm person' <victim>
+  
+  This spell, if successful, causes the victim to follow you and to take orders
+  from you. Use ORDER to order your charmed followers.
+  
+  You are responsible for the actions of your followers. Conversely, other
+  people who attack your followers will be penalized as if they attacked you.
+  

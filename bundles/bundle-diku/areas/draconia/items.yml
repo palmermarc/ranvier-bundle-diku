@@ -1,0 +1,272 @@
+- id: o2200
+  name: "spear jagged"
+  roomDesc: "A jagged spear has been left here."
+  keywords: ["spear","jagged"]
+  description: "A jagged spear has been left here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2201
+  name: "dagger silver"
+  roomDesc: "A silver dagger is lying here."
+  keywords: ["dagger","silver"]
+  description: "A silver dagger is lying here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2202
+  name: "knife tooth dragon"
+  roomDesc: "A dangerous looking knife made from a dragon's tooth has been left here."
+  keywords: ["knife","tooth","dragon"]
+  description: "A dangerous looking knife made from a dragon's tooth has been left here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2203
+  name: "bracer dragon strength"
+  roomDesc: "A mighty looking bracer lies on the ground."
+  keywords: ["bracer","dragon","strength"]
+  description: "A mighty looking bracer lies on the ground."
+  type: HEAVYARMOR
+- id: o2204
+  name: "dragon dragonskin girth"
+  roomDesc: "A thick girth made of dragonskin is hanging here."
+  keywords: ["dragon","dragonskin","girth"]
+  description: "A thick girth made of dragonskin is hanging here."
+  type: ACCESSORY
+- id: o2210
+  name: "belt silk white"
+  roomDesc: "A white belt made of the finest silk is hanging here."
+  keywords: ["belt","silk","white"]
+  description: "A white belt made of the finest silk is hanging here."
+  type: ACCESSORY
+- id: o2211
+  name: "bracelet platinum"
+  roomDesc: "A tarnished platinum bracelet has been dropped here."
+  keywords: ["bracelet","platinum"]
+  description: "A tarnished platinum bracelet has been dropped here."
+  type: LIGHTARMOR
+- id: o2220
+  name: "symbol holy"
+  roomDesc: "A golden holy symbol is here."
+  keywords: ["symbol","holy"]
+  description: "A golden holy symbol is here."
+  type: ACCESSORY
+- id: o2221
+  name: "robe black"
+  roomDesc: "A black robe is hanging on a hook on the wall."
+  keywords: ["robe","black"]
+  description: "A black robe is hanging on a hook on the wall."
+  type: LIGHTARMOR
+- id: o2222
+  name: "sword emerald"
+  roomDesc: "An emerald long sword is leaning against the wall."
+  keywords: ["sword","emerald"]
+  description: "An emerald long sword is leaning against the wall."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2223
+  name: "club stone"
+  roomDesc: "A heavy looking stone club is here."
+  keywords: ["club","stone"]
+  description: "A heavy looking stone club is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2224
+  name: "ring diamond"
+  roomDesc: "A diamond ring lies gleaming on the ground."
+  keywords: ["ring","diamond"]
+  description: "A diamond ring lies gleaming on the ground."
+  type: ACCESSORY
+- id: o2230
+  name: "ring copper"
+  roomDesc: "A copper ring is here."
+  keywords: ["ring","copper"]
+  description: "A copper ring is here."
+  type: ACCESSORY
+- id: o2231
+  name: "key steel"
+  roomDesc: "A steel key."
+  keywords: ["key","steel"]
+  description: "A steel key."
+  type: KEY
+- id: o2232
+  name: "key ruby"
+  roomDesc: "A ruby key."
+  keywords: ["key","ruby"]
+  description: "A ruby key."
+  type: KEY
+- id: o2233
+  name: "key white"
+  roomDesc: "A white key."
+  keywords: ["key","white"]
+  description: "A white key."
+  type: KEY
+- id: o2234
+  name: "key grey"
+  roomDesc: "A grey key is resting on the ground here."
+  keywords: ["key","grey"]
+  description: "A grey key is resting on the ground here."
+  type: KEY
+- id: o2237
+  name: "key stone"
+  roomDesc: "A stone key."
+  keywords: ["key","stone"]
+  description: "A stone key."
+  type: KEY
+- id: o2240
+  name: "key black"
+  roomDesc: "A black key."
+  keywords: ["key","black"]
+  description: "A black key."
+  type: KEY
+- id: o2241
+  name: "key platinum"
+  roomDesc: "A platinum key."
+  keywords: ["key","platinum"]
+  description: "A platinum key."
+  type: KEY
+- id: o2242
+  name: "shield crested"
+  roomDesc: "A large crested shield draws your attention."
+  keywords: ["shield","crested"]
+  description: "A large crested shield draws your attention."
+  type: SHIELD
+- id: o2243
+  name: "wand golden"
+  roomDesc: "A golden wand has been dropped here."
+  keywords: ["wand","golden"]
+  description: "A golden wand has been dropped here."
+  type: WAND
+- id: o2244
+  name: "staff silver"
+  roomDesc: "A silver staff."
+  keywords: ["staff","silver"]
+  description: "A silver staff."
+  type: STAFF
+- id: o2245
+  name: "staff dragon"
+  roomDesc: "A powerful oak staff has been left here."
+  keywords: ["staff","dragon"]
+  description: "A powerful oak staff has been left here."
+  type: STAFF
+- id: o2246
+  name: "mail scale"
+  roomDesc: "A set of scale mail has been abandoned here."
+  keywords: ["mail","scale"]
+  description: "A set of scale mail has been abandoned here."
+  type: HEAVYARMOR
+- id: o2250
+  name: "staff black"
+  roomDesc: "You notice the faint outline of a staff."
+  keywords: ["staff","black"]
+  description: "You notice the faint outline of a staff."
+  type: STAFF
+- id: o2251
+  name: "potion cyan"
+  roomDesc: "A small cyan potion has been left here."
+  keywords: ["potion","cyan"]
+  description: "A small cyan potion has been left here."
+  type: POTION
+- id: o2252
+  name: "potion magenta"
+  roomDesc: "A magenta potion."
+  keywords: ["potion","magenta"]
+  description: "A magenta potion."
+  type: POTION
+- id: o2254
+  name: "gauntlets spiked"
+  roomDesc: "A pair of spiked gauntlets."
+  keywords: ["gauntlets","spiked"]
+  description: "A pair of spiked gauntlets."
+  type: HEAVYARMOR
+- id: o2260
+  name: "scimitar golden"
+  roomDesc: "A golden scimitar."
+  keywords: ["scimitar","golden"]
+  description: "A golden scimitar."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2261
+  name: "brooch diamond"
+  roomDesc: "A diamond brooch."
+  keywords: ["brooch","diamond"]
+  description: "A diamond brooch."
+  type: ACCESSORY
+- id: o2270
+  name: "scroll"
+  roomDesc: "A runed scroll."
+  keywords: ["scroll"]
+  description: "A runed scroll."
+  type: SCROLL
+- id: o2271
+  name: "gloves dragon"
+  roomDesc: "A pair of dragon skin gloves are lying on the ground."
+  keywords: ["gloves","dragon"]
+  description: "A pair of dragon skin gloves are lying on the ground."
+  type: HEAVYARMOR
+- id: o2275
+  name: "helm dragon"
+  roomDesc: "A helm made of a dragon's skull is lying on the ground."
+  keywords: ["helm","dragon"]
+  description: "A helm made of a dragon's skull is lying on the ground."
+  type: HEAVYARMOR
+- id: o2276
+  name: "fur cloak"
+  roomDesc: "A large mound of fur is lying here."
+  keywords: ["fur","cloak"]
+  description: "A large mound of fur is lying here."
+  type: ACCESSORY
+- id: o2280
+  name: "leggings dragon scale"
+  roomDesc: "A pair of dragon scale leggings is lying on the ground."
+  keywords: ["leggings","dragon","scale"]
+  description: "A pair of dragon scale leggings is lying on the ground."
+  type: HEAVYARMOR
+- id: o2281
+  name: "sleeves dragon scale"
+  roomDesc: "A set of dragon scale sleeves is lying on the ground."
+  keywords: ["sleeves","dragon","scale"]
+  description: "A set of dragon scale sleeves is lying on the ground."
+  type: HEAVYARMOR
+- id: o2285
+  name: "whip dragon tail"
+  roomDesc: "A dragon tailed whip is lying on the ground."
+  keywords: ["whip","dragon","tail"]
+  description: "A dragon tailed whip is lying on the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2286
+  name: "hammer copper"
+  roomDesc: "A copper hammer is lying on the ground."
+  keywords: ["hammer","copper"]
+  description: "A copper hammer is lying on the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2299
+  name: "key gold tarnished"
+  roomDesc: "A tarnished gold key lies here."
+  keywords: ["key","gold","tarnished"]
+  description: "A tarnished gold key lies here."
+  type: KEY

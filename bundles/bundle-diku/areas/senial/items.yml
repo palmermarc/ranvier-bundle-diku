@@ -1,0 +1,126 @@
+- id: o32500
+  name: "ring newbie"
+  roomDesc: "A worn newbie ring lies here."
+  keywords: ["ring","newbie"]
+  description: "A worn newbie ring lies here."
+  type: ACCESSORY
+- id: o32501
+  name: "necklace lightning"
+  roomDesc: "A barely crackling lightning necklace lies here."
+  keywords: ["necklace","lightning"]
+  description: "A barely crackling lightning necklace lies here."
+  type: ACCESSORY
+- id: o32502
+  name: "chestplate newbie"
+  roomDesc: "A worn newbie chestplate lies here."
+  keywords: ["chestplate","newbie"]
+  description: "A worn newbie chestplate lies here."
+  type: HEAVYARMOR
+- id: o32503
+  name: "helmet newbie"
+  roomDesc: "A worn newbie helmet lies here."
+  keywords: ["helmet","newbie"]
+  description: "A worn newbie helmet lies here."
+  type: HEAVYARMOR
+- id: o32504
+  name: "leggings newbie"
+  roomDesc: "A tattered pair of newbie leggings lie here."
+  keywords: ["leggings","newbie"]
+  description: "A tattered pair of newbie leggings lie here."
+  type: HEAVYARMOR
+- id: o32505
+  name: "boots newbie"
+  roomDesc: "A tattered pair of newbie boots lie here."
+  keywords: ["boots","newbie"]
+  description: "A tattered pair of newbie boots lie here."
+  type: HEAVYARMOR
+- id: o32506
+  name: "gloves newbie"
+  roomDesc: "A tattered pair of newbie gloves lie here."
+  keywords: ["gloves","newbie"]
+  description: "A tattered pair of newbie gloves lie here."
+  type: HEAVYARMOR
+- id: o32507
+  name: "armguards newbie"
+  roomDesc: "A tattered pair of newbie armguards lie here."
+  keywords: ["armguards","newbie"]
+  description: "A tattered pair of newbie armguards lie here."
+  type: HEAVYARMOR
+- id: o32508
+  name: "cloak newbie"
+  roomDesc: "A tattered newbie cloak lies here."
+  keywords: ["cloak","newbie"]
+  description: "A tattered newbie cloak lies here."
+  type: ACCESSORY
+- id: o32509
+  name: "girth newbie"
+  roomDesc: "A tattered newbie girth lies here."
+  keywords: ["girth","newbie"]
+  description: "A tattered newbie girth lies here."
+  type: ACCESSORY
+- id: o32510
+  name: "flaming bracer"
+  roomDesc: "A dim flaming bracer lies here."
+  keywords: ["flaming","bracer"]
+  description: "A dim flaming bracer lies here."
+  type: MEDIUMARMOR
+- id: o32511
+  name: "newbie mask"
+  roomDesc: "A tattered newbie mask lies here."
+  keywords: ["newbie","mask"]
+  description: "A tattered newbie mask lies here."
+  type: LIGHTARMOR
+- id: o32512
+  name: "newbie bag"
+  roomDesc: "A newbie bag lies here."
+  keywords: ["newbie","bag"]
+  description: "A newbie bag lies here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o32513
+  name: "newbie light"
+  roomDesc: "A newbie light lies here."
+  keywords: ["newbie","light"]
+  description: "A newbie light lies here."
+  type: LIGHT
+- id: o32514
+  name: "sword newbie"
+  roomDesc: "A blunt newbie sword rests here."
+  keywords: ["sword","newbie"]
+  description: "A blunt newbie sword rests here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o32515
+  name: "icy bracer"
+  roomDesc: "A worm icy bracer lies here."
+  keywords: ["icy","bracer"]
+  description: "A worm icy bracer lies here."
+  type: MEDIUMARMOR
+- id: o32516
+  name: "necklace corrosion"
+  roomDesc: "A tattered necklace of corrosion lies here."
+  keywords: ["necklace","corrosion"]
+  description: "A tattered necklace of corrosion lies here."
+  type: ACCESSORY
+- id: o32517
+  name: "two handed sword newbie"
+  roomDesc: "A blunt newbie two-handed sword rests here."
+  keywords: ["two","handed","sword","newbie"]
+  description: "A blunt newbie two-handed sword rests here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o32518
+  name: "shield newbie"
+  roomDesc: "A worn newbie shield rests here."
+  keywords: ["shield","newbie"]
+  description: "A worn newbie shield rests here."
+  type: SHIELD

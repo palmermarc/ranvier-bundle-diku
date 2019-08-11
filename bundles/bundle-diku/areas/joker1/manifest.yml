@@ -1,0 +1,12 @@
+title: "Sea area"
+metadata:
+  id: 39
+  name: "Sea area"
+  createdBy: "joker"
+  starting_vnum: 24000
+  ending_vnum: 24249
+  item_requirements: 0
+  filename: "joker1.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

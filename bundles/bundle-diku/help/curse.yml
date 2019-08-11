@@ -1,0 +1,8 @@
+---
+body: |
+  Syntax: cast 'curse' <character>
+  
+  This spell reduces the character's to-hit roll by 1 and save versus spells
+  by 1. It also renders the character unclean in the eyes of God and
+  unable to RECALL.
+  

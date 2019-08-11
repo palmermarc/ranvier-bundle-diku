@@ -1,0 +1,64 @@
+- id: o100
+  name: "bunch berries smurfberries"
+  roomDesc: "A bunch of delicious looking smurfberries lie here."
+  keywords: ["bunch","berries","smurfberries"]
+  description: "A bunch of delicious looking smurfberries lie here."
+  type: PILL
+- id: o101
+  name: "glasses"
+  roomDesc: "An odd pair of glasses has been left here."
+  keywords: ["glasses"]
+  description: "An odd pair of glasses has been left here."
+  type: LIGHTARMOR
+- id: o102
+  name: "smurf hat"
+  roomDesc: "A smurf hat has been left here."
+  keywords: ["smurf","hat"]
+  description: "A smurf hat has been left here."
+  type: LIGHTARMOR
+- id: o103
+  name: "axe small"
+  roomDesc: "A small axe has been dropped here."
+  keywords: ["axe","small"]
+  description: "A small axe has been dropped here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o104
+  name: "necklace"
+  roomDesc: "A small necklace is lying on the ground."
+  keywords: ["necklace"]
+  description: "A small necklace is lying on the ground."
+  type: ACCESSORY
+- id: o105
+  name: "pink potion"
+  roomDesc: "A pink potion is barely visible on the ground."
+  keywords: ["pink","potion"]
+  description: "A pink potion is barely visible on the ground."
+  type: POTION
+- id: o106
+  name: "wand"
+  roomDesc: "A small wand lies on the ground."
+  keywords: ["wand"]
+  description: "A small wand lies on the ground."
+  type: WAND
+- id: o107
+  name: "key"
+  roomDesc: "A tiny key is lying on the ground."
+  keywords: ["key"]
+  description: "A tiny key is lying on the ground."
+  type: KEY
+- id: o108
+  name: "well"
+  roomDesc: "A small smurfy well is here."
+  keywords: ["well"]
+  description: "A small smurfy well is here."
+  type: FOUNTAIN
+- id: o109
+  name: "key"
+  roomDesc: "A key to Gargamel's door lies here."
+  keywords: ["key"]
+  description: "A key to Gargamel's door lies here."
+  type: KEY

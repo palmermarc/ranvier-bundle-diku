@@ -1,0 +1,17 @@
+---
+body: |
+  A player's HITROLL is the number that the mud uses to determine how likely 
+  it is that a player will hit a target. The higher the HITROLL, the more 
+  likely a player is to hit a target.
+  
+  A player's DAMROLL is the number the mud uses to determine how much damage 
+  a player will do when he hits a target.
+  
+  There are other factors involved, but a player's HITROLL and DAMROLL give a 
+  good indication of their relative power.
+  
+  The maximum HITROLL/DAMROLL on the mud is 250/230 (unspelled).
+  
+  - hit
+  - damroll
+  - dam

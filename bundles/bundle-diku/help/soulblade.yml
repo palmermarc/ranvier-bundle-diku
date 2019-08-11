@@ -1,0 +1,12 @@
+---
+body: |
+  Syntax: cast soul <weapon>
+  
+  This spell summons the casters personal (named) soul weapon, which is an 
+  extremely deadly weapon. The weapon is permanent.
+  
+  The types of weapons you can create are:
+  
+  knuckles, sword, pike, scimitar, whip, claw, blaster, mace, 
+  hammer, net, fang, dagger, vacuum
+  

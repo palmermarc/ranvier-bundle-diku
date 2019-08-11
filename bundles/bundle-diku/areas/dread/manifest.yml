@@ -1,0 +1,12 @@
+title: "The Realm of Dread"
+metadata:
+  id: 19
+  name: "The Realm of Dread"
+  createdBy: "mute"
+  starting_vnum: 550
+  ending_vnum: 599
+  item_requirements: 0
+  filename: "dread.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,1181 @@
+- id: r12600
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    You are standing in the entrance to the 
+    temple catacombs. 
+    Stone steps lead up into the light of Midgaard.
+  exits:
+    - roomId: "catacombs:r12615"
+      direction: east
+    - roomId: "catacombs:r12601"
+      direction: west
+    - roomId: "midgaard:r3001"
+      direction: up
+- id: r12601
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    These ancient stone passage ways are cool
+    and dark. Faint sounds from the city 
+    above drift down.
+  exits:
+    - roomId: "catacombs:r12602"
+      direction: south
+    - roomId: "catacombs:r12600"
+      direction: east
+- id: r12602
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    It is almost restful down here. Even if
+    a little damp. Worn steps descend deeper
+    into the darkness here.
+  exits:
+    - roomId: "catacombs:r12601"
+      direction: north
+    - roomId: "catacombs:r12603"
+      direction: down
+- id: r12603
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    Strange moss grows on the walls here.
+    Worn stairs lead upwards, 
+    or you can continue into the darkness.
+  exits:
+    - roomId: "catacombs:r12604"
+      direction: west
+    - roomId: "catacombs:r12602"
+      direction: up
+- id: r12604
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    Strange echoes carry to you here. Your
+    spine tingles suddenly as heavy webs
+    brush lightly over your skin.
+  exits:
+    - roomId: "catacombs:r12605"
+      direction: south
+    - roomId: "catacombs:r12603"
+      direction: east
+  npcs:
+    - id: "catacombs:m12601"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12601"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12601"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12601"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12601"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r12605
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    Ancient bronze plaques line the wall.
+    No longer golden yellow, but green with
+    verdi-gris.
+  exits:
+    - roomId: "catacombs:r12604"
+      direction: north
+    - roomId: "catacombs:r12606"
+      direction: south
+- id: r12606
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    Here and there in places, the ancient stones 
+    of this place are begining to crumble.
+  exits:
+    - roomId: "catacombs:r12605"
+      direction: north
+    - roomId: "catacombs:r12607"
+      direction: east
+- id: r12607
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    More plaques line the walls.
+  exits:
+    - roomId: "catacombs:r12608"
+      direction: east
+    - roomId: "catacombs:r12606"
+      direction: west
+- id: r12608
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    Light spills into the passageway from the room to north, it would appear the
+    local priest is entertaining the nuns again.
+  exits:
+    - roomId: "catacombs:r12616"
+      direction: north
+    - roomId: "catacombs:r12617"
+      direction: south
+    - roomId: "catacombs:r12609"
+      direction: east
+    - roomId: "catacombs:r12607"
+      direction: west
+- id: r12609
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    The passage way continues here.
+  exits:
+    - roomId: "catacombs:r12610"
+      direction: east
+    - roomId: "catacombs:r12608"
+      direction: west
+- id: r12610
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    More plaques line the walls, on them you
+    recognise the names of long dead Mayor's
+    and town officials.
+  exits:
+    - roomId: "catacombs:r12611"
+      direction: north
+    - roomId: "catacombs:r12609"
+      direction: west
+  npcs:
+    - id: "catacombs:m12600"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12600"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12600"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12600"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r12611
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    More plaques line the walls here.
+  exits:
+    - roomId: "catacombs:r12612"
+      direction: north
+    - roomId: "catacombs:r12610"
+      direction: south
+- id: r12612
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    The passage turns west here, more plaques line the walls.
+  exits:
+    - roomId: "catacombs:r12611"
+      direction: south
+    - roomId: "catacombs:r12613"
+      direction: west
+- id: r12613
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    Worn steps lead upwards vague echos filter down from the city above.
+  exits:
+    - roomId: "catacombs:r12612"
+      direction: east
+    - roomId: "catacombs:r12614"
+      direction: up
+- id: r12614
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    Ancient worn stone steps descend into
+    the darkness here, faint tracks lead
+    onwards through the dust.
+  exits:
+    - roomId: "catacombs:r12615"
+      direction: north
+    - roomId: "catacombs:r12613"
+      direction: down
+- id: r12615
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    The passage twists to the south here.
+    As you move futher from the entrance
+    the light dims, as darkness surrounds you.
+  exits:
+    - roomId: "catacombs:r12614"
+      direction: south
+    - roomId: "catacombs:r12600"
+      direction: west
+- id: r12616
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    A large stone slab is in the center of
+    the room, and on shelves around the
+    walls are urn's and jars of embalming
+    fliud.
+    The slab is not being used for its normal
+    purpose at the moment. You can see the mark of the clan Tzimisce etched into it.
+  exits:
+    - roomId: "catacombs:r12608"
+      direction: south
+  npcs:
+    - id: "catacombs:m12602"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "catacombs:m12603"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "catacombs:o12628"
+      respawnChance: 75
+- id: r12617
+  title: "Upper Level of the Temple Catacombs"
+  description: >-
+    Stone stairs lead downwards. The dust is
+    thick on the floor, and the tracks in them go only down.
+    None return.
+  exits:
+    - roomId: "catacombs:r12608"
+      direction: north
+    - roomId: "catacombs:r12618"
+      direction: down
+- id: r12618
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    Stone stairs lead upwards to safety.
+    You hear chanting echoing around these halls.
+  exits:
+    - roomId: "catacombs:r12619"
+      direction: south
+    - roomId: "catacombs:r12617"
+      direction: up
+- id: r12619
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    Ancient bronze plaques line the walls here.
+  exits:
+    - roomId: "catacombs:r12618"
+      direction: north
+    - roomId: "catacombs:r12638"
+      direction: east
+    - roomId: "catacombs:r12620"
+      direction: west
+- id: r12620
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    More plaques line the walls.
+  exits:
+    - roomId: "catacombs:r12619"
+      direction: east
+    - roomId: "catacombs:r12621"
+      direction: west
+- id: r12621
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    Some of these niches have been opened.
+    The bodies are gone !.
+    
+    Plaques lie scattered on the floor.
+  exits:
+    - roomId: "catacombs:r12620"
+      direction: east
+    - roomId: "catacombs:r12622"
+      direction: west
+  npcs:
+    - id: "catacombs:m12600"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12600"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12600"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12600"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12600"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r12622
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    The passage turns here. Again the corpses have been stolen.
+  exits:
+    - roomId: "catacombs:r12623"
+      direction: south
+    - roomId: "catacombs:r12621"
+      direction: east
+- id: r12623
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    Bones lie on the floor. Cracked open, the
+    marrow sucked out, and chewed white.
+  exits:
+    - roomId: "catacombs:r12622"
+      direction: north
+    - roomId: "catacombs:r12624"
+      direction: south
+- id: r12624
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    A choice in the path. The chanting seems nearer now.
+  exits:
+    - roomId: "catacombs:r12623"
+      direction: north
+    - roomId: "catacombs:r12625"
+      direction: south
+    - roomId: "catacombs:r12639"
+      direction: east
+  npcs:
+    - id: "catacombs:m12606"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12606"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12606"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12606"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12606"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12604"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12604"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12604"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12604"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12604"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12604"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12604"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12604"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12604"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12604"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "catacombs:m12604"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r12625
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    More niches have been raided here. Amid
+    the clutter of plaques and bones you see
+    a loaf of bread, only just starting to
+    turn green.
+    As you look at the floor more closely, 
+    you can see the traces of recently spilled blood.
+  exits:
+    - roomId: "catacombs:r12624"
+      direction: north
+    - roomId: "catacombs:r12626"
+      direction: south
+- id: r12626
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    The passage turns here, shuffles and
+    scraping noises echo around.
+  exits:
+    - roomId: "catacombs:r12625"
+      direction: north
+    - roomId: "catacombs:r12627"
+      direction: east
+- id: r12627
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    Amid the plaques are carvings in the stone walls.
+  exits:
+    - roomId: "catacombs:r12628"
+      direction: east
+    - roomId: "catacombs:r12626"
+      direction: west
+- id: r12628
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    More empty niches line the walls.
+    The carvings continue here depicting
+    more history of Midgaard.
+  exits:
+    - roomId: "catacombs:r12629"
+      direction: east
+    - roomId: "catacombs:r12627"
+      direction: west
+- id: r12629
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    For some strange reason there are no
+    plaques or niches on the south wall.
+  exits:
+    - roomId: "catacombs:r12630"
+      direction: east
+    - roomId: "catacombs:r12628"
+      direction: west
+  npcs:
+    - id: "catacombs:m12605"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12605"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12605"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12605"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12605"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12605"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12620"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12630
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    Faint brown marks stain the floor and walls here,
+    amid the stains are small
+    fragments of broken bone, something
+    truly horrible happened to someone here
+    once.
+  exits:
+    - roomId: "catacombs:r12631"
+      direction: east
+    - roomId: "catacombs:r12629"
+      direction: west
+- id: r12631
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    There are tracks in the dust. Booted feet
+    made them, and not too long ago.
+  exits:
+    - roomId: "catacombs:r12632"
+      direction: east
+    - roomId: "catacombs:r12630"
+      direction: west
+- id: r12632
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    The tracks end abruptly here, on the
+    walls and ceiling are bloodstains, still
+    sticky but cold. There is no blood on the
+    floor.
+  exits:
+    - roomId: "catacombs:r12633"
+      direction: north
+    - roomId: "catacombs:r12631"
+      direction: west
+- id: r12633
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    The passageway continues here, more
+    niches, more plaques, more dust, and
+    more bass-relief carvings.
+  exits:
+    - roomId: "catacombs:r12634"
+      direction: north
+    - roomId: "catacombs:r12632"
+      direction: south
+- id: r12634
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    You are sure youve been here before.
+    This junction looks so familiar.
+  exits:
+    - roomId: "catacombs:r12635"
+      direction: north
+    - roomId: "catacombs:r12633"
+      direction: south
+    - roomId: "catacombs:r12643"
+      direction: west
+  npcs:
+    - id: "catacombs:m12607"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r12635
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    The plaques on the wall here are so
+    ancient it is impossible to see the
+    names written on them.
+  exits:
+    - roomId: "catacombs:r12636"
+      direction: north
+    - roomId: "catacombs:r12634"
+      direction: south
+- id: r12636
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    The passage way bends here, many of the
+    niches in the walls have been disturbed.
+  exits:
+    - roomId: "catacombs:r12635"
+      direction: south
+    - roomId: "catacombs:r12637"
+      direction: west
+- id: r12637
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    Plaques line the walls, marking the
+    final resting places of ancient Hero's
+    and Gods of Midgaard. Thier body's sealed
+    away within the stones of the foundations
+    of the city above.
+  exits:
+    - roomId: "catacombs:r12636"
+      direction: east
+    - roomId: "catacombs:r12638"
+      direction: west
+  npcs:
+    - id: "catacombs:m12609"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "catacombs:o12622"
+      respawnChance: 75
+- id: r12638
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    Bronze plaques mark the niches of long
+    dead people who have been buried here.
+  exits:
+    - roomId: "catacombs:r12637"
+      direction: east
+    - roomId: "catacombs:r12619"
+      direction: west
+- id: r12639
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    You hear a strange chanting echoing
+    through these halls, it sounds most
+    omnious and evil.
+  exits:
+    - roomId: "catacombs:r12640"
+      direction: east
+    - roomId: "catacombs:r12624"
+      direction: west
+- id: r12640
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    The chanting is much nearer. Strange
+    shadows leap in your torchlight.
+  exits:
+    - roomId: "catacombs:r12641"
+      direction: east
+    - roomId: "catacombs:r12639"
+      direction: west
+- id: r12641
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    The walls here seem strange.
+  exits:
+    - roomId: "catacombs:r12644"
+      direction: north
+    - roomId: "catacombs:r12645"
+      direction: south
+    - roomId: "catacombs:r12642"
+      direction: east
+    - roomId: "catacombs:r12640"
+      direction: west
+  npcs:
+    - id: "catacombs:m12608"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "catacombs:o12632"
+      respawnChance: 75
+- id: r12642
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    All of the niches have been emptied
+    here, you wonder where there occupants
+    have gone.
+  exits:
+    - roomId: "catacombs:r12643"
+      direction: east
+    - roomId: "catacombs:r12641"
+      direction: west
+- id: r12643
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    All of the niches here are empty.
+    A few fragments of embalming cloth
+    lie on the floor, amidst scraps of
+    chewed bone.
+  exits:
+    - roomId: "catacombs:r12634"
+      direction: east
+    - roomId: "catacombs:r12642"
+      direction: west
+- id: r12644
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    Dark silent stairs descend downwards.
+  exits:
+    - roomId: "catacombs:r12641"
+      direction: south
+    - roomId: "catacombs:r12646"
+      direction: down
+- id: r12645
+  title: "Lower Level of the Temple Catacombs"
+  description: >-
+    Dark silent stairs descend downwards.
+  exits:
+    - roomId: "catacombs:r12641"
+      direction: north
+    - roomId: "catacombs:r12661"
+      direction: down
+- id: r12646
+  title: "Upper Halls of the Dead"
+  description: >-
+    Dark silent stairs ascend upwards.
+    Your breath fogs in the still chill
+    air.
+  exits:
+    - roomId: "catacombs:r12647"
+      direction: south
+    - roomId: "catacombs:r12644"
+      direction: up
+- id: r12647
+  title: "Upper Halls of the Dead"
+  description: >-
+    Silence.
+    Deep profound silence. Then suddenly
+    a distant drumming thumping sound
+    begins.
+    Shapes move through the shadows, as
+    your blood continues to throb through
+    you.
+  exits:
+    - roomId: "catacombs:r12646"
+      direction: north
+    - roomId: "catacombs:r12648"
+      direction: east
+    - roomId: "catacombs:r12660"
+      direction: west
+- id: r12648
+  title: "Upper Halls of the Dead"
+  description: >-
+    A faint scraping sound echoes through
+    these ancient halls.
+  exits:
+    - roomId: "catacombs:r12649"
+      direction: south
+    - roomId: "catacombs:r12647"
+      direction: west
+- id: r12649
+  title: "Upper Halls of the Dead"
+  description: >-
+    Strange lichens and mosses cling to the
+    walls and ceiling. A faint glow seems to
+    emanate from them.
+  exits:
+    - roomId: "catacombs:r12648"
+      direction: north
+    - roomId: "catacombs:r12650"
+      direction: south
+  items:
+    - id: "catacombs:o12623"
+      respawnChance: 75
+- id: r12650
+  title: "Upper Halls of the Dead"
+  description: >-
+    Stones ancient beyond reckoning line
+    these hallways. Symbols in a tongue
+    so old it has passed from knowledge
+    are barely legible.
+  exits:
+    - roomId: "catacombs:r12649"
+      direction: north
+    - roomId: "catacombs:r12651"
+      direction: south
+  npcs:
+    - id: "catacombs:m12611"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12611"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12611"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12611"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r12651
+  title: "Upper Halls of the Dead"
+  description: >-
+    Strange sounds echo eeriely around
+    these ancient hallways.
+  exits:
+    - roomId: "catacombs:r12650"
+      direction: north
+    - roomId: "catacombs:r12652"
+      direction: west
+  npcs:
+    - id: "catacombs:m12600"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r12652
+  title: "Upper Halls of the Dead"
+  description: >-
+    Soft moans echo through the still air.
+  exits:
+    - roomId: "catacombs:r12651"
+      direction: east
+    - roomId: "catacombs:r12653"
+      direction: west
+- id: r12653
+  title: "Upper Halls of the Dead"
+  description: >-
+    Carvings line the walls. The language
+    unreadable.
+  exits:
+    - roomId: "catacombs:r12652"
+      direction: east
+    - roomId: "catacombs:r12654"
+      direction: west
+  npcs:
+    - id: "catacombs:m12614"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r12654
+  title: "Upper Halls of the Dead"
+  description: >-
+    You stand in a hallway made from ancient
+    stone blocks, You havent even seen this
+    type of stone near midgaard.
+  exits:
+    - roomId: "catacombs:r12653"
+      direction: east
+    - roomId: "catacombs:r12655"
+      direction: west
+- id: r12655
+  title: "Upper Halls of the Dead"
+  description: >-
+    Silence.
+    Glowing moss.
+    
+    Clank..........
+  exits:
+    - roomId: "catacombs:r12656"
+      direction: north
+    - roomId: "catacombs:r12654"
+      direction: east
+- id: r12656
+  title: "Upper Halls of the Dead"
+  description: >-
+    Huge stone blocks line the walls.
+    Faded carvings and lines of small
+    pictures cover thier surfaces.
+  exits:
+    - roomId: "catacombs:r12657"
+      direction: north
+    - roomId: "catacombs:r12655"
+      direction: south
+- id: r12657
+  title: "Upper Halls of the Dead"
+  description: >-
+    Yellow moss clings to stone walls.
+    A soft eerie glow shines from somewhere
+    within its strands.
+  exits:
+    - roomId: "catacombs:r12656"
+      direction: south
+    - roomId: "catacombs:r12658"
+      direction: east
+- id: r12658
+  title: "Upper Halls of the Dead"
+  description: >-
+    A strane scraping noise echoes around
+    the passageway, you feel the sensation
+    of hidden movement.
+  exits:
+    - roomId: "catacombs:r12659"
+      direction: north
+    - roomId: "catacombs:r12657"
+      direction: west
+  npcs:
+    - id: "catacombs:m12610"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12659
+  title: "Upper Halls of the Dead"
+  description: >-
+    You are standing in a long silent
+    passage, huge stone blocks forming
+    the walls, floor and ceiling, strange
+    mosses and lichens hang like wispy
+    beards, a soft inner glow lighting up
+    thier trailing threads.
+  exits:
+    - roomId: "catacombs:r12658"
+      direction: south
+    - roomId: "catacombs:r12660"
+      direction: east
+- id: r12660
+  title: "Upper Halls of the Dead"
+  description: >-
+    Another long stone passageway. Faint
+    echoes carry on the still air.
+  exits:
+    - roomId: "catacombs:r12647"
+      direction: east
+    - roomId: "catacombs:r12659"
+      direction: west
+- id: r12661
+  title: "Lower Halls of the Dead"
+  description: >-
+    A dark silent stairwell ascends upwards.
+  exits:
+    - roomId: "catacombs:r12662"
+      direction: south
+    - roomId: "catacombs:r12674"
+      direction: east
+    - roomId: "catacombs:r12645"
+      direction: up
+- id: r12662
+  title: "Lower Halls of the Dead"
+  description: >-
+    You are standing in a long stone passage.
+    Thick dust lies over the floor, tracks..
+    Booted tracks.
+    Leading onwards, Old tracks.
+    They do not return.
+  exits:
+    - roomId: "catacombs:r12661"
+      direction: north
+    - roomId: "catacombs:r12663"
+      direction: south
+- id: r12663
+  title: "Lower Halls of the Dead"
+  description: >-
+    Small clouds of dust puff into the air,
+    as your footsteps obliterate the tracks
+    left behind long long ago.
+  exits:
+    - roomId: "catacombs:r12662"
+      direction: north
+    - roomId: "catacombs:r12664"
+      direction: south
+    - roomId: "catacombs:r12675"
+      direction: east
+  npcs:
+    - id: "catacombs:m12616"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12616"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12616"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r12664
+  title: "Lower Halls of the Dead"
+  description: >-
+    A slow, halting, shuffling echo carries
+    on the still air.
+  exits:
+    - roomId: "catacombs:r12663"
+      direction: north
+    - roomId: "catacombs:r12665"
+      direction: south
+- id: r12665
+  title: "Lower Halls of the Dead"
+  description: >-
+    Faint echoes disturb the silence. Strands
+    of hanging moss twitch in a faint breeze.
+  exits:
+    - roomId: "catacombs:r12664"
+      direction: north
+    - roomId: "catacombs:r12666"
+      direction: east
+- id: r12666
+  title: "Lower Halls of the Dead"
+  description: >-
+    You are standing in a long passage.
+    Strange coloured mosses hang from the
+    ceiling and cover the walls.
+    A thick layer of dust covers the floor.
+  exits:
+    - roomId: "catacombs:r12667"
+      direction: east
+    - roomId: "catacombs:r12665"
+      direction: west
+- id: r12667
+  title: "Lower Halls of the Dead"
+  description: >-
+    Cold dark stone surrounds you. Mosses
+    glow softly in your lightsource.
+  exits:
+    - roomId: "catacombs:r12668"
+      direction: east
+    - roomId: "catacombs:r12666"
+      direction: west
+  npcs:
+    - id: "catacombs:m12619"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12668
+  title: "Lower Halls of the Dead"
+  description: >-
+    There is hole in the wall here.
+    Small fragments of broken stone litter
+    the floor.
+  exits:
+    - roomId: "catacombs:r12669"
+      direction: north
+    - roomId: "catacombs:r12667"
+      direction: west
+- id: r12669
+  title: "Lower Halls of the Dead"
+  description: >-
+    Another niche has been broken open.
+    Only this one was breached from the
+    outside.
+  exits:
+    - roomId: "catacombs:r12670"
+      direction: north
+    - roomId: "catacombs:r12668"
+      direction: south
+- id: r12670
+  title: "Lower Halls of the Dead"
+  description: >-
+    You are standing in a long stone passage.
+    Ancient writing line the walls, and 
+    beards of moss and lichen hang from
+    the ceiling.
+  exits:
+    - roomId: "catacombs:r12671"
+      direction: north
+    - roomId: "catacombs:r12669"
+      direction: south
+    - roomId: "catacombs:r12676"
+      direction: west
+- id: r12671
+  title: "Lower Halls of the Dead"
+  description: >-
+    Again faint marks are imprinted in the
+    dust on the floor. Ancient tracks, thier
+    maker long since departed.
+  exits:
+    - roomId: "catacombs:r12672"
+      direction: north
+    - roomId: "catacombs:r12670"
+      direction: south
+  npcs:
+    - id: "catacombs:m12618"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12618"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "catacombs:m12618"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r12672
+  title: "Lower Halls of the Dead"
+  description: >-
+    The passage way turns here.
+    Many of the niches have been broken
+    into.
+    And out of.
+  exits:
+    - roomId: "catacombs:r12671"
+      direction: south
+    - roomId: "catacombs:r12673"
+      direction: west
+  npcs:
+    - id: "catacombs:m12600"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r12673
+  title: "Lower Halls of the Dead"
+  description: >-
+    There are faint marks on the walls.
+    Maybe the spell that was used to conceal
+    the final resting place of these people
+    was interupted.
+    Or failing with time.
+  exits:
+    - roomId: "catacombs:r12672"
+      direction: east
+    - roomId: "catacombs:r12674"
+      direction: west
+- id: r12674
+  title: "Lower Halls of the Dead"
+  description: >-
+    A niche has been broken open here.
+    Small pieces of rock litter the floor.
+    Strange pictures and scratches mark
+    the wall here.
+    It almost makes sense.
+  exits:
+    - roomId: "catacombs:r12673"
+      direction: east
+    - roomId: "catacombs:r12661"
+      direction: west
+- id: r12675
+  title: "Lower Halls of the Dead"
+  description: >-
+    Someone has broken into the niches here.
+    They are all empty, and pieces of rock
+    litter the floor.
+  exits:
+    - roomId: "catacombs:r12676"
+      direction: east
+    - roomId: "catacombs:r12663"
+      direction: west
+  npcs:
+    - id: "catacombs:m12615"
+      respawnChance: 100
+      maxLoad: "5"
+  items:
+    - id: "catacombs:o12624"
+      respawnChance: 75
+- id: r12676
+  title: "Lower Halls of the Dead"
+  description: >-
+    You are standing in a long stone passage.
+    An empty square cut niche lies set into
+    the wall, it seems never to have been
+    used.
+  exits:
+    - roomId: "catacombs:r12670"
+      direction: east
+    - roomId: "catacombs:r12675"
+      direction: west
+- id: r12677
+  title: "Entrance to the Tzimisce Clan Room."
+  description: >-
+    You are standing in a huge entranceway.  You see 
+    a stairwell leading up, and a hallway to the 
+    south.  The smell of rotting flesh fills your nose.
+  exits:
+    - roomId: "catacombs:r12678"
+      direction: south
+    - roomId: "catacombs:r12687"
+      direction: up
+- id: r12678
+  title: "A Damp Hallway."
+  description: >-
+    As you walk through the hallway a feeling 
+    of dread fills you. Sounds of metal on bone fill the air.
+  exits:
+    - roomId: "catacombs:r12677"
+      direction: north
+    - roomId: "catacombs:r12682"
+      direction: south
+    - roomId: "catacombs:r12679"
+      direction: east
+- id: r12679
+  title: "The Prep Room"
+  description: >-
+    You are standing in the middle of a room filled 
+    with multiple straps and beds. There are multiple 
+    sanitizers sitting on the shelves that adorn the walls.
+  exits:
+    - roomId: "catacombs:r12681"
+      direction: south
+    - roomId: "catacombs:r12678"
+      direction: west
+- id: r12680
+  title: "A Damp Hallway."
+  description: >-
+    As you walk through the hallway a feeling 
+    of dread fills you. Sounds of metal on bone fill the air.
+  exits:
+    - roomId: "catacombs:r12684"
+      direction: north
+    - roomId: "catacombs:r12682"
+      direction: east
+    - roomId: "catacombs:r12683"
+      direction: down
+- id: r12681
+  title: "A Damp Hallway."
+  description: >-
+    As you walk through the hallway a feeling 
+    of dread fills you. Sounds of metal on bone fill the air.
+  exits:
+    - roomId: "catacombs:r12679"
+      direction: north
+    - roomId: "catacombs:r12682"
+      direction: west
+- id: r12682
+  title: "A Damp Hallway."
+  description: >-
+    As you walk through the hallway a feeling 
+    of dread fills you. Sounds of metal on bone fill the air.
+  exits:
+    - roomId: "catacombs:r12678"
+      direction: north
+    - roomId: "catacombs:r12681"
+      direction: east
+    - roomId: "catacombs:r12680"
+      direction: west
+    - roomId: "catacombs:r12686"
+      direction: up
+- id: r12683
+  title: "A Damp Hallway."
+  description: >-
+    As you walk through the hallway a feeling 
+    of dread fills you. Sounds of metal on bone fill the air.
+  exits:
+    - roomId: "catacombs:r12680"
+      direction: up
+- id: r12684
+  title: "A Damp Hallway."
+  description: >-
+    As you walk through the hallway a feeling 
+    of dread fills you. Sounds of metal on bone fill the air.
+  exits:
+    - roomId: "catacombs:r12680"
+      direction: south
+    - roomId: "catacombs:r12685"
+      direction: down
+- id: r12685
+  title: "The Operating Room"
+  description: >-
+    In the middle of the room is a large table, 
+    it appears to be about the size of a human body. 
+    Tools line the walls, everything from scalpels to saws. 
+    There are random spots of blood all over the floor.
+  exits:
+    - roomId: "catacombs:r12684"
+      direction: up
+- id: r12686
+  title: "The Filing Room"
+  description: >-
+    In this room, there are mounds of documents 
+    waiting to be put into the cabinets. 
+    Upon closer inspection you can see that it is all medical documentation. 
+    Tzimisce use this room to track their experiments.
+  exits:
+    - roomId: "catacombs:r12682"
+      direction: down
+  items:
+    - id: "catacombs:o12633"
+      respawnChance: 75
+- id: r12687
+  title: "The Flesh Mound"
+  description: >-
+    You stand in the middle of a rather large room.  
+    The are bits of remains lying everywhere. 
+    You also notice that among the remains are 
+     random trinkets around the room.
+  exits:
+    - roomId: "catacombs:r12677"
+      direction: down

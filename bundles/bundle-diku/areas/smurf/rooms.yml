@@ -1,0 +1,431 @@
+- id: r101
+  title: "Dimly Lit Path"
+  description: >-
+    This path is made of crushed granite with curious blue streaks in it.
+    the path continues north to a village, or south to the west gate.
+  exits:
+    - roomId: "smurf:r102"
+      direction: north
+    - roomId: "midgaard:r3040"
+      direction: south
+  npcs:
+    - id: "smurf:m103"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r102
+  title: "Dimly Lit Path "
+  description: >-
+    This section of the road is badly worn and frequently traversed.  There is
+    faint singing to the north.  The road back to the forest lies to the south.
+  exits:
+    - roomId: "smurf:r103"
+      direction: north
+    - roomId: "smurf:r101"
+      direction: south
+- id: r103
+  title: "Dimly Lit Path"
+  description: >-
+    This section of the road is badly worn and frequently traversed.  Singing is
+    getting stronger to the north.  The road back to the forest lies to the south.
+  exits:
+    - roomId: "smurf:r104"
+      direction: north
+    - roomId: "smurf:r102"
+      direction: south
+- id: r104
+  title: "Entrance to Smurf Village"
+  description: >-
+    You stand at the entrance to a tiny village.  You can see across the whole
+    village easily.  Little blue creatures with white hats and boots and little 
+    fluffy tails scamper about.  They sing continuously.  The singing is getting
+    on your nerves and you have the urge to squash them.
+  exits:
+    - roomId: "smurf:r105"
+      direction: north
+    - roomId: "smurf:r103"
+      direction: south
+  npcs:
+    - id: "smurf:m101"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r105
+  title: "Smurfy Road"
+  description: >-
+    You are way too big to be using this road.  But who cares.  Who's gonna stop
+    you?  These little blue smurfs?  The singing is growing intense.  Your ears
+    are starting to ring.  Smurfy Road continues to the north, west, and east.
+    There is still time to turn back and go south.
+  exits:
+    - roomId: "smurf:r106"
+      direction: north
+    - roomId: "smurf:r104"
+      direction: south
+    - roomId: "smurf:r110"
+      direction: east
+    - roomId: "smurf:r111"
+      direction: west
+  npcs:
+    - id: "smurf:m101"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r106
+  title: "Smurfy Road"
+  description: >-
+    You continue to travel down Smurfy Road.  Isn't it just smurfy?  Smurfy road
+    continues its smurfy path to the smurfy north, smurfy west, and smurfy south.
+    A smurfy home lies to the smurfy east.
+  exits:
+    - roomId: "smurf:r107"
+      direction: north
+    - roomId: "smurf:r105"
+      direction: south
+    - roomId: "smurf:r120"
+      direction: east
+    - roomId: "smurf:r112"
+      direction: west
+- id: r107
+  title: "Smurfy Road"
+  description: >-
+    Oh boy, another smurfy road!  Smurfy Road goes north and south here.  There
+    is a smurfy, mushroom home to the west.  A beautiful smurfberry patch is to
+    the east.
+  exits:
+    - roomId: "smurf:r108"
+      direction: north
+    - roomId: "smurf:r106"
+      direction: south
+    - roomId: "smurf:r116"
+      direction: east
+    - roomId: "smurf:r129"
+      direction: west
+  npcs:
+    - id: "smurf:m101"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r108
+  title: "Smurfy Road"
+  description: >-
+    Smurfy Road continues to smurf here.  It smurfs to the south and smurfs to
+    an end to the north.  A smurfberry patch is to the east.  A stone path lies
+    to the west.
+  exits:
+    - roomId: "smurf:r109"
+      direction: north
+    - roomId: "smurf:r107"
+      direction: south
+    - roomId: "smurf:r117"
+      direction: east
+    - roomId: "smurf:r113"
+      direction: west
+  npcs:
+    - id: "smurf:m101"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r109
+  title: "Smurfy Road"
+  description: >-
+    A smurfy well lies here in the middle of Smurfy Road.  A fence separates
+    the smurfs from harm to the north.  A berry patch is to the east.  Smurfy
+    Road continues to to the south and west.
+  exits:
+    - roomId: "smurf:r108"
+      direction: south
+    - roomId: "smurf:r118"
+      direction: east
+    - roomId: "smurf:r114"
+      direction: west
+  npcs:
+    - id: "smurf:m101"
+      respawnChance: 100
+      maxLoad: "12"
+  items:
+    - id: "smurf:o108"
+      respawnChance: 75
+- id: r110
+  title: "Smurfy Road"
+  description: >-
+    A corner of smurfy road is where you stand.  A smurfy fence blocks passage
+    to the east or south.  A smurfy home is to the north.  Smurfy Road goes back
+    to the west.
+  exits:
+    - roomId: "smurf:r119"
+      direction: north
+    - roomId: "smurf:r105"
+      direction: west
+  npcs:
+    - id: "smurf:m101"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r111
+  title: "Smurfy Road"
+  description: >-
+    Western corner of Smurfy Road.  You can continue to smurf down the road
+    to the east and north.  You can also smurf into a smurfy home to the south.
+  exits:
+    - roomId: "smurf:r112"
+      direction: north
+    - roomId: "smurf:r121"
+      direction: south
+    - roomId: "smurf:r105"
+      direction: east
+  npcs:
+    - id: "smurf:m101"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r112
+  title: "Smurfy Road"
+  description: >-
+    There's no place like smurf.  There's no place like smurf.  Sorry wrong
+    movie.  A smurfy home is to the west.  Papa Smurf's backyard is to the
+    north but you can't go there.  Smurfy Road continues to the south and
+    east.
+  exits:
+    - roomId: "smurf:r111"
+      direction: south
+    - roomId: "smurf:r106"
+      direction: east
+    - roomId: "smurf:r122"
+      direction: west
+  npcs:
+    - id: "smurf:m101"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r113
+  title: "Stone Path"
+  description: >-
+    You are walking along a cute little stone path.  To the south lies Papa
+    Smurf's house.  A Smurfy house is to the west.  Smurfy road is to the east.
+    Everything is so peaceful here.  You could stay forever.
+  exits:
+    - roomId: "smurf:r125"
+      direction: south
+    - roomId: "smurf:r108"
+      direction: east
+    - roomId: "smurf:r123"
+      direction: west
+- id: r114
+  title: "Smurfy Road"
+  description: >-
+    Yet another part of Smurfy Road.  Hey if you go west its the last
+    section of Smurfy Road.  You can go back to the smurfy well to the east.
+  exits:
+    - roomId: "smurf:r109"
+      direction: east
+    - roomId: "smurf:r115"
+      direction: west
+- id: r115
+  title: "Smurfy Road"
+  description: >-
+    The last piece of Smurfy Road.  You can go back to Smurfy Road to the east.
+    A nice, beautiful, smurfy, mushroom home is to the south.  In the distance to
+    the north you can see Gargamel's Castle.
+  exits:
+    - roomId: "smurf:r126"
+      direction: north
+    - roomId: "smurf:r124"
+      direction: south
+    - roomId: "smurf:r114"
+      direction: east
+  npcs:
+    - id: "smurf:m102"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r116
+  title: "Smurfberry Patch"
+  description: >-
+    Delicious smurfberries grow here.  You could probably eat a year's worth of
+    smurfberries in one sitting.  Smurfy Road is back to the west.  Another
+    smurfberry patch is to the north.
+  exits:
+    - roomId: "smurf:r117"
+      direction: north
+    - roomId: "smurf:r107"
+      direction: west
+  npcs:
+    - id: "smurf:m102"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "smurf:m102"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r117
+  title: "Smurfberry Patch"
+  description: >-
+    Another patch of smurfberries is growing here.  The smell is driving your
+    nostrils crazy.  It almost, ALMOST, makes you forget all the singing going
+    on.  Smurfy Road is to the west, while smurfberry patches are to the north
+    and south.
+  exits:
+    - roomId: "smurf:r118"
+      direction: north
+    - roomId: "smurf:r116"
+      direction: south
+    - roomId: "smurf:r108"
+      direction: west
+  npcs:
+    - id: "smurf:m102"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r118
+  title: "Smurfberry Patch"
+  description: >-
+    The northernmost of the smurfberry patches grows here.  It looks just
+    as scrumptious as all the rest.  Just take a few; they'll never know.  Smurfy
+    Road is to the west.  A smurfberry patch is to the south.
+  exits:
+    - roomId: "smurf:r117"
+      direction: south
+    - roomId: "smurf:r109"
+      direction: west
+  npcs:
+    - id: "smurf:m102"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r119
+  title: "Insane Malkavian Smurf's Home"
+  description: >-
+    You rip the roof of the home to get a good look inside.  
+    Well, what did you expect, it's just one big padded cell.
+    Smurfy Road is back to the south.
+  exits:
+    - roomId: "smurf:r110"
+      direction: south
+  npcs:
+    - id: "smurf:m102"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "smurf:m103"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r120
+  title: "Vampire Handy Smurf's Home"
+  description: >-
+    This home was well built.  Of course, until you rip it apart you big meany
+    you.  Tools are all over the place.  Too small for you to use.  Smurfy Road is
+    back to the west.
+  exits:
+    - roomId: "smurf:r106"
+      direction: west
+  npcs:
+    - id: "smurf:m104"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r121
+  title: "Psycho Vampire Smurf's Home"
+  description: >-
+    Psycho is anything but wimpy.  So is his house.  It actually took you a 
+    couple of minutes to destroy his house.  Better watch out -- he might be
+    a little mad at you.  Smurfy Road is back to the north.
+  exits:
+    - roomId: "smurf:r111"
+      direction: north
+  npcs:
+    - id: "smurf:m106"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r122
+  title: "Vampire Sleepy Smurf's Home"
+  description: >-
+    Be vewy vewy quiet. Vampire Sleepy Smurf is probably sleeping.
+    You see so many beds you can't even tell if he is here.
+    Maybe you should quietly go back to Smurfy Road to the east.
+  exits:
+    - roomId: "smurf:r112"
+      direction: east
+  npcs:
+    - id: "smurf:m105"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r123
+  title: "Vampire Grumpy Smurf's Home"
+  description: >-
+    This is Vampire Grumpy Smurf's home.
+    He is pissed at you.  Of course, he is pissed at everyone.
+    So don't take it bad.  Maybe you'd better leave before he really
+    gets mad.  Smurfy Road to the east is your only salvation.
+  exits:
+    - roomId: "smurf:r113"
+      direction: east
+  npcs:
+    - id: "smurf:m107"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r124
+  title: "Vampire Jokey Smurf's Home"
+  description: >-
+    You pull the top of his house and it explodes in your face.
+    That Vampire Jokey Smurf, what a kidder.
+    You can hear his laughter as you wipe the ashes off
+    your face.  You better get even.  Smurfy Road is to the north.
+  exits:
+    - roomId: "smurf:r115"
+      direction: north
+  npcs:
+    - id: "smurf:m108"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r125
+  title: "Vampire Papa Smurf's Home"
+  description: >-
+    It's the home of the leader of the smurfs.  Vampire Papa Smurf has a
+    nicely decorated home.  He takes pride in his work.
+    You could get to know him or just squash him.
+    If Vampire Papa Smurf is not here he is probably at vampire Smurfette's
+    using his Dominate powers on her.  A stone path lies to the north.
+  exits:
+    - roomId: "smurf:r113"
+      direction: north
+  npcs:
+    - id: "smurf:m110"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r126
+  title: "Path to Gargamel's Castle"
+  description: >-
+    You are walking along a path to Gargamel's Castle to the North.
+    Smurfy Road lies to the south.
+  exits:
+    - roomId: "smurf:r127"
+      direction: north
+    - roomId: "smurf:r115"
+      direction: south
+- id: r127
+  title: "Outside Gargamel's Castle"
+  description: >-
+    You are standing outside Gargamel's Castle.  You can hear him screaming at
+    Azreal from inside.  You can also him cursing out those wretched smurfs.
+    His Castle is to the north while Smurfy Road is to the south.
+  exits:
+    - roomId: "smurf:r128"
+      direction: north
+    - roomId: "smurf:r126"
+      direction: south
+- id: r128
+  title: "Gargamel's Castle"
+  description: >-
+    This is Gargamel's Castle.  His big black kettle is in the middle of the room.
+    Where else would he put it?  The place has only one room.
+  exits:
+    - roomId: "smurf:r127"
+      direction: south
+  npcs:
+    - id: "smurf:m111"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "smurf:m112"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r129
+  title: "Vampire Smurfette's House"
+  description: >-
+    This house is conveniently next to Vampire Papa Smurfs.
+    Makes it easier for Vampire Papa Smurf to sneak over at night.
+    I hope he uses protection.  I would hate to have more little
+    vampire smurfs running around.  The only exit is to the east.
+  exits:
+    - roomId: "smurf:r107"
+      direction: east
+  npcs:
+    - id: "smurf:m109"
+      respawnChance: 100
+      maxLoad: "1"

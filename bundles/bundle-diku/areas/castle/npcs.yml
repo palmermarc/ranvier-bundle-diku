@@ -1,0 +1,823 @@
+- id: m24300
+  keywords: ["Castle","Fishmonger"]
+  name: "The Castle Fishmonger"
+  description: >-
+    A fishmonger is standing here looking after his stall.
+  level: 266
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24300": 75
+        "castle:o24301": 75
+        "castle:o24302": 75
+        "castle:o24303": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24300":
+          cost: 50
+          currency: gold
+        "castle:o24301":
+          cost: 50
+          currency: gold
+        "castle:o24302":
+          cost: 100
+          currency: gold
+        "castle:o24303":
+          cost: 20
+          currency: gold
+    areaId: 9
+    exp_level: 20000
+    sex: 1
+- id: m24301
+  keywords: ["Jokers","Castle","Guard"]
+  name: "The Joker's Castle Guard"
+  description: >-
+    One of the Joker's Castle Guards is here, keeping the peace.
+  level: 333
+  attributes:
+    health: 30000
+    armor: -1000
+    hitroll: 500
+    damroll: 500
+    alignment: 999
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 9
+    exp_level: 25001
+    sex: 1
+- id: m24302
+  keywords: ["small","child"]
+  name: "A small child"
+  description: >-
+    A small child is here playing with his teddy bear.
+  level: 133
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 9
+    exp_level: 10000
+    sex: 1
+- id: m24303
+  keywords: ["small","child"]
+  name: "A small child"
+  description: >-
+    A small girl is sitting here playing with her doll.
+  level: 133
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 9
+    exp_level: 10000
+    sex: 2
+- id: m24304
+  keywords: ["castle","weaponsmith"]
+  name: "The Castle Weaponsmith"
+  description: >-
+    The castle's best weaponsmith is here, polishing his large weapon.
+  level: 279
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 500
+    damroll: 2000
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24324": 75
+        "castle:o24325": 75
+        "castle:o24326": 75
+        "castle:o24327": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24324":
+          cost: 300
+          currency: gold
+        "castle:o24325":
+          cost: 10000
+          currency: gold
+        "castle:o24326":
+          cost: 1000000
+          currency: gold
+        "castle:o24327":
+          cost: 5000
+          currency: gold
+    areaId: 9
+    exp_level: 20999
+    sex: 1
+- id: m24305
+  keywords: ["castle","baker"]
+  name: "The Castle Baker"
+  description: >-
+    The castle's baker is here, and her buns look really nice!
+  level: 266
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 1005
+    damroll: 1005
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24352": 75
+        "castle:o24353": 75
+        "castle:o24354": 75
+        "castle:o24355": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24352":
+          cost: 10
+          currency: gold
+        "castle:o24353":
+          cost: 5
+          currency: gold
+        "castle:o24354":
+          cost: 15
+          currency: gold
+        "castle:o24355":
+          cost: 2
+          currency: gold
+    areaId: 9
+    exp_level: 20000
+    sex: 2
+- id: m24306
+  keywords: ["Castle","Cook"]
+  name: "The Castle Cook"
+  description: >-
+    A large cook stands here, rolling her dumplings.
+  level: 280
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 1005
+    damroll: 1005
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24304": 75
+        "castle:o24305": 75
+        "castle:o24306": 75
+        "castle:o24307": 75
+        "castle:o24308": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24304":
+          cost: 30
+          currency: gold
+        "castle:o24305":
+          cost: 25
+          currency: gold
+        "castle:o24306":
+          cost: 10
+          currency: gold
+        "castle:o24307":
+          cost: 160
+          currency: gold
+        "castle:o24308":
+          cost: 150
+          currency: gold
+    areaId: 9
+    exp_level: 21001
+    sex: 2
+- id: m24307
+  keywords: ["Castle","Armorer"]
+  name: "The Castle Armorer"
+  description: >-
+    The castle's armorer is here, and he's got an impressive helmet.
+  level: 280
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 1005
+    damroll: 1005
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24336": 75
+        "castle:o24337": 75
+        "castle:o24338": 75
+        "castle:o24339": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24336":
+          cost: 1000
+          currency: gold
+        "castle:o24337":
+          cost: 750
+          currency: gold
+        "castle:o24338":
+          cost: 800
+          currency: gold
+        "castle:o24339":
+          cost: 1000
+          currency: gold
+    areaId: 9
+    exp_level: 21001
+    sex: 1
+- id: m24308
+  keywords: ["castle","grocer"]
+  name: "The Castle Grocer"
+  description: >-
+    The castle's grocer is standing here rearranging his spuds.
+  level: 266
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 1005
+    damroll: 1005
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24332": 75
+        "castle:o24333": 75
+        "castle:o24334": 75
+        "castle:o24335": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24332":
+          cost: 20
+          currency: gold
+        "castle:o24333":
+          cost: 23
+          currency: gold
+        "castle:o24334":
+          cost: 30
+          currency: gold
+        "castle:o24335":
+          cost: 1
+          currency: gold
+    areaId: 9
+    exp_level: 20000
+    sex: 1
+- id: m24309
+  keywords: ["Jokers","Castle","Guard"]
+  name: "The Joker's Castle Guard"
+  description: >-
+    One of the Joker's Castle Guards is here, keeping the peace.
+  level: 333
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 1000
+    damroll: 1000
+    alignment: 999
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 9
+    exp_level: 25000
+    sex: 1
+- id: m24310
+  keywords: ["Jeweller"]
+  name: "The Castle Jeweller"
+  description: >-
+    The castle jeweller is standing here polishing his family jewels
+  level: 266
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 1005
+    damroll: 1005
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24328": 75
+        "castle:o24329": 75
+        "castle:o24330": 75
+        "castle:o24331": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24328":
+          cost: 20000
+          currency: gold
+        "castle:o24329":
+          cost: 20000
+          currency: gold
+        "castle:o24330":
+          cost: 25000
+          currency: gold
+        "castle:o24331":
+          cost: 50000
+          currency: gold
+    areaId: 9
+    exp_level: 20001
+    sex: 1
+- id: m24311
+  keywords: ["mapseller","mapmaker"]
+  name: "The Castle Mapmaker"
+  description: >-
+    The castle mapseller is standing here, doodling on scraps of paper.
+  level: 266
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 1005
+    damroll: 1005
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24356": 75
+        "castle:o24357": 75
+        "castle:o24358": 75
+        "castle:o24359": 75
+        "castle:o24360": 75
+        "castle:o24361": 75
+        "castle:o24362": 75
+        "castle:o24363": 75
+        "castle:o24364": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24356":
+          cost: 100
+          currency: gold
+        "castle:o24357":
+          cost: 100
+          currency: gold
+        "castle:o24358":
+          cost: 100
+          currency: gold
+        "castle:o24359":
+          cost: 100
+          currency: gold
+        "castle:o24360":
+          cost: 500
+          currency: gold
+        "castle:o24361":
+          cost: 500
+          currency: gold
+        "castle:o24362":
+          cost: 500
+          currency: gold
+        "castle:o24363":
+          cost: 500
+          currency: gold
+        "castle:o24364":
+          cost: 500
+          currency: gold
+    areaId: 9
+    exp_level: 19999
+    sex: 1
+- id: m24312
+  keywords: ["Magician"]
+  name: "The Castle Magician"
+  description: >-
+    The castle magician is here, and he's got crystal balls too!
+  level: 266
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 1005
+    damroll: 1005
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24319": 75
+        "castle:o24320": 75
+        "castle:o24321": 75
+        "castle:o24322": 75
+        "castle:o24323": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24319":
+          cost: 2000
+          currency: gold
+        "castle:o24320":
+          cost: 2000
+          currency: gold
+        "castle:o24321":
+          cost: 1500
+          currency: gold
+        "castle:o24322":
+          cost: 1500
+          currency: gold
+        "castle:o24323":
+          cost: 1750
+          currency: gold
+    areaId: 9
+    exp_level: 20000
+    sex: 1
+- id: m24313
+  keywords: ["Elixir","vendor"]
+  name: "The Castle Elixir Vendor"
+  description: >-
+    The castle elixir vendor is standing here, and he's got somthing nasty brewing.
+  level: 266
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 1005
+    damroll: 1005
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24313": 75
+        "castle:o24314": 75
+        "castle:o24315": 75
+        "castle:o24316": 75
+        "castle:o24317": 75
+        "castle:o24318": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24313":
+          cost: 1000000
+          currency: gold
+        "castle:o24314":
+          cost: 1000
+          currency: gold
+        "castle:o24315":
+          cost: 1000
+          currency: gold
+        "castle:o24316":
+          cost: 1000
+          currency: gold
+        "castle:o24317":
+          cost: 1000
+          currency: gold
+        "castle:o24318":
+          cost: 1000
+          currency: gold
+    areaId: 9
+    exp_level: 20001
+    sex: 1
+- id: m24314
+  keywords: ["castle","healer"]
+  name: "The Castle Healer"
+  description: >-
+    The castle healer is here, tending to the sick and needy.
+  level: 35
+  attributes:
+    health: 30000
+    armor: -1000
+    hitroll: 1700
+    damroll: 1700
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24348": 75
+        "castle:o24349": 75
+        "castle:o24350": 75
+        "castle:o24351": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24348":
+          cost: 200000
+          currency: gold
+        "castle:o24349":
+          cost: 200000
+          currency: gold
+        "castle:o24350":
+          cost: 160000
+          currency: gold
+        "castle:o24351":
+          cost: 170000
+          currency: gold
+    areaId: 9
+    exp_level: 19999
+    sex: 2
+- id: m24315
+  keywords: ["leather","worker"]
+  name: "The Castle Leather Worker"
+  description: >-
+    The castle leather worker is here. 
+  level: 266
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 1005
+    damroll: 1005
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24344": 75
+        "castle:o24345": 75
+        "castle:o24346": 75
+        "castle:o24347": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24344":
+          cost: 15
+          currency: gold
+        "castle:o24345":
+          cost: 200
+          currency: gold
+        "castle:o24346":
+          cost: 150
+          currency: gold
+        "castle:o24347":
+          cost: 75
+          currency: gold
+    areaId: 9
+    exp_level: 20000
+    sex: 1
+- id: m24316
+  keywords: ["brik","a","brak"]
+  name: "The Brik a Brak man"
+  description: >-
+    A rather suspisious looking person is here.
+  level: 266
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 1005
+    damroll: 1005
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24340": 75
+        "castle:o24341": 75
+        "castle:o24342": 75
+        "castle:o24343": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24340":
+          cost: 2000
+          currency: gold
+        "castle:o24341":
+          cost: 50
+          currency: gold
+        "castle:o24342":
+          cost: 20
+          currency: gold
+        "castle:o24343":
+          cost: 40
+          currency: gold
+    areaId: 9
+    exp_level: 20000
+    sex: 1
+- id: m24317
+  keywords: ["locksmith"]
+  name: "The Castle Locksmith"
+  description: >-
+    The castle locksmith is here, looking rather busy.
+  level: 286
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 1500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24309": 75
+        "castle:o24310": 75
+        "castle:o24000": 75
+        "castle:o24311": 75
+        "castle:o24312": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24309":
+          cost: 20000
+          currency: gold
+        "castle:o24310":
+          cost: 20000
+          currency: gold
+        "castle:o24000":
+          cost: 300000
+          currency: gold
+        "castle:o24311":
+          cost: 1000000
+          currency: gold
+        "castle:o24312":
+          cost: 20000
+          currency: gold
+    areaId: 9
+    exp_level: 21501
+    sex: 1
+- id: m24318
+  keywords: ["White","Knight"]
+  name: "The White Knight"
+  description: >-
+    The White Knight stands here, looking hard.
+  level: 326
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 500
+    damroll: 1500
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 9
+    exp_level: 24500
+    sex: 1
+- id: m24319
+  keywords: ["Black","Knight"]
+  name: "The Black Knight"
+  description: >-
+    The Black Knight is here looking macabre.
+  level: 326
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 1500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 9
+    exp_level: 24501
+    sex: 1
+- id: m24320
+  keywords: ["castle","barkeep"]
+  name: "The Castle Barkeep"
+  description: >-
+    The castle barkeep stands here, waiting to serve you.
+  level: 266
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 1005
+    damroll: 1005
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "castle:o24365": 75
+        "castle:o24366": 75
+        "castle:o24367": 75
+        "castle:o24368": 75
+  metadata:
+    vendor:
+      items:
+        "castle:o24365":
+          cost: 10
+          currency: gold
+        "castle:o24366":
+          cost: 45
+          currency: gold
+        "castle:o24367":
+          cost: 10
+          currency: gold
+        "castle:o24368":
+          cost: 75
+          currency: gold
+    areaId: 9
+    exp_level: 20000
+    sex: 1

@@ -1,0 +1,19 @@
+---
+body: |
+  Syntax: channels
+  Syntax: channels +<channel>
+  Syntax: channels -<channel>
+  
+  With no options, CHANNELS shows you your current channels. With a plus or
+  minus sign and an option, CHANNELS turns that channel on or off.
+  
+  You must be an avatar to use channels.
+  
+  Several players have mentioned a roleplay channel, and I think that 
+  vamptalk works well as a roleplay channel <unless you get staked>.
+  It is best to consider all public channels as potential roleplay
+  venues, including 'say.' However, it is safe to say that not all 'tells'
+  are 'in character.' Tells between Players and Admin should always be 
+  considered 'out of character.'
+  
+  

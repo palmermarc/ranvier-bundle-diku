@@ -1,0 +1,258 @@
+- id: o30000
+  name: "soul blade"
+  roomDesc: "A soul blade lies here."
+  keywords: ["soul","blade"]
+  description: "A soul blade lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o30001
+  name: "shimmering portal"
+  roomDesc: "A shimmering portal floats in the air."
+  keywords: ["shimmering","portal"]
+  description: "A shimmering portal floats in the air."
+  type: PORTAL
+- id: o30002
+  name: "egg"
+  roomDesc: "A small egg has been left here."
+  keywords: ["egg"]
+  description: "A small egg has been left here."
+  type: EGG
+- id: o30003
+  name: "egg shell"
+  roomDesc: "A broken egg shell is lying here."
+  keywords: ["egg","shell"]
+  description: "A broken egg shell is lying here."
+  type: TRASH
+- id: o30008
+  name: "egg"
+  roomDesc: "A large green egg lies here in a pool of goo."
+  keywords: ["egg"]
+  description: "A large green egg lies here in a pool of goo."
+  type: EGG
+- id: o30009
+  name: "egg"
+  roomDesc: "A small green egg lies crystalized on the floor."
+  keywords: ["egg"]
+  description: "A small green egg lies crystalized on the floor."
+  type: PILL
+- id: o30010
+  name: "voodoo doll"
+  roomDesc: "A voodoo doll lies here."
+  keywords: ["voodoo","doll"]
+  description: "A voodoo doll lies here."
+  type: VOODOO
+- id: o30011
+  name: "wooden stake"
+  roomDesc: "A wooden stake lies here."
+  keywords: ["wooden","stake"]
+  description: "A wooden stake lies here."
+  type: STAKE
+- id: o30015
+  name: "elevator door"
+  roomDesc: "A small door stands against the wall."
+  keywords: ["elevator","door"]
+  description: "A small door stands against the wall."
+  type: PORTAL
+- id: o30016
+  name: "elevator door"
+  roomDesc: "A small door stands against the wall."
+  keywords: ["elevator","door"]
+  description: "A small door stands against the wall."
+  type: PORTAL
+- id: o30017
+  name: "elevator door"
+  roomDesc: "A small door stands against the wall."
+  keywords: ["elevator","door"]
+  description: "A small door stands against the wall."
+  type: PORTAL
+- id: o30018
+  name: "elevator door"
+  roomDesc: "A small door stands against the wall."
+  keywords: ["elevator","door"]
+  description: "A small door stands against the wall."
+  type: PORTAL
+- id: o30019
+  name: "elevator door"
+  roomDesc: "A small door stands against the wall."
+  keywords: ["elevator","door"]
+  description: "A small door stands against the wall."
+  type: PORTAL
+- id: o30020
+  name: "blood fountain"
+  roomDesc: "A fountain of dark twisted metal spews blood around the room."
+  keywords: ["blood","fountain"]
+  description: "A fountain of dark twisted metal spews blood around the room."
+  type: FOUNTAIN
+- id: o30021
+  name: "crossbow"
+  roomDesc: "A heavy crossbow lies here."
+  keywords: ["crossbow"]
+  description: "A heavy crossbow lies here."
+  type: MISSILE
+- id: o30022
+  name: "crossbow bolt"
+  roomDesc: "A crossbow bolt lies here."
+  keywords: ["crossbow","bolt"]
+  description: "A crossbow bolt lies here."
+  type: AMMO
+- id: o30023
+  name: "revolver"
+  roomDesc: "A revolver lies here in the dirt."
+  keywords: ["revolver"]
+  description: "A revolver lies here in the dirt."
+  type: MISSILE
+- id: o30024
+  name: "bullet"
+  roomDesc: "A small bullet lies on the ground."
+  keywords: ["bullet"]
+  description: "A small bullet lies on the ground."
+  type: AMMO
+- id: o30037
+  name: "protoplasm plasm ball"
+  roomDesc: "A ball of protoplasm floats in the air."
+  keywords: ["protoplasm","plasm","ball"]
+  description: "A ball of protoplasm floats in the air."
+  type: TRASH
+- id: o30038
+  name: "sword blade darkblade deathkiss"
+  roomDesc: "A legendary DarkBlade hovers in the air."
+  keywords: ["sword","blade","darkblade","deathkiss"]
+  description: "A legendary DarkBlade hovers in the air."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o30039
+  name: "quest card"
+  roomDesc: "A small silvery card lies on the floor."
+  keywords: ["quest","card"]
+  description: "A small silvery card lies on the floor."
+  type: QUESTCARD
+- id: o30040
+  name: "quest machine"
+  roomDesc: "A small machine sits on the floor."
+  keywords: ["quest","machine"]
+  description: "A small machine sits on the floor."
+  type: QUESTMACHINE
+- id: o30041
+  name: "claymore"
+  roomDesc: "A huge sword sits on the floor."
+  keywords: ["claymore"]
+  description: "A huge sword sits on the floor."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o30042
+  name: "chokky1"
+  roomDesc: "A HUGE Lightning Rod has been left here."
+  keywords: ["chokky1"]
+  description: "A HUGE Lightning Rod has been left here."
+  type: MISSILE
+- id: o30043
+  name: "chokammo1"
+  roomDesc: "A Lightning Bolt Streaks Down From On High"
+  keywords: ["chokammo1"]
+  description: "A Lightning Bolt Streaks Down From On High"
+  type: AMMO
+- id: o30044
+  name: "cossieammo"
+  roomDesc: "The Flaming Hand Of God Descends And Crushes You !"
+  keywords: ["cossieammo"]
+  description: "The Flaming Hand Of God Descends And Crushes You !"
+  type: AMMO
+- id: o30045
+  name: "cossiegun"
+  roomDesc: "A HUGE flaming fist hovers here!"
+  keywords: ["cossiegun"]
+  description: "A HUGE flaming fist hovers here!"
+  type: MISSILE
+- id: o30047
+  name: "dragonquest666"
+  roomDesc: "A Black Dragonstone lies here gleaming."
+  keywords: ["dragonquest666"]
+  description: "A Black Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30048
+  name: "gold dragonstone"
+  roomDesc: "A Gold Dragonstone lies here gleaming."
+  keywords: ["gold","dragonstone"]
+  description: "A Gold Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30049
+  name: "silver dragonstone"
+  roomDesc: "A Silver Dragonstone lies here gleaming."
+  keywords: ["silver","dragonstone"]
+  description: "A Silver Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30050
+  name: "bronze dragonstone"
+  roomDesc: "A Bronze Dragonstone lies here gleaming."
+  keywords: ["bronze","dragonstone"]
+  description: "A Bronze Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30052
+  name: "brass dragonstone"
+  roomDesc: "A Brass Dragonstone lies here gleaming."
+  keywords: ["brass","dragonstone"]
+  description: "A Brass Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30053
+  name: "amethyst dragonstone"
+  roomDesc: "A Amethyst Dragonstone lies here gleaming."
+  keywords: ["amethyst","dragonstone"]
+  description: "A Amethyst Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30054
+  name: "sapphire dragonstone"
+  roomDesc: "A Sapphire Dragonstone lies here gleaming."
+  keywords: ["sapphire","dragonstone"]
+  description: "A Sapphire Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30055
+  name: "topaz dragonstone"
+  roomDesc: "A Topaz Dragonstone lies here gleaming."
+  keywords: ["topaz","dragonstone"]
+  description: "A Topaz Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30056
+  name: "crystal dragonstone"
+  roomDesc: "A Crystal Dragonstone lies here gleaming."
+  keywords: ["crystal","dragonstone"]
+  description: "A Crystal Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30057
+  name: "emerald dragonstone"
+  roomDesc: "A Emerald Dragonstone lies here gleaming."
+  keywords: ["emerald","dragonstone"]
+  description: "A Emerald Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30058
+  name: "quartz dragonstone"
+  roomDesc: "A Quartz Dragonstone lies here gleaming."
+  keywords: ["quartz","dragonstone"]
+  description: "A Quartz Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30059
+  name: "platinum dragonstone"
+  roomDesc: "A Platinum Dragonstone lies here gleaming."
+  keywords: ["platinum","dragonstone"]
+  description: "A Platinum Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30060
+  name: "ivory dragonstone"
+  roomDesc: "A Ivory Dragonstone lies here gleaming."
+  keywords: ["ivory","dragonstone"]
+  description: "A Ivory Dragonstone lies here gleaming."
+  type: FOOD
+- id: o30062
+  name: "pewter dragonstone"
+  roomDesc: "A Pewter Dragonstone lies here gleaming."
+  keywords: ["pewter","dragonstone"]
+  description: "A Pewter Dragonstone lies here gleaming."
+  type: FOOD

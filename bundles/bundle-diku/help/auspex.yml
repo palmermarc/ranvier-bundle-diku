@@ -1,0 +1,22 @@
+---
+body: |
+  Auspex is as much reflections of the Curse of Caine as the traditional banes, as it can lead to an obsession with minutiae and distraction from important matters from focusing on minor details. Also, higher mastery of the discipline can result in Cainites who are accustomed to using Auspex to read the minds of people in any situation and may suddenly find themselves unable to shut the mind-reading down. These vampires find themselves overwhelmed with "background noise" or, if only in the company of one or two people, answering unasked questions.
+  
+  #cHeightened Senses (Rank 1)
+  #eHeightened Senses allows the player a way to increase a single sense to superhuman powers.
+  * sight - truesight
+  * hearing - notify when someone enters your area
+  * touch - bonus hit/dam
+  * smell - Less hunt lag
+  
+  #cAura Perception (Rank 2)
+  #eBasic readaura ability to view the stats of players and NPcs
+  
+  #cPrediction (Rank 3)
+  #eGain increased dodge/parry against a specified target.
+  
+  #cClairvoyance (Rank 4)
+  #eSearch the world to find a Player or NPC character, and show their location if you can find them.
+  
+  #cSpirit Travel (Rank 5)
+  #eGrants access to the Spirit World. For Vampire Wars players, this is similar to the Shadow Plane.

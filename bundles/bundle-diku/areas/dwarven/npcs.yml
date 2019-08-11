@@ -1,0 +1,509 @@
+- id: m6500
+  keywords: ["dwarf","guard"]
+  name: "the dwarven guard"
+  description: >-
+    A dwarven guard is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "dwarven:o6504": 75
+        "dwarven:o6505": 75
+        "dwarven:o6502": 75
+        "dwarven:o6509": 75
+        "dwarven:o6510": 75
+        "dwarven:o6511": 75
+        "dwarven:o6512": 75
+        "dwarven:o6508": 75
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6501
+  keywords: ["dwarf","worker","miner"]
+  name: "the dwarven worker"
+  description: >-
+    A dwarven mining worker is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 900
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 3325
+          max: 3675
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6502
+  keywords: ["wraith"]
+  name: "the wraith"
+  description: >-
+    A wraith is awaiting your first move here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 47500
+          max: 52500
+      pools:
+        "dwarven:o6502": 75
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6503
+  keywords: ["storekeeper"]
+  name: "the storekeeper"
+  description: >-
+    There is the Hide & Tooth storekeeper standing here, waiting patiently.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 900
+  behaviors:
+    combat: false
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+  metadata:
+    vendor:
+      items:
+        "dwarven:o6504":
+          cost: 5500
+          currency: gold
+        "dwarven:o6505":
+          cost: 4500
+          currency: gold
+        "dwarven:o6510":
+          cost: 2500
+          currency: gold
+        "dwarven:o6511":
+          cost: 15000
+          currency: gold
+        "dwarven:o6512":
+          cost: 4000
+          currency: gold
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6504
+  keywords: ["baker"]
+  name: "the baker"
+  description: >-
+    Granite Head, the baker, is waiting for a customer here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "dwarven:o6504": 75
+        "dwarven:o3000": 75
+        "dwarven:o3003": 75
+        "dwarven:o3009": 75
+        "dwarven:o3031": 75
+        "dwarven:o6501": 75
+  metadata:
+    vendor:
+      items:
+        "dwarven:o6504":
+          cost: 5500
+          currency: gold
+        "dwarven:o3000":
+          cost: 300
+          currency: gold
+        "dwarven:o3003":
+          cost: 50
+          currency: gold
+        "dwarven:o3009":
+          cost: 100
+          currency: gold
+        "dwarven:o3031":
+          cost: 60
+          currency: gold
+        "dwarven:o6501":
+          cost: 2500000
+          currency: gold
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6505
+  keywords: ["lizard"]
+  name: "the giant lizard"
+  description: >-
+    A giant lizard is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1140
+          max: 1260
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6506
+  keywords: ["giant"]
+  name: "the giant"
+  description: >-
+    A giant is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6507
+  keywords: ["dwarf","miner"]
+  name: "the dwarven miner"
+  description: >-
+    A dwarven miner is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 38
+          max: 42
+      pools:
+        "dwarven:o6508": 75
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6508
+  keywords: ["dwarf","leader"]
+  name: "the dwarven mine leader"
+  description: >-
+    A dwarven mine leader is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 19000
+          max: 21000
+      pools:
+        "dwarven:o6512": 75
+        "dwarven:o6508": 75
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6509
+  keywords: ["dwarf","doctor"]
+  name: "the dwarven doctor"
+  description: >-
+    The dwarven doctor is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+      pools:
+        "dwarven:o6506": 75
+        "dwarven:o6519": 75
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6510
+  keywords: ["dwarf","peon"]
+  name: "the dwarven peon"
+  description: >-
+    A dwarven peon is awaiting help here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 71.25
+          max: 78.75
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6511
+  keywords: ["dwarf"]
+  name: "the dwarf"
+  description: >-
+    A grinning dwarf is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1187.5
+          max: 1312.5
+      pools:
+        "dwarven:o6504": 75
+        "dwarven:o6514": 75
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6512
+  keywords: ["dwarf","son"]
+  name: "the unwanted son"
+  description: >-
+    An unwanted son is here.  You feel sorry for the guy.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6513
+  keywords: ["dwarf","daughter"]
+  name: "the unwanted daughter"
+  description: >-
+    An unwanted daughter is here.  You feel sorry for her.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6514
+  keywords: ["dwarf","guard"]
+  name: "the barracks guard"
+  description: >-
+    A barrack guard is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 2850
+          max: 3150
+      pools:
+        "dwarven:o6509": 75
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6515
+  keywords: ["man"]
+  name: "the man in waiting"
+  description: >-
+    A man in waiting is here.  He looks nervous and unsure of himself.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 300
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 6620.55
+          max: 7317.45
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6516
+  keywords: ["mazekeeper"]
+  name: "the mazekeeper"
+  description: >-
+    A mazekeeper is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 76000
+          max: 84000
+      pools:
+        "dwarven:o6519": 75
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1
+- id: m6517
+  keywords: ["snake"]
+  name: "the giant snake"
+  description: >-
+    There is a giant snake here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 2850
+          max: 3150
+  metadata:
+    areaId: 22
+    exp_level: 2000
+    sex: 1

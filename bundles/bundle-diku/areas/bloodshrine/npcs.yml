@@ -1,0 +1,1068 @@
+- id: m12500
+  keywords: ["Ancient","Guard"]
+  name: "Ancient Guard"
+  description: >-
+    The guard awaits your approach and attacks at any moment.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12500": 75
+        "bloodshrine:o12524": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12501
+  keywords: ["Blood","Snake"]
+  name: "Blood Snake"
+  description: >-
+    The snake slithers and hides in the blood, waiting to attack you.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 0
+- id: m12502
+  keywords: ["Serpent","Vampire"]
+  name: "Serpent Vampire"
+  description: >-
+    The Serpent Vampire is sleeping in his coffin.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 0
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12501": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12503
+  keywords: ["insane","vampire"]
+  name: "an insane vampire"
+  description: >-
+    An insane vampire stands here ready to fight anyone.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 0
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12502": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12504
+  keywords: ["ancient","vampire","toreador","her"]
+  name: "an ancient Toreador vampire"
+  description: >-
+    She is here staring and laughing at you.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 0
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12503": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 2
+- id: m12505
+  keywords: ["cappadocian","guardian","vampire"]
+  name: "Cappadocian Guardian Vampire"
+  description: >-
+    The almighty brute of the Cappadocian stands here.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 0
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12506
+  keywords: ["Tremere","Guardian","Vampire"]
+  name: "Tremere Guardian Vampire"
+  description: >-
+    The Tremere Guardian Vampire stands here guarding his halls.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 0
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12505": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12507
+  keywords: ["Malkavian","Guardian","Vampire"]
+  name: "Malkavian Guardian Vampire"
+  description: >-
+    The vampire runs around looking for anything to kill.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 0
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12506": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12508
+  keywords: ["Death","Mage"]
+  name: "Death Mage"
+  description: >-
+    A Death mage stands here. He has no visible face to give you an expression.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 0
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12507": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12509
+  keywords: ["Brujah","Guardian","Vampire"]
+  name: "Brujah Guardian Vampire"
+  description: >-
+    The vampire stands here poised to attack anyone.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 0
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12508": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12510
+  keywords: ["Toreador","Guardian","Vampire"]
+  name: "Toreador Guardian Vampire"
+  description: >-
+    The Toreador Vampire beams a smile at you while carving a wooden figure.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 0
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12509": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12511
+  keywords: ["Gangrel","Guardian","Vampire"]
+  name: "Gangrel Guardian Vampire"
+  description: >-
+    The vampire stands here picking his teeth with his harpoon.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12510": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12512
+  keywords: ["Toreador","Vampire","him"]
+  name: "Toreador Vampire"
+  description: >-
+    He stands here ready to plunge you to death!
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12511": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12513
+  keywords: ["Tremere","Vampire"]
+  name: "Tremere Vampire"
+  description: >-
+    The powerhouse vampire stands here.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 0
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12512": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12514
+  keywords: ["Cappadocian","Vampire"]
+  name: "Cappadocian Vampire"
+  description: >-
+    The vampire stands deadly silent.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12513": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 2
+- id: m12515
+  keywords: ["Nosferatu","Guardian","Vampire"]
+  name: "Nosferatu Guardian Vampire"
+  description: >-
+    The Nosferatu Guardian Vampire stands here in complete training.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12514": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12516
+  keywords: ["Cappadocian","Vampire"]
+  name: "Cappadocian Vampire"
+  description: >-
+    The vampire sits poised ready to attack at any moment!
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 0
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12515": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 2
+- id: m12517
+  keywords: ["Cappadocian","Vampire"]
+  name: "Cappadocian Vampire"
+  description: >-
+    The Cappdocian Vampire, leader of the Black Hand, stands here.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12516": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12518
+  keywords: ["Cappadocian","Grand","Master","Vampire"]
+  name: "Cappadocian Grand Master Vampire"
+  description: >-
+    The Grand Master stares at you with dark cold black eyes.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12517": 75
+        "bloodshrine:o12524": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12519
+  keywords: ["Tremere","Vampire"]
+  name: "Tremere Vampire"
+  description: >-
+    The Tremere Vampire sits upon his chair mixing magical potions.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12518": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12520
+  keywords: ["Tremere","Vampire"]
+  name: "Tremere Vampire"
+  description: >-
+    The vampire stands here with a magical wand.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12519": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12521
+  keywords: ["Tremere","Grand","Master","Vampire"]
+  name: "Tremere Grand Master Vampire"
+  description: >-
+    The Tremere Grand Master Vampire sits upon his thrown.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12520": 75
+        "bloodshrine:o12524": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12522
+  keywords: ["Lone","Wolf","beast","werewolf","man"]
+  name: "Lone Wolf"
+  description: >-
+    You stand before a huge beast, half man and half werewolf!
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12521": 75
+        "bloodshrine:o12524": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12523
+  keywords: ["Shrine","Gargoyle"]
+  name: "Shrine Gargoyle"
+  description: >-
+    The gargoyle is perched above the door, completely stone.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12522": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12524
+  keywords: ["LaMagra"]
+  name: "LaMagra"
+  description: >-
+    LaMagra, the old ancient blood god rests here.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12523": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12525
+  keywords: ["Malkavian","Vampire"]
+  name: "Malkavian Vampire"
+  description: >-
+    The Malkavian Vampire runs around all crazy like!
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -999
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12526
+  keywords: ["Malkavian","Grand","Master","Vampire"]
+  name: "Malkavian Grand Master Vampire"
+  description: >-
+    The Malkavian Grand Master Vampire sits upon his throne.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12524": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12527
+  keywords: ["Nosferatu","Vampire"]
+  name: "Nosferatu Vampire"
+  description: >-
+    The Nosferatu Vampire hides from you as he awaits your attack!
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12528
+  keywords: ["Nosferatu","Grand","Master","Vampire"]
+  name: "Nosferatu Grand Master Vampire"
+  description: >-
+    The Nosferatu Grand Master Vampire hides behind his great throne.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12524": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12529
+  keywords: ["Toreador","Grand","Master","Vampire"]
+  name: "Toreador Grand Master Vampire"
+  description: >-
+    The great Toreador Grand Master Vampire sits before you.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12524": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 2
+- id: m12530
+  keywords: ["Brujah","Vampire"]
+  name: "Brujah Vampire"
+  description: >-
+    The Brujah Vampire stands here ready to attack you on sight!
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12531
+  keywords: ["Brujah","Grand","Master","Vampire"]
+  name: "Brujah Grand Master Vampire"
+  description: >-
+    The Brujah Grand Master Vampire sits upon his throne.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12524": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12532
+  keywords: ["Gangrel","Vampire"]
+  name: "Gangrel Vampire"
+  description: >-
+    The Gangrel Vampire wanders around looking for something to slay!
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12533
+  keywords: ["Gangrel","Grand","Master","Vampire"]
+  name: "Gangrel Grand Master Vampire"
+  description: >-
+    The Gangrel Grand Master Vampire sits upon his throne.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12524": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12534
+  keywords: ["Ventrue","Vampire"]
+  name: "Ventrue Vampire"
+  description: >-
+    The Ventrue vampire looks for something to kill.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1
+- id: m12535
+  keywords: ["Ventrue","Grand","Master","Vampire"]
+  name: "Ventrue Grand Master Vampire"
+  description: >-
+    The Ventrue Grand Master Vampire sits on his throne.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "bloodshrine:o12524": 75
+  metadata:
+    areaId: 6
+    exp_level: 24000
+    sex: 1

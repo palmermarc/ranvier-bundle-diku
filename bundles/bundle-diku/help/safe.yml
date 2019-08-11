@@ -1,0 +1,7 @@
+---
+body: |
+  This command allows a player to determine if he or she is in a 'safe' room.
+  Players are protected from being attacked in safe rooms, but may be commanded
+  or summoned from them. It also tells a vampire if he or she is safe from 
+  the sun.
+  

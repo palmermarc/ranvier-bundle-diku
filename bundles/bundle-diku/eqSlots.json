@@ -1,0 +1,72 @@
+[
+    {
+        "name": "head",
+        "display" : "Helmet",
+        "type" : "HELMET"
+    },
+    {
+        "name": "shoulders",
+        "display" : "Shoulders",
+        "type" : "SHOULDERS"
+    },
+    {
+        "name": "neck",
+        "display" : "Neckace",
+        "type" : "NECKLACE"
+    },
+    {
+        "name": "chest",
+        "display" : "Chest",
+        "type" : "CHEST"
+    },
+    {
+        "name": "back",
+        "display" : "Back",
+        "type" : "BACK"
+    },
+    {
+        "name": "wrists",
+        "display" : "Wrists",
+        "type" : "BRACERS"
+    },
+    {
+        "name": "gloves",
+        "display" : "Gloves",
+        "type" : "GLOVES"
+    },
+    {
+        "name": "belt",
+        "display" : "Belt",
+        "type" : "BELT"
+    },
+    {
+        "name": "pants",
+        "display" : "Pants",
+        "type" : "PANTS"
+    },
+    {
+        "name": "boots",
+        "display" : "Boots",
+        "type" : "BOOTS"
+    },
+    {
+        "name": "ring1",
+        "display" : "On Finger",
+        "type" : "RING"
+    },
+    {
+        "name": "ring2",
+        "display" : "On Finger",
+        "type" : "RING"
+    },
+    {
+        "name": "lhand",
+        "display" : "Left Hand",
+        "type" : "WEAPON"
+    },
+    {
+        "name": "rhand",
+        "display" : "Right Hand",
+        "type" : "WEAPON"
+    }
+]

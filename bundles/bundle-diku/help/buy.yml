@@ -1,0 +1,21 @@
+---
+body: |
+  Syntax: buy <object>
+  Syntax: list
+  Syntax: list <object>
+  Syntax: sell <object>
+  Syntax: value <object>
+  
+  BUY buys an object from a shop keeper.
+  
+  LIST lists the objects the shop keeper will sell you. LIST <object> lists
+  just the objects with that name.
+  
+  SELL sells an object to a shop keeper.
+  
+  VALUE asks the shop keeper how much he, she, or it will buy the item for.
+  
+  You cannot trade with a shopkeeper if you are invisible or hidden.
+  - list
+  - sell
+  - value

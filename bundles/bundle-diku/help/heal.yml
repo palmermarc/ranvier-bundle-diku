@@ -1,0 +1,9 @@
+---
+body: |
+  Syntax: cast 'cure light' <character>
+  Syntax: cast 'cure serious' <character>
+  Syntax: cast 'cure critical' <character>
+  Syntax: cast 'heal' <character>
+  
+  These spells cure damage on the target character.
+  

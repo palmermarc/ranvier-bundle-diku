@@ -1,0 +1,118 @@
+- id: o6501
+  name: "dragonquest666"
+  roomDesc: "A Red Dragonstone lies here gleaming."
+  keywords: ["dragonquest666"]
+  description: "A Red Dragonstone lies here gleaming."
+  type: FOOD
+- id: o6502
+  name: "key green"
+  roomDesc: "A deep green key is on the floor."
+  keywords: ["key","green"]
+  description: "A deep green key is on the floor."
+  type: KEY
+- id: o6504
+  name: "dwarven hammer"
+  roomDesc: "There is a dwarven hammer laying here."
+  keywords: ["dwarven","hammer"]
+  description: "There is a dwarven hammer laying here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o6505
+  name: "dwarven plate"
+  roomDesc: "There is dwarven plate mail laying here."
+  keywords: ["dwarven","plate"]
+  description: "There is dwarven plate mail laying here."
+  type: HEAVYARMOR
+- id: o6506
+  name: "stick"
+  roomDesc: "There is a long, black stick lying here."
+  keywords: ["stick"]
+  description: "There is a long, black stick lying here."
+  type: STAFF
+- id: o6507
+  name: "stick"
+  roomDesc: "There is a long, black stick here."
+  keywords: ["stick"]
+  description: "There is a long, black stick here."
+  type: STAFF
+- id: o6508
+  name: "club"
+  roomDesc: "There is a dwarven club laying here."
+  keywords: ["club"]
+  description: "There is a dwarven club laying here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o6509
+  name: "two-handed dwarven axe"
+  roomDesc: "A two-handed Dwarven axe is here."
+  keywords: ["two-handed","dwarven","axe"]
+  description: "A two-handed Dwarven axe is here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o6510
+  name: "helmet"
+  roomDesc: "A dwarven helmet is here."
+  keywords: ["helmet"]
+  description: "A dwarven helmet is here."
+  type: HEAVYARMOR
+- id: o6511
+  name: "ring golden dwarven"
+  roomDesc: "A pretty golden ring is here."
+  keywords: ["ring","golden","dwarven"]
+  description: "A pretty golden ring is here."
+  type: ACCESSORY
+- id: o6512
+  name: "gloves"
+  roomDesc: "Thick dwarven gloves lay here."
+  keywords: ["gloves"]
+  description: "Thick dwarven gloves lay here."
+  type: HEAVYARMOR
+- id: o6513
+  name: "note"
+  roomDesc: "A crumpled note is here."
+  keywords: ["note"]
+  description: "A crumpled note is here."
+  type: FURNITURE
+- id: o6514
+  name: "castle key"
+  roomDesc: "There is a key to Strangelove Castle here."
+  keywords: ["castle","key"]
+  description: "There is a key to Strangelove Castle here."
+  type: KEY
+- id: o6516
+  name: "key mine"
+  roomDesc: "There is a key to the mines here."
+  keywords: ["key","mine"]
+  description: "There is a key to the mines here."
+  type: KEY
+- id: o6517
+  name: "coal"
+  roomDesc: "There is a chunk of coal here."
+  keywords: ["coal"]
+  description: "There is a chunk of coal here."
+  type: TRASH
+- id: o6518
+  name: "pick"
+  roomDesc: "There is a mining pick here."
+  keywords: ["pick"]
+  description: "There is a mining pick here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o6519
+  name: "pills"
+  roomDesc: "There is a box of birth control pills here."
+  keywords: ["pills"]
+  description: "There is a box of birth control pills here."
+  type: PILL

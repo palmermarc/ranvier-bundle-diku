@@ -1,0 +1,944 @@
+- id: r6144
+  title: "A small path in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  Ancient,
+    grey trees loom everywhere.  The tree trunks here seem to be covered in some
+    sticky substance.  The path continues south and west.
+  exits:
+    - roomId: "haon:r6110"
+      direction: south
+    - roomId: "haon:r6130"
+      direction: west
+- id: r6150
+  title: "The narrow trail."
+  description: >-
+    This trail looks much spookier than any other thats you have seen.  The usual
+    animal claw marks and bites on the trees are getting far and few between. The
+    trail continues north.
+  exits:
+    - roomId: "haon:r6151"
+      direction: north
+    - roomId: "haon:r6103"
+      direction: south
+- id: r6151
+  title: "The narrow trail."
+  description: >-
+    This area of the trail is also very peculiar.  You can see no signs of animal
+    life what so ever.  The structure of the surrounding trees forces the path to
+    make a sharp turn to the east.
+  exits:
+    - roomId: "haon:r6150"
+      direction: south
+    - roomId: "haon:r6152"
+      direction: east
+- id: r6152
+  title: "The circle of trees."
+  description: >-
+    The trees here seem to form a circle around a HUGE tree that is in the center
+    of them.  You notice a wooden door carved into the huge tree to the east.  The
+    trail that you followed to get here seems to end at the base of the tree.
+  exits:
+    - roomId: "tarzaroth:r14200"
+      direction: north
+    - roomId: "haon:r6153"
+      direction: east
+    - roomId: "haon:r6151"
+      direction: west
+- id: r6153
+  title: "Inside the great tree."
+  description: >-
+    You have stepped inside of this hollowed tree.  From here steps lead down into
+    darkness or you can exit the tree by going west.
+  exits:
+    - roomId: "haon:r6152"
+      direction: west
+    - roomId: "haon:r6154"
+      direction: down
+- id: r6154
+  title: "The underground hallway."
+  description: >-
+    This hallway is apparently one of the roots of the tree hollowed out.  The hall
+    leads south to a room where you hear strange noises or you can go up the steps.
+  exits:
+    - roomId: "haon:r6155"
+      direction: south
+    - roomId: "haon:r6153"
+      direction: up
+- id: r6155
+  title: "The cultist temple."
+  description: >-
+    This temple is built to some god that you don't worship.  It is a nice place
+    to visit but you feel very uncomfortable about spending much time here.
+    The wooden altar seems almost to glow as you enter the room.  The only exit is
+    the way you came in.
+  exits:
+    - roomId: "haon:r6154"
+      direction: north
+  npcs:
+    - id: "haon:m6116"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6000
+  title: "The edge of the forest"
+  description: >-
+    You are standing at the eastern edge of a big forest.  To the east is the West
+    Gate of Midgaard and to the west is a narrow trail, leading in through the
+    forest.  A dimly lit path leads north.
+  exits:
+    - roomId: "shire:r1100"
+      direction: north
+    - roomId: "midgaard:r3052"
+      direction: east
+    - roomId: "haon:r6001"
+      direction: west
+- id: r6001
+  title: "A trail through the light forest "
+  description: >-
+    You are on a trail leading through the forest.  To the east is the forest edge
+    and to the west, the trail leads further into the forest.
+  exits:
+    - roomId: "haon:r6000"
+      direction: east
+    - roomId: "haon:r6002"
+      direction: west
+- id: r6002
+  title: "A trail through the light forest"
+  description: >-
+    You are on a narrow trail leading east and west through the forest.  To the
+    west, the forest gradually becomes more dense.  A small forest path leads
+    south.
+  exits:
+    - roomId: "haon:r6011"
+      direction: south
+    - roomId: "haon:r6001"
+      direction: east
+    - roomId: "haon:r6003"
+      direction: west
+- id: r6003
+  title: "A trail through the dense forest"
+  description: >-
+    You are on a trail leading east and west through the dense forest.  To the
+    east, the forest gradually seems to become lighter.
+  exits:
+    - roomId: "haon:r6002"
+      direction: east
+    - roomId: "haon:r6004"
+      direction: west
+- id: r6004
+  title: "A trail through the dense forest"
+  description: >-
+    You are on a trail leading east and west through the dense forest.  To the
+    west, the trees are so huge and their crowns so dense that forest remains in
+    total darkness.  A small path leads south through the trees.
+  exits:
+    - roomId: "haon:r6005"
+      direction: south
+    - roomId: "haon:r6003"
+      direction: east
+    - roomId: "haon:r6100"
+      direction: west
+- id: r6005
+  title: "A small path in the dense forest"
+  description: >-
+    You are on a small path leading through the dense forest.  The crowns of the
+    old trees leave the forest in an unreal twilight illumination.  The path
+    continues north and south.
+  exits:
+    - roomId: "haon:r6004"
+      direction: north
+    - roomId: "haon:r6006"
+      direction: south
+- id: r6006
+  title: "A small path in the dense forest"
+  description: >-
+    You are on a small path leading through the dense forest.  The crowns of the
+    old trees leave the forest in an unreal twilight illumination.  The path
+    continues north and east.
+  exits:
+    - roomId: "haon:r6005"
+      direction: north
+    - roomId: "haon:r6007"
+      direction: east
+  items:
+    - id: "haon:o6011"
+      respawnChance: 75
+- id: r6007
+  title: "An intersection in the dense forest"
+  description: >-
+    You are on a small path leading through the dense forest.  The crowns of the
+    old trees leave the forest in an unreal twilight illumination.  The forest
+    gradually lightens to the east.  Paths lead east, west and south.
+  exits:
+    - roomId: "haon:r6012"
+      direction: south
+    - roomId: "haon:r6008"
+      direction: east
+    - roomId: "haon:r6006"
+      direction: west
+- id: r6008
+  title: "The forest clearing"
+  description: >-
+    You are in a clearing in the forest.  Lots of fresh stumps of varying sizes
+    protrude from the ground and heavy logs are stacked neatly in a big pile
+    supported by stakes set into the ground.  Paths lead north, east and west.
+  exits:
+    - roomId: "haon:r6011"
+      direction: north
+    - roomId: "haon:r6009"
+      direction: east
+    - roomId: "haon:r6007"
+      direction: west
+- id: r6009
+  title: "Outside a small cabin in the forest"
+  description: >-
+    You are outside a small cabin built entirely from heavy logs.  There is a
+    wooden door to the north and small paths lead west and south through the trees.
+  exits:
+    - roomId: "haon:r6010"
+      direction: north
+    - roomId: "haon:r6014"
+      direction: south
+    - roomId: "haon:r6008"
+      direction: west
+  npcs:
+    - id: "haon:m6000"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6010
+  title: "Inside the cabin"
+  description: >-
+    You are inside a small one-room cabin made entirely from heavy logs.  It is
+    very sparsely furnished, containing only most basic housekeeping equipment,
+    such as a bed, a chair and a table.
+  exits:
+    - roomId: "haon:r6009"
+      direction: south
+  items:
+    - id: "haon:o6003"
+      respawnChance: 75
+    - id: "haon:o6005"
+      respawnChance: 75
+    - id: "haon:o6013"
+      respawnChance: 75
+- id: r6011
+  title: "A small path through the light forest"
+  description: >-
+    You are on a small path leading through the forest.  The trees are tall and
+    slender.  Paths lead north and south.
+  exits:
+    - roomId: "haon:r6002"
+      direction: north
+    - roomId: "haon:r6008"
+      direction: south
+- id: r6012
+  title: "An intersection in the dense forest"
+  description: >-
+    You are on a small path leading through the dense forest.  The crowns of the
+    old trees leave the forest floor in an unreal twilight illumination.  Paths
+    lead north, east and south.
+  exits:
+    - roomId: "haon:r6007"
+      direction: north
+    - roomId: "haon:r6021"
+      direction: south
+    - roomId: "haon:r6013"
+      direction: east
+  npcs:
+    - id: "plains:m309"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r6013
+  title: "A small path in the dense forest"
+  description: >-
+    You are on a small path leading through the dense forest.  The crowns of the
+    old trees leave the forest in an unreal twilight illumination.  The path
+    continues east and west.
+  exits:
+    - roomId: "haon:r6014"
+      direction: east
+    - roomId: "haon:r6012"
+      direction: west
+  items:
+    - id: "haon:o6011"
+      respawnChance: 75
+- id: r6014
+  title: "An intersection in the dense forest"
+  description: >-
+    You are on a small path leading through the dense forest.  The forest gradually
+    lightens to the north.  Paths lead north, east and west.
+  exits:
+    - roomId: "haon:r6009"
+      direction: north
+    - roomId: "haon:r6015"
+      direction: east
+    - roomId: "haon:r6013"
+      direction: west
+  npcs:
+    - id: "haon:m6005"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r6015
+  title: "A small path in the dense forest"
+  description: >-
+    You are on a small path leading through the dense forest.  The crowns of the
+    old trees leave the forest in an unreal twilight illumination.  The path
+    continues south and west.
+  exits:
+    - roomId: "haon:r6016"
+      direction: south
+    - roomId: "haon:r6014"
+      direction: west
+  npcs:
+    - id: "plains:m309"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r6016
+  title: "A small path in the dense forest"
+  description: >-
+    You are on a small path leading through the dense forest.  The crowns of the
+    old trees leave the forest in an unreal twilight illumination.  The path
+    continues north and south.
+  exits:
+    - roomId: "haon:r6015"
+      direction: north
+    - roomId: "haon:r6017"
+      direction: south
+  items:
+    - id: "haon:o6011"
+      respawnChance: 75
+- id: r6017
+  title: "A small path in the dense forest"
+  description: >-
+    You are on a small path leading through the dense forest.  The forest seems to
+    become lighter to the west.  The path continues north and west.
+  exits:
+    - roomId: "haon:r6016"
+      direction: north
+    - roomId: "haon:r6018"
+      direction: west
+  npcs:
+    - id: "plains:m309"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r6018
+  title: "An intersection in the light forest"
+  description: >-
+    You are on a small path leading through the forest.  A path leads north to a
+    small field and other paths lead east and west into the dense forest.
+  exits:
+    - roomId: "haon:r6023"
+      direction: north
+    - roomId: "haon:r6017"
+      direction: east
+    - roomId: "haon:r6019"
+      direction: west
+- id: r6019
+  title: "A small path in the dense forest"
+  description: >-
+    You are on a small path leading through the dense forest.  The forest seems to
+    become lighter to the east.  The path continues north and east.
+  exits:
+    - roomId: "haon:r6020"
+      direction: north
+    - roomId: "haon:r6018"
+      direction: east
+  npcs:
+    - id: "plains:m309"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r6020
+  title: "A small path in the dense forest"
+  description: >-
+    You are on a small path leading through the dense forest.  The crowns of the
+    old trees leave the forest in an unreal twilight illumination.  The path
+    continues south and west.
+  exits:
+    - roomId: "haon:r6019"
+      direction: south
+    - roomId: "haon:r6021"
+      direction: west
+- id: r6021
+  title: "A small path in the dense forest"
+  description: >-
+    You are on a small path leading through the dense forest.  To the west there is
+    a cave entrance.  The path continues north and east.
+  exits:
+    - roomId: "haon:r6012"
+      direction: north
+    - roomId: "haon:r6020"
+      direction: east
+    - roomId: "haon:r6022"
+      direction: west
+- id: r6022
+  title: "Inside the cave"
+  description: >-
+    You are in a natural cave.  Various sorts of debris cover the stone floor,
+    emitting a rather unpleasant smell that makes the air thick and hard to
+    breathe.  The only obvious exit is east.
+  exits:
+    - roomId: "haon:r6021"
+      direction: east
+  npcs:
+    - id: "haon:m6002"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6023
+  title: "On a small, grassy field"
+  description: >-
+    You are in a small, grassy field somewhere in the forest.  The tall grass
+    nearly reaches your waist, and the surrounding oaks and beeches form an almost
+    wall-like thicket on all sides of the field.  A small path leads south through
+    the trees.
+  exits:
+    - roomId: "haon:r6018"
+      direction: south
+  npcs:
+    - id: "haon:m6004"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "haon:o6010"
+      respawnChance: 75
+- id: r6100
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a narrow trail winding its way between the enormous, grey trunks.
+    The crowns of the trees must be very dense, as they leave the forest floor in
+    utter darkness.  The trail leads east and west.
+  exits:
+    - roomId: "haon:r6004"
+      direction: east
+    - roomId: "haon:r6101"
+      direction: west
+  npcs:
+    - id: "haon:m6115"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6101
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail winding its way east-west between huge, ancient trees
+    whose grey trunks remind you of ancient pillars in a enormous, deserted hall.
+    To the south, a frail path leads away from the trail.
+  exits:
+    - roomId: "haon:r6104"
+      direction: south
+    - roomId: "haon:r6100"
+      direction: east
+    - roomId: "haon:r6102"
+      direction: west
+- id: r6102
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail winding its way east-west between huge, ancient trees
+    that stand close on all sides.  Not a sound is to be heard - everything is
+    ominously quiet.
+  exits:
+    - roomId: "haon:r6101"
+      direction: east
+    - roomId: "haon:r6103"
+      direction: west
+- id: r6103
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are where the dusty trail bends, as to avoid conflict with a colossal
+    trunk to the west.  Not a sound is to be heard - everything is ominously quiet.
+    The trail leads east and south.
+  exits:
+    - roomId: "haon:r6150"
+      direction: north
+    - roomId: "haon:r6108"
+      direction: south
+    - roomId: "haon:r6102"
+      direction: east
+  items:
+    - id: "haon:o6102"
+      respawnChance: 75
+- id: r6104
+  title: "A small path in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  You feel as if
+    the ancient trees observe you in watchful silence.  The path continues north
+    and south.
+  exits:
+    - roomId: "haon:r6101"
+      direction: north
+    - roomId: "haon:r6105"
+      direction: south
+  npcs:
+    - id: "haon:m6102"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "haon:m6102"
+      respawnChance: 100
+      maxLoad: "4"
+  items:
+    - id: "haon:o6106"
+      respawnChance: 75
+- id: r6105
+  title: "A small path in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  Ancient grey
+    trees loom all around you.  The path continues north and west.
+  exits:
+    - roomId: "haon:r6104"
+      direction: north
+    - roomId: "haon:r6106"
+      direction: west
+  items:
+    - id: "haon:o6105"
+      respawnChance: 75
+- id: r6106
+  title: "A junction in the deep, dark forest"
+  description: >-
+    You are by a junction where three paths meet.  Ancient grey trees tower above
+    you on all sides.  Paths lead east, south and west.
+  exits:
+    - roomId: "haon:r6117"
+      direction: south
+    - roomId: "haon:r6105"
+      direction: east
+    - roomId: "haon:r6107"
+      direction: west
+- id: r6107
+  title: "A small path in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  Ancient grey
+    trees loom all around you.  The path continues north and east.
+  exits:
+    - roomId: "haon:r6108"
+      direction: north
+    - roomId: "haon:r6106"
+      direction: east
+- id: r6108
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail winding its way between huge, ancient trees
+    standing close on all sides.  The trail leads north and west and to the south,
+    a frail path leads away from the trail.
+  exits:
+    - roomId: "haon:r6103"
+      direction: north
+    - roomId: "haon:r6107"
+      direction: south
+    - roomId: "haon:r6109"
+      direction: west
+  npcs:
+    - id: "haon:m6102"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "haon:m6102"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r6109
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail winding its way east-west between huge, ancient trees
+    that stand close on all sides.  Not a sound is to be heard - everything is
+    ominously quiet.
+  exits:
+    - roomId: "haon:r6108"
+      direction: east
+    - roomId: "haon:r6110"
+      direction: west
+- id: r6110
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail winding its way between huge, ancient trees that stand
+    close on all sides.  The trail leads east and south.  To the north, a narrow
+    path leads away from the trail.
+  exits:
+    - roomId: "haon:r6144"
+      direction: north
+    - roomId: "haon:r6111"
+      direction: south
+    - roomId: "haon:r6109"
+      direction: east
+- id: r6111
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail winding its way north-south between huge, ancient
+    trees that loom ominously above you.
+  exits:
+    - roomId: "haon:r6110"
+      direction: north
+    - roomId: "haon:r6112"
+      direction: south
+  items:
+    - id: "haon:o6106"
+      respawnChance: 75
+- id: r6112
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail winding its way between huge, ancient trees
+    standing close on all sides.  The trail leads north and west and to the east,
+    a frail path leads away from the trail.
+  exits:
+    - roomId: "haon:r6111"
+      direction: north
+    - roomId: "haon:r6113"
+      direction: east
+    - roomId: "haon:r6127"
+      direction: west
+  npcs:
+    - id: "haon:m6103"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "haon:m6103"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r6113
+  title: "A small path in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  Ancient grey
+    trees loom in all directions.  The path continues south and west.
+  exits:
+    - roomId: "haon:r6114"
+      direction: south
+    - roomId: "haon:r6112"
+      direction: west
+  items:
+    - id: "haon:o6103"
+      respawnChance: 75
+- id: r6114
+  title: "A junction in the deep, dark forest"
+  description: >-
+    You are by a junction where three paths meet.  Ancient grey trees tower above
+    you on all sides.  Paths lead north, east and west.
+  exits:
+    - roomId: "haon:r6113"
+      direction: north
+    - roomId: "haon:r6115"
+      direction: east
+    - roomId: "haon:r6122"
+      direction: west
+- id: r6115
+  title: "A small path in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  You feel as
+    if the ancient trees observe you in watchful silence.  The path continues north
+    and west.
+  exits:
+    - roomId: "haon:r6116"
+      direction: north
+    - roomId: "haon:r6114"
+      direction: west
+- id: r6116
+  title: "A small path in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  Giant, grey
+    trees loom ominously on all sides.  The path continues east and south.
+  exits:
+    - roomId: "haon:r6115"
+      direction: south
+    - roomId: "haon:r6117"
+      direction: east
+  npcs:
+    - id: "haon:m6100"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "haon:m6100"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r6117
+  title: "A junction in the deep, dark forest"
+  description: >-
+    You are by a junction where three paths meet.  Ancient, grey trees seem to
+    observe you silently you from all sides.  Paths lead north, east and west.
+  exits:
+    - roomId: "haon:r6106"
+      direction: north
+    - roomId: "haon:r6118"
+      direction: east
+    - roomId: "haon:r6116"
+      direction: west
+- id: r6118
+  title: "A small path in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  Ancient,
+    grey trees loom everywhere.  The path continues south and west.
+  exits:
+    - roomId: "haon:r6119"
+      direction: south
+    - roomId: "haon:r6117"
+      direction: west
+  npcs:
+    - id: "haon:m6103"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "haon:m6103"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r6119
+  title: "A small path in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  Huge, ancient
+    trees are on all sides.  The path continues north and south.
+  exits:
+    - roomId: "haon:r6118"
+      direction: north
+    - roomId: "haon:r6120"
+      direction: south
+  items:
+    - id: "haon:o6107"
+      respawnChance: 75
+- id: r6120
+  title: "On the river bank in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  To the south a
+    fast river is flowing westwards through the forest.  Ancient grey trees loom on
+    both banks.  The path continues north and west.
+  exits:
+    - roomId: "haon:r6119"
+      direction: north
+    - roomId: "haon:r6121"
+      direction: west
+- id: r6121
+  title: "A dead end path on the river bank in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  The ancient
+    trees stand so close that the path disappears between the dusty roots.  To the
+    south a dark river flows from east to west.  The only exit appears to be east.
+  exits:
+    - roomId: "haon:r6120"
+      direction: east
+- id: r6122
+  title: "A small path in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  Giant, grey
+    trees loom ominously all around.  The path continues east and south.
+  exits:
+    - roomId: "haon:r6123"
+      direction: south
+    - roomId: "haon:r6114"
+      direction: east
+  items:
+    - id: "haon:o6106"
+      respawnChance: 75
+- id: r6123
+  title: "A junction on the river bank in the deep, dark forest"
+  description: >-
+    You are by a junction where three paths meet.  Ancient, grey trees seem to
+    observe you silently you from all around.  To the south a dark river flows from
+    east to west through the forest.  Paths lead north, east and west.
+  exits:
+    - roomId: "haon:r6122"
+      direction: north
+    - roomId: "haon:r6124"
+      direction: east
+    - roomId: "haon:r6125"
+      direction: west
+- id: r6124
+  title: "A dead end path in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  The ancient
+    trees stand so close that the path disappears between the dusty roots.  To the
+    south a dark river flows from east to west.  The only exit appears to be west.
+  exits:
+    - roomId: "trollden:r2801"
+      direction: south
+    - roomId: "haon:r6123"
+      direction: west
+- id: r6125
+  title: "A small path on the river bank in the deep, dark forest"
+  description: >-
+    You are on a narrow path leading through the deep, dark forest.  Ancient grey
+    trees loom everywhere.  To the south you smell marsh gas.  The path continues
+    north and east.
+  exits:
+    - roomId: "haon:r6126"
+      direction: north
+    - roomId: "marsh:r8301"
+      direction: south
+    - roomId: "haon:r6123"
+      direction: east
+  items:
+    - id: "haon:o6104"
+      respawnChance: 75
+- id: r6126
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail winding its way between huge, ancient trees standing
+    close on all sides.  The trail leads north and west, and to the south a frail
+    path leads away from the trail.
+  exits:
+    - roomId: "haon:r6127"
+      direction: north
+    - roomId: "haon:r6125"
+      direction: south
+    - roomId: "haon:r6128"
+      direction: west
+- id: r6127
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail winding its way between huge, ancient trees
+    standing close on all sides.  The trail leads east and south.
+  exits:
+    - roomId: "haon:r6126"
+      direction: south
+    - roomId: "haon:r6112"
+      direction: east
+  npcs:
+    - id: "haon:m6101"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "haon:m6101"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r6128
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail winding its way east-west between huge, ancient trees
+    that stand close on all sides.  Not a sound is to be heard - everything is
+    ominously quiet.
+  exits:
+    - roomId: "haon:r6126"
+      direction: east
+    - roomId: "haon:r6129"
+      direction: west
+- id: r6129
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail winding its way east-west between huge, ancient trees
+    that stand close on all sides.  Not a sound is to be heard - everything is
+    ominously quiet.
+  exits:
+    - roomId: "haon:r6128"
+      direction: east
+    - roomId: "haon:r6135"
+      direction: west
+- id: r6130
+  title: "A narrow trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail winding its way westwards just below huge sticky
+    wires suspended like ropes between the trees.  To the west the path seems to
+    be completely covered in a giant web made from huge threads covered with glue.
+    This place gives you the creeps.
+  exits:
+    - roomId: "haon:r6144"
+      direction: east
+    - roomId: "haon:r6131"
+      direction: west
+    - roomId: "haon:r6132"
+      direction: up
+- id: r6131
+  title: "The spider web"
+  description: >-
+    You are walking along the narrow path, ducking under the sticky ropes as you
+    advance...
+    >
+    A huge, poisonous spider drops from above!
+    A huge, poisonous spider drops from above!
+    A huge, poisonous spider drops from above!
+    >
+    The huge, poisonous spider stings you!  You resist the poison!
+    The huge, poisonous spider stings you!  You are poisoned!
+    The huge, poisonous spider stings you!  You are poisoned!
+    >
+    You've fallen, and you can't get up!!!!!
+- id: r6132
+  title: "Up in the tree"
+  description: >-
+    You are hanging on the outside of a huge tree trunk covered in a sticky
+    substance.  Directly to the west is an immense spider web suspended between
+    numerous of the giant trees including the one you are hanging on.
+  exits:
+    - roomId: "haon:r6133"
+      direction: west
+    - roomId: "haon:r6130"
+      direction: down
+- id: r6133
+  title: "On the spider web"
+  description: >-
+    You are balancing carefully on the giant sticky threads that holds the giant
+    web in place.  To the east is a giant tree trunk and to the west is an entrance
+    to a cave-like structure made from many layers of spider web.
+  exits:
+    - roomId: "haon:r6132"
+      direction: east
+    - roomId: "haon:r6134"
+      direction: west
+- id: r6134
+  title: "The Den of the Queen Spider"
+  description: >-
+    You are inside a cave-like structure that seems to be made entirely from
+    countless layers of spider web.  Temperature and humidity is very high making
+    it hard to breathe the foul air that lingers here.  The walls are covered with
+    open cocoons.
+  exits:
+    - roomId: "haon:r6133"
+      direction: east
+  npcs:
+    - id: "arachnos:m6319"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "arachnos:m6318"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "arachnos:m6318"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "arachnos:m6318"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "arachnos:m6318"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r6135
+  title: "A dusty trail in the deep, dark forest"
+  description: >-
+    You are on a dusty trail leading through the deep, dark forest.  Ancient grey
+    trees loom all around you.  The trail continues north and east.
+  exits:
+    - roomId: "haon:r6136"
+      direction: north
+    - roomId: "haon:r6129"
+      direction: east
+- id: r6136
+  title: "A dusty trail in the deep, dark forest"
+  description: >-
+    You are on a dusty trail leading through the deep, dark forest.  Ancient,
+    grey trees loom everywhere.  The trail continues south and west.  A broad
+    irregular path leads eastwards away from the trail.
+  exits:
+    - roomId: "haon:r6135"
+      direction: south
+    - roomId: "haon:r6142"
+      direction: east
+    - roomId: "haon:r6137"
+      direction: west
+- id: r6137
+  title: "At the end of the trail through the deep, dark forest"
+  description: >-
+    You are on a dusty trail leading through the deep, dark forest.  Ancient grey
+    trees loom all around you.  You see a dark grove north of you.
+    The only other exit is east.
+  exits:
+    - roomId: "shadow:r1250"
+      direction: north
+    - roomId: "haon:r6136"
+      direction: east
+- id: r6142
+  title: "Outside a cave in the deep, dark forest"
+  description: >-
+    You are at the end of a broad, irregular path.  To the north is a very large
+    ominous-looking cave opening.  The trees here have many marks as if something
+    with huge claws has been tearing at them in rage.
+  exits:
+    - roomId: "haon:r6143"
+      direction: north
+    - roomId: "haon:r6136"
+      direction: west
+- id: r6143
+  title: "The cave of the Green Dragon"
+  description: >-
+    You are in a big natural cave.  The floor is littered with bones of all sorts
+    and the stench is so massive that you could cut it with a knife.  The only exit
+    is to the south.
+  exits:
+    - roomId: "haon:r6142"
+      direction: south
+  npcs:
+    - id: "haon:m6112"
+      respawnChance: 100
+      maxLoad: "1"

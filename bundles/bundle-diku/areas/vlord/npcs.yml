@@ -1,0 +1,208 @@
+- id: m32000
+  keywords: ["Nergal"]
+  name: "Nergal, The Ventrue Lord is here"
+  description: >-
+    Nergal, The Ventrue Lord stands here reeking of death
+  level: 266
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 83
+    exp_level: 20000
+    sex: 1
+- id: m32001
+  keywords: ["Rasputzin"]
+  name: "Rasputzin, The Malkavian Lord is here"
+  description: >-
+    Rasputzin, The Malkavian Lord stands here reeking of death
+  level: 266
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 83
+    exp_level: 19999
+    sex: 1
+- id: m32002
+  keywords: ["Brujah"]
+  name: "Brujah, The Brujah Lord is here"
+  description: >-
+    Brujah, The Brujah Lord stands here reeking of death
+  level: 266
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 83
+    exp_level: 20001
+    sex: 1
+- id: m32003
+  keywords: ["Lilith"]
+  name: "Lilith, The Gangrel Lady is here"
+  description: >-
+    Lilith, The Gangrel Lady stands here reeking of death
+  level: 266
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 83
+    exp_level: 20000
+    sex: 1
+- id: m32004
+  keywords: ["Ninmug"]
+  name: "Ninmug, The Nosferatu Lord is here"
+  description: >-
+    Ninmug, The Nosferatu Lord stands here reeking of death
+  level: 266
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 83
+    exp_level: 20001
+    sex: 1
+- id: m32005
+  keywords: ["Tremere"]
+  name: "Tremere, The Tremere Lord is here"
+  description: >-
+    Tremere, The Tremere Lord stands here reeking of death
+  level: 266
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 83
+    exp_level: 20000
+    sex: 1
+- id: m32006
+  keywords: ["Loz"]
+  name: "Loz, The Toreador Lord is here"
+  description: >-
+    Loz, The Toreador Lord stands here reeking of death
+  level: 266
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 83
+    exp_level: 20001
+    sex: 1
+- id: m32007
+  keywords: ["Clive"]
+  name: "Clive, The Cappadocian Lord is here"
+  description: >-
+    Clive, The Cappadocian Lord stands here reeking of death
+  level: 266
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 83
+    exp_level: 20000
+    sex: 1

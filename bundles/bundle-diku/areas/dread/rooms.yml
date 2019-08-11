@@ -1,0 +1,324 @@
+- id: r550
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "dread:r552"
+      direction: north
+    - roomId: "dread:r554"
+      direction: south
+    - roomId: "dread:r551"
+      direction: east
+    - roomId: "dread:r555"
+      direction: west
+    - roomId: "dread:r556"
+      direction: up
+    - roomId: "dread:r553"
+      direction: down
+  npcs:
+    - id: "dread:m550"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m551"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m552"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m553"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m554"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m555"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m556"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m557"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m558"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m559"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m560"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m561"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m562"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m563"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r551
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "ofcol2:r601"
+      direction: north
+    - roomId: "hc:r12001"
+      direction: south
+    - roomId: "antharia:r1819"
+      direction: east
+    - roomId: "marsh:r8318"
+      direction: west
+    - roomId: "quest:r506"
+      direction: up
+    - roomId: "smurf:r119"
+      direction: down
+- id: r552
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "joker1:r24113"
+      direction: north
+    - roomId: "gnome:r1558"
+      direction: south
+    - roomId: "dylan:r9141"
+      direction: east
+    - roomId: "dream:r8615"
+      direction: west
+    - roomId: "mirror:r5313"
+      direction: up
+    - roomId: "shire:r1128"
+      direction: down
+- id: r553
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "crystalm:r10019"
+      direction: north
+    - roomId: "gnome:r1563"
+      direction: south
+    - roomId: "eastern:r5016"
+      direction: east
+    - roomId: "juargan:r4749"
+      direction: west
+    - roomId: "hood:r2125"
+      direction: up
+    - roomId: "olympus:r938"
+      direction: down
+- id: r554
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "haon:r6020"
+      direction: north
+    - roomId: "ultima:r2565"
+      direction: south
+    - roomId: "ultima:r2570"
+      direction: east
+    - roomId: "ultima:r2404"
+      direction: west
+    - roomId: "ultima:r2494"
+      direction: up
+    - roomId: "vishnaak:r25529"
+      direction: down
+- id: r555
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "pyramid:r4201"
+      direction: north
+    - roomId: "dabour:r8002"
+      direction: south
+    - roomId: "midennir:r3515"
+      direction: east
+    - roomId: "drow:r5122"
+      direction: west
+    - roomId: "eastern:r5059"
+      direction: up
+    - roomId: "mordor:r9506"
+      direction: down
+- id: r556
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "camelot:r3369"
+      direction: north
+    - roomId: "mordor:r9522"
+      direction: south
+    - roomId: "ultima:r2536"
+      direction: east
+    - roomId: "mahntor:r2394"
+      direction: west
+    - roomId: "camelot:r3394"
+      direction: up
+    - roomId: "ultima:r2472"
+      direction: down
+- id: r557
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "dread:r559"
+      direction: north
+    - roomId: "dread:r563"
+      direction: south
+    - roomId: "dread:r562"
+      direction: east
+    - roomId: "dread:r558"
+      direction: west
+    - roomId: "dread:r561"
+      direction: up
+    - roomId: "dread:r560"
+      direction: down
+  npcs:
+    - id: "dread:m550"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m551"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m552"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m553"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m554"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m555"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m556"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m557"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m558"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m559"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m560"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m561"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m562"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "dread:m563"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r558
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "ultima:r2434"
+      direction: north
+    - roomId: "dylan:r9152"
+      direction: south
+    - roomId: "hitower:r1392"
+      direction: east
+    - roomId: "marsh:r8303"
+      direction: west
+    - roomId: "clans:r24936"
+      direction: up
+    - roomId: "midgaard:r3014"
+      direction: down
+- id: r559
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "galaxy:r9345"
+      direction: north
+    - roomId: "grove:r8903"
+      direction: south
+    - roomId: "canyon:r9218"
+      direction: east
+    - roomId: "valley:r7845"
+      direction: west
+    - roomId: "air:r1037"
+      direction: up
+    - roomId: "thalos:r5250"
+      direction: down
+- id: r560
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "sewer:r7112"
+      direction: north
+    - roomId: "mirror:r5350"
+      direction: south
+    - roomId: "tree:r10108"
+      direction: east
+    - roomId: "arachnos:r6372"
+      direction: west
+    - roomId: "tanu:r8741"
+      direction: up
+    - roomId: "juargan:r4769"
+      direction: down
+- id: r561
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "firenewt:r2922"
+      direction: north
+    - roomId: "solace:r10305"
+      direction: south
+    - roomId: "draconia:r2216"
+      direction: east
+    - roomId: "school:r3700"
+      direction: west
+    - roomId: "chapel:r3424"
+      direction: up
+    - roomId: "firenewt:r2904"
+      direction: down
+- id: r562
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "draconia:r2208"
+      direction: north
+    - roomId: "plains:r319"
+      direction: south
+    - roomId: "grave:r3616"
+      direction: east
+    - roomId: "joker1:r24054"
+      direction: west
+    - roomId: "valley:r7880"
+      direction: up
+    - roomId: "joker1:r24195"
+      direction: down
+- id: r563
+  title: "The Realm of Dread"
+  description: >-
+    All around you are shadows
+  exits:
+    - roomId: "sewer:r7201"
+      direction: north
+    - roomId: "crystalm:r10080"
+      direction: south
+    - roomId: "eastern:r5021"
+      direction: east
+    - roomId: "daycare:r6606"
+      direction: west
+    - roomId: "moria:r4065"
+      direction: up
+    - roomId: "eastern:r5028"
+      direction: down

@@ -1,0 +1,6 @@
+---
+body: |
+  Syntax: cast 'chill touch' <victim>
+  
+  This spell inflicts damage on the victim and also reduces the victim's strength.
+  

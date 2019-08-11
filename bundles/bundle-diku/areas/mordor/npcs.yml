@@ -1,0 +1,515 @@
+- id: m9501
+  keywords: ["shelob"]
+  name: "Shelob"
+  description: >-
+    Shelob is here waiting for food.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 2
+- id: m9502
+  keywords: ["rider","rohan"]
+  name: "a rider of Rohan"
+  description: >-
+    A rider of Rohan is here waiting for battle
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9503
+  keywords: ["orc"]
+  name: "an orc"
+  description: >-
+    An orc is here.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9504
+  keywords: ["gandalf","mage"]
+  name: "Gandalf the mage"
+  description: >-
+    A mage wearing white robes is here.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "mordor:o9508": 75
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9505
+  keywords: ["ent","tree"]
+  name: "the ent"
+  description: >-
+    A tree is here.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 0
+- id: m9506
+  keywords: ["ent","tree"]
+  name: "the ent"
+  description: >-
+    A tree is here.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 0
+- id: m9507
+  keywords: ["aragorn"]
+  name: "Aragorn"
+  description: >-
+    Aragorn the ranger stands here.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9508
+  keywords: ["legolas","elf"]
+  name: "Legolas"
+  description: >-
+    Legolas the elf stands here, proud and tall.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9509
+  keywords: ["gimli","dwarf"]
+  name: "Gimli"
+  description: >-
+    Gimli the dwarf stands here brandishing his axe.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "mordor:o9509": 75
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9510
+  keywords: ["orc"]
+  name: "a large orc"
+  description: >-
+    An elite orc of the white hand stands here.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9511
+  keywords: ["saruman","mage"]
+  name: "Saruman the mage"
+  description: >-
+    Saruman the mage is here, completing the casting of a powerful spell.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "mordor:o9507": 75
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9512
+  keywords: ["gollum"]
+  name: "Gollum"
+  description: >-
+    Gollum is here.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "mordor:o9506": 75
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9513
+  keywords: ["farimir","prince"]
+  name: "Farimir of Gondor"
+  description: >-
+    Farimir the prince of Gondor stands here.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "mordor:o9511": 75
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9514
+  keywords: ["nazgul"]
+  name: "the Nazgul"
+  description: >-
+    The Nazgul looks at you and attacks.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "mordor:o9505": 75
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9515
+  keywords: ["balrog"]
+  name: "the Balrog"
+  description: >-
+    The Balrog looks down at you and moves in for the kill.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "mordor:o9503": 75
+        "mordor:o9504": 75
+        "mordor:o9513": 75
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 0
+- id: m9516
+  keywords: ["witchking"]
+  name: "the Witchking"
+  description: >-
+    The Witchking stands here - time to die.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "mordor:o9502": 75
+        "mordor:o9512": 75
+        "mordor:o9514": 75
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9517
+  keywords: ["sauron","mage"]
+  name: "Sauron the mage"
+  description: >-
+    Sauron the mage is here momentarily surprised by your presence.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "mordor:o9501": 75
+        "mordor:o9515": 75
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1
+- id: m9518
+  keywords: ["nazgul"]
+  name: "the Nazgul"
+  description: >-
+    The Nazgul looks at you and attacks.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "mordor:o9516": 75
+  metadata:
+    areaId: 50
+    exp_level: 12000
+    sex: 1

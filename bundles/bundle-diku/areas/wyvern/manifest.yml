@@ -1,0 +1,12 @@
+title: "Wyvern's Tower"
+metadata:
+  id: 85
+  name: "Wyvern's Tower"
+  createdBy: "tyrst"
+  starting_vnum: 1600
+  ending_vnum: 1749
+  item_requirements: 12000
+  filename: "wyvern.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,12 @@
+title: "Camelot"
+metadata:
+  id: 7
+  name: "Camelot"
+  createdBy: "lok"
+  starting_vnum: 3300
+  ending_vnum: 3399
+  item_requirements: 30000
+  filename: "camelot.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,12 @@
+title: "Midgaard Zoo"
+metadata:
+  id: 86
+  name: "Midgaard Zoo"
+  createdBy: "mute"
+  starting_vnum: 200
+  ending_vnum: 249
+  item_requirements: 10000
+  filename: "zoo.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

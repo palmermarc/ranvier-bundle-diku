@@ -1,0 +1,12 @@
+title: "High Tower of Sorcery"
+metadata:
+  id: 34
+  name: "High Tower of Sorcery"
+  createdBy: "anon"
+  starting_vnum: 1300
+  ending_vnum: 1499
+  item_requirements: 8000
+  filename: "hitower.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

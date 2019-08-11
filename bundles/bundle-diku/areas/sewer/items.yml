@@ -1,0 +1,230 @@
+- id: o7190
+  name: "ring silver"
+  roomDesc: "A lovely silver ring has been left here."
+  keywords: ["ring","silver"]
+  description: "A lovely silver ring has been left here."
+  type: ACCESSORY
+- id: o7200
+  name: "rod devil"
+  roomDesc: "The mysterious devil rod lies on the floor."
+  keywords: ["rod","devil"]
+  description: "The mysterious devil rod lies on the floor."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o7201
+  name: "mace large"
+  roomDesc: "A large mace lies here."
+  keywords: ["mace","large"]
+  description: "A large mace lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o7202
+  name: "mace small"
+  roomDesc: "A small mace has been left here."
+  keywords: ["mace","small"]
+  description: "A small mace has been left here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o7203
+  name: "cloak purple"
+  roomDesc: "A purple cloak lies on the floor."
+  keywords: ["cloak","purple"]
+  description: "A purple cloak lies on the floor."
+  type: ACCESSORY
+- id: o7204
+  name: "potion neon blue"
+  roomDesc: "A neon blue potion stands on the floor."
+  keywords: ["potion","neon","blue"]
+  description: "A neon blue potion stands on the floor."
+  type: POTION
+- id: o7205
+  name: "key black"
+  roomDesc: "A black key has been left on the floor."
+  keywords: ["key","black"]
+  description: "A black key has been left on the floor."
+  type: KEY
+- id: o7206
+  name: "skull white"
+  roomDesc: "A strange white skull lies on the floor looking at you."
+  keywords: ["skull","white"]
+  description: "A strange white skull lies on the floor looking at you."
+  type: LIGHTARMOR
+- id: o7208
+  name: "stick small light"
+  roomDesc: "A small stick lies here."
+  keywords: ["stick","small","light"]
+  description: "A small stick lies here."
+  type: LIGHT
+- id: o7209
+  name: "boots muddy"
+  roomDesc: "A pair of muddy boots has been dropped here."
+  keywords: ["boots","muddy"]
+  description: "A pair of muddy boots has been dropped here."
+  type: MEDIUMARMOR
+- id: o7210
+  name: "treasure coins"
+  roomDesc: "There is a huge treasure here, looking very valuable."
+  keywords: ["treasure","coins"]
+  description: "There is a huge treasure here, looking very valuable."
+  type: MONEY
+- id: o7211
+  name: "sword short"
+  roomDesc: "There lies a short sword."
+  keywords: ["sword","short"]
+  description: "There lies a short sword."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o7216
+  name: "claw red redclaw"
+  roomDesc: "On the floor rests an enormous red claw."
+  keywords: ["claw","red","redclaw"]
+  description: "On the floor rests an enormous red claw."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o7217
+  name: "plate breast silvery"
+  roomDesc: "There is a silvery breast plate on the floor."
+  keywords: ["plate","breast","silvery"]
+  description: "There is a silvery breast plate on the floor."
+  type: HEAVYARMOR
+- id: o7218
+  name: "plates leg silvery"
+  roomDesc: "On the floor you see some silvery leg plates."
+  keywords: ["plates","leg","silvery"]
+  description: "On the floor you see some silvery leg plates."
+  type: HEAVYARMOR
+- id: o7219
+  name: "gloves silvery"
+  roomDesc: "You can see a pair of silvery gloves on the floor."
+  keywords: ["gloves","silvery"]
+  description: "You can see a pair of silvery gloves on the floor."
+  type: HEAVYARMOR
+- id: o7220
+  name: "helmet silvery"
+  roomDesc: "The silvery helmet lies here."
+  keywords: ["helmet","silvery"]
+  description: "The silvery helmet lies here."
+  type: HEAVYARMOR
+- id: o7221
+  name: "shield"
+  roomDesc: "The shield of the rose rests on the floor."
+  keywords: ["shield"]
+  description: "The shield of the rose rests on the floor."
+  type: SHIELD
+- id: o7222
+  name: "boots silvery"
+  roomDesc: "A pair of silvery boots stand on the floor."
+  keywords: ["boots","silvery"]
+  description: "A pair of silvery boots stand on the floor."
+  type: HEAVYARMOR
+- id: o7223
+  name: "plates arm silvery"
+  roomDesc: "On the floor you see some silvery arm plates."
+  keywords: ["plates","arm","silvery"]
+  description: "On the floor you see some silvery arm plates."
+  type: HEAVYARMOR
+- id: o7224
+  name: "cloak white"
+  roomDesc: "A white cloak lies on the floor."
+  keywords: ["cloak","white"]
+  description: "A white cloak lies on the floor."
+  type: ACCESSORY
+- id: o7298
+  name: "treasure coins"
+  roomDesc: "A huge treasure is lying here, looking very valuable."
+  keywords: ["treasure","coins"]
+  description: "A huge treasure is lying here, looking very valuable."
+  type: MONEY
+- id: o7299
+  name: "sword short"
+  roomDesc: "There lies a short sword."
+  keywords: ["sword","short"]
+  description: "There lies a short sword."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o7001
+  name: "backpack pack back"
+  roomDesc: "A backpack stands upright here."
+  keywords: ["backpack","pack","back"]
+  description: "A backpack stands upright here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o7000
+  name: "beltpouch pouch"
+  roomDesc: "A large beltpouch lies here on the ground."
+  keywords: ["beltpouch","pouch"]
+  description: "A large beltpouch lies here on the ground."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o7002
+  name: "orb dragonorb"
+  roomDesc: "A large reddish sphere is in the center of the room."
+  keywords: ["orb","dragonorb"]
+  description: "A large reddish sphere is in the center of the room."
+  type: STAFF
+- id: o7003
+  name: "red torso"
+  roomDesc: "There is a pile of red dragonscale on the floor."
+  keywords: ["red","torso"]
+  description: "There is a pile of red dragonscale on the floor."
+  type: HEAVYARMOR
+- id: o7004
+  name: "leggings red"
+  roomDesc: "On the floor you see two red dragonscale leggings."
+  keywords: ["leggings","red"]
+  description: "On the floor you see two red dragonscale leggings."
+  type: HEAVYARMOR
+- id: o7005
+  name: "claws dragonclaws red"
+  roomDesc: "You can see a pair of large red dragon claws on the floor."
+  keywords: ["claws","dragonclaws","red"]
+  description: "You can see a pair of large red dragon claws on the floor."
+  type: HEAVYARMOR
+- id: o7006
+  name: "skull dragonhelm red"
+  roomDesc: "A helmet fashioned into the likeness of a dragon skull is here."
+  keywords: ["skull","dragonhelm","red"]
+  description: "A helmet fashioned into the likeness of a dragon skull is here."
+  type: HEAVYARMOR
+- id: o7007
+  name: "shield red"
+  roomDesc: "A large red dragon shield rests on the floor."
+  keywords: ["shield","red"]
+  description: "A large red dragon shield rests on the floor."
+  type: SHIELD
+- id: o7008
+  name: "greaves red"
+  roomDesc: "A pair of a red dragon's rear claws is on the floor."
+  keywords: ["greaves","red"]
+  description: "A pair of a red dragon's rear claws is on the floor."
+  type: HEAVYARMOR
+- id: o7009
+  name: "arm guards red"
+  roomDesc: "On the ground you see two red arm guards."
+  keywords: ["arm","guards","red"]
+  description: "On the ground you see two red arm guards."
+  type: HEAVYARMOR

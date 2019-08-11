@@ -1,0 +1,24 @@
+- id: o6303
+  name: "headress pontiff's"
+  roomDesc: "A white cone-shaped head ornament with religious symbols lies here."
+  keywords: ["headress","pontiff's"]
+  description: "A white cone-shaped head ornament with religious symbols lies here."
+  type: LIGHTARMOR
+- id: o6304
+  name: "visor black knight's"
+  roomDesc: "A black visor sits here."
+  keywords: ["visor","black","knight's"]
+  description: "A black visor sits here."
+  type: HEAVYARMOR
+- id: o6308
+  name: "coins gold"
+  roomDesc: "A big pile of gold coins is lying here."
+  keywords: ["coins","gold"]
+  description: "A big pile of gold coins is lying here."
+  type: MONEY
+- id: o6309
+  name: "potion blue"
+  roomDesc: "A blue potion has been left here."
+  keywords: ["potion","blue"]
+  description: "A blue potion has been left here."
+  type: POTION

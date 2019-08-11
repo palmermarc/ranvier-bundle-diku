@@ -1,0 +1,12 @@
+title: "Midgaard"
+metadata:
+  id: 47
+  name: "Midgaard"
+  createdBy: "diku"
+  starting_vnum: 3000
+  ending_vnum: 3249
+  item_requirements: 50000
+  filename: "midgaard.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

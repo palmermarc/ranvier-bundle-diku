@@ -1,0 +1,20 @@
+---
+body: |
+  Syntax: open <object|direction>
+  Syntax: close <object|direction>
+  Syntax: lock <object|direction>
+  Syntax: unlock <object|direction>
+  Syntax: pick <object|direction>
+  
+  OPEN and CLOSE open and close an object or a door.
+  
+  LOCK and UNLOCK lock and unlock a closed object or door. You must have
+  the requisite key to LOCK or UNLOCK.
+  
+  PICK can open a lock without having the key. In order to PICK successfully,
+  you must practice the appropriate skill.
+  
+  - close
+  - lock
+  - unlock
+  - pick

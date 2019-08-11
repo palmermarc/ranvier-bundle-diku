@@ -1,0 +1,661 @@
+- id: m1500
+  keywords: ["child","gnome"]
+  name: "a gnome child"
+  description: >-
+    A gnome child is playing around here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 600
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "gnome:o1502": 75
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1501
+  keywords: ["woman","gnome"]
+  name: "a gnome woman"
+  description: >-
+    A gnome woman is standing here, trying to look beautiful.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 600
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 2
+- id: m1502
+  keywords: ["man","gnome"]
+  name: "a gnome man"
+  description: >-
+    A gnome man is walking here, on his way to work.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 427.5
+          max: 472.5
+      pools:
+        "gnome:o1503": 75
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1503
+  keywords: ["scientist","gnome"]
+  name: "a gnome scientist"
+  description: >-
+    A scientist wanders around deep in thought.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "gnome:o1511": 75
+        "gnome:o1514": 75
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1504
+  keywords: ["guard","gnome"]
+  name: "a gnome guard"
+  description: >-
+    A gnome guard stands here guarding something.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+      pools:
+        "gnome:o1507": 75
+        "gnome:o1500": 75
+        "gnome:o1506": 75
+        "gnome:o1504": 75
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1505
+  keywords: ["chief","gnome"]
+  name: "the chief gnome"
+  description: >-
+    A powerful looking gnome stands here wearing ornate clothes.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 550
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 7600
+          max: 8400
+      pools:
+        "gnome:o1508": 75
+        "gnome:o1509": 75
+        "gnome:o1510": 75
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1507
+  keywords: ["troll","small"]
+  name: "a small troll"
+  description: >-
+    A small troll grunts as he takes a swing at you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -900
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 760
+          max: 840
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1508
+  keywords: ["mouse","field"]
+  name: "a field mouse"
+  description: >-
+    A small mouse runs across your foot.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0.95
+          max: 1.05
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1509
+  keywords: ["rat"]
+  name: "a rat"
+  description: >-
+    A small rat shrieks and runs around.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 4.75
+          max: 5.25
+      pools:
+        "gnome:o1505": 75
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1510
+  keywords: ["rat","large"]
+  name: "a large rat"
+  description: >-
+    A large rat runs up to you and nibbles on your boots.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+      pools:
+        "gnome:o1503": 75
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1511
+  keywords: ["rat","giant"]
+  name: "a giant rat"
+  description: >-
+    A giant rat growls at you and prepares to attack.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 19
+          max: 21
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1512
+  keywords: ["troll"]
+  name: "the troll"
+  description: >-
+    A giant troll lumbers around.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 8550
+          max: 9450
+      pools:
+        "gnome:o1501": 75
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1513
+  keywords: ["bat","black"]
+  name: "a black bat"
+  description: >-
+    A black bat hangs from the ceiling.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0.95
+          max: 1.05
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 0
+- id: m1514
+  keywords: ["zombie","gnome"]
+  name: "the zombie gnome"
+  description: >-
+    A zombie gnome shuffles his way towards you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 661.2
+          max: 730.8
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 0
+- id: m1515
+  keywords: ["bat","fire"]
+  name: "the fire bat"
+  description: >-
+    The fire bat flames brightly and prepares to attack.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -900
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 5700
+          max: 6300
+      pools:
+        "gnome:o1505": 75
+        "gnome:o1512": 75
+        "gnome:o1516": 75
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1516
+  keywords: ["guard","hobgoblin"]
+  name: "the hobgoblin guard"
+  description: >-
+    The hobgoblin guard attacks first, thinks later.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 712.5
+          max: 787.5
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1517
+  keywords: ["soldier","hobgoblin"]
+  name: "the hobgoblin soldier"
+  description: >-
+    A hobgoblin soldier stands here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "gnome:o1521": 75
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1518
+  keywords: ["bodyguard","hobgoblin"]
+  name: "the hobgoblin bodyguard"
+  description: >-
+    A hobgoblin bodyguard guards the king with his life.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 570
+          max: 630
+      pools:
+        "gnome:o1521": 75
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1519
+  keywords: ["king","hobgoblin"]
+  name: "the king of the hobgoblins"
+  description: >-
+    There is a great king here, sitting in his throne.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 5700
+          max: 6300
+      pools:
+        "gnome:o1520": 75
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1520
+  keywords: ["miner","hobgoblin"]
+  name: "a hobgoblin miner"
+  description: >-
+    A hobgoblin miner stands here looking for gold.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 665
+          max: 735
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1521
+  keywords: ["treasurer","hobgoblin"]
+  name: "the treasurer"
+  description: >-
+    A treasurer is here counting out money.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1522
+  keywords: ["prisoner","gnome"]
+  name: "a gnome prisoner"
+  description: >-
+    A gnome prisoner is here resting in the straw.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0.95
+          max: 1.05
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1523
+  keywords: ["prisoner","human"]
+  name: "a human prisoner"
+  description: >-
+    A human prisoner is here resting in the straw.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0.95
+          max: 1.05
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 2
+- id: m1524
+  keywords: ["hermit","crab"]
+  name: "a hermit"
+  description: >-
+    A hermit crab crawls towards you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -10
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1
+- id: m1526
+  keywords: ["cook","hobgoblin"]
+  name: "the cook"
+  description: >-
+    A hobgoblin cook stands here cooking something.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -300
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 2470
+          max: 2730
+  metadata:
+    areaId: 29
+    exp_level: 8000
+    sex: 1

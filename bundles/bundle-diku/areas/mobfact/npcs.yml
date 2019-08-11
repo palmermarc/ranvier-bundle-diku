@@ -1,0 +1,184 @@
+- id: m9401
+  keywords: ["mutant","fido","dog"]
+  name: "The mutant beastly fido"
+  description: >-
+    The mutant beastly fido is here, his eyes glowing green!
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 4.75
+          max: 5.25
+  metadata:
+    areaId: 49
+    exp_level: 2000
+    sex: 1
+- id: m9402
+  keywords: ["foreman","floyd"]
+  name: "Foreman Floyd"
+  description: >-
+    Foreman Floyd is here, making plans for the factory's future.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 2
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 49
+    exp_level: 2000
+    sex: 1
+- id: m9403
+  keywords: ["cityguard","guard","head"]
+  name: "The Cityguard head"
+  description: >-
+    The Cityguard head floats around aimlessly.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 49
+    exp_level: 2000
+    sex: 0
+- id: m9404
+  keywords: ["revolving","drunk"]
+  name: "The revolving drunk"
+  description: >-
+    The Revolving drunk is here, spinning in place.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 1
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+  metadata:
+    areaId: 49
+    exp_level: 2000
+    sex: 1
+- id: m9405
+  keywords: ["toxic","slime"]
+  name: "The toxic slime"
+  description: >-
+    A pool of toxic slime lies on  the floor.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 49
+    exp_level: 2000
+    sex: 0
+- id: m9406
+  keywords: ["worker"]
+  name: "The factory worker"
+  description: >-
+    A Mob Factory worker is standing here, looking bored.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+  metadata:
+    areaId: 49
+    exp_level: 2000
+    sex: 1
+- id: m9407
+  keywords: ["worker"]
+  name: "The factory worker"
+  description: >-
+    A Mob Factory worker is here, asleep in a chair.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 150
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 71.25
+          max: 78.75
+  metadata:
+    areaId: 49
+    exp_level: 2000
+    sex: 2

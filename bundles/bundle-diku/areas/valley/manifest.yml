@@ -1,0 +1,12 @@
+title: "Valley of the Elves"
+metadata:
+  id: 81
+  name: "Valley of the Elves"
+  createdBy: "hatchet"
+  starting_vnum: 7800
+  ending_vnum: 7899
+  item_requirements: 6000
+  filename: "valley.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

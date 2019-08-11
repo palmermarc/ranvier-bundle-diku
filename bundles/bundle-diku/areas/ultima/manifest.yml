@@ -1,0 +1,12 @@
+title: "Ultima"
+metadata:
+  id: 79
+  name: "Ultima"
+  createdBy: "casret"
+  starting_vnum: 2400
+  ending_vnum: 2599
+  item_requirements: 20000
+  filename: "ultima.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

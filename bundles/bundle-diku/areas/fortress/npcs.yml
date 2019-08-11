@@ -1,0 +1,23 @@
+- id: m11000
+  keywords: ["dwarf","king","kragar","mighty"]
+  name: "Mighty King Kragar"
+  description: >-
+    The king of all of the dwarves in this fortress sits upon his throne.
+  level: 266
+  attributes:
+    health: 28000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 27
+    exp_level: 20000
+    sex: 1

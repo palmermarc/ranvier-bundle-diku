@@ -1,0 +1,12 @@
+title: "Plains of the North"
+metadata:
+  id: 58
+  name: "Plains of the North"
+  createdBy: "copper"
+  starting_vnum: 300
+  ending_vnum: 349
+  item_requirements: 10000
+  filename: "plains.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

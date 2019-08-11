@@ -1,0 +1,498 @@
+- id: m8301
+  keywords: ["troll"]
+  name: "a swamp troll"
+  description: >-
+    A swamp troll charges towards you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 1
+- id: m8302
+  keywords: ["troll"]
+  name: "a green troll"
+  description: >-
+    A green troll attempts to get a hold on you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 7600
+          max: 8400
+      pools:
+        "marsh:o8307": 75
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 1
+- id: m8303
+  keywords: ["ogre"]
+  name: "an ogre"
+  description: >-
+    An ogre stands here getting ready to beat in your face.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 1
+- id: m8304
+  keywords: ["thing"]
+  name: "the Swamp Thing"
+  description: >-
+    The Swamp Thing shambles about here.  It seems hungry.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 23750
+          max: 26250
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 0
+- id: m8305
+  keywords: ["gnoll"]
+  name: "a gnoll"
+  description: >-
+    There is a mean looking gnoll here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 23750
+          max: 26250
+      pools:
+        "marsh:o8303": 75
+        "marsh:o2200": 75
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 1
+- id: m8306
+  keywords: ["beast"]
+  name: "a huge hairy beast"
+  description: >-
+    A huge hairy beast shambles towards you with death in his eyes.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -450
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 1
+- id: m8307
+  keywords: ["beast"]
+  name: "a rather small beast"
+  description: >-
+    A rather small beast cringes in terror as it notices you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 1
+- id: m8308
+  keywords: ["will","will-o-wisp"]
+  name: "the Will-O-Wisp"
+  description: >-
+    A Will-O-Wisp darts hear and there, making fun of you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 2850
+          max: 3150
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 0
+- id: m8309
+  keywords: ["snake","anaconda"]
+  name: "the monstrous snake"
+  description: >-
+    A monstrous snake slithers towards you, thinking 'breakfast'.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 1
+- id: m8310
+  keywords: ["snake","python"]
+  name: "a large snake"
+  description: >-
+    A rather large python rests in a coil here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 2
+- id: m8312
+  keywords: ["hag"]
+  name: "the Marsh Hag"
+  description: >-
+    A Marsh Hag is here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 2
+- id: m8313
+  keywords: ["slaad"]
+  name: "a Death Slaad"
+  description: >-
+    A Death Slaad is standing here distraught.  He seems lost.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 13300
+          max: 14700
+      pools:
+        "marsh:o8306": 75
+        "marsh:o8302": 75
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 1
+- id: m8314
+  keywords: ["wolf"]
+  name: "a marsh wolf"
+  description: >-
+    A marsh wolf sniffs the ground has followed your scent.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 2
+- id: m8318
+  keywords: ["mound","shambling"]
+  name: "a shambling mound"
+  description: >-
+    A heap of garbage shambles towards you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "marsh:o8307": 75
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 0
+- id: m8319
+  keywords: ["shaman","orc"]
+  name: "the orc shaman"
+  description: >-
+    An orc shaman stands before you holding a staff and wearing robes.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 332.5
+          max: 367.5
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 1
+- id: m8320
+  keywords: ["giant"]
+  name: "a marsh giant"
+  description: >-
+    A marsh giant stomps towards you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "marsh:o8301": 75
+        "marsh:o8302": 75
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 1
+- id: m8321
+  keywords: ["gargoyle"]
+  name: "a gargoyle"
+  description: >-
+    A large gargoyle lands next to you, baring his fangs at you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+  metadata:
+    areaId: 45
+    exp_level: 4000
+    sex: 0

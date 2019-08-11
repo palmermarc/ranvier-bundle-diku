@@ -1,0 +1,12 @@
+title: "Quest Generator"
+metadata:
+  id: 62
+  name: "Quest Generator"
+  createdBy: "mute"
+  starting_vnum: 500
+  ending_vnum: 549
+  item_requirements: 0
+  filename: "quest.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

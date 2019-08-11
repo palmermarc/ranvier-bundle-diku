@@ -1,0 +1,289 @@
+- id: m5200
+  keywords: ["beholder"]
+  name: "The mighty beholder"
+  description: >-
+    You meet a beholder's deadly gaze!
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -870
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 21432
+          max: 23688
+      pools:
+        "thalos:o5208": 75
+        "thalos:o5223": 75
+  metadata:
+    areaId: 75
+    exp_level: 1000
+    sex: 0
+- id: m5201
+  keywords: ["lamia","beast"]
+  name: "The lamia"
+  description: >-
+    A strange lamia stands here waiting for her next meal.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -999
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "thalos:o5252": 75
+  metadata:
+    areaId: 75
+    exp_level: 1000
+    sex: 2
+- id: m5202
+  keywords: ["mimic","chest"]
+  name: "The mimic"
+  description: >-
+    A strong chest lies in one corner of the room.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 10
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "thalos:o5214": 75
+  metadata:
+    areaId: 75
+    exp_level: 1000
+    sex: 0
+- id: m5203
+  keywords: ["mimic","boulder"]
+  name: "The mimic"
+  description: >-
+    Two skeletons lie crushed under a large boulder.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -10
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "thalos:o5215": 75
+  metadata:
+    areaId: 75
+    exp_level: 1000
+    sex: 0
+- id: m5204
+  keywords: ["mimic","floor"]
+  name: "The mimic"
+  description: >-
+    The stone floor of this house has been ripped apart.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -140
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "thalos:o5218": 75
+  metadata:
+    areaId: 75
+    exp_level: 1000
+    sex: 0
+- id: m5205
+  keywords: ["mimic","pottery"]
+  name: "The mimic"
+  description: >-
+    Some broken shards of pottery lie strewn about the floor.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "thalos:o5214": 75
+  metadata:
+    areaId: 75
+    exp_level: 1000
+    sex: 0
+- id: m5206
+  keywords: ["mimic","planks"]
+  name: "The mimic"
+  description: >-
+    A few wooden planks lie stacked on a low shelf.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "thalos:o5222": 75
+  metadata:
+    areaId: 75
+    exp_level: 1000
+    sex: 0
+- id: m5207
+  keywords: ["lizard","horned"]
+  name: "The horned lizard"
+  description: >-
+    A small horned lizard flicks his tongue and slithers away.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 75
+    exp_level: 1000
+    sex: 0
+- id: m5208
+  keywords: ["golem","stone"]
+  name: "The stone golem"
+  description: >-
+    In the corner you see a large, stone golem faithfully standing watch.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4037.5
+          max: 4462.5
+      pools:
+        "thalos:o5221": 75
+        "thalos:o5224": 75
+        "thalos:o5200": 75
+        "thalos:o5204": 75
+        "thalos:o5226": 75
+        "thalos:o5203": 75
+        "thalos:o5205": 75
+        "thalos:o5206": 75
+        "thalos:o5201": 75
+        "thalos:o5202": 75
+  metadata:
+    areaId: 75
+    exp_level: 1000
+    sex: 0

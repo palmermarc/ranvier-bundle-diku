@@ -1,0 +1,12 @@
+title: "Dwarven Catacombs"
+metadata:
+  id: 10
+  name: "Dwarven Catacombs"
+  createdBy: "raff"
+  starting_vnum: 2000
+  ending_vnum: 2099
+  item_requirements: 4000
+  filename: "catacomb.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

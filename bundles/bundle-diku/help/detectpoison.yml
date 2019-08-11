@@ -1,0 +1,5 @@
+---
+body: |
+  Syntax: cast 'detect poison' <object>
+  
+  This spell detects the presence of poison in food or drink.

@@ -1,0 +1,261 @@
+- id: m25000
+  keywords: ["receptionist"]
+  name: "the receptionist"
+  description: >-
+    The receptionist stands here, ready to help.
+  level: 39
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 72
+    exp_level: 2999
+    sex: 2
+- id: m25002
+  keywords: ["helpful","member","staff"]
+  name: "the member of staff"
+  description: >-
+    A helpful member of staff stands here, giving directions.
+  level: 59
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 72
+    exp_level: 4499
+    sex: 1
+- id: m25003
+  keywords: ["clerk"]
+  name: "the clerk"
+  description: >-
+    A clerk stands here, ready to help you.
+  level: 33
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 72
+    exp_level: 2501
+    sex: 1
+- id: m25004
+  keywords: ["professor"]
+  name: "the professor"
+  description: >-
+    A professor stands here, ready to help you.
+  level: 34
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 72
+    exp_level: 2599
+    sex: 1
+- id: m25006
+  keywords: ["helpful","member","staff"]
+  name: "the member of staff"
+  description: >-
+    A helpful member of staff stands here, giving directions.
+  level: 61
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 72
+    exp_level: 4600
+    sex: 1
+- id: m25007
+  keywords: ["master","tactics"]
+  name: "the master of tactics"
+  description: >-
+    The master of tactics stands here, offering to teach you some tricks.
+  level: 100
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 500
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 72
+    exp_level: 7501
+    sex: 1
+- id: m25008
+  keywords: ["helpful","member","staff"]
+  name: "the member of staff"
+  description: >-
+    A helpful member of staff stands here, giving directions.
+  level: 63
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 150
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 72
+    exp_level: 4780
+    sex: 1
+- id: m25009
+  keywords: ["caine"]
+  name: "Caine"
+  description: >-
+    Caine the fallen one stands here, glaring insanely at you.
+  level: 32
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 72
+    exp_level: 2400
+    sex: 1
+- id: m25010
+  keywords: ["Motley"]
+  name: "Motley"
+  description: >-
+    Motley sits here, eating garbage and claiming to be a great player-killer.
+  level: 30
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 72
+    exp_level: 2301
+    sex: 0
+- id: m25012
+  keywords: ["rat"]
+  name: "a large rat"
+  description: >-
+    A large rat scampers around looking for food...like you!
+  level: 13
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 72
+    exp_level: 999
+    sex: 0
+- id: m25015
+  keywords: ["gatekeeper","keeper"]
+  name: "the gatekeeper"
+  description: >-
+    The gatekeeper stands here, guardian the portal.
+  level: 16
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 72
+    exp_level: 1201
+    sex: 1

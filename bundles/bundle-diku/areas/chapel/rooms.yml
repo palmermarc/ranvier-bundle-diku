@@ -1,0 +1,869 @@
+- id: r3405
+  title: "Inside the Chapel"
+  description: >-
+    You are in a small, dark chapel.  The dark brown glass in the tiny windows
+    do not let much light through.  A few rows of worn wooden benches stand here.
+  exits:
+    - roomId: "grave:r3604"
+      direction: north
+    - roomId: "chapel:r3421"
+      direction: down
+  npcs:
+    - id: "chapel:m3405"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "chapel:o3400"
+      respawnChance: 75
+- id: r3408
+  title: "Stairwell into Darkness "
+  description: >-
+    You sense even more danger coming from below but are urged onward ...
+  exits:
+    - roomId: "chapel:r3449"
+      direction: west
+    - roomId: "chapel:r3450"
+      direction: down
+- id: r3409
+  title: "The Acolyte's Bedroom"
+  description: >-
+    This is why you were not welcomed at the entrance by the tomb's faithful
+    servants ... blood and gore is ankle deep in here.
+    Oh NO! the door shut behind you!  It's a trap!
+    A bloodied corpse of an acolyte is lying here ...
+    A bloodied corpse of an acolyte is lying here ...
+    A bloodied corpse of an acolyte is lying here ...
+  npcs:
+    - id: "chapel:m3401"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "chapel:m3401"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "chapel:m3401"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "chapel:m3402"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3410
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3415"
+      direction: south
+    - roomId: "chapel:r3411"
+      direction: west
+  npcs:
+    - id: "chapel:m3400"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3411
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3410"
+      direction: north
+  npcs:
+    - id: "chapel:m3403"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "chapel:m3416"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r3412
+  title: "The Grand Hall of Kings"
+  description: >-
+    You are at the west end of the Grand Hall of Kings.  There is a doorway to the
+    south with something strange written above it.  Also on the floor are dried
+    blood stains, but their color seems a little wrong.
+  exits:
+    - roomId: "chapel:r3413"
+      direction: south
+    - roomId: "chapel:r3417"
+      direction: east
+- id: r3413
+  title: "The Shrine of Shohan"
+  description: >-
+    BLOOD EVERYWHERE!
+    The walls are coated with blood, bits of bloody flesh lie at your feet,
+    and torn clothing is scattered about.  It wouldn't disturb you in the least
+    except that it is all FRESH!  What ever used to pass as an altar here,
+    lies overturned and smashed.  Doors lead to the south and to the north.
+  exits:
+    - roomId: "chapel:r3412"
+      direction: north
+    - roomId: "chapel:r3414"
+      direction: south
+- id: r3414
+  title: "The Tomb of Shohan"
+  description: >-
+    Once beautiful, this place has been turned into a slaughterhouse by the hands
+    of evil beings ... even more blood and dead, rotting flesh.  This place looks
+    like the feeding grounds of beasts and monsters.  The overturned sarcophagus
+    of the once powerful King Shohan lies here.  A door leads to the north and a
+    doorway has been hewn to the east.
+  exits:
+    - roomId: "chapel:r3413"
+      direction: north
+    - roomId: "chapel:r3419"
+      direction: east
+  npcs:
+    - id: "chapel:m3401"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "chapel:m3401"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "chapel:m3401"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "chapel:m3401"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3415
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3410"
+      direction: south
+    - roomId: "chapel:r3416"
+      direction: east
+    - roomId: "chapel:r3420"
+      direction: west
+- id: r3416
+  title: "Entrance to the Lower Chambers"
+  description: >-
+    You can tell that this area wasn't a part of the original construction.
+    The walls have been hewn by a mighty force look as though they were CLAWED.
+    The passage slopes upward here and also continues to the north.
+  exits:
+    - roomId: "chapel:r3415"
+      direction: north
+    - roomId: "chapel:r3418"
+      direction: up
+- id: r3417
+  title: "The Grand Hall of Kings"
+  description: >-
+    This is the western wing of the Grand Hall of Kings.  Your only exits are to
+    the east and west in this gloomy hallway.
+  exits:
+    - roomId: "chapel:r3422"
+      direction: east
+    - roomId: "chapel:r3412"
+      direction: west
+  npcs:
+    - id: "chapel:m3413"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3418
+  title: "The Shrine of Cristis"
+  description: >-
+    Different than the rest, this place has not been desecrated.  An altar still
+    stands here and the walls show scenes from the life of Cristis the Kind,
+    a ruler of the outlying regions west of Midgaard.  There is a stone staircase
+    leading down.  The Ghost of Cristis the Kind stands here.
+  exits:
+    - roomId: "chapel:r3419"
+      direction: south
+    - roomId: "chapel:r3416"
+      direction: down
+  npcs:
+    - id: "chapel:m3413"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3419
+  title: "The Tomb of Cristis"
+  description: >-
+    Everything here has simply been destroyed.   Exits lead north and west.
+  exits:
+    - roomId: "chapel:r3418"
+      direction: north
+    - roomId: "chapel:r3414"
+      direction: west
+  npcs:
+    - id: "chapel:m3400"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3420
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3415"
+      direction: north
+    - roomId: "chapel:r3425"
+      direction: west
+- id: r3421
+  title: "Entrance Chamber to the Grand Hall of Kings"
+  description: >-
+    Whoever built this place must have been very rich indeed!  Though you did
+    enter through a rather small door this place has enough room to hold several
+    score of people.  The floor has a beautifully woven carpet, and the walls are
+    covered in finely crafted tapestries. You can tell that these things must have
+    been worth much but they have not lasted well throughout the ages.  Massive
+    doors lead off to the south and a large stone staircase leads up.
+  exits:
+    - roomId: "chapel:r3422"
+      direction: south
+    - roomId: "chapel:r3405"
+      direction: up
+- id: r3422
+  title: "The Grand Hall of Kings"
+  description: >-
+    A long hallway stretches east and west.  On the southern side of the hall
+    there are many doors, each with the name of a king who has died and is
+    entombed here.  The hallway is beautiful yet chilling.  Even though the area
+    has been kept well by acolytes, there remains a stench of the undead.
+  exits:
+    - roomId: "chapel:r3421"
+      direction: north
+    - roomId: "chapel:r3423"
+      direction: south
+    - roomId: "chapel:r3427"
+      direction: east
+    - roomId: "chapel:r3417"
+      direction: west
+- id: r3423
+  title: "The Shrine of Crotus"
+  description: >-
+    Mostly rubble, this place used to be the shrine of the famous king Crotus,
+    who saved the northern regions from being overrun by the goblin hordes of
+    100 years ago.  If not for him, Midgaard of course would have eventually been
+    conquered as well.  Though Crotus w`s a goodly king, it w`s rumored that he
+    turned to the dark ways in his dying years ... and died an evil man.
+  exits:
+    - roomId: "chapel:r3422"
+      direction: north
+    - roomId: "chapel:r3424"
+      direction: south
+- id: r3424
+  title: "The Tomb of Crotus"
+  description: >-
+    A sarcophagus lies in the middle of the room and seems undisturbed.
+    A hole has been knocked into the east wall.
+  exits:
+    - roomId: "chapel:r3423"
+      direction: north
+    - roomId: "chapel:r3429"
+      direction: east
+  npcs:
+    - id: "chapel:m3412"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "chapel:o3415"
+      respawnChance: 75
+- id: r3425
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3426"
+      direction: south
+    - roomId: "chapel:r3420"
+      direction: east
+- id: r3426
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3430"
+      direction: north
+    - roomId: "chapel:r3425"
+      direction: east
+  npcs:
+    - id: "chapel:m3409"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "chapel:m3409"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "chapel:m3416"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r3427
+  title: "The Grand Hall of Kings"
+  description: >-
+    You are in the western part of the Grand Hall of Kings.  To the south is a
+    door and to the east and west the hall continues.
+  exits:
+    - roomId: "chapel:r3428"
+      direction: south
+    - roomId: "chapel:r3432"
+      direction: east
+    - roomId: "chapel:r3422"
+      direction: west
+- id: r3428
+  title: "The Shrine of Mitnar"
+  description: >-
+    Mitnar w`s a gruesome beast of a man ... he loved battle ... and nothing
+    else.  Warriors did love Mitnar, and all fighting men honored him.
+    On the wall is depicted battle after battle after battle.
+    A small opening has been shaped carefully to the east.
+  exits:
+    - roomId: "chapel:r3427"
+      direction: north
+    - roomId: "chapel:r3429"
+      direction: south
+    - roomId: "chapel:r3433"
+      direction: east
+- id: r3429
+  title: "The Tomb of Mitnar"
+  description: >-
+    The wall paintings show men and women warriors alike bowing down to Mitnar,
+    prisoners of war being put to the sword by Mitnar, and great heaps of gold
+    and weapons under the feet of Mitnar.  Where his coffin w`s, there is now
+    only a rectangular blemish on the floor of the dusty room.
+  exits:
+    - roomId: "chapel:r3428"
+      direction: north
+    - roomId: "chapel:r3424"
+      direction: west
+- id: r3430
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3431"
+      direction: north
+    - roomId: "chapel:r3426"
+      direction: south
+    - roomId: "chapel:r3435"
+      direction: west
+  npcs:
+    - id: "chapel:m3400"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3431
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3436"
+      direction: east
+    - roomId: "chapel:r3430"
+      direction: west
+- id: r3432
+  title: "The Grand Hall of Kings"
+  description: >-
+    You are still walking through the gloomy hallway.
+  exits:
+    - roomId: "chapel:r3437"
+      direction: east
+    - roomId: "chapel:r3427"
+      direction: west
+  npcs:
+    - id: "chapel:m3413"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3433
+  title: "The Shrine of Frath"
+  description: >-
+    Little chunks of dried meat are spattered throughout this room.  The walls
+    are covered in gore.  Almost as if they were painted ... ICK!  You can
+    almost make out the design!
+  exits:
+    - roomId: "chapel:r3438"
+      direction: east
+    - roomId: "chapel:r3428"
+      direction: west
+- id: r3434
+  title: "The Tomb of Frath"
+  description: >-
+    UGH!  The sarcophagus is opened up and the mummified body lies out in the
+    open, ripped to pieces.  Gnawed pieces of flesh and bone are strewn here.
+  exits:
+    - roomId: "chapel:r3439"
+      direction: down
+  npcs:
+    - id: "chapel:m3411"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3435
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3440"
+      direction: south
+    - roomId: "chapel:r3430"
+      direction: east
+    - roomId: "chapel:r3436"
+      direction: west
+- id: r3436
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3441"
+      direction: north
+    - roomId: "chapel:r3435"
+      direction: south
+    - roomId: "chapel:r3431"
+      direction: east
+- id: r3437
+  title: "The Grand Hall of Kings"
+  description: >-
+    You are at the western end of the Grand Hall of Kings.  There is a
+    door leading north and the hallway continues west.
+  exits:
+    - roomId: "chapel:r3409"
+      direction: north
+    - roomId: "chapel:r3432"
+      direction: west
+  npcs:
+    - id: "chapel:m3402"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3438
+  title: "The Shrine of Jubal"
+  description: >-
+    This was once beautiful.  Now the huge tapestries have been torn down and the
+    carpeting pulled up ... the paintings on the ceiling are unreadable and the
+    altar is crumbled.
+  exits:
+    - roomId: "chapel:r3439"
+      direction: south
+    - roomId: "chapel:r3433"
+      direction: west
+- id: r3439
+  title: "The Tomb of Jubal"
+  description: >-
+    The smell coming off of the opened sarcophagus is nauseating.  The floor is
+    slightly crumpled and walls are raked ... but the worst part is the mummy ...
+    Jubal the Benevolent is missing his head!
+  exits:
+    - roomId: "chapel:r3438"
+      direction: north
+    - roomId: "chapel:r3434"
+      direction: up
+- id: r3440
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3445"
+      direction: south
+    - roomId: "chapel:r3435"
+      direction: east
+    - roomId: "chapel:r3441"
+      direction: west
+- id: r3441
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3436"
+      direction: north
+    - roomId: "chapel:r3446"
+      direction: south
+    - roomId: "chapel:r3440"
+      direction: east
+  npcs:
+    - id: "chapel:m3400"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "chapel:m3413"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3442
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3447"
+      direction: east
+    - roomId: "chapel:r3443"
+      direction: west
+  npcs:
+    - id: "chapel:m3416"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r3443
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3442"
+      direction: south
+    - roomId: "chapel:r3444"
+      direction: east
+- id: r3444
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3449"
+      direction: south
+    - roomId: "chapel:r3443"
+      direction: west
+  npcs:
+    - id: "chapel:m3409"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "chapel:m3409"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r3445
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3446"
+      direction: north
+    - roomId: "chapel:r3440"
+      direction: west
+- id: r3446
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3441"
+      direction: north
+    - roomId: "chapel:r3445"
+      direction: south
+    - roomId: "chapel:r3447"
+      direction: east
+- id: r3447
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3448"
+      direction: south
+    - roomId: "chapel:r3446"
+      direction: east
+    - roomId: "chapel:r3442"
+      direction: west
+  npcs:
+    - id: "chapel:m3402"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3448
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    This room has been totally hollowed out and smoothed, and a pit has been
+    drilled in the center of the floor.  There are extensive gruesome paintings
+    of beasts and monsters terrorizing the countryside; vampires sucking the
+    blood of beasts and humans alike.
+  exits:
+    - roomId: "chapel:r3447"
+      direction: north
+  npcs:
+    - id: "chapel:m3416"
+      respawnChance: 100
+      maxLoad: "4"
+  items:
+    - id: "chapel:o3420"
+      respawnChance: 75
+- id: r3449
+  title: "The Lower Chambers and Tombs of the Undead"
+  description: >-
+    The stench of death is heavy in these caverns.
+  exits:
+    - roomId: "chapel:r3408"
+      direction: north
+    - roomId: "chapel:r3444"
+      direction: south
+  npcs:
+    - id: "chapel:m3410"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3450
+  title: "Entrance to the Forbidden Catacombs"
+  description: >-
+    You have entered the forbidden catacombs.  This cave system must have been
+    built long ago.  The air is dank and smells of something dead ...  or maybe
+    undead.  Enter here at your own risk ... something evil abides.
+  exits:
+    - roomId: "chapel:r3451"
+      direction: north
+    - roomId: "chapel:r3453"
+      direction: south
+    - roomId: "chapel:r3452"
+      direction: east
+    - roomId: "chapel:r3454"
+      direction: west
+    - roomId: "chapel:r3408"
+      direction: up
+  npcs:
+    - id: "chapel:m3413"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3451
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3450"
+      direction: south
+    - roomId: "chapel:r3455"
+      direction: east
+- id: r3452
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3461"
+      direction: north
+    - roomId: "chapel:r3450"
+      direction: west
+  npcs:
+    - id: "chapel:m3407"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3453
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3450"
+      direction: north
+  npcs:
+    - id: "chapel:m3407"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3454
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3450"
+      direction: east
+  npcs:
+    - id: "chapel:m3402"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3455
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3456"
+      direction: south
+    - roomId: "chapel:r3451"
+      direction: west
+  npcs:
+    - id: "chapel:m3406"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r3456
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3455"
+      direction: north
+    - roomId: "chapel:r3457"
+      direction: east
+- id: r3457
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3458"
+      direction: south
+    - roomId: "chapel:r3456"
+      direction: west
+  npcs:
+    - id: "chapel:m3407"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3458
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3457"
+      direction: north
+    - roomId: "chapel:r3472"
+      direction: south
+    - roomId: "chapel:r3459"
+      direction: west
+- id: r3459
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3458"
+      direction: east
+    - roomId: "chapel:r3460"
+      direction: west
+- id: r3460
+  title: "Den of the Vampire"
+  description: >-
+    Your mind whirls in the hideous madness of this place.  The stench
+    is horrendous and dead bodies, sucked of life, lay all over.  One coffin
+    lies in the center of the room ... waiting for YOU!
+  exits:
+    - roomId: "chapel:r3459"
+      direction: east
+    - roomId: "chapel:r3475"
+      direction: down
+  npcs:
+    - id: "chapel:m3404"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3461
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3452"
+      direction: south
+    - roomId: "chapel:r3462"
+      direction: east
+- id: r3462
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3463"
+      direction: south
+    - roomId: "chapel:r3461"
+      direction: west
+  npcs:
+    - id: "chapel:m3402"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3463
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3462"
+      direction: north
+    - roomId: "chapel:r3464"
+      direction: east
+  npcs:
+    - id: "chapel:m3406"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r3464
+  title: "The Catacombs"
+  description: >-
+    Stone walls, musty air ... the earth seems to moan softly.
+  exits:
+    - roomId: "chapel:r3465"
+      direction: south
+    - roomId: "chapel:r3470"
+      direction: east
+    - roomId: "chapel:r3463"
+      direction: west
+- id: r3465
+  title: "The Gilded Hallway"
+  description: >-
+    Wow!  Although this hallway is quite filthy and dusty, it is noticeably
+    different than the rest of the catacombs ... but you don't feel safe yet.
+    The walls faintly show ancient detailed etchings in gold and silver of
+    ancient rituals ... not all of which seem pleasant.  The hallway continues
+    north into the catacombs and further south as long as you can see.
+  exits:
+    - roomId: "chapel:r3464"
+      direction: north
+    - roomId: "chapel:r3466"
+      direction: south
+  npcs:
+    - id: "chapel:m3407"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "chapel:m3407"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3466
+  title: "The Gilded Hallway"
+  description: >-
+    Ancient etchings and writing in intricate gold and silver designs fill these
+    walls.  You are tempted to linger and examine them closely.  Your light source
+    flickers off the walls showing you exits north and south.
+  exits:
+    - roomId: "chapel:r3465"
+      direction: north
+    - roomId: "chapel:r3467"
+      direction: south
+  npcs:
+    - id: "chapel:m3406"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r3467
+  title: "The Gilded Hallway"
+  description: >-
+    Ancient etchings and writing in intricate gold and silver designs fill these
+    walls.  You are tempted to linger and examine them closely.  Your light source
+    flickers off the walls showing you exits north and south.
+  exits:
+    - roomId: "chapel:r3466"
+      direction: north
+    - roomId: "chapel:r3468"
+      direction: south
+- id: r3468
+  title: "The Gilded Hallway"
+  description: >-
+    Ancient etchings and writing in intricate gold and silver designs fill these
+    walls.  You are tempted to linger and examine them closely.  Your light source
+    flickers off the walls showing you exits north and south.
+  exits:
+    - roomId: "chapel:r3467"
+      direction: north
+    - roomId: "chapel:r3469"
+      direction: south
+  npcs:
+    - id: "chapel:m3414"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "chapel:m3415"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3469
+  title: "The Gilded Hallway"
+  description: >-
+    Ancient etchings and writing in intricate gold and silver designs fill these
+    walls.  You are tempted to linger and examine them closely.  Your light source
+    flickers off the walls showing you exits north.
+  exits:
+    - roomId: "chapel:r3468"
+      direction: north
+- id: r3470
+  title: "A Secret Passageway"
+  description: >-
+    A secret passage!  You wonder where it may lead!
+  exits:
+    - roomId: "chapel:r3471"
+      direction: south
+- id: r3471
+  title: "A Secret Passageway"
+  description: >-
+    A secret passage!  You wonder where it may lead!
+  exits:
+    - roomId: "chapel:r3470"
+      direction: north
+  npcs:
+    - id: "chapel:m3408"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3472
+  title: "The Short Way to Hell ..."
+  description: >-
+    You fall ...
+                hmm .... it's getting really HOT!
+    You fall ...
+                            you fall ...
+         Slowly you are cooking as you fall further ... your skin is burning and
+    your hair evaporates ...
+                                               you fall ...
+                     and fall ...
+                                         AND STOP!
+    Welcome to HELL!
+    But even in Hell we give you another chance.
+- id: r3475
+  title: "Inside the coffin"
+  description: >-
+    You are inside a coffin.  It seems rather cramped in here.  You can climb
+    up out of the coffin, or you can wait for here the real occupant to join you.
+  exits:
+    - roomId: "chapel:r3460"
+      direction: up

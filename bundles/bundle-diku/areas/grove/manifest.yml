@@ -1,0 +1,12 @@
+title: "Holy Grove"
+metadata:
+  id: 31
+  name: "Holy Grove"
+  createdBy: "alfa"
+  starting_vnum: 8900
+  ending_vnum: 8949
+  item_requirements: 10000
+  filename: "grove.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

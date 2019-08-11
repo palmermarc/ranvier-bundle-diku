@@ -1,0 +1,5 @@
+---
+body: |
+  Syntax: cast 'dispel evil' <victim>
+  
+  This spell invokes the wrath of God on an evil victim.

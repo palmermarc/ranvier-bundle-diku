@@ -1,0 +1,8 @@
+---
+body: |
+  Syntax: SPLIT <amount>
+  
+  SPLIT splits some gold between you and all the members of your
+  group who are in the same room as you. It's customary to SPLIT
+  the gold after a kill.
+  

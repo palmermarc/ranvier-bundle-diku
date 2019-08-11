@@ -1,0 +1,12 @@
+title: "Gnome Village"
+metadata:
+  id: 29
+  name: "Gnome Village"
+  createdBy: "vougon"
+  starting_vnum: 1500
+  ending_vnum: 1599
+  item_requirements: 8000
+  filename: "gnome.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

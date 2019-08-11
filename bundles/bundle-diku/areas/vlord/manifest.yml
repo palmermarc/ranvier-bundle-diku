@@ -1,0 +1,12 @@
+title: "Halls of the Vampire Lords"
+metadata:
+  id: 83
+  name: "Halls of the Vampire Lords"
+  createdBy: "joker"
+  starting_vnum: 32000
+  ending_vnum: 32049
+  item_requirements: 0
+  filename: "vlord.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

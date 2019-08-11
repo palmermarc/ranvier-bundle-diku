@@ -1,0 +1,12 @@
+title: "Sentinel Area"
+metadata:
+  id: 66
+  name: "Sentinel Area"
+  createdBy: "troile"
+  starting_vnum: 12452
+  ending_vnum: 12499
+  item_requirements: 8000
+  filename: "sentinel.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

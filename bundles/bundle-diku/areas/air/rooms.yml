@@ -1,0 +1,770 @@
+- id: r1024
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above wall road.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1023"
+      direction: north
+    - roomId: "air:r1025"
+      direction: south
+    - roomId: "air:r1029"
+      direction: east
+    - roomId: "air:r1004"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1025
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above wall road.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1024"
+      direction: north
+    - roomId: "air:r1030"
+      direction: east
+    - roomId: "air:r1005"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1026
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above the ground north of Midgaard.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1027"
+      direction: south
+    - roomId: "air:r1031"
+      direction: east
+    - roomId: "air:r1021"
+      direction: west
+    - roomId: "air:r1006"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1027
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above the magic shop.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1026"
+      direction: north
+    - roomId: "air:r1028"
+      direction: south
+    - roomId: "air:r1032"
+      direction: east
+    - roomId: "air:r1022"
+      direction: west
+    - roomId: "air:r1007"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1028
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above main street.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1027"
+      direction: north
+    - roomId: "air:r1029"
+      direction: south
+    - roomId: "air:r1033"
+      direction: east
+    - roomId: "air:r1023"
+      direction: west
+    - roomId: "air:r1008"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1029
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above the mage guild.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1028"
+      direction: north
+    - roomId: "air:r1030"
+      direction: south
+    - roomId: "air:r1034"
+      direction: east
+    - roomId: "air:r1024"
+      direction: west
+    - roomId: "air:r1009"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1030
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above poor alley.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1029"
+      direction: north
+    - roomId: "air:r1035"
+      direction: east
+    - roomId: "air:r1025"
+      direction: west
+    - roomId: "air:r1010"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1031
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above the ground north of Midgaard.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1032"
+      direction: south
+    - roomId: "air:r1036"
+      direction: east
+    - roomId: "air:r1026"
+      direction: west
+    - roomId: "air:r1011"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1032
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above bakery and cleric guild.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1031"
+      direction: north
+    - roomId: "air:r1033"
+      direction: south
+    - roomId: "air:r1037"
+      direction: east
+    - roomId: "air:r1027"
+      direction: west
+    - roomId: "air:r1012"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1033
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above main street.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1032"
+      direction: north
+    - roomId: "air:r1034"
+      direction: south
+    - roomId: "air:r1038"
+      direction: east
+    - roomId: "air:r1028"
+      direction: west
+    - roomId: "air:r1013"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1034
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above the armoury.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1033"
+      direction: north
+    - roomId: "air:r1035"
+      direction: south
+    - roomId: "air:r1039"
+      direction: east
+    - roomId: "air:r1029"
+      direction: west
+    - roomId: "air:r1014"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1035
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above poor alley.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1034"
+      direction: north
+    - roomId: "air:r1040"
+      direction: east
+    - roomId: "air:r1030"
+      direction: west
+    - roomId: "air:r1015"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1036
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 30 meters above the temple spire.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1037"
+      direction: south
+    - roomId: "air:r1031"
+      direction: west
+    - roomId: "air:r1016"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1037
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above the temple square.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1036"
+      direction: north
+    - roomId: "air:r1038"
+      direction: south
+    - roomId: "air:r1032"
+      direction: west
+    - roomId: "air:r1017"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1038
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above market square.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1037"
+      direction: north
+    - roomId: "air:r1039"
+      direction: south
+    - roomId: "air:r1033"
+      direction: west
+    - roomId: "air:r1018"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1039
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above market square and commons square.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1038"
+      direction: north
+    - roomId: "air:r1040"
+      direction: south
+    - roomId: "air:r1034"
+      direction: west
+    - roomId: "air:r1019"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1040
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above commoners square and the dump.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1039"
+      direction: north
+    - roomId: "air:r1035"
+      direction: west
+    - roomId: "air:r1020"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1001
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above the ground north of the city.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1002"
+      direction: south
+    - roomId: "air:r1006"
+      direction: east
+    - roomId: "air:r1021"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1002
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 20 meters above the inside wall of West Midgaard.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1001"
+      direction: north
+    - roomId: "air:r1003"
+      direction: south
+    - roomId: "air:r1007"
+      direction: east
+    - roomId: "air:r1022"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1003
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 20 meters above the west gate of Midgaard.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1002"
+      direction: north
+    - roomId: "air:r1004"
+      direction: south
+    - roomId: "air:r1008"
+      direction: east
+    - roomId: "air:r1023"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1004
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above Wall Road.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1003"
+      direction: north
+    - roomId: "air:r1005"
+      direction: south
+    - roomId: "air:r1009"
+      direction: east
+    - roomId: "air:r1024"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1005
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above Wall Road.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1004"
+      direction: north
+    - roomId: "air:r1010"
+      direction: east
+    - roomId: "air:r1025"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1006
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above the ground north of Midgaard.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1007"
+      direction: south
+    - roomId: "air:r1011"
+      direction: east
+    - roomId: "air:r1001"
+      direction: west
+    - roomId: "air:r1026"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1007
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 20 meters above the magic shop.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1006"
+      direction: north
+    - roomId: "air:r1008"
+      direction: south
+    - roomId: "air:r1012"
+      direction: east
+    - roomId: "air:r1002"
+      direction: west
+    - roomId: "air:r1027"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1008
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above Main Street.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1007"
+      direction: north
+    - roomId: "air:r1009"
+      direction: south
+    - roomId: "air:r1013"
+      direction: east
+    - roomId: "air:r1003"
+      direction: west
+    - roomId: "air:r1028"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1009
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 20 meters above the Mage Guild Hall.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1008"
+      direction: north
+    - roomId: "air:r1010"
+      direction: south
+    - roomId: "air:r1014"
+      direction: east
+    - roomId: "air:r1004"
+      direction: west
+    - roomId: "air:r1029"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1010
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above Poor Alley.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1009"
+      direction: north
+    - roomId: "air:r1015"
+      direction: east
+    - roomId: "air:r1005"
+      direction: west
+    - roomId: "air:r1030"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1011
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above the ground north of Midgaard.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1012"
+      direction: south
+    - roomId: "air:r1016"
+      direction: east
+    - roomId: "air:r1006"
+      direction: west
+    - roomId: "air:r1031"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1012
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 20 meters above the bakery.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1011"
+      direction: north
+    - roomId: "air:r1013"
+      direction: south
+    - roomId: "air:r1017"
+      direction: east
+    - roomId: "air:r1007"
+      direction: west
+    - roomId: "air:r1032"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1013
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above Main Street.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1012"
+      direction: north
+    - roomId: "air:r1014"
+      direction: south
+    - roomId: "air:r1018"
+      direction: east
+    - roomId: "air:r1008"
+      direction: west
+    - roomId: "air:r1033"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1014
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 20 meters above Armoury.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1013"
+      direction: north
+    - roomId: "air:r1015"
+      direction: south
+    - roomId: "air:r1019"
+      direction: east
+    - roomId: "air:r1009"
+      direction: west
+    - roomId: "air:r1034"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1015
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above Poor Alley.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1014"
+      direction: north
+    - roomId: "air:r1020"
+      direction: east
+    - roomId: "air:r1010"
+      direction: west
+    - roomId: "air:r1035"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1016
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 10 meters above the temple spire of Midgaard
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1017"
+      direction: south
+    - roomId: "air:r1011"
+      direction: west
+    - roomId: "air:r1036"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1017
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above the Temple Square.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1016"
+      direction: north
+    - roomId: "air:r1018"
+      direction: south
+    - roomId: "air:r1012"
+      direction: west
+    - roomId: "air:r1037"
+      direction: up
+    - roomId: "midgaard:r3057"
+      direction: down
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1018
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above Market Square.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1017"
+      direction: north
+    - roomId: "air:r1019"
+      direction: south
+    - roomId: "air:r1013"
+      direction: west
+    - roomId: "air:r1038"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1019
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above Market and Commons.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1018"
+      direction: north
+    - roomId: "air:r1020"
+      direction: south
+    - roomId: "air:r1014"
+      direction: west
+    - roomId: "air:r1039"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1020
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above ground, overlooking the Common Square.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1019"
+      direction: north
+    - roomId: "air:r1015"
+      direction: west
+    - roomId: "air:r1040"
+      direction: up
+  npcs:
+    - id: "air:m1000"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1021
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above the ground just north of Midgaard.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1022"
+      direction: south
+    - roomId: "air:r1026"
+      direction: east
+    - roomId: "air:r1001"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1022
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 40 meters above the west gate of Midgaard.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1021"
+      direction: north
+    - roomId: "air:r1023"
+      direction: south
+    - roomId: "air:r1027"
+      direction: east
+    - roomId: "air:r1002"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"
+- id: r1023
+  title: "In the air ..."
+  description: >-
+    You are flying!
+    Currently you are about 60 meters above west gate of Midgaard.
+    It seems like you can see forever!
+  exits:
+    - roomId: "air:r1022"
+      direction: north
+    - roomId: "air:r1024"
+      direction: south
+    - roomId: "air:r1028"
+      direction: east
+    - roomId: "air:r1003"
+      direction: down
+  npcs:
+    - id: "air:m1001"
+      respawnChance: 100
+      maxLoad: "40"

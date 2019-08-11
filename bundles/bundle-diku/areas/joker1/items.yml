@@ -1,0 +1,18 @@
+- id: o24000
+  name: "gate key"
+  roomDesc: "A gate key has been left here."
+  keywords: ["gate","key"]
+  description: "A gate key has been left here."
+  type: KEY
+- id: o24001
+  name: "scroll riddle"
+  roomDesc: "A scroll has carelessly been left here."
+  keywords: ["scroll","riddle"]
+  description: "A scroll has carelessly been left here."
+  type: SCROLL
+- id: o24002
+  name: "dragonquest666"
+  roomDesc: "A White Dragonstone lies here gleaming."
+  keywords: ["dragonquest666"]
+  description: "A White Dragonstone lies here gleaming."
+  type: FOOD

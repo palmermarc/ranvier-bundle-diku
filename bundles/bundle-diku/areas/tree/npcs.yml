@@ -1,0 +1,406 @@
+- id: m10101
+  keywords: ["hollyphant"]
+  name: "a Hollyphant"
+  description: >-
+    A Hollyphant is delivering a message here.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 2470
+          max: 2730
+      pools:
+        "tree:o10109": 75
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 0
+- id: m10102
+  keywords: ["planetar"]
+  name: "a planetar"
+  description: >-
+    A planetar is here watching out for his master's interest.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "tree:o10103": 75
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 0
+- id: m10103
+  keywords: ["shedu"]
+  name: "a Shedu"
+  description: >-
+    A Shedu is here fighting evil.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 850
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "tree:o10105": 75
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 0
+- id: m10104
+  keywords: ["dretch","demon"]
+  name: "a dretch"
+  description: >-
+    A dretch is here slobbering on you.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 1
+- id: m10105
+  keywords: ["chasme","fly","demon"]
+  name: "a chasme"
+  description: >-
+    A chasme is flying around here.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -900
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 1
+- id: m10106
+  keywords: ["babau","ebony"]
+  name: "a babau"
+  description: >-
+    A babau is standing here looking for food.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 4275
+          max: 4725
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 0
+- id: m10107
+  keywords: ["yagnodemon","demon"]
+  name: "a yagnodemon"
+  description: >-
+    A yagnodemon is here flexing his giant-sized arm.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -950
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "tree:o10101": 75
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 1
+- id: m10108
+  keywords: ["kostchtchie","demon","kost"]
+  name: "Kostchtchie"
+  description: >-
+    Kostchtchie is here resting on his journey of evil.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 71250
+          max: 78750
+      pools:
+        "tree:o10102": 75
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 1
+- id: m10109
+  keywords: ["nabassu","demon"]
+  name: "a nabassu"
+  description: >-
+    A nabassu is here looking to upgrade his status.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -950
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 11875
+          max: 13125
+      pools:
+        "tree:o10107": 75
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 1
+- id: m10110
+  keywords: ["dragon","cloud"]
+  name: "a cloud dragon"
+  description: >-
+    A cloud dragon is here wanting to be left alone.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 47500
+          max: 52500
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 0
+- id: m10111
+  keywords: ["solar"]
+  name: "a solar"
+  description: >-
+    A solar is here contemplating the fight against evil.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 28500
+          max: 31500
+      pools:
+        "tree:o10106": 75
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 1
+- id: m10112
+  keywords: ["wemic"]
+  name: "a wemic"
+  description: >-
+    A wemic is hunting here.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "tree:o10104": 75
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 1
+- id: m10113
+  keywords: ["frost","giant"]
+  name: "a frost giant"
+  description: >-
+    A frost giant is here looking for treasure.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "tree:o10110": 75
+        "tree:o10108": 75
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 1
+- id: m10114
+  keywords: ["gorgimera"]
+  name: "a gorgimera"
+  description: >-
+    A gorgimera is here flexing its wings.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 23750
+          max: 26250
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 0
+- id: m10115
+  keywords: ["ratatosk"]
+  name: "Ratatosk"
+  description: >-
+    Ratatosk is here delivering the Gods' messages.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+  metadata:
+    areaId: 77
+    exp_level: 24000
+    sex: 0

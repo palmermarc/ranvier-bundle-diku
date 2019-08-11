@@ -1,0 +1,8 @@
+---
+body: |
+  Syntax: cast 'earthquake'
+  
+  This spell inflicts damage on every enemy character in the room.
+  Beware that other characters who are not yet fighting may attack
+  you as a result!
+  

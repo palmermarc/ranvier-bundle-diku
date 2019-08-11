@@ -1,0 +1,1075 @@
+- id: r14200
+  title: "The Main Gates"
+  description: >-
+    You are standing at the main gates to the fighting pits of Tar Zaroth. Once 
+    built outside a great city it provided it's people many years of entertainment. 
+    Although the city is long gone and it's resources depleted, the fighting pits 
+    still remain and pull in crowds as far away as Midgaard and Solace.
+    To the north you can hear the clashing of weapons and the scream of the dying, 
+    Dare you enter.
+  exits:
+    - roomId: "tarzaroth:r14201"
+      direction: north
+    - roomId: "haon:r6152"
+      direction: south
+  items:
+    - id: "tarzaroth:o14214"
+      respawnChance: 75
+- id: r14201
+  title: "Inside the Entrance"
+  description: >-
+    To the left and right of you are the guard posts, two fat over weight guards 
+    can be seen resting at their posts. The floor here is soiled with the markings 
+    of many foot prints and to the north the shouting and cheers gets louder as 
+    you approach the arena.
+  exits:
+    - roomId: "tarzaroth:r14204"
+      direction: north
+    - roomId: "tarzaroth:r14200"
+      direction: south
+    - roomId: "tarzaroth:r14203"
+      direction: east
+    - roomId: "tarzaroth:r14202"
+      direction: west
+- id: r14202
+  title: "A guard post"
+  description: >-
+    A small alcove where a guard can watch the comings and goings of would be 
+    participants or spectators. The room is small, dark and relatively clean.
+  exits:
+    - roomId: "tarzaroth:r14201"
+      direction: east
+  npcs:
+    - id: "tarzaroth:m14200"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r14203
+  title: "A guard post"
+  description: >-
+    A small alcove where a guard can watch the comings and goings of would be 
+    participants or spectators. The room is small, dark and relatively clean.
+  exits:
+    - roomId: "tarzaroth:r14201"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14200"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r14204
+  title: "Grand Gateway to the Arena"
+  description: >-
+    This is the entrance way, looking out you see a huge sand covered arena with 
+    many a beast and man fighting to the death. Screams from the crowd is almost 
+    deafening to the ears as the blood splattered arena is currently in use for 
+    the annual kill or be killed tournament.
+  exits:
+    - roomId: "tarzaroth:r14205"
+      direction: north
+    - roomId: "tarzaroth:r14201"
+      direction: south
+- id: r14205
+  title: "South wall of the Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+    You see the grand gates of the arena behind you to the south.
+  exits:
+    - roomId: "tarzaroth:r14212"
+      direction: north
+    - roomId: "tarzaroth:r14204"
+      direction: south
+    - roomId: "tarzaroth:r14208"
+      direction: east
+    - roomId: "tarzaroth:r14206"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14207"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "tarzaroth:m14213"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14206
+  title: "South wall of the Arena"
+  description: >-
+    A sand and blood covered place of death and misery. To the east of you lies 
+    the gates.
+  exits:
+    - roomId: "tarzaroth:r14213"
+      direction: north
+    - roomId: "tarzaroth:r14205"
+      direction: east
+    - roomId: "tarzaroth:r14207"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14212"
+      respawnChance: 100
+      maxLoad: "11"
+- id: r14207
+  title: "South wall of the Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14214"
+      direction: north
+    - roomId: "tarzaroth:r14206"
+      direction: east
+    - roomId: "tarzaroth:r14247"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14204"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r14208
+  title: "South wall of the Arena"
+  description: >-
+    A sand and blood covered place of death and misery. To the west of you lies 
+    the gates.
+  exits:
+    - roomId: "tarzaroth:r14211"
+      direction: north
+    - roomId: "tarzaroth:r14209"
+      direction: east
+    - roomId: "tarzaroth:r14205"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14204"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "tarzaroth:m14219"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r14209
+  title: "South wall of the Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14210"
+      direction: north
+    - roomId: "tarzaroth:r14251"
+      direction: east
+    - roomId: "tarzaroth:r14208"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14206"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14210
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14219"
+      direction: north
+    - roomId: "tarzaroth:r14209"
+      direction: south
+    - roomId: "tarzaroth:r14252"
+      direction: east
+    - roomId: "tarzaroth:r14211"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14208"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14211
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14218"
+      direction: north
+    - roomId: "tarzaroth:r14208"
+      direction: south
+    - roomId: "tarzaroth:r14210"
+      direction: east
+    - roomId: "tarzaroth:r14212"
+      direction: west
+- id: r14212
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14217"
+      direction: north
+    - roomId: "tarzaroth:r14205"
+      direction: south
+    - roomId: "tarzaroth:r14211"
+      direction: east
+    - roomId: "tarzaroth:r14213"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14219"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r14213
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14216"
+      direction: north
+    - roomId: "tarzaroth:r14206"
+      direction: south
+    - roomId: "tarzaroth:r14212"
+      direction: east
+    - roomId: "tarzaroth:r14214"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14213"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14214
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14215"
+      direction: north
+    - roomId: "tarzaroth:r14207"
+      direction: south
+    - roomId: "tarzaroth:r14213"
+      direction: east
+    - roomId: "tarzaroth:r14248"
+      direction: west
+- id: r14215
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14224"
+      direction: north
+    - roomId: "tarzaroth:r14214"
+      direction: south
+    - roomId: "tarzaroth:r14216"
+      direction: east
+    - roomId: "tarzaroth:r14230"
+      direction: west
+    - roomId: "tarzaroth:r14263"
+      direction: down
+  npcs:
+    - id: "tarzaroth:m14207"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14216
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14223"
+      direction: north
+    - roomId: "tarzaroth:r14213"
+      direction: south
+    - roomId: "tarzaroth:r14217"
+      direction: east
+    - roomId: "tarzaroth:r14215"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14213"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14217
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14222"
+      direction: north
+    - roomId: "tarzaroth:r14212"
+      direction: south
+    - roomId: "tarzaroth:r14218"
+      direction: east
+    - roomId: "tarzaroth:r14216"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14204"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14218
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14221"
+      direction: north
+    - roomId: "tarzaroth:r14211"
+      direction: south
+    - roomId: "tarzaroth:r14219"
+      direction: east
+    - roomId: "tarzaroth:r14217"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14211"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14219
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14220"
+      direction: north
+    - roomId: "tarzaroth:r14210"
+      direction: south
+    - roomId: "tarzaroth:r14229"
+      direction: east
+    - roomId: "tarzaroth:r14218"
+      direction: west
+    - roomId: "tarzaroth:r14264"
+      direction: down
+  npcs:
+    - id: "tarzaroth:m14214"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "tarzaroth:m14215"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "tarzaroth:m14221"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14220
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14237"
+      direction: north
+    - roomId: "tarzaroth:r14219"
+      direction: south
+    - roomId: "tarzaroth:r14227"
+      direction: east
+    - roomId: "tarzaroth:r14221"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14201"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r14221
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14236"
+      direction: north
+    - roomId: "tarzaroth:r14218"
+      direction: south
+    - roomId: "tarzaroth:r14220"
+      direction: east
+    - roomId: "tarzaroth:r14222"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14206"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14222
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14235"
+      direction: north
+    - roomId: "tarzaroth:r14217"
+      direction: south
+    - roomId: "tarzaroth:r14221"
+      direction: east
+    - roomId: "tarzaroth:r14223"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14212"
+      respawnChance: 100
+      maxLoad: "11"
+- id: r14223
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14234"
+      direction: north
+    - roomId: "tarzaroth:r14216"
+      direction: south
+    - roomId: "tarzaroth:r14222"
+      direction: east
+    - roomId: "tarzaroth:r14224"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14220"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "tarzaroth:m14222"
+      respawnChance: 100
+      maxLoad: "11"
+    - id: "tarzaroth:m14223"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r14224
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14233"
+      direction: north
+    - roomId: "tarzaroth:r14215"
+      direction: south
+    - roomId: "tarzaroth:r14223"
+      direction: east
+    - roomId: "tarzaroth:r14225"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14205"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "tarzaroth:m14215"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r14225
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14232"
+      direction: north
+    - roomId: "tarzaroth:r14230"
+      direction: south
+    - roomId: "tarzaroth:r14224"
+      direction: east
+    - roomId: "tarzaroth:r14226"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14221"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14226
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14231"
+      direction: north
+    - roomId: "tarzaroth:r14249"
+      direction: south
+    - roomId: "tarzaroth:r14225"
+      direction: east
+    - roomId: "tarzaroth:r14250"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14212"
+      respawnChance: 100
+      maxLoad: "11"
+- id: r14227
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14238"
+      direction: north
+    - roomId: "tarzaroth:r14229"
+      direction: south
+    - roomId: "tarzaroth:r14228"
+      direction: east
+    - roomId: "tarzaroth:r14220"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14213"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14228
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14239"
+      direction: north
+    - roomId: "tarzaroth:r14253"
+      direction: south
+    - roomId: "tarzaroth:r14227"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14204"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14229
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14227"
+      direction: north
+    - roomId: "tarzaroth:r14252"
+      direction: south
+    - roomId: "tarzaroth:r14253"
+      direction: east
+    - roomId: "tarzaroth:r14219"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14205"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r14230
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14225"
+      direction: north
+    - roomId: "tarzaroth:r14248"
+      direction: south
+    - roomId: "tarzaroth:r14215"
+      direction: east
+    - roomId: "tarzaroth:r14249"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14218"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "tarzaroth:m14223"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14231
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14226"
+      direction: south
+    - roomId: "tarzaroth:r14232"
+      direction: east
+  npcs:
+    - id: "tarzaroth:m14204"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14232
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14240"
+      direction: north
+    - roomId: "tarzaroth:r14225"
+      direction: south
+    - roomId: "tarzaroth:r14233"
+      direction: east
+    - roomId: "tarzaroth:r14231"
+      direction: west
+- id: r14233
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14241"
+      direction: north
+    - roomId: "tarzaroth:r14224"
+      direction: south
+    - roomId: "tarzaroth:r14234"
+      direction: east
+    - roomId: "tarzaroth:r14232"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14210"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "tarzaroth:m14212"
+      respawnChance: 100
+      maxLoad: "11"
+    - id: "tarzaroth:m14214"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14234
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14242"
+      direction: north
+    - roomId: "tarzaroth:r14223"
+      direction: south
+    - roomId: "tarzaroth:r14235"
+      direction: east
+    - roomId: "tarzaroth:r14233"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14205"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r14235
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14243"
+      direction: north
+    - roomId: "tarzaroth:r14222"
+      direction: south
+    - roomId: "tarzaroth:r14236"
+      direction: east
+    - roomId: "tarzaroth:r14234"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14207"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14236
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14244"
+      direction: north
+    - roomId: "tarzaroth:r14221"
+      direction: south
+    - roomId: "tarzaroth:r14237"
+      direction: east
+    - roomId: "tarzaroth:r14235"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14218"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r14237
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14245"
+      direction: north
+    - roomId: "tarzaroth:r14220"
+      direction: south
+    - roomId: "tarzaroth:r14238"
+      direction: east
+    - roomId: "tarzaroth:r14236"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14209"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14238
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14246"
+      direction: north
+    - roomId: "tarzaroth:r14227"
+      direction: south
+    - roomId: "tarzaroth:r14239"
+      direction: east
+    - roomId: "tarzaroth:r14237"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14206"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14239
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14228"
+      direction: south
+    - roomId: "tarzaroth:r14238"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14221"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14240
+  title: "West wall of the arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14254"
+      direction: north
+    - roomId: "tarzaroth:r14232"
+      direction: south
+    - roomId: "tarzaroth:r14241"
+      direction: east
+  npcs:
+    - id: "tarzaroth:m14208"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14241
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14255"
+      direction: north
+    - roomId: "tarzaroth:r14233"
+      direction: south
+    - roomId: "tarzaroth:r14242"
+      direction: east
+    - roomId: "tarzaroth:r14240"
+      direction: west
+    - roomId: "tarzaroth:r14266"
+      direction: down
+  npcs:
+    - id: "tarzaroth:m14216"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r14242
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14257"
+      direction: north
+    - roomId: "tarzaroth:r14234"
+      direction: south
+    - roomId: "tarzaroth:r14243"
+      direction: east
+    - roomId: "tarzaroth:r14241"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14206"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14243
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14258"
+      direction: north
+    - roomId: "tarzaroth:r14235"
+      direction: south
+    - roomId: "tarzaroth:r14244"
+      direction: east
+    - roomId: "tarzaroth:r14242"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14212"
+      respawnChance: 100
+      maxLoad: "11"
+- id: r14244
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14259"
+      direction: north
+    - roomId: "tarzaroth:r14236"
+      direction: south
+    - roomId: "tarzaroth:r14245"
+      direction: east
+    - roomId: "tarzaroth:r14243"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14207"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14245
+  title: "The Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14260"
+      direction: north
+    - roomId: "tarzaroth:r14237"
+      direction: south
+    - roomId: "tarzaroth:r14246"
+      direction: east
+    - roomId: "tarzaroth:r14244"
+      direction: west
+    - roomId: "tarzaroth:r14265"
+      direction: down
+  npcs:
+    - id: "tarzaroth:m14222"
+      respawnChance: 100
+      maxLoad: "11"
+    - id: "tarzaroth:m14223"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14246
+  title: "East wall of the Arena"
+  description: >-
+    A sand and blood covered place of death and misery.
+  exits:
+    - roomId: "tarzaroth:r14261"
+      direction: north
+    - roomId: "tarzaroth:r14238"
+      direction: south
+    - roomId: "tarzaroth:r14245"
+      direction: west
+- id: r14247
+  title: "South-west corner"
+  description: >-
+    A nice corner of the Arena to attack your opponents. the sand here is alot 
+    more free from the sign's of battle.
+  exits:
+    - roomId: "tarzaroth:r14248"
+      direction: north
+    - roomId: "tarzaroth:r14207"
+      direction: east
+- id: r14248
+  title: "West wall of the Arena"
+  description: >-
+    From here you can make out the faces of individual spectators, they manicly 
+    watch as the carnage unfolds.
+  exits:
+    - roomId: "tarzaroth:r14230"
+      direction: north
+    - roomId: "tarzaroth:r14247"
+      direction: south
+    - roomId: "tarzaroth:r14214"
+      direction: east
+  npcs:
+    - id: "tarzaroth:m14214"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14249
+  title: "West wall of the Arena"
+  description: >-
+    From here you can make out the faces of individual spectators, they manicly 
+    watch as the carnage unfolds.
+  exits:
+    - roomId: "tarzaroth:r14226"
+      direction: north
+    - roomId: "tarzaroth:r14230"
+      direction: east
+- id: r14250
+  title: "Inside the wall"
+  description: >-
+    A panel slides shut behind you!!!
+    You stand inside a small hidden room inside the walls of the Arena, which 
+    must have been used many years ago by certain lucky contestants. Dust covers 
+    every part of this room and it is dark here.
+    You see a small inscription carved into the wall.
+  exits:
+    - roomId: "tarzaroth:r14226"
+      direction: east
+- id: r14251
+  title: "South-east corner"
+  description: >-
+    A nice corner of the Arena to attack your opponents. the sand here is alot 
+    more free from the sign's of battle.
+  exits:
+    - roomId: "tarzaroth:r14252"
+      direction: north
+    - roomId: "tarzaroth:r14209"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14201"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "tarzaroth:m14204"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14252
+  title: "East wall of the Arena"
+  description: >-
+    From here you can make out the faces of individual spectators, they manicly 
+    watch as the carnage unfolds.
+  exits:
+    - roomId: "tarzaroth:r14229"
+      direction: north
+    - roomId: "tarzaroth:r14251"
+      direction: south
+    - roomId: "tarzaroth:r14210"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14216"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r14253
+  title: "East wall of the Arena"
+  description: >-
+    From here you can make out the faces of individual spectators, they manicly 
+    watch as the carnage unfolds.
+  exits:
+    - roomId: "tarzaroth:r14228"
+      direction: north
+    - roomId: "tarzaroth:r14229"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14208"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14254
+  title: "North-west corner of the Arena"
+  description: >-
+    The sand here is alot more free from the sign's of battle. To the east of 
+    you is the entrance to a large cage mounted in the wall.
+  exits:
+    - roomId: "tarzaroth:r14240"
+      direction: south
+    - roomId: "tarzaroth:r14255"
+      direction: east
+  npcs:
+    - id: "tarzaroth:m14201"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r14255
+  title: "Infront of a cage"
+  description: >-
+    In the north wall is a large cage door that is slightly ajar, it's old and 
+    rusted but moveable. Corpses lie littered around here mauled and the smell 
+    wafting from the mouth of the cage is almost unbearable.
+  exits:
+    - roomId: "tarzaroth:r14256"
+      direction: north
+    - roomId: "tarzaroth:r14241"
+      direction: south
+    - roomId: "tarzaroth:r14257"
+      direction: east
+    - roomId: "tarzaroth:r14254"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14208"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14256
+  title: "The lions cage"
+  description: >-
+    Inside you find that the smell is coming from an abundance of rotting flesh 
+    and bones, they sit knee high and it looks like it's owner wants to add you 
+    to it's collection.
+  exits:
+    - roomId: "tarzaroth:r14255"
+      direction: south
+  npcs:
+    - id: "tarzaroth:m14202"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14257
+  title: "North wall of the Arena"
+  description: >-
+    From here you can make out the faces of individual spectators, they manicly 
+    watch as the carnage unfolds.
+    To the east and west of here are entrances.
+  exits:
+    - roomId: "tarzaroth:r14242"
+      direction: south
+    - roomId: "tarzaroth:r14258"
+      direction: east
+    - roomId: "tarzaroth:r14255"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14204"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14258
+  title: "North wall of the Arena"
+  description: >-
+    From here you can make out the faces of individual spectators, they manicly 
+    watch as the carnage unfolds.
+    To the north is what looks like a slave pen of sorts.
+  exits:
+    - roomId: "tarzaroth:r14262"
+      direction: north
+    - roomId: "tarzaroth:r14243"
+      direction: south
+    - roomId: "tarzaroth:r14259"
+      direction: east
+    - roomId: "tarzaroth:r14257"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14220"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14259
+  title: "North wall of the Arena"
+  description: >-
+    From here you can make out the faces of individual spectators, they manicly 
+    watch as the carnage unfolds.
+  exits:
+    - roomId: "tarzaroth:r14244"
+      direction: south
+    - roomId: "tarzaroth:r14260"
+      direction: east
+    - roomId: "tarzaroth:r14258"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14205"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "tarzaroth:m14221"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14260
+  title: "North wall of the Arena"
+  description: >-
+    From here you can make out the faces of individual spectators, they manicly 
+    watch as the carnage unfolds.
+  exits:
+    - roomId: "tarzaroth:r14245"
+      direction: south
+    - roomId: "tarzaroth:r14261"
+      direction: east
+    - roomId: "tarzaroth:r14259"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14212"
+      respawnChance: 100
+      maxLoad: "11"
+- id: r14261
+  title: "North-East corner of the Arena"
+  description: >-
+    In the far north eastern corner of the arena, you can see the carnage unfold 
+    in all it's glory. The sand gives off an earie red glow as the sun passes 
+    over.
+  exits:
+    - roomId: "tarzaroth:r14246"
+      direction: south
+    - roomId: "tarzaroth:r14260"
+      direction: west
+  npcs:
+    - id: "tarzaroth:m14201"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r14262
+  title: "Slave pen"
+  description: >-
+    A small dark unkept room used to house slaves. Beds of various sizes litter 
+    the room.
+  exits:
+    - roomId: "tarzaroth:r14258"
+      direction: south
+  npcs:
+    - id: "tarzaroth:m14203"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r14263
+  title: "Pit trap"
+  description: >-
+    You are in a square pit lined with spikes.
+    Bodies cover the floor of the pit.
+  exits:
+    - roomId: "tarzaroth:r14215"
+      direction: up
+  npcs:
+    - id: "tarzaroth:m14217"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r14264
+  title: "Pit trap"
+  description: >-
+    You are in a square pit lined with spikes.
+    Bodies cover the floor of the pit.
+  exits:
+    - roomId: "tarzaroth:r14219"
+      direction: up
+  npcs:
+    - id: "tarzaroth:m14217"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r14265
+  title: "Pit trap"
+  description: >-
+    You are in a square pit lined with spikes.
+    Bodies cover the floor of the pit.
+  exits:
+    - roomId: "tarzaroth:r14245"
+      direction: up
+  npcs:
+    - id: "tarzaroth:m14217"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r14266
+  title: "Pit trap"
+  description: >-
+    You are in a square pit lined with spikes.
+    Bodies cover the floor of the pit.
+  exits:
+    - roomId: "tarzaroth:r14241"
+      direction: up
+  npcs:
+    - id: "tarzaroth:m14217"
+      respawnChance: 100
+      maxLoad: "4"

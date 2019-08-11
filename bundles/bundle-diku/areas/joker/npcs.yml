@@ -1,0 +1,942 @@
+- id: m20000
+  keywords: ["master","vampire"]
+  name: "the master vampire"
+  description: >-
+    A master vampire is here, looking at his next meal.
+  level: 266
+  attributes:
+    health: 28000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "joker:o30053": 75
+  metadata:
+    areaId: 38
+    exp_level: 20000
+    sex: 1
+- id: m20001
+  keywords: ["Monsignor","Ameliano"]
+  name: "the monsignor Ameliano"
+  description: >-
+    Monsignor Ameliano is here, looking very powerful.
+  level: 100
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 2000
+    damroll: 10000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 29001
+    sex: 1
+- id: m20002
+  keywords: ["It"]
+  name: "It"
+  description: >-
+    It's here!
+  level: 26
+  attributes:
+    health: 2000
+    armor: 0
+    hitroll: 50
+    damroll: 10
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 2000
+    sex: 1
+- id: m20003
+  keywords: ["Lurker"]
+  name: "Lurker"
+  description: >-
+    The Lurker is here lurking
+  level: 33
+  attributes:
+    health: 2000
+    armor: 0
+    hitroll: 25
+    damroll: 50
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 2499
+    sex: 1
+- id: m20004
+  keywords: ["Shadowguardian"]
+  name: "Shadowguardian"
+  description: >-
+    The shadowguardian is here guarding
+  level: 46
+  attributes:
+    health: 3000
+    armor: -50
+    hitroll: 50
+    damroll: 50
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 3499
+    sex: 1
+- id: m20005
+  keywords: ["Enkil"]
+  name: "Enkil the Vampire"
+  description: >-
+    Enkil the first vampire is here.
+  level: 400
+  attributes:
+    health: 30000
+    armor: -1000
+    hitroll: 9000
+    damroll: 9000
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 30001
+    sex: 1
+- id: m20006
+  keywords: ["Neogi"]
+  name: "Neogi"
+  description: >-
+    A Neogi is here looking evil
+  level: 80
+  attributes:
+    health: 9500
+    armor: -250
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 6000
+    sex: 1
+- id: m20011
+  keywords: ["Cernan"]
+  name: "Cernan the Lord of the Beasts"
+  description: >-
+    Cernan commands here
+  level: 213
+  attributes:
+    health: 30000
+    armor: -500
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 16000
+    sex: 1
+- id: m20012
+  keywords: ["guardian","holy"]
+  name: "the Holy Guardian"
+  description: >-
+    A Holy Guardian stands here.
+  level: 333
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 600
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "joker:o20013": 75
+  metadata:
+    areaId: 38
+    exp_level: 24999
+    sex: 1
+- id: m20013
+  keywords: ["statue","stone"]
+  name: "the statue of Jevarrel"
+  description: >-
+    A huge stone statue of Jevarrel stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27000
+    sex: 1
+- id: m20014
+  keywords: ["statue","stone"]
+  name: "the statue of Cosmic"
+  description: >-
+    A huge stone statue of Cosmic stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27001
+    sex: 1
+- id: m20015
+  keywords: ["statue","stone"]
+  name: "the statue of Zero"
+  description: >-
+    A huge stone statue of Zero stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27000
+    sex: 1
+- id: m20016
+  keywords: ["statue","stone"]
+  name: "the statue of VirusII"
+  description: >-
+    A huge stone statue of VirusII stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27001
+    sex: 1
+- id: m20017
+  keywords: ["statue","stone"]
+  name: "the statue of Gambit"
+  description: >-
+    A huge stone statue of Gambit stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27000
+    sex: 1
+- id: m20018
+  keywords: ["statue","stone"]
+  name: "the statue of Viggalentius"
+  description: >-
+    A huge stone statue of Viggalentius stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27000
+    sex: 1
+- id: m20019
+  keywords: ["statue","stone"]
+  name: "the statue of Kidd"
+  description: >-
+    A huge stone statue of Kidd stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27000
+    sex: 1
+- id: m20020
+  keywords: ["statue","stone"]
+  name: "the statue of Omega"
+  description: >-
+    A huge stone statue of Omega stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27001
+    sex: 1
+- id: m20021
+  keywords: ["statue","stone"]
+  name: "the statue of Uriel"
+  description: >-
+    A huge stone statue of Uriel stands here.
+  level: 362
+  attributes:
+    health: 25000
+    armor: -1000
+    hitroll: 550
+    damroll: 550
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27200
+    sex: 2
+- id: m20022
+  keywords: ["statue","stone"]
+  name: "the statue of Lobo"
+  description: >-
+    A huge stone statue of Lobo stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27001
+    sex: 1
+- id: m20023
+  keywords: ["statue","stone"]
+  name: "the statue of Iftikar"
+  description: >-
+    A huge stone statue of Iftikar stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27001
+    sex: 1
+- id: m20024
+  keywords: ["statue","stone"]
+  name: "the statue of Cool"
+  description: >-
+    A huge stone statue of Cool stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27000
+    sex: 2
+- id: m20025
+  keywords: ["statue","stone"]
+  name: "the statue of Poison Ivy"
+  description: >-
+    A huge stone statue of Poison Ivy stands here.
+  level: 359
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 26999
+    sex: 2
+- id: m20026
+  keywords: ["statue","stone"]
+  name: "the statue of The Mad Midnight Bomber"
+  description: >-
+    A huge stone statue of The Mad Midnight Bomber stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "joker:o20011": 75
+  metadata:
+    areaId: 38
+    exp_level: 27000
+    sex: 1
+- id: m20027
+  keywords: ["statue","stone"]
+  name: "the statue of Crono"
+  description: >-
+    A huge stone statue of Crono stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27000
+    sex: 1
+- id: m20028
+  keywords: ["guardian","holy"]
+  name: "the Holy Guardian"
+  description: >-
+    A Holy Guardian stands here.
+  level: 366
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 900
+    damroll: 600
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "joker:o20014": 75
+  metadata:
+    areaId: 38
+    exp_level: 27500
+    sex: 1
+- id: m20029
+  keywords: ["guardian","holy"]
+  name: "the Holy Guardian"
+  description: >-
+    A Holy Guardian stands here.
+  level: 386
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 1200
+    damroll: 800
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "joker:o20015": 75
+  metadata:
+    areaId: 38
+    exp_level: 29000
+    sex: 1
+- id: m20030
+  keywords: ["statue","stone"]
+  name: "the statue of Doink"
+  description: >-
+    A huge stone statue of Doink stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27000
+    sex: 1
+- id: m20031
+  keywords: ["statue","stone"]
+  name: "the statue of Renno"
+  description: >-
+    A huge stone statue of Renno stands here.
+  level: 359
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 26999
+    sex: 1
+- id: m20032
+  keywords: ["statue","stone"]
+  name: "the statue of Turalyon"
+  description: >-
+    A huge stone statue of Turalyon stands here.
+  level: 359
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 26999
+    sex: 1
+- id: m20033
+  keywords: ["statue","stone"]
+  name: "the statue of Keldorn"
+  description: >-
+    A huge stone statue of Keldorn stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27001
+    sex: 1
+- id: m20034
+  keywords: ["statue","stone"]
+  name: "the statue of Moriden"
+  description: >-
+    A huge stone statue of Moriden stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27000
+    sex: 1
+- id: m20035
+  keywords: ["statue","stone"]
+  name: "the statue of Gozer"
+  description: >-
+    A huge stone statue of Gozer stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27000
+    sex: 1
+- id: m20036
+  keywords: ["statue","stone"]
+  name: "the statue of Doc"
+  description: >-
+    A huge stone statue of Doc stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27000
+    sex: 1
+- id: m20037
+  keywords: ["statue","stone"]
+  name: "the statue of Arabella"
+  description: >-
+    A huge stone statue of Arabella stands here.
+  level: 359
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "joker:o20016": 75
+  metadata:
+    areaId: 38
+    exp_level: 26999
+    sex: 2
+- id: m20038
+  keywords: ["statue","stone"]
+  name: "the statue of Sugarbear"
+  description: >-
+    A huge stone statue of Sugarbear stands here.
+  level: 359
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 26999
+    sex: 2
+- id: m20039
+  keywords: ["statue","stone"]
+  name: "the statue of Goten"
+  description: >-
+    A huge stone statue of Goten stands here.
+  level: 360
+  attributes:
+    health: 25000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 38
+    exp_level: 27001
+    sex: 1
+- id: m20040
+  keywords: ["master","vampire"]
+  name: "the master vampire"
+  description: >-
+    A master vampire is here, looking at his next meal.
+  level: 266
+  attributes:
+    health: 28000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "joker:o20017": 75
+  metadata:
+    areaId: 38
+    exp_level: 20000
+    sex: 1
+- id: m20041
+  keywords: ["master","vampire"]
+  name: "the master vampire"
+  description: >-
+    A master vampire is here, looking at his next meal.
+  level: 266
+  attributes:
+    health: 28000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "joker:o20012": 75
+  metadata:
+    areaId: 38
+    exp_level: 20000
+    sex: 1

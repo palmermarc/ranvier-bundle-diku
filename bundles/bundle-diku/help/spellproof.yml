@@ -1,0 +1,8 @@
+---
+body: |
+  Syntax: cast spellproof <object>
+  
+  This spell makes the target object immune to the destructive powers of 
+  the various magical attacks. No protection from physical attacks is 
+  granted.
+  

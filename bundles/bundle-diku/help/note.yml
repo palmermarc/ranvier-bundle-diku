@@ -1,0 +1,27 @@
+---
+body: |
+  Syntax: note list
+  Syntax: note read <number>
+  Syntax: note read all
+  Syntax: note + <message>
+  Syntax: note subject <string>
+  Syntax: note to <to-list>
+  Syntax: note clear
+  Syntax: note show
+  Syntax: note post
+  Syntax: note remove <number>
+  
+  NOTE LIST lists notes which you can read. NOTE READ reads one or all notes.
+  
+  NOTE SUBJECT sets the subject line of a new note. NOTE TO sets the list of
+  recipients. The recipient ALL means all players, and the recipient IMMORTAL
+  means all immortals. Use NOTE + to write message lines onto the note, one line
+  at a time. NOTE SHOW shows your note in progress; NOTE CLEAR starts over.
+  
+  NOTE POST posts your note for reading. Posting is not automatic.
+  
+  NOTE REMOVE removes the entire note if you are the sender, or just removes you
+  from the to-list if you are a recipient.
+  
+  Disabled currently for players.
+  

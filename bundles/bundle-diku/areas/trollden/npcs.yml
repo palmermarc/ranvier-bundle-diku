@@ -1,0 +1,263 @@
+- id: m2800
+  keywords: ["guardian","beast"]
+  name: "the guardian beast"
+  description: >-
+    A guardian beast stares at you and snarls in rage.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 78
+    exp_level: 4000
+    sex: 1
+- id: m2801
+  keywords: ["young","troll"]
+  name: "the young troll"
+  description: >-
+    A young troll is sitting down, chewing on a bone.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 78
+    exp_level: 4000
+    sex: 1
+- id: m2802
+  keywords: ["medium","troll"]
+  name: "the medium troll"
+  description: >-
+    A troll is grooming his pet, a guardian beast.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+  metadata:
+    areaId: 78
+    exp_level: 4000
+    sex: 1
+- id: m2803
+  keywords: ["baby","troll"]
+  name: "a baby troll"
+  description: >-
+    A baby troll is playing Doctor with a cadaver.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 237.5
+          max: 262.5
+  metadata:
+    areaId: 78
+    exp_level: 4000
+    sex: 1
+- id: m2804
+  keywords: ["giant","troll"]
+  name: "the giant troll"
+  description: >-
+    A giant troll is lying on a pile of carnage, pleasing his mistress.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 2850
+          max: 3150
+      pools:
+        "trollden:o2802": 75
+  metadata:
+    areaId: 78
+    exp_level: 4000
+    sex: 1
+- id: m2805
+  keywords: ["large","troll","female"]
+  name: "the large female troll"
+  description: >-
+    A large female troll is lying on the pile of carnage, blissfully writhing.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 2375
+          max: 2625
+  metadata:
+    areaId: 78
+    exp_level: 4000
+    sex: 2
+- id: m2806
+  keywords: ["fat","worm"]
+  name: "a fat worm"
+  description: >-
+    A fat worm scurries around, looking for food.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 78
+    exp_level: 4000
+    sex: 0
+- id: m2807
+  keywords: ["roving","beast"]
+  name: "the roving beast"
+  description: >-
+    A roving beast is searching for prey.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 78
+    exp_level: 4000
+    sex: 1
+- id: m2808
+  keywords: ["medium","troll"]
+  name: "the medium troll"
+  description: >-
+    A troll is wandering around, attending to his duties.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+  metadata:
+    areaId: 78
+    exp_level: 4000
+    sex: 1

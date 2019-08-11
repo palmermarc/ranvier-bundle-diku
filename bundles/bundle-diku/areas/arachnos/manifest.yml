@@ -1,0 +1,12 @@
+title: "Arachnos"
+metadata:
+  id: 4
+  name: "Arachnos"
+  createdBy: "anon"
+  starting_vnum: 6300
+  ending_vnum: 6399
+  item_requirements: 8000
+  filename: "arachnos.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

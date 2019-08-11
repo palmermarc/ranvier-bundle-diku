@@ -1,0 +1,188 @@
+- id: o9301
+  name: "comet's tail"
+  roomDesc: "A long, slender whip lies here."
+  keywords: ["comet's","tail"]
+  description: "A long, slender whip lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9302
+  name: "arm hercules"
+  roomDesc: "Arm plates of the Zodiac lie here."
+  keywords: ["arm","hercules"]
+  description: "Arm plates of the Zodiac lie here."
+  type: HEAVYARMOR
+- id: o9304
+  name: "belt orion"
+  roomDesc: "A belt of the Zodiac lies here."
+  keywords: ["belt","orion"]
+  description: "A belt of the Zodiac lies here."
+  type: ACCESSORY
+- id: o9305
+  name: "skull draco"
+  roomDesc: "A massive skull of a dead Draco lies here."
+  keywords: ["skull","draco"]
+  description: "A massive skull of a dead Draco lies here."
+  type: STAFF
+- id: o9306
+  name: "fleece aries"
+  roomDesc: "A fleece of the Zodiac lies here."
+  keywords: ["fleece","aries"]
+  description: "A fleece of the Zodiac lies here."
+  type: ACCESSORY
+- id: o9307
+  name: "hoof taurus"
+  roomDesc: "A hoof of the Zodiac lies here."
+  keywords: ["hoof","taurus"]
+  description: "A hoof of the Zodiac lies here."
+  type: MEDIUMARMOR
+- id: o9308
+  name: "mask gemini"
+  roomDesc: "A mask of the Zodiac lies here."
+  keywords: ["mask","gemini"]
+  description: "A mask of the Zodiac lies here."
+  type: LIGHTARMOR
+- id: o9309
+  name: "shell cancer"
+  roomDesc: "A shell of the Zodiac lies here."
+  keywords: ["shell","cancer"]
+  description: "A shell of the Zodiac lies here."
+  type: HEAVYARMOR
+- id: o9310
+  name: "skin leo"
+  roomDesc: "A skin of the Zodiac lies here."
+  keywords: ["skin","leo"]
+  description: "A skin of the Zodiac lies here."
+  type: ACCESSORY
+- id: o9311
+  name: "bracelet virgo"
+  roomDesc: "A bracelet of the Zodiac lies here."
+  keywords: ["bracelet","virgo"]
+  description: "A bracelet of the Zodiac lies here."
+  type: LIGHTARMOR
+- id: o9312
+  name: "scale libra"
+  roomDesc: "A shield of the Zodiac lies here."
+  keywords: ["scale","libra"]
+  description: "A shield of the Zodiac lies here."
+  type: SHIELD
+- id: o9313
+  name: "scale libra"
+  roomDesc: "A shield of the Zodiac lies here."
+  keywords: ["scale","libra"]
+  description: "A shield of the Zodiac lies here."
+  type: SHIELD
+- id: o9314
+  name: "sting scorpio"
+  roomDesc: "Sting of the Zodiac lies here."
+  keywords: ["sting","scorpio"]
+  description: "Sting of the Zodiac lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9315
+  name: "arrow sagittarius"
+  roomDesc: "The Arrow of Sagittarius lies here."
+  keywords: ["arrow","sagittarius"]
+  description: "The Arrow of Sagittarius lies here."
+  type: AMMO
+- id: o9316
+  name: "bow sagittarius"
+  roomDesc: "The Titanic Bow of Sagittarius lies here."
+  keywords: ["bow","sagittarius"]
+  description: "The Titanic Bow of Sagittarius lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9317
+  name: "horns capricorn"
+  roomDesc: "A pair of horns of the Zodiac lies here."
+  keywords: ["horns","capricorn"]
+  description: "A pair of horns of the Zodiac lies here."
+  type: MEDIUMARMOR
+- id: o9318
+  name: "vessel aquarius"
+  roomDesc: "A vessel of the Zodiac lies here."
+  keywords: ["vessel","aquarius"]
+  description: "A vessel of the Zodiac lies here."
+  type: STAFF
+- id: o9319
+  name: "tail pisces"
+  roomDesc: "A fish tail of the Zodiac lies here."
+  keywords: ["tail","pisces"]
+  description: "A fish tail of the Zodiac lies here."
+  type: LIGHTARMOR
+- id: o9320
+  name: "ring dignity"
+  roomDesc: "A ring of specialty lies here."
+  keywords: ["ring","dignity"]
+  description: "A ring of specialty lies here."
+  type: ACCESSORY
+- id: o9321
+  name: "sceptre might"
+  roomDesc: "A sceptre of interest lies here."
+  keywords: ["sceptre","might"]
+  description: "A sceptre of interest lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9322
+  name: "ring universe"
+  roomDesc: "Here lies a fortune ... a small ring of power."
+  keywords: ["ring","universe"]
+  description: "Here lies a fortune ... a small ring of power."
+  type: ACCESSORY
+- id: o9323
+  name: "great dipper"
+  roomDesc: "A dazzling white object lies on the ground."
+  keywords: ["great","dipper"]
+  description: "A dazzling white object lies on the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9324
+  name: "spring shoot"
+  roomDesc: "A shoot grows here, covered with dew."
+  keywords: ["spring","shoot"]
+  description: "A shoot grows here, covered with dew."
+  type: KEY
+- id: o9325
+  name: "summer flower"
+  roomDesc: "A flower grows here, waiting to be picked up."
+  keywords: ["summer","flower"]
+  description: "A flower grows here, waiting to be picked up."
+  type: KEY
+- id: o9326
+  name: "autumn leaf"
+  roomDesc: "A leaf lies here, as if just fallen from a tree."
+  keywords: ["autumn","leaf"]
+  description: "A leaf lies here, as if just fallen from a tree."
+  type: KEY
+- id: o9327
+  name: "winter branch"
+  roomDesc: "A branch lies here, still covered with snow."
+  keywords: ["winter","branch"]
+  description: "A branch lies here, still covered with snow."
+  type: KEY
+- id: o9328
+  name: "chains andromeda"
+  roomDesc: "Some chains lie on the floor."
+  keywords: ["chains","andromeda"]
+  description: "Some chains lie on the floor."
+  type: TRASH
+- id: o9329
+  name: "clan tremere book"
+  roomDesc: "A tomb filled with clan secrets lies here."
+  keywords: ["clan","tremere","book"]
+  description: "A tomb filled with clan secrets lies here."
+  type: FURNITURE

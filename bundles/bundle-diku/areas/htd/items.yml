@@ -1,0 +1,116 @@
+- id: o12410
+  name: "azure charm seduction"
+  roomDesc: "An azure charm lies on the ground."
+  keywords: ["azure","charm","seduction"]
+  description: "An azure charm lies on the ground."
+  type: ACCESSORY
+- id: o12411
+  name: "bleeding long sword"
+  roomDesc: "A sword bleeds freely on the ground."
+  keywords: ["bleeding","long","sword"]
+  description: "A sword bleeds freely on the ground."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12412
+  name: "azure ring"
+  roomDesc: "An azure ring lies here."
+  keywords: ["azure","ring"]
+  description: "An azure ring lies here."
+  type: ACCESSORY
+- id: o12413
+  name: "azure charm"
+  roomDesc: "An azure charm lies here."
+  keywords: ["azure","charm"]
+  description: "An azure charm lies here."
+  type: ACCESSORY
+- id: o12414
+  name: "azure chestplate"
+  roomDesc: "An azure chestplate lies here."
+  keywords: ["azure","chestplate"]
+  description: "An azure chestplate lies here."
+  type: HEAVYARMOR
+- id: o12415
+  name: "azure helmet"
+  roomDesc: "An azure helmet lies here."
+  keywords: ["azure","helmet"]
+  description: "An azure helmet lies here."
+  type: HEAVYARMOR
+- id: o12416
+  name: "azure legplates plates leg"
+  roomDesc: "A pair of fine azure legplates lies here."
+  keywords: ["azure","legplates","plates","leg"]
+  description: "A pair of fine azure legplates lies here."
+  type: HEAVYARMOR
+- id: o12417
+  name: "azure boots "
+  roomDesc: "A pair of azure boots lies here."
+  keywords: ["azure","boots",""]
+  description: "A pair of azure boots lies here."
+  type: HEAVYARMOR
+- id: o12418
+  name: "azure gloves"
+  roomDesc: "A pair of azure gloves lies here."
+  keywords: ["azure","gloves"]
+  description: "A pair of azure gloves lies here."
+  type: HEAVYARMOR
+- id: o12419
+  name: "azure armplates arm plates"
+  roomDesc: "A pair of azure armplates lies here."
+  keywords: ["azure","armplates","arm","plates"]
+  description: "A pair of azure armplates lies here."
+  type: HEAVYARMOR
+- id: o12420
+  name: "azure cloak"
+  roomDesc: "An azure cloak lies here."
+  keywords: ["azure","cloak"]
+  description: "An azure cloak lies here."
+  type: ACCESSORY
+- id: o12421
+  name: "azure belt"
+  roomDesc: "An azure belt lies here."
+  keywords: ["azure","belt"]
+  description: "An azure belt lies here."
+  type: ACCESSORY
+- id: o12422
+  name: "azure bracelet"
+  roomDesc: "An azure bracelet lies here."
+  keywords: ["azure","bracelet"]
+  description: "An azure bracelet lies here."
+  type: LIGHTARMOR
+- id: o12423
+  name: "azure shield"
+  roomDesc: "An azure shield lies here."
+  keywords: ["azure","shield"]
+  description: "An azure shield lies here."
+  type: SHIELD
+- id: o12424
+  name: "azure mask"
+  roomDesc: "An azure mask lies here."
+  keywords: ["azure","mask"]
+  description: "An azure mask lies here."
+  type: LIGHTARMOR
+- id: o12425
+  name: "azure sword"
+  roomDesc: "An azure sword lies here."
+  keywords: ["azure","sword"]
+  description: "An azure sword lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12426
+  name: "sign"
+  roomDesc: "A sign sits here."
+  keywords: ["sign"]
+  description: "A sign sits here."
+  type: FURNITURE
+- id: o12427
+  name: "azure charm mastery"
+  roomDesc: "An azure charm of mastery lies here."
+  keywords: ["azure","charm","mastery"]
+  description: "An azure charm of mastery lies here."
+  type: ACCESSORY

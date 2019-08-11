@@ -1,0 +1,12 @@
+title: "Caves of the Vishna'Ak"
+metadata:
+  id: 82
+  name: "Caves of the Vishna'Ak"
+  createdBy: "mute"
+  starting_vnum: 25500
+  ending_vnum: 25599
+  item_requirements: 4000
+  filename: "vishnaak.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

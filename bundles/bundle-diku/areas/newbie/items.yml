@@ -1,0 +1,21 @@
+- id: o700
+  name: "sword"
+  roomDesc: "A munchkin sword rests here."
+  keywords: ["sword"]
+  description: "A munchkin sword rests here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+    slot: ['lhand', 'rhand']
+- id: o701
+  name: "helmet"
+  roomDesc: "A munchkin helmet rests here."
+  keywords: ["helmet"]
+  description: "A munchkin helmet rests here."
+  type: HEAVYARMOR
+  metadata:
+    quality: common
+    itemLevel: 1
+    slot: 'head'

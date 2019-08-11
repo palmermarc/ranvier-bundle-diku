@@ -1,0 +1,776 @@
+- id: m1601
+  keywords: ["killer","frog"]
+  name: "a killer frog"
+  description: >-
+    A killer frog rises up out of the water.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 19
+          max: 21
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 0
+- id: m1602
+  keywords: ["stone","gargoyle"]
+  name: "the stone gargoyle"
+  description: >-
+    A stone gargoyle looms over you.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 380
+          max: 420
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1603
+  keywords: ["angry","gargoyle"]
+  name: "an angry gargoyle"
+  description: >-
+    An angry gargoyle glares at you.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1604
+  keywords: ["elite","gargoyle"]
+  name: "the elite gargoyle"
+  description: >-
+    An elite gargoyle guards this room against intrusion.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 760
+          max: 840
+      pools:
+        "wyvern:o1604": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1605
+  keywords: ["gargoyle","shaman"]
+  name: "the gargoyle shaman"
+  description: >-
+    The gargoyle shaman is here, preparing to do battle.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 2850
+          max: 3150
+      pools:
+        "wyvern:o1602": 75
+        "wyvern:o1621": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 2
+- id: m1606
+  keywords: ["carnivorous","plant"]
+  name: "a carnivorous plant"
+  description: >-
+    Amidst the jungle here, a huge Carnivorous plant reaches out to grab you!
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 15.2
+          max: 16.8
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 0
+- id: m1607
+  keywords: ["gruesome","ogre"]
+  name: "a gruesome ogre"
+  description: >-
+    A huge, gruesome ogre is sprawled here, gnawing some strange meat.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1140
+          max: 1260
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 0
+- id: m1608
+  keywords: ["shadow"]
+  name: "a shadow"
+  description: >-
+    A dark shadow moves about the room.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 855
+          max: 945
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 0
+- id: m1609
+  keywords: ["evil","wight"]
+  name: "an evil wight"
+  description: >-
+    An evil wight lurks in the shadows!
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 2090
+          max: 2310
+      pools:
+        "wyvern:o1692": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1610
+  keywords: ["burly","minotaur"]
+  name: "A burly minotaur"
+  description: >-
+    A burly minotaur watches you solemnly.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1612
+  keywords: ["savage","minotaur"]
+  name: "the savage minotaur"
+  description: >-
+    A bloodthirsty minotaur slowly counts his loot
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wyvern:o1604": 75
+        "wyvern:o1612": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1613
+  keywords: ["minotaur","captain"]
+  name: "the captain"
+  description: >-
+    Sitting here in this room is the Minotaur Captain.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -900
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wyvern:o1604": 75
+        "wyvern:o1614": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1614
+  keywords: ["black","pudding"]
+  name: "the black pudding"
+  description: >-
+    A huge black pudding fills the center of the room!!
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 0
+- id: m1615
+  keywords: ["lesser","golem"]
+  name: "a lesser golem"
+  description: >-
+    A lesser Golem stands guarding the entrance.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wyvern:o1606": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 0
+- id: m1616
+  keywords: ["ancient","wyvern"]
+  name: "the ancient wyvern"
+  description: >-
+    An enormous, ancient wyvern stares down at your tiny form...
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wyvern:o1615": 75
+        "wyvern:o1621": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1617
+  keywords: ["spectre"]
+  name: "the spectre"
+  description: >-
+    A spectre has begun to materialize in front of you!
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wyvern:o1616": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1702
+  keywords: ["trapper"]
+  name: "a trapper"
+  description: >-
+    A trapper stands here, bartering his pelts.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 114
+          max: 126
+      pools:
+        "wyvern:o1711": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1704
+  keywords: ["hunter"]
+  name: "a hunter"
+  description: >-
+    A hunter rests in here, carrying a fresh kill.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 114
+          max: 126
+      pools:
+        "wyvern:o1701": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1706
+  keywords: ["ranger"]
+  name: "a ranger"
+  description: >-
+    A grim ranger reclines at a table.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wyvern:o1702": 75
+        "wyvern:o1621": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1707
+  keywords: ["ranger","leader"]
+  name: "a ranger leader"
+  description: >-
+    A leader of the Rangers is watching you solemnly.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 300
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1708
+  keywords: ["ranger","lord"]
+  name: "the Lord of the Rangers"
+  description: >-
+    The Lord of the Rangers catches your eye.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1710
+  keywords: ["male","centaur"]
+  name: "a centaur"
+  description: >-
+    A male centaur wanders about this area.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 114
+          max: 126
+      pools:
+        "wyvern:o1701": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1711
+  keywords: ["female","centaur"]
+  name: "a centaur"
+  description: >-
+    A female centaur wanders about this area.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 104.5
+          max: 115.5
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 2
+- id: m1712
+  keywords: ["old","centaur"]
+  name: "an old centaur"
+  description: >-
+    An old centaur is resting in a corner.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 104.5
+          max: 115.5
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1714
+  keywords: ["centaur","elder"]
+  name: "an elder centaur"
+  description: >-
+    One of the centaur elders is here, watching you.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1715
+  keywords: ["centaur","guard"]
+  name: "a centaur guard"
+  description: >-
+    A strong centaur is standing guard here.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wyvern:o1604": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1716
+  keywords: ["centaur","chief"]
+  name: "the centaur chief"
+  description: >-
+    The chief of the centaur villagers reclines here.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wyvern:o1713": 75
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 1
+- id: m1720
+  keywords: ["displacer","beast"]
+  name: "a displacer beast"
+  description: >-
+    A displacer beast is grazing nearby.
+  level: 155
+  attributes:
+    health: 16168
+    armor: 5720
+    hitroll: 1300
+    damroll: 650
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 85
+    exp_level: 12000
+    sex: 0

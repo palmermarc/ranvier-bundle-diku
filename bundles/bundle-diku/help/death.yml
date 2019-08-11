@@ -1,0 +1,19 @@
+---
+body: |
+  When your character dies, you are reincarnated back at the Altar of the Temple
+  of Midgaard. Your corpse is left behind in the room where you were killed,
+  together with all of your equipment and gold.
+  
+  Any spells which were affecting you are canceled by death.
+  
+  Following and groups are not affected by death.
+  
+  You lose experience points for dying. The amount you lose is ALL of your 
+  current amount, so it's a good idea not to hoard exp.
+  
+  You also lose 1 random immunity (unless you're a vampire, then
+  you lose heat ;> ), and 1 of each attribute (str/int/wis/con/dex).
+  
+  Corpses decay after time, and the objects inside corpses decay with them.
+  Player corpses last *roughly* 30 hours of game time (15 minutes of real time).
+  

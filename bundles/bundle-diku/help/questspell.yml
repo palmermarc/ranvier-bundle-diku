@@ -1,0 +1,15 @@
+---
+body: |
+  Syntax: cast quest
+  
+  This spell creates a quest card. The quest-point value of the card is 
+  the same as the amount of primal the caster has at the time of casting 
+  (and this primal is used up during the casting of the spell). No more 
+  than 100 primal will be used on any one casting of this spell. The 
+  difficulty of a quest card is totally random. A one point card could
+  potentially be harder than a 100 point card.
+  
+  Quest Cards are automatically claimed by the maker, and cannot be gifted.
+  
+  see also: HELP QUEST, HELP QUESTING
+  

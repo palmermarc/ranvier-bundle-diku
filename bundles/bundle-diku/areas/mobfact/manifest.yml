@@ -1,0 +1,12 @@
+title: "Mob Factory"
+metadata:
+  id: 49
+  name: "Mob Factory"
+  createdBy: "pinkf"
+  starting_vnum: 9400
+  ending_vnum: 9449
+  item_requirements: 2000
+  filename: "mobfact.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,907 @@
+- id: m11200
+  keywords: ["Generic-Dino","dino","generic"]
+  name: "Generic-Dino"
+  description: >-
+    The mob stands here, completely clueless.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11201
+  keywords: ["Triceratops","tric","tricera"]
+  name: "Triceratops"
+  description: >-
+    A Triceratops is roaming here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11202": 75
+        "prehistoria:o11215": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11202
+  keywords: ["Diplodicus","dip","diplo"]
+  name: "Diplodicus"
+  description: >-
+    A Diplodicus is grazing here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11215": 75
+        "prehistoria:o11220": 75
+        "prehistoria:o11217": 75
+        "prehistoria:o11222": 75
+        "prehistoria:o11234": 75
+        "prehistoria:o11201": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11203
+  keywords: ["Stegosaurus","steg","stego"]
+  name: "Stegosaurus"
+  description: >-
+    A Stegosaurus is crouched here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11201": 75
+        "prehistoria:o11215": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11204
+  keywords: ["Brontosaurus","bronto","bron"]
+  name: "Brontosaurus"
+  description: >-
+    A Brontosaurus is hunting here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11201": 75
+        "prehistoria:o11215": 75
+        "prehistoria:o11234": 75
+        "prehistoria:o11217": 75
+        "prehistoria:o11222": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11205
+  keywords: ["Velociraptor","veloci","velo"]
+  name: "Velociraptor"
+  description: >-
+    A Velociraptor is Running about here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11211": 75
+        "prehistoria:o11214": 75
+        "prehistoria:o11217": 75
+        "prehistoria:o11222": 75
+        "prehistoria:o11218": 75
+        "prehistoria:o11215": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11206
+  keywords: ["Tyrannosaurus-Rex","trex","tyranno","tyran","tyrann","dinosaur","rex"]
+  name: "Tyrannosaurus-Rex"
+  description: >-
+    The NASTY looking Tyrannosaurus-Rex is eating another Dinosaur here!
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 237.5
+          max: 262.5
+      pools:
+        "prehistoria:o11221": 75
+        "prehistoria:o11207": 75
+        "prehistoria:o11200": 75
+        "prehistoria:o11209": 75
+        "prehistoria:o11223": 75
+        "prehistoria:o11217": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11207
+  keywords: ["Terradactyl","terra","terredactyl","terre","terred"]
+  name: "Terradactyl"
+  description: >-
+    A Terredactyl is flying about here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11215": 75
+        "prehistoria:o11224": 75
+        "prehistoria:o11225": 75
+        "prehistoria:o11211": 75
+        "prehistoria:o11207": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11208
+  keywords: ["Brachiosaurus","brachi","brachio","brach"]
+  name: "Brachiosaurus"
+  description: >-
+    A Brachiosaurus is sleeping here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11216": 75
+        "prehistoria:o11234": 75
+        "prehistoria:o11208": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11209
+  keywords: ["Lesothosaurus","les","lesotho"]
+  name: "Lesothosaurus"
+  description: >-
+    A Lesothosaurus is here playing with his tail.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11216": 75
+        "prehistoria:o11215": 75
+        "prehistoria:o11219": 75
+        "prehistoria:o11217": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11210
+  keywords: ["Zigongosaurus","zig","zigongo"]
+  name: "Zigongosaurus"
+  description: >-
+    A Zigongosaurus is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11211
+  keywords: ["Xiaosaurus","xia","xiao"]
+  name: "Xiaosaurus"
+  description: >-
+    A Xiaosaurus is here rolling in the dirt.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11208": 75
+        "prehistoria:o11222": 75
+        "prehistoria:o11219": 75
+        "prehistoria:o11215": 75
+        "prehistoria:o11234": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11212
+  keywords: ["Riojosaurus","rio","riojo"]
+  name: "Riojosaurus"
+  description: >-
+    A Riojosaurus is here vomiting.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11203": 75
+        "prehistoria:o11234": 75
+        "prehistoria:o11202": 75
+        "prehistoria:o11216": 75
+        "prehistoria:o11221": 75
+        "prehistoria:o11222": 75
+        "prehistoria:o11214": 75
+        "prehistoria:o11215": 75
+        "prehistoria:o11218": 75
+        "prehistoria:o11201": 75
+        "prehistoria:o11220": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11213
+  keywords: ["Dryosaurus","dryo"]
+  name: "Dryosaurus"
+  description: >-
+    A Dryosaurus is here licking a leaf.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11200": 75
+        "prehistoria:o11206": 75
+        "prehistoria:o11204": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11214
+  keywords: ["Protoceratops","proto"]
+  name: "Protoceratops"
+  description: >-
+    A Protoceratops is here searching for food.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11201": 75
+        "prehistoria:o11212": 75
+        "prehistoria:o11215": 75
+        "prehistoria:o11222": 75
+        "prehistoria:o11234": 75
+        "prehistoria:o11217": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11215
+  keywords: ["Giganotosaurus","gigano","giganoto","giga","gigan"]
+  name: "Giganotosaurus"
+  description: >-
+    A Giganotosaurus is here towering above the crowd.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11215": 75
+        "prehistoria:o11222": 75
+        "prehistoria:o11200": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11216
+  keywords: ["Maiasaurus","maia","mai"]
+  name: "Maiasaurus"
+  description: >-
+    A Maiasaurus is here chewing some fruit.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11205": 75
+        "prehistoria:o11234": 75
+        "prehistoria:o11201": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11217
+  keywords: ["Lambeosaurus","lamb","lambeo"]
+  name: "Lambeosaurus"
+  description: >-
+    A Lambeosaurus roams here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11207": 75
+        "prehistoria:o11215": 75
+        "prehistoria:o11222": 75
+        "prehistoria:o11204": 75
+        "prehistoria:o11214": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11218
+  keywords: ["Kentrosaurus","kent","kentro"]
+  name: "Kentrosaurus"
+  description: >-
+    A Kentrosaurus roams here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11210": 75
+        "prehistoria:o11234": 75
+        "prehistoria:o11211": 75
+        "prehistoria:o11222": 75
+        "prehistoria:o11201": 75
+        "prehistoria:o11215": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11219
+  keywords: ["Dilophosaurus","dilopho","dil"]
+  name: "Dilophosaurus"
+  description: >-
+    A Dilophosaurus runs around here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11201": 75
+        "prehistoria:o11221": 75
+        "prehistoria:o11206": 75
+        "prehistoria:o11215": 75
+        "prehistoria:o11234": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11220
+  keywords: ["Montanoceratops","montano"]
+  name: "Montanoceratops"
+  description: >-
+    A Montanoceratops is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11202": 75
+        "prehistoria:o11203": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11221
+  keywords: ["rodent","shopkeeper"]
+  name: "rodent shopkeeper"
+  description: >-
+    A small ugly Rodent is here minding the shop.
+  level: 366
+  attributes:
+    health: 1
+    armor: -800
+    hitroll: 9000
+    damroll: 2000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+      pools:
+        "prehistoria:o11201": 75
+        "prehistoria:o11214": 75
+        "prehistoria:o11215": 75
+  metadata:
+    vendor:
+      items:
+        "prehistoria:o11201":
+          cost: 3
+          currency: gold
+        "prehistoria:o11214":
+          cost: 6
+          currency: gold
+        "prehistoria:o11215":
+          cost: 2
+          currency: gold
+    areaId: 60
+    exp_level: 27501
+    sex: 1
+- id: m11222
+  keywords: ["maliusaurus","maliu","mali","malius"]
+  name: "maliusaurus"
+  description: >-
+    A maliusaurus stamps around here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 285
+          max: 315
+      pools:
+        "prehistoria:o11204": 75
+        "prehistoria:o11234": 75
+        "prehistoria:o11202": 75
+        "prehistoria:o11206": 75
+        "prehistoria:o11208": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 1
+- id: m11223
+  keywords: ["dinosaur","poor","dino"]
+  name: "the dinosar"
+  description: >-
+    A Dinosaur sits here chained to the wall.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "prehistoria:o11203": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 0
+- id: m11224
+  keywords: ["dinosaur","poor","dino"]
+  name: "the dinosaur"
+  description: >-
+    A Dinosaur sits here chained to the wall.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "prehistoria:o11204": 75
+        "prehistoria:o11207": 75
+        "prehistoria:o11201": 75
+        "prehistoria:o11234": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 0
+- id: m11225
+  keywords: ["dinosaur","poor","dino"]
+  name: "the dinosaur"
+  description: >-
+    A Dinosaur sits here chained to the wall.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "prehistoria:o11205": 75
+        "prehistoria:o11208": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 0
+- id: m11226
+  keywords: ["dinosaur","poor","dino"]
+  name: "the dinosaur"
+  description: >-
+    A Dinosaur sits here chained to the wall.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "prehistoria:o11206": 75
+        "prehistoria:o11216": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 0
+- id: m11227
+  keywords: ["damned","soul","dinosaur"]
+  name: "a damned soul"
+  description: >-
+    A Damned soul is here to torment you!
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 3.8
+          max: 4.2
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 0
+- id: m11228
+  keywords: ["damned","soul"]
+  name: "a damned soul"
+  description: >-
+    A Damned soul lunges at you!
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 0
+- id: m11229
+  keywords: ["Merlin"]
+  name: "Merlin mage"
+  description: >-
+    Merlin is working on a strange potion here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+      pools:
+        "prehistoria:o11233": 75
+        "prehistoria:o11217": 75
+        "prehistoria:o11218": 75
+        "prehistoria:o11219": 75
+        "prehistoria:o11220": 75
+        "prehistoria:o11221": 75
+        "prehistoria:o11234": 75
+  metadata:
+    areaId: 60
+    exp_level: 2000
+    sex: 0

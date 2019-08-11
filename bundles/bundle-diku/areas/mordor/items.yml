@@ -1,0 +1,128 @@
+- id: o9501
+  name: "ring"
+  roomDesc: "A plain ring lies here."
+  keywords: ["ring"]
+  description: "A plain ring lies here."
+  type: ACCESSORY
+- id: o9502
+  name: "mace"
+  roomDesc: "A mace rests here."
+  keywords: ["mace"]
+  description: "A mace rests here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9503
+  name: "sword flaming"
+  roomDesc: "A flaming sword lies here."
+  keywords: ["sword","flaming"]
+  description: "A flaming sword lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9504
+  name: "whip flaming"
+  roomDesc: "A whip lies coiled here, emitting flames."
+  keywords: ["whip","flaming"]
+  description: "A whip lies coiled here, emitting flames."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9505
+  name: "sword ebony"
+  roomDesc: "An ebony sword lies here with intricate glowing runes."
+  keywords: ["sword","ebony"]
+  description: "An ebony sword lies here with intricate glowing runes."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9506
+  name: "fish"
+  roomDesc: "A fish lies here looking pathetic."
+  keywords: ["fish"]
+  description: "A fish lies here looking pathetic."
+  type: PILL
+- id: o9507
+  name: "hole"
+  roomDesc: "There is a hole in the floor here."
+  keywords: ["hole"]
+  description: "There is a hole in the floor here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o9508
+  name: "parchment"
+  roomDesc: "A parchment lies here crumbling into dust."
+  keywords: ["parchment"]
+  description: "A parchment lies here crumbling into dust."
+  type: SCROLL
+- id: o9509
+  name: "axe razor"
+  roomDesc: "An axe lies here slicing the light."
+  keywords: ["axe","razor"]
+  description: "An axe lies here slicing the light."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9510
+  name: "signpost"
+  roomDesc: "A sign is here - maybe you should read it."
+  keywords: ["signpost"]
+  description: "A sign is here - maybe you should read it."
+  type: TRASH
+- id: o9511
+  name: "sword"
+  roomDesc: "A large majestic sword lies here."
+  keywords: ["sword"]
+  description: "A large majestic sword lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9512
+  name: "crown"
+  roomDesc: "A crown lies here radiating evil."
+  keywords: ["crown"]
+  description: "A crown lies here radiating evil."
+  type: LIGHTARMOR
+- id: o9513
+  name: "iron key"
+  roomDesc: "A small key looks unimportant."
+  keywords: ["iron","key"]
+  description: "A small key looks unimportant."
+  type: KEY
+- id: o9514
+  name: "iron key"
+  roomDesc: "A small key looks unimportant."
+  keywords: ["iron","key"]
+  description: "A small key looks unimportant."
+  type: KEY
+- id: o9515
+  name: "iron key"
+  roomDesc: "A small key looks unimportant."
+  keywords: ["iron","key"]
+  description: "A small key looks unimportant."
+  type: KEY
+- id: o9516
+  name: "sword ebony"
+  roomDesc: "An ebony sword lies here with intricate glowing runes."
+  keywords: ["sword","ebony"]
+  description: "An ebony sword lies here with intricate glowing runes."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

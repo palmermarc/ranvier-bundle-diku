@@ -1,0 +1,12 @@
+title: "The learning centre"
+metadata:
+  id: 72
+  name: "The learning centre"
+  createdBy: "kavir"
+  starting_vnum: 25000
+  ending_vnum: 25049
+  item_requirements: 0
+  filename: "start.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,551 @@
+- id: m3700
+  keywords: ["acolyte","cleric"]
+  name: "the acolyte of Frag"
+  description: >-
+    An acolyte of Overlord Frag is here, grinning at you.
+  level: 166
+  attributes:
+    health: 15000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 64
+    exp_level: 12501
+    sex: 1
+- id: m3701
+  keywords: ["blob"]
+  name: "the blob"
+  description: >-
+    The blob is here, waiting to eat you up.
+  level: 33
+  attributes:
+    health: 300
+    armor: -99
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 64
+    exp_level: 2499
+    sex: 0
+- id: m3702
+  keywords: ["monster"]
+  name: "the monster"
+  description: >-
+    There is a monster leashed here.
+  level: 20
+  attributes:
+    health: 300
+    armor: 10
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "school:o3705": 75
+  metadata:
+    areaId: 64
+    exp_level: 1551
+    sex: 0
+- id: m3703
+  keywords: ["monster","wimpy"]
+  name: "the wimpy monster"
+  description: >-
+    There is a wimpy monster leashed here.
+  level: 18
+  attributes:
+    health: 300
+    armor: 10
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "school:o3706": 75
+        "school:o3711": 75
+  metadata:
+    areaId: 64
+    exp_level: 1399
+    sex: 0
+- id: m3704
+  keywords: ["monster","aggressive"]
+  name: "the aggressive monster"
+  description: >-
+    There is an aggressive monster leashed here.
+  level: 23
+  attributes:
+    health: 300
+    armor: 10
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "school:o3707": 75
+        "school:o3712": 75
+  metadata:
+    areaId: 64
+    exp_level: 1749
+    sex: 0
+- id: m3705
+  keywords: ["monster","wimpy","aggressive"]
+  name: "the wimpy aggressive monster"
+  description: >-
+    There is a wimpy aggressive monster leashed here.
+  level: 22
+  attributes:
+    health: 300
+    armor: 10
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "school:o3708": 75
+        "school:o3713": 75
+  metadata:
+    areaId: 64
+    exp_level: 1651
+    sex: 0
+- id: m3706
+  keywords: ["big","creature"]
+  name: "the big creature"
+  description: >-
+    There is a big creature hulking over your form.
+  level: 66
+  attributes:
+    health: 300
+    armor: 9
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "school:o3709": 75
+        "school:o3710": 75
+        "school:o3714": 75
+        "school:o3713": 75
+  metadata:
+    areaId: 64
+    exp_level: 4999
+    sex: 0
+- id: m3707
+  keywords: ["adept","cleric"]
+  name: "the adept of Kahn"
+  description: >-
+    An adept of Overlord Kahn is here, contemplating your progress.
+  level: 100
+  attributes:
+    health: 15000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 64
+    exp_level: 2499
+    sex: 1
+- id: m3709
+  keywords: ["rabbit"]
+  name: "the rabbit"
+  description: >-
+    A rabbit is bouncing around here.
+  level: 33
+  attributes:
+    health: 300
+    armor: 10
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 64
+    exp_level: 2500
+    sex: 0
+- id: m3710
+  keywords: ["lizard"]
+  name: "the lizard"
+  description: >-
+    A lizard slithers up to you.
+  level: 37
+  attributes:
+    health: 300
+    armor: 9
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 64
+    exp_level: 2800
+    sex: 0
+- id: m3711
+  keywords: ["boar"]
+  name: "the boar"
+  description: >-
+    A boar tries to run you over.
+  level: 42
+  attributes:
+    health: 300
+    armor: 8
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 64
+    exp_level: 3199
+    sex: 0
+- id: m3712
+  keywords: ["fox"]
+  name: "the fox"
+  description: >-
+    A fox is here staring at you.
+  level: 36
+  attributes:
+    health: 300
+    armor: 10
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 64
+    exp_level: 2750
+    sex: 0
+- id: m3713
+  keywords: ["snail"]
+  name: "the snail"
+  description: >-
+    A snail is trying to get out of your way.
+  level: 26
+  attributes:
+    health: 300
+    armor: 10
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 64
+    exp_level: 2001
+    sex: 0
+- id: m3714
+  keywords: ["beast"]
+  name: "the beast"
+  description: >-
+    A beast tries to feed off of you.
+  level: 33
+  attributes:
+    health: 300
+    armor: 6
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+  metadata:
+    areaId: 64
+    exp_level: 2500
+    sex: 0
+- id: m3715
+  keywords: ["bear"]
+  name: "the bear"
+  description: >-
+    A bear is here growling at you.
+  level: 33
+  attributes:
+    health: 300
+    armor: 7
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 38
+          max: 42
+  metadata:
+    areaId: 64
+    exp_level: 2500
+    sex: 0
+- id: m3716
+  keywords: ["wolf"]
+  name: "the wolf"
+  description: >-
+    A wolf is here snarling at you.
+  level: 33
+  attributes:
+    health: 300
+    armor: 7
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 38
+          max: 42
+  metadata:
+    areaId: 64
+    exp_level: 2499
+    sex: 0
+- id: m3717
+  keywords: ["adept","cleric"]
+  name: "the adept of Frag"
+  description: >-
+    An adept of Frag is here, grinning and selling you things.
+  level: 166
+  attributes:
+    health: 15000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "school:o3138": 75
+        "school:o3031": 75
+  metadata:
+    vendor:
+      items:
+        "school:o3138":
+          cost: 30
+          currency: gold
+        "school:o3031":
+          cost: 60
+          currency: gold
+    areaId: 64
+    exp_level: 12499
+    sex: 1
+- id: m3718
+  keywords: ["adept","cleric"]
+  name: "the adept of Furey"
+  description: >-
+    An adept of Furey is here, training young students.
+  level: 166
+  attributes:
+    health: 15000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 64
+    exp_level: 12499
+    sex: 1
+- id: m3719
+  keywords: ["priest","cleric"]
+  name: "the priest of Hatchet"
+  description: >-
+    The priest of Hatchet is ready to help you practice.
+  level: 166
+  attributes:
+    health: 15000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 64
+    exp_level: 12499
+    sex: 1
+- id: m3720
+  keywords: ["beast"]
+  name: "the diploma beast"
+  description: >-
+    The hideous diploma beast is here, holding your graduation present!
+  level: 33
+  attributes:
+    health: 300
+    armor: 8
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 285
+          max: 315
+      pools:
+        "school:o3715": 75
+  metadata:
+    areaId: 64
+    exp_level: 2499
+    sex: 0
+- id: m3721
+  keywords: ["guardian"]
+  name: "the guardian"
+  description: >-
+    The Guardian of newbies is here to help you.
+  level: 240
+  attributes:
+    health: 30000
+    armor: -800
+    hitroll: 500
+    damroll: 500
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+  metadata:
+    areaId: 64
+    exp_level: 18000
+    sex: 1

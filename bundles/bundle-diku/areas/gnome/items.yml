@@ -1,0 +1,168 @@
+- id: o1500
+  name: "key bloody"
+  roomDesc: "A bloody key is stuck to the floor."
+  keywords: ["key","bloody"]
+  description: "A bloody key is stuck to the floor."
+  type: KEY
+- id: o1501
+  name: "key dirty"
+  roomDesc: "A dirty key lies here."
+  keywords: ["key","dirty"]
+  description: "A dirty key lies here."
+  type: KEY
+- id: o1502
+  name: "toy boomerang"
+  roomDesc: "A toy boomerang wants to be picked up."
+  keywords: ["toy","boomerang"]
+  description: "A toy boomerang wants to be picked up."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1503
+  name: "staff gnarled"
+  roomDesc: "A gnarled staff is here."
+  keywords: ["staff","gnarled"]
+  description: "A gnarled staff is here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1504
+  name: "sword gnome"
+  roomDesc: "A gnome sword catches your eye."
+  keywords: ["sword","gnome"]
+  description: "A gnome sword catches your eye."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1505
+  name: "shield studded"
+  roomDesc: "A studded wooden shield lies here."
+  keywords: ["shield","studded"]
+  description: "A studded wooden shield lies here."
+  type: SHIELD
+- id: o1506
+  name: "potion bloody"
+  roomDesc: "A bloody potion lies here."
+  keywords: ["potion","bloody"]
+  description: "A bloody potion lies here."
+  type: POTION
+- id: o1507
+  name: "cloak bloody"
+  roomDesc: "A bloody cloak lies in a corner."
+  keywords: ["cloak","bloody"]
+  description: "A bloody cloak lies in a corner."
+  type: ACCESSORY
+- id: o1508
+  name: "ring bat"
+  roomDesc: "A ring in the shape of a bat lies here."
+  keywords: ["ring","bat"]
+  description: "A ring in the shape of a bat lies here."
+  type: ACCESSORY
+- id: o1509
+  name: "necklace bead"
+  roomDesc: "A string of beads is here."
+  keywords: ["necklace","bead"]
+  description: "A string of beads is here."
+  type: ACCESSORY
+- id: o1510
+  name: "sword electrum"
+  roomDesc: "An electrum sword lies here."
+  keywords: ["sword","electrum"]
+  description: "An electrum sword lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1511
+  name: "basket wicker"
+  roomDesc: "A wicker basket sits here."
+  keywords: ["basket","wicker"]
+  description: "A wicker basket sits here."
+  type: CONTAINER
+  items: ["gnome:o1513","gnome:o1512"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1512
+  name: "peanuts"
+  roomDesc: "Peanuts lie here."
+  keywords: ["peanuts"]
+  description: "Peanuts lie here."
+  type: FOOD
+- id: o1513
+  name: "grain"
+  roomDesc: "There is some grain here."
+  keywords: ["grain"]
+  description: "There is some grain here."
+  type: FOOD
+- id: o1514
+  name: "skiff"
+  roomDesc: "A small skiff is here."
+  keywords: ["skiff"]
+  description: "A small skiff is here."
+  type: BOAT
+- id: o1515
+  name: "boots gnome"
+  roomDesc: "You notice a pair of Gnome Boots."
+  keywords: ["boots","gnome"]
+  description: "You notice a pair of Gnome Boots."
+  type: LIGHTARMOR
+- id: o1516
+  name: "coins"
+  roomDesc: "A pile of coins."
+  keywords: ["coins"]
+  description: "A pile of coins."
+  type: MONEY
+- id: o1517
+  name: "coins"
+  roomDesc: "A pile of coins."
+  keywords: ["coins"]
+  description: "A pile of coins."
+  type: MONEY
+- id: o1518
+  name: "coins"
+  roomDesc: "A pile of coins."
+  keywords: ["coins"]
+  description: "A pile of coins."
+  type: MONEY
+- id: o1519
+  name: "shield stone"
+  roomDesc: "A stone slab lies here."
+  keywords: ["shield","stone"]
+  description: "A stone slab lies here."
+  type: SHIELD
+- id: o1520
+  name: "mail heavy banded"
+  roomDesc: "A large suit of heavy banded mail is here"
+  keywords: ["mail","heavy","banded"]
+  description: "A large suit of heavy banded mail is here"
+  type: HEAVYARMOR
+- id: o1521
+  name: "club large"
+  roomDesc: "A large club sits here."
+  keywords: ["club","large"]
+  description: "A large club sits here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1522
+  name: "banana"
+  roomDesc: "There is a banana here."
+  keywords: ["banana"]
+  description: "There is a banana here."
+  type: FOOD
+- id: o1523
+  name: "life potion"
+  roomDesc: "A potion of life healing has left here."
+  keywords: ["life","potion"]
+  description: "A potion of life healing has left here."
+  type: POTION

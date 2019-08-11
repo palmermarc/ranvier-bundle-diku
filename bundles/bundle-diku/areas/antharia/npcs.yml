@@ -1,0 +1,620 @@
+- id: m1800
+  keywords: ["Antharian","Peace","Guard"]
+  name: "an Antharian Peace Guard"
+  description: >-
+    An Antharian Peace guard is watching you here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "antharia:o1804": 75
+        "antharia:o1830": 75
+        "antharia:o1810": 75
+        "antharia:o1813": 75
+        "antharia:o1816": 75
+        "antharia:o1833": 75
+        "antharia:o1807": 75
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1801
+  keywords: ["Suretin"]
+  name: "Suretin"
+  description: >-
+    Suretin, a healer-priest of Anthar, is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 2850
+          max: 3150
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1802
+  keywords: ["Ertuvia"]
+  name: "Ertuvia"
+  description: >-
+    Ertuvia is here, a master of the Antharian weapons of war.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    vendor:
+      items:
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1803
+  keywords: ["Heaustf"]
+  name: "Heaustf"
+  description: >-
+    Heaustf, the maker of fine Antharian armor, is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "antharia:o1802": 75
+  metadata:
+    vendor:
+      items:
+        "antharia:o1802":
+          cost: 4000
+          currency: gold
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1804
+  keywords: ["Irghum"]
+  name: "Irghum"
+  description: >-
+    Irghum is here fixing fine Antharian foods.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "antharia:o1819": 75
+        "antharia:o1820": 75
+        "antharia:o1821": 75
+        "antharia:o1822": 75
+  metadata:
+    vendor:
+      items:
+        "antharia:o1819":
+          cost: 15
+          currency: gold
+        "antharia:o1820":
+          cost: 500
+          currency: gold
+        "antharia:o1821":
+          cost: 15
+          currency: gold
+        "antharia:o1822":
+          cost: 15
+          currency: gold
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1805
+  keywords: ["Cyrtpea"]
+  name: "Cyrtpea"
+  description: >-
+    Cyrtpea, sorceress of Antharia, is here staring into your soul.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "antharia:o1827": 75
+        "antharia:o1829": 75
+        "antharia:o1800": 75
+  metadata:
+    vendor:
+      items:
+        "antharia:o1827":
+          cost: 1000
+          currency: gold
+        "antharia:o1829":
+          cost: 1000
+          currency: gold
+        "antharia:o1800":
+          cost: 4000
+          currency: gold
+    areaId: 3
+    exp_level: 26000
+    sex: 2
+- id: m1806
+  keywords: ["Zaertses"]
+  name: "Zaertses"
+  description: >-
+    Zaertses is here trying to sell you an old Antharian relic.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "antharia:o1803": 75
+        "antharia:o1828": 75
+  metadata:
+    vendor:
+      items:
+        "antharia:o1803":
+          cost: 4000
+          currency: gold
+        "antharia:o1828":
+          cost: 1000
+          currency: gold
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1807
+  keywords: ["High","Guard"]
+  name: "High Guard of Antharia"
+  description: >-
+    A High Guard of Antharia is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "antharia:o1805": 75
+        "antharia:o1831": 75
+        "antharia:o1811": 75
+        "antharia:o1814": 75
+        "antharia:o1817": 75
+        "antharia:o1833": 75
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1808
+  keywords: ["Sucker","fish"]
+  name: "a sucker fish"
+  description: >-
+    A sucker fish is here keeping the streets clean.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "antharia:o1801": 75
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 0
+- id: m1809
+  keywords: ["Antharian","citizen"]
+  name: "an Antharian citizen"
+  description: >-
+    An Antharian citizen is standing here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "antharia:o1823": 75
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1810
+  keywords: ["Antharian","citizen"]
+  name: "an Antharian citizen"
+  description: >-
+    An Antharian citizen is standing here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "antharia:o1824": 75
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 2
+- id: m1811
+  keywords: ["Antharian","child"]
+  name: "an Antharian child"
+  description: >-
+    An Antharian child is playing here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "antharia:o1825": 75
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1812
+  keywords: ["Antharian","child"]
+  name: "an Antharian child"
+  description: >-
+    An Antharian child is playing here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "antharia:o1825": 75
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 2
+- id: m1813
+  keywords: ["Antharian","Knight"]
+  name: "an Antharian Knight"
+  description: >-
+    An Antharian knight is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "antharia:o1806": 75
+        "antharia:o1809": 75
+        "antharia:o1812": 75
+        "antharia:o1815": 75
+        "antharia:o1818": 75
+        "antharia:o1833": 75
+        "antharia:o1832": 75
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1814
+  keywords: ["Human","Representative"]
+  name: "a human representative"
+  description: >-
+    A human representative is standing here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 2
+- id: m1815
+  keywords: ["Dwarven","Representative"]
+  name: "a dwarven representative"
+  description: >-
+    A dwarven representative is standing here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1816
+  keywords: ["Elven","Representative"]
+  name: "an elven representative"
+  description: >-
+    An elven representative is standing here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 2
+- id: m1817
+  keywords: ["Druidic","Representative"]
+  name: "a druidic representative"
+  description: >-
+    A representative from the druids is standing here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1818
+  keywords: ["Kender","Representative"]
+  name: "a kender representative"
+  description: >-
+    A kender representative is standing here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 2
+- id: m1819
+  keywords: ["Antharian","Representative"]
+  name: "an antharian representative"
+  description: >-
+    An atharian beaurocrat is standing here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 1
+- id: m1820
+  keywords: ["illithid","Representative"]
+  name: "an illithid representative"
+  description: >-
+    An illithid representative is standing here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 2
+- id: m1821
+  keywords: ["avian","Representative"]
+  name: "an avian representative"
+  description: >-
+    An avian representative is standing here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    areaId: 3
+    exp_level: 26000
+    sex: 2

@@ -1,0 +1,12 @@
+title: "Galaxy"
+metadata:
+  id: 28
+  name: "Galaxy"
+  createdBy: "doctor"
+  starting_vnum: 9300
+  ending_vnum: 9399
+  item_requirements: 8000
+  filename: "galaxy.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

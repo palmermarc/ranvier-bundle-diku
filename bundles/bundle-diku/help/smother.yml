@@ -1,0 +1,9 @@
+---
+body: |
+  Syntax: smother <name>
+  
+  This is used to try and smother the flames on a burning player or mob. 
+  You cannot do this on yourself, and it may take several attempts to 
+  work. Also, there is a small chance that the person smothering might 
+  catch on fire as well...
+  

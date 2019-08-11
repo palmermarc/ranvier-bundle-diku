@@ -1,0 +1,395 @@
+- id: m2901
+  keywords: ["black","mountain","goat"]
+  name: "a mountain goat"
+  description: >-
+    A mountain goat is standing here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 13.3
+          max: 14.7
+      pools:
+        "firenewt:o2901": 75
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 1
+- id: m2902
+  keywords: ["black","mountain","ewe"]
+  name: "a mountain ewe"
+  description: >-
+    A mountain ewe is standing here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+      pools:
+        "firenewt:o2902": 75
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 2
+- id: m2903
+  keywords: ["black","mountain","kid"]
+  name: "a mountain kid"
+  description: >-
+    A mountain kid is standing here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 5.7
+          max: 6.3
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 0
+- id: m2904
+  keywords: ["fire","newt","worker"]
+  name: "a fire newt worker"
+  description: >-
+    A fire newt worker is standing here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 21.85
+          max: 24.15
+      pools:
+        "firenewt:o2903": 75
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 1
+- id: m2905
+  keywords: ["fire","newt","guard"]
+  name: "a fire newt guard"
+  description: >-
+    A fire newt guard is standing here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -450
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 28.5
+          max: 31.5
+      pools:
+        "firenewt:o2904": 75
+        "firenewt:o2905": 75
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 1
+- id: m2906
+  keywords: ["fire","newt","worker"]
+  name: "a fire newt worker"
+  description: >-
+    A fire newt worker is standing here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 21.85
+          max: 24.15
+      pools:
+        "firenewt:o2903": 75
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 2
+- id: m2907
+  keywords: ["fire","newt","guard"]
+  name: "fire newt guard"
+  description: >-
+    A fire newt guard is standing here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -450
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 28.5
+          max: 31.5
+      pools:
+        "firenewt:o2905": 75
+        "firenewt:o2904": 75
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 2
+- id: m2908
+  keywords: ["fire","newt","mother"]
+  name: "a fire newt mother"
+  description: >-
+    A fire newt mother is standing here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -355
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 24.7
+          max: 27.3
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 2
+- id: m2909
+  keywords: ["fire","newt","baby"]
+  name: "a fire newt baby"
+  description: >-
+    A fire newt baby is crawling here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -350
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 5.7
+          max: 6.3
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 0
+- id: m2910
+  keywords: ["fire","newt","sergeant"]
+  name: "a fire newt sergeant"
+  description: >-
+    A fire newt sergeant patrols this area.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "firenewt:o2906": 75
+        "firenewt:o2907": 75
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 1
+- id: m2911
+  keywords: ["fire","newt","general"]
+  name: "a fire newt general"
+  description: >-
+    A fire newt general is standing here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 380
+          max: 420
+      pools:
+        "firenewt:o2906": 75
+        "firenewt:o2907": 75
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 1
+- id: m2912
+  keywords: ["fire","newt","leader"]
+  name: "a fire newt leader"
+  description: >-
+    A fire newt leader is standing here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "firenewt:o2911": 75
+        "firenewt:o2912": 75
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 1
+- id: m2913
+  keywords: ["fire","newt","priest"]
+  name: "a fire newt priest"
+  description: >-
+    A fire newt priest is standing here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 665
+          max: 735
+      pools:
+        "firenewt:o2913": 75
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 1
+- id: m2914
+  keywords: ["fire","lizard"]
+  name: "a fire lizard"
+  description: >-
+    A fire lizard is crawling here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "firenewt:o2914": 75
+  metadata:
+    areaId: 26
+    exp_level: 10000
+    sex: 0

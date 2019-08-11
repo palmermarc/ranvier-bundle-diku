@@ -1,0 +1,112 @@
+- id: o2001
+  name: "glowing key"
+  roomDesc: "A circular, glowing key radiates a bright aura around it."
+  keywords: ["glowing","key"]
+  description: "A circular, glowing key radiates a bright aura around it."
+  type: KEY
+- id: o2002
+  name: "granite plate mail platemail"
+  roomDesc: "A suit of platemail hewn from granite stands by itself in the corner."
+  keywords: ["granite","plate","mail","platemail"]
+  description: "A suit of platemail hewn from granite stands by itself in the corner."
+  type: HEAVYARMOR
+- id: o2003
+  name: "onyx ring"
+  roomDesc: "A ring with a very dark onyx stone in it has been left in the dirt."
+  keywords: ["onyx","ring"]
+  description: "A ring with a very dark onyx stone in it has been left in the dirt."
+  type: ACCESSORY
+- id: o2004
+  name: "neutralizer sword"
+  roomDesc: "A long thin sword with a wide blade makes you wonder."
+  keywords: ["neutralizer","sword"]
+  description: "A long thin sword with a wide blade makes you wonder."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2005
+  name: "sword excalibur"
+  roomDesc: "A sword gleams by the light of its magical silvery blade."
+  keywords: ["sword","excalibur"]
+  description: "A sword gleams by the light of its magical silvery blade."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2006
+  name: "crown"
+  roomDesc: "The crown of a long lost King lies forgotten here."
+  keywords: ["crown"]
+  description: "The crown of a long lost King lies forgotten here."
+  type: LIGHTARMOR
+- id: o2007
+  name: "stone"
+  roomDesc: "The stone is surrounded by a bright glow, better look closer."
+  keywords: ["stone"]
+  description: "The stone is surrounded by a bright glow, better look closer."
+  type: CONTAINER
+  items: ["catacomb:o2005"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o2008
+  name: "holy water flask"
+  roomDesc: "A flask of holy water is here."
+  keywords: ["holy","water","flask"]
+  description: "A flask of holy water is here."
+  type: POTION
+- id: o2009
+  name: "chainmail chain mail suit"
+  roomDesc: "A nice suit of chainmail has been left behind."
+  keywords: ["chainmail","chain","mail","suit"]
+  description: "A nice suit of chainmail has been left behind."
+  type: HEAVYARMOR
+- id: o2010
+  name: "white cape"
+  roomDesc: "A blazing cape of white lies in a careful pile."
+  keywords: ["white","cape"]
+  description: "A blazing cape of white lies in a careful pile."
+  type: ACCESSORY
+- id: o2011
+  name: "shield defense"
+  roomDesc: "A large shield lies protecting the ground."
+  keywords: ["shield","defense"]
+  description: "A large shield lies protecting the ground."
+  type: SHIELD
+- id: o2012
+  name: "scale shield dragonscale"
+  roomDesc: "A shield from from the scales of a large dragon lies here."
+  keywords: ["scale","shield","dragonscale"]
+  description: "A shield from from the scales of a large dragon lies here."
+  type: SHIELD
+- id: o2013
+  name: "prism wand"
+  roomDesc: "A wand made of a triangular prism twinkles in the dust."
+  keywords: ["prism","wand"]
+  description: "A wand made of a triangular prism twinkles in the dust."
+  type: WAND
+- id: o2014
+  name: "shadow cloak"
+  roomDesc: "The shadows in the corner of the room seems strange ..."
+  keywords: ["shadow","cloak"]
+  description: "The shadows in the corner of the room seems strange ..."
+  type: ACCESSORY
+- id: o2015
+  name: "misty potion"
+  roomDesc: "A potion of swirling mist-like substance is here."
+  keywords: ["misty","potion"]
+  description: "A potion of swirling mist-like substance is here."
+  type: POTION
+- id: o2016
+  name: "templar templars sword wooden"
+  roomDesc: "A sword made of wood has been left here."
+  keywords: ["templar","templars","sword","wooden"]
+  description: "A sword made of wood has been left here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

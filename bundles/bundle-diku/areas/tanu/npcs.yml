@@ -1,0 +1,310 @@
+- id: m8700
+  keywords: ["Grey","Guard"]
+  name: "Grey Torc Guard"
+  description: >-
+    A grey torc guard stands here...trying to guard.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 1
+- id: m8701
+  keywords: ["Kahul","Tanu"]
+  name: "Kahul Earthshaker"
+  description: >-
+    Kahul Earthshaker is here examining a parchment.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 750
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 1
+- id: m8702
+  keywords: ["Leyr","Tanu"]
+  name: "Leyr"
+  description: >-
+    Leyr is here examining the head of a strange beast
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 750
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 1
+- id: m8703
+  keywords: ["Minanonn","Tanu"]
+  name: "Minanonn the Heretic"
+  description: >-
+    Minanonn the Heretic stands before you, looking wise and kind
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 1
+- id: m8704
+  keywords: ["Fian","Tanu"]
+  name: "Fian Skybreaker"
+  description: >-
+    Fian Skybreaker is brewing up a strange potion at the table
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 750
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 1
+- id: m8705
+  keywords: ["Dionket"]
+  name: "Dionket Lord Healer"
+  description: >-
+    Dionket the lord healer is here waiting to heal injured friends
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 1
+- id: m8706
+  keywords: ["Aluyten","Tanu"]
+  name: "Aluyten Craftsmaster"
+  description: >-
+    Aluyten Craftsmaster is here, banging something together.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 1
+- id: m8707
+  keywords: ["Alberonn","Tanu"]
+  name: "Alberonn Mindeater"
+  description: >-
+    Alberonn Mindeater stands before you....contemplating if you have a worthy brain
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 750
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 1
+- id: m8708
+  keywords: ["Lady","Epone","Tanu"]
+  name: "Lady Epone"
+  description: >-
+    Lady Epone smiles at you and continues to stare into space....
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 999
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 2
+- id: m8709
+  keywords: ["Lord","Creyn","Tanu"]
+  name: "Lord Creyn"
+  description: >-
+    Lord Creyn is here searching through his piles of papers.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 999
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 1
+- id: m8710
+  keywords: ["Guard","Tanu"]
+  name: "Silver Torc Guard"
+  description: >-
+    A Silver Torc Guard halts your journey forward.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 1
+- id: m8711
+  keywords: ["Thagdal","King","Tanu"]
+  name: "King Thagdal"
+  description: >-
+    King Thagdal sits at his throne looking almighty.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tanu:o8702": 75
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 1
+- id: m8712
+  keywords: ["Brede"]
+  name: "Brede Shipspouse"
+  description: >-
+    Brede Shipspouse sits at the altar, juggling with her great mindpowers
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "tanu:o8700": 75
+        "tanu:o8701": 75
+        "tanu:o8703": 75
+  metadata:
+    areaId: 73
+    exp_level: 20000
+    sex: 2

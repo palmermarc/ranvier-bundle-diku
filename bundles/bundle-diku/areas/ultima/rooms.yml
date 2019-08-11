@@ -1,0 +1,2336 @@
+- id: r2400
+  title: "Entrance to Ultima"
+  description: >-
+    The blue moongate casts an strange blue light upon a huge gate to
+    the south.  The gate is open and beyond it you see a simple
+    village.  Around the gate there are two pedestals.  On the first
+    pedestal, there is a magic scroll.  On the second there is a
+    plaque.
+  exits:
+    - roomId: "ultima:r2401"
+      direction: south
+    - roomId: "joker1:r24054"
+      direction: down
+- id: r2401
+  title: "New Magincia Road "
+  description: >-
+    This is the main road of New Magincia.  To the south the dirt
+    path continues to the south and a huge gate to the north.
+  exits:
+    - roomId: "ultima:r2400"
+      direction: north
+    - roomId: "ultima:r2402"
+      direction: south
+  npcs:
+    - id: "ultima:m2402"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "ultima:m2404"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2402
+  title: "New Magincia Road"
+  description: >-
+    The path continues to the south and the north.  You see the
+    tracks of sheep here.
+  exits:
+    - roomId: "ultima:r2401"
+      direction: north
+    - roomId: "ultima:r2403"
+      direction: south
+  npcs:
+    - id: "ultima:m2403"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2403
+  title: "The New Magincia Moongate"
+  description: >-
+    You see another moongate here, exactly between the crossing of
+    two paths.
+  exits:
+    - roomId: "ultima:r2402"
+      direction: north
+    - roomId: "ultima:r2404"
+      direction: south
+    - roomId: "ultima:r2413"
+      direction: east
+    - roomId: "ultima:r2408"
+      direction: west
+    - roomId: "ultima:r2416"
+      direction: up
+- id: r2404
+  title: "New Magincia Road"
+  description: >-
+    The path continues to the south and north.  On the east there
+    seems to be administrative building.
+  exits:
+    - roomId: "ultima:r2403"
+      direction: north
+    - roomId: "ultima:r2405"
+      direction: south
+    - roomId: "ultima:r2414"
+      direction: east
+  npcs:
+    - id: "ultima:m2404"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2405
+  title: "New Magincia Road"
+  description: >-
+    The dirt road path ends here in a grove.  You can continue back
+    to the north, and there is an old abandoned house to the west.
+  exits:
+    - roomId: "ultima:r2404"
+      direction: north
+    - roomId: "ultima:r2410"
+      direction: west
+- id: r2406
+  title: "Stables"
+  description: >-
+    This is the stables for the shepherd.  There are many fine horses
+    here.  You can return to the barn in to the south.
+  exits:
+    - roomId: "ultima:r2407"
+      direction: south
+  npcs:
+    - id: "ultima:m2413"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2407
+  title: "Barn"
+  description: >-
+    This is your basic barn, with hay and stables to the north.
+  exits:
+    - roomId: "ultima:r2406"
+      direction: north
+    - roomId: "ultima:r2408"
+      direction: south
+  npcs:
+    - id: "ultima:m2402"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2408
+  title: "Humility Lane"
+  description: >-
+    This is a even smaller dirt path that crosses New Maginica Road. 
+    To your north there is a barn, and to the south you see a
+    condemned building, though you cannot enter this way.  West is
+    blocked off a herd o sheep.
+  exits:
+    - roomId: "ultima:r2407"
+      direction: north
+    - roomId: "ultima:r2403"
+      direction: east
+  npcs:
+    - id: "ultima:m2400"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "ultima:m2403"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "ultima:m2404"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2409
+  title: "Condemned House"
+  description: >-
+    This place is wrecked, the rafters have fell, and light shines
+    through a large hole in the roof.  You wonder what kinds of
+    animals have taken home here.
+  exits:
+    - roomId: "ultima:r2410"
+      direction: south
+- id: r2410
+  title: "Condemned House"
+  description: >-
+    As you walk into the house, you realize that this house must not
+    have been reconstructed yet from the ruin of Old Magincia.  Faint
+    intimations of foolish pride still can be seen through the
+    wreckage.
+  exits:
+    - roomId: "ultima:r2409"
+      direction: north
+    - roomId: "ultima:r2405"
+      direction: east
+- id: r2411
+  title: "Attic"
+  description: >-
+    The attic is dark, and you smell some vestiges of bat guano.
+  exits:
+    - roomId: "ultima:r2412"
+      direction: down
+  npcs:
+    - id: "ultima:m2401"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2412
+  title: "House"
+  description: >-
+    This is a small humble house.  You do not see much here, though
+    there are some faint squeaking.
+  exits:
+    - roomId: "ultima:r2413"
+      direction: south
+    - roomId: "ultima:r2411"
+      direction: up
+  npcs:
+    - id: "ultima:m2403"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2413
+  title: "Humility Lane"
+  description: >-
+    This is a very small path.  It ends here with a fence to the
+    east.  To the west is the Moongate, and to the north there is a
+    small house.
+  exits:
+    - roomId: "ultima:r2412"
+      direction: north
+    - roomId: "ultima:r2403"
+      direction: west
+  npcs:
+    - id: "ultima:m2402"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "ultima:m2404"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2414
+  title: "Entrance to the Office"
+  description: >-
+    Though this room is small, it acts as a meeting place for Katrina
+    and any other person that she has to meet.  You can exit to the
+    west or enter an office to the south.
+  exits:
+    - roomId: "ultima:r2415"
+      direction: south
+    - roomId: "ultima:r2404"
+      direction: west
+- id: r2415
+  title: "Katrina's Office"
+  description: >-
+    This is office is very sparse... and humble.  There are no
+    decorations, in fact the room is bare except for a simple desk
+    and its chair.
+  exits:
+    - roomId: "ultima:r2414"
+      direction: north
+  npcs:
+    - id: "ultima:m2405"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2416
+  title: "Library"
+  description: >-
+    This is an amazing HUGE library.  Its musty smell, and the
+    collapsed bookshelf to your north, tell you that it also must be
+    ancient.  In any case you can't get out of the Library (remember
+    the collapsed shelves?) so just pick a book and start reading. 
+    The stacks continue to the east and west.
+  exits:
+    - roomId: "ultima:r2417"
+      direction: east
+    - roomId: "ultima:r2436"
+      direction: west
+- id: r2417
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the east and west.
+  exits:
+    - roomId: "ultima:r2418"
+      direction: east
+    - roomId: "ultima:r2416"
+      direction: west
+- id: r2418
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the east and west.
+  exits:
+    - roomId: "ultima:r2419"
+      direction: east
+    - roomId: "ultima:r2417"
+      direction: west
+  npcs:
+    - id: "ultima:m2410"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2419
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the east and south.
+  exits:
+    - roomId: "ultima:r2420"
+      direction: south
+    - roomId: "ultima:r2418"
+      direction: west
+- id: r2420
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the north and west.
+  exits:
+    - roomId: "ultima:r2419"
+      direction: north
+    - roomId: "ultima:r2421"
+      direction: west
+- id: r2421
+  title: "Library Office"
+  description: >-
+    A big desk dominates this room.  All books must go through this
+    office before getting taken out.  Through this office, and
+    through this man.
+  exits:
+    - roomId: "ultima:r2420"
+      direction: east
+    - roomId: "ultima:r2422"
+      direction: west
+  npcs:
+    - id: "ultima:m2409"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2422
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the west and east.
+  exits:
+    - roomId: "ultima:r2421"
+      direction: east
+    - roomId: "ultima:r2423"
+      direction: west
+- id: r2423
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the east and south .
+  exits:
+    - roomId: "ultima:r2424"
+      direction: south
+    - roomId: "ultima:r2422"
+      direction: east
+- id: r2424
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the north and east.
+  exits:
+    - roomId: "ultima:r2423"
+      direction: north
+    - roomId: "ultima:r2425"
+      direction: east
+  npcs:
+    - id: "ultima:m2406"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2425
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the west and east.
+  exits:
+    - roomId: "ultima:r2426"
+      direction: east
+    - roomId: "ultima:r2424"
+      direction: west
+- id: r2426
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the west and east.
+  exits:
+    - roomId: "ultima:r2427"
+      direction: east
+    - roomId: "ultima:r2425"
+      direction: west
+- id: r2427
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the west and south.
+  exits:
+    - roomId: "ultima:r2429"
+      direction: south
+    - roomId: "ultima:r2426"
+      direction: west
+- id: r2428
+  title: "The Library Moongate"
+  description: >-
+    A blue moongate is here, lighting up the otherwise featureless
+    room.
+  exits:
+    - roomId: "ultima:r2432"
+      direction: north
+    - roomId: "ultima:r2437"
+      direction: up
+- id: r2429
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the north and west.
+  exits:
+    - roomId: "ultima:r2427"
+      direction: north
+    - roomId: "ultima:r2430"
+      direction: west
+- id: r2430
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the east and west.
+  exits:
+    - roomId: "ultima:r2429"
+      direction: east
+    - roomId: "ultima:r2431"
+      direction: west
+  npcs:
+    - id: "ultima:m2408"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2431
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the east and west.
+  exits:
+    - roomId: "ultima:r2430"
+      direction: east
+    - roomId: "ultima:r2432"
+      direction: west
+- id: r2432
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the east and west..
+  exits:
+    - roomId: "ultima:r2428"
+      direction: south
+    - roomId: "ultima:r2431"
+      direction: east
+    - roomId: "ultima:r2433"
+      direction: west
+- id: r2433
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the east and north.
+  exits:
+    - roomId: "ultima:r2434"
+      direction: north
+    - roomId: "ultima:r2432"
+      direction: east
+- id: r2434
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the south and north.
+  exits:
+    - roomId: "ultima:r2435"
+      direction: north
+    - roomId: "ultima:r2433"
+      direction: south
+- id: r2435
+  title: "Web"
+  description: >-
+    There is a Huge Web sitting here, stretching from shelf to shelf.
+    And stupid you wandered into it.
+  exits:
+    - roomId: "ultima:r2436"
+      direction: north
+    - roomId: "ultima:r2434"
+      direction: south
+  npcs:
+    - id: "ultima:m2407"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2436
+  title: "Library"
+  description: >-
+    The Library continues here, with exits to the north and east.
+  exits:
+    - roomId: "ultima:r2435"
+      direction: south
+    - roomId: "ultima:r2416"
+      direction: east
+- id: r2437
+  title: "The Center of the Tavern"
+  description: >-
+    The moongate has opened inside of a huge party.  There are bards
+    and other townsman.  This must be Britain.  There are people
+    everywhere carrying their drinks and singing everywhere.  The
+    party continues to the north, east south and west.
+  exits:
+    - roomId: "ultima:r2439"
+      direction: north
+    - roomId: "ultima:r2444"
+      direction: south
+    - roomId: "ultima:r2442"
+      direction: east
+    - roomId: "ultima:r2441"
+      direction: west
+  npcs:
+    - id: "ultima:m2415"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2438
+  title: "The Northwest Corner of the Tavern"
+  description: >-
+    This is where the tavern entrance would be if it wasn't packed
+    with humans trying to get in or get out.  There is no chance of
+    you leaving the tavern tonight.you can return to the part to the
+    east and the south.
+  exits:
+    - roomId: "ultima:r2441"
+      direction: south
+    - roomId: "ultima:r2439"
+      direction: east
+- id: r2439
+  title: "The North Wall of the Tavern"
+  description: >-
+    Party-goers mingle here in front of the bar.  They seem to be
+    having a great time and wish for you to join them.  You can
+    continue on to the south, east or north.
+  exits:
+    - roomId: "ultima:r2437"
+      direction: south
+    - roomId: "ultima:r2440"
+      direction: east
+    - roomId: "ultima:r2438"
+      direction: west
+  npcs:
+    - id: "ultima:m2418"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "ultima:m2430"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2440
+  title: "The Northeast Corner of the Tavern"
+  description: >-
+    Along this east wall of the tavern are all the tables for the
+    meals.  Outside the windows you see cobblestone streets.
+  exits:
+    - roomId: "ultima:r2442"
+      direction: south
+    - roomId: "ultima:r2439"
+      direction: west
+- id: r2441
+  title: "The West Wall of the Tavern"
+  description: >-
+    The band has set up here, against the west wall.  Many people
+    dance to the music.
+  exits:
+    - roomId: "ultima:r2438"
+      direction: north
+    - roomId: "ultima:r2443"
+      direction: south
+    - roomId: "ultima:r2437"
+      direction: east
+- id: r2442
+  title: "The East Wall of the Tavern"
+  description: >-
+    The tables are set up here, you see many couples and group just
+    sitting and talking.  They have drinks on their tables and smiles
+    on there face.
+  exits:
+    - roomId: "ultima:r2440"
+      direction: north
+    - roomId: "ultima:r2445"
+      direction: south
+    - roomId: "ultima:r2437"
+      direction: west
+- id: r2443
+  title: "The Southwest Corner of the Tavern"
+  description: >-
+    There are many people here, but even through their scent, there
+    seems to be a slight stench.
+  exits:
+    - roomId: "ultima:r2441"
+      direction: north
+    - roomId: "ultima:r2444"
+      direction: east
+    - roomId: "ultima:r2446"
+      direction: down
+- id: r2444
+  title: "The South Wall of the Tavern"
+  description: >-
+    The South Wall windows overlook the sea.  There seems to be a
+    island far to the south, and boats just floating in the ports. 
+    The party-goers just wander around here.
+  exits:
+    - roomId: "ultima:r2437"
+      direction: north
+    - roomId: "ultima:r2445"
+      direction: east
+    - roomId: "ultima:r2443"
+      direction: west
+  npcs:
+    - id: "ultima:m2414"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2445
+  title: "The Southeast Corner of the Tavern"
+  description: >-
+    There are tables here that continue to the north.  The
+    party-goers just mingle and hit on each other.
+  exits:
+    - roomId: "ultima:r2442"
+      direction: north
+    - roomId: "ultima:r2444"
+      direction: west
+  npcs:
+    - id: "ultima:m2419"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2446
+  title: "Cellar"
+  description: >-
+    The stairway seems to lie down into the cellar.  It stinks of
+    wine, beer and snakes here.
+  exits:
+    - roomId: "ultima:r2449"
+      direction: south
+    - roomId: "ultima:r2447"
+      direction: east
+    - roomId: "ultima:r2443"
+      direction: up
+- id: r2447
+  title: "Cellar"
+  description: >-
+    There are huge wine casks against this wall.  Most seem intact
+    though one is eaten through, and the inside seems to have a gooey
+    green substance.
+  exits:
+    - roomId: "ultima:r2450"
+      direction: south
+    - roomId: "ultima:r2448"
+      direction: east
+    - roomId: "ultima:r2446"
+      direction: west
+- id: r2448
+  title: "Cellar"
+  description: >-
+    There is a chair in corner.  And plenty of empty bottles.  There
+    is also the evidence of the green substance here as well.
+  exits:
+    - roomId: "ultima:r2451"
+      direction: south
+    - roomId: "ultima:r2447"
+      direction: west
+  npcs:
+    - id: "ultima:m2416"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2449
+  title: "Cellar"
+  description: >-
+    There is a slime trail here.  There seems to be much broken glass
+    down here.
+  exits:
+    - roomId: "ultima:r2446"
+      direction: north
+    - roomId: "ultima:r2452"
+      direction: south
+    - roomId: "ultima:r2450"
+      direction: east
+- id: r2450
+  title: "The Britain Moongate"
+  description: >-
+    The place around the moongate, as always, seems clean and neat. 
+    The blue light of the moongate has become a comforting sight to
+    you.
+  exits:
+    - roomId: "ultima:r2447"
+      direction: north
+    - roomId: "ultima:r2453"
+      direction: south
+    - roomId: "ultima:r2451"
+      direction: east
+    - roomId: "ultima:r2449"
+      direction: west
+    - roomId: "ultima:r2456"
+      direction: up
+- id: r2451
+  title: "Cellar"
+  description: >-
+    The walls are leaking here.  You here the bang of feet and the
+    shifting of chairs from above.
+  exits:
+    - roomId: "ultima:r2448"
+      direction: north
+    - roomId: "ultima:r2454"
+      direction: south
+    - roomId: "ultima:r2450"
+      direction: west
+- id: r2452
+  title: "Cellar"
+  description: >-
+    The damp walls of this corner bother you... not because it's
+    damp.  Because its not water!
+  exits:
+    - roomId: "ultima:r2449"
+      direction: north
+    - roomId: "ultima:r2453"
+      direction: east
+  npcs:
+    - id: "ultima:m2411"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r2453
+  title: "Cellar"
+  description: >-
+    The smells and ventilation of this cellar are overpowering.
+  exits:
+    - roomId: "ultima:r2450"
+      direction: north
+    - roomId: "ultima:r2454"
+      direction: east
+    - roomId: "ultima:r2452"
+      direction: west
+- id: r2454
+  title: "Cellar"
+  description: >-
+    This corner of the cellar is the ugliest.  From the smell in the
+    corner it is obvious where the Drunks clear their guts.
+  exits:
+    - roomId: "ultima:r2451"
+      direction: north
+    - roomId: "ultima:r2453"
+      direction: west
+  npcs:
+    - id: "ultima:m2412"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2455
+  title: "The Yew Entrance"
+  description: >-
+    To the south you see a large courthouse and a small part of Yew. 
+    Most of Yew is secretly hidden in the branches of the forest. 
+    To the north you see one of the most dangerous parts of this same
+    forest.
+  exits:
+    - roomId: "ultima:r2470"
+      direction: north
+    - roomId: "ultima:r2456"
+      direction: south
+- id: r2456
+  title: "In Front of the Courthouse"
+  description: >-
+    The immense Courthouse faces this street.  All of Brittainia's
+    crime goes here to be tried.  There is little crime anymore
+    though, after the great enlightenment.  There is also a pub to
+    the west.
+  exits:
+    - roomId: "ultima:r2455"
+      direction: north
+    - roomId: "ultima:r2463"
+      direction: south
+    - roomId: "ultima:r2457"
+      direction: east
+    - roomId: "ultima:r2462"
+      direction: west
+  npcs:
+    - id: "ultima:m2429"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2457
+  title: "Justice Row"
+  description: >-
+    The cobblestone road leads into a clearing of the woods to the
+    east and to a pub to the west.  To your south you see a great
+    Courthouse, but its entrance is on the east.
+  exits:
+    - roomId: "ultima:r2458"
+      direction: east
+    - roomId: "ultima:r2456"
+      direction: west
+- id: r2458
+  title: "Under the Stone Arch"
+  description: >-
+    You stand under a large stone arch.  To your east there is a
+    bonfire.  Around the bonfire, are these same stone arches; they
+    form a circle around the clearing.
+  exits:
+    - roomId: "ultima:r2459"
+      direction: east
+    - roomId: "ultima:r2457"
+      direction: west
+- id: r2459
+  title: "Bonfire"
+  description: >-
+    The heat from the bonfire warms you even at the fringe of the
+    ceremony.  Here, Druids form a circle and chant the sacred
+    mantra.
+    
+  exits:
+    - roomId: "ultima:r2458"
+      direction: west
+  npcs:
+    - id: "ultima:m2424"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2460
+  title: "Pub"
+  description: >-
+    You are in a happy little pub.  There are many little tables and
+    citizens are talking here.
+  exits:
+    - roomId: "ultima:r2461"
+      direction: east
+  npcs:
+    - id: "ultima:m2431"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2461
+  title: "Justice Row"
+  description: >-
+    There are some citizens strolling on the road.  There is a Pub to
+    the west.
+  exits:
+    - roomId: "ultima:r2462"
+      direction: east
+    - roomId: "ultima:r2460"
+      direction: west
+- id: r2462
+  title: "Justice Row"
+  description: >-
+    Perhaps the only real street in a city where all the citizens
+    are nestled in trees, it leads east to west.
+  exits:
+    - roomId: "ultima:r2456"
+      direction: east
+    - roomId: "ultima:r2461"
+      direction: west
+- id: r2463
+  title: "The Audience Room"
+  description: >-
+    This is where people would sit to see the cases and wait for the
+    Judge.  To the North you see the actual Bench.  All around are
+    the pew-like seats.
+  exits:
+    - roomId: "ultima:r2456"
+      direction: north
+    - roomId: "ultima:r2464"
+      direction: south
+- id: r2464
+  title: "The Bench"
+  description: >-
+    The Bench is one of the most imposing things you've seen.  You
+    have to crane your neck to even glimpse at the Judge.  There are
+    no lawyers, there is only justice.  To the east and west there
+    are the prisons.
+  exits:
+    - roomId: "ultima:r2463"
+      direction: north
+    - roomId: "ultima:r2465"
+      direction: east
+    - roomId: "ultima:r2466"
+      direction: west
+  npcs:
+    - id: "ultima:m2425"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2465
+  title: "Prison"
+  description: >-
+    To the north you see a cell.  Locks are unnecessary, because the
+    prisoners are kept in their cells by magic.
+  exits:
+    - roomId: "ultima:r2468"
+      direction: north
+    - roomId: "ultima:r2464"
+      direction: west
+- id: r2466
+  title: "Prison"
+  description: >-
+    To the north you see a cell.  Locks are unnecessary, because the
+    prisoners are kept in their cells by magic.
+  exits:
+    - roomId: "ultima:r2467"
+      direction: north
+    - roomId: "ultima:r2464"
+      direction: east
+- id: r2467
+  title: "Prison Cell"
+  description: >-
+    This is a cell where they keep dangerous prisoners.
+  exits:
+    - roomId: "ultima:r2466"
+      direction: south
+  npcs:
+    - id: "ultima:m2427"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2468
+  title: "Prison Cell"
+  description: >-
+    This is a cell where they keep dangerous prisoners.
+  exits:
+    - roomId: "ultima:r2465"
+      direction: south
+  npcs:
+    - id: "ultima:m2428"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2469
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2473"
+      direction: north
+    - roomId: "ultima:r2478"
+      direction: south
+    - roomId: "ultima:r2470"
+      direction: east
+    - roomId: "ultima:r2479"
+      direction: west
+- id: r2470
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2471"
+      direction: north
+    - roomId: "ultima:r2477"
+      direction: south
+    - roomId: "ultima:r2455"
+      direction: east
+    - roomId: "ultima:r2469"
+      direction: west
+  npcs:
+    - id: "ultima:m2426"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2471
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2476"
+      direction: north
+    - roomId: "ultima:r2470"
+      direction: south
+    - roomId: "ultima:r2472"
+      direction: east
+    - roomId: "ultima:r2481"
+      direction: west
+- id: r2472
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2471"
+      direction: north
+    - roomId: "ultima:r2473"
+      direction: south
+    - roomId: "ultima:r2475"
+      direction: east
+    - roomId: "ultima:r2482"
+      direction: west
+- id: r2473
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2474"
+      direction: north
+    - roomId: "ultima:r2483"
+      direction: south
+    - roomId: "ultima:r2469"
+      direction: east
+    - roomId: "ultima:r2472"
+      direction: west
+  npcs:
+    - id: "ultima:m2421"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r2474
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2475"
+      direction: north
+    - roomId: "ultima:r2483"
+      direction: south
+    - roomId: "ultima:r2473"
+      direction: east
+    - roomId: "ultima:r2478"
+      direction: west
+- id: r2475
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2472"
+      direction: north
+    - roomId: "ultima:r2476"
+      direction: south
+    - roomId: "ultima:r2474"
+      direction: east
+    - roomId: "ultima:r2482"
+      direction: west
+- id: r2476
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2481"
+      direction: north
+    - roomId: "ultima:r2471"
+      direction: south
+    - roomId: "ultima:r2477"
+      direction: east
+    - roomId: "ultima:r2475"
+      direction: west
+- id: r2477
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2476"
+      direction: north
+    - roomId: "ultima:r2470"
+      direction: south
+    - roomId: "ultima:r2480"
+      direction: east
+    - roomId: "ultima:r2478"
+      direction: west
+- id: r2478
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2479"
+      direction: north
+    - roomId: "ultima:r2474"
+      direction: south
+    - roomId: "ultima:r2477"
+      direction: east
+    - roomId: "ultima:r2469"
+      direction: west
+  npcs:
+    - id: "ultima:m2423"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2479
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2483"
+      direction: north
+    - roomId: "ultima:r2469"
+      direction: south
+    - roomId: "ultima:r2478"
+      direction: east
+    - roomId: "ultima:r2480"
+      direction: west
+- id: r2480
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2484"
+      direction: north
+    - roomId: "ultima:r2477"
+      direction: south
+    - roomId: "ultima:r2479"
+      direction: east
+    - roomId: "ultima:r2481"
+      direction: west
+  npcs:
+    - id: "ultima:m2420"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2481
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2480"
+      direction: north
+    - roomId: "ultima:r2476"
+      direction: south
+    - roomId: "ultima:r2482"
+      direction: east
+    - roomId: "ultima:r2471"
+      direction: west
+  npcs:
+    - id: "ultima:m2422"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2482
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2483"
+      direction: north
+    - roomId: "ultima:r2472"
+      direction: south
+    - roomId: "ultima:r2481"
+      direction: east
+    - roomId: "ultima:r2475"
+      direction: west
+- id: r2483
+  title: "Yew Forest"
+  description: >-
+    This is the Yew Forest.  The trees look all the same.  Consequently
+    you are lost.
+  exits:
+    - roomId: "ultima:r2482"
+      direction: north
+    - roomId: "ultima:r2474"
+      direction: south
+    - roomId: "ultima:r2473"
+      direction: east
+    - roomId: "ultima:r2479"
+      direction: west
+- id: r2484
+  title: "The Yew Moongate"
+  description: >-
+    There is your way out, through the blue moongate.
+  exits:
+    - roomId: "ultima:r2480"
+      direction: south
+    - roomId: "ultima:r2485"
+      direction: up
+- id: r2485
+  title: "Dungeon Entrance"
+  description: >-
+    There is a huge maw of an entrance to one of the terrible
+    Dungeons.  After the Age of Enlightenment only 8 sources of evil
+    still survive in the world.  These are the eight Dungeons.  Now
+    they are being cleaned out.
+  exits:
+    - roomId: "ultima:r2487"
+      direction: up
+    - roomId: "ultima:r2484"
+      direction: down
+- id: r2486
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2490"
+      direction: north
+  npcs:
+    - id: "ultima:m2435"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2487
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2491"
+      direction: north
+    - roomId: "ultima:r2485"
+      direction: down
+  npcs:
+    - id: "ultima:m2436"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2488
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2492"
+      direction: north
+    - roomId: "ultima:r2489"
+      direction: east
+  npcs:
+    - id: "ultima:m2432"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "ultima:m2437"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2489
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2488"
+      direction: west
+- id: r2490
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2494"
+      direction: north
+    - roomId: "ultima:r2486"
+      direction: south
+    - roomId: "ultima:r2491"
+      direction: east
+  npcs:
+    - id: "ultima:m2433"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2491
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2495"
+      direction: north
+    - roomId: "ultima:r2487"
+      direction: south
+    - roomId: "ultima:r2492"
+      direction: east
+    - roomId: "ultima:r2490"
+      direction: west
+- id: r2492
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2488"
+      direction: south
+    - roomId: "ultima:r2493"
+      direction: east
+    - roomId: "ultima:r2491"
+      direction: west
+  npcs:
+    - id: "ultima:m2434"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2493
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2497"
+      direction: north
+    - roomId: "ultima:r2492"
+      direction: west
+- id: r2494
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2498"
+      direction: north
+    - roomId: "ultima:r2490"
+      direction: south
+- id: r2495
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2499"
+      direction: north
+    - roomId: "ultima:r2491"
+      direction: south
+    - roomId: "ultima:r2496"
+      direction: east
+- id: r2496
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2500"
+      direction: north
+    - roomId: "ultima:r2495"
+      direction: west
+- id: r2497
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2493"
+      direction: south
+- id: r2498
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2494"
+      direction: south
+- id: r2499
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2495"
+      direction: south
+- id: r2500
+  title: "The Dungeon"
+  description: >-
+    These dungeon rooms seem all the same.  There are signs of recent
+    battling everywhere.
+  exits:
+    - roomId: "ultima:r2496"
+      direction: south
+    - roomId: "ultima:r2501"
+      direction: east
+- id: r2501
+  title: "The Dungeon Moongate"
+  description: >-
+    You feel safe within the blue glow of the moongate.
+  exits:
+    - roomId: "ultima:r2500"
+      direction: west
+    - roomId: "ultima:r2502"
+      direction: up
+- id: r2502
+  title: "Minoc"
+  description: >-
+    The moongate has lead to the ocean side city of Minoc.  To the
+    north, there is the sea; and to the south there is the town of
+    Minoc.
+  exits:
+    - roomId: "ultima:r2515"
+      direction: north
+    - roomId: "ultima:r2504"
+      direction: south
+- id: r2503
+  title: "The Armoury"
+  description: >-
+    The Armorer buys and sells armour.  His smithy is impressive
+    with all of his greatest works hanging on the walls.
+  exits:
+    - roomId: "ultima:r2504"
+      direction: east
+  npcs:
+    - id: "ultima:m2468"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2504
+  title: "Minoc's Fountain"
+  description: >-
+    This is the entrance of Minoc.  To the east you see the
+    weaponsmith, and to the west is the Armorer.  To the south there
+    seems to be a large road.
+  exits:
+    - roomId: "ultima:r2502"
+      direction: north
+    - roomId: "ultima:r2508"
+      direction: south
+    - roomId: "ultima:r2505"
+      direction: east
+    - roomId: "ultima:r2503"
+      direction: west
+  items:
+    - id: "ultima:o2467"
+      respawnChance: 75
+- id: r2505
+  title: "The Weaponsmith"
+  description: >-
+    The best Weaponsmith in the realm is here.  His shop is full of
+    hanging weapons.
+  exits:
+    - roomId: "ultima:r2504"
+      direction: west
+  npcs:
+    - id: "ultima:m2469"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2506
+  title: "The Boatseller"
+  description: >-
+    This is the shop where you can purchase vehicles to cross the
+    sea.
+  exits:
+    - roomId: "ultima:r2507"
+      direction: east
+  npcs:
+    - id: "ultima:m2470"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2507
+  title: "Sacrifice Street"
+  description: >-
+    This Street goes from east to west.  To the west is a shop and to
+    the south is a home.
+  exits:
+    - roomId: "ultima:r2511"
+      direction: south
+    - roomId: "ultima:r2508"
+      direction: east
+    - roomId: "ultima:r2506"
+      direction: west
+- id: r2508
+  title: "Sacrifice Street"
+  description: >-
+    This Street runs from east to west. To the west there is a shop,
+    and to there east there is a forge.
+  exits:
+    - roomId: "ultima:r2504"
+      direction: north
+    - roomId: "ultima:r2509"
+      direction: east
+    - roomId: "ultima:r2507"
+      direction: west
+  npcs:
+    - id: "ultima:m2440"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "ultima:m2442"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2509
+  title: "Sacrifice Street"
+  description: >-
+    This Street runs from west to east.  There is a home to the south
+    and forge to the east.
+  exits:
+    - roomId: "ultima:r2512"
+      direction: south
+    - roomId: "ultima:r2510"
+      direction: east
+    - roomId: "ultima:r2508"
+      direction: west
+- id: r2510
+  title: "Forge"
+  description: >-
+    The heat of the place cause blisters to form.  The rhythmic beat
+    of hammer against the forge causes you to believe that someone is
+    working here.
+  exits:
+    - roomId: "ultima:r2509"
+      direction: west
+  npcs:
+    - id: "ultima:m2441"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2511
+  title: "Residence"
+  description: >-
+    This residence is very small.  It befits the teaching of
+    sacrifice without any item that is extra.
+  exits:
+    - roomId: "ultima:r2507"
+      direction: north
+  npcs:
+    - id: "ultima:m2440"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2512
+  title: "Residence"
+  description: >-
+    This residence is very small.  It befits the teaching of
+    sacrifice without any item that is extra.
+  exits:
+    - roomId: "ultima:r2509"
+      direction: north
+  npcs:
+    - id: "ultima:m2440"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2513
+  title: "The Beach"
+  description: >-
+    This beach ends here.  You can go east or north.
+  exits:
+    - roomId: "ultima:r2514"
+      direction: east
+    - roomId: "ultima:r2584"
+      direction: west
+- id: r2514
+  title: "The Beach"
+  description: >-
+    The beach extends from west to east, the waves are too heavy here
+    to enter the ocean.
+  exits:
+    - roomId: "ultima:r2515"
+      direction: east
+    - roomId: "ultima:r2513"
+      direction: west
+  npcs:
+    - id: "ultima:m2439"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2515
+  title: "The Beach"
+  description: >-
+    The beach here is perfect, glistening white sands, perfect sun. 
+    Too bad there is a monster infestation....
+  exits:
+    - roomId: "ultima:r2502"
+      direction: south
+    - roomId: "ultima:r2516"
+      direction: east
+    - roomId: "ultima:r2514"
+      direction: west
+  npcs:
+    - id: "ultima:m2439"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2516
+  title: "The Beach"
+  description: >-
+    The Beach seems so idyllic, to bad these monster keep showing up.
+  exits:
+    - roomId: "ultima:r2517"
+      direction: east
+    - roomId: "ultima:r2515"
+      direction: west
+  npcs:
+    - id: "ultima:m2438"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2517
+  title: "The Beach"
+  description: >-
+    The Beach ends here.
+  exits:
+    - roomId: "ultima:r2516"
+      direction: west
+  npcs:
+    - id: "ultima:m2438"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r2518
+  title: "The Whirlpool"
+  description: >-
+    This is a nasty whirlpool.  The boat is tossed and turned
+    everywhere.
+  exits:
+    - roomId: "ultima:r2519"
+      direction: north
+    - roomId: "ultima:r2521"
+      direction: south
+    - roomId: "ultima:r2584"
+      direction: east
+    - roomId: "ultima:r2520"
+      direction: west
+- id: r2519
+  title: "The Whirlpool"
+  description: >-
+    This is a nasty whirlpool.  The boat is tossed and turned
+    everywhere.
+  exits:
+    - roomId: "ultima:r2518"
+      direction: north
+    - roomId: "ultima:r2522"
+      direction: south
+    - roomId: "ultima:r2525"
+      direction: east
+    - roomId: "ultima:r2520"
+      direction: west
+- id: r2520
+  title: "The Whirlpool"
+  description: >-
+    This is a nasty whirlpool.  The boat is tossed and turned
+    everywhere.
+  exits:
+    - roomId: "ultima:r2526"
+      direction: north
+    - roomId: "ultima:r2519"
+      direction: south
+    - roomId: "ultima:r2518"
+      direction: east
+    - roomId: "ultima:r2523"
+      direction: west
+- id: r2521
+  title: "The Whirlpool"
+  description: >-
+    This is a nasty whirlpool.  The boat is tossed and turned
+    everywhere.
+  exits:
+    - roomId: "ultima:r2524"
+      direction: north
+    - roomId: "ultima:r2522"
+      direction: south
+    - roomId: "ultima:r2518"
+      direction: east
+    - roomId: "ultima:r2523"
+      direction: west
+  npcs:
+    - id: "ultima:m2466"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2522
+  title: "The Whirlpool"
+  description: >-
+    This is a nasty whirlpool.  The boat is tossed and turned
+    everywhere.
+  exits:
+    - roomId: "ultima:r2521"
+      direction: north
+    - roomId: "ultima:r2525"
+      direction: south
+    - roomId: "ultima:r2523"
+      direction: east
+    - roomId: "ultima:r2519"
+      direction: west
+  npcs:
+    - id: "ultima:m2465"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2523
+  title: "The Whirlpool"
+  description: >-
+    This is a nasty whirlpool.  The boat is tossed and turned
+    everywhere.
+  exits:
+    - roomId: "ultima:r2522"
+      direction: north
+    - roomId: "ultima:r2521"
+      direction: south
+    - roomId: "ultima:r2526"
+      direction: east
+    - roomId: "ultima:r2520"
+      direction: west
+  npcs:
+    - id: "ultima:m2467"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2524
+  title: "The Whirlpool"
+  description: >-
+    This is a nasty whirlpool.  The boat is tossed and turned
+    everywhere.
+  exits:
+    - roomId: "ultima:r2526"
+      direction: north
+    - roomId: "ultima:r2525"
+      direction: south
+    - roomId: "ultima:r2527"
+      direction: east
+    - roomId: "ultima:r2521"
+      direction: west
+- id: r2525
+  title: "The Whirlpool"
+  description: >-
+    This is a nasty whirlpool.  The boat is tossed and turned
+    everywhere.
+  exits:
+    - roomId: "ultima:r2522"
+      direction: north
+    - roomId: "ultima:r2519"
+      direction: south
+    - roomId: "ultima:r2526"
+      direction: east
+    - roomId: "ultima:r2524"
+      direction: west
+- id: r2526
+  title: "The Whirlpool"
+  description: >-
+    This is a nasty whirlpool.  The boat is tossed and turned
+    everywhere.
+  exits:
+    - roomId: "ultima:r2525"
+      direction: north
+    - roomId: "ultima:r2523"
+      direction: south
+    - roomId: "ultima:r2524"
+      direction: east
+    - roomId: "ultima:r2520"
+      direction: west
+- id: r2527
+  title: "The Minoc Moongate"
+  description: >-
+    The sea waves lap up against the Moongate.
+  exits:
+    - roomId: "ultima:r2524"
+      direction: south
+    - roomId: "ultima:r2528"
+      direction: up
+- id: r2528
+  title: "A Campfire"
+  description: >-
+    This campfire sits in the middle of the camp.  Many of the
+    paladins stand by it looking it the desert beyond.  Some just
+    wander by.  To the south is a small tent, to the north are more
+    tents.
+  exits:
+    - roomId: "ultima:r2538"
+      direction: north
+    - roomId: "ultima:r2532"
+      direction: south
+    - roomId: "ultima:r2529"
+      direction: east
+- id: r2529
+  title: "Between the Tents"
+  description: >-
+    There is a grand tent to the south, entered into through the
+    east.
+  exits:
+    - roomId: "ultima:r2530"
+      direction: east
+    - roomId: "ultima:r2528"
+      direction: west
+  npcs:
+    - id: "ultima:m2445"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2530
+  title: "In front of the Grand Tent"
+  description: >-
+    To the south, there is a huge tent.  To the east lies a smaller
+    tent.
+  exits:
+    - roomId: "ultima:r2534"
+      direction: south
+    - roomId: "ultima:r2531"
+      direction: east
+    - roomId: "ultima:r2529"
+      direction: west
+- id: r2531
+  title: "A Small Tent"
+  description: >-
+    The paladin's tent is very Spartan, as he has to live without
+    much in order to develop his Honor.
+  exits:
+    - roomId: "ultima:r2530"
+      direction: west
+  npcs:
+    - id: "ultima:m2445"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2532
+  title: "A Small Tent"
+  description: >-
+    The paladin's tent is very Spartan, as he has to live without
+    much in order to develop his Honor.
+  exits:
+    - roomId: "ultima:r2528"
+      direction: north
+  npcs:
+    - id: "ultima:m2445"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2533
+  title: "The Treasure Tent"
+  description: >-
+    There is a HUGE stack of treasure here.  It is truly immense.  It
+    would make you easily a millionaire.  If you could even take a
+    tenth of it, you could buy your levels.  But the treasure is
+    surrounded by a shield.  A shield that only the truly Honorable
+    could get through.  And if you were truly honorable you wouldn't
+    take the treasure.
+  exits:
+    - roomId: "ultima:r2534"
+      direction: east
+- id: r2534
+  title: "The Grand Tent"
+  description: >-
+    This tent is absolutely huge.  To the east is the map room.  To
+    the south there is Dupre.  To the east is the treasure room.
+  exits:
+    - roomId: "ultima:r2530"
+      direction: north
+    - roomId: "ultima:r2536"
+      direction: south
+    - roomId: "ultima:r2535"
+      direction: east
+    - roomId: "ultima:r2533"
+      direction: west
+  npcs:
+    - id: "ultima:m2448"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2535
+  title: "The Map Tent"
+  description: >-
+    This room has many maps and scrolls all over the table.  There is
+    one in particular that interest you.
+  exits:
+    - roomId: "ultima:r2534"
+      direction: west
+- id: r2536
+  title: "Dupre's Tent"
+  description: >-
+    This is the commander tent.  It is full of commander type things.
+  exits:
+    - roomId: "ultima:r2534"
+      direction: north
+  npcs:
+    - id: "ultima:m2446"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2537
+  title: "A Small Tent"
+  description: >-
+    The paladin's tent is very Spartan, as he has to live without
+    much in order to develop his Honor.
+  exits:
+    - roomId: "ultima:r2538"
+      direction: east
+  npcs:
+    - id: "ultima:m2445"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2538
+  title: "Desert Entrance"
+  description: >-
+    You feel the hot desert wind blow sand into your face as you look
+    at those dunes.
+  exits:
+    - roomId: "ultima:r2541"
+      direction: north
+    - roomId: "ultima:r2539"
+      direction: east
+    - roomId: "ultima:r2537"
+      direction: west
+  npcs:
+    - id: "ultima:m2445"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2539
+  title: "A Small Tent"
+  description: >-
+    The paladin's tent is very Spartan, as he has to live without
+    much in order to develop his Honor.
+  exits:
+    - roomId: "ultima:r2538"
+      direction: west
+  npcs:
+    - id: "ultima:m2445"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r2540
+  title: "The Desert"
+  description: >-
+    The desert in the northeast part of Britannia is a perfect
+    example of its kind.  Dry, ugly, and lots of sand.
+  exits:
+    - roomId: "ultima:r2544"
+      direction: north
+    - roomId: "ultima:r2541"
+      direction: east
+- id: r2541
+  title: "The Desert"
+  description: >-
+    The Desert is an ugly place.  Sand whips into your eyes, making
+    you unsure of where you are and what you see.
+  exits:
+    - roomId: "ultima:r2538"
+      direction: south
+    - roomId: "ultima:r2542"
+      direction: east
+    - roomId: "ultima:r2540"
+      direction: west
+  npcs:
+    - id: "ultima:m2443"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2542
+  title: "The Desert"
+  description: >-
+    You trudge on.  This desert seems endless.
+  exits:
+    - roomId: "ultima:r2546"
+      direction: north
+    - roomId: "ultima:r2543"
+      direction: east
+    - roomId: "ultima:r2541"
+      direction: west
+- id: r2543
+  title: "The Desert Moongate"
+  description: >-
+    Your thirst seems to slacken as you see the comforting glow of
+    the moongate.
+  exits:
+    - roomId: "ultima:r2542"
+      direction: west
+    - roomId: "ultima:r2549"
+      direction: up
+- id: r2544
+  title: "The Desert Moongate"
+  description: >-
+    Your thirst seems to slacken as you see the comforting glow of
+    the moongate.
+  exits:
+    - roomId: "ultima:r2540"
+      direction: south
+    - roomId: "limbo:r1"
+      direction: up
+- id: r2545
+  title: "The Desert"
+  description: >-
+    There is a large cave to the north.  Smoke pours out of it, at
+    regular intervals.
+  exits:
+    - roomId: "ultima:r2548"
+      direction: north
+    - roomId: "ultima:r2546"
+      direction: east
+- id: r2546
+  title: "The Desert"
+  description: >-
+    The sands blows into your ear and eyes.
+  exits:
+    - roomId: "ultima:r2542"
+      direction: south
+    - roomId: "ultima:r2547"
+      direction: east
+    - roomId: "ultima:r2545"
+      direction: west
+- id: r2547
+  title: "The Desert Moongate"
+  description: >-
+    Your thirst seems to slacken as you see the comforting glow of
+    the moongate.
+  exits:
+    - roomId: "ultima:r2546"
+      direction: west
+    - roomId: "limbo:r1"
+      direction: up
+- id: r2548
+  title: "The Dragon Cave"
+  description: >-
+    The cave is smoky.  There is a a glint of gold.
+  exits:
+    - roomId: "ultima:r2545"
+      direction: south
+  npcs:
+    - id: "ultima:m2444"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2549
+  title: "The Shrine of Spirituality"
+  description: >-
+    In this room a huge ankh sits on a pedestal.  The Shrine is the
+    source of all magical power.  The Timelord himself lives here. 
+    There is a moongate here also.  And last of all there is a huge
+    engraving taking up the west wall.
+  exits:
+    - roomId: "ultima:r2554"
+      direction: north
+    - roomId: "ultima:r2557"
+      direction: south
+    - roomId: "ultima:r2562"
+      direction: up
+  npcs:
+    - id: "ultima:m2455"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2550
+  title: "The Place of Ultimate Evil"
+  description: >-
+    The ground itself seems malevolent.  It sinks and engulfs you.
+  exits:
+    - roomId: "ultima:r2553"
+      direction: south
+    - roomId: "ultima:r2551"
+      direction: east
+  npcs:
+    - id: "ultima:m2447"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2551
+  title: "The Place of Ultimate Evil"
+  description: >-
+    The air sickens you.  You choke on whatever flows through the
+    air.
+  exits:
+    - roomId: "ultima:r2554"
+      direction: south
+    - roomId: "ultima:r2552"
+      direction: east
+    - roomId: "ultima:r2550"
+      direction: west
+  npcs:
+    - id: "ultima:m2452"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2552
+  title: "The Place of Ultimate Evil"
+  description: >-
+    It is dark, there is no evidence of light except what you have
+    with you.  And this is swallowed by the darkness within 2 feet.
+  exits:
+    - roomId: "ultima:r2555"
+      direction: south
+    - roomId: "ultima:r2551"
+      direction: west
+  npcs:
+    - id: "ultima:m2447"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2553
+  title: "The Place of Ultimate Evil"
+  description: >-
+    Sounds are very weird in this place.  Some sounds, like shrieks
+    and blood-curdling shouts are amplified, and you hear them
+    frequently.  Other's like your own voice, will not travel to
+    beyond a inch from your face.
+  exits:
+    - roomId: "ultima:r2550"
+      direction: north
+    - roomId: "ultima:r2554"
+      direction: east
+  npcs:
+    - id: "ultima:m2450"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2554
+  title: "The Place of Ultimate Evil"
+  description: >-
+    When you enter this place all of your senses are immediately
+    blasted.  You breath in that total evilness and feel dirty.  You
+    want to leave right now.
+  exits:
+    - roomId: "ultima:r2551"
+      direction: north
+    - roomId: "ultima:r2549"
+      direction: south
+    - roomId: "ultima:r2555"
+      direction: east
+    - roomId: "ultima:r2553"
+      direction: west
+- id: r2555
+  title: "The Place of Ultimate Evil"
+  description: >-
+    You feel things all over your body.  Sucking it and hurting it.
+  exits:
+    - roomId: "ultima:r2552"
+      direction: north
+    - roomId: "ultima:r2554"
+      direction: west
+  npcs:
+    - id: "ultima:m2447"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "ultima:m2451"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r2556
+  title: "The Graveyard"
+  description: >-
+    The graveyard background noises seem to sooth you.  The are light
+    and peaceful.  Your own voices carries so well and softly that
+    you seem to be telepathically communicating.
+  exits:
+    - roomId: "ultima:r2559"
+      direction: south
+    - roomId: "ultima:r2557"
+      direction: east
+- id: r2557
+  title: "The Graveyard"
+  description: >-
+    When you walk into here you are immediately soothed.  Nothing
+    could be wrong with the world.  All your senses are pleased.
+  exits:
+    - roomId: "ultima:r2549"
+      direction: north
+    - roomId: "ultima:r2560"
+      direction: south
+    - roomId: "ultima:r2558"
+      direction: east
+    - roomId: "ultima:r2556"
+      direction: west
+- id: r2558
+  title: "The Graveyard"
+  description: >-
+    You feel a light breath of air under your clothing.  It massages
+    you.
+  exits:
+    - roomId: "ultima:r2561"
+      direction: south
+    - roomId: "ultima:r2557"
+      direction: west
+- id: r2559
+  title: "The Graveyard"
+  description: >-
+    The ground itself here seems to welcome your footsteps.  It is
+    springy and causes you little fatigue.
+  exits:
+    - roomId: "ultima:r2556"
+      direction: north
+    - roomId: "ultima:r2560"
+      direction: east
+- id: r2560
+  title: "The Graveyard"
+  description: >-
+    The scent of the air refreshes you.  It is sweet and lovely.
+  exits:
+    - roomId: "ultima:r2557"
+      direction: north
+    - roomId: "ultima:r2561"
+      direction: east
+    - roomId: "ultima:r2559"
+      direction: west
+  npcs:
+    - id: "ultima:m2449"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "ultima:m2453"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r2561
+  title: "The Graveyard"
+  description: >-
+    The light here is bright and lovely.
+  exits:
+    - roomId: "ultima:r2558"
+      direction: north
+    - roomId: "ultima:r2560"
+      direction: west
+  npcs:
+    - id: "ultima:m2454"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2562
+  title: "Lord British's Castle Entrance"
+  description: >-
+    This building is awe-inspiring.  Just smaller then Yaz's own. 
+    Anyway Lord British's personal Jester is here to entertain you.
+  exits:
+    - roomId: "ultima:r2563"
+      direction: north
+  npcs:
+    - id: "ultima:m2417"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2563
+  title: "Castle Fountain"
+  description: >-
+    A lovely fountain sits here.  To the north you see a guard.
+  exits:
+    - roomId: "ultima:r2565"
+      direction: north
+    - roomId: "ultima:r2562"
+      direction: south
+  items:
+    - id: "ultima:o2467"
+      respawnChance: 75
+- id: r2564
+  title: "A staircase"
+  description: >-
+    There is a magical staircase going up.  Beware, for those who go
+    up shall not return down.  The other exits except for the west
+    are closed for construction.
+  exits:
+    - roomId: "ultima:r2565"
+      direction: east
+    - roomId: "ultima:r2569"
+      direction: up
+- id: r2565
+  title: "Hallways"
+  description: >-
+    This is the entrance for Lord British.  Through the great doors
+    to the north you can enter.  Another hallways passes across this
+    one.
+  exits:
+    - roomId: "ultima:r2567"
+      direction: north
+    - roomId: "ultima:r2563"
+      direction: south
+    - roomId: "ultima:r2566"
+      direction: east
+    - roomId: "ultima:r2564"
+      direction: west
+  npcs:
+    - id: "ultima:m2461"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2566
+  title: "Hallway"
+  description: >-
+    This is a hallway that would regularly extend from west to east,
+    but it is closed for reconstruction.  There is though a room to
+    your north that can be entered.
+  exits:
+    - roomId: "ultima:r2568"
+      direction: north
+    - roomId: "ultima:r2565"
+      direction: west
+- id: r2567
+  title: "The Throne Room"
+  description: >-
+    In the Throne Room there are the two most important figures in
+    the world.  The avatar and Lord British himself.
+  exits:
+    - roomId: "ultima:r2565"
+      direction: south
+  npcs:
+    - id: "ultima:m2463"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "ultima:m2464"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2568
+  title: "Batlin's Room"
+  description: >-
+    Batlin, the molester of animals, and the general jerk, lives
+    here.
+  exits:
+    - roomId: "ultima:r2566"
+      direction: south
+  npcs:
+    - id: "ultima:m2462"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2569
+  title: "The Altar of Honesty"
+  description: >-
+    You may gain true enlightenment here.  There is a large plaque on
+    the wall.  The path continues only if you use the mantra, to
+    gain enlightenment.
+  exits:
+    - roomId: "ultima:r2570"
+      direction: north
+- id: r2570
+  title: "The Altar of Compassion"
+  description: >-
+    You may gain true enlightenment here.  There is a large plaque on
+    the wall.  The path continues only if you use the mantra, to
+    gain enlightenment.
+  exits:
+    - roomId: "ultima:r2571"
+      direction: north
+- id: r2571
+  title: "The Altar of Valor"
+  description: >-
+    You may gain true enlightenment here.  There is a large plaque on
+    the wall.  The path continues only if you use the mantra, to
+    gain enlightenment.
+  exits:
+    - roomId: "ultima:r2572"
+      direction: north
+- id: r2572
+  title: "The Altar of Justice"
+  description: >-
+    You may gain true enlightenment here.  There is a large plaque on
+    the wall.  The path continues only if you use the mantra, to
+    gain enlightenment.
+  exits:
+    - roomId: "ultima:r2573"
+      direction: north
+- id: r2573
+  title: "The Altar of Sacrifice"
+  description: >-
+    You may gain true enlightenment here.  There is a large plaque on
+    the wall.  The path continues only if you use the mantra, to
+    gain enlightenment.
+  exits:
+    - roomId: "ultima:r2574"
+      direction: north
+- id: r2574
+  title: "The Altar of Honour"
+  description: >-
+    You may gain true enlightenment here.  There is a large plaque on
+    the wall.  The path continues only if you use the mantra, to
+    gain enlightenment.
+  exits:
+    - roomId: "ultima:r2575"
+      direction: north
+- id: r2575
+  title: "The Altar of Spirituality"
+  description: >-
+    You may gain true enlightenment here.  There is a large plaque on
+    the wall.  The path continues only if you use the mantra, to
+    gain enlightenment.
+  exits:
+    - roomId: "ultima:r2576"
+      direction: north
+- id: r2576
+  title: "The Altar of Humility"
+  description: >-
+    You may gain true enlightenment here.  There is a large plaque on
+    the wall.  The path continues only if you use the mantra, to
+    gain enlightenment.
+  exits:
+    - roomId: "ultima:r2577"
+      direction: north
+- id: r2577
+  title: "The Enlightenment"
+  description: >-
+    A voice booms out, "You are now eight part enlightened.  To truly
+    become an Avatar though you must experience what he has
+    experience.  Go through the time warp and fight his enemies. 
+    Beware only High Mortals should attempt this challenge."
+  exits:
+    - roomId: "ultima:r2578"
+      direction: up
+- id: r2578
+  title: "In the Warp"
+  description: >-
+    This is a forest.  You were sent very far back in time.  Before
+    there was a Britannia.  Almost before there was a Lord British. 
+    This is the time of Mondain.  The first enemy that the Avatar
+    met.
+  exits:
+    - roomId: "ultima:r2579"
+      direction: up
+  npcs:
+    - id: "ultima:m2460"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2579
+  title: "In the Warp"
+  description: >-
+    You are in a featureless room.  You see the apprentice and lover
+    of Mondain here.  Minax.  She does not seem happy to see you.
+  exits:
+    - roomId: "ultima:r2580"
+      direction: up
+  npcs:
+    - id: "ultima:m2459"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2580
+  title: "In the Warp"
+  description: >-
+    You see the last of the Triad of Evil.  With its destruction came
+    the breaking of the world.
+  exits:
+    - roomId: "ultima:r2581"
+      direction: up
+  npcs:
+    - id: "ultima:m2458"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2581
+  title: "The Enlightenment"
+  description: >-
+    A voice booms out, "You have now truly became Enlightened.  You
+    have fought and defeated the Avatar's enemy of the past.  Now the
+    time warp leads to the future.  Only the truly courageous can
+    survive the enemies there."
+  exits:
+    - roomId: "ultima:r2582"
+      direction: up
+- id: r2582
+  title: "In the Warp"
+  description: >-
+    You seem to be in a castle.  But there are torture devices here,
+    and an angry King.
+  exits:
+    - roomId: "ultima:r2583"
+      direction: up
+  npcs:
+    - id: "ultima:m2457"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2583
+  title: "In the Warp"
+  description: >-
+    You seem to be in a blue room.  It seems to be only 2 dimensional
+    as it sparkles.  There is also a big red face here.
+  npcs:
+    - id: "ultima:m2456"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2584
+  title: "The Lagoon"
+  description: >-
+    The whirlpool-like ocean is to the north, and the beach is back to the east.
+  exits:
+    - roomId: "ultima:r2518"
+      direction: north
+    - roomId: "ultima:r2513"
+      direction: east

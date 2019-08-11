@@ -1,0 +1,11 @@
+---
+body: |
+  Syntax: BIND <player> <wearable object>
+  Syntax: RELEASE <object with player bound in it>
+  
+  This command 'binds' a player into an object that you can the wear and then
+  do with as you like. If the object is eaten the object will reappear on the 
+  floor.
+  Release simply releases the spirit of the player from the object they were
+  stored in.
+  - release

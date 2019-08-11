@@ -1,0 +1,24 @@
+---
+body: |
+  Syntax: config
+  Syntax: config +<option>
+  Syntax: config -<option>
+  
+  This command configures some of your character behavior. With no options,
+  CONFIG shows you your current settings. With a plus or minus sign and
+  an option, CONFIG turns that option on or off.
+  
+  The options are:
+  
+  ANSI You view things in colour.
+  AUTOEXIT You automatically see exits.
+  AUTOLOOT You automatically loot corpses.
+  AUTOSAC You automatically sacrifice corpses.
+  BLANK You have a blank line before your prompt.
+  BRIEF You see brief descriptions only.
+  COMBINE You see object lists in combined format.
+  FIGHT You will not see parry/misses/dodges.
+  FIGHT2 You will see shield attacks.
+  PROMPT You have a prompt.
+  TELNETGA You receive a telnet GA sequence.
+  

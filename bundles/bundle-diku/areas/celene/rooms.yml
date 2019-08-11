@@ -1,0 +1,1751 @@
+- id: r26400
+  title: "The Plains of Celene"
+  description: >-
+    You have emerged from the dark forest on the plains of the Elven Monarchy
+    of Celene, ruled by the good Queen Yolande, under the guidance and
+    watchful presence of her God and Mentor, the Elven Immortal Corellon Larethian.
+    Tall spires rise in the distance, emerging from the magnificent Elven city of 
+    Celene, to which the path you are upon leads.
+    There is a small, hand-lettered sign near the path...
+  exits:
+    - roomId: "valley:r7827"
+      direction: south
+    - roomId: "celene:r26401"
+      direction: east
+- id: r26401
+  title: "The Road to Celene"
+  description: >-
+    You are moving along a broad, well-formed path that is bordered by neatly-
+    groomed trees and hedges. To the north you can hear what sounds like a horse
+    braying, while to the east the city of Celene looms larger.
+  exits:
+    - roomId: "celene:r26402"
+      direction: north
+    - roomId: "celene:r26404"
+      direction: east
+    - roomId: "celene:r26400"
+      direction: west
+- id: r26402
+  title: "The Path to the Unicorn Glade"
+  description: >-
+    You feel a sudden sense of peace and serenity wash over you as you enter this
+    gentle wooded glade. Here the sound of braying is louder, and you fancy you
+    can smell the odour of equine beasts. The aura of the surroundings make you
+    feel like doing nothing more that lying down and resting for a LONG time...
+  exits:
+    - roomId: "celene:r26401"
+      direction: south
+    - roomId: "celene:r26403"
+      direction: east
+- id: r26403
+  title: "The Unicorn Glade"
+  description: >-
+    You have entered the sanctum of the Unicorns of of Celene, close friends
+    and allies of the Elves of Celene. However, despite their benevolent
+    nature, the Unicorns dislike intruders, especially armed and aggressive ones,
+    and will not hesitate to use extreme force to evict these intruders. In
+    addition, to protect these creatures, the Elven sorceror Theodain Eriason has placed
+    powerful enchantments on this place that prevent magical attacks on the
+    unicorns.
+  exits:
+    - roomId: "celene:r26402"
+      direction: west
+  npcs:
+    - id: "celene:m26415"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r26404
+  title: "The Road to Celene"
+  description: >-
+    You have progressed further along the road to the Elven capital, past several
+    farmhouses and various creatures of the wild that stop to stare inquisitively
+    at you as you pass. The gates of the city are now visible, as are the guards
+    stationed near them, their colorful rainments dazzling you even from this
+    distance. In the near distance there appears to be a monument of some sort.
+  exits:
+    - roomId: "celene:r26405"
+      direction: east
+    - roomId: "celene:r26401"
+      direction: west
+- id: r26405
+  title: "A Monument to the Elven Lords"
+  description: >-
+    At this point on the road the Nobles of Celene have had a huge marble 
+    monument erected, dedicated to the many Elven Lords who died during the 
+    ferocious Goblin Wars that devastated most of the Elven Nations. The statue 
+    shows a band of Elves courageously defending an unarmed woman and her child 
+    from a band of hideous Goblins, and is quite brilliantly fashioned. There is
+    an inscription at the base of the statue.
+  exits:
+    - roomId: "celene:r26406"
+      direction: east
+    - roomId: "celene:r26404"
+      direction: west
+  items:
+    - id: "celene:o26473"
+      respawnChance: 75
+- id: r26406
+  title: "A Prominent Farmhouse"
+  description: >-
+    As you approach the gates of the city, you pass by a prominent farmhouse,
+    far more distinguished and well-kept than its neighbours. A pungent herbal
+    aroma wafts on the wind to your nose, and your eyes water involuntarily.
+    There is a small sign in one window.
+  exits:
+    - roomId: "celene:r26407"
+      direction: south
+    - roomId: "celene:r26408"
+      direction: east
+    - roomId: "celene:r26405"
+      direction: west
+- id: r26407
+  title: "The Herbalist's Shop"
+  description: >-
+    Entering the busines premises of the Herbalist, you find that you grow
+    quickly accustomed to the vile smell you detected earlier, and even find it
+    to be rather pleasant. Mithara quickly informs you that the substance is 
+    tobacco, and that she specializes in it. She also has a wide range of other
+    substances, including potions, herbs and healing salves.
+  exits:
+    - roomId: "celene:r26406"
+      direction: north
+  npcs:
+    - id: "celene:m26422"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26408
+  title: "The Gates of Celene"
+  description: >-
+    You have finally reached the Gates of Celene, huge oaken portals banded
+    with bronze. Guards patrol smartly both inside and outside the gate, 
+    constantly on guard for troublemakers or looters. However, the City of
+    Celene is always open to peaceful travellers, and it has not been necessary
+    to close the City Gates for six decades.
+    There is a sign posted on one of the gates.
+  exits:
+    - roomId: "celene:r26409"
+      direction: east
+    - roomId: "celene:r26406"
+      direction: west
+  npcs:
+    - id: "celene:m26407"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26407"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26407"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r26409
+  title: "Inside the Gates"
+  description: >-
+    You are now standing inside the Gates of Celene, on what is known as Mallas
+    Street, whic runs between two tall stone walls before turning south into Talein 
+    Street, which is in the city proper. In times of war, this narrow passage
+    can be easily defended, and you spy pots of oil atop the walls ready to pour
+    upon any foes that seek to enter by this route.
+  exits:
+    - roomId: "celene:r26437"
+      direction: east
+    - roomId: "celene:r26408"
+      direction: west
+- id: r26410
+  title: "Upon Nollthala Street"
+  description: >-
+    You are walking along Nollthala Street which heads east towards the scout
+    quarters, guard quarters and stables, and west towards the palace of the Prince,
+    which stands in the very center of this unusually symmetrical city.
+  exits:
+    - roomId: "celene:r26412"
+      direction: east
+    - roomId: "celene:r26490"
+      direction: west
+  npcs:
+    - id: "celene:m26408"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "celene:m26408"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "celene:m26408"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "celene:m26409"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "celene:m26409"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "celene:m26409"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26411
+  title: "Guard Quarters"
+  description: >-
+    You have entered the barracks for the Elite Guard of Celene. Most of the
+    guards will be absent on patrol in the City or surrounding Monarchy, but 
+    occasionally a few, rendered inactive by sickness or injury or on leave will
+    be here, relaxing, talprince, singing or meditating. They are not adverse to
+    visitors, and will happily chat with foreigners about distant lands, though
+    it would not do to act aggressively in the presence of these doughty warriors.
+  exits:
+    - roomId: "celene:r26412"
+      direction: north
+  npcs:
+    - id: "celene:m26405"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "celene:m26405"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r26412
+  title: "Nollthala Street"
+  description: >-
+    You are standing outside the quarters of the Elite Guard, to the north and
+    south. To the west lies the Prince's Palace, and to the east more quarters.
+  exits:
+    - roomId: "celene:r26413"
+      direction: north
+    - roomId: "celene:r26411"
+      direction: south
+    - roomId: "celene:r26414"
+      direction: east
+    - roomId: "celene:r26410"
+      direction: west
+- id: r26413
+  title: "Guard Quarters"
+  description: >-
+    You have entered the barracks for the Elite Guard of Celene. Most of the
+    guards will be absent on patrol in the City or surrounding Monarchy, but 
+    occasionally a few, rendered inactive by sickness or injury or on leave will
+    be here, relaxing, talprince, singing or meditating. They are not adverse to
+    visitors, and will happily chat with foreigners about distant lands, though
+    it would not do to act aggressively in the presence of these doughty warriors.
+  exits:
+    - roomId: "celene:r26412"
+      direction: south
+- id: r26414
+  title: "Nollthala Street"
+  description: >-
+    You are standing outside the quarters of the Elite Guard, to the north and
+    south. To the west lies the Prince's Palace, and to the east more quarters.
+  exits:
+    - roomId: "celene:r26416"
+      direction: north
+    - roomId: "celene:r26415"
+      direction: south
+    - roomId: "celene:r26417"
+      direction: east
+    - roomId: "celene:r26412"
+      direction: west
+  npcs:
+    - id: "celene:m26413"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26413"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r26415
+  title: "Guard Quarters"
+  description: >-
+    You have entered the barracks for the Elite Guard of Celene. Most of the
+    guards will be absent on patrol in the City or surrounding Monarchy, but 
+    occasionally a few, rendered inactive by sickness or injury or on leave will
+    be here, relaxing, talprince, singing or meditating. They are not adverse to
+    visitors, and will happily chat with foreigners about distant lands, though
+    it would not do to act aggressively in the presence of these doughty warriors.
+  exits:
+    - roomId: "celene:r26414"
+      direction: north
+- id: r26416
+  title: "Guard Quarters"
+  description: >-
+    You have entered the barracks for the Elite Guard of Celene. Most of the
+    guards will be absent on patrol in the City or surrounding Monarchy, but 
+    occasionally a few, rendered inactive by sickness or injury or on leave will
+    be here, relaxing, talprince, singing or meditating. They are not adverse to
+    visitors, and will happily chat with foreigners about distant lands, though
+    it would not do to act aggressively in the presence of these doughty warriors.
+  exits:
+    - roomId: "celene:r26414"
+      direction: south
+  npcs:
+    - id: "celene:m26405"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "celene:m26405"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r26417
+  title: "Nollthala Street"
+  description: >-
+    You are standing outside the quarters of the Elite Scouts, to the north and
+    south. To the west lies the Prince's Palace, and to the east some stables.
+  exits:
+    - roomId: "celene:r26419"
+      direction: north
+    - roomId: "celene:r26418"
+      direction: south
+    - roomId: "celene:r26420"
+      direction: east
+    - roomId: "celene:r26414"
+      direction: west
+- id: r26418
+  title: "Scout Quarters"
+  description: >-
+    You have entered the barracks for the Elite Scouts of Celene. Most of the
+    guards will be absent on patrol in the lands surrounding the Monarchy, but 
+    occasionally a few, rendered inactive by sickness or injury or on leave will
+    be here, relaxing, talprince, singing or meditating. They are not adverse to
+    visitors, and will happily chat with foreigners about distant lands, though
+    it would not do to act aggressively in the presence of these tough rangers.
+  exits:
+    - roomId: "celene:r26417"
+      direction: north
+  npcs:
+    - id: "celene:m26406"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26419
+  title: "Scout Quarters"
+  description: >-
+    You have entered the barracks for the Elite Scouts of Celene. Most of the
+    guards will be absent on patrol in the lands surrounding the Monarchy, but 
+    occasionally a few, rendered inactive by sickness or injury or on leave will
+    be here, relaxing, talprince, singing or meditating. They are not adverse to
+    visitors, and will happily chat with foreigners about distant lands, though
+    it would not do to act aggressively in the presence of these tough rangers.
+  exits:
+    - roomId: "celene:r26417"
+      direction: south
+- id: r26420
+  title: "A Junction in Nolthalla Street"
+  description: >-
+    You have reached a junction in the street, where you can go east to the 
+    stables, west to the quarters of the Elite Guard and Scouts, and then the 
+    palace, or north along a narrow alley.
+  exits:
+    - roomId: "celene:r26421"
+      direction: north
+    - roomId: "celene:r26477"
+      direction: east
+    - roomId: "celene:r26417"
+      direction: west
+- id: r26421
+  title: "A Narrow Alley"
+  description: >-
+    You are progressing along a narrow alley, not sure where you are going.
+    It looks as if no-one has been along here in a LONG time...
+    You must be crazy, for you almost imagine you can see a tower in the gloom
+    ahead...
+  exits:
+    - roomId: "celene:r26422"
+      direction: north
+    - roomId: "celene:r26420"
+      direction: south
+  npcs:
+    - id: "celene:m26413"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26422
+  title: "The Base of a Tower"
+  description: >-
+    You COULD see a tower. It has been placed smack in the middle of this alley,
+    obviously by magicks far beyond your ken. You feel a strange urge to turn 
+    away, but your adventurer's curiosity powers you on. You can step into the
+    gloom and ascend the steps up the tower or return to the alley...
+  exits:
+    - roomId: "celene:r26421"
+      direction: south
+    - roomId: "celene:r26423"
+      direction: up
+- id: r26423
+  title: "Ascending the Stairs..."
+  description: >-
+    You are half way up the tower, and have reached the conclusion that this
+    tower is a LOT bigger than it looked form the outside. Catching your breath,
+    you prepare to resume your climb, but stop suddenly when you see a monstrous
+    figure emerge from the gloom above...
+  exits:
+    - roomId: "celene:r26469"
+      direction: up
+    - roomId: "celene:r26422"
+      direction: down
+  npcs:
+    - id: "celene:m26446"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26424
+  title: "Talein Street"
+  description: >-
+    You are standing in Talein Street, the hub of commercial activity in the
+    City of Celene. To the north are the various shops and business premises
+    of the merchants of Celene, and to the south is the Palace of the Prince.
+  exits:
+    - roomId: "celene:r26425"
+      direction: north
+    - roomId: "celene:r26488"
+      direction: south
+  npcs:
+    - id: "celene:m26408"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26409"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26425
+  title: "Talein Street"
+  description: >-
+    You are on Talein Street, passing the various shops of the Elven City. To
+    the south is the Palace of the Prince, while the exit from Talein lies to the
+    north and west.
+    On the west lies the Armory and the east the Weaponsmith.
+  exits:
+    - roomId: "celene:r26428"
+      direction: north
+    - roomId: "celene:r26424"
+      direction: south
+    - roomId: "celene:r26427"
+      direction: east
+    - roomId: "celene:r26426"
+      direction: west
+  npcs:
+    - id: "celene:m26407"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26426
+  title: "The Armory"
+  description: >-
+    You have entered the Armory owned and operated by the respected armorer
+    Grein. Armor of all types and makes lines the walls of this shop, and you
+    are overcome by the sheer volume of Grein's stock.
+    There is a Sign on the back wall of the shop.
+  exits:
+    - roomId: "celene:r26425"
+      direction: east
+  npcs:
+    - id: "celene:m26420"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26427
+  title: "The Weaponsmith"
+  description: >-
+    You have entered the Weaponsmith owned and operated by the Armorer's brother
+    Tolas. Weapons of all types and makes lines the walls of this shop, and you
+    are overcome by the sheer volume of Tolos's stock.
+    There is a Sign on the back wall of the shop.
+  exits:
+    - roomId: "celene:r26425"
+      direction: west
+  npcs:
+    - id: "celene:m26421"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26428
+  title: "Talein Street"
+  description: >-
+    You are on Talein Street, passing the various shops of the Elven City. To
+    the south is the Palace of the Prince, while the exit from Talein lies to the
+    north and west.
+    On the west lies the Restaurant and the east the Grocer.
+  exits:
+    - roomId: "celene:r26431"
+      direction: north
+    - roomId: "celene:r26425"
+      direction: south
+    - roomId: "celene:r26430"
+      direction: east
+    - roomId: "celene:r26429"
+      direction: west
+- id: r26429
+  title: "Loothala's Restaurant"
+  description: >-
+    A beautiful aroma of freshly-cooked Elven fare wafts to you as you enter this
+    quaint little cafeteria-style eating establishment. Little tables with 
+    checked tablecloths and lamps litter the polished oak floor, and a cheery
+    Elven woman greets you from behind a massive oak counter.
+    There is a Sign on the back wall of the shop.
+  exits:
+    - roomId: "celene:r26428"
+      direction: east
+  npcs:
+    - id: "celene:m26423"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26430
+  title: "The Grocer"
+  description: >-
+    You have entered a quaint little Grocery store, owned by a cordial Elf named
+    Dyenkalas. He smiles and offers to show you the variety of adventuring
+    equipment he can provide.
+    There is a Sign on the back wall of the shop.
+  exits:
+    - roomId: "celene:r26428"
+      direction: west
+  npcs:
+    - id: "celene:m26424"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26431
+  title: "Talein Street"
+  description: >-
+    You are on Talein Street, passing the various shops of the Elven City. To
+    the south is the Palace of the Prince, while the exit from Talein lies to the
+    north and west.
+    On the west lies the Magical Shop and the east the Smithy.
+  exits:
+    - roomId: "celene:r26434"
+      direction: north
+    - roomId: "celene:r26428"
+      direction: south
+    - roomId: "celene:r26433"
+      direction: east
+    - roomId: "celene:r26432"
+      direction: west
+  npcs:
+    - id: "celene:m26416"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r26432
+  title: "Ye Olde Magickal Shoppe"
+  description: >-
+    You have entered a rather gloomy shop that smells strongly of ageing parchment
+    and Octopus Ink. A variety of mighty-looking wands and staves are gathering
+    dust at the back of the shop, while some rather tacky-looking brand new 
+    plastic wands and staves glow brilliantly from within a glass display case.
+    There is a Sign on the back wall of the shop.
+  exits:
+    - roomId: "celene:r26431"
+      direction: east
+  npcs:
+    - id: "celene:m26419"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26433
+  title: "The Smithy"
+  description: >-
+    You have entered the Smithy, a noisy, humid place made alive by the dancing 
+    shadows cast by the flickering flame from the Smith's forge. The Smith himself
+    stands before the forge, glaring at you impatiently.
+    "Well, what do you want? Come on! I don't have all day, y'know!"
+    The Smith is in EXTREMELY Perfect Health...
+    There is a Sign on the back wall of the shop.
+  exits:
+    - roomId: "celene:r26431"
+      direction: west
+  npcs:
+    - id: "celene:m26425"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26434
+  title: "Corner of Talein and Mallas Streets"
+  description: >-
+    You have reached the corner of two of the principal streets in Celene. 
+    You may go to the south, towards the shops and the Palace, or west, towards
+    the Gates.
+  exits:
+    - roomId: "celene:r26431"
+      direction: south
+    - roomId: "celene:r26435"
+      direction: west
+- id: r26435
+  title: "Mallas Street at the Base of a Tower"
+  description: >-
+    You are standing at the base of a Tower, the second of two such structures
+    along Mallas street. You may head up the tower, or head west or east along
+    Mallas street.
+    There is a small plaque fastened to the tower.
+  exits:
+    - roomId: "celene:r26434"
+      direction: east
+    - roomId: "celene:r26436"
+      direction: west
+    - roomId: "celene:r26482"
+      direction: up
+  npcs:
+    - id: "celene:m26405"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r26436
+  title: "Mallas Street"
+  description: >-
+    You are heading along Mallas Street, midway between two large towers.
+    You may proceed west towards the Gates of Celene, or east towards the
+    City proper.
+  exits:
+    - roomId: "celene:r26435"
+      direction: east
+    - roomId: "celene:r26437"
+      direction: west
+  npcs:
+    - id: "celene:m26413"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26437
+  title: "Base of a Tower"
+  description: >-
+    You are standing at the base of a guard tower, near the Gates of Celene.
+    You may proceed west to the Gates, or east towards a second tower, or enter
+    the tower you stand beneath. You fancy you can hear a faint screeching 
+    coming from this tower...
+    There is a hand-written note pinned to a noticeboard nearby.
+  exits:
+    - roomId: "celene:r26436"
+      direction: east
+    - roomId: "celene:r26409"
+      direction: west
+    - roomId: "celene:r26438"
+      direction: up
+  npcs:
+    - id: "celene:m26412"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26438
+  title: "The Guard Tower"
+  description: >-
+    Uh-Oh. You are in TROUBLE. As you emerge you see a HUGE griffon staring
+    coldly at you, seconds before it lunges madly at your throat, beak and
+    claws ready!
+  exits:
+    - roomId: "celene:r26437"
+      direction: down
+  npcs:
+    - id: "celene:m26449"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r26439
+  title: "Obeith Street"
+  description: >-
+    You are standing on Obeith Street, which runs east-west through guard
+    quarters and a civilian area, towards the Palace to the east, and a temple
+    to the west, positioned in a grand park.
+  exits:
+    - roomId: "celene:r26484"
+      direction: east
+    - roomId: "celene:r26440"
+      direction: west
+  npcs:
+    - id: "celene:m26410"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26411"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26440
+  title: "Obeith Street"
+  description: >-
+    You are heading along Obeith Street, past a guard house and a scout station.
+    Occupants of both occasionally stroll past, gazing at you curiously, but
+    for the most part the street is deserted. The City Temple looms large in the
+    west, as does the Prince's Palace to the east.
+  exits:
+    - roomId: "celene:r26442"
+      direction: north
+    - roomId: "celene:r26441"
+      direction: south
+    - roomId: "celene:r26439"
+      direction: east
+    - roomId: "celene:r26443"
+      direction: west
+- id: r26441
+  title: "Scout Station"
+  description: >-
+    It is here that the young Elves who wish to become Elite Scouts live and
+    learn. They are rarely here during most of the year, often out hunting,
+    tracking or fighting Goblin raiders. The few that are here are those that
+    were not fit or worthy enough to take to the field this season.
+  exits:
+    - roomId: "celene:r26440"
+      direction: north
+  npcs:
+    - id: "celene:m26416"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26442
+  title: "Guard House"
+  description: >-
+    This is the Headquarters of the City Guard. It is from here that they
+    co-ordinate their efforts to keep the peace in the streets of Celene,
+    handling mostly cases of petty crime (the Elite Guard handle serious 
+    problems). They frown on civilians entering their premises, but will
+    tolerate your presence for they will recognize you as a mere ignorant
+    foreigner who probably doesn't speak enough Elvish to understand when
+    they're being told to LEAVE.
+  exits:
+    - roomId: "celene:r26440"
+      direction: south
+  npcs:
+    - id: "celene:m26407"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r26443
+  title: "Obeith Street"
+  description: >-
+    You are heading along Obeith Street, past a Pet store and a Cartograhper's
+    business. Customers of both occasionally stroll past, gazing at you curiously,
+    but for the most part the street is deserted. The City Temple looms large in 
+    the west, as does the Prince's Palace to the east.
+  exits:
+    - roomId: "celene:r26445"
+      direction: north
+    - roomId: "celene:r26444"
+      direction: south
+    - roomId: "celene:r26440"
+      direction: east
+    - roomId: "celene:r26447"
+      direction: west
+- id: r26444
+  title: "Ye Olde Mappe Shoppe"
+  description: >-
+    This quiet establishment specializes in the maprince and selling of maps.
+    The Cartograhper is really very good at what he does, although his current
+    collection of maps is rather old and out-of-date.
+    There is a Sign on the back wall of the shop.
+  exits:
+    - roomId: "celene:r26443"
+      direction: north
+  npcs:
+    - id: "celene:m26427"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26445
+  title: "The Pet Shop"
+  description: >-
+    Many wondrous and rare creatures are available for purchase as pets here,
+    if you have the cash and the desire for one. The stock is good, the animals
+    healthy and the prices not too outlandish.
+    There is a Sign on the back wall of the shop.
+  exits:
+    - roomId: "celene:r26443"
+      direction: south
+  npcs:
+    - id: "celene:m26439"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26446
+  title: "Pet storage"
+  description: >-
+    What are you doing here??? get the Hell Out!
+    :)
+    Yaegs
+  npcs:
+    - id: "celene:m26450"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26451"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26452"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26453"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26454"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26455"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26456"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26447
+  title: "Obeith Street"
+  description: >-
+    You are heading along Obeith Street, past a residental area. Citizens of 
+    the City occasionally stroll past, gazing at you curiously, but for the 
+    most part the street is deserted. The City Temple looms large in the west, 
+    as does the Prince's Palace to the east.
+  exits:
+    - roomId: "celene:r26448"
+      direction: north
+    - roomId: "celene:r26443"
+      direction: east
+    - roomId: "celene:r26449"
+      direction: west
+  npcs:
+    - id: "celene:m26417"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26448
+  title: "A House"
+  description: >-
+    This house is the home of some citizens of the City of Celene. Now Elves
+    are a rather private bunch, and it woulnd't do to be caught by the Guard
+    traipsing through some stranger's house handling his or her possessions,
+    so you'd better leave.
+  exits:
+    - roomId: "celene:r26447"
+      direction: south
+  npcs:
+    - id: "celene:m26418"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26409"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26449
+  title: "Obeith Street"
+  description: >-
+    You have reached a point where Obeith Street is met by a narrow alley that
+    runs to the south. Further to the west lies the Grand Temple of Celene.
+  exits:
+    - roomId: "celene:r26450"
+      direction: south
+    - roomId: "celene:r26447"
+      direction: east
+    - roomId: "celene:r26470"
+      direction: west
+- id: r26450
+  title: "A Narrow Alley"
+  description: >-
+    You are heading along a narrow alley that meets Obeith Street to the north
+    and terminates in a brightly-lit tower to the south. You can hear mumbling 
+    and growling noises coming from the tower.
+  exits:
+    - roomId: "celene:r26449"
+      direction: north
+    - roomId: "celene:r26451"
+      direction: south
+- id: r26451
+  title: "A Brightly-Lit Tower"
+  description: >-
+    As you draw nearer to this illuminated edifice the noises stop, as if the
+    occupant(s?) have suddenly become aware of your presence. An open archway
+    allows access to a staircase that spirals upwards thought the tower, which
+    ends in a finely-tapered point of obsidian, smooth and unadorned.
+  exits:
+    - roomId: "celene:r26450"
+      direction: north
+    - roomId: "celene:r26452"
+      direction: up
+- id: r26452
+  title: "Heading up the Tower"
+  description: >-
+    You have reached a landing halfway up (down?) this huge tower, pausing to
+    catch your breath. You now fancy you can hear a faint humming, and you are
+    sure you can smell burning herbs. A massive stone monolith looms to your
+    left, and a gilded plaque hangs on the wall to your right.
+  exits:
+    - roomId: "celene:r26453"
+      direction: up
+    - roomId: "celene:r26451"
+      direction: down
+- id: r26453
+  title: "The Top of the Tower"
+  description: >-
+    You enter into a huge circular room filled to the rafters with books, curios,
+    trinkets, artifacts, relics, alembics, beakers, urns, pots, pans, wands, 
+    rings, swords- every manner of object possible. A brazier in the center of  
+    rooms holds some burning herbs, which fill the room with an acrid smoke. An
+    elderly elf is busy fiddling with a rather strange contraption upon which he
+    places black plastic discs from which a rather odd sound emerges, along with
+    much scratching and hissing. He has quite a collection of these disks, which
+    are packaged in luridly-colored paper envelopes, replete with pictures of
+    rather weedy-looking, long-haired, pale-skinned humans (?).
+  exits:
+    - roomId: "celene:r26452"
+      direction: down
+  npcs:
+    - id: "celene:m26426"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "celene:o26448"
+      respawnChance: 75
+    - id: "celene:o26455"
+      respawnChance: 75
+    - id: "celene:o26456"
+      respawnChance: 75
+- id: r26454
+  title: "Baleith Street"
+  description: >-
+    You are standing upon Balieth Street, which runs north south from the Palace
+    of the Prince to the north to the Guilds to the south. There is a magnificent
+    statue of the Prince here, resplendent in full ceremonial dress.
+  exits:
+    - roomId: "celene:r26486"
+      direction: north
+    - roomId: "celene:r26455"
+      direction: south
+  items:
+    - id: "celene:o26457"
+      respawnChance: 75
+- id: r26455
+  title: "Baleith Street"
+  description: >-
+    You are heading along Balieth Street, which is home to the Guildmasters and
+    Guildmistresses of Celene. At the far end, to the south, lies the tower
+    of the Elven Guildmaster, and the legendary Library of Celene, while to
+    the north lies the opulent Palace of the Prince.
+    The Dwarven Guild is to the west of here, and the Human Guild to the east.
+  exits:
+    - roomId: "celene:r26454"
+      direction: north
+    - roomId: "celene:r26458"
+      direction: south
+    - roomId: "celene:r26457"
+      direction: east
+    - roomId: "celene:r26456"
+      direction: west
+  npcs:
+    - id: "celene:m26413"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26456
+  title: "Dwarven Guild"
+  description: >-
+    You have entered the rough-hewn stone hall of the Dwarven Guildmaster, who
+    stands ready to help you advance your knowledge of his race's ways. The
+    room is typical of all Dwarven structures- practical, functional, extremely
+    well-made, but totally unimaginative.
+    There is a sign on the back wall.
+  exits:
+    - roomId: "celene:r26455"
+      direction: east
+  npcs:
+    - id: "celene:m26433"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26457
+  title: "Human Guild"
+  description: >-
+    You have entered a Shaolin Temple, in the midst of which sits your teacher,
+    clad in simple white robes, ready to train you in the ways of the Human
+    Martial Arts.
+    There is a sign on the back wall.
+  exits:
+    - roomId: "celene:r26455"
+      direction: west
+  npcs:
+    - id: "celene:m26431"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26458
+  title: "Baleith Street"
+  description: >-
+    You are heading along Balieth Street, which is home to the Guildmasters and
+    Guildmistresses of Celene. At the far end, to the south, lies the tower
+    of the Elven Guildmaster, and the legendary Library of Celene, while to
+    the north lies the opulent Palace of the Prince.
+    The Dryad Guild is to the west of here, and the HalflingGuild to the east.
+  exits:
+    - roomId: "celene:r26455"
+      direction: north
+    - roomId: "celene:r26461"
+      direction: south
+    - roomId: "celene:r26460"
+      direction: east
+    - roomId: "celene:r26459"
+      direction: west
+  npcs:
+    - id: "celene:m26408"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26407"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26459
+  title: "Dryad Guild"
+  description: >-
+    The room you have entered has been beautifully rendered by some Elven artist
+    to resemble a peacefuly woodland setting, complete with masterfully-painted
+    images of Sylvan creatures. Amidst all of this towers your Guildmaster,
+    extremely tall, and quite imposing clad in his concealing flowing brown robes.
+    There is a sign on the back wall.
+  exits:
+    - roomId: "celene:r26458"
+      direction: east
+  npcs:
+    - id: "celene:m26434"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26460
+  title: "Halfling Guild"
+  description: >-
+    You have entered what looks like a jumble sale, a huge pile of goods of all
+    sorts towering in the center of the room. Atop all this sits the Halfling
+    Guildmaster, grinning madly at you.
+    There is a sign on the back wall.
+  exits:
+    - roomId: "celene:r26458"
+      direction: west
+  npcs:
+    - id: "celene:m26432"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26461
+  title: "Baleith Street"
+  description: >-
+    You are heading along Balieth Street, which is home to the Guildmasters and
+    Guildmistresses of Celene. At the far end, to the south, lies the tower
+    of the Elven Guildmaster, and the legendary Library of Celene, while to
+    the north lies the opulent Palace of the Prince.
+    The Avian Guild is to the west of here, and the Illithid Guild to the east.
+  exits:
+    - roomId: "celene:r26458"
+      direction: north
+    - roomId: "celene:r26464"
+      direction: south
+    - roomId: "celene:r26463"
+      direction: east
+    - roomId: "celene:r26462"
+      direction: west
+- id: r26462
+  title: "Avian Guild"
+  description: >-
+    A strange, birdlike creature gazes curiously at you as you enter his Guild,
+    especially if you are a non-avian, for there is little he can teach you if
+    this is the case. Otherwise, the teacher recovers and sets out to teach you
+    what he can.
+    There is a sign on the back wall.
+  exits:
+    - roomId: "celene:r26461"
+      direction: east
+  npcs:
+    - id: "celene:m26436"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26463
+  title: "Illithid Guild"
+  description: >-
+    You have entered a dimly-lit study which has little decorations save for a
+    brilliantly crafted picture of the brain, with tiny labels attached to each
+    major part, as well as charts and tables explaining how this affects 
+    particular psionic abilities. The Illithid Guildmaster greets you 
+    telepathically and asks how he may teach you.
+    There is a sign on the back wall.
+  exits:
+    - roomId: "celene:r26461"
+      direction: west
+  npcs:
+    - id: "celene:m26435"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26464
+  title: "The Path to the Library"
+  description: >-
+    You have reached a bend in Baleith Street, where it turns and heads towards
+    the magnificent Library of Celene, which is also home to the Elven
+    Guildmaster himself.
+    South of here lie the Celene docks.
+  exits:
+    - roomId: "celene:r26461"
+      direction: north
+    - roomId: "celene:r26465"
+      direction: east
+  npcs:
+    - id: "celene:m26428"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26437"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26465
+  title: "The Path to the Library"
+  description: >-
+    As you draw nearer, you notice that the Library is actually housed in an
+    impressive tower, similar to those in the toehr three quarters of the City,
+    towering high into the sky, tapering to an unadorned point, in this case
+    housed in platinum sheeting. Guards occasionally march past, as do several
+    important-looking noblemen and women.
+  exits:
+    - roomId: "celene:r26466"
+      direction: east
+    - roomId: "celene:r26464"
+      direction: west
+  npcs:
+    - id: "celene:m26429"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26466
+  title: "The Base of the Tower"
+  description: >-
+    Entering the Tower, you find that you may proceed up or down, via elaborately
+    carved marble staircases, lit at regular intervals by Continual Light spells.
+    There is a desk on this level, unmanned, but which bears a register. There is
+    a large bulletin board on the wall behind the desk, between tall statues of
+    Aya and Mala, the Father and Mother of Learning in Elven Culture.
+  exits:
+    - roomId: "celene:r26465"
+      direction: west
+    - roomId: "celene:r26467"
+      direction: up
+    - roomId: "celene:r26496"
+      direction: down
+  npcs:
+    - id: "celene:m26438"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26405"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26467
+  title: "Clerical Offices"
+  description: >-
+    Halfway up the Tower, you emerge on Level One, which is filled with servants
+    busily rushing about emptying bins, maprince lunch, filing papers, getting 
+    coffee for the librarians, stacprince books and so on. They seem completely
+    oblivious to your presence.
+  exits:
+    - roomId: "celene:r26468"
+      direction: up
+    - roomId: "celene:r26466"
+      direction: down
+  npcs:
+    - id: "celene:m26437"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "celene:m26438"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "celene:m26447"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r26468
+  title: "The Guildmaster's Office"
+  description: >-
+    You emerge into a well-lit room with shelves well-stocked with books on
+    Elven Lore, and a huge desk carved of what looks like solid obsidian. The
+    Guildmaster himself is seated at this desk, poring over many a quaint and
+    mysterious volume of misbegotten lore...
+  exits:
+    - roomId: "celene:r26467"
+      direction: down
+  npcs:
+    - id: "celene:m26430"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "celene:o26448"
+      respawnChance: 75
+    - id: "celene:o26455"
+      respawnChance: 75
+- id: r26469
+  title: "The Top of the Tower"
+  description: >-
+    Reaching the top of the tower, you come to a half-open door, which you are
+    able to barely push open, wedged as it is by a huge pile of books. Giving it 
+    a final shove, the door flies open, scattering books across the floor of the
+    dusty study you have entered, startling the Archmage Theodain Eriason, who to your growing
+    dismay is becoming very angry. He stares grimly at you as you stutter out an
+    apology, and simply demands that you fulfill whatever business you have with
+    him or begone forthwith.
+    You see a tattered scroll stuck to one wall.
+  exits:
+    - roomId: "celene:r26423"
+      direction: down
+  npcs:
+    - id: "celene:m26402"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "celene:o26455"
+      respawnChance: 75
+    - id: "celene:o26448"
+      respawnChance: 75
+- id: r26470
+  title: "The Temple"
+  description: >-
+    You are standing outside the Temple of Celene, where services are given to
+    honor all the deities of the Elven nations. A set of magnificent marble 
+    pillars lines the entrance hall, and from this hall you can proceed south
+    to the altar, or north to the private chambers of the clergy.
+  exits:
+    - roomId: "celene:r26472"
+      direction: north
+    - roomId: "celene:r26471"
+      direction: south
+    - roomId: "celene:r26449"
+      direction: east
+  npcs:
+    - id: "celene:m26406"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26406"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26406"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26406"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r26471
+  title: "The Aisle to the Altar"
+  description: >-
+    You have entered the aisle that leads to the altar of the Temple, where the
+    High Priest Lallinthenera stands, healing the sick and converting the wicked.
+  exits:
+    - roomId: "celene:r26470"
+      direction: north
+    - roomId: "celene:r26473"
+      direction: west
+- id: r26472
+  title: "The Private Chambers of the Clergy"
+  description: >-
+    To the north are the residence halls of the clergy, while to the west lies
+    the Holy Bank of the Elven Church, where you can deposit or withdraw funds.
+  exits:
+    - roomId: "celene:r26474"
+      direction: north
+    - roomId: "celene:r26470"
+      direction: south
+    - roomId: "celene:r26475"
+      direction: west
+  npcs:
+    - id: "celene:m26410"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26410"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26410"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26411"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26411"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26411"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r26473
+  title: "The Altar"
+  description: >-
+    The Altar of the Temple is here, and standing before it is the High Priest.
+    You feel an oveeriding sense of peace and calm in this place, and feel that
+    in here you are truly afe from the trials and tribulations of the outside
+    world.
+  exits:
+    - roomId: "celene:r26471"
+      direction: east
+  npcs:
+    - id: "celene:m26403"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26474
+  title: "The Residence Halls"
+  description: >-
+    This is where the junior Acolytes reside when they are not busy helping the
+    sick and the poor, or acting as missionaries to heathen Wild Elves. The
+    quarters are bare and unremarkable, save for a portrait of the High Priest,
+    and a framed picture of Corellon Larethian, patron of this Temple.
+  exits:
+    - roomId: "celene:r26472"
+      direction: south
+- id: r26475
+  title: "The Holy Bank"
+  description: >-
+    You have entered the Holy Bank. There is an ATM in one wall, with a small
+    sign stuck to the wall above it. Scraps of withdrawal receipts litter the
+    floor, and you curse as you step on some decaying food.
+  exits:
+    - roomId: "celene:r26472"
+      direction: east
+- id: r26476
+  title: "The Stables"
+  description: >-
+    You are walking through an open area littered with hay and the occasional
+    pile of steaming turds. Stablehads rush about, cleaning up these filthy 
+    messes.
+  exits:
+    - roomId: "celene:r26477"
+      direction: north
+    - roomId: "celene:r26479"
+      direction: east
+  npcs:
+    - id: "celene:m26445"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26445"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26445"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26445"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r26477
+  title: "The Stables"
+  description: >-
+    You are walking through an open area littered with hay and the occasional
+    pile of steaming turds. Stablehads rush about, cleaning up these filthy 
+    messes.
+  exits:
+    - roomId: "celene:r26478"
+      direction: north
+    - roomId: "celene:r26476"
+      direction: south
+    - roomId: "celene:r26480"
+      direction: east
+    - roomId: "celene:r26420"
+      direction: west
+- id: r26478
+  title: "The Stables"
+  description: >-
+    You are walking through an open area littered with hay and the occasional
+    pile of steaming turds. Stablehands rush about, cleaning up these filthy 
+    messes.
+  exits:
+    - roomId: "celene:r26477"
+      direction: south
+    - roomId: "celene:r26481"
+      direction: east
+- id: r26479
+  title: "The Stables"
+  description: >-
+    You are walking through an open area littered with hay and the occasional
+    pile of steaming turds. Stablehads rush about, cleaning up these filthy 
+    messes.
+  exits:
+    - roomId: "celene:r26480"
+      direction: north
+    - roomId: "celene:r26476"
+      direction: west
+  npcs:
+    - id: "celene:m26415"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "celene:m26415"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r26480
+  title: "The Stablemater's Room"
+  description: >-
+    This room is scarcely different form the other stable rooms, save that it
+    contains a table and a chair for the stablemaster, a burly Half-Elf with 
+    tattoos and a tan.
+  exits:
+    - roomId: "celene:r26481"
+      direction: north
+    - roomId: "celene:r26479"
+      direction: south
+    - roomId: "celene:r26477"
+      direction: west
+  npcs:
+    - id: "celene:m26444"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26481
+  title: "The Stables"
+  description: >-
+    You are walking through an open area littered with hay and the occasional
+    pile of steaming turds. Stablehads rush about, cleaning up these filthy 
+    messes.
+  exits:
+    - roomId: "celene:r26480"
+      direction: south
+    - roomId: "celene:r26478"
+      direction: west
+  npcs:
+    - id: "celene:m26414"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "celene:m26414"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "celene:m26414"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r26482
+  title: "The Captain's Quarters"
+  description: >-
+    You have entered a well-furnished office which serves as the reception area
+    for the Captain of the Guard. He will chat with you here about your concerns
+    and try to give you advice, but will always remain on guard. He boasts to 
+    you of the fact that his office is a magical field, and that dimensional 
+    gateways occasionally appear here. Sounds like crap but you never know...
+  exits:
+    - roomId: "celene:r26435"
+      direction: down
+  npcs:
+    - id: "celene:m26440"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26483
+  title: "Sun Room"
+  description: >-
+    You have entered the Palace's Sun Room, famous for his huge crystalline
+    windows specially crafted to capture and magnify the rays of the sun so that
+    the room is brilliantly lit at all hours of the day. A few easychairs and
+    cushions have been scattered across the floor here, and you see a couple of
+    Elven Nobles languidly relaxing in the warmth of the sun, sipping on fine
+    Elven wines.
+  exits:
+    - roomId: "celene:r26484"
+      direction: north
+    - roomId: "celene:r26486"
+      direction: east
+  npcs:
+    - id: "celene:m26428"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "celene:m26428"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "celene:m26428"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "celene:m26428"
+      respawnChance: 100
+      maxLoad: "8"
+  items:
+    - id: "celene:o26445"
+      respawnChance: 75
+    - id: "celene:o26446"
+      respawnChance: 75
+    - id: "celene:o26447"
+      respawnChance: 75
+    - id: "celene:o26458"
+      respawnChance: 75
+- id: r26484
+  title: "The West Door"
+  description: >-
+    You are standing at the West Door of the Palace, which faces onto Obeith
+    Street, which runs from the Palace to the Temple in the West. Guards mingle
+    about the doorway, casting the occasional suspicious glance in your 
+    direction. Massive stone statues of past Elven lords tower above you on all
+    sides.
+  exits:
+    - roomId: "celene:r26485"
+      direction: north
+    - roomId: "celene:r26483"
+      direction: south
+    - roomId: "celene:r26487"
+      direction: east
+    - roomId: "celene:r26439"
+      direction: west
+  npcs:
+    - id: "celene:m26405"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26405"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r26485
+  title: "The Moon Room"
+  description: >-
+    This room appears to be identical to the Sun Room, save that the windows in
+    here are cunningly designed to capture and reflet moonlight so that even
+    on the darkest nights there is illumination. Nobles lounge around here, idly
+    singing old tunes or playing simple games of chance.
+  exits:
+    - roomId: "celene:r26484"
+      direction: south
+    - roomId: "celene:r26488"
+      direction: east
+  npcs:
+    - id: "celene:m26429"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26429"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26429"
+      respawnChance: 100
+      maxLoad: "10"
+  items:
+    - id: "celene:o26445"
+      respawnChance: 75
+    - id: "celene:o26446"
+      respawnChance: 75
+    - id: "celene:o26447"
+      respawnChance: 75
+    - id: "celene:o26448"
+      respawnChance: 75
+- id: r26486
+  title: "The South Door"
+  description: >-
+    You are standing at the South Door, where it meets Baleith Street, which runs
+    past the guilds towards the Library of Celene. Nearby, you can see the
+    stone colossus of the Prince. Garlands of flowers have been arranged about the
+    South Door, in honor of some half-forgotten festival.
+  exits:
+    - roomId: "celene:r26487"
+      direction: north
+    - roomId: "celene:r26454"
+      direction: south
+    - roomId: "celene:r26489"
+      direction: east
+    - roomId: "celene:r26483"
+      direction: west
+  npcs:
+    - id: "celene:m26405"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "celene:m26405"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r26487
+  title: "The Throne Room"
+  description: >-
+    It is here that the Queen and the Prince receive their subjects, seated upon
+    huge platinum thrones flanked by their Elite Guards. Occasionally Theodain Eriason 
+    the Arch Mage or Lallinthenera the High Priest will attend, though both dislike
+    such officious business. Your footsteps echo about this pillared hall as
+    you tread slowly upon the marble floor. You can feel several pairs of eyes
+    on you as you travel, and suddenly find yourself eager to be gone from the
+    room as soon as possible.
+  exits:
+    - roomId: "celene:r26488"
+      direction: north
+    - roomId: "celene:r26486"
+      direction: south
+    - roomId: "celene:r26490"
+      direction: east
+    - roomId: "celene:r26484"
+      direction: west
+  npcs:
+    - id: "celene:m26400"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "celene:m26401"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26488
+  title: "The North Door"
+  description: >-
+    You are standing at the North Door of the Palace, looking down Talein street,
+    past the various shops and places of business, towards the Gates of Celene.
+    People stop and stare at you with open curiosity, and you quickly become
+    aware of your relatively scruffy appearance.
+  exits:
+    - roomId: "celene:r26424"
+      direction: north
+    - roomId: "celene:r26487"
+      direction: south
+    - roomId: "celene:r26491"
+      direction: east
+    - roomId: "celene:r26485"
+      direction: west
+  npcs:
+    - id: "celene:m26405"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26489
+  title: "The Water Room"
+  description: >-
+    The second you enter this room you begin to panic, as you suddenly think you
+    are far underwater! But you quickly compose yourself (trying to ignore the
+    amused stares cast in your direction), and realize that the room you are in
+    is in fact formed of sheets of glass behind which flows sea water complete 
+    with several species of marine life. The effect is unnerving, but quite 
+    beautiful. You have to concentrate hard to cross the room, and can't help 
+    but imagine you are truly walking on water...
+  exits:
+    - roomId: "celene:r26490"
+      direction: north
+    - roomId: "celene:r26486"
+      direction: west
+  npcs:
+    - id: "celene:m26428"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "celene:m26428"
+      respawnChance: 100
+      maxLoad: "5"
+  items:
+    - id: "celene:o26445"
+      respawnChance: 75
+    - id: "celene:o26446"
+      respawnChance: 75
+    - id: "celene:o26447"
+      respawnChance: 75
+    - id: "celene:o26448"
+      respawnChance: 75
+- id: r26490
+  title: "The East Door"
+  description: >-
+    You are standing at the East Door of the Palace, facing onto the western
+    end of Nollthala Street, which runs to the east to the stables and the Tower
+    of the Archmage. Several scouts mill about, their Cooshee pets left 
+    momentarily unattended, and you suddenly feel very much an alien in this
+    place.
+  exits:
+    - roomId: "celene:r26491"
+      direction: north
+    - roomId: "celene:r26489"
+      direction: south
+    - roomId: "celene:r26410"
+      direction: east
+    - roomId: "celene:r26487"
+      direction: west
+  npcs:
+    - id: "celene:m26405"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r26491
+  title: "The Sky Room"
+  description: >-
+    ACK! You're Falling!
+    
+    
+    Wait...No you aren't. Unbelieveable as it is, the entire room has been
+    fashioned so as to appear to be open sky, with no walls, floors or celings.
+    People wander about, quite unfazed by the effect, and you feel a little
+    foolish as you clamber to your feet and attempt to get your bearings.
+  exits:
+    - roomId: "celene:r26490"
+      direction: south
+    - roomId: "celene:r26488"
+      direction: west
+  items:
+    - id: "celene:o26445"
+      respawnChance: 75
+    - id: "celene:o26446"
+      respawnChance: 75
+    - id: "celene:o26447"
+      respawnChance: 75
+    - id: "celene:o26448"
+      respawnChance: 75
+- id: r26492
+  title: "The Central Shelving Area"
+  description: >-
+    You are in the Central Shelving Area, from which the librarians take the
+    many books being constantly borrowed, returned, bought and sold. You are
+    overawed by the sheer volume of books in this place, and gasp as you realize
+    that the shevles are at least seventy feet high and extend as far as you can
+    see...
+  exits:
+    - roomId: "celene:r26496"
+      direction: north
+    - roomId: "celene:r26493"
+      direction: south
+    - roomId: "celene:r26495"
+      direction: east
+    - roomId: "celene:r26494"
+      direction: west
+  npcs:
+    - id: "celene:m26429"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "celene:m26429"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26493
+  title: "The South Wing"
+  description: >-
+    You are in the South Wing, where recent acquisitions (i.e, less than 5000
+    years old) are stored. The pace down here is so frenetic, no one even
+    notices your presence, and you feel certain that you could pocket a couple
+    of tomes or librams and no-one would know...
+  exits:
+    - roomId: "celene:r26492"
+      direction: north
+  npcs:
+    - id: "celene:m26447"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26447"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r26494
+  title: "The West Wing"
+  description: >-
+    This Wing is very dusty and, compared to the rest of the library, is
+    practically deserted. This is where out-of-date or obsolete texts are held,
+    and you see little that seems interesting. You are not surprised no-one
+    wants any books from this area.
+  exits:
+    - roomId: "celene:r26492"
+      direction: east
+  npcs:
+    - id: "celene:m26448"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "celene:m26448"
+      respawnChance: 100
+      maxLoad: "10"
+  items:
+    - id: "celene:o26452"
+      respawnChance: 75
+    - id: "celene:o26453"
+      respawnChance: 75
+    - id: "celene:o26454"
+      respawnChance: 75
+- id: r26495
+  title: "The East Wing"
+  description: >-
+    BINGO!
+    This is the area that you were wondering about...yes they DO have a Magical
+    Tomes section and YES this is it. Plunder away! Just don't get greedy, or they
+    may catch you (not that many of the Librarians would mind- its just less 
+    books they have to worry about...)
+  exits:
+    - roomId: "celene:r26492"
+      direction: west
+  npcs:
+    - id: "celene:m26447"
+      respawnChance: 100
+      maxLoad: "10"
+  items:
+    - id: "celene:o26449"
+      respawnChance: 75
+    - id: "celene:o26450"
+      respawnChance: 75
+    - id: "celene:o26451"
+      respawnChance: 75
+- id: r26496
+  title: "The Stairway"
+  description: >-
+    You are standing at the base of the stairway that runs through the entire
+    Library Tower. From here you may brave the Central Shelving area to the
+    south, or investigate an interesting-looking dusty passage that slopes down
+    from here...
+    Alternatively, you could just return to the ground floor...
+  exits:
+    - roomId: "celene:r26492"
+      direction: south
+    - roomId: "celene:r26466"
+      direction: up
+    - roomId: "celene:r26497"
+      direction: down
+- id: r26497
+  title: "The Storage Areas (B2)"
+  description: >-
+    You have reached B2, the dusty storage sub-level mentioned on the directory
+    on the ground floor. It looks as if no-one has been down here for centuries.
+    There seems to be little of interest here. However, you fancy that you
+    can hear snoring coming from somewhere...
+  exits:
+    - roomId: "celene:r26498"
+      direction: north
+    - roomId: "celene:r26496"
+      direction: up
+- id: r26498
+  title: "The Snoring Gets Louder"
+  description: >-
+    Any interest you had in whatever was stored down here has been taken over
+    by your curiosity as to who (or WHAT) is making the tremendous racket that
+    now reaches your ears, shaprince the very foundations you walk beneath...
+  exits:
+    - roomId: "celene:r26497"
+      direction: south
+    - roomId: "celene:r26499"
+      direction: west
+- id: r26499
+  title: "The Dragon Cave"
+  description: >-
+    Uh-Oh....You found out what was snoring...it is a DRAGON...a HUGE DRAGON,
+    coiled up in the massive cavern you just entered, its sinuous tail wrapped
+    about a massive treasure chest. The Dragon must be about eighty or ninety
+    feet long, you estimate, at least twice the length of any you've fought
+    before, and to top it off he is a Blackmoor Dragon, who are amongst the most
+    powerful of all Wyrmkin. Amazed that the Dragon hasn't reacted to your
+    presence yet, you pause and wonder what to to...
+  exits:
+    - roomId: "celene:r26498"
+      direction: east
+  npcs:
+    - id: "celene:m26404"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "celene:o26416"
+      respawnChance: 75

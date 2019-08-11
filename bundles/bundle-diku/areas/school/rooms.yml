@@ -1,0 +1,846 @@
+- id: r3700
+  title: "Entrance to Mud School"
+  description: >-
+    This is the entrance to the Merc Mud School.  Go north to go through mud
+    school.  If you have been here before and want to go directly to the arena,
+    go south.
+             type HELP BACKUP       .... it is VERY important!!!!!!
+  exits:
+    - roomId: "school:r3757"
+      direction: north
+    - roomId: "school:r3744"
+      direction: south
+    - roomId: "start:r25000"
+      direction: up
+    - roomId: "midgaard:r3001"
+      direction: down
+  npcs:
+    - id: "school:m3721"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3701
+  title: "A Room in Mud School"
+  description: >-
+    You are in a square white room.  The walls are all blank, with no windows.
+    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+    sign on the wall.  The exits are west and south.  A small plaque is on the
+    wall.
+  exits:
+    - roomId: "school:r3757"
+      direction: south
+    - roomId: "school:r3702"
+      direction: west
+  npcs:
+    - id: "school:m3700"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3702
+  title: "The Center Room"
+  description: >-
+    You are in a square white room.  The walls are all blank, with no windows.
+    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+    sign on the wall.  Exits lead in ALL directions.
+  exits:
+    - roomId: "school:r3703"
+      direction: north
+    - roomId: "school:r3705"
+      direction: south
+    - roomId: "school:r3701"
+      direction: east
+    - roomId: "school:r3704"
+      direction: west
+    - roomId: "school:r3708"
+      direction: up
+    - roomId: "school:r3707"
+      direction: down
+- id: r3703
+  title: "A Room in Mud School"
+  description: >-
+    You are in a square white room.  The walls are all blank, with no windows.
+    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+    sign on the wall.  Exits lead north and south.
+  exits:
+    - roomId: "school:r3709"
+      direction: north
+    - roomId: "school:r3702"
+      direction: south
+- id: r3704
+  title: "A Room in Mud School"
+  description: >-
+    You are in a square white room.  The walls are all blank, with no windows.
+    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+    sign on the wall.  The only exit is east.
+  exits:
+    - roomId: "school:r3702"
+      direction: east
+- id: r3705
+  title: "A Room in Mud School"
+  description: >-
+    You are in a square white room.  The walls are all blank, with no windows.
+    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+    sign on the wall.  The only exit is north.
+  exits:
+    - roomId: "school:r3702"
+      direction: north
+- id: r3707
+  title: "A Room in Mud School"
+  description: >-
+    You are in a square white room.  The walls are all blank, with no windows.
+    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+    sign on the wall.  The only exit is up.
+  exits:
+    - roomId: "school:r3702"
+      direction: up
+- id: r3708
+  title: "A Room in Mud School"
+  description: >-
+    You are in a square white room.  The walls are all blank, with no windows.
+    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+    sign on the wall.  The only exit is down.
+  exits:
+    - roomId: "school:r3702"
+      direction: down
+- id: r3709
+  title: "A Room in Mud School"
+  description: >-
+    You are in a square white room.  The walls are all blank, with no windows.
+    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+    sign on the wall.  Exits reach west and down.
+  exits:
+    - roomId: "school:r3711"
+      direction: west
+    - roomId: "school:r3710"
+      direction: down
+- id: r3710
+  title: "The Blob Cage"
+  description: >-
+    You are in a smelly cage.  Strangely, the walls are still clean!
+    You see a sign here.  The only exit is up.
+  exits:
+    - roomId: "school:r3709"
+      direction: up
+  npcs:
+    - id: "school:m3701"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3711
+  title: "A Room in Mud School"
+  description: >-
+    You are in a square white room.  The walls are all blank, with no windows.
+    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+    sign on the wall.
+  exits:
+    - roomId: "school:r3709"
+      direction: east
+    - roomId: "school:r3712"
+      direction: down
+- id: r3712
+  title: "The Cage Room"
+  description: >-
+    You are in the cage room.  All around are 4 cages.  Light fluoresces off the
+    ceiling in soft white tones.  Of course, there is a big sign on the wall.
+    Exits lead into the cardinal directions plus down.
+  exits:
+    - roomId: "school:r3713"
+      direction: north
+    - roomId: "school:r3715"
+      direction: south
+    - roomId: "school:r3716"
+      direction: east
+    - roomId: "school:r3714"
+      direction: west
+    - roomId: "school:r3717"
+      direction: down
+  npcs:
+    - id: "school:m3707"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3713
+  title: "A Cage"
+  description: >-
+    You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
+    in the upkeep here!  There is a sign on the wall.  The only exit is south.
+  exits:
+    - roomId: "school:r3712"
+      direction: south
+  npcs:
+    - id: "school:m3704"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3714
+  title: "A Cage"
+  description: >-
+    You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
+    in the upkeep here!  There is a sign on the wall.  The only exit is east.
+  exits:
+    - roomId: "school:r3712"
+      direction: east
+  npcs:
+    - id: "school:m3705"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3715
+  title: "A Cage"
+  description: >-
+    You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
+    in the upkeep here!  There is a sign on the wall.  The only exit is north.
+  exits:
+    - roomId: "school:r3712"
+      direction: north
+  npcs:
+    - id: "school:m3703"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3716
+  title: "A Cage"
+  description: >-
+    You are in a cage.  Blood and gore are everywhere.  The keepers must be lax
+    in the upkeep here!  There is a sign on the wall.  The only exit is west.
+  exits:
+    - roomId: "school:r3712"
+      direction: west
+  npcs:
+    - id: "school:m3702"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3717
+  title: "A Room in Mud School"
+  description: >-
+    You are in a square white room.  The walls are all blank, with no windows.
+    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+    sign on the wall.  Find your own exit here.
+  exits:
+    - roomId: "school:r3718"
+      direction: south
+    - roomId: "school:r3719"
+      direction: east
+    - roomId: "school:r3712"
+      direction: up
+- id: r3718
+  title: "The Store in Mud School"
+  description: >-
+    You are in a cramped room.  Stacked neatly on shelves everywhere are items
+    and packages.  Light fluoresces off the ceiling in soft white tones.  Of
+    course, there is a sign on the wall.  The only exit is north.
+  exits:
+    - roomId: "school:r3717"
+      direction: north
+  npcs:
+    - id: "school:m3717"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3719
+  title: "A Room in Mud School"
+  description: >-
+    You are in a square white room.  The walls are all blank, with no windows.
+    Light fluoresces off the ceiling in soft white tones.  Of course, there is a
+    sign on the wall.  The exits are north and west, with a door to the east.
+  exits:
+    - roomId: "school:r3720"
+      direction: north
+    - roomId: "school:r3721"
+      direction: east
+    - roomId: "school:r3717"
+      direction: west
+- id: r3720
+  title: "The Darkened Room"
+  description: >-
+    This room was purposefully darkened so that you would need to hold on to a
+    light source to go through.  The walls are, of course, blank, and white.
+    The only exit is south.
+  exits:
+    - roomId: "school:r3719"
+      direction: south
+  npcs:
+    - id: "school:m3706"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3721
+  title: "The End of Mud School!"
+  description: >-
+    This is a very bright room, with a marble pedestal in the center.  Behind
+    the pedestal stands a person cloaked in Silver.  Tapestries flow from every
+    wall, and you feel very happy to be here right now.  There is a big sign here.
+    The only exit is on the other side of the gate north of you.
+  exits:
+    - roomId: "school:r3722"
+      direction: north
+  npcs:
+    - id: "school:m3720"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3722
+  title: "South Wall of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3729"
+      direction: north
+    - roomId: "school:r3725"
+      direction: east
+    - roomId: "school:r3723"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3723
+  title: "South Wall of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3728"
+      direction: north
+    - roomId: "school:r3722"
+      direction: east
+    - roomId: "school:r3724"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3724
+  title: "South West Corner of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3727"
+      direction: north
+    - roomId: "school:r3723"
+      direction: east
+    - roomId: "school:r3760"
+      direction: up
+  npcs:
+    - id: "school:m3713"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3725
+  title: "South Wall of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3730"
+      direction: north
+    - roomId: "school:r3726"
+      direction: east
+    - roomId: "school:r3722"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3726
+  title: "South East Corner of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3731"
+      direction: north
+    - roomId: "school:r3725"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+  npcs:
+    - id: "school:m3712"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r3727
+  title: "West Wall of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3732"
+      direction: north
+    - roomId: "school:r3724"
+      direction: south
+    - roomId: "school:r3728"
+      direction: east
+    - roomId: "school:r3760"
+      direction: up
+- id: r3728
+  title: "Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3733"
+      direction: north
+    - roomId: "school:r3723"
+      direction: south
+    - roomId: "school:r3729"
+      direction: east
+    - roomId: "school:r3727"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3729
+  title: "Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3734"
+      direction: north
+    - roomId: "school:r3722"
+      direction: south
+    - roomId: "school:r3730"
+      direction: east
+    - roomId: "school:r3728"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3730
+  title: "Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3735"
+      direction: north
+    - roomId: "school:r3725"
+      direction: south
+    - roomId: "school:r3731"
+      direction: east
+    - roomId: "school:r3729"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3731
+  title: "East Wall of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3736"
+      direction: north
+    - roomId: "school:r3726"
+      direction: south
+    - roomId: "school:r3730"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3732
+  title: "West Wall of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3737"
+      direction: north
+    - roomId: "school:r3727"
+      direction: south
+    - roomId: "school:r3733"
+      direction: east
+    - roomId: "school:r3760"
+      direction: up
+- id: r3733
+  title: "Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3738"
+      direction: north
+    - roomId: "school:r3728"
+      direction: south
+    - roomId: "school:r3734"
+      direction: east
+    - roomId: "school:r3732"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3734
+  title: "Center of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.  There is a BIG SIGN here.
+  exits:
+    - roomId: "school:r3739"
+      direction: north
+    - roomId: "school:r3729"
+      direction: south
+    - roomId: "school:r3735"
+      direction: east
+    - roomId: "school:r3733"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+    - roomId: "school:r3748"
+      direction: down
+  npcs:
+    - id: "school:m3709"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r3735
+  title: "Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3740"
+      direction: north
+    - roomId: "school:r3730"
+      direction: south
+    - roomId: "school:r3736"
+      direction: east
+    - roomId: "school:r3734"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3736
+  title: "East Wall of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3741"
+      direction: north
+    - roomId: "school:r3731"
+      direction: south
+    - roomId: "school:r3735"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3737
+  title: "West Wall of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3742"
+      direction: north
+    - roomId: "school:r3732"
+      direction: south
+    - roomId: "school:r3738"
+      direction: east
+    - roomId: "school:r3760"
+      direction: up
+- id: r3738
+  title: "Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3743"
+      direction: north
+    - roomId: "school:r3733"
+      direction: south
+    - roomId: "school:r3739"
+      direction: east
+    - roomId: "school:r3737"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3739
+  title: "Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3744"
+      direction: north
+    - roomId: "school:r3734"
+      direction: south
+    - roomId: "school:r3740"
+      direction: east
+    - roomId: "school:r3738"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3740
+  title: "Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3745"
+      direction: north
+    - roomId: "school:r3735"
+      direction: south
+    - roomId: "school:r3741"
+      direction: east
+    - roomId: "school:r3739"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3741
+  title: "East Wall of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3746"
+      direction: north
+    - roomId: "school:r3736"
+      direction: south
+    - roomId: "school:r3740"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3742
+  title: "North West Corner of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3737"
+      direction: south
+    - roomId: "school:r3743"
+      direction: east
+    - roomId: "school:r3760"
+      direction: up
+  npcs:
+    - id: "school:m3710"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r3743
+  title: "North Wall of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  You can barely see the ceiling.  You feel as if you are being watched
+    by some divine being.
+  exits:
+    - roomId: "school:r3738"
+      direction: south
+    - roomId: "school:r3744"
+      direction: east
+    - roomId: "school:r3742"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3744
+  title: "North Wall of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3739"
+      direction: south
+    - roomId: "school:r3745"
+      direction: east
+    - roomId: "school:r3743"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3745
+  title: "North Wall of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3740"
+      direction: south
+    - roomId: "school:r3746"
+      direction: east
+    - roomId: "school:r3744"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+- id: r3746
+  title: "North East Corner of Arena"
+  description: >-
+    You are in the Arena.  Remember, if you wish to get out of this Arena, just
+    go up.  Ceilings can barely be seen in this huge Arena.  You feel as if you are
+    being watched by some divine being.
+  exits:
+    - roomId: "school:r3741"
+      direction: south
+    - roomId: "school:r3745"
+      direction: west
+    - roomId: "school:r3760"
+      direction: up
+  npcs:
+    - id: "school:m3711"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r3748
+  title: "The Center of the Dungeon"
+  description: >-
+    You are in the center of a large room.  A faint light from above shows that
+    the floors are all covered with slime.  A feeling of dread comes over you as
+    you notice that this is NOT a great place to go.  Exits go in all directions.
+    Of special note is the one that brings you back up!!!
+  exits:
+    - roomId: "school:r3750"
+      direction: north
+    - roomId: "school:r3755"
+      direction: south
+    - roomId: "school:r3753"
+      direction: east
+    - roomId: "school:r3752"
+      direction: west
+    - roomId: "school:r3734"
+      direction: up
+- id: r3749
+  title: "The North West Corner of the Dungeon"
+  description: >-
+    You are against a wall in the dungeon.  It is quite dark here.  The lack of
+    any windows in the area explains the smell around you.
+  exits:
+    - roomId: "school:r3752"
+      direction: south
+    - roomId: "school:r3750"
+      direction: east
+  npcs:
+    - id: "school:m3714"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3750
+  title: "The North Wall of the Dungeon"
+  description: >-
+    You are against a wall in the dungeon.  It is quite dark here.  The lack of
+    any windows in the area explains the smell around you.
+  exits:
+    - roomId: "school:r3748"
+      direction: south
+    - roomId: "school:r3751"
+      direction: east
+    - roomId: "school:r3749"
+      direction: west
+- id: r3751
+  title: "The North East Corner of the Dungeon"
+  description: >-
+    You are against a wall in the dungeon.  It is quite dark here.  The lack of
+    any windows in the area explains the smell around you.
+  exits:
+    - roomId: "school:r3753"
+      direction: south
+    - roomId: "school:r3750"
+      direction: west
+  npcs:
+    - id: "school:m3715"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r3752
+  title: "The West Wall of the Dungeon"
+  description: >-
+    You are against a wall in the dungeon.  It is quite dark here.  The lack of
+    any windows in the area explains the smell around you.
+  exits:
+    - roomId: "school:r3749"
+      direction: north
+    - roomId: "school:r3754"
+      direction: south
+    - roomId: "school:r3748"
+      direction: east
+- id: r3753
+  title: "The East Wall of the Dungeon"
+  description: >-
+    You are against a wall in the dungeon.  It is quite dark here.  The lack of
+    any windows in the area explains the smell around you.
+  exits:
+    - roomId: "school:r3751"
+      direction: north
+    - roomId: "school:r3756"
+      direction: south
+    - roomId: "school:r3748"
+      direction: west
+- id: r3754
+  title: "The South West Corner of the Dungeon"
+  description: >-
+    You are against a wall in the dungeon.  It is quite dark here.  The lack of
+    any windows in the area explains the smell around you.
+  exits:
+    - roomId: "school:r3752"
+      direction: north
+    - roomId: "school:r3755"
+      direction: east
+  npcs:
+    - id: "school:m3716"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r3755
+  title: "The South Wall of the Dungeon"
+  description: >-
+    You are against a wall in the dungeon.  It is quite dark here.  The lack of
+    any windows in the area explains the smell around you.
+  exits:
+    - roomId: "school:r3748"
+      direction: north
+    - roomId: "school:r3756"
+      direction: east
+    - roomId: "school:r3754"
+      direction: west
+- id: r3756
+  title: "The South East Corner of the Dungeon"
+  description: >-
+    You are against a wall in the dungeon.  It is quite dark here.  The lack of
+    any windows in the area explains the smell around you.
+  exits:
+    - roomId: "school:r3753"
+      direction: north
+    - roomId: "school:r3755"
+      direction: west
+- id: r3757
+  title: "A Room in Mud School"
+  description: >-
+    You are in a room in Mud School.  Pastels cover these walls, due to Hatchet's
+    mood for the day.  To the west is Furey's Training Room, and to the east is
+    Hatchet's Guild Room.  North of you is the next Station of Mud School.
+    There is a sign on the wall (type 'LOOK SIGN' to read it).
+  exits:
+    - roomId: "school:r3701"
+      direction: north
+    - roomId: "school:r3700"
+      direction: south
+    - roomId: "school:r3759"
+      direction: east
+    - roomId: "school:r3758"
+      direction: west
+- id: r3758
+  title: "Furey's Training Room"
+  description: >-
+    You are in Furey's Training Room.  Around you are all sorts of physical
+    and mental training tools.  The whole room is filled with magic, holiness, 
+    and sweat.  There is a sign on the wall.
+  exits:
+    - roomId: "school:r3757"
+      direction: east
+  npcs:
+    - id: "school:m3718"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3759
+  title: "Hatchet's Guild Room"
+  description: >-
+    You are in a room filled with weapons, books, and many combat dummies, some
+    cut and stabbed many times, others burnt to a crisp.  The room is filled with
+    sweat and an aura of magic.  There is a sign on the wall.
+  exits:
+    - roomId: "school:r3757"
+      direction: west
+  npcs:
+    - id: "school:m3719"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3760
+  title: "A Safe Room"
+  description: >-
+    You are in a safe room, away from all the mean rabbits and snails of the Arena.
+    You can rest here, and go up to go back to the Temple of Midgaard.
+  exits:
+    - roomId: "midgaard:r3001"
+      direction: up

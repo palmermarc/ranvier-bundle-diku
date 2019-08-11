@@ -1,0 +1,12 @@
+title: "The Pomarj"
+metadata:
+  id: 59
+  name: "The Pomarj"
+  createdBy: "avalon"
+  starting_vnum: 26200
+  ending_vnum: 26299
+  item_requirements: 4000
+  filename: "pomarj.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

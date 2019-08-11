@@ -1,0 +1,12 @@
+title: "Clan rooms"
+metadata:
+  id: 14
+  name: "Clan rooms"
+  createdBy: "joker"
+  starting_vnum: 24900
+  ending_vnum: 24999
+  item_requirements: 0
+  filename: "clans.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,8 @@
+---
+body: |
+  Syntax: cast 'mana' <name>
+  
+  With this spell, the caster draws the energy from around them and focuses 
+  it into the target person (defaulted to themself). This is very 
+  exhausting for the caster, but allows a faster recovery of mana.
+  

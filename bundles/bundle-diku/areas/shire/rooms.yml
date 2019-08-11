@@ -1,0 +1,1146 @@
+- id: r1100
+  title: "A dimly lit path"
+  description: >-
+    You tread through the deep, dark forest on a dimly lit path.  Up ahead you
+    can hear the faint sounds of a village.
+  exits:
+    - roomId: "shire:r1101"
+      direction: north
+    - roomId: "haon:r6000"
+      direction: south
+- id: r1101
+  title: "A dimly lit path "
+  description: >-
+    You tread through the deep, dark forest on a dimly lit path.  Up ahead you
+    can hear the faint sounds of a village.
+  exits:
+    - roomId: "shire:r1102"
+      direction: north
+    - roomId: "shire:r1100"
+      direction: south
+- id: r1102
+  title: "A dimly lit path"
+  description: >-
+    You tread through the deep, dark forest on a dimly lit path.  The forest
+    here seems less dense than to the south.  Northward you see the faint outline
+    of a village.
+  exits:
+    - roomId: "shire:r1103"
+      direction: north
+    - roomId: "shire:r1101"
+      direction: south
+- id: r1103
+  title: "Entrance to the Shire"
+  description: >-
+    You stand at the entrance to the Shire.  You see halflings, no more than
+    wee tall, every which way you look. Bywater Road leads east and west.
+  exits:
+    - roomId: "shire:r1102"
+      direction: south
+    - roomId: "shire:r1104"
+      direction: east
+    - roomId: "shire:r1118"
+      direction: west
+  items:
+    - id: "shire:o1102"
+      respawnChance: 75
+- id: r1104
+  title: "Bywater Road"
+  description: >-
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the east and west while to the north lies the general store.
+  exits:
+    - roomId: "shire:r1105"
+      direction: north
+    - roomId: "shire:r1106"
+      direction: east
+    - roomId: "shire:r1103"
+      direction: west
+- id: r1105
+  title: "The General Store"
+  description: >-
+    You are inside the general store.  All sorts of goodies are stacked on the
+    many shelves.  Your local friendly shopkeeper is smiling patiently, waiting to 
+    serve you to the best of his abilities.  The only exit is to the south.
+  exits:
+    - roomId: "shire:r1104"
+      direction: south
+  npcs:
+    - id: "shire:m1118"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1106
+  title: "Bywater Road"
+  description: >-
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the east and west.  To the north, steps lead to a friendly looking
+    weaponry/armory while a nursery lies to the south.
+  exits:
+    - roomId: "shire:r1107"
+      direction: north
+    - roomId: "shire:r1108"
+      direction: south
+    - roomId: "shire:r1109"
+      direction: east
+    - roomId: "shire:r1104"
+      direction: west
+- id: r1107
+  title: "The House of Arms"
+  description: >-
+    You are inside the finest weapons and armour shop in all of Shiredom.  The
+    shopkeeper proudly displays his fine wares and humbly offers the best daggers
+    that you have ever laid eyes on.
+  exits:
+    - roomId: "shire:r1106"
+      direction: south
+  npcs:
+    - id: "shire:m1120"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1108
+  title: "Kid'n Keep"
+  description: >-
+    You are inside Kid'n Keep, the convenient one-stop nursery that maintains
+    the youth of the Shire.  Toddlers run every which way while their nursemaids
+    sigh in exasperation.  The only exit lies to the north.
+  exits:
+    - roomId: "shire:r1106"
+      direction: north
+  npcs:
+    - id: "shire:m1104"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "shire:m1104"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "shire:m1103"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1103"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1103"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1103"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1103"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1103"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1109
+  title: "A bend in the road"
+  description: >-
+    Bywater Road continues west and south.  A large, imposing building lies
+    to the east.  Farther to the south, you can see an Inn of some sort.
+  exits:
+    - roomId: "shire:r1112"
+      direction: south
+    - roomId: "shire:r1110"
+      direction: east
+    - roomId: "shire:r1106"
+      direction: west
+- id: r1110
+  title: "Shiriff Post of the Eastern Shire"
+  description: >-
+    You are in the Shiriff Post which acts as the nucleus for the three shiriffs
+    of the Eastern Shire.  As you examine the shiriffs on duty, you come to realize
+    that the halflings of the Shire are not to be reckoned with.  You cower with 
+    awe.  A door offers passage to the east.
+  exits:
+    - roomId: "shire:r1111"
+      direction: east
+    - roomId: "shire:r1109"
+      direction: west
+  npcs:
+    - id: "shire:m1110"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "shire:m1110"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "shire:m1111"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1111
+  title: "Thain's Office"
+  description: >-
+    You stand inside the office of the Thain, the police protectorate of the
+    great Shire.  The Thain has sworn to protect the Shire from all thieves and
+    murderers with his life, and so eyes you suspiciously.  A door to the west
+    leads to the Shiriff Post.
+  exits:
+    - roomId: "shire:r1110"
+      direction: west
+  npcs:
+    - id: "shire:m1112"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1112
+  title: "Bywater Road"
+  description: >-
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the north and south.  To the east you spy the training grounds for
+    shiriffs in training.
+  exits:
+    - roomId: "shire:r1109"
+      direction: north
+    - roomId: "shire:r1113"
+      direction: south
+    - roomId: "shire:r1117"
+      direction: east
+- id: r1113
+  title: "Bywater Road"
+  description: >-
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the north.  The private residences of Shire inhabitants are to
+    the east and west while to the south lies the Ivy Bush, second only to the
+    Green Dragon for its hospitality and service.
+  exits:
+    - roomId: "shire:r1112"
+      direction: north
+    - roomId: "shire:r1116"
+      direction: south
+    - roomId: "shire:r1115"
+      direction: east
+    - roomId: "shire:r1114"
+      direction: west
+- id: r1114
+  title: "A smial"
+  description: >-
+    You are inside a smial, a hole in the ground which serves as the proper
+    dwelling place for halflings.  As you look around this private abode, you feel
+    as if you were intruding and so quickly cover your eyes.  The only exit lies
+    to the east.
+  exits:
+    - roomId: "shire:r1113"
+      direction: east
+  npcs:
+    - id: "shire:m1128"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1115
+  title: "A smial"
+  description: >-
+    You are inside a smial, a hole in the ground which serves as the proper
+    dwelling place for halflings.  As you look around this private abode, you feel
+    as if you were intruding and so quickly cover your eyes.  The only exit lies
+    to the west.
+  exits:
+    - roomId: "shire:r1113"
+      direction: west
+  npcs:
+    - id: "shire:m1128"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1116
+  title: "The Ivy Bush"
+  description: >-
+    You are in the Ivy Bush, one of the most famous inns in all of Shiredom.
+    Chique Shire urbanites and seasoned travelers fill the confines of the room
+    with gay and lively talk.  A jovial innkeeper stops all that he is doing to
+    await your command.  The only exit lies to the north.
+  exits:
+    - roomId: "shire:r1113"
+      direction: north
+  npcs:
+    - id: "shire:m1113"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "shire:m1123"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "shire:m1123"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "shire:m1124"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "shire:m1124"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "shire:m1127"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "shire:m1127"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "shire:m1127"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r1117
+  title: "Shiriff Training Grounds"
+  description: >-
+    The sounds of mock battle and feigned death cries fill your ears.  Every
+    which way you turn you see halfling trainees at the prime of their youth.  A
+    wizened old battle instructor meets your gaze and asks if he may be of 
+    service.  The only exit lies to the west.
+  exits:
+    - roomId: "shire:r1112"
+      direction: west
+  npcs:
+    - id: "shire:m1121"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "shire:m1126"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "shire:m1126"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "shire:m1126"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1118
+  title: "Bywater Road"
+  description: >-
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the east and west.  A large, imposing building lies to the south.
+    You catch a glimpse of the Brandywine River to the north.
+  exits:
+    - roomId: "shire:r1119"
+      direction: south
+    - roomId: "shire:r1103"
+      direction: east
+    - roomId: "shire:r1120"
+      direction: west
+- id: r1119
+  title: "Shiriff Post of the Bridge"
+  description: >-
+    You are in the Shiriff Post which acts as the nucleus for the three shiriffs
+    of the Bridge.  As you examine the shiriffs on duty, you come to realize that
+    the halflings of the Shire are not to be reckoned with.  You cower with awe.
+    The only exit is to the north.
+  exits:
+    - roomId: "shire:r1118"
+      direction: north
+  npcs:
+    - id: "shire:m1110"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "shire:m1110"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "shire:m1111"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1120
+  title: "Bywater Road"
+  description: >-
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the east and west.  To the south you spy the Grocer's Delight,
+    the premium grocer's shop in all the realm while to the north lies Brandywine
+    Bridge.
+  exits:
+    - roomId: "shire:r1131"
+      direction: north
+    - roomId: "shire:r1121"
+      direction: south
+    - roomId: "shire:r1118"
+      direction: east
+    - roomId: "shire:r1122"
+      direction: west
+- id: r1121
+  title: "The Grocer's Delight"
+  description: >-
+    You tremble with ecstasy as the tempting odors of freshly made pipeweed
+    bread fill your lungs.  Rumor has it that the pipeweed bread sold here can
+    restore vitality.  You look around but find no one to take your order.  
+    You then peep over the counter and discover a friendly grocer who is too 
+    short to be seen over the counter.  The only exit is to the north.
+  exits:
+    - roomId: "shire:r1120"
+      direction: north
+  npcs:
+    - id: "shire:m1119"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1122
+  title: "Bywater Road"
+  description: >-
+    You stand on Bywater Road, the busiest street in all of Shiredom.  The road
+    continues to the east.  A small hill lies to the west while you can see a
+    watermill to the far south.  You catch a glimpse of the Brandywine River to
+    the north.
+  exits:
+    - roomId: "shire:r1123"
+      direction: south
+    - roomId: "shire:r1120"
+      direction: east
+    - roomId: "shire:r1126"
+      direction: west
+- id: r1123
+  title: "Entrance to Watermill"
+  description: >-
+    You stand at the entrance to a watermill.  You hear the bustle of busy
+    workers and the sound of a creaking mill.  Bywater Road is to the north while
+    the watermill continues to the south.
+  exits:
+    - roomId: "shire:r1122"
+      direction: north
+    - roomId: "shire:r1124"
+      direction: south
+  npcs:
+    - id: "shire:m1115"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1115"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1124
+  title: "The Watermill"
+  description: >-
+    Halfling workers are scattered everywhere, busy at work.  You see the river
+    to the west and get a compelling urge to grab the nearest worker and to toss
+    him into the river.  The entrance stands to the north while a door offers
+    passage to the south.
+  exits:
+    - roomId: "shire:r1123"
+      direction: north
+    - roomId: "shire:r1125"
+      direction: south
+  npcs:
+    - id: "shire:m1115"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1115"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1115"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1114"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1125
+  title: "Rear of watermill"
+  description: >-
+    You stand in a damp, dimly lit room.  Mildew clings to the walls and it
+    appears as if you were the first person to enter the room in ages.  A barely
+    visible portal in the ground catches your eye.
+  exits:
+    - roomId: "shire:r1124"
+      direction: north
+    - roomId: "shire:r1146"
+      direction: down
+  npcs:
+    - id: "shire:m1115"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1126
+  title: "Took Hill"
+  description: >-
+    You stand on top of Took Hill, named after the legendary Bandobras Took.
+    You feel honored to be standing on a hill named after your hero.  From this
+    vantage point you can see all of shiredom.  You get the feeling that with
+    one stomp you could eliminate their great city.  You can see the outline of
+    Midgaard to the far east.  Sounds of joyful celebration are heard from the
+    fields west of here.  The Brandywine flows by lazily nearby.
+  exits:
+    - roomId: "shire:r1122"
+      direction: east
+    - roomId: "shire:r1128"
+      direction: west
+- id: r1127
+  title: "Northern end of grassy field"
+  description: >-
+    You stand in a grassy field--nothing to get too excited about.  The field
+    extends toward the south and the west.  To the east you see Took Hill.
+  exits:
+    - roomId: "shire:r1128"
+      direction: south
+  npcs:
+    - id: "shire:m1122"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "shire:m1122"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "shire:m1122"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r1128
+  title: "A grassy field"
+  description: >-
+    You stand in the center of a grassy field.  A great birthday party appears
+    to be taking place.  Great tables of food are spread out and a young halfling
+    beauty offers you welcome.  You are enticed by her generosity and suggestive
+    winks.
+  exits:
+    - roomId: "shire:r1127"
+      direction: north
+    - roomId: "shire:r1129"
+      direction: south
+    - roomId: "shire:r1126"
+      direction: east
+    - roomId: "shire:r1130"
+      direction: west
+  npcs:
+    - id: "shire:m1125"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "shire:m1100"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1129
+  title: "Southern end of grassy field"
+  description: >-
+    You stand in a grassy field--nothing to get too excited about.  The field
+    extends toward the north and the west.  To the east you see Took Hill.
+  exits:
+    - roomId: "shire:r1128"
+      direction: north
+  npcs:
+    - id: "shire:m1122"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "shire:m1122"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "shire:m1122"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r1130
+  title: "Western end of grassy field"
+  description: >-
+    You stand in a grassy field--nothing to get too excited about.  The field
+    extends every which way but west.
+  exits:
+    - roomId: "shire:r1128"
+      direction: east
+  npcs:
+    - id: "shire:m1122"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "shire:m1122"
+      respawnChance: 100
+      maxLoad: "9"
+    - id: "shire:m1122"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r1131
+  title: "Brandywine Bridge"
+  description: >-
+    You stand on a solidly built bridge.  As you look down you spy gaily
+    colored fish swimming with the current of Brandywine River.  The cool water
+    looks invitingly refreshing and you get a sudden urge to strip and bathe in
+    the river, but you hear the laughter of women nearby and so resist the urge.
+    Delving Lane extends to the north while Bywater Road can be seen to the south.
+  exits:
+    - roomId: "shire:r1132"
+      direction: north
+    - roomId: "shire:r1120"
+      direction: south
+- id: r1132
+  title: "Delving Lane"
+  description: >-
+    Delving Lane runs north and south in this small borough of the Shire.  To 
+    the south stands Brandywine Bridge.  The Green Dragon, the undisputed leader
+    in the art of innkeeping, offers rest and comfort to the east.  You hear the
+    bray of horses from the west.
+  exits:
+    - roomId: "shire:r1133"
+      direction: north
+    - roomId: "shire:r1131"
+      direction: south
+    - roomId: "shire:r1144"
+      direction: east
+- id: r1133
+  title: "Delving Lane"
+  description: >-
+    Delving Lane runs north and south in this small borough of the Shire.  A 
+    large, imposing building lies to the east.  You hear the bray of horses from
+    the west.
+  exits:
+    - roomId: "shire:r1134"
+      direction: north
+    - roomId: "shire:r1132"
+      direction: south
+    - roomId: "shire:r1145"
+      direction: east
+    - roomId: "shire:r1138"
+      direction: west
+- id: r1134
+  title: "Delving Lane"
+  description: >-
+    Delving Lane runs north and south in this small borough of the Shire. There
+    is a small house to the west, nothing to the east, and up ahead you see a round
+    door which leads to a rather impressive abode.
+  exits:
+    - roomId: "shire:r1135"
+      direction: north
+    - roomId: "shire:r1133"
+      direction: south
+- id: r1135
+  title: "Bag End"
+  description: >-
+    You stand in a comfortably well-equipped house, a palace by humble halfling
+    standards.  On the wall you see a banner which reads "Home Sweet Home".
+    A solid oak door to the east leads to a pantry while you see a cozy bedroom
+    to the west.
+  exits:
+    - roomId: "shire:r1134"
+      direction: south
+    - roomId: "shire:r1137"
+      direction: east
+    - roomId: "shire:r1136"
+      direction: west
+- id: r1136
+  title: "Bedroom"
+  description: >-
+    You stand in the private bedroom of Bag End.  There are two beds to the
+    side, neither of which are made.  Portraits of halflings hang on the wall,
+    and as you gaze upon them you come to the conclusion that the owner of
+    Bag End comes from a long line of distinguished halflings.  A cozy fire
+    in the fireplace keeps the room warm and comfortable.
+  exits:
+    - roomId: "shire:r1135"
+      direction: east
+  npcs:
+    - id: "shire:m1116"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "shire:m1117"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1137
+  title: "Pantry"
+  description: >-
+    You are inside the pantry.  Shelves filled with food and drink surround
+    you on all sides.  You wonder why a halfling would need so much to eat.
+    The presence of something unseen chills you to your bones.  On the floor
+    you spy a trapdoor.
+  exits:
+    - roomId: "shire:r1135"
+      direction: west
+    - roomId: "shire:r1156"
+      direction: down
+  npcs:
+    - id: "shire:m1101"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1138
+  title: "A grassy field"
+  description: >-
+    You stand upon a grassy field.  A bull stands grazing not far away and
+    out of the corner of your eye you can see him considering you.  The sound
+    of animals fill the air from the north.  To the south you see a pig pen.
+  exits:
+    - roomId: "shire:r1142"
+      direction: north
+    - roomId: "shire:r1139"
+      direction: south
+    - roomId: "shire:r1133"
+      direction: east
+  npcs:
+    - id: "shire:m1108"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1139
+  title: "Pig pen"
+  description: >-
+    You feel your boots sinking into the mud.  Numerous pigs roam about,
+    oblivious to your company.  A grassy field is to the north while you see
+    a small path winding to the west.
+  exits:
+    - roomId: "shire:r1138"
+      direction: north
+    - roomId: "shire:r1140"
+      direction: west
+  npcs:
+    - id: "shire:m1106"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "shire:m1106"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "shire:m1106"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "shire:m1106"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "shire:m1106"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r1140
+  title: "A stony path"
+  description: >-
+    You walk on a stony path which leads to a small residence to the north.
+    From the east you hear the noisy din of pigs.
+  exits:
+    - roomId: "shire:r1141"
+      direction: north
+    - roomId: "shire:r1139"
+      direction: east
+- id: r1141
+  title: "Gamgee Residence"
+  description: >-
+    You stand inside a modest home.  You deduce that this is indeed the home
+    of whomever owns the surrounding lands.  The air is somewhat musty and 
+    the smell reminds you of a stable.  As you look around disdainfully, you
+    think to yourself that this is more of a shack than a proper residence and
+    you long for the urban riches of the Shire proper.
+  exits:
+    - roomId: "shire:r1140"
+      direction: south
+  npcs:
+    - id: "shire:m1102"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1142
+  title: "A barn"
+  description: >-
+    Animals of every sort fill the small barn.  You feel the hot breath of
+    horses and cows on your neck and you feel the sudden need for fresh air.
+    Other than that, you feel cozy and protected and don't mind staying for a
+    bit longer.  All the warmth and good vibes remind you of the days when your
+    mother would hold you in her arms and sing you to sleep.  You find yourself
+    wanting to cradle all the animals.
+  exits:
+    - roomId: "shire:r1143"
+      direction: north
+    - roomId: "shire:r1138"
+      direction: south
+  npcs:
+    - id: "shire:m1105"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "shire:m1105"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "shire:m1105"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "shire:m1109"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "shire:m1109"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "shire:m1109"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "shire:m1109"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1143
+  title: "A chicken coop"
+  description: >-
+    You stand inside a rather crowded chicken coop.  The cackle of hens fill
+    the air.  The only exit is to the south.
+  exits:
+    - roomId: "shire:r1142"
+      direction: south
+  npcs:
+    - id: "shire:m1107"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1107"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1107"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1107"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1107"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1107"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1144
+  title: "The Green Dragon"
+  description: >-
+    Welcome to the Green Dragon, the undisputed leader in the art of
+    innkeeping.  A rather charming and friendly hostess stands to the side,
+    ready to offer you food and drink.  While most of the patrons are halfling
+    locals, you spy an occasional human or two.  As you listen more closely
+    to the conversations that fill the inn, you hear the tales of great and
+    seasoned adventurers as well as the usual gossip.  You feel as if you've
+    found your second home in the Green Dragon.  You see a stairway leading
+    upwards.
+  exits:
+    - roomId: "shire:r1132"
+      direction: west
+    - roomId: "shire:r1157"
+      direction: up
+  npcs:
+    - id: "shire:m1130"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "shire:m1123"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1123"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1123"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "shire:m1127"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "shire:m1127"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "shire:m1127"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "shire:m1127"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r1145
+  title: "Shiriff Post of Delving Lane"
+  description: >-
+    You are in the Shiriff Post which acts as the nucleus for the three shiriffs
+    of Delving Lane.  As you examine the shiriffs on duty, you come to realize
+    that the halflings of the Shire are not to be reckoned with.  You cower with
+    awe.  The only exit is to the west.
+  exits:
+    - roomId: "shire:r1133"
+      direction: west
+  npcs:
+    - id: "shire:m1110"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "shire:m1110"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "shire:m1111"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1146
+  title: "A dark tunnel"
+  description: >-
+    You stand inside a small underground tunnel.  The ceiling is so low that
+    you must crouch to avoid hitting your head.  You see light from a small
+    hole in the ceiling while to the east you see nothing but darkness.
+  exits:
+    - roomId: "shire:r1147"
+      direction: east
+    - roomId: "shire:r1125"
+      direction: up
+- id: r1147
+  title: "A dark tunnel"
+  description: >-
+    You stand inside a small underground tunnel.  The ceiling is so low that
+    you must crouch to avoid hitting your head.  The tunnel continues east and
+    west.  All you can see is darkness.
+  exits:
+    - roomId: "shire:r1148"
+      direction: east
+    - roomId: "shire:r1146"
+      direction: west
+- id: r1148
+  title: "A dark tunnel"
+  description: >-
+    You stand inside a small underground tunnel.  The ceiling is so low that
+    you must crouch to avoid hitting your head.  The tunnel continues east and
+    west.  All you can see is darkness.
+  exits:
+    - roomId: "shire:r1149"
+      direction: east
+    - roomId: "shire:r1147"
+      direction: west
+- id: r1149
+  title: "A three way intersection"
+  description: >-
+    You stand at an intersection.  The tunnel continues east and west while
+    to the north you can barely make out a smaller trail.
+  exits:
+    - roomId: "shire:r1151"
+      direction: north
+    - roomId: "shire:r1150"
+      direction: east
+    - roomId: "shire:r1148"
+      direction: west
+- id: r1150
+  title: "End of a dark tunnel"
+  description: >-
+    You stand at the end of a dark tunnel.  The underground tunnel continues
+    to the west.  From a trapdoor in the ceiling you can hear the din of
+    adventurers.
+  exits:
+    - roomId: "shire:r1149"
+      direction: west
+    - roomId: "midgaard:r3001"
+      direction: up
+- id: r1151
+  title: "A dark tunnel"
+  description: >-
+    You stand inside a small underground tunnel.  The ceiling is so low that
+    you must crouch to avoid hitting your head.  The tunnel continues north and
+    south.  To the west you see a Shirriff Post while to the east lies a small
+    home.  All you can see is darkness.
+  exits:
+    - roomId: "shire:r1152"
+      direction: north
+    - roomId: "shire:r1149"
+      direction: south
+    - roomId: "shire:r1154"
+      direction: east
+    - roomId: "shire:r1153"
+      direction: west
+- id: r1152
+  title: "A dark tunnel"
+  description: >-
+    You stand inside a small underground tunnel.  The ceiling is so low that 
+    you must crouch to avoid hitting your head.  The tunnel continues north and
+    south.  To the west lies a small home.  All you can see is darkness.
+  exits:
+    - roomId: "shire:r1156"
+      direction: north
+    - roomId: "shire:r1151"
+      direction: south
+    - roomId: "shire:r1155"
+      direction: west
+- id: r1153
+  title: "Shiriff Post of the Lower Shire"
+  description: >-
+    You are in the shiriff Post which acts as the nucleus for the three shiriffs 
+    of the Lower Shire.  As you examine the shiriffs on duty, you come to realize
+    that the halflings of the Shire are not to be reckoned with.  You cower with
+    awe.  The only exit is to the east.
+  exits:
+    - roomId: "shire:r1151"
+      direction: east
+  npcs:
+    - id: "shire:m1110"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "shire:m1110"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "shire:m1111"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1154
+  title: "A halfling hole"
+  description: >-
+    You stand inside a rather crudely built halfling hole.  The many passageways
+    and winding paths remind you of a rodent's lair.  The air is musty and damp
+    and you feel the need for fresh air.
+  exits:
+    - roomId: "shire:r1151"
+      direction: west
+  npcs:
+    - id: "shire:m1128"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1155
+  title: "A halfling hole"
+  description: >-
+    You stand inside a rather crudely built halfling hole.  The many passageways
+    and winding paths remind you of a rodent's lair.  The air is musty and damp
+    and you feel the need for fresh air.
+  exits:
+    - roomId: "shire:r1152"
+      direction: east
+  npcs:
+    - id: "shire:m1128"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1156
+  title: "End of a dark tunnel"
+  description: >-
+    You are at one end of a dark tunnel.  The tunnel continues to the south
+    while on the ceiling you can make out a trapdoor.
+  exits:
+    - roomId: "shire:r1152"
+      direction: south
+    - roomId: "shire:r1137"
+      direction: up
+- id: r1157
+  title: "The Inn of the Green Dragon"
+  description: >-
+    You are standing in the Inn of the Green dragon.  Large paintings of 
+    halflings at work, and halflings at play adorn the walls.  Comfortable 
+    benches and seats line the walls.  A stairway leads down.
+  exits:
+    - roomId: "shire:r1144"
+      direction: down
+  npcs:
+    - id: "shire:m1131"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1158
+  title: "Entrance to the Toreador Clan Room."
+  description: >-
+    You are standing in a huge entranceway.  You see 
+    a stairwell leading up, and a hallway to the 
+    south.  You also notice that only the finest
+    fabrics have been used in decorating this room. 
+    Considering the details on the stairwell, you can 
+    deduce that artisans of some sort at least
+    built the stairs, and if a Toreador was to catch 
+    you here...there would be no telling what the 
+    repercussion of such an act would be.
+  exits:
+    - roomId: "shire:r1159"
+      direction: south
+    - roomId: "shire:r1168"
+      direction: up
+- id: r1159
+  title: "An Ancient Byzantine Hallway."
+  description: >-
+    As you look around, you can just feel the 
+    presence of some of the most prestigious rulers 
+    of the Byzantine era. You seem to be enraptured 
+    by the Daedalian columns lining both sides of 
+    the hallway, but Regardless of the craftsmanship 
+    of the hallway and the columns, your attention
+    couldn't be more focused on the eerie statue of 
+    Alexander the Great.
+  exits:
+    - roomId: "shire:r1158"
+      direction: north
+    - roomId: "shire:r1163"
+      direction: south
+    - roomId: "shire:r1160"
+      direction: east
+- id: r1160
+  title: "The Winery."
+  description: >-
+    You are standing in the middle of a room filled 
+    with many barrels of the finest wine.  Your 
+    fellow Toreador's have accumulated wine through- 
+    out the ages and stored them here.  Who knows, 
+    you may even find some wine from when your sire 
+    was newly embraced.  In the corner you see
+    an ancient statue of Dionysus which seems to be
+    near some of the oldest wine here.
+  exits:
+    - roomId: "shire:r1162"
+      direction: south
+    - roomId: "shire:r1159"
+      direction: west
+- id: r1161
+  title: "The Art Gallery"
+  description: >-
+    This is the room where all of the Toreador 
+    Masterpieces have been stored throughout the 
+    ages.  You see many elaborate sculptures, oil
+    paintings, charcoal drawings, and many books.  
+    The books seem to be filled with ancient sheets 
+    of paper possibly containing poems, lyrics, and 
+    scientific findings of the Toreador clan.
+  exits:
+    - roomId: "shire:r1165"
+      direction: north
+    - roomId: "shire:r1163"
+      direction: east
+    - roomId: "shire:r1164"
+      direction: down
+- id: r1162
+  title: "The Monastery"
+  description: >-
+    You seem to be at the altar of an antediluvian 
+    monastery.  There are stained glass windows all 
+    along one side.  The monastery emits a strange 
+    glow that lights up the entire room, yet all of 
+    the harmful sunrays seem to be blocked by the 
+    unique color combination of the stained glass 
+    windows which were crafted centuries ago by
+    our founding Toreador's.
+  exits:
+    - roomId: "shire:r1160"
+      direction: north
+    - roomId: "shire:r1163"
+      direction: west
+- id: r1163
+  title: "A Heavenly Haven"
+  description: >-
+    As you descend into the deepest depths of the 
+    Toreador clan room, you breathe a sigh of relief. 
+    You are finally in one of the safest places a 
+    Toreador has ever known.  This has been a Haven 
+    for clan Toreador for many, many centuries.
+  exits:
+    - roomId: "shire:r1159"
+      direction: north
+    - roomId: "shire:r1162"
+      direction: east
+    - roomId: "shire:r1161"
+      direction: west
+    - roomId: "shire:r1167"
+      direction: up
+  items:
+    - id: "shire:o1115"
+      respawnChance: 75
+- id: r1164
+  title: "The Dominion"
+  description: >-
+    As you enter the Dominion, you stand in awe of 
+    the equipment that is stored in this room.  This 
+    room must be where the Toreador torture their 
+    fabled Prince's Autarkis'.  Also you notice some 
+    whips, chains, and handcuffs thrown about on a 
+    table near the rear of the room... must have been 
+    some of the more kinky members and a little 
+    sexcapade...
+  exits:
+    - roomId: "shire:r1161"
+      direction: up
+- id: r1165
+  title: "The Opera House"
+  description: >-
+    You are standing at the entrance to a gigantic 
+    auditorium of sorts.  You can tell that there 
+    have been many performances on the fancy stage 
+    because of the abuse that the stage has endured 
+    in its lifetime.  There seems to be some new 
+    damage to the stage though... Must have been the 
+    new Toreadors trying to cover up their secret 
+    late night heavy metal concerts, like they didn't 
+    think that their elders would notice.
+  exits:
+    - roomId: "shire:r1161"
+      direction: south
+    - roomId: "shire:r1166"
+      direction: down
+- id: r1166
+  title: "The Night Club"
+  description: >-
+    As you glance around the room, you notice a 
+    dance floor full of vampires and retainers 
+    dancing to the wild music playing in the 
+    background.  Although most are drunken mis-
+    fits just out for a good time, you may want
+    to leave before someone notices you.
+  exits:
+    - roomId: "shire:r1165"
+      direction: up
+- id: r1167
+  title: "The Kinship"
+  description: >-
+    In this room, you can see several filing cabinets 
+    which appear to be filled with information on the 
+    other vampire clans..It would appear that the 
+    Toreador use this room to discuss clan activity,
+    and from the amount of vitae on the floor, 
+    someone must have disagreed with the Elder who 
+    was holding the meeting.. They will not be doing 
+    that anymore...That, I can assure you.
+  exits:
+    - roomId: "shire:r1163"
+      direction: down
+- id: r1168
+  title: "The Charity Room"
+  description: >-
+    You stand in the middle of a rather large room.  
+    As you glance about you notice that there are 
+    many very elaborate clothes and gifts lying
+    around the room.  If you are Toreador, feel free 
+    to take whatever and however much you need to get 
+    back on your feet, but if you are not Toreador.. 
+    ..hope you can run fast enough to get out of here 
+    before anyone catches you......
+  exits:
+    - roomId: "shire:r1158"
+      direction: down

@@ -1,0 +1,5074 @@
+- id: r12288
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12287"
+      direction: east
+- id: r12289
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12286"
+      direction: south
+    - roomId: "hc:r12290"
+      direction: east
+- id: r12290
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12285"
+      direction: south
+    - roomId: "hc:r12291"
+      direction: east
+    - roomId: "hc:r12289"
+      direction: west
+  npcs:
+    - id: "hc:m12072"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12291
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12284"
+      direction: south
+    - roomId: "hc:r12292"
+      direction: east
+    - roomId: "hc:r12290"
+      direction: west
+- id: r12292
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12283"
+      direction: south
+    - roomId: "hc:r12291"
+      direction: west
+- id: r12293
+  title: "Gravel Road"
+  description: >-
+    You are on a dusty, gravel road.
+  exits:
+    - roomId: "hc:r12294"
+      direction: north
+    - roomId: "hc:r12088"
+      direction: south
+- id: r12294
+  title: "Gravel Road"
+  description: >-
+    You are on a dusty, gravel road.
+  exits:
+    - roomId: "hc:r12295"
+      direction: north
+    - roomId: "hc:r12293"
+      direction: south
+    - roomId: "hc:r12313"
+      direction: west
+- id: r12295
+  title: "Which Way?"
+  description: >-
+    >From here, you may travel north, west, or south.
+  exits:
+    - roomId: "hc:r12341"
+      direction: north
+    - roomId: "hc:r12294"
+      direction: south
+    - roomId: "hc:r12296"
+      direction: west
+- id: r12296
+  title: "Gravel Road"
+  description: >-
+    You are on a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12295"
+      direction: east
+    - roomId: "hc:r12297"
+      direction: west
+- id: r12297
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12296"
+      direction: east
+    - roomId: "hc:r12298"
+      direction: west
+- id: r12298
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12297"
+      direction: east
+    - roomId: "hc:r12299"
+      direction: west
+- id: r12299
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12309"
+      direction: south
+    - roomId: "hc:r12298"
+      direction: east
+    - roomId: "hc:r12300"
+      direction: west
+- id: r12300
+  title: "Gravel Road"
+  description: >-
+    You are traveling along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12305"
+      direction: south
+    - roomId: "hc:r12299"
+      direction: east
+    - roomId: "hc:r12301"
+      direction: west
+- id: r12301
+  title: "Gravel Road"
+  description: >-
+    You are traveling along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12300"
+      direction: east
+    - roomId: "hc:r12302"
+      direction: west
+- id: r12302
+  title: "Point of Decision"
+  description: >-
+    You can go either north, east, or south.  You must choose.
+  exits:
+    - roomId: "hc:r12317"
+      direction: north
+    - roomId: "hc:r12303"
+      direction: south
+    - roomId: "hc:r12301"
+      direction: east
+- id: r12303
+  title: "Gravel Road"
+  description: >-
+    You are traveling along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12302"
+      direction: north
+    - roomId: "hc:r12304"
+      direction: south
+- id: r12304
+  title: "Gravel Road"
+  description: >-
+    You are traveling along a dusty, gravel 
+    road in Hazzardous County.  You see a 
+    crossroads in the distance to the south.
+  exits:
+    - roomId: "hc:r12303"
+      direction: north
+    - roomId: "hc:r12002"
+      direction: south
+- id: r12305
+  title: "Fish Pond"
+  description: >-
+    You are standing knee deep in a smelly fish pond.
+  exits:
+    - roomId: "hc:r12300"
+      direction: north
+    - roomId: "hc:r12306"
+      direction: south
+    - roomId: "hc:r12308"
+      direction: west
+- id: r12306
+  title: "Fish Pond"
+  description: >-
+    You are standing knee deep in a smelly fish pond.
+  exits:
+    - roomId: "hc:r12305"
+      direction: north
+    - roomId: "hc:r12307"
+      direction: west
+  npcs:
+    - id: "hc:m12108"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12307
+  title: "Fish Pond"
+  description: >-
+    You are standing knee deep in a smelly fish pond.
+  exits:
+    - roomId: "hc:r12308"
+      direction: north
+    - roomId: "hc:r12306"
+      direction: east
+- id: r12308
+  title: "Fish Pond"
+  description: >-
+    You are standing knee deep in a smelly fish pond.
+  exits:
+    - roomId: "hc:r12307"
+      direction: south
+    - roomId: "hc:r12305"
+      direction: east
+  npcs:
+    - id: "hc:m12001"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "hc:m12001"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r12309
+  title: "Fish Pond"
+  description: >-
+    You dip down into the cool water.  Brrrrr!
+  exits:
+    - roomId: "hc:r12299"
+      direction: north
+    - roomId: "hc:r12310"
+      direction: south
+    - roomId: "hc:r12312"
+      direction: east
+- id: r12310
+  title: "Fish Pond"
+  description: >-
+    You dip down into the cold water.  Brrrr!
+  exits:
+    - roomId: "hc:r12309"
+      direction: north
+    - roomId: "hc:r12311"
+      direction: east
+  npcs:
+    - id: "hc:m12050"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "hc:m12050"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r12311
+  title: "Fish Pond"
+  description: >-
+    You dip down into the cool water.  Brrrr!
+  exits:
+    - roomId: "hc:r12312"
+      direction: north
+    - roomId: "hc:r12310"
+      direction: west
+  npcs:
+    - id: "hc:m12109"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12312
+  title: "Fish Pond"
+  description: >-
+    You dip down into the cool water.  Brrrr!
+  exits:
+    - roomId: "hc:r12311"
+      direction: south
+    - roomId: "hc:r12309"
+      direction: west
+- id: r12313
+  title: "Fish Pond"
+  description: >-
+    You hear the gurgling death cries of mistreated catfish.
+  exits:
+    - roomId: "hc:r12314"
+      direction: south
+    - roomId: "hc:r12294"
+      direction: east
+    - roomId: "hc:r12316"
+      direction: west
+- id: r12314
+  title: "Fish Pond"
+  description: >-
+    You hear the gurgling death cries of mistreated catfish.
+  exits:
+    - roomId: "hc:r12313"
+      direction: north
+    - roomId: "hc:r12315"
+      direction: west
+  npcs:
+    - id: "hc:m12051"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "hc:m12052"
+      respawnChance: 100
+      maxLoad: "19"
+    - id: "hc:m12051"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "hc:m12052"
+      respawnChance: 100
+      maxLoad: "19"
+- id: r12315
+  title: "Fish Pond"
+  description: >-
+    You hear the gurgling death cries of mistreated catfish.
+  exits:
+    - roomId: "hc:r12316"
+      direction: north
+    - roomId: "hc:r12314"
+      direction: east
+- id: r12316
+  title: "Fish Pond"
+  description: >-
+    You hear the gurgling death cries of mistreated catfish.
+  exits:
+    - roomId: "hc:r12315"
+      direction: south
+    - roomId: "hc:r12313"
+      direction: east
+  npcs:
+    - id: "hc:m12110"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12317
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12318"
+      direction: north
+    - roomId: "hc:r12302"
+      direction: south
+- id: r12318
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road.
+  exits:
+    - roomId: "hc:r12319"
+      direction: north
+    - roomId: "hc:r12317"
+      direction: south
+- id: r12319
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.  You hear 
+    animals wailing and moaning.
+  exits:
+    - roomId: "hc:r12320"
+      direction: north
+    - roomId: "hc:r12318"
+      direction: south
+- id: r12320
+  title: "Three Ways to Go"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.  You see 
+    where you can go into the wetlands 
+    here, if you choose to.
+  exits:
+    - roomId: "hc:r12321"
+      direction: north
+    - roomId: "hc:r12319"
+      direction: south
+    - roomId: "hc:r12398"
+      direction: east
+- id: r12321
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.  You hear 
+    animal cries coming from the east.
+  exits:
+    - roomId: "hc:r12322"
+      direction: north
+    - roomId: "hc:r12320"
+      direction: south
+- id: r12322
+  title: "Gravel Road"
+  description: >-
+    You are traveling along a dusty, gravel road.
+  exits:
+    - roomId: "hc:r12323"
+      direction: north
+    - roomId: "hc:r12321"
+      direction: south
+- id: r12323
+  title: "Corner of the Road"
+  description: >-
+    At this corner, the road heads east and south.
+  exits:
+    - roomId: "hc:r12322"
+      direction: south
+    - roomId: "hc:r12324"
+      direction: east
+- id: r12324
+  title: "Corner of the Road"
+  description: >-
+    At this corner of the road, the road heads west and north.
+  exits:
+    - roomId: "hc:r12325"
+      direction: north
+    - roomId: "hc:r12323"
+      direction: west
+- id: r12325
+  title: "Point of Decision"
+  description: >-
+    At this point, you may go either north, east, or west.
+  exits:
+    - roomId: "hc:r12326"
+      direction: north
+    - roomId: "hc:r12324"
+      direction: south
+    - roomId: "hc:r12327"
+      direction: east
+- id: r12326
+  title: "Dead End"
+  description: >-
+    You have made it to a dead end.  You 
+    should turn around, and go back where 
+    you came from.
+  exits:
+    - roomId: "hc:r12325"
+      direction: south
+- id: r12327
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12328"
+      direction: east
+    - roomId: "hc:r12325"
+      direction: west
+- id: r12328
+  title: "Corner in the Road"
+  description: >-
+    >From this corner, you may head either north or west.
+  exits:
+    - roomId: "hc:r12329"
+      direction: north
+    - roomId: "hc:r12327"
+      direction: west
+- id: r12329
+  title: "Corner of the Road"
+  description: >-
+    This corner of the road may take you east 
+    or south.  North of here, you spy the 
+    Boar's Nest Bar and Lounge.
+  exits:
+    - roomId: "hc:r12353"
+      direction: north
+    - roomId: "hc:r12328"
+      direction: south
+    - roomId: "hc:r12330"
+      direction: east
+- id: r12330
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road 
+    in Hazzardous County.  North of here, you 
+    can spy the Boar's Nest Bar and Lounge.
+  exits:
+    - roomId: "hc:r12351"
+      direction: north
+    - roomId: "hc:r12331"
+      direction: east
+    - roomId: "hc:r12329"
+      direction: west
+- id: r12331
+  title: "Corner of the Road"
+  description: >-
+    >From this corner, you may head west or south.  
+    You spy the Boar's Nest Bar and Lounge to the north.
+  exits:
+    - roomId: "hc:r12352"
+      direction: north
+    - roomId: "hc:r12332"
+      direction: south
+    - roomId: "hc:r12330"
+      direction: west
+- id: r12332
+  title: "Corner of the Road"
+  description: >-
+    You are at a corner.  From here, you may head north or east.
+  exits:
+    - roomId: "hc:r12331"
+      direction: north
+    - roomId: "hc:r12333"
+      direction: east
+- id: r12333
+  title: "Point of Decision"
+  description: >-
+    You have to decide which way you wish to go.  
+    Will you go north, west, or south?
+  exits:
+    - roomId: "hc:r12342"
+      direction: north
+    - roomId: "hc:r12334"
+      direction: south
+    - roomId: "hc:r12332"
+      direction: west
+  npcs:
+    - id: "hc:m12057"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12334
+  title: "Corner of the Road"
+  description: >-
+    You are standing at a corner in the road.
+  exits:
+    - roomId: "hc:r12333"
+      direction: north
+    - roomId: "hc:r12335"
+      direction: east
+- id: r12335
+  title: "Corner in the Road"
+  description: >-
+    You are standing at a corner in the road.
+  exits:
+    - roomId: "hc:r12336"
+      direction: south
+    - roomId: "hc:r12334"
+      direction: west
+- id: r12336
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12335"
+      direction: north
+    - roomId: "hc:r12337"
+      direction: south
+- id: r12337
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12336"
+      direction: north
+    - roomId: "hc:r12338"
+      direction: south
+- id: r12338
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road 
+    in Hazzardous County.  You can faintly hear 
+    the muffled wails and moans of dying animals 
+    coming from the west.
+  exits:
+    - roomId: "hc:r12337"
+      direction: north
+    - roomId: "hc:r12339"
+      direction: south
+- id: r12339
+  title: "Three Ways to Go"
+  description: >-
+    You are trudging along a dusty, gravel road in 
+    Hazzardous County.  You see a small road to the 
+    west, the direction that the animal cries 
+    are coming from.
+  exits:
+    - roomId: "hc:r12338"
+      direction: north
+    - roomId: "hc:r12340"
+      direction: south
+    - roomId: "hc:r12361"
+      direction: west
+- id: r12340
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in 
+    Hazzardous County.  Off to the west, you hear 
+    the cries of wild animals.
+  exits:
+    - roomId: "hc:r12339"
+      direction: north
+    - roomId: "hc:r12341"
+      direction: south
+- id: r12341
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12340"
+      direction: north
+    - roomId: "hc:r12295"
+      direction: south
+- id: r12342
+  title: "Corner of the Road"
+  description: >-
+    You are at a corner in the road.
+  exits:
+    - roomId: "hc:r12333"
+      direction: south
+    - roomId: "hc:r12343"
+      direction: east
+- id: r12343
+  title: "Corner of the Road"
+  description: >-
+    You are at a corner of the road.
+  exits:
+    - roomId: "hc:r12344"
+      direction: north
+    - roomId: "hc:r12342"
+      direction: west
+- id: r12344
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12345"
+      direction: north
+    - roomId: "hc:r12343"
+      direction: south
+- id: r12345
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12346"
+      direction: north
+    - roomId: "hc:r12344"
+      direction: south
+- id: r12346
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12347"
+      direction: north
+    - roomId: "hc:r12345"
+      direction: south
+- id: r12347
+  title: "Point of Decision"
+  description: >-
+    >From here, you may head either north, west, or south.
+  exits:
+    - roomId: "hc:r12348"
+      direction: north
+    - roomId: "hc:r12346"
+      direction: south
+    - roomId: "hc:r12349"
+      direction: west
+  npcs:
+    - id: "hc:m12058"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12348
+  title: "Dead End"
+  description: >-
+    You are at a dead end.  You should just go back where you came from.
+  exits:
+    - roomId: "hc:r12347"
+      direction: south
+  npcs:
+    - id: "hc:m12011"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "hc:m12010"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12349
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12347"
+      direction: east
+    - roomId: "hc:r12350"
+      direction: west
+- id: r12350
+  title: "Behind the Boar's Nest"
+  description: >-
+    You are in the rear parking lot of the Boar's Nest.
+  exits:
+    - roomId: "hc:r12349"
+      direction: east
+    - roomId: "hc:r12360"
+      direction: west
+  npcs:
+    - id: "hc:m12059"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12351
+  title: "Parking Lot"
+  description: >-
+    You are in the parking lot of the Boar's Nest.  
+    The packed gravel is a bit easier to walk on.  
+    The door in is just ahead.
+  exits:
+    - roomId: "hc:r12354"
+      direction: north
+    - roomId: "hc:r12330"
+      direction: south
+    - roomId: "hc:r12352"
+      direction: east
+    - roomId: "hc:r12353"
+      direction: west
+- id: r12352
+  title: "Parking Lot"
+  description: >-
+    You are standing in the parking lot to the Boar's Nest.  
+    You see the building to the north, and hear sounds 
+    from within.  Sounds like a party is going on.
+  exits:
+    - roomId: "hc:r12331"
+      direction: south
+    - roomId: "hc:r12351"
+      direction: west
+- id: r12353
+  title: "Parking Lot"
+  description: >-
+    You are standing on the parking lot to the 
+    Boar's Nest Restaurant and Lounge.
+  exits:
+    - roomId: "hc:r12329"
+      direction: south
+    - roomId: "hc:r12351"
+      direction: east
+- id: r12354
+  title: "Boar's Nest"
+  description: >-
+    You are inside the Boar's Nest Restaurant and Lounge.
+  exits:
+    - roomId: "hc:r12357"
+      direction: north
+    - roomId: "hc:r12351"
+      direction: south
+    - roomId: "hc:r12355"
+      direction: east
+    - roomId: "hc:r12359"
+      direction: west
+- id: r12355
+  title: "Boar's Nest"
+  description: >-
+    You are inside the Boar's Nest Restaurant and Lounge.
+  exits:
+    - roomId: "hc:r12356"
+      direction: north
+    - roomId: "hc:r12354"
+      direction: west
+- id: r12356
+  title: "Bar"
+  description: >-
+    You are standing at the bar.  You take a seat 
+    on a high stool, and consider ordering a drink.
+  exits:
+    - roomId: "hc:r12355"
+      direction: south
+    - roomId: "hc:r12357"
+      direction: west
+  npcs:
+    - id: "hc:m12047"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12357
+  title: "Boar's Nest"
+  description: >-
+    You are inside the Boar's Nest Restaurant and Lounge.
+  exits:
+    - roomId: "hc:r12360"
+      direction: north
+    - roomId: "hc:r12354"
+      direction: south
+    - roomId: "hc:r12356"
+      direction: east
+    - roomId: "hc:r12358"
+      direction: west
+  npcs:
+    - id: "hc:m12005"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12358
+  title: "Dance Floor"
+  description: >-
+    If you want to cut the rug, this is the spot to do it.
+  exits:
+    - roomId: "hc:r12359"
+      direction: south
+    - roomId: "hc:r12357"
+      direction: east
+  npcs:
+    - id: "hc:m12077"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12078"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12077"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12078"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12359
+  title: "Stage"
+  description: >-
+    This is where all those not-so-famous acts 
+    come to show off their musical skills.
+  exits:
+    - roomId: "hc:r12358"
+      direction: north
+    - roomId: "hc:r12354"
+      direction: east
+- id: r12360
+  title: "Boss's Office"
+  description: >-
+    You are inside Boss HoggHead's Office.  
+    This is where he spends most of his time.  
+    The small refrigerator in the corner 
+    gives all of that away.
+  exits:
+    - roomId: "hc:r12357"
+      direction: south
+    - roomId: "hc:r12350"
+      direction: east
+  npcs:
+    - id: "hc:m12023"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12361
+  title: "The Wetlands"
+  description: >-
+    You slush your way through the soggy terrain.
+  exits:
+    - roomId: "hc:r12366"
+      direction: north
+    - roomId: "hc:r12362"
+      direction: south
+    - roomId: "hc:r12339"
+      direction: east
+    - roomId: "hc:r12371"
+      direction: west
+- id: r12362
+  title: "The Wetlands"
+  description: >-
+    You slush your way through the soggy terrain.
+  exits:
+    - roomId: "hc:r12361"
+      direction: north
+    - roomId: "hc:r12363"
+      direction: south
+    - roomId: "hc:r12372"
+      direction: west
+- id: r12363
+  title: "The Wetlands"
+  description: >-
+    You slush your way through the soggy terrain.
+  exits:
+    - roomId: "hc:r12362"
+      direction: north
+    - roomId: "hc:r12373"
+      direction: west
+- id: r12364
+  title: "The Wetlands"
+  description: >-
+    You slush your way through the soggy terrain.
+  exits:
+    - roomId: "hc:r12365"
+      direction: south
+    - roomId: "hc:r12368"
+      direction: west
+- id: r12365
+  title: "The Wetlands"
+  description: >-
+    You slush your way through the soggy terrain.
+  exits:
+    - roomId: "hc:r12364"
+      direction: north
+    - roomId: "hc:r12366"
+      direction: south
+    - roomId: "hc:r12369"
+      direction: west
+- id: r12366
+  title: "The Wetlands"
+  description: >-
+    You slush your way through the soggy terrain.
+  exits:
+    - roomId: "hc:r12365"
+      direction: north
+    - roomId: "hc:r12361"
+      direction: south
+    - roomId: "hc:r12370"
+      direction: west
+- id: r12367
+  title: "The Wetlands"
+  description: >-
+    You are trudging along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12368"
+      direction: south
+    - roomId: "hc:r12375"
+      direction: west
+- id: r12368
+  title: "The Wetlands"
+  description: >-
+    You slush along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12367"
+      direction: north
+    - roomId: "hc:r12369"
+      direction: south
+    - roomId: "hc:r12364"
+      direction: east
+    - roomId: "hc:r12376"
+      direction: west
+- id: r12369
+  title: "The Wetlands"
+  description: >-
+    You slush through the soggy terrain.
+  exits:
+    - roomId: "hc:r12368"
+      direction: north
+    - roomId: "hc:r12370"
+      direction: south
+    - roomId: "hc:r12365"
+      direction: east
+    - roomId: "hc:r12377"
+      direction: west
+  npcs:
+    - id: "hc:m12092"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12370
+  title: "The Wetlands"
+  description: >-
+    You slush through the soggy terrain.
+  exits:
+    - roomId: "hc:r12369"
+      direction: north
+    - roomId: "hc:r12371"
+      direction: south
+    - roomId: "hc:r12366"
+      direction: east
+    - roomId: "hc:r12378"
+      direction: west
+- id: r12371
+  title: "The Wetlands"
+  description: >-
+    You slush through the soggy terrain.
+  exits:
+    - roomId: "hc:r12370"
+      direction: north
+    - roomId: "hc:r12372"
+      direction: south
+    - roomId: "hc:r12361"
+      direction: east
+    - roomId: "hc:r12379"
+      direction: west
+- id: r12372
+  title: "The Wetlands"
+  description: >-
+    You slush along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12371"
+      direction: north
+    - roomId: "hc:r12373"
+      direction: south
+    - roomId: "hc:r12362"
+      direction: east
+    - roomId: "hc:r12380"
+      direction: west
+- id: r12373
+  title: "The Wetlands"
+  description: >-
+    You slush through the soggy terrain.
+  exits:
+    - roomId: "hc:r12372"
+      direction: north
+    - roomId: "hc:r12363"
+      direction: east
+    - roomId: "hc:r12381"
+      direction: west
+  npcs:
+    - id: "hc:m12031"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12374
+  title: "The Wetlands"
+  description: >-
+    You slush along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12375"
+      direction: south
+- id: r12375
+  title: "The Wetlands"
+  description: >-
+    You slush along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12374"
+      direction: north
+    - roomId: "hc:r12376"
+      direction: south
+    - roomId: "hc:r12367"
+      direction: east
+    - roomId: "hc:r12382"
+      direction: west
+- id: r12376
+  title: "The Wetlands"
+  description: >-
+    You slush along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12375"
+      direction: north
+    - roomId: "hc:r12377"
+      direction: south
+    - roomId: "hc:r12368"
+      direction: east
+    - roomId: "hc:r12383"
+      direction: west
+- id: r12377
+  title: "The Wetlands"
+  description: >-
+    You slush along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12376"
+      direction: north
+    - roomId: "hc:r12378"
+      direction: south
+    - roomId: "hc:r12369"
+      direction: east
+    - roomId: "hc:r12384"
+      direction: west
+- id: r12378
+  title: "The Wetlands"
+  description: >-
+    You slush along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12377"
+      direction: north
+    - roomId: "hc:r12379"
+      direction: south
+    - roomId: "hc:r12370"
+      direction: east
+    - roomId: "hc:r12385"
+      direction: west
+- id: r12379
+  title: "The Wetlands"
+  description: >-
+    You slush through the soggy terrain.
+  exits:
+    - roomId: "hc:r12378"
+      direction: north
+    - roomId: "hc:r12380"
+      direction: south
+    - roomId: "hc:r12371"
+      direction: east
+    - roomId: "hc:r12386"
+      direction: west
+- id: r12380
+  title: "The Wetlands"
+  description: >-
+    You slush through the soggy terrain.
+  exits:
+    - roomId: "hc:r12379"
+      direction: north
+    - roomId: "hc:r12381"
+      direction: south
+    - roomId: "hc:r12372"
+      direction: east
+    - roomId: "hc:r12387"
+      direction: west
+- id: r12381
+  title: "The Wetlands"
+  description: >-
+    You slush along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12380"
+      direction: north
+    - roomId: "hc:r12373"
+      direction: east
+    - roomId: "hc:r12388"
+      direction: west
+- id: r12382
+  title: "The Wetlands"
+  description: >-
+    You slush your way through the soggy terrain.
+  exits:
+    - roomId: "hc:r12383"
+      direction: south
+    - roomId: "hc:r12375"
+      direction: east
+    - roomId: "hc:r12389"
+      direction: west
+  npcs:
+    - id: "hc:m12091"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12383
+  title: "The Wetlands"
+  description: >-
+    You slush your way through the soggy terrain.
+  exits:
+    - roomId: "hc:r12382"
+      direction: north
+    - roomId: "hc:r12384"
+      direction: south
+    - roomId: "hc:r12376"
+      direction: east
+    - roomId: "hc:r12390"
+      direction: west
+- id: r12384
+  title: "The Wetlands"
+  description: >-
+    You slush your way through the soggy terrain.
+  exits:
+    - roomId: "hc:r12383"
+      direction: north
+    - roomId: "hc:r12385"
+      direction: south
+    - roomId: "hc:r12377"
+      direction: east
+    - roomId: "hc:r12391"
+      direction: west
+- id: r12385
+  title: "The Wetlands"
+  description: >-
+    You slush your way through the soggy terrain.
+  exits:
+    - roomId: "hc:r12384"
+      direction: north
+    - roomId: "hc:r12386"
+      direction: south
+    - roomId: "hc:r12378"
+      direction: east
+    - roomId: "hc:r12392"
+      direction: west
+  npcs:
+    - id: "hc:m12094"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r12386
+  title: "Dry Patch"
+  description: >-
+    You are standing on a flat patch of dry land.
+  exits:
+    - roomId: "hc:r12385"
+      direction: north
+    - roomId: "hc:r12387"
+      direction: south
+    - roomId: "hc:r12379"
+      direction: east
+    - roomId: "hc:r12393"
+      direction: west
+- id: r12387
+  title: "Dry Patch"
+  description: >-
+    You are standing on a flat patch of dry land.
+  exits:
+    - roomId: "hc:r12386"
+      direction: north
+    - roomId: "hc:r12388"
+      direction: south
+    - roomId: "hc:r12380"
+      direction: east
+    - roomId: "hc:r12394"
+      direction: west
+- id: r12388
+  title: "Dry Patch"
+  description: >-
+    You are standing on a flat patch of dry land.
+  exits:
+    - roomId: "hc:r12387"
+      direction: north
+    - roomId: "hc:r12381"
+      direction: east
+    - roomId: "hc:r12395"
+      direction: west
+  npcs:
+    - id: "hc:m12032"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12389
+  title: "The Wetlands"
+  description: >-
+    You slush along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12390"
+      direction: south
+    - roomId: "hc:r12382"
+      direction: east
+- id: r12390
+  title: "The Wetlands"
+  description: >-
+    You slush along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12389"
+      direction: north
+    - roomId: "hc:r12391"
+      direction: south
+    - roomId: "hc:r12383"
+      direction: east
+    - roomId: "hc:r12396"
+      direction: west
+- id: r12391
+  title: "The Wetlands"
+  description: >-
+    You slush along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12390"
+      direction: north
+    - roomId: "hc:r12392"
+      direction: south
+    - roomId: "hc:r12384"
+      direction: east
+    - roomId: "hc:r12397"
+      direction: west
+- id: r12392
+  title: "The Wetlands"
+  description: >-
+    You slush along through the soggy terrain.
+  exits:
+    - roomId: "hc:r12391"
+      direction: north
+    - roomId: "hc:r12393"
+      direction: south
+    - roomId: "hc:r12385"
+      direction: east
+    - roomId: "hc:r12398"
+      direction: west
+  npcs:
+    - id: "hc:m12093"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12393
+  title: "Dry Patch"
+  description: >-
+    You are on a patch of dry, salty earth.
+  exits:
+    - roomId: "hc:r12392"
+      direction: north
+    - roomId: "hc:r12394"
+      direction: south
+    - roomId: "hc:r12386"
+      direction: east
+    - roomId: "hc:r12399"
+      direction: west
+  npcs:
+    - id: "hc:m12030"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12394
+  title: "Dry Patch"
+  description: >-
+    You are standing on a patch of dry ground.
+  exits:
+    - roomId: "hc:r12393"
+      direction: north
+    - roomId: "hc:r12395"
+      direction: south
+    - roomId: "hc:r12387"
+      direction: east
+    - roomId: "hc:r12400"
+      direction: west
+- id: r12395
+  title: "Dry Patch"
+  description: >-
+    You are standing on a flat, dry patch of ground.
+  exits:
+    - roomId: "hc:r12394"
+      direction: north
+    - roomId: "hc:r12388"
+      direction: east
+    - roomId: "hc:r12401"
+      direction: west
+- id: r12396
+  title: "A River"
+  description: >-
+    You can hardly cross here.
+  exits:
+    - roomId: "hc:r12397"
+      direction: south
+    - roomId: "hc:r12390"
+      direction: east
+- id: r12397
+  title: "A River"
+  description: >-
+    You can hardly cross here.
+  exits:
+    - roomId: "hc:r12396"
+      direction: north
+    - roomId: "hc:r12398"
+      direction: south
+    - roomId: "hc:r12391"
+      direction: east
+- id: r12398
+  title: "A River"
+  description: >-
+    You can hardly cross here.
+  exits:
+    - roomId: "hc:r12397"
+      direction: north
+    - roomId: "hc:r12399"
+      direction: south
+    - roomId: "hc:r12392"
+      direction: east
+    - roomId: "hc:r12320"
+      direction: west
+- id: r12399
+  title: "A River"
+  description: >-
+    You can hardly cross here.
+  exits:
+    - roomId: "hc:r12398"
+      direction: north
+    - roomId: "hc:r12400"
+      direction: south
+    - roomId: "hc:r12393"
+      direction: east
+- id: r12400
+  title: "A River"
+  description: >-
+    You can hardly cross here.
+  exits:
+    - roomId: "hc:r12399"
+      direction: north
+    - roomId: "hc:r12401"
+      direction: south
+    - roomId: "hc:r12394"
+      direction: east
+- id: r12401
+  title: "A River"
+  description: >-
+    You can hardly cross here.
+  exits:
+    - roomId: "hc:r12400"
+      direction: north
+    - roomId: "hc:r12395"
+      direction: east
+- id: r12000
+  title: "Before Hazzardous County"
+  description: >-
+    You are standing on the county line between Hazzardous County and Humphreys County.
+  exits:
+    - roomId: "ofcol2:r611"
+      direction: north
+    - roomId: "hc:r12001"
+      direction: east
+  npcs:
+    - id: "hc:m12004"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12001
+  title: "Entrance to Hazzardous County"
+  description: >-
+    You faintly hear someone whistling "Dixie" off in the distance.
+    You see a crossroads ahead of you.
+  exits:
+    - roomId: "hc:r12002"
+      direction: east
+    - roomId: "hc:r12000"
+      direction: west
+- id: r12002
+  title: "Crossroads"
+  description: >-
+    >From here, you can go in either of four directions.
+  exits:
+    - roomId: "hc:r12304"
+      direction: north
+    - roomId: "hc:r12103"
+      direction: south
+    - roomId: "hc:r12003"
+      direction: east
+    - roomId: "hc:r12001"
+      direction: west
+  npcs:
+    - id: "hc:m12029"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12003
+  title: "City Entrance"
+  description: >-
+    The crossroads are behind you, and the city is just up ahead.
+  exits:
+    - roomId: "hc:r12004"
+      direction: east
+    - roomId: "hc:r12002"
+      direction: west
+- id: r12004
+  title: "Western End of Center Street"
+  description: >-
+    You are on the western end of a brick street that cuts right through the heart of the town.
+  exits:
+    - roomId: "hc:r12005"
+      direction: east
+    - roomId: "hc:r12003"
+      direction: west
+  npcs:
+    - id: "hc:m12076"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12076"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12005
+  title: "Intersection of First and Center"
+  description: >-
+    First Street and Center Street cross at this point.
+  exits:
+    - roomId: "hc:r12008"
+      direction: north
+    - roomId: "hc:r12006"
+      direction: south
+    - roomId: "hc:r12031"
+      direction: east
+    - roomId: "hc:r12004"
+      direction: west
+  npcs:
+    - id: "hc:m12020"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12006
+  title: "First Street"
+  description: >-
+    You are on a simple brick street that cuts through this town.
+    To the west, you spy Turner's Weapon Shop.
+  exits:
+    - roomId: "hc:r12005"
+      direction: north
+    - roomId: "hc:r12041"
+      direction: south
+    - roomId: "hc:r12036"
+      direction: east
+    - roomId: "hc:r12007"
+      direction: west
+- id: r12007
+  title: "Turner's Guns and Other Fine Weapons"
+  description: >-
+    You see aisle after aisle of guns, knives, swords,
+    baseball bats,and just about anything else that 
+    you would need to do some serious butt kicking.
+  exits:
+    - roomId: "hc:r12006"
+      direction: east
+  npcs:
+    - id: "hc:m12036"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12008
+  title: "First Street"
+  description: >-
+    You are on a simple brick street that cuts through this town.
+    To the west, you see Allan's Pawn Shop.
+  exits:
+    - roomId: "hc:r12010"
+      direction: north
+    - roomId: "hc:r12005"
+      direction: south
+    - roomId: "hc:r12026"
+      direction: east
+    - roomId: "hc:r12009"
+      direction: west
+  npcs:
+    - id: "hc:m12024"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12009
+  title: "Duke Allan's Pawn Shop"
+  description: >-
+    You have a great selection here, from weapons to jewelry.
+    You can also turn in items here, and get a reasonable price for them.
+  exits:
+    - roomId: "hc:r12008"
+      direction: east
+  npcs:
+    - id: "hc:m12035"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12010
+  title: "Corner of First and Main"
+  description: >-
+    You are at the corner between First and Main Streets.
+  exits:
+    - roomId: "hc:r12008"
+      direction: south
+    - roomId: "hc:r12011"
+      direction: east
+- id: r12011
+  title: "Main Street"
+  description: >-
+    You are on a simple brick street that cuts through this town.
+    To the north is the county jail.  To the south is a memorial.
+    Head east, if you wish to go by the court house or the city hall.
+  exits:
+    - roomId: "hc:r12012"
+      direction: north
+    - roomId: "hc:r12026"
+      direction: south
+    - roomId: "hc:r12014"
+      direction: east
+    - roomId: "hc:r12010"
+      direction: west
+  npcs:
+    - id: "hc:m12019"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "hc:m12019"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12012
+  title: "Hazzardous County Jail"
+  description: >-
+    You are at the Hazzardous County Jail.
+  exits:
+    - roomId: "hc:r12011"
+      direction: south
+    - roomId: "hc:r12013"
+      direction: west
+  npcs:
+    - id: "hc:m12006"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "hc:m12012"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "hc:m12013"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12013
+  title: "Jail Cell"
+  description: >-
+    You are in a stinking, filthy, jail cell.
+    You see tally marks on the wall, from someone's
+    marking off the days, weeks, or perhaps
+    even years?! until he gets out.
+  exits:
+    - roomId: "hc:r12012"
+      direction: east
+- id: r12014
+  title: "Main Street"
+  description: >-
+    You are on a simple brick street that cuts through this town.
+    To the north is the county courthouse.
+    To the south is a memorial.
+  exits:
+    - roomId: "hc:r12015"
+      direction: north
+    - roomId: "hc:r12025"
+      direction: south
+    - roomId: "hc:r12018"
+      direction: east
+    - roomId: "hc:r12011"
+      direction: west
+- id: r12015
+  title: "Foyer"
+  description: >-
+    You are standing inside the Hazzardous County Courthouse.
+  exits:
+    - roomId: "hc:r12016"
+      direction: north
+    - roomId: "hc:r12014"
+      direction: south
+  npcs:
+    - id: "hc:m12079"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12016
+  title: "Court Room"
+  description: >-
+    You are inside the court room.
+    Surprisingly, the judge is not Boss HoggHead.
+    Heck, he runs everything else in town.
+  exits:
+    - roomId: "hc:r12015"
+      direction: south
+    - roomId: "hc:r12017"
+      direction: up
+  npcs:
+    - id: "hc:m12022"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12017
+  title: "Judge's Chambers"
+  description: >-
+    You are in the judge's private chambers.
+    You fumble through a few of his things,
+    and discover a load of cheap pornography.
+    *Tsk*, *tsk*, what do you expect
+    from a person in such a position?
+  exits:
+    - roomId: "hc:r12016"
+      direction: down
+- id: r12018
+  title: "Main Street"
+  description: >-
+    You are on a simple brick street that cuts through the town.
+    To the north, is the city hall, and a memorial is south of you.
+  exits:
+    - roomId: "hc:r12019"
+      direction: north
+    - roomId: "hc:r12024"
+      direction: south
+    - roomId: "hc:r12022"
+      direction: east
+    - roomId: "hc:r12014"
+      direction: west
+- id: r12019
+  title: "City Hall"
+  description: >-
+    You are in the city hall building.
+    With Boss HoggHead being the mayor and all,
+    you are not surprised at all to see
+    a picture of a fat pig on the wall.
+  exits:
+    - roomId: "hc:r12018"
+      direction: south
+    - roomId: "hc:r12020"
+      direction: up
+- id: r12020
+  title: "Administration Hallway"
+  description: >-
+    You would never suspect such a small hick
+    town to have an administration hallway... but,
+    this place does.  If you squint, you can see
+    that there is something on the floor.
+  exits:
+    - roomId: "hc:r12021"
+      direction: east
+    - roomId: "hc:r12019"
+      direction: down
+- id: r12021
+  title: "Mayor's Office"
+  description: >-
+    You are inside the mayor's office.
+    Of course, the lettering on the door
+    makes sense, does it not?
+  exits:
+    - roomId: "hc:r12020"
+      direction: west
+- id: r12022
+  title: "Corner of Second and Main"
+  description: >-
+    You are at the corner of Second and Main streets.
+  exits:
+    - roomId: "hc:r12023"
+      direction: south
+    - roomId: "hc:r12018"
+      direction: west
+- id: r12023
+  title: "Second Street"
+  description: >-
+    You are on a simple brick street,
+    cutting through the town.
+    To the east, is a jewelry store.
+    To the west is a memorial.
+  exits:
+    - roomId: "hc:r12022"
+      direction: north
+    - roomId: "hc:r12028"
+      direction: south
+    - roomId: "hc:r12027"
+      direction: east
+    - roomId: "hc:r12024"
+      direction: west
+- id: r12024
+  title: "Shrubbery"
+  description: >-
+    You are walking through a small maze of hedges.
+  exits:
+    - roomId: "hc:r12018"
+      direction: north
+    - roomId: "hc:r12029"
+      direction: south
+    - roomId: "hc:r12023"
+      direction: east
+    - roomId: "hc:r12025"
+      direction: west
+  items:
+    - id: "hc:o12027"
+      respawnChance: 75
+- id: r12025
+  title: "Shrubbery"
+  description: >-
+    You are walking through a small maze of hedges.
+  exits:
+    - roomId: "hc:r12014"
+      direction: north
+    - roomId: "hc:r12030"
+      direction: south
+    - roomId: "hc:r12024"
+      direction: east
+    - roomId: "hc:r12026"
+      direction: west
+  items:
+    - id: "hc:o12026"
+      respawnChance: 75
+- id: r12026
+  title: "Shrubbery"
+  description: >-
+    You are walking through a small maze of hedges.
+  exits:
+    - roomId: "hc:r12011"
+      direction: north
+    - roomId: "hc:r12031"
+      direction: south
+    - roomId: "hc:r12025"
+      direction: east
+    - roomId: "hc:r12008"
+      direction: west
+  items:
+    - id: "hc:o12025"
+      respawnChance: 75
+- id: r12027
+  title: "Jewelry Store"
+  description: >-
+    You are inside a jewelry store.
+  exits:
+    - roomId: "hc:r12023"
+      direction: west
+  npcs:
+    - id: "hc:m12033"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12028
+  title: "Intersection of Second and Center"
+  description: >-
+    You are at the intersection of Second
+    Street and Center Street.
+    You may head east, to leave town.
+  exits:
+    - roomId: "hc:r12023"
+      direction: north
+    - roomId: "hc:r12032"
+      direction: south
+    - roomId: "hc:r12086"
+      direction: east
+    - roomId: "hc:r12029"
+      direction: west
+- id: r12029
+  title: "Center Street"
+  description: >-
+    You are on a simple brick street,
+    cutting through the heart of the town.
+  exits:
+    - roomId: "hc:r12024"
+      direction: north
+    - roomId: "hc:r12034"
+      direction: south
+    - roomId: "hc:r12028"
+      direction: east
+    - roomId: "hc:r12030"
+      direction: west
+  npcs:
+    - id: "hc:m12045"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12030
+  title: "Center Street"
+  description: >-
+    You are on a simple brick street,
+    cutting through the heart of the town.
+  exits:
+    - roomId: "hc:r12025"
+      direction: north
+    - roomId: "hc:r12035"
+      direction: south
+    - roomId: "hc:r12029"
+      direction: east
+    - roomId: "hc:r12031"
+      direction: west
+- id: r12031
+  title: "Center Street"
+  description: >-
+    You are on a simple brick street,
+    cutting through the heart of the town.
+  exits:
+    - roomId: "hc:r12026"
+      direction: north
+    - roomId: "hc:r12036"
+      direction: south
+    - roomId: "hc:r12030"
+      direction: east
+    - roomId: "hc:r12005"
+      direction: west
+  npcs:
+    - id: "hc:m12038"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "hc:m12021"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "hc:m12021"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12032
+  title: "Second Street"
+  description: >-
+    You are on a simple brick street,
+    cutting through town.
+    The park is to the west, an intersection
+    is to the north, and a grocery
+    store is to the east.
+  exits:
+    - roomId: "hc:r12028"
+      direction: north
+    - roomId: "hc:r12037"
+      direction: south
+    - roomId: "hc:r12033"
+      direction: east
+    - roomId: "hc:r12034"
+      direction: west
+  npcs:
+    - id: "hc:m12008"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12033
+  title: "Grocery Store"
+  description: >-
+    You are inside the grocery store.
+  exits:
+    - roomId: "hc:r12032"
+      direction: west
+  npcs:
+    - id: "hc:m12034"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "hc:m12073"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12073"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12034
+  title: "The park"
+  description: >-
+    You are in the park.  The grass is green,
+    the sky is blue, and the birds are chirping.
+  exits:
+    - roomId: "hc:r12029"
+      direction: north
+    - roomId: "hc:r12038"
+      direction: south
+    - roomId: "hc:r12032"
+      direction: east
+    - roomId: "hc:r12035"
+      direction: west
+- id: r12035
+  title: "The park"
+  description: >-
+    You are strolling along, through this peaceful park.
+    The citizens wave at you as they pass.
+    This seems to be a pretty nice place to live.
+  exits:
+    - roomId: "hc:r12030"
+      direction: north
+    - roomId: "hc:r12039"
+      direction: south
+    - roomId: "hc:r12034"
+      direction: east
+    - roomId: "hc:r12036"
+      direction: west
+- id: r12036
+  title: "The park"
+  description: >-
+    You are strolling along through the park.
+    You see a big shade tree in the corner,
+    and you just want to take a nap.
+    zzzzzzzZZZZZZZZzzzzzzzzz....
+    You wake up, and realize that you need to be getting on your way.
+  exits:
+    - roomId: "hc:r12031"
+      direction: north
+    - roomId: "hc:r12040"
+      direction: south
+    - roomId: "hc:r12035"
+      direction: east
+    - roomId: "hc:r12006"
+      direction: west
+  npcs:
+    - id: "hc:m12053"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12037
+  title: "Second Street"
+  description: >-
+    You are walking along a simple brick street that cuts through the town.
+  exits:
+    - roomId: "hc:r12032"
+      direction: north
+    - roomId: "hc:r12042"
+      direction: south
+    - roomId: "hc:r12038"
+      direction: west
+- id: r12038
+  title: "The park"
+  description: >-
+    This park is really nice.
+    Children are here and there,
+    playing on the swings, or just jumping rope.
+  exits:
+    - roomId: "hc:r12034"
+      direction: north
+    - roomId: "hc:r12043"
+      direction: south
+    - roomId: "hc:r12037"
+      direction: east
+    - roomId: "hc:r12039"
+      direction: west
+- id: r12039
+  title: "The Gazebo"
+  description: >-
+    This is a nice place to just sit on
+    the porch swing, and watch the sun set.
+  exits:
+    - roomId: "hc:r12035"
+      direction: north
+    - roomId: "hc:r12044"
+      direction: south
+    - roomId: "hc:r12038"
+      direction: east
+    - roomId: "hc:r12040"
+      direction: west
+- id: r12040
+  title: "The park"
+  description: >-
+    You are strolling along through the park.
+    You smell freshly cut grass.
+  exits:
+    - roomId: "hc:r12036"
+      direction: north
+    - roomId: "hc:r12045"
+      direction: south
+    - roomId: "hc:r12039"
+      direction: east
+    - roomId: "hc:r12041"
+      direction: west
+- id: r12041
+  title: "First Street"
+  description: >-
+    You are on a simple brick street that cuts
+    through the town.  If you have not yet
+    noticed, the park is to the east.
+  exits:
+    - roomId: "hc:r12006"
+      direction: north
+    - roomId: "hc:r12046"
+      direction: south
+    - roomId: "hc:r12040"
+      direction: east
+- id: r12042
+  title: "Second Street"
+  description: >-
+    You are on a simple brick street that cuts through the town.
+  exits:
+    - roomId: "hc:r12037"
+      direction: north
+    - roomId: "hc:r12047"
+      direction: south
+    - roomId: "hc:r12043"
+      direction: west
+- id: r12043
+  title: "The park"
+  description: >-
+    You are in the park.
+    You see moms pushing baby strollers and people rollerblading.
+  exits:
+    - roomId: "hc:r12038"
+      direction: north
+    - roomId: "hc:r12048"
+      direction: south
+    - roomId: "hc:r12042"
+      direction: east
+    - roomId: "hc:r12044"
+      direction: west
+  npcs:
+    - id: "hc:m12037"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12044
+  title: "The park"
+  description: >-
+    You are in the park.
+    You pick up a rock, and throw it at those pesky pigeons.
+    Sadly, you miss the pigeons, and hit a duck.
+  exits:
+    - roomId: "hc:r12039"
+      direction: north
+    - roomId: "hc:r12049"
+      direction: south
+    - roomId: "hc:r12043"
+      direction: east
+    - roomId: "hc:r12045"
+      direction: west
+- id: r12045
+  title: "The park"
+  description: >-
+    You are in the park.  You see the fine topiary here.
+    You see lions, and tigers, and bears, oh my!
+    (Topiary is what you call those hedges cut into the shape of something.)
+  exits:
+    - roomId: "hc:r12040"
+      direction: north
+    - roomId: "hc:r12050"
+      direction: south
+    - roomId: "hc:r12044"
+      direction: east
+    - roomId: "hc:r12046"
+      direction: west
+- id: r12046
+  title: "First Street"
+  description: >-
+    You are on a simple brick street that cuts through town.
+    The park is back toward the east, and a corner is to the south.
+  exits:
+    - roomId: "hc:r12041"
+      direction: north
+    - roomId: "hc:r12051"
+      direction: south
+    - roomId: "hc:r12045"
+      direction: east
+- id: r12047
+  title: "Corner of Second and Kindkiller"
+  description: >-
+    You are standing on the corner of Second and Kindkiller streets.
+  exits:
+    - roomId: "hc:r12042"
+      direction: north
+    - roomId: "hc:r12048"
+      direction: west
+- id: r12048
+  title: "Kindkiller Street"
+  description: >-
+    You are strolling along a fine asphalt walkway.
+  exits:
+    - roomId: "hc:r12043"
+      direction: north
+    - roomId: "hc:r12047"
+      direction: east
+    - roomId: "hc:r12049"
+      direction: west
+  npcs:
+    - id: "hc:m12080"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12049
+  title: "Kindkiller Street"
+  description: >-
+    You are strolling along a fine asphalt walkway.
+  exits:
+    - roomId: "hc:r12044"
+      direction: north
+    - roomId: "hc:r12052"
+      direction: south
+    - roomId: "hc:r12048"
+      direction: east
+    - roomId: "hc:r12050"
+      direction: west
+  npcs:
+    - id: "hc:m12054"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "hc:m12074"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12074"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12050
+  title: "Kindkiller Street"
+  description: >-
+    You are strolling along a fine asphalt walkway.
+  exits:
+    - roomId: "hc:r12045"
+      direction: north
+    - roomId: "hc:r12049"
+      direction: east
+    - roomId: "hc:r12051"
+      direction: west
+- id: r12051
+  title: "Corner of First and Kindkiller"
+  description: >-
+    You are at the corner of First and Kindkiller streets.
+  exits:
+    - roomId: "hc:r12046"
+      direction: north
+    - roomId: "hc:r12050"
+      direction: east
+- id: r12052
+  title: "Vestibule"
+  description: >-
+    You are standing just inside the Hazzardous County Missionary Church.
+  exits:
+    - roomId: "hc:r12049"
+      direction: north
+    - roomId: "hc:r12055"
+      direction: south
+    - roomId: "hc:r12053"
+      direction: east
+    - roomId: "hc:r12054"
+      direction: west
+    - roomId: "hc:r12057"
+      direction: up
+    - roomId: "hc:r12068"
+      direction: down
+- id: r12053
+  title: "Sanctuary"
+  description: >-
+    You feel so safe and peaceful here.
+  exits:
+    - roomId: "hc:r12052"
+      direction: west
+    - roomId: "hc:r12058"
+      direction: up
+  npcs:
+    - id: "hc:m12039"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12054
+  title: "Restroom"
+  description: >-
+    Yeah, I guess that everybody has to go to the john at some time or the other?
+  exits:
+    - roomId: "hc:r12052"
+      direction: east
+    - roomId: "hc:r12056"
+      direction: up
+  npcs:
+    - id: "hc:m12040"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12055
+  title: "Kitchen"
+  description: >-
+    You are inside the church's kitchen.
+    Can you smell what the Rock is cooking?
+  exits:
+    - roomId: "hc:r12052"
+      direction: north
+    - roomId: "hc:r12062"
+      direction: south
+  npcs:
+    - id: "hc:m12095"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12056
+  title: "Second Floor"
+  description: >-
+    You are walking along the second floor.
+    You see yet another set of stairs leading up.
+  exits:
+    - roomId: "hc:r12057"
+      direction: east
+    - roomId: "hc:r12059"
+      direction: up
+    - roomId: "hc:r12054"
+      direction: down
+  npcs:
+    - id: "hc:m12096"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12057
+  title: "Second Floor"
+  description: >-
+    You are walking along the Second Floor.
+    You see yet another set of stairs leading up.
+  exits:
+    - roomId: "hc:r12058"
+      direction: east
+    - roomId: "hc:r12056"
+      direction: west
+    - roomId: "hc:r12060"
+      direction: up
+    - roomId: "hc:r12052"
+      direction: down
+  npcs:
+    - id: "hc:m12097"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12058
+  title: "Second Floor"
+  description: >-
+    You are walking along through the second floor.
+    You see yet another set of stairs leading up.
+  exits:
+    - roomId: "hc:r12057"
+      direction: west
+    - roomId: "hc:r12061"
+      direction: up
+    - roomId: "hc:r12053"
+      direction: down
+  npcs:
+    - id: "hc:m12098"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12059
+  title: "Third Floor"
+  description: >-
+    You are on the third floor.
+    Whew!  What a walk.
+  exits:
+    - roomId: "hc:r12060"
+      direction: east
+    - roomId: "hc:r12056"
+      direction: down
+  npcs:
+    - id: "hc:m12099"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12060
+  title: "Third floor"
+  description: >-
+    You are on the third floor.
+    Whew!  What a walk!
+  exits:
+    - roomId: "hc:r12061"
+      direction: east
+    - roomId: "hc:r12059"
+      direction: west
+    - roomId: "hc:r12057"
+      direction: down
+  npcs:
+    - id: "hc:m12041"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12061
+  title: "Third Floor"
+  description: >-
+    You are on the third floor.
+    Heh, it was not such a long walk up here as it would seem.
+  exits:
+    - roomId: "hc:r12060"
+      direction: west
+    - roomId: "hc:r12058"
+      direction: down
+  npcs:
+    - id: "hc:m12100"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12062
+  title: "The Graveyard"
+  description: >-
+    You heard moaning and wailing.
+  exits:
+    - roomId: "hc:r12055"
+      direction: north
+    - roomId: "hc:r12065"
+      direction: south
+    - roomId: "hc:r12063"
+      direction: east
+    - roomId: "hc:r12067"
+      direction: west
+- id: r12063
+  title: "The Graveyard"
+  description: >-
+    You hear moaning and wailing.
+  exits:
+    - roomId: "hc:r12064"
+      direction: south
+    - roomId: "hc:r12062"
+      direction: west
+- id: r12064
+  title: "The Graveyard"
+  description: >-
+    You hear moaning and wailing.
+  exits:
+    - roomId: "hc:r12063"
+      direction: north
+    - roomId: "hc:r12065"
+      direction: west
+  npcs:
+    - id: "hc:m12111"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12065
+  title: "The Graveyard"
+  description: >-
+    You hear moaning and wailing.
+  exits:
+    - roomId: "hc:r12062"
+      direction: north
+    - roomId: "hc:r12064"
+      direction: east
+    - roomId: "hc:r12066"
+      direction: west
+- id: r12066
+  title: "The Graveyard"
+  description: >-
+    You hear moaning and wailing.
+  exits:
+    - roomId: "hc:r12067"
+      direction: north
+    - roomId: "hc:r12065"
+      direction: east
+  npcs:
+    - id: "hc:m12048"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12067
+  title: "The Graveyard"
+  description: >-
+    You hear moaning and wailing.
+  exits:
+    - roomId: "hc:r12066"
+      direction: south
+    - roomId: "hc:r12062"
+      direction: east
+- id: r12068
+  title: "The Basement"
+  description: >-
+    You are in the basement of the church.
+  exits:
+    - roomId: "hc:r12071"
+      direction: south
+    - roomId: "hc:r12069"
+      direction: east
+    - roomId: "hc:r12073"
+      direction: west
+    - roomId: "hc:r12052"
+      direction: up
+  npcs:
+    - id: "hc:m12042"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12069
+  title: "The Basement"
+  description: >-
+    You are inside the basement of the church.
+  exits:
+    - roomId: "hc:r12070"
+      direction: south
+    - roomId: "hc:r12068"
+      direction: west
+- id: r12070
+  title: "The Basement"
+  description: >-
+    You are inside the basement of the church.
+  exits:
+    - roomId: "hc:r12069"
+      direction: north
+    - roomId: "hc:r12071"
+      direction: west
+  npcs:
+    - id: "hc:m12101"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12071
+  title: "The Basement"
+  description: >-
+    You are inside the basement of the church.
+  exits:
+    - roomId: "hc:r12068"
+      direction: north
+    - roomId: "hc:r12070"
+      direction: east
+    - roomId: "hc:r12072"
+      direction: west
+  npcs:
+    - id: "hc:m12102"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12072
+  title: "The Basement"
+  description: >-
+    You are inside the basement of the church.
+  exits:
+    - roomId: "hc:r12073"
+      direction: north
+    - roomId: "hc:r12071"
+      direction: east
+    - roomId: "hc:r12079"
+      direction: down
+- id: r12073
+  title: "The Basement"
+  description: >-
+    You are inside the basement of the church.
+  exits:
+    - roomId: "hc:r12072"
+      direction: south
+    - roomId: "hc:r12068"
+      direction: east
+- id: r12074
+  title: "The Second Level"
+  description: >-
+    You are on the second level of the basement.
+    It is even darker down here.
+  exits:
+    - roomId: "hc:r12079"
+      direction: south
+    - roomId: "hc:r12075"
+      direction: east
+    - roomId: "hc:r12080"
+      direction: down
+- id: r12075
+  title: "The Second Level"
+  description: >-
+    You are on the second level of the basement.
+    It is even darker down here.
+  exits:
+    - roomId: "hc:r12078"
+      direction: south
+    - roomId: "hc:r12076"
+      direction: east
+    - roomId: "hc:r12074"
+      direction: west
+  npcs:
+    - id: "hc:m12103"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12076
+  title: "The Second Level"
+  description: >-
+    You are on the second level of the basement.
+    It is even darker down here.
+  exits:
+    - roomId: "hc:r12077"
+      direction: south
+    - roomId: "hc:r12075"
+      direction: west
+- id: r12077
+  title: "The Second Level"
+  description: >-
+    You are on the second level of the basement.
+    It is even darker down here.
+  exits:
+    - roomId: "hc:r12076"
+      direction: north
+    - roomId: "hc:r12078"
+      direction: west
+  npcs:
+    - id: "hc:m12043"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12078
+  title: "The Second Level"
+  description: >-
+    You are on the second level of the basement.
+    It is even darker down here.
+  exits:
+    - roomId: "hc:r12075"
+      direction: north
+    - roomId: "hc:r12077"
+      direction: east
+    - roomId: "hc:r12079"
+      direction: west
+  npcs:
+    - id: "hc:m12104"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12079
+  title: "The Second Level"
+  description: >-
+    You are on the second level of the basement.
+    It is even darker down here.
+  exits:
+    - roomId: "hc:r12074"
+      direction: north
+    - roomId: "hc:r12078"
+      direction: east
+    - roomId: "hc:r12072"
+      direction: up
+- id: r12080
+  title: "The Third Level"
+  description: >-
+    You are on the third level of the basement.
+    It is really dark down here,
+    and you hardly know where you are going.
+  exits:
+    - roomId: "hc:r12085"
+      direction: south
+    - roomId: "hc:r12081"
+      direction: east
+    - roomId: "hc:r12074"
+      direction: up
+- id: r12081
+  title: "The Third Level"
+  description: >-
+    You are on the third level of the basement.
+    It is really dark down here.
+    Maybe you should be heading back where you came from?
+  exits:
+    - roomId: "hc:r12084"
+      direction: south
+    - roomId: "hc:r12082"
+      direction: east
+    - roomId: "hc:r12080"
+      direction: west
+  npcs:
+    - id: "hc:m12105"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12082
+  title: "The Third Level"
+  description: >-
+    You are on the third level of the basement.
+    Way down here, you can hardly breathe,
+    the air is so thick and stagnant.
+  exits:
+    - roomId: "hc:r12083"
+      direction: south
+    - roomId: "hc:r12081"
+      direction: west
+- id: r12083
+  title: "The Third Level"
+  description: >-
+    You are on the third level of the basement.
+    You can hardly see where you are going.
+    It is so dark, and the smell of rot is so awful down here.
+  exits:
+    - roomId: "hc:r12082"
+      direction: north
+    - roomId: "hc:r12084"
+      direction: west
+  npcs:
+    - id: "hc:m12044"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12084
+  title: "The Third Level"
+  description: >-
+    You are on the third level of the basement.
+  exits:
+    - roomId: "hc:r12081"
+      direction: north
+    - roomId: "hc:r12083"
+      direction: east
+    - roomId: "hc:r12085"
+      direction: west
+  npcs:
+    - id: "hc:m12106"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12085
+  title: "The Third Level"
+  description: >-
+    You are on the third level of the basement,
+    and it is really dark down here.
+  exits:
+    - roomId: "hc:r12080"
+      direction: north
+    - roomId: "hc:r12084"
+      direction: east
+  npcs:
+    - id: "hc:m12049"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "hc:m12107"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r12086
+  title: "Eastern End of Center Street"
+  description: >-
+    You are on the eastern end of Center Street.
+    You may head east, to leave town,
+    or you may head back west.
+  exits:
+    - roomId: "hc:r12087"
+      direction: east
+    - roomId: "hc:r12028"
+      direction: west
+  npcs:
+    - id: "hc:m12075"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12075"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12087
+  title: "City Entrance"
+  description: >-
+    The crossroads are to the east,
+    and the city is to the west.
+  exits:
+    - roomId: "hc:r12088"
+      direction: east
+    - roomId: "hc:r12086"
+      direction: west
+- id: r12088
+  title: "Crossroads"
+  description: >-
+    >From here, you can go in either of four directions.
+  exits:
+    - roomId: "hc:r12293"
+      direction: north
+    - roomId: "hc:r12089"
+      direction: south
+    - roomId: "hc:r12230"
+      direction: east
+    - roomId: "hc:r12087"
+      direction: west
+- id: r12089
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a gravel road in
+    Hazzardous County.  Keep on the lookout for
+    any stray animals that may jump out across the road.
+  exits:
+    - roomId: "hc:r12088"
+      direction: north
+    - roomId: "hc:r12090"
+      direction: south
+- id: r12090
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a gravel road in
+    Hazzardous County.  To the west, 
+    you see rows and rows of soybeans in a field.
+  exits:
+    - roomId: "hc:r12089"
+      direction: north
+    - roomId: "hc:r12091"
+      direction: south
+- id: r12091
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12090"
+      direction: north
+    - roomId: "hc:r12092"
+      direction: south
+- id: r12092
+  title: "Crossroads"
+  description: >-
+    >From here, you can go in either of four directions.
+  exits:
+    - roomId: "hc:r12091"
+      direction: north
+    - roomId: "hc:r12149"
+      direction: south
+    - roomId: "hc:r12093"
+      direction: east
+    - roomId: "hc:r12094"
+      direction: west
+- id: r12093
+  title: "Dead End"
+  description: >-
+    You have reached a dead end.  You should
+    turn around, and head back where you came from.
+  exits:
+    - roomId: "hc:r12092"
+      direction: west
+- id: r12094
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12092"
+      direction: east
+    - roomId: "hc:r12095"
+      direction: west
+- id: r12095
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a gravel road in
+    Hazzardous County.  You hear crickets
+    chirping like crazy in the background.
+  exits:
+    - roomId: "hc:r12113"
+      direction: north
+    - roomId: "hc:r12094"
+      direction: east
+    - roomId: "hc:r12096"
+      direction: west
+- id: r12096
+  title: "Wooden Bridge"
+  description: >-
+    You are on a rickety wooden bridge.
+  exits:
+    - roomId: "hc:r12095"
+      direction: east
+    - roomId: "hc:r12097"
+      direction: west
+- id: r12097
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12104"
+      direction: north
+    - roomId: "hc:r12096"
+      direction: east
+    - roomId: "hc:r12098"
+      direction: west
+- id: r12098
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty,
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12097"
+      direction: east
+    - roomId: "hc:r12099"
+      direction: west
+- id: r12099
+  title: "Crossroads"
+  description: >-
+    >From here, you can go in either of four directions.
+  exits:
+    - roomId: "hc:r12101"
+      direction: north
+    - roomId: "hc:r12119"
+      direction: south
+    - roomId: "hc:r12098"
+      direction: east
+    - roomId: "hc:r12100"
+      direction: west
+  npcs:
+    - id: "hc:m12055"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12100
+  title: "Dead End"
+  description: >-
+    You have reached a dead end, and you might
+    as well turn around, and go back
+    where you came from.
+  exits:
+    - roomId: "hc:r12099"
+      direction: east
+- id: r12101
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty,
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12102"
+      direction: north
+    - roomId: "hc:r12099"
+      direction: south
+- id: r12102
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty,
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12103"
+      direction: north
+    - roomId: "hc:r12101"
+      direction: south
+- id: r12103
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12002"
+      direction: north
+    - roomId: "hc:r12102"
+      direction: south
+- id: r12104
+  title: "Cotton Farm"
+  description: >-
+    You have stepped onto a farmer's field.
+    >From the looks of the plants, you would
+    guess that cotton is the crop of choice.
+  exits:
+    - roomId: "hc:r12105"
+      direction: north
+    - roomId: "hc:r12097"
+      direction: south
+    - roomId: "hc:r12110"
+      direction: east
+    - roomId: "hc:r12109"
+      direction: west
+- id: r12105
+  title: "Cotton Farm"
+  description: >-
+    Cotton, cotton, cotton, and more cotton.
+    You get visions of numerous pairs of Levi
+    Jeans hopping off an assembly line.
+  exits:
+    - roomId: "hc:r12106"
+      direction: north
+    - roomId: "hc:r12104"
+      direction: south
+    - roomId: "hc:r12111"
+      direction: east
+    - roomId: "hc:r12108"
+      direction: west
+  npcs:
+    - id: "hc:m12002"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12106
+  title: "Cotton Farm"
+  description: >-
+    Cotton is king around here, but some of these
+    plants look like they've been attacked
+    by vicious bollweevils.
+  exits:
+    - roomId: "hc:r12105"
+      direction: south
+    - roomId: "hc:r12112"
+      direction: east
+    - roomId: "hc:r12107"
+      direction: west
+- id: r12107
+  title: "Cotton Farm"
+  description: >-
+    This farmer must be doing pretty well for himself.
+    You see that he has a pretty nice tractor here.
+  exits:
+    - roomId: "hc:r12108"
+      direction: south
+    - roomId: "hc:r12106"
+      direction: east
+- id: r12108
+  title: "Cotton Farm"
+  description: >-
+    Row, after row, after row, after 
+    seemingly endless row of cotton.
+  exits:
+    - roomId: "hc:r12107"
+      direction: north
+    - roomId: "hc:r12109"
+      direction: south
+    - roomId: "hc:r12105"
+      direction: east
+- id: r12109
+  title: "Cotton Farm"
+  description: >-
+    Cotton is King, and if you don't 
+    know, you better ask somebody.
+  exits:
+    - roomId: "hc:r12108"
+      direction: north
+    - roomId: "hc:r12104"
+      direction: east
+- id: r12110
+  title: "Ditch"
+  description: >-
+    You are in a filthy, stinking, ditch.
+  exits:
+    - roomId: "hc:r12111"
+      direction: north
+    - roomId: "hc:r12113"
+      direction: east
+    - roomId: "hc:r12104"
+      direction: west
+- id: r12111
+  title: "Ditch"
+  description: >-
+    You are in a filthy, stinking, ditch.
+  exits:
+    - roomId: "hc:r12112"
+      direction: north
+    - roomId: "hc:r12110"
+      direction: south
+    - roomId: "hc:r12114"
+      direction: east
+    - roomId: "hc:r12105"
+      direction: west
+- id: r12112
+  title: "Ditch"
+  description: >-
+    You are in a filthy, stinking, ditch.
+  exits:
+    - roomId: "hc:r12111"
+      direction: south
+    - roomId: "hc:r12115"
+      direction: east
+    - roomId: "hc:r12106"
+      direction: west
+- id: r12113
+  title: "Soybean Farm"
+  description: >-
+    You have just set foot on a soybean farm.
+    You wonder if the rumors about where fast
+    food burgers come from is true?
+  exits:
+    - roomId: "hc:r12114"
+      direction: north
+    - roomId: "hc:r12095"
+      direction: south
+    - roomId: "hc:r12118"
+      direction: east
+    - roomId: "hc:r12110"
+      direction: west
+- id: r12114
+  title: "Soybean Farm"
+  description: >-
+    This farmer here must be lazy.
+    His field is being overrun by weeds and locusts.
+  exits:
+    - roomId: "hc:r12115"
+      direction: north
+    - roomId: "hc:r12113"
+      direction: south
+    - roomId: "hc:r12117"
+      direction: east
+    - roomId: "hc:r12111"
+      direction: west
+- id: r12115
+  title: "Soybean Farm"
+  description: >-
+    You almost fall down, because of so many
+    weeds in the way.  If you ever find the guy
+    who farms this place, you should kill him.
+  exits:
+    - roomId: "hc:r12114"
+      direction: south
+    - roomId: "hc:r12116"
+      direction: east
+    - roomId: "hc:r12112"
+      direction: west
+- id: r12116
+  title: "Soybean Farm"
+  description: >-
+    You are standing on a soybean farm.
+  exits:
+    - roomId: "hc:r12117"
+      direction: south
+    - roomId: "hc:r12115"
+      direction: west
+- id: r12117
+  title: "Soybean Farm"
+  description: >-
+    You see a gravel road to the east, 
+    but you can't reach it from here.
+  exits:
+    - roomId: "hc:r12116"
+      direction: north
+    - roomId: "hc:r12118"
+      direction: south
+    - roomId: "hc:r12114"
+      direction: west
+  npcs:
+    - id: "hc:m12003"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12118
+  title: "Soybean Farm"
+  description: >-
+    You don't like walking through this field.
+    You've only been here two minutes, and you 
+    already feel something crawling up your leg.
+  exits:
+    - roomId: "hc:r12117"
+      direction: north
+    - roomId: "hc:r12113"
+      direction: west
+- id: r12119
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a gravel road in 
+    Hazzardous County.  To the east, 
+    you see a fish pond.
+  exits:
+    - roomId: "hc:r12099"
+      direction: north
+    - roomId: "hc:r12120"
+      direction: south
+    - roomId: "hc:r12122"
+      direction: east
+- id: r12120
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12119"
+      direction: north
+    - roomId: "hc:r12121"
+      direction: south
+- id: r12121
+  title: "Gravel Road"
+  description: >-
+    You are having a hard time getting down 
+    this road.  You would appreciate it if Boss
+    HoggHead paid more attention to these roads,
+    which are in such poor condition.
+  exits:
+    - roomId: "hc:r12120"
+      direction: north
+    - roomId: "hc:r12126"
+      direction: south
+- id: r12122
+  title: "Fish Pond"
+  description: >-
+    Well, you would expect catfish ponds in the 
+    Catfish Capital of the World, right?  Doh, 
+    that's Humphreys County, not Hazzardous.  
+    Oh well, you've seen one southern county, 
+    you've seen them all . . .
+  exits:
+    - roomId: "hc:r12125"
+      direction: south
+    - roomId: "hc:r12123"
+      direction: east
+    - roomId: "hc:r12119"
+      direction: west
+  npcs:
+    - id: "hc:m12046"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12123
+  title: "Fish Pond"
+  description: >-
+    Farm raised catfish is a financial backbone 
+    for the state of Mississippi.  Catfish, 
+    catfish, and more catfish.
+  exits:
+    - roomId: "hc:r12124"
+      direction: south
+    - roomId: "hc:r12122"
+      direction: west
+  npcs:
+    - id: "hc:m12000"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r12124
+  title: "Fish Pond"
+  description: >-
+    Catfish are known for eating anything that 
+    happens to drop by.  If you lose a finger, 
+    don't be surprised to see them take it.
+  exits:
+    - roomId: "hc:r12123"
+      direction: north
+    - roomId: "hc:r12125"
+      direction: west
+- id: r12125
+  title: "Fish Pond"
+  description: >-
+    You're in a fish pond.  There isn't much 
+    else to say about the surroundings.
+  exits:
+    - roomId: "hc:r12122"
+      direction: north
+    - roomId: "hc:r12124"
+      direction: east
+- id: r12126
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12121"
+      direction: north
+    - roomId: "hc:r12127"
+      direction: west
+  npcs:
+    - id: "hc:m12007"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12127
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12128"
+      direction: south
+    - roomId: "hc:r12126"
+      direction: east
+- id: r12128
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12127"
+      direction: north
+    - roomId: "hc:r12129"
+      direction: south
+- id: r12129
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12128"
+      direction: north
+    - roomId: "hc:r12130"
+      direction: south
+  npcs:
+    - id: "hc:m12056"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12130
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12129"
+      direction: north
+    - roomId: "hc:r12131"
+      direction: south
+- id: r12131
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12130"
+      direction: north
+    - roomId: "hc:r12132"
+      direction: south
+- id: r12132
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12131"
+      direction: north
+    - roomId: "hc:r12133"
+      direction: south
+- id: r12133
+  title: "Corner in the Road"
+  description: >-
+    You are at a corner in the road.
+  exits:
+    - roomId: "hc:r12132"
+      direction: north
+    - roomId: "hc:r12134"
+      direction: east
+- id: r12134
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12135"
+      direction: east
+    - roomId: "hc:r12133"
+      direction: west
+- id: r12135
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12136"
+      direction: east
+    - roomId: "hc:r12134"
+      direction: west
+- id: r12136
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12137"
+      direction: east
+    - roomId: "hc:r12135"
+      direction: west
+- id: r12137
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12138"
+      direction: east
+    - roomId: "hc:r12136"
+      direction: west
+- id: r12138
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12139"
+      direction: east
+    - roomId: "hc:r12137"
+      direction: west
+- id: r12139
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12140"
+      direction: east
+    - roomId: "hc:r12138"
+      direction: west
+- id: r12140
+  title: "Three Way Intersection"
+  description: >-
+    You are standing at a three way intersection.  
+    If you head north, you'll be headed towards town.  
+    If you go south, you'll be headed 
+    towards the Dike's residence.
+  exits:
+    - roomId: "hc:r12141"
+      direction: north
+    - roomId: "hc:r12218"
+      direction: south
+    - roomId: "hc:r12139"
+      direction: west
+- id: r12141
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel road 
+    in Hazzardous County.  To the west, you can't 
+    see much of anything, for the many trees 
+    that obscure your looking.
+  exits:
+    - roomId: "hc:r12142"
+      direction: north
+    - roomId: "hc:r12140"
+      direction: south
+- id: r12142
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12143"
+      direction: north
+    - roomId: "hc:r12141"
+      direction: south
+- id: r12143
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12144"
+      direction: north
+    - roomId: "hc:r12142"
+      direction: south
+- id: r12144
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.  To the west, 
+    you can see Tiger Lake.
+  exits:
+    - roomId: "hc:r12145"
+      direction: north
+    - roomId: "hc:r12143"
+      direction: south
+- id: r12145
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.  To the west, 
+    you can see Tiger Lake.  You gaze in the 
+    distance to the north, and there appears 
+    to be a way to get into the lake there.
+  exits:
+    - roomId: "hc:r12146"
+      direction: north
+    - roomId: "hc:r12144"
+      direction: south
+- id: r12146
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12147"
+      direction: north
+    - roomId: "hc:r12145"
+      direction: south
+- id: r12147
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12148"
+      direction: north
+    - roomId: "hc:r12146"
+      direction: south
+- id: r12148
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12149"
+      direction: north
+    - roomId: "hc:r12147"
+      direction: south
+- id: r12149
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, gravel 
+    road in Hazzardous County.  To the west, 
+    you see a shallow spot, where you can 
+    dive off into Tiger Lake.
+  exits:
+    - roomId: "hc:r12092"
+      direction: north
+    - roomId: "hc:r12148"
+      direction: south
+    - roomId: "hc:r12150"
+      direction: west
+- id: r12150
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12151"
+      direction: south
+    - roomId: "hc:r12149"
+      direction: east
+    - roomId: "hc:r12162"
+      direction: west
+- id: r12151
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12150"
+      direction: north
+    - roomId: "hc:r12152"
+      direction: south
+    - roomId: "hc:r12161"
+      direction: west
+- id: r12152
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12151"
+      direction: north
+    - roomId: "hc:r12153"
+      direction: south
+    - roomId: "hc:r12160"
+      direction: west
+- id: r12153
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12152"
+      direction: north
+    - roomId: "hc:r12154"
+      direction: south
+    - roomId: "hc:r12159"
+      direction: west
+- id: r12154
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12153"
+      direction: north
+    - roomId: "hc:r12155"
+      direction: south
+    - roomId: "hc:r12158"
+      direction: west
+- id: r12155
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12154"
+      direction: north
+    - roomId: "hc:r12156"
+      direction: west
+  npcs:
+    - id: "hc:m12025"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12025"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12156
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12158"
+      direction: north
+    - roomId: "hc:r12157"
+      direction: south
+    - roomId: "hc:r12155"
+      direction: east
+    - roomId: "hc:r12168"
+      direction: west
+    - roomId: "hc:r12190"
+      direction: down
+- id: r12157
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12156"
+      direction: north
+    - roomId: "hc:r12169"
+      direction: west
+- id: r12158
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12159"
+      direction: north
+    - roomId: "hc:r12156"
+      direction: south
+    - roomId: "hc:r12154"
+      direction: east
+    - roomId: "hc:r12167"
+      direction: west
+    - roomId: "hc:r12189"
+      direction: down
+  npcs:
+    - id: "hc:m12026"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12026"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12159
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12160"
+      direction: north
+    - roomId: "hc:r12158"
+      direction: south
+    - roomId: "hc:r12153"
+      direction: east
+    - roomId: "hc:r12166"
+      direction: west
+    - roomId: "hc:r12188"
+      direction: down
+- id: r12160
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12161"
+      direction: north
+    - roomId: "hc:r12159"
+      direction: south
+    - roomId: "hc:r12152"
+      direction: east
+    - roomId: "hc:r12165"
+      direction: west
+    - roomId: "hc:r12187"
+      direction: down
+- id: r12161
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12162"
+      direction: north
+    - roomId: "hc:r12160"
+      direction: south
+    - roomId: "hc:r12151"
+      direction: east
+    - roomId: "hc:r12164"
+      direction: west
+    - roomId: "hc:r12186"
+      direction: down
+- id: r12162
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12161"
+      direction: south
+    - roomId: "hc:r12150"
+      direction: east
+    - roomId: "hc:r12163"
+      direction: west
+- id: r12163
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12164"
+      direction: south
+    - roomId: "hc:r12162"
+      direction: east
+- id: r12164
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12163"
+      direction: north
+    - roomId: "hc:r12165"
+      direction: south
+    - roomId: "hc:r12161"
+      direction: east
+    - roomId: "hc:r12191"
+      direction: down
+- id: r12165
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12164"
+      direction: north
+    - roomId: "hc:r12166"
+      direction: south
+    - roomId: "hc:r12160"
+      direction: east
+    - roomId: "hc:r12178"
+      direction: west
+    - roomId: "hc:r12192"
+      direction: down
+- id: r12166
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a deep portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12165"
+      direction: north
+    - roomId: "hc:r12167"
+      direction: south
+    - roomId: "hc:r12159"
+      direction: east
+    - roomId: "hc:r12177"
+      direction: west
+    - roomId: "hc:r12193"
+      direction: down
+- id: r12167
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in an even deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12166"
+      direction: north
+    - roomId: "hc:r12168"
+      direction: south
+    - roomId: "hc:r12158"
+      direction: east
+    - roomId: "hc:r12176"
+      direction: west
+    - roomId: "hc:r12194"
+      direction: down
+- id: r12168
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a very deep portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12167"
+      direction: north
+    - roomId: "hc:r12169"
+      direction: south
+    - roomId: "hc:r12156"
+      direction: east
+    - roomId: "hc:r12175"
+      direction: west
+    - roomId: "hc:r12195"
+      direction: down
+- id: r12169
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12168"
+      direction: north
+    - roomId: "hc:r12170"
+      direction: south
+    - roomId: "hc:r12157"
+      direction: east
+    - roomId: "hc:r12174"
+      direction: west
+    - roomId: "hc:r12196"
+      direction: down
+- id: r12170
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12169"
+      direction: north
+    - roomId: "hc:r12171"
+      direction: south
+    - roomId: "hc:r12173"
+      direction: west
+    - roomId: "hc:r12197"
+      direction: down
+  npcs:
+    - id: "hc:m12081"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12081"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12171
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12170"
+      direction: north
+    - roomId: "hc:r12172"
+      direction: west
+- id: r12172
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12173"
+      direction: north
+    - roomId: "hc:r12171"
+      direction: east
+- id: r12173
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper portion of Tiger Lake
+  exits:
+    - roomId: "hc:r12174"
+      direction: north
+    - roomId: "hc:r12172"
+      direction: south
+    - roomId: "hc:r12170"
+      direction: east
+    - roomId: "hc:r12183"
+      direction: west
+    - roomId: "hc:r12202"
+      direction: down
+- id: r12174
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a deep portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12175"
+      direction: north
+    - roomId: "hc:r12173"
+      direction: south
+    - roomId: "hc:r12169"
+      direction: east
+    - roomId: "hc:r12182"
+      direction: west
+    - roomId: "hc:r12201"
+      direction: down
+- id: r12175
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in the deepest portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12176"
+      direction: north
+    - roomId: "hc:r12174"
+      direction: south
+    - roomId: "hc:r12168"
+      direction: east
+    - roomId: "hc:r12181"
+      direction: west
+    - roomId: "hc:r12200"
+      direction: down
+- id: r12176
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12177"
+      direction: north
+    - roomId: "hc:r12175"
+      direction: south
+    - roomId: "hc:r12167"
+      direction: east
+    - roomId: "hc:r12180"
+      direction: west
+    - roomId: "hc:r12199"
+      direction: down
+- id: r12177
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12178"
+      direction: north
+    - roomId: "hc:r12176"
+      direction: south
+    - roomId: "hc:r12166"
+      direction: east
+    - roomId: "hc:r12179"
+      direction: west
+    - roomId: "hc:r12198"
+      direction: down
+  npcs:
+    - id: "hc:m12084"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12084"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12178
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12177"
+      direction: south
+    - roomId: "hc:r12165"
+      direction: east
+- id: r12179
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12180"
+      direction: south
+    - roomId: "hc:r12177"
+      direction: east
+- id: r12180
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12179"
+      direction: north
+    - roomId: "hc:r12181"
+      direction: south
+    - roomId: "hc:r12176"
+      direction: east
+- id: r12181
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12180"
+      direction: north
+    - roomId: "hc:r12182"
+      direction: south
+    - roomId: "hc:r12175"
+      direction: east
+    - roomId: "hc:r12185"
+      direction: west
+    - roomId: "hc:r12203"
+      direction: down
+- id: r12182
+  title: "Tiger Lake"
+  description: >-
+    You are swimming in a slightly deeper portion of Tiger Lake.
+  exits:
+    - roomId: "hc:r12181"
+      direction: north
+    - roomId: "hc:r12183"
+      direction: south
+    - roomId: "hc:r12174"
+      direction: east
+    - roomId: "hc:r12184"
+      direction: west
+    - roomId: "hc:r12204"
+      direction: down
+- id: r12183
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12182"
+      direction: north
+    - roomId: "hc:r12173"
+      direction: east
+  npcs:
+    - id: "hc:m12082"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12082"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12184
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12185"
+      direction: north
+    - roomId: "hc:r12182"
+      direction: east
+- id: r12185
+  title: "Tiger Lake"
+  description: >-
+    You are standing in a shallow section of Tiger Lake.
+  exits:
+    - roomId: "hc:r12184"
+      direction: south
+    - roomId: "hc:r12181"
+      direction: east
+- id: r12186
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12187"
+      direction: south
+    - roomId: "hc:r12191"
+      direction: west
+    - roomId: "hc:r12161"
+      direction: up
+- id: r12187
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12186"
+      direction: north
+    - roomId: "hc:r12188"
+      direction: south
+    - roomId: "hc:r12192"
+      direction: west
+    - roomId: "hc:r12160"
+      direction: up
+- id: r12188
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12187"
+      direction: north
+    - roomId: "hc:r12189"
+      direction: south
+    - roomId: "hc:r12193"
+      direction: west
+    - roomId: "hc:r12159"
+      direction: up
+- id: r12189
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12188"
+      direction: north
+    - roomId: "hc:r12190"
+      direction: south
+    - roomId: "hc:r12194"
+      direction: west
+    - roomId: "hc:r12158"
+      direction: up
+- id: r12190
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12189"
+      direction: north
+    - roomId: "hc:r12195"
+      direction: west
+    - roomId: "hc:r12156"
+      direction: up
+- id: r12191
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12192"
+      direction: south
+    - roomId: "hc:r12186"
+      direction: east
+    - roomId: "hc:r12164"
+      direction: up
+- id: r12192
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12191"
+      direction: north
+    - roomId: "hc:r12193"
+      direction: south
+    - roomId: "hc:r12187"
+      direction: east
+    - roomId: "hc:r12165"
+      direction: up
+- id: r12193
+  title: "Tiger Lake"
+  description: >-
+    You are swimming deep inside Tiger Lake.
+  exits:
+    - roomId: "hc:r12192"
+      direction: north
+    - roomId: "hc:r12194"
+      direction: south
+    - roomId: "hc:r12188"
+      direction: east
+    - roomId: "hc:r12198"
+      direction: west
+    - roomId: "hc:r12166"
+      direction: up
+    - roomId: "hc:r12205"
+      direction: down
+- id: r12194
+  title: "Tiger Lake"
+  description: >-
+    You are swimming deep inside Tiger Lake.
+  exits:
+    - roomId: "hc:r12193"
+      direction: north
+    - roomId: "hc:r12195"
+      direction: south
+    - roomId: "hc:r12189"
+      direction: east
+    - roomId: "hc:r12199"
+      direction: west
+    - roomId: "hc:r12167"
+      direction: up
+    - roomId: "hc:r12206"
+      direction: down
+- id: r12195
+  title: "Tiger Lake"
+  description: >-
+    You are swimming deep inside Tiger Lake.
+  exits:
+    - roomId: "hc:r12194"
+      direction: north
+    - roomId: "hc:r12196"
+      direction: south
+    - roomId: "hc:r12190"
+      direction: east
+    - roomId: "hc:r12200"
+      direction: west
+    - roomId: "hc:r12168"
+      direction: up
+    - roomId: "hc:r12207"
+      direction: down
+  npcs:
+    - id: "hc:m12085"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12085"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12196
+  title: "Tiger Lake"
+  description: >-
+    You are swimming deep inside Tiger Lake.
+  exits:
+    - roomId: "hc:r12195"
+      direction: north
+    - roomId: "hc:r12197"
+      direction: south
+    - roomId: "hc:r12201"
+      direction: west
+    - roomId: "hc:r12169"
+      direction: up
+    - roomId: "hc:r12208"
+      direction: down
+- id: r12197
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12196"
+      direction: north
+    - roomId: "hc:r12202"
+      direction: west
+    - roomId: "hc:r12170"
+      direction: up
+- id: r12198
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12199"
+      direction: south
+    - roomId: "hc:r12193"
+      direction: east
+    - roomId: "hc:r12177"
+      direction: up
+- id: r12199
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12198"
+      direction: north
+    - roomId: "hc:r12200"
+      direction: south
+    - roomId: "hc:r12194"
+      direction: east
+    - roomId: "hc:r12176"
+      direction: up
+  npcs:
+    - id: "hc:m12088"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12088"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12200
+  title: "Tiger Lake"
+  description: >-
+    You are swimming deep inside Tiger Lake.
+  exits:
+    - roomId: "hc:r12199"
+      direction: north
+    - roomId: "hc:r12201"
+      direction: south
+    - roomId: "hc:r12195"
+      direction: east
+    - roomId: "hc:r12203"
+      direction: west
+    - roomId: "hc:r12175"
+      direction: up
+    - roomId: "hc:r12209"
+      direction: down
+- id: r12201
+  title: "Tiger Lake"
+  description: >-
+    You are swimming deep inside Tiger Lake.
+  exits:
+    - roomId: "hc:r12200"
+      direction: north
+    - roomId: "hc:r12202"
+      direction: south
+    - roomId: "hc:r12196"
+      direction: east
+    - roomId: "hc:r12204"
+      direction: west
+    - roomId: "hc:r12174"
+      direction: up
+    - roomId: "hc:r12210"
+      direction: down
+- id: r12202
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12201"
+      direction: north
+    - roomId: "hc:r12197"
+      direction: east
+    - roomId: "hc:r12173"
+      direction: up
+- id: r12203
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12204"
+      direction: south
+    - roomId: "hc:r12200"
+      direction: east
+    - roomId: "hc:r12181"
+      direction: up
+- id: r12204
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12203"
+      direction: north
+    - roomId: "hc:r12201"
+      direction: east
+    - roomId: "hc:r12182"
+      direction: up
+- id: r12205
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12206"
+      direction: south
+    - roomId: "hc:r12193"
+      direction: up
+- id: r12206
+  title: "Tiger Lake"
+  description: >-
+    You are swimming deep inside Tiger Lake.
+  exits:
+    - roomId: "hc:r12205"
+      direction: north
+    - roomId: "hc:r12207"
+      direction: south
+    - roomId: "hc:r12194"
+      direction: up
+    - roomId: "hc:r12211"
+      direction: down
+  npcs:
+    - id: "hc:m12090"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "hc:m12090"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r12207
+  title: "Tiger Lake"
+  description: >-
+    You are swimming deep inside Tiger Lake.
+  exits:
+    - roomId: "hc:r12206"
+      direction: north
+    - roomId: "hc:r12208"
+      direction: south
+    - roomId: "hc:r12209"
+      direction: west
+    - roomId: "hc:r12195"
+      direction: up
+    - roomId: "hc:r12212"
+      direction: down
+- id: r12208
+  title: "Tiger Lake"
+  description: >-
+    You are swimming deep inside Tiger Lake.
+  exits:
+    - roomId: "hc:r12207"
+      direction: north
+    - roomId: "hc:r12210"
+      direction: west
+    - roomId: "hc:r12196"
+      direction: up
+    - roomId: "hc:r12213"
+      direction: down
+- id: r12209
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12210"
+      direction: south
+    - roomId: "hc:r12207"
+      direction: east
+    - roomId: "hc:r12200"
+      direction: up
+    - roomId: "hc:r12214"
+      direction: down
+- id: r12210
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12209"
+      direction: north
+    - roomId: "hc:r12208"
+      direction: east
+    - roomId: "hc:r12201"
+      direction: up
+  npcs:
+    - id: "hc:m12083"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12083"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12211
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12212"
+      direction: south
+    - roomId: "hc:r12206"
+      direction: up
+- id: r12212
+  title: "Tiger Lake"
+  description: >-
+    You are swimming very deep inside Tiger Lake.
+  exits:
+    - roomId: "hc:r12211"
+      direction: north
+    - roomId: "hc:r12213"
+      direction: south
+    - roomId: "hc:r12214"
+      direction: west
+    - roomId: "hc:r12207"
+      direction: up
+    - roomId: "hc:r12215"
+      direction: down
+  npcs:
+    - id: "hc:m12086"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "hc:m12086"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12213
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of the Tiger Lake.
+  exits:
+    - roomId: "hc:r12212"
+      direction: north
+    - roomId: "hc:r12208"
+      direction: up
+  npcs:
+    - id: "hc:m12089"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "hc:m12089"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r12214
+  title: "Tiger Lake"
+  description: >-
+    You are swimming very deep inside Tiger Lake.
+  exits:
+    - roomId: "hc:r12212"
+      direction: east
+    - roomId: "hc:r12209"
+      direction: up
+    - roomId: "hc:r12216"
+      direction: down
+- id: r12215
+  title: "Tiger Lake"
+  description: >-
+    You are standing on the bottom of Tiger Lake.
+  exits:
+    - roomId: "hc:r12216"
+      direction: west
+    - roomId: "hc:r12212"
+      direction: up
+- id: r12216
+  title: "Tiger Lake"
+  description: >-
+    You are swimming very, very deep inside Tiger Lake.
+  exits:
+    - roomId: "hc:r12215"
+      direction: east
+    - roomId: "hc:r12214"
+      direction: up
+    - roomId: "hc:r12217"
+      direction: down
+  npcs:
+    - id: "hc:m12027"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "hc:m12027"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12217
+  title: "Tiger Lake"
+  description: >-
+    You are standing at the absolutely 
+    lowest point in Tiger Lake.
+  exits:
+    - roomId: "hc:r12216"
+      direction: up
+  npcs:
+    - id: "hc:m12087"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "hc:m12028"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "hc:m12087"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "hc:m12028"
+      respawnChance: 100
+      maxLoad: "2"
+  items:
+    - id: "hc:o12028"
+      respawnChance: 75
+- id: r12218
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, 
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12140"
+      direction: north
+    - roomId: "hc:r12219"
+      direction: south
+- id: r12219
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, 
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12218"
+      direction: north
+    - roomId: "hc:r12220"
+      direction: south
+- id: r12220
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, 
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12219"
+      direction: north
+    - roomId: "hc:r12221"
+      direction: south
+- id: r12221
+  title: "Gravel Road"
+  description: >-
+    You are traveling along a dusty, 
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12220"
+      direction: north
+    - roomId: "hc:r12222"
+      direction: south
+- id: r12222
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, 
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12221"
+      direction: north
+    - roomId: "hc:r12223"
+      direction: south
+- id: r12223
+  title: "Gravel Road"
+  description: >-
+    You are trudging along a dusty, 
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12222"
+      direction: north
+    - roomId: "hc:r12224"
+      direction: south
+- id: r12224
+  title: "Gravel Road"
+  description: >-
+    You are traveling along a dusty, 
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12223"
+      direction: north
+    - roomId: "hc:r12225"
+      direction: south
+- id: r12225
+  title: "Gravel Road"
+  description: >-
+    You are traveling along a dusty, 
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12224"
+      direction: north
+    - roomId: "hc:r12226"
+      direction: south
+- id: r12226
+  title: "Gravel Road"
+  description: >-
+    You are traveling along a dusty, 
+    gravel road in Hazzardous County.
+    Off to the west, you see a driveway.
+  exits:
+    - roomId: "hc:r12225"
+      direction: north
+    - roomId: "hc:r12227"
+      direction: south
+    - roomId: "hc:r12231"
+      direction: west
+- id: r12227
+  title: "Gravel Road"
+  description: >-
+    You are traveling along a dusty, 
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12226"
+      direction: north
+    - roomId: "hc:r12228"
+      direction: south
+- id: r12228
+  title: "Gravel Road"
+  description: >-
+    You are traveling along a dusty, 
+    gravel road in Hazzardous County.
+  exits:
+    - roomId: "hc:r12227"
+      direction: north
+    - roomId: "hc:r12229"
+      direction: south
+- id: r12229
+  title: "Dead End"
+  description: >-
+    The road stops here in a dead end.
+    You might as well turn around, and
+    go back where you came from.
+  exits:
+    - roomId: "hc:r12228"
+      direction: north
+- id: r12230
+  title: "Dead End"
+  description: >-
+    The road stops here in a dead end.  
+    You might as well turn around, and 
+    go back where you came from.
+  exits:
+    - roomId: "hc:r12088"
+      direction: west
+- id: r12231
+  title: "Driveway"
+  description: >-
+    You are walking on a gravel driveway.
+  exits:
+    - roomId: "hc:r12243"
+      direction: south
+    - roomId: "hc:r12226"
+      direction: east
+    - roomId: "hc:r12232"
+      direction: west
+- id: r12232
+  title: "Porch"
+  description: >-
+    You are standing on the porch to the Dike's house.
+  exits:
+    - roomId: "hc:r12233"
+      direction: north
+    - roomId: "hc:r12231"
+      direction: east
+  npcs:
+    - id: "hc:m12014"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12233
+  title: "Front Room"
+  description: >-
+    You are in the front room of the Dike's residence.
+    You notice their 48-inch screen T.V. 
+    and wonder what they do for a living.
+  exits:
+    - roomId: "hc:r12235"
+      direction: north
+    - roomId: "hc:r12232"
+      direction: south
+    - roomId: "hc:r12234"
+      direction: east
+    - roomId: "hc:r12237"
+      direction: west
+- id: r12234
+  title: "Den"
+  description: >-
+    You are in the den.  There is not much of interest here.
+  exits:
+    - roomId: "hc:r12233"
+      direction: west
+- id: r12235
+  title: "Kitchen"
+  description: >-
+    You are inside the kitchen.  It has all of
+    the conveniences that you would expect:  stove,
+    refrigerator, freezer, microwave, toaster, 
+    and oh my, what is this?  They have their very 
+    own milkshake machine?!
+  exits:
+    - roomId: "hc:r12233"
+      direction: south
+    - roomId: "hc:r12236"
+      direction: east
+- id: r12236
+  title: "Dining Room"
+  description: >-
+    You are in the dining room.  Six soft, 
+    cushiony chairs surround the table.
+  exits:
+    - roomId: "hc:r12235"
+      direction: west
+- id: r12237
+  title: "Hallway"
+  description: >-
+    You are standing in the hallway.
+  exits:
+    - roomId: "hc:r12238"
+      direction: north
+    - roomId: "hc:r12233"
+      direction: east
+    - roomId: "hc:r12239"
+      direction: west
+- id: r12238
+  title: "Bedroom"
+  description: >-
+    You are in a bedroom.
+  exits:
+    - roomId: "hc:r12237"
+      direction: south
+- id: r12239
+  title: "Hallway"
+  description: >-
+    You are standing in the hallway.  
+    You notice a picture on the wall.
+  exits:
+    - roomId: "hc:r12240"
+      direction: north
+    - roomId: "hc:r12241"
+      direction: south
+    - roomId: "hc:r12237"
+      direction: east
+    - roomId: "hc:r12242"
+      direction: west
+- id: r12240
+  title: "Bedroom"
+  description: >-
+    You are inside a bedroom.
+  exits:
+    - roomId: "hc:r12239"
+      direction: south
+  npcs:
+    - id: "hc:m12009"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12241
+  title: "Bedroom"
+  description: >-
+    You are standing inside a bedroom.  The 
+    pink comforter and sheet sets on the bed 
+    make you think that this might be Daisy's room.
+  exits:
+    - roomId: "hc:r12239"
+      direction: north
+- id: r12242
+  title: "Bathroom"
+  description: >-
+    You are inside the bathroom.  You feel a 
+    sudden impulse to leave.  Ack, the smell 
+    is horrible!!!!
+  exits:
+    - roomId: "hc:r12239"
+      direction: east
+- id: r12243
+  title: "Yard"
+  description: >-
+    You are walking through the yard.  You 
+    step carefully over some chicken feces.
+  exits:
+    - roomId: "hc:r12231"
+      direction: north
+    - roomId: "hc:r12244"
+      direction: south
+    - roomId: "hc:r12245"
+      direction: west
+- id: r12244
+  title: "Yard"
+  description: >-
+    You are walking through the yard.  At 
+    least the Dikes mow their grass.  The
+    grass has a low, even cut.
+  exits:
+    - roomId: "hc:r12243"
+      direction: north
+    - roomId: "hc:r12246"
+      direction: west
+  npcs:
+    - id: "hc:m12015"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "hc:m12017"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12245
+  title: "Yard"
+  description: >-
+    You are walking through the yard.  You
+    smell the freshly cut grass. mmmMMMmmm
+  exits:
+    - roomId: "hc:r12246"
+      direction: south
+    - roomId: "hc:r12243"
+      direction: east
+    - roomId: "hc:r12248"
+      direction: west
+  npcs:
+    - id: "hc:m12060"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "hc:m12062"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12246
+  title: "Yard"
+  description: >-
+    You are walking through the yard.  You 
+    almost bounce along as you walk on the
+    nice lawn.
+  exits:
+    - roomId: "hc:r12245"
+      direction: north
+    - roomId: "hc:r12247"
+      direction: south
+    - roomId: "hc:r12244"
+      direction: east
+    - roomId: "hc:r12249"
+      direction: west
+  npcs:
+    - id: "hc:m12061"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12247
+  title: "Yard"
+  description: >-
+    You are in the yard.
+  exits:
+    - roomId: "hc:r12246"
+      direction: north
+    - roomId: "hc:r12250"
+      direction: west
+  npcs:
+    - id: "hc:m12016"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r12248
+  title: "Yard"
+  description: >-
+    The Dikes have a spacious lawn.  In this 
+    corner of it, you see where the grass is 
+    beaten away to reveal a semicircle-shaped 
+    patch of dirt.  You're slightly confused, 
+    until you look up, and see their 
+    basketball goal.
+  exits:
+    - roomId: "hc:r12249"
+      direction: south
+    - roomId: "hc:r12245"
+      direction: east
+- id: r12249
+  title: "Before the Barn"
+  description: >-
+    You are standing outside the Dike's barn.  
+    You can smell the hay way out here.
+  exits:
+    - roomId: "hc:r12248"
+      direction: north
+    - roomId: "hc:r12250"
+      direction: south
+    - roomId: "hc:r12246"
+      direction: east
+    - roomId: "hc:r12252"
+      direction: west
+- id: r12250
+  title: "Yard"
+  description: >-
+    You are still in the yard.  You hear faint 
+    mooings in the distance.  The sounds appear 
+    to come from the west.
+  exits:
+    - roomId: "hc:r12249"
+      direction: north
+    - roomId: "hc:r12247"
+      direction: east
+    - roomId: "hc:r12251"
+      direction: west
+- id: r12251
+  title: "Before the Pasture"
+  description: >-
+    You are standing just before the massive 
+    Dike's pasture.  It seems to stretch out 
+    for miles into the distance.
+  exits:
+    - roomId: "hc:r12250"
+      direction: east
+    - roomId: "hc:r12253"
+      direction: west
+- id: r12252
+  title: "The Barn"
+  description: >-
+    You are standing inside the barn.  You sing 
+    to yourself . . . "Hay! . . . in the middle 
+    of the barn!"
+  exits:
+    - roomId: "hc:r12249"
+      direction: east
+  items:
+    - id: "hc:o12021"
+      respawnChance: 75
+- id: r12253
+  title: "The Pasture"
+  description: >-
+    You are inside the pasture.  All you can 
+    hear is the mooing of cows, cows, 
+    and more cows.
+  exits:
+    - roomId: "hc:r12255"
+      direction: north
+    - roomId: "hc:r12254"
+      direction: south
+    - roomId: "hc:r12251"
+      direction: east
+    - roomId: "hc:r12257"
+      direction: west
+- id: r12254
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12253"
+      direction: north
+- id: r12255
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12256"
+      direction: north
+    - roomId: "hc:r12253"
+      direction: south
+    - roomId: "hc:r12258"
+      direction: west
+- id: r12256
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12255"
+      direction: south
+    - roomId: "hc:r12259"
+      direction: west
+- id: r12257
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12258"
+      direction: north
+    - roomId: "hc:r12253"
+      direction: east
+  npcs:
+    - id: "hc:m12018"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12258
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12259"
+      direction: north
+    - roomId: "hc:r12257"
+      direction: south
+    - roomId: "hc:r12255"
+      direction: east
+  npcs:
+    - id: "hc:m12063"
+      respawnChance: 100
+      maxLoad: "5"
+  items:
+    - id: "hc:o12021"
+      respawnChance: 75
+- id: r12259
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12260"
+      direction: north
+    - roomId: "hc:r12258"
+      direction: south
+    - roomId: "hc:r12256"
+      direction: east
+- id: r12260
+  title: "The Pasture"
+  description: >-
+    You are standing in a plush, green pasture.  
+    Ewwww!  What is that you just stepped in?
+  exits:
+    - roomId: "hc:r12261"
+      direction: north
+    - roomId: "hc:r12259"
+      direction: south
+  npcs:
+    - id: "hc:m12065"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12261
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12262"
+      direction: north
+    - roomId: "hc:r12260"
+      direction: south
+- id: r12262
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12263"
+      direction: north
+    - roomId: "hc:r12261"
+      direction: south
+  npcs:
+    - id: "hc:m12067"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12263
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12262"
+      direction: south
+    - roomId: "hc:r12264"
+      direction: east
+  npcs:
+    - id: "hc:m12068"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12264
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12265"
+      direction: north
+    - roomId: "hc:r12263"
+      direction: west
+- id: r12265
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12276"
+      direction: north
+    - roomId: "hc:r12264"
+      direction: south
+    - roomId: "hc:r12266"
+      direction: east
+  npcs:
+    - id: "hc:m12070"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12266
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12275"
+      direction: north
+    - roomId: "hc:r12267"
+      direction: east
+    - roomId: "hc:r12265"
+      direction: west
+  npcs:
+    - id: "hc:m12071"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12267
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12274"
+      direction: north
+    - roomId: "hc:r12268"
+      direction: east
+    - roomId: "hc:r12266"
+      direction: west
+- id: r12268
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12273"
+      direction: north
+    - roomId: "hc:r12269"
+      direction: east
+    - roomId: "hc:r12267"
+      direction: west
+- id: r12269
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12272"
+      direction: north
+    - roomId: "hc:r12270"
+      direction: east
+    - roomId: "hc:r12268"
+      direction: west
+- id: r12270
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12271"
+      direction: north
+    - roomId: "hc:r12269"
+      direction: west
+- id: r12271
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12282"
+      direction: north
+    - roomId: "hc:r12270"
+      direction: south
+    - roomId: "hc:r12272"
+      direction: west
+- id: r12272
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12281"
+      direction: north
+    - roomId: "hc:r12269"
+      direction: south
+    - roomId: "hc:r12271"
+      direction: east
+    - roomId: "hc:r12273"
+      direction: west
+- id: r12273
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12280"
+      direction: north
+    - roomId: "hc:r12268"
+      direction: south
+    - roomId: "hc:r12272"
+      direction: east
+    - roomId: "hc:r12274"
+      direction: west
+- id: r12274
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12279"
+      direction: north
+    - roomId: "hc:r12267"
+      direction: south
+    - roomId: "hc:r12273"
+      direction: east
+    - roomId: "hc:r12275"
+      direction: west
+  npcs:
+    - id: "hc:m12066"
+      respawnChance: 100
+      maxLoad: "5"
+  items:
+    - id: "hc:o12021"
+      respawnChance: 75
+- id: r12275
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12278"
+      direction: north
+    - roomId: "hc:r12266"
+      direction: south
+    - roomId: "hc:r12274"
+      direction: east
+    - roomId: "hc:r12276"
+      direction: west
+- id: r12276
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12277"
+      direction: north
+    - roomId: "hc:r12265"
+      direction: south
+    - roomId: "hc:r12275"
+      direction: east
+- id: r12277
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12276"
+      direction: south
+    - roomId: "hc:r12278"
+      direction: east
+  items:
+    - id: "hc:o12021"
+      respawnChance: 75
+- id: r12278
+  title: "The Pasture"
+  description: >-
+    You are standing inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12287"
+      direction: north
+    - roomId: "hc:r12275"
+      direction: south
+    - roomId: "hc:r12279"
+      direction: east
+    - roomId: "hc:r12277"
+      direction: west
+- id: r12279
+  title: "The Pasture"
+  description: >-
+    You are standing inside the plush, green pasture.
+  exits:
+    - roomId: "hc:r12286"
+      direction: north
+    - roomId: "hc:r12274"
+      direction: south
+    - roomId: "hc:r12280"
+      direction: east
+    - roomId: "hc:r12278"
+      direction: west
+- id: r12280
+  title: "Drinking Hole"
+  description: >-
+    There is an abrupt break in the scenery, 
+    as you get to this calm, peaceful drinking hole.
+  exits:
+    - roomId: "hc:r12285"
+      direction: north
+    - roomId: "hc:r12273"
+      direction: south
+    - roomId: "hc:r12281"
+      direction: east
+    - roomId: "hc:r12279"
+      direction: west
+- id: r12281
+  title: "Drinking Hole"
+  description: >-
+    You are tired and thirsty.  Just the 
+    right time to stop and take a drink.
+  exits:
+    - roomId: "hc:r12284"
+      direction: north
+    - roomId: "hc:r12272"
+      direction: south
+    - roomId: "hc:r12282"
+      direction: east
+    - roomId: "hc:r12280"
+      direction: west
+- id: r12282
+  title: "The Pasture"
+  description: >-
+    You are standing inside a grassy, green pasture.
+  exits:
+    - roomId: "hc:r12283"
+      direction: north
+    - roomId: "hc:r12271"
+      direction: south
+    - roomId: "hc:r12281"
+      direction: west
+  npcs:
+    - id: "hc:m12064"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12283
+  title: "The Pasture"
+  description: >-
+    You are inside a grassy, green pasture
+  exits:
+    - roomId: "hc:r12292"
+      direction: north
+    - roomId: "hc:r12282"
+      direction: south
+    - roomId: "hc:r12284"
+      direction: west
+- id: r12284
+  title: "Drinking Hole"
+  description: >-
+    You are wading along through the drinking hole.
+  exits:
+    - roomId: "hc:r12291"
+      direction: north
+    - roomId: "hc:r12281"
+      direction: south
+    - roomId: "hc:r12283"
+      direction: east
+    - roomId: "hc:r12285"
+      direction: west
+- id: r12285
+  title: "Drinking Hole"
+  description: >-
+    You are wading along through the drinking hole.
+  exits:
+    - roomId: "hc:r12290"
+      direction: north
+    - roomId: "hc:r12280"
+      direction: south
+    - roomId: "hc:r12284"
+      direction: east
+    - roomId: "hc:r12286"
+      direction: west
+- id: r12286
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12289"
+      direction: north
+    - roomId: "hc:r12279"
+      direction: south
+    - roomId: "hc:r12285"
+      direction: east
+    - roomId: "hc:r12287"
+      direction: west
+- id: r12287
+  title: "The Pasture"
+  description: >-
+    You are inside a plush, green pasture.
+  exits:
+    - roomId: "hc:r12278"
+      direction: south
+    - roomId: "hc:r12286"
+      direction: east
+    - roomId: "hc:r12288"
+      direction: west
+  npcs:
+    - id: "hc:m12069"
+      respawnChance: 100
+      maxLoad: "5"

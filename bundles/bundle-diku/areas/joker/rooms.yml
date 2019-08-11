@@ -1,0 +1,1500 @@
+- id: r20081
+  title: "The starting room"
+  description: >-
+    You are standing in the start room, I hope you've got 
+    permission to be here!
+  exits:
+    - roomId: "joker:r20082"
+      direction: south
+    - roomId: "joker:r20081"
+      direction: east
+- id: r20082
+  title: "The Quest starting room"
+  description: >-
+    You are standing at the beginning of your quest.
+  exits:
+    - roomId: "joker:r20084"
+      direction: up
+    - roomId: "joker:r20083"
+      direction: down
+- id: r20083
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20084"
+      direction: north
+    - roomId: "joker:r20084"
+      direction: south
+    - roomId: "joker:r20103"
+      direction: east
+    - roomId: "joker:r20089"
+      direction: west
+    - roomId: "joker:r20085"
+      direction: up
+- id: r20084
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20083"
+      direction: north
+    - roomId: "joker:r20083"
+      direction: south
+    - roomId: "joker:r20104"
+      direction: east
+    - roomId: "joker:r20090"
+      direction: west
+    - roomId: "joker:r20087"
+      direction: down
+- id: r20085
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20087"
+      direction: north
+    - roomId: "joker:r20086"
+      direction: south
+    - roomId: "joker:r20100"
+      direction: east
+    - roomId: "joker:r20093"
+      direction: west
+    - roomId: "joker:r20088"
+      direction: down
+- id: r20086
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20085"
+      direction: north
+    - roomId: "joker:r20087"
+      direction: south
+- id: r20087
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20086"
+      direction: north
+    - roomId: "joker:r20085"
+      direction: south
+    - roomId: "joker:r20102"
+      direction: east
+    - roomId: "joker:r20094"
+      direction: west
+    - roomId: "joker:r20091"
+      direction: up
+- id: r20088
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20091"
+      direction: north
+    - roomId: "joker:r20089"
+      direction: south
+    - roomId: "joker:r20096"
+      direction: east
+    - roomId: "joker:r20096"
+      direction: west
+    - roomId: "joker:r20092"
+      direction: up
+- id: r20089
+  title: "A support room"
+  description: >-
+    You find yourself in a circular room with a large pillar standing in the middle
+    of it. This must be what is holding this entire structure up, better not do
+    anything that might disturb the pillar.
+  exits:
+    - roomId: "joker:r20088"
+      direction: north
+    - roomId: "joker:r20090"
+      direction: south
+    - roomId: "joker:r20083"
+      direction: east
+    - roomId: "joker:r20097"
+      direction: west
+- id: r20090
+  title: "A support room"
+  description: >-
+    You find yourself in a circular room with a large pillar standing in the middle
+    of it. This must be what is holding this entire structure up, better not do
+    anything that might disturb the pillar.
+  exits:
+    - roomId: "joker:r20089"
+      direction: north
+    - roomId: "joker:r20091"
+      direction: south
+    - roomId: "joker:r20084"
+      direction: east
+    - roomId: "joker:r20098"
+      direction: west
+- id: r20091
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20090"
+      direction: north
+    - roomId: "joker:r20088"
+      direction: south
+    - roomId: "joker:r20099"
+      direction: east
+    - roomId: "joker:r20099"
+      direction: west
+    - roomId: "joker:r20095"
+      direction: down
+- id: r20092
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20095"
+      direction: north
+    - roomId: "joker:r20093"
+      direction: south
+    - roomId: "joker:r20092"
+      direction: east
+    - roomId: "joker:r20092"
+      direction: west
+    - roomId: "joker:r20096"
+      direction: down
+- id: r20093
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20092"
+      direction: north
+    - roomId: "joker:r20085"
+      direction: east
+    - roomId: "joker:r20100"
+      direction: west
+- id: r20094
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20095"
+      direction: south
+    - roomId: "joker:r20087"
+      direction: east
+    - roomId: "joker:r20102"
+      direction: west
+- id: r20095
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20094"
+      direction: north
+    - roomId: "joker:r20092"
+      direction: south
+    - roomId: "joker:r20095"
+      direction: east
+    - roomId: "joker:r20095"
+      direction: west
+    - roomId: "joker:r20099"
+      direction: up
+- id: r20096
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20099"
+      direction: north
+    - roomId: "joker:r20097"
+      direction: south
+    - roomId: "joker:r20088"
+      direction: east
+    - roomId: "joker:r20088"
+      direction: west
+    - roomId: "joker:r20100"
+      direction: up
+- id: r20097
+  title: "A support room"
+  description: >-
+    You find yourself in a circular room with a large pillar standing in the middle
+    of it. This must be what is holding this entire structure up, better not do
+    anything that might disturb the pillar.
+  exits:
+    - roomId: "joker:r20096"
+      direction: north
+    - roomId: "joker:r20103"
+      direction: south
+    - roomId: "joker:r20089"
+      direction: east
+    - roomId: "joker:r20098"
+      direction: west
+- id: r20098
+  title: "A support room"
+  description: >-
+    You find yourself in a circular room with a large pillar standing in the middle
+    of it. This must be what is holding this entire structure up, better not do
+    anything that might disturb the pillar.
+  exits:
+    - roomId: "joker:r20097"
+      direction: north
+    - roomId: "joker:r20104"
+      direction: south
+    - roomId: "joker:r20090"
+      direction: east
+    - roomId: "joker:r20099"
+      direction: west
+- id: r20099
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20098"
+      direction: north
+    - roomId: "joker:r20096"
+      direction: south
+    - roomId: "joker:r20091"
+      direction: east
+    - roomId: "joker:r20091"
+      direction: west
+    - roomId: "joker:r20102"
+      direction: down
+- id: r20100
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20102"
+      direction: north
+    - roomId: "joker:r20101"
+      direction: south
+    - roomId: "joker:r20093"
+      direction: east
+    - roomId: "joker:r20085"
+      direction: west
+    - roomId: "joker:r20103"
+      direction: down
+- id: r20101
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20100"
+      direction: north
+    - roomId: "joker:r20102"
+      direction: south
+    - roomId: "joker:r20105"
+      direction: west
+- id: r20102
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20101"
+      direction: north
+    - roomId: "joker:r20100"
+      direction: south
+    - roomId: "joker:r20094"
+      direction: east
+    - roomId: "joker:r20087"
+      direction: west
+    - roomId: "joker:r20104"
+      direction: up
+- id: r20103
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20104"
+      direction: north
+    - roomId: "joker:r20083"
+      direction: south
+    - roomId: "joker:r20097"
+      direction: east
+    - roomId: "joker:r20104"
+      direction: west
+- id: r20104
+  title: "Somewhere within the quest maze"
+  description: >-
+    Your eye's strain to spot something different in the room, but no, it's just
+    the same as the rest of the rooms you have encountered so far.
+  exits:
+    - roomId: "joker:r20103"
+      direction: north
+    - roomId: "joker:r20103"
+      direction: south
+    - roomId: "joker:r20098"
+      direction: east
+    - roomId: "joker:r20084"
+      direction: west
+- id: r20105
+  title: "The exit"
+  description: >-
+    All you have to do now is solve the riddle and you are out of here!
+- id: r20064
+  title: "The Gods Arena"
+  description: >-
+    You are standing in a massive arena, this place reminds you of a huge Roman
+    Amphitheatre. The huge oval stretches around you, at the edges you can see
+    tiers of seats rising into the distance. There are clouds all around which
+    somehow gives rise to the fact that this place is for the enjoyment of the
+    Gods.
+  exits:
+    - roomId: "joker:r20073"
+      direction: south
+- id: r20065
+  title: "The East Corridor"
+  description: >-
+    You are at the east of a short corridor. To the east you can see some odd
+    views, something is definately very strange there. Looking west the corridor
+    continues. Above you there is a large opening, you can see seats inside.
+  exits:
+    - roomId: "joker:r20001"
+      direction: north
+    - roomId: "joker:r20066"
+      direction: east
+    - roomId: "joker:r20073"
+      direction: west
+    - roomId: "joker:r20068"
+      direction: up
+- id: r20066
+  title: "Second Gods Junction"
+  description: >-
+    You are in a hallway, you can see the doorways to the rooms of the
+    various Gods. There are large stone steps leading upwards here, you spy
+    a large set of doors at the top, an impressive plate on the door reads:
+    'Coding Room', it would be wise to wait for an invite before entering.
+    Looking around you see other deities iconised on the different doors.
+  exits:
+    - roomId: "joker:r20074"
+      direction: north
+    - roomId: "joker:r20067"
+      direction: east
+    - roomId: "joker:r20065"
+      direction: west
+    - roomId: "joker:r20075"
+      direction: up
+- id: r20067
+  title: "Teleportation Room"
+  description: >-
+    Looking around you see fragments of reality. The Gods have designed this
+    place as an easy way of moving around the world.
+  exits:
+    - roomId: "joker:r20066"
+      direction: west
+- id: r20068
+  title: "Observation Room"
+  description: >-
+    You stand in a large circular room, the edges are lined with seats.
+    You have a fabulous panormaic view from here, you can see everything in
+    the world.
+  exits:
+    - roomId: "joker:r20065"
+      direction: down
+- id: r20069
+  title: "The Gods Kitchen"
+  description: >-
+    You are standing in the middle of a comfortable spacious kitchen, work-
+    surfaces edge the room. Useful gadgets and implements are lying here. Slightly
+    strange potions sit among more identifiable food. You can see some gardens
+    from here.
+  exits:
+    - roomId: "joker:r20071"
+      direction: south
+    - roomId: "joker:r20070"
+      direction: east
+- id: r20070
+  title: "The God's Garden"
+  description: >-
+    You are walking among massive floral beds and ornamental parks. Huge trees
+    stretch skywards, the garden continues as far as the eye can see in every
+    direction.
+  exits:
+    - roomId: "joker:r20070"
+      direction: north
+    - roomId: "joker:r20070"
+      direction: south
+    - roomId: "joker:r20070"
+      direction: east
+    - roomId: "joker:r20069"
+      direction: west
+    - roomId: "joker:r20012"
+      direction: down
+- id: r20071
+  title: "The God's Hallway"
+  description: >-
+    You are standing in a HUGE hallway. To the north you can see the kitchen,
+    looking to the south there is a small cosy room. There are steps down
+    from here, but you cannot see where they lead. There is an impressive
+    staircase leading up from here.
+  exits:
+    - roomId: "joker:r20069"
+      direction: north
+    - roomId: "joker:r20072"
+      direction: south
+    - roomId: "joker:r20073"
+      direction: up
+    - roomId: "joker:r20020"
+      direction: down
+- id: r20072
+  title: "The Waiting Room of the Gods"
+  description: >-
+    This small room is nicely lined with books and has many large comfy seats
+    to relax into while you wait.
+  exits:
+    - roomId: "joker:r20071"
+      direction: north
+- id: r20073
+  title: "The West Corridor"
+  description: >-
+    You are standing at the head of a very impressive staircase at the west
+    end of a short corridor. You can hear muffled sounds from here, it sounds
+    like crowds cheering. If you listen carefully you can make out people talking
+    to the south.
+  exits:
+    - roomId: "joker:r20064"
+      direction: north
+    - roomId: "joker:r20065"
+      direction: east
+    - roomId: "joker:r20071"
+      direction: down
+- id: r20074
+  title: "Vacant God Room"
+  description: >-
+    Insert Description here.
+- id: r20075
+  title: "Vacant God Room"
+  description: >-
+    Insert Description here.
+- id: r20076
+  title: "Vacant God Room"
+  description: >-
+    Insert Description here.
+- id: r20077
+  title: "Vacant God Room"
+  description: >-
+    Insert Description here.
+- id: r20078
+  title: "Vacant God Room"
+  description: >-
+    Insert description here.
+    
+- id: r20079
+  title: "Vacant God Room"
+  description: >-
+    Insert Description here.
+- id: r20080
+  title: "Shrubbery! (The God's Chat room)"
+  description: >-
+    This place is a tip!  Pizza boxes ... Beer cans ... Oh and those huge comfy 
+    chairs!
+- id: r20000
+  title: "The Owner's Personal Room"
+  description: >-
+  exits:
+    - roomId: "joker:r20030"
+      direction: south
+    - roomId: "joker:r20001"
+      direction: down
+- id: r20001
+  title: "Gods junction"
+  description: >-
+    You are in a hallway, you can see the doorways to the rooms of the
+    various Gods. There are large stone steps leading upwards here, you spy
+    a large set of doors at the top, an impressive plate on the door reads:
+    'Coding Room', it would be wise to wait for an invite before entering.
+    Looking around you see other deities iconised on the different doors.
+  exits:
+    - roomId: "joker:r20003"
+      direction: north
+    - roomId: "joker:r20065"
+      direction: south
+    - roomId: "joker:r20005"
+      direction: east
+    - roomId: "joker:r20002"
+      direction: west
+    - roomId: "joker:r20000"
+      direction: up
+    - roomId: "joker:r20004"
+      direction: down
+- id: r20002
+  title: "The Meeting Hall"
+  description: >-
+    There are several large comfy chairs here.
+    Hundreds of flat panes of glass show the events
+    happening all over the realm.
+    An invisible waiter serves drinks to
+    the rooms occupants.
+  exits:
+    - roomId: "joker:r20001"
+      direction: east
+- id: r20003
+  title: "God Room 1"
+  description: >-
+    Insert Description here.
+    
+  exits:
+    - roomId: "joker:r20001"
+      direction: south
+- id: r20004
+  title: "Hell"
+  description: >-
+    All around you are flames, burning your very soul.
+  exits:
+    - roomId: "joker:r20001"
+      direction: up
+- id: r20005
+  title: "God Room 2"
+  description: >-
+    Insert Description here.
+    
+- id: r20006
+  title: "God Room 3"
+  description: >-
+    Insert description here.
+    
+- id: r20007
+  title: "Vacant God Room"
+  description: >-
+    Insert Description here.
+- id: r20008
+  title: "Vacant God Room"
+  description: >-
+    Insert Description here.
+- id: r20009
+  title: "Vacant God Room"
+  description: >-
+    Insert Description here.
+- id: r20010
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20015"
+      direction: south
+    - roomId: "joker:r20011"
+      direction: east
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20011
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20016"
+      direction: south
+    - roomId: "joker:r20012"
+      direction: east
+    - roomId: "joker:r20010"
+      direction: west
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20012
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20017"
+      direction: south
+    - roomId: "joker:r20013"
+      direction: east
+    - roomId: "joker:r20011"
+      direction: west
+    - roomId: "bloodshrine:r12500"
+      direction: down
+  npcs:
+    - id: "joker:m20041"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20013
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20018"
+      direction: south
+    - roomId: "joker:r20014"
+      direction: east
+    - roomId: "joker:r20012"
+      direction: west
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20014
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20019"
+      direction: south
+    - roomId: "joker:r20013"
+      direction: west
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20015
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20010"
+      direction: north
+    - roomId: "joker:r20031"
+      direction: south
+    - roomId: "joker:r20016"
+      direction: east
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20016
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20011"
+      direction: north
+    - roomId: "joker:r20032"
+      direction: south
+    - roomId: "joker:r20017"
+      direction: east
+    - roomId: "joker:r20015"
+      direction: west
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20017
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum ..Time to die!
+  exits:
+    - roomId: "joker:r20012"
+      direction: north
+    - roomId: "joker:r20033"
+      direction: south
+    - roomId: "joker:r20018"
+      direction: east
+    - roomId: "joker:r20016"
+      direction: west
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20018
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20013"
+      direction: north
+    - roomId: "joker:r20034"
+      direction: south
+    - roomId: "joker:r20019"
+      direction: east
+    - roomId: "joker:r20017"
+      direction: west
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20019
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20014"
+      direction: north
+    - roomId: "joker:r20035"
+      direction: south
+    - roomId: "joker:r20018"
+      direction: west
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20020
+  title: "Entrance to the Church of Torquemada"
+  description: >-
+    You are standing on in the entrance to one of the most famous of
+    gathering places for witch hunters world wide. It seems nothing
+    special, yet it has that vague feeling that you get in churches.
+    You shiver as you think of all the great vampire hunters that have
+    passed through these doors.
+  exits:
+    - roomId: "joker:r20021"
+      direction: north
+    - roomId: "midgaard:r3133"
+      direction: south
+    - roomId: "joker:r20071"
+      direction: up
+- id: r20021
+  title: "A dusty hallway"
+  description: >-
+    You walk down a dusty hallway deeper into the church. As you look
+    around, you see pictures on the walls. Most are depicting scenes
+    where vampires are cowering from the shimmering Knights of Leopold.
+  exits:
+    - roomId: "joker:r20022"
+      direction: north
+    - roomId: "joker:r20020"
+      direction: south
+- id: r20022
+  title: "The south side of the church"
+  description: >-
+    You are now in the outer sanctum of the church, there were seats here 
+    but they have been moved to make room for combat practice and other 
+    matters. These days the more practical methods of vampire hunting are
+    important.
+  exits:
+    - roomId: "joker:r20023"
+      direction: north
+    - roomId: "joker:r20021"
+      direction: south
+- id: r20023
+  title: "The inner sanctum"
+  description: >-
+    Here you stand, in the holiest of holy places. You look around you
+    in awe. The pillars gleam in the light emitted from here, and your
+    body tingles with the power stored here. This is the place of miracles.
+  exits:
+    - roomId: "joker:r20024"
+      direction: north
+    - roomId: "joker:r20022"
+      direction: south
+    - roomId: "joker:r20026"
+      direction: east
+    - roomId: "joker:r20028"
+      direction: west
+  npcs:
+    - id: "joker:m20001"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20024
+  title: "The north side of the church"
+  description: >-
+    You are standing in the north side of the church, the view as you look 
+    south is amazing. You notice an old organ that has probably not
+    worked for decades, still who likes organ music anyway?
+  exits:
+    - roomId: "joker:r20025"
+      direction: north
+    - roomId: "joker:r20023"
+      direction: south
+- id: r20025
+  title: "The north conservatory"
+  description: >-
+    This room is amazing, unfortunatly there is nowhere to sit. However
+    you can gaze out through the glass at the amazing grounds and flower
+    beds that surround this room. You never see any gardeners, however the
+    garden is immaculatly kept. God definitly moves in mysterious ways.
+    However you cannot help feel that this room was meant for more sinister
+    means, that escape you at the moment.
+  exits:
+    - roomId: "joker:r20024"
+      direction: south
+- id: r20026
+  title: "The east side of the church"
+  description: >-
+    This side of the church is very empty, there are a few objects that
+    have rotten beyond all form. But hardly any good wood to make stakes
+    from. You begin to think that it was just left like this for other
+    hunter to sleep, sounds like a good idea.
+  exits:
+    - roomId: "joker:r20027"
+      direction: east
+    - roomId: "joker:r20023"
+      direction: west
+- id: r20027
+  title: "A small room for stores"
+  description: >-
+    This room was used for storing food and other stuff that the monks
+    here needed. It still seems that it is used for storing goods with
+    more practical uses.
+  exits:
+    - roomId: "joker:r20026"
+      direction: west
+- id: r20028
+  title: "The west side of the church"
+  description: >-
+    This side of the church looks more well used. It's alot warmer so
+    the more senior vampire hunters hold meetings here or even hold
+    the odd stake-out here .... there are blood stains on the floor to
+    prove this.
+  exits:
+    - roomId: "joker:r20023"
+      direction: east
+    - roomId: "joker:r20029"
+      direction: west
+- id: r20029
+  title: "A small donation room for hunters"
+  description: >-
+    This room holds any more important items that hunter do not need, 
+    but think others may benefit from. Still if they need simple things
+    I'm sure they only need ask Monsignor Ameliano.
+  exits:
+    - roomId: "joker:r20028"
+      direction: east
+- id: r20030
+  title: "A special room for certain players"
+  description: >-
+    This is a special safe room that has been made for certain approved players
+    to use to keep out of trouble. If you are not supposed to be here GO AWAY!
+    That goes for Deities and Gods too!.
+- id: r20031
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20015"
+      direction: north
+    - roomId: "joker:r20032"
+      direction: east
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20032
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20016"
+      direction: north
+    - roomId: "joker:r20033"
+      direction: east
+    - roomId: "joker:r20031"
+      direction: west
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20033
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20017"
+      direction: north
+    - roomId: "joker:r20036"
+      direction: south
+    - roomId: "joker:r20034"
+      direction: east
+    - roomId: "joker:r20032"
+      direction: west
+  npcs:
+    - id: "joker:m20040"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20034
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20018"
+      direction: north
+    - roomId: "joker:r20035"
+      direction: east
+    - roomId: "joker:r20033"
+      direction: west
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20035
+  title: "The Vampire Pit"
+  description: >-
+    You are trapped in a pit, and what is worse ... it's full of rather
+    tough looking vampires who look slightly unhappy about having their
+    sleep interrupted by your presence. Ho hum .. time to die!
+  exits:
+    - roomId: "joker:r20019"
+      direction: north
+    - roomId: "joker:r20034"
+      direction: west
+  npcs:
+    - id: "joker:m20000"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r20036
+  title: "The Holy Corridor"
+  description: >-
+    This white marble corridor seems peaceful enough ...
+    Some sort of magic is illuminating the area, as if
+    invisible torches lined the walls.
+  exits:
+    - roomId: "joker:r20033"
+      direction: north
+    - roomId: "joker:r20037"
+      direction: south
+  npcs:
+    - id: "joker:m20012"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20037
+  title: "The Holy Corridor"
+  description: >-
+    This white marble corridor seems peaceful enough ...
+    Some sort of magic is illuminating the area, as if
+    invisible torches lined the walls.
+  exits:
+    - roomId: "joker:r20036"
+      direction: north
+    - roomId: "joker:r20038"
+      direction: south
+  npcs:
+    - id: "joker:m20028"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20038
+  title: "The Holy Corridor"
+  description: >-
+    This white marble corridor seems peaceful enough ...
+    Some sort of magic is illuminating the area, as if
+    invisible torches lined the walls.
+  exits:
+    - roomId: "joker:r20037"
+      direction: north
+    - roomId: "joker:r20041"
+      direction: south
+  npcs:
+    - id: "joker:m20029"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20039
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20044"
+      direction: south
+    - roomId: "joker:r20040"
+      direction: east
+  npcs:
+    - id: "joker:m20015"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20040
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20045"
+      direction: south
+    - roomId: "joker:r20041"
+      direction: east
+    - roomId: "joker:r20039"
+      direction: west
+  npcs:
+    - id: "joker:m20016"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20041
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20038"
+      direction: north
+    - roomId: "joker:r20046"
+      direction: south
+    - roomId: "joker:r20042"
+      direction: east
+    - roomId: "joker:r20040"
+      direction: west
+  npcs:
+    - id: "joker:m20025"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20042
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20047"
+      direction: south
+    - roomId: "joker:r20043"
+      direction: east
+    - roomId: "joker:r20041"
+      direction: west
+  npcs:
+    - id: "joker:m20017"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20043
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20048"
+      direction: south
+    - roomId: "joker:r20042"
+      direction: west
+  npcs:
+    - id: "joker:m20018"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20044
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20039"
+      direction: north
+    - roomId: "joker:r20049"
+      direction: south
+    - roomId: "joker:r20045"
+      direction: east
+  npcs:
+    - id: "joker:m20019"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20045
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20040"
+      direction: north
+    - roomId: "joker:r20050"
+      direction: south
+    - roomId: "joker:r20046"
+      direction: east
+    - roomId: "joker:r20044"
+      direction: west
+  npcs:
+    - id: "joker:m20020"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20046
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20041"
+      direction: north
+    - roomId: "joker:r20051"
+      direction: south
+    - roomId: "joker:r20047"
+      direction: east
+    - roomId: "joker:r20045"
+      direction: west
+  npcs:
+    - id: "joker:m20026"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20047
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20042"
+      direction: north
+    - roomId: "joker:r20052"
+      direction: south
+    - roomId: "joker:r20048"
+      direction: east
+    - roomId: "joker:r20046"
+      direction: west
+  npcs:
+    - id: "joker:m20021"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20048
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20043"
+      direction: north
+    - roomId: "joker:r20053"
+      direction: south
+    - roomId: "joker:r20047"
+      direction: west
+  npcs:
+    - id: "joker:m20022"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20049
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20044"
+      direction: north
+    - roomId: "joker:r20054"
+      direction: south
+    - roomId: "joker:r20050"
+      direction: east
+  npcs:
+    - id: "joker:m20023"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20050
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20045"
+      direction: north
+    - roomId: "joker:r20055"
+      direction: south
+    - roomId: "joker:r20051"
+      direction: east
+    - roomId: "joker:r20049"
+      direction: west
+  npcs:
+    - id: "joker:m20024"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20051
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20046"
+      direction: north
+    - roomId: "joker:r20056"
+      direction: south
+    - roomId: "joker:r20052"
+      direction: east
+    - roomId: "joker:r20050"
+      direction: west
+  npcs:
+    - id: "joker:m20013"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20052
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20047"
+      direction: north
+    - roomId: "joker:r20057"
+      direction: south
+    - roomId: "joker:r20053"
+      direction: east
+    - roomId: "joker:r20051"
+      direction: west
+  npcs:
+    - id: "joker:m20014"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20053
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20048"
+      direction: north
+    - roomId: "joker:r20058"
+      direction: south
+    - roomId: "joker:r20052"
+      direction: west
+  npcs:
+    - id: "joker:m20027"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20054
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20049"
+      direction: north
+    - roomId: "joker:r20059"
+      direction: south
+    - roomId: "joker:r20055"
+      direction: east
+  npcs:
+    - id: "joker:m20030"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20055
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20050"
+      direction: north
+    - roomId: "joker:r20060"
+      direction: south
+    - roomId: "joker:r20056"
+      direction: east
+    - roomId: "joker:r20054"
+      direction: west
+  npcs:
+    - id: "joker:m20031"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20056
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20051"
+      direction: north
+    - roomId: "joker:r20061"
+      direction: south
+    - roomId: "joker:r20057"
+      direction: east
+    - roomId: "joker:r20055"
+      direction: west
+  npcs:
+    - id: "joker:m20032"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20057
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20052"
+      direction: north
+    - roomId: "joker:r20062"
+      direction: south
+    - roomId: "joker:r20058"
+      direction: east
+    - roomId: "joker:r20056"
+      direction: west
+  npcs:
+    - id: "joker:m20033"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20058
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20053"
+      direction: north
+    - roomId: "joker:r20063"
+      direction: south
+    - roomId: "joker:r20057"
+      direction: west
+  npcs:
+    - id: "joker:m20034"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20059
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20054"
+      direction: north
+    - roomId: "joker:r20060"
+      direction: east
+  npcs:
+    - id: "joker:m20035"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20060
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20055"
+      direction: north
+    - roomId: "joker:r20061"
+      direction: east
+    - roomId: "joker:r20059"
+      direction: west
+  npcs:
+    - id: "joker:m20036"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20061
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20056"
+      direction: north
+    - roomId: "joker:r20062"
+      direction: east
+    - roomId: "joker:r20060"
+      direction: west
+  npcs:
+    - id: "joker:m20037"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20062
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20057"
+      direction: north
+    - roomId: "joker:r20063"
+      direction: east
+    - roomId: "joker:r20061"
+      direction: west
+  npcs:
+    - id: "joker:m20038"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r20063
+  title: "The Halls of Heroes"
+  description: >-
+    What a wonderous place ... white marble halls, linked by
+    great pillars and archways stretch as far as the eye can
+    see, and in each hall stands a huge statue of some great
+    hero or other infamous character, both past and present.
+    No wonder this place was so well guarded...
+  exits:
+    - roomId: "joker:r20058"
+      direction: north
+    - roomId: "joker:r20062"
+      direction: west
+  npcs:
+    - id: "joker:m20039"
+      respawnChance: 100
+      maxLoad: "1"

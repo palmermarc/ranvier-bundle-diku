@@ -1,0 +1,9 @@
+---
+body: |
+  This command allows you to transport to the Temple of Midgaard when 
+  mortally wounded. This comes in handy when you are morted by an agressive 
+  mob (or player). Unfortunately, it also reduces both your mana and move to 
+  0, and informs everyone else on the mud that you are lying defenseless at 
+  recall...so be careful how you use it. 
+  
+  see also: help STRUGGLE

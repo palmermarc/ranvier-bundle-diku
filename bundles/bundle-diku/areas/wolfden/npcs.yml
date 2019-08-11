@@ -1,0 +1,271 @@
+- id: m25900
+  keywords: ["grull","wolf"]
+  name: "Grull"
+  description: >-
+    Grull extends his claws and attacks.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wolfden:o25904": 75
+  metadata:
+    areaId: 84
+    exp_level: 2000
+    sex: 1
+- id: m25901
+  keywords: ["Thrain"]
+  name: "Thrain"
+  description: >-
+    Thrain reaches for your throat.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 84
+    exp_level: 2000
+    sex: 1
+- id: m25902
+  keywords: ["Thrynn"]
+  name: "Thrynn"
+  description: >-
+    Thrynn leaps from   his concealment!
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 84
+    exp_level: 2000
+    sex: 1
+- id: m25903
+  keywords: ["Greyback","elder"]
+  name: "Greyback"
+  description: >-
+    Greyback the Lupine Elder stands here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wolfden:o25903": 75
+  metadata:
+    areaId: 84
+    exp_level: 2000
+    sex: 1
+- id: m25904
+  keywords: ["were","wolf","werewolf"]
+  name: "A young werewolf"
+  description: >-
+    A  young werewolf attacks  you!
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wolfden:o25901": 75
+  metadata:
+    areaId: 84
+    exp_level: 2000
+    sex: 1
+- id: m25905
+  keywords: ["were","wolf","werewolf"]
+  name: "a werewolf"
+  description: >-
+    A werewolf looks for your weaknesses.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wolfden:o25901": 75
+        "wolfden:o25900": 75
+        "wolfden:o25902": 75
+  metadata:
+    areaId: 84
+    exp_level: 2000
+    sex: 1
+- id: m25906
+  keywords: ["wolf","cub","wolfcub"]
+  name: "a wolfcub"
+  description: >-
+    This young cub is frightened by your presence.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wolfden:o25902": 75
+  metadata:
+    areaId: 84
+    exp_level: 2000
+    sex: 1
+- id: m25907
+  keywords: ["lupine"]
+  name: "a dark lupine"
+  description: >-
+    A dark Lupine stand before you.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wolfden:o25905": 75
+  metadata:
+    areaId: 84
+    exp_level: 2000
+    sex: 1
+- id: m25908
+  keywords: ["mongrel"]
+  name: "a mongrel"
+  description: >-
+    A mongrel seem to have escaped destruction.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 84
+    exp_level: 2000
+    sex: 1
+- id: m25909
+  keywords: ["dragon"]
+  name: "the Dragon Sentinel"
+  description: >-
+    A Dragon sentinel stands here, guarding the path.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "wolfden:o25906": 75
+  metadata:
+    areaId: 84
+    exp_level: 2000
+    sex: 1

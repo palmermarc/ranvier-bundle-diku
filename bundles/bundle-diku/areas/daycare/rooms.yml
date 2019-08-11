@@ -1,0 +1,290 @@
+- id: r6601
+  title: "The Dwarven Drop Off "
+  description: >-
+    This is where the dwarven mommies and daddies come to drop off their
+    annoying little brats.  You have the urge to leave.  There is a sign here.
+  exits:
+    - roomId: "dwarven:r6500"
+      direction: north
+    - roomId: "daycare:r6602"
+      direction: south
+- id: r6602
+  title: "Day Care Center"
+  description: >-
+    You are in the north-east corner of the main part of the center.  Toys and
+    toddlers are all over the room.  There is a kitchen to the east.
+  exits:
+    - roomId: "daycare:r6601"
+      direction: north
+    - roomId: "daycare:r6604"
+      direction: south
+    - roomId: "daycare:r6626"
+      direction: east
+    - roomId: "daycare:r6603"
+      direction: west
+  npcs:
+    - id: "daycare:m6600"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "daycare:m6601"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "daycare:m6602"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "daycare:m6606"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r6603
+  title: "Day Care Center"
+  description: >-
+    You are in the north-west corner of the main part of the center.  Toys and
+    toddlers are all over the room.  There is a bathroom to the west.
+  exits:
+    - roomId: "daycare:r6605"
+      direction: south
+    - roomId: "daycare:r6602"
+      direction: east
+    - roomId: "daycare:r6606"
+      direction: west
+  npcs:
+    - id: "daycare:m6600"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r6604
+  title: "Day Care Center"
+  description: >-
+    You are in the south-east corner of the main part of the center.  Toys and
+    toddlers are all over the room.  There is a playground to the east.
+  exits:
+    - roomId: "daycare:r6602"
+      direction: north
+    - roomId: "daycare:r6610"
+      direction: east
+    - roomId: "daycare:r6605"
+      direction: west
+  npcs:
+    - id: "daycare:m6600"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "daycare:m6602"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "daycare:m6606"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "daycare:m6605"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r6605
+  title: "Day Care Center"
+  description: >-
+    You are in the south-west corner of the main part of the center.  Toys and
+    toddlers are all over the room.  There is a staircase to the west.
+  exits:
+    - roomId: "daycare:r6603"
+      direction: north
+    - roomId: "daycare:r6604"
+      direction: east
+    - roomId: "daycare:r6607"
+      direction: west
+  npcs:
+    - id: "daycare:m6600"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "daycare:m6602"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "daycare:m6605"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r6606
+  title: "The Messy Bathroom"
+  description: >-
+    You hold your nose as you realize you have made the worst mistake of your
+    life.  The air is rancid and the walls are stained.
+  exits:
+    - roomId: "daycare:r6603"
+      direction: east
+  npcs:
+    - id: "daycare:m6605"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "daycare:m6601"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r6607
+  title: "The Staircase"
+  description: >-
+    You stand on top of a staircase leading down, and wonder what mystery could
+    lie down under.  Beware!
+  exits:
+    - roomId: "daycare:r6605"
+      direction: east
+    - roomId: "daycare:r6612"
+      direction: down
+- id: r6608
+  title: "The Playground"
+  description: >-
+    You are in the north-west corner of the playground.
+  exits:
+    - roomId: "daycare:r6610"
+      direction: south
+    - roomId: "daycare:r6609"
+      direction: east
+  npcs:
+    - id: "daycare:m6600"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "daycare:m6603"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r6609
+  title: "The Playground"
+  description: >-
+    You are in the north-east corner of the playground.
+  exits:
+    - roomId: "daycare:r6611"
+      direction: south
+    - roomId: "daycare:r6608"
+      direction: west
+  npcs:
+    - id: "daycare:m6600"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "daycare:m6604"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "daycare:m6603"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "daycare:m6603"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r6610
+  title: "The Playground"
+  description: >-
+    You are in the south-west corner of the playground.
+  exits:
+    - roomId: "daycare:r6608"
+      direction: north
+    - roomId: "daycare:r6611"
+      direction: east
+    - roomId: "daycare:r6604"
+      direction: west
+  npcs:
+    - id: "daycare:m6600"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "daycare:m6604"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "daycare:m6603"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "daycare:m6605"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r6611
+  title: "The Playground"
+  description: >-
+    You are in the south-east corner of the playground.
+  exits:
+    - roomId: "daycare:r6609"
+      direction: north
+    - roomId: "daycare:r6610"
+      direction: west
+  npcs:
+    - id: "daycare:m6604"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "daycare:m6603"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "daycare:m6603"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r6612
+  title: "Entrance to the Mini-Maze"
+  description: >-
+    You stand in the entrance to a small, but confusing maze.  You really hope
+    that you don't get lost.
+  exits:
+    - roomId: "daycare:r6613"
+      direction: east
+    - roomId: "daycare:r6607"
+      direction: up
+- id: r6613
+  title: "Mini-Maze"
+  description: >-
+    You are in a small passage that looks just like every other one.
+  exits:
+    - roomId: "daycare:r6615"
+      direction: north
+    - roomId: "daycare:r6612"
+      direction: east
+    - roomId: "daycare:r6614"
+      direction: west
+- id: r6614
+  title: "Mini-Maze"
+  description: >-
+    You are in a small passage that looks just like every other one.
+  exits:
+    - roomId: "daycare:r6616"
+      direction: north
+    - roomId: "daycare:r6613"
+      direction: south
+- id: r6615
+  title: "Mini-Maze"
+  description: >-
+    You are in a small passage that looks just like every other one.
+  exits:
+    - roomId: "daycare:r6613"
+      direction: south
+    - roomId: "daycare:r6616"
+      direction: west
+- id: r6616
+  title: "Mini-Maze"
+  description: >-
+    You are in a small passage that looks just like every other one.
+  exits:
+    - roomId: "daycare:r6614"
+      direction: north
+    - roomId: "daycare:r6615"
+      direction: south
+    - roomId: "daycare:r6624"
+      direction: west
+- id: r6624
+  title: "End of the Mini-Maze"
+  description: >-
+    You stand at the end of your journey.  There is a big sign here and you had
+    better read it!
+  exits:
+    - roomId: "daycare:r6616"
+      direction: north
+    - roomId: "daycare:r6631"
+      direction: south
+  npcs:
+    - id: "daycare:m6607"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6626
+  title: "Messy Kitchen"
+  description: >-
+    You stand in the kitchen and eating area of the day care center.  Pots and
+    pans are everywhere, while the toddlers continue to create chaos.
+  exits:
+    - roomId: "daycare:r6602"
+      direction: west
+- id: r6631
+  title: "The End?"
+  description: >-
+    You have reached the final lair.  It is dominated by a huge five headed
+    dragon (actually an overgrown brat with a Halloween mask).
+  exits:
+    - roomId: "daycare:r6624"
+      direction: north
+  npcs:
+    - id: "daycare:m6608"
+      respawnChance: 100
+      maxLoad: "1"

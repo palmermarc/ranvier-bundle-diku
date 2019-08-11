@@ -1,0 +1,12 @@
+title: "Sewer"
+metadata:
+  id: 67
+  name: "Sewer"
+  createdBy: "diku"
+  starting_vnum: 7000
+  ending_vnum: 7449
+  item_requirements: 0
+  filename: "sewer.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

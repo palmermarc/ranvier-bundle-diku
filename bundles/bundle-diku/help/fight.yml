@@ -1,0 +1,17 @@
+---
+body: |
+  Syntax: fightstyle <number> <style>
+  
+  This is used for unarmed combat, and it allows the fighter to decide on 
+  their style of unarmed attack. Many different types of attack are 
+  possible, each with different advantages and disadvantages. Your first 
+  attack in combat always uses the first number slot. If you have a second 
+  attack, this will draw a fighting technique from slots 1 to 4. If you 
+  have a third attack, it will draw a fighting technique from slots 5 to 
+  8. Any other attacks are randomly drawn from any of slots 1 to 8. If 
+  the slot is blank (0) then the attack is a standard unarmed attack.
+  
+  ***This code has been removed.***
+  
+  - style
+  - fightstyle

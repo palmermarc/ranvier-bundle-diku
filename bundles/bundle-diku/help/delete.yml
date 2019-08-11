@@ -1,0 +1,10 @@
+---
+body: |
+  Syntax: delete <password>
+  
+  This will delete your player file from the game forever. So be warned!
+  
+  Don't come asking us for a restore because you got bored, disgusted, or 
+  logged on drunk. It really annoys us.
+  
+  - del

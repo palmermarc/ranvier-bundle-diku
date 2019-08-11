@@ -1,0 +1,26 @@
+- id: m8600
+  keywords: ["keeper"]
+  name: "the keeper"
+  description: >-
+    The keeper of the Morris equipment is here.
+  level: 333
+  attributes:
+    health: 900
+    armor: -1
+    hitroll: 15
+    damroll: 15
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 20
+    exp_level: 25000
+    sex: 2

@@ -1,0 +1,122 @@
+- id: r2801
+  title: "Wastedump "
+  description: >-
+    This room is filled with bone shards and fragments.  Something (or things)
+    very big lives here.  A small plaque is on the wall.
+  exits:
+    - roomId: "haon:r6124"
+      direction: north
+    - roomId: "trollden:r2803"
+      direction: south
+  npcs:
+    - id: "trollden:m2800"
+      respawnChance: 100
+      maxLoad: "2"
+  items:
+    - id: "trollden:o2805"
+      respawnChance: 75
+- id: r2802
+  title: "Troll's Larder"
+  description: >-
+    This room has blood and grime all over the walls.  You see maggots and other
+    insects crawling up them.  The resident is definitely uncivilized.  Half-eaten
+    and rotting body parts scatter the floor, each having its own colony of flies,
+    worms, and maggots.
+  exits:
+    - roomId: "trollden:r2803"
+      direction: east
+  npcs:
+    - id: "trollden:m2801"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "trollden:m2801"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "trollden:m2806"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "trollden:m2806"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "trollden:m2807"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2803
+  title: "Troll's Living Room"
+  description: >-
+    This small cave opens to the north, south, east, and west.  You are
+    overcome by the stench and consider turning around.
+  exits:
+    - roomId: "trollden:r2801"
+      direction: north
+    - roomId: "trollden:r2805"
+      direction: south
+    - roomId: "trollden:r2804"
+      direction: east
+    - roomId: "trollden:r2802"
+      direction: west
+  npcs:
+    - id: "trollden:m2802"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "trollden:m2800"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "trollden:m2806"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "trollden:m2806"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "trollden:m2808"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2804
+  title: "The Playpen"
+  description: >-
+    The walls are covered with blood (and body parts!?!?).  Plastered on the far
+    wall you see what looks like a human arm.  A half-eaten body lies here with
+    its chest ripped out.  The predator seems disinterested in it.
+  exits:
+    - roomId: "trollden:r2803"
+      direction: west
+  npcs:
+    - id: "trollden:m2803"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "trollden:m2803"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "trollden:m2803"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "trollden:m2803"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "trollden:m2806"
+      respawnChance: 100
+      maxLoad: "20"
+  items:
+    - id: "trollden:o2800"
+      respawnChance: 75
+- id: r2805
+  title: "Troll's Bedroom"
+  description: >-
+    Obviously something REALLY big lives here.  The stench is quite unbearable.
+    There are piles and piles of rotten and half-eaten body parts of animals,
+    orcs, (and humans?) strewn across the floor.  There is a larger, more
+    prominent pile of rotten parts over in a corner.  It seems to have been
+    flattened by something.
+  exits:
+    - roomId: "trollden:r2803"
+      direction: north
+  npcs:
+    - id: "trollden:m2804"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "trollden:m2805"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "trollden:o2801"
+      respawnChance: 75

@@ -1,0 +1,52 @@
+- id: m1000
+  keywords: ["fairy","dragon"]
+  name: "A fairy dragon"
+  description: >-
+    A fairy dragon is fluttering around here looking for something to do...
+  level: 455
+  attributes:
+    health: 62844
+    armor: 33160
+    hitroll: 8300
+    damroll: 4150
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 19
+          max: 21
+  metadata:
+    areaId: 2
+    exp_level: 40000
+    sex: 0
+- id: m1001
+  keywords: ["griffin"]
+  name: "A griffin"
+  description: >-
+    A large black winged griffin swoops into an attack.
+  level: 455
+  attributes:
+    health: 62844
+    armor: 33160
+    hitroll: 8300
+    damroll: 4150
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 2
+    exp_level: 40000
+    sex: 1

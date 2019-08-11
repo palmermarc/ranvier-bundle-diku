@@ -1,0 +1,22 @@
+---
+body: |
+  Each vampire has three disciplines from which their powers come, although these disciplines vary from clan to clan.
+  
+  Disciplines Include: animalism, auspex, celerity, dominate, fortitude, obfuscate, obtenebration, potence, presence, quietus, thaumaturgy, vicissitude
+related:
+  - animalism
+  - auspex
+  - celerity
+  - dominate
+  - fortitude
+  - obfuscate
+  - obtenebration
+  - potence
+  - presence
+  - quietus
+  - thaumaturgy
+  - vicissitude
+keywords:
+  - disciplines
+  - disc
+  - clandisc

@@ -1,0 +1,11 @@
+---
+body: |
+  Syntax: title <string>
+  
+  Sets your title to a given string.
+  
+  The game supplies a title when your character is created. You can use 
+  TITLE to set your title to something else. 
+  
+  You can see your title and other people's by typing WHO.
+  

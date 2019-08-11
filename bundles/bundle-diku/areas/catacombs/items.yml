@@ -1,0 +1,228 @@
+- id: o12600
+  name: "key iron"
+  roomDesc: "An iron key looks uninteresting"
+  keywords: ["key","iron"]
+  description: "An iron key looks uninteresting"
+  type: KEY
+- id: o12601
+  name: "key iron"
+  roomDesc: "An iron key looks uninteresting"
+  keywords: ["key","iron"]
+  description: "An iron key looks uninteresting"
+  type: KEY
+- id: o12602
+  name: "key iron"
+  roomDesc: "An iron key looks uninteresting"
+  keywords: ["key","iron"]
+  description: "An iron key looks uninteresting"
+  type: KEY
+- id: o12603
+  name: "skin wine"
+  roomDesc: "A large leather wineskin lies here"
+  keywords: ["skin","wine"]
+  description: "A large leather wineskin lies here"
+  type: DRINKCON
+- id: o12604
+  name: "robes"
+  roomDesc: "A small pile of black cloth lies here"
+  keywords: ["robes"]
+  description: "A small pile of black cloth lies here"
+  type: LIGHTARMOR
+- id: o12605
+  name: "habit nuns"
+  roomDesc: "A small pile of black cloth lies here"
+  keywords: ["habit","nuns"]
+  description: "A small pile of black cloth lies here"
+  type: LIGHTARMOR
+- id: o12606
+  name: "wimple"
+  roomDesc: "A small piece of black cloth lies here"
+  keywords: ["wimple"]
+  description: "A small piece of black cloth lies here"
+  type: LIGHTARMOR
+- id: o12607
+  name: "robes magi"
+  roomDesc: "A small pile of black cloth lies here"
+  keywords: ["robes","magi"]
+  description: "A small pile of black cloth lies here"
+  type: LIGHTARMOR
+- id: o12608
+  name: "staff"
+  roomDesc: "A large black staff lies on the floor"
+  keywords: ["staff"]
+  description: "A large black staff lies on the floor"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12609
+  name: "bronze chestplate plate chest"
+  roomDesc: "A piece of golden armour lies here"
+  keywords: ["bronze","chestplate","plate","chest"]
+  description: "A piece of golden armour lies here"
+  type: HEAVYARMOR
+- id: o12610
+  name: "helmet bronze"
+  roomDesc: "A piece of golden armour lies here"
+  keywords: ["helmet","bronze"]
+  description: "A piece of golden armour lies here"
+  type: HEAVYARMOR
+- id: o12611
+  name: "gloves bronze"
+  roomDesc: "A small piece of golden armour lies here"
+  keywords: ["gloves","bronze"]
+  description: "A small piece of golden armour lies here"
+  type: HEAVYARMOR
+- id: o12612
+  name: "boots bronze"
+  roomDesc: "A piece of golden armour lies here"
+  keywords: ["boots","bronze"]
+  description: "A piece of golden armour lies here"
+  type: HEAVYARMOR
+- id: o12613
+  name: "sleeves mail bronze"
+  roomDesc: "Some golden armour lies here"
+  keywords: ["sleeves","mail","bronze"]
+  description: "Some golden armour lies here"
+  type: HEAVYARMOR
+- id: o12614
+  name: "leggings mail bronze"
+  roomDesc: "Some golden armour lies here"
+  keywords: ["leggings","mail","bronze"]
+  description: "Some golden armour lies here"
+  type: HEAVYARMOR
+- id: o12615
+  name: "sword bronze"
+  roomDesc: "A golden sword lies here"
+  keywords: ["sword","bronze"]
+  description: "A golden sword lies here"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12616
+  name: "jerkin leather"
+  roomDesc: "Some tattered leather lies here"
+  keywords: ["jerkin","leather"]
+  description: "Some tattered leather lies here"
+  type: MEDIUMARMOR
+- id: o12617
+  name: "pants leather"
+  roomDesc: "Some tattered leather lies here"
+  keywords: ["pants","leather"]
+  description: "Some tattered leather lies here"
+  type: MEDIUMARMOR
+- id: o12618
+  name: "club branch wood"
+  roomDesc: "A small piece of branch lies here"
+  keywords: ["club","branch","wood"]
+  description: "A small piece of branch lies here"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12619
+  name: "bread loaf"
+  roomDesc: "A stale loaf is here"
+  keywords: ["bread","loaf"]
+  description: "A stale loaf is here"
+  type: FOOD
+- id: o12620
+  name: "skin water canteen"
+  roomDesc: "A small leather skin lies here"
+  keywords: ["skin","water","canteen"]
+  description: "A small leather skin lies here"
+  type: DRINKCON
+- id: o12621
+  name: "ball light"
+  roomDesc: "A bright ball of light shimmers in the air"
+  keywords: ["ball","light"]
+  description: "A bright ball of light shimmers in the air"
+  type: LIGHT
+- id: o12622
+  name: "rock"
+  roomDesc: "A small piece of *interesting* rock lies here"
+  keywords: ["rock"]
+  description: "A small piece of *interesting* rock lies here"
+  type: TRASH
+- id: o12623
+  name: "rock"
+  roomDesc: "A small piece of *interesting* rock lies here"
+  keywords: ["rock"]
+  description: "A small piece of *interesting* rock lies here"
+  type: TRASH
+- id: o12624
+  name: "rock"
+  roomDesc: "A small piece of *interesting* rock lies here"
+  keywords: ["rock"]
+  description: "A small piece of *interesting* rock lies here"
+  type: TRASH
+- id: o12625
+  name: "sword steel"
+  roomDesc: "A steel sword rests here."
+  keywords: ["sword","steel"]
+  description: "A steel sword rests here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12626
+  name: "chain mail shirt"
+  roomDesc: "A small pile of metal links lies here"
+  keywords: ["chain","mail","shirt"]
+  description: "A small pile of metal links lies here"
+  type: HEAVYARMOR
+- id: o12627
+  name: "sword"
+  roomDesc: "A standard sword rests here."
+  keywords: ["sword"]
+  description: "A standard sword rests here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12628
+  name: "urn clay"
+  roomDesc: "A small urn lies here"
+  keywords: ["urn","clay"]
+  description: "A small urn lies here"
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o12629
+  name: "key iron"
+  roomDesc: "An iron key looks uninteresting"
+  keywords: ["key","iron"]
+  description: "An iron key looks uninteresting"
+  type: KEY
+- id: o12630
+  name: "pants cloth black"
+  roomDesc: "A small pile of black cloth is lieing here"
+  keywords: ["pants","cloth","black"]
+  description: "A small pile of black cloth is lieing here"
+  type: LIGHTARMOR
+- id: o12631
+  name: "cloak cloth black"
+  roomDesc: "A small pile of black cloth is lieing here"
+  keywords: ["cloak","cloth","black"]
+  description: "A small pile of black cloth is lieing here"
+  type: ACCESSORY
+- id: o12632
+  name: "corpse"
+  roomDesc: "A corpse lies here, prepared for animation"
+  keywords: ["corpse"]
+  description: "A corpse lies here, prepared for animation"
+  type: TRASH
+- id: o12633
+  name: "clan tzimisce book"
+  roomDesc: "A book made form human skin filled with clan secrets lies here."
+  keywords: ["clan","tzimisce","book"]
+  description: "A book made form human skin filled with clan secrets lies here."
+  type: FURNITURE

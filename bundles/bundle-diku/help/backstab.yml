@@ -1,0 +1,30 @@
+---
+body: |
+  Syntax: backstab <character>
+  Syntax: berserk
+  Syntax: disarm
+  Syntax: kick
+  Syntax: punch <character>
+  Syntax: kill <character>
+  
+  KILL starts a fight, and, hopefully, kills something. BACKSTAB is another way
+  to start a fight. BS is a synonym for BACKSTAB.
+  
+  BERSERK will make you strike out at every creature in the room. It will 
+  hit players as well as mobiles, so it's a good idea not to use this skill 
+  while you are grouped.
+  DISARM is an auxiliary fighting command to disarm your opponent. Similarly,
+  KICK will inflict more damage during combat by kicking.
+  PUNCH will inflict a small amount of damage, and stun your opponent for a 
+  short period of time. It also has a chance of breaking your opponents 
+  nose or jaw.
+  
+  In order to BACKSTAB, DISARM, KICK or PUNCH successfully, you must practice
+  the appropriate skill.
+  
+  - berserk
+  - bs
+  - disarm
+  - kick
+  - punch
+  - kill

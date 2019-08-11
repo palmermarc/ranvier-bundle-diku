@@ -1,0 +1,12 @@
+title: "Redferne's Residence"
+metadata:
+  id: 63
+  name: "Redferne's Residence"
+  createdBy: "diku"
+  starting_vnum: 7900
+  ending_vnum: 7949
+  item_requirements: 0
+  filename: "redferne.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

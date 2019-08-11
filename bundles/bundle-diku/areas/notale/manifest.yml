@@ -1,0 +1,12 @@
+title: "The Northern Tale"
+metadata:
+  id: 1
+  name: "The Northern Tale"
+  createdBy: "jaanus & KekeH"
+  starting_vnum: 14100
+  ending_vnum: 14199
+  item_requirements: 16000
+  filename: "notale.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

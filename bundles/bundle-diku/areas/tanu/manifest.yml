@@ -1,0 +1,12 @@
+title: "Tanu"
+metadata:
+  id: 73
+  name: "Tanu"
+  createdBy: "jody"
+  starting_vnum: 8700
+  ending_vnum: 8749
+  item_requirements: 20000
+  filename: "tanu.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

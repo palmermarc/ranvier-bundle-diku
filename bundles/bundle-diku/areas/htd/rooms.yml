@@ -1,0 +1,489 @@
+- id: r12410
+  title: "Entrance"
+  description: >-
+    You are standing at the entrance.
+  exits:
+    - roomId: "olympus:r918"
+      direction: north
+    - roomId: "htd:r12411"
+      direction: south
+- id: r12411
+  title: "Archway"
+  description: >-
+    You are standing underneath a magnificent archway.
+  exits:
+    - roomId: "htd:r12410"
+      direction: north
+    - roomId: "htd:r12412"
+      direction: south
+- id: r12412
+  title: "Hall"
+  description: >-
+    You are in a hall.
+  exits:
+    - roomId: "htd:r12411"
+      direction: north
+    - roomId: "htd:r12413"
+      direction: south
+    - roomId: "htd:r12415"
+      direction: east
+    - roomId: "htd:r12417"
+      direction: west
+- id: r12413
+  title: "Hall"
+  description: >-
+    You are in a hall.
+  exits:
+    - roomId: "htd:r12412"
+      direction: north
+    - roomId: "htd:r12414"
+      direction: south
+    - roomId: "htd:r12416"
+      direction: east
+    - roomId: "htd:r12418"
+      direction: west
+- id: r12414
+  title: "End of the Hall"
+  description: >-
+    You are at the end of the hall.  You see a passage leading down.
+  exits:
+    - roomId: "htd:r12413"
+      direction: north
+    - roomId: "htd:r12419"
+      direction: down
+  npcs:
+    - id: "htd:m12410"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "htd:o12426"
+      respawnChance: 75
+- id: r12415
+  title: "Room"
+  description: >-
+    You are standing in a room.  There is some scribble on the door.
+  exits:
+    - roomId: "htd:r12412"
+      direction: west
+  npcs:
+    - id: "htd:m12411"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12416
+  title: "Room"
+  description: >-
+    You are standing in a room.  There is some scribble on the door.
+  exits:
+    - roomId: "htd:r12413"
+      direction: west
+  npcs:
+    - id: "htd:m12416"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12417
+  title: "Room"
+  description: >-
+    You are standing in a room.  There is some scribble on the door.
+  exits:
+    - roomId: "htd:r12412"
+      direction: east
+  npcs:
+    - id: "htd:m12417"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12418
+  title: "Room"
+  description: >-
+    You are standing in a room.  There is some scribble on the door.
+  exits:
+    - roomId: "htd:r12413"
+      direction: east
+  npcs:
+    - id: "htd:m12418"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12419
+  title: "Passage"
+  description: >-
+    It only gets darker as you go down.
+  exits:
+    - roomId: "htd:r12414"
+      direction: up
+    - roomId: "htd:r12420"
+      direction: down
+- id: r12420
+  title: "Passage"
+  description: >-
+    The path only gets darker and darker as you go down.
+  exits:
+    - roomId: "htd:r12419"
+      direction: up
+    - roomId: "htd:r12421"
+      direction: down
+- id: r12421
+  title: "Passage"
+  description: >-
+    The passage stops going down here.
+  exits:
+    - roomId: "htd:r12422"
+      direction: south
+    - roomId: "htd:r12420"
+      direction: up
+- id: r12422
+  title: "Passage"
+  description: >-
+    You are standing in a passage.
+  exits:
+    - roomId: "htd:r12421"
+      direction: north
+    - roomId: "htd:r12423"
+      direction: east
+  npcs:
+    - id: "htd:m12425"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12423
+  title: "Passage"
+  description: >-
+    You are standing in a passage.
+  exits:
+    - roomId: "htd:r12424"
+      direction: east
+    - roomId: "htd:r12422"
+      direction: west
+  npcs:
+    - id: "htd:m12427"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "htd:m12412"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12424
+  title: "Passage"
+  description: >-
+    You are standing in a passage.
+  exits:
+    - roomId: "htd:r12423"
+      direction: west
+    - roomId: "htd:r12425"
+      direction: down
+- id: r12425
+  title: "The Darkness"
+  description: >-
+    The passage gets especially dark here.
+  exits:
+    - roomId: "htd:r12424"
+      direction: up
+    - roomId: "htd:r12426"
+      direction: down
+- id: r12426
+  title: "The Darkness"
+  description: >-
+    The passage gets especially dark here.
+  exits:
+    - roomId: "htd:r12425"
+      direction: up
+    - roomId: "htd:r12427"
+      direction: down
+- id: r12427
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12436"
+      direction: south
+    - roomId: "htd:r12428"
+      direction: west
+    - roomId: "htd:r12426"
+      direction: up
+- id: r12428
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12435"
+      direction: south
+    - roomId: "htd:r12427"
+      direction: east
+    - roomId: "htd:r12429"
+      direction: west
+- id: r12429
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12434"
+      direction: south
+    - roomId: "htd:r12428"
+      direction: east
+    - roomId: "htd:r12430"
+      direction: west
+- id: r12430
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12433"
+      direction: south
+    - roomId: "htd:r12429"
+      direction: east
+    - roomId: "htd:r12431"
+      direction: west
+- id: r12431
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12432"
+      direction: south
+    - roomId: "htd:r12430"
+      direction: east
+  npcs:
+    - id: "htd:m12415"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12432
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12431"
+      direction: north
+    - roomId: "htd:r12441"
+      direction: south
+    - roomId: "htd:r12433"
+      direction: east
+- id: r12433
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12430"
+      direction: north
+    - roomId: "htd:r12440"
+      direction: south
+    - roomId: "htd:r12434"
+      direction: east
+    - roomId: "htd:r12432"
+      direction: west
+- id: r12434
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12429"
+      direction: north
+    - roomId: "htd:r12439"
+      direction: south
+    - roomId: "htd:r12435"
+      direction: east
+    - roomId: "htd:r12433"
+      direction: west
+  npcs:
+    - id: "htd:m12413"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r12435
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12428"
+      direction: north
+    - roomId: "htd:r12438"
+      direction: south
+    - roomId: "htd:r12436"
+      direction: east
+    - roomId: "htd:r12434"
+      direction: west
+  npcs:
+    - id: "htd:m12419"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r12436
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12427"
+      direction: north
+    - roomId: "htd:r12437"
+      direction: south
+    - roomId: "htd:r12435"
+      direction: west
+- id: r12437
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12436"
+      direction: north
+    - roomId: "htd:r12438"
+      direction: west
+- id: r12438
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12435"
+      direction: north
+    - roomId: "htd:r12437"
+      direction: east
+    - roomId: "htd:r12439"
+      direction: west
+  npcs:
+    - id: "htd:m12420"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r12439
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12434"
+      direction: north
+    - roomId: "htd:r12438"
+      direction: east
+    - roomId: "htd:r12440"
+      direction: west
+- id: r12440
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12433"
+      direction: north
+    - roomId: "htd:r12439"
+      direction: east
+    - roomId: "htd:r12441"
+      direction: west
+- id: r12441
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12432"
+      direction: north
+    - roomId: "htd:r12442"
+      direction: south
+    - roomId: "htd:r12440"
+      direction: east
+  npcs:
+    - id: "htd:m12421"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r12442
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12441"
+      direction: north
+    - roomId: "htd:r12443"
+      direction: east
+- id: r12443
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12444"
+      direction: east
+    - roomId: "htd:r12442"
+      direction: west
+  npcs:
+    - id: "htd:m12422"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r12444
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12445"
+      direction: east
+    - roomId: "htd:r12443"
+      direction: west
+  npcs:
+    - id: "htd:m12424"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r12445
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12446"
+      direction: east
+    - roomId: "htd:r12444"
+      direction: west
+- id: r12446
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12447"
+      direction: south
+    - roomId: "htd:r12445"
+      direction: west
+  npcs:
+    - id: "htd:m12423"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12447
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12446"
+      direction: north
+    - roomId: "htd:r12448"
+      direction: west
+- id: r12448
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12447"
+      direction: east
+    - roomId: "htd:r12449"
+      direction: west
+  npcs:
+    - id: "htd:m12428"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12449
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12448"
+      direction: east
+    - roomId: "htd:r12450"
+      direction: west
+  npcs:
+    - id: "htd:m12426"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r12450
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12449"
+      direction: east
+    - roomId: "htd:r12451"
+      direction: west
+- id: r12451
+  title: "The Darkness"
+  description: >-
+    You stumble around in total darkness.
+  exits:
+    - roomId: "htd:r12450"
+      direction: east
+  npcs:
+    - id: "htd:m12429"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "htd:m12414"
+      respawnChance: 100
+      maxLoad: "1"

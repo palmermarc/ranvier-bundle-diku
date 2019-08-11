@@ -1,0 +1,28 @@
+---
+body: |
+  Syntax: hold <object>
+  Syntax: remove <object>
+  Syntax: remove all
+  Syntax: wear <object>
+  Syntax: wear all
+  Syntax: wield <object>
+  
+  Three of these commands will take an object from your inventory and start using
+  it as equipment. HOLD is for light sources, wands, and staves. WEAR is for
+  armor. WIELD is for weapons.
+  
+  WEAR ALL will attempt to HOLD, WEAR, or WIELD each suitable item in your
+  inventory.
+  
+  You may not be able to HOLD, WEAR, or WIELD an item if its alignment does not
+  match yours, if it is too heavy for you, or if you are not experienced enough
+  to use it properly.
+  
+  REMOVE ALL will attempt to remove all items currently equipped.
+  
+  REMOVE will take any object from your equipment and put it back into your
+  inventory.
+  
+  - remove
+  - wear
+  - wield

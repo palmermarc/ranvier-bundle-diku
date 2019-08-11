@@ -1,0 +1,264 @@
+- id: o12000
+  name: "cotton seed"
+  roomDesc: "A cotton seed is half-buried in the dust."
+  keywords: ["cotton","seed"]
+  description: "A cotton seed is half-buried in the dust."
+  type: FOOD
+- id: o12001
+  name: "feed"
+  roomDesc: "Some catfish feed has been spilt here."
+  keywords: ["feed"]
+  description: "Some catfish feed has been spilt here."
+  type: FOOD
+- id: o12002
+  name: "fish bone bones skeleton"
+  roomDesc: "A catfish skeleton lies here."
+  keywords: ["fish","bone","bones","skeleton"]
+  description: "A catfish skeleton lies here."
+  type: FOOD
+- id: o12003
+  name: "catfish fish dinner platter"
+  roomDesc: "A catfish platter has been placed on the table."
+  keywords: ["catfish","fish","dinner","platter"]
+  description: "A catfish platter has been placed on the table."
+  type: FOOD
+- id: o12004
+  name: "high powered rifle"
+  roomDesc: "A lawman's rifle is lying here."
+  keywords: ["high","powered","rifle"]
+  description: "A lawman's rifle is lying here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12005
+  name: "shotgun"
+  roomDesc: "Here lies an old-fashioned shotgun."
+  keywords: ["shotgun"]
+  description: "Here lies an old-fashioned shotgun."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12006
+  name: "rebel flag"
+  roomDesc: "The Confederate flag is at half-mast."
+  keywords: ["rebel","flag"]
+  description: "The Confederate flag is at half-mast."
+  type: TRASH
+- id: o12007
+  name: "big ugly stick"
+  roomDesc: "A big ugly stick."
+  keywords: ["big","ugly","stick"]
+  description: "A big ugly stick."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12008
+  name: "brass knuckle knuckles"
+  roomDesc: "A pair of brass knuckles lies here."
+  keywords: ["brass","knuckle","knuckles"]
+  description: "A pair of brass knuckles lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12009
+  name: "jewelry necklace stolen"
+  roomDesc: "A necklace lies here, suspiciously."
+  keywords: ["jewelry","necklace","stolen"]
+  description: "A necklace lies here, suspiciously."
+  type: ACCESSORY
+- id: o12010
+  name: "fine diamond necklace"
+  roomDesc: "A lovely necklace reflects the sunlight."
+  keywords: ["fine","diamond","necklace"]
+  description: "A lovely necklace reflects the sunlight."
+  type: ACCESSORY
+- id: o12011
+  name: "bread loaf white"
+  roomDesc: "A loaf of white bread lies here.   mmmMMMmmm yummy!"
+  keywords: ["bread","loaf","white"]
+  description: "A loaf of white bread lies here.   mmmMMMmmm yummy!"
+  type: FOOD
+- id: o12012
+  name: "milk bottle"
+  roomDesc: "Here sits your very own bottle of Bessie's finest."
+  keywords: ["milk","bottle"]
+  description: "Here sits your very own bottle of Bessie's finest."
+  type: DRINKCON
+- id: o12013
+  name: "back pack trailpack "
+  roomDesc: "A fine trailpack lies here."
+  keywords: ["back","pack","trailpack",""]
+  description: "A fine trailpack lies here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o12014
+  name: "old couch sofa"
+  roomDesc: "An old, broken-down couch."
+  keywords: ["old","couch","sofa"]
+  description: "An old, broken-down couch."
+  type: FURNITURE
+- id: o12015
+  name: "broken chair"
+  roomDesc: "An old, broken down La-Z-Boy is sitting here."
+  keywords: ["broken","chair"]
+  description: "An old, broken down La-Z-Boy is sitting here."
+  type: FURNITURE
+- id: o12016
+  name: "costume jewelry wristband band"
+  roomDesc: "A find piece of costume jewelry lies here."
+  keywords: ["costume","jewelry","wristband","band"]
+  description: "A find piece of costume jewelry lies here."
+  type: ACCESSORY
+- id: o12017
+  name: "antique shotgun"
+  roomDesc: "An old, antique shotgun has been tossed aside here."
+  keywords: ["antique","shotgun"]
+  description: "An old, antique shotgun has been tossed aside here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12018
+  name: "civil war sword katana"
+  roomDesc: "A fine sword, once used in the civil war, lies here."
+  keywords: ["civil","war","sword","katana"]
+  description: "A fine sword, once used in the civil war, lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12019
+  name: "survival knife"
+  roomDesc: "Everything that you'd ever need to survive, is summed up in this short blade."
+  keywords: ["survival","knife"]
+  description: "Everything that you'd ever need to survive, is summed up in this short blade."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12020
+  name: "45mm pistol gun weapon"
+  roomDesc: "The lawman's 45 mm pistol lies here."
+  keywords: ["45mm","pistol","gun","weapon"]
+  description: "The lawman's 45 mm pistol lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12021
+  name: "hay bale"
+  roomDesc: "A bale of hay sits here."
+  keywords: ["hay","bale"]
+  description: "A bale of hay sits here."
+  type: FOOD
+- id: o12022
+  name: "bottle whiskey moonshine"
+  roomDesc: "Uncle Jesse's finest brew sits here on the ground."
+  keywords: ["bottle","whiskey","moonshine"]
+  description: "Uncle Jesse's finest brew sits here on the ground."
+  type: DRINKCON
+- id: o12023
+  name: "bottle whiskey"
+  roomDesc: "A bottle of whiskey lies here under the counter, half-drunk."
+  keywords: ["bottle","whiskey"]
+  description: "A bottle of whiskey lies here under the counter, half-drunk."
+  type: DRINKCON
+- id: o12024
+  name: "shot rum glass"
+  roomDesc: "A small shot glass, filled to the brim with rum."
+  keywords: ["shot","rum","glass"]
+  description: "A small shot glass, filled to the brim with rum."
+  type: DRINKCON
+- id: o12025
+  name: "memorial statue"
+  roomDesc: "The pigeons can't help but use this memorial to Azazel as a place to deposit their dung."
+  keywords: ["memorial","statue"]
+  description: "The pigeons can't help but use this memorial to Azazel as a place to deposit their dung."
+  type: FURNITURE
+- id: o12026
+  name: "memorial statue"
+  roomDesc: "Children point and stare at the massive statue of Botch."
+  keywords: ["memorial","statue"]
+  description: "Children point and stare at the massive statue of Botch."
+  type: FURNITURE
+- id: o12027
+  name: "memorial statue"
+  roomDesc: "A stately statue of Vertigo the great is here.  "
+  keywords: ["memorial","statue"]
+  description: "A stately statue of Vertigo the great is here.  "
+  type: FURNITURE
+- id: o12028
+  name: "treasure chest buried"
+  roomDesc: "A chest is half-buried in the bottom of the lake."
+  keywords: ["treasure","chest","buried"]
+  description: "A chest is half-buried in the bottom of the lake."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o12029
+  name: "jukebox"
+  roomDesc: "The restaurant jukebox sits here in the corner, bouncing to the music."
+  keywords: ["jukebox"]
+  description: "The restaurant jukebox sits here in the corner, bouncing to the music."
+  type: FURNITURE
+- id: o12030
+  name: "soybean seed bean"
+  roomDesc: "A soybean seed hides in the dust."
+  keywords: ["soybean","seed","bean"]
+  description: "A soybean seed hides in the dust."
+  type: FOOD
+- id: o12031
+  name: "hoe equipment farm garden"
+  roomDesc: "A simple garden hoe lies here."
+  keywords: ["hoe","equipment","farm","garden"]
+  description: "A simple garden hoe lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12032
+  name: "long sword"
+  roomDesc: "A long sword rests here."
+  keywords: ["long","sword"]
+  description: "A long sword rests here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12033
+  name: "corpse city cityguard guard"
+  roomDesc: "The corpse of the cityguard lies here."
+  keywords: ["corpse","city","cityguard","guard"]
+  description: "The corpse of the cityguard lies here."
+  type: TRASH
+- id: o12034
+  name: "obsidian charm deception"
+  roomDesc: "An obsidian charm flickers in and out of existence."
+  keywords: ["obsidian","charm","deception"]
+  description: "An obsidian charm flickers in and out of existence."
+  type: ACCESSORY
+- id: o12035
+  name: "hog feed"
+  roomDesc: "Some hog feed has been strewn across the ground here."
+  keywords: ["hog","feed"]
+  description: "Some hog feed has been strewn across the ground here."
+  type: FOOD

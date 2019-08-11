@@ -1,0 +1,404 @@
+- id: o14100
+  name: "aurora borealis"
+  roomDesc: "Aurora Borealis - polar lights fallen from sky."
+  keywords: ["aurora","borealis"]
+  description: "Aurora Borealis - polar lights fallen from sky."
+  type: TREASURE
+- id: o14101
+  name: "wand black wooden"
+  roomDesc: "A piece of dangerous-looking wood lies here."
+  keywords: ["wand","black","wooden"]
+  description: "A piece of dangerous-looking wood lies here."
+  type: WAND
+- id: o14102
+  name: "robe cotton"
+  roomDesc: "A rough home-made robe lies on the ground."
+  keywords: ["robe","cotton"]
+  description: "A rough home-made robe lies on the ground."
+  type: LIGHTARMOR
+- id: o14103
+  name: "amulet"
+  roomDesc: "A piece of stone with a leather cord, giving courage to it's owner."
+  keywords: ["amulet"]
+  description: "A piece of stone with a leather cord, giving courage to it's owner."
+  type: ACCESSORY
+- id: o14104
+  name: "fingers human"
+  roomDesc: "Some real human fingers, still bleeding, as you notice with discust."
+  keywords: ["fingers","human"]
+  description: "Some real human fingers, still bleeding, as you notice with discust."
+  type: PILL
+- id: o14105
+  name: "robe raindeerskin"
+  roomDesc: "This garment looks very much weatherproof."
+  keywords: ["robe","raindeerskin"]
+  description: "This garment looks very much weatherproof."
+  type: LIGHTARMOR
+- id: o14106
+  name: "hat winds"
+  roomDesc: "Saams can hear the news from every corner of the world, when wearing this \n\rhat."
+  keywords: ["hat","winds"]
+  description: "Saams can hear the news from every corner of the world, when wearing this \n\rhat."
+  type: LIGHTARMOR
+- id: o14107
+  name: "amulet winds"
+  roomDesc: "This stony amulet is used by wind worshippers."
+  keywords: ["amulet","winds"]
+  description: "This stony amulet is used by wind worshippers."
+  type: ACCESSORY
+- id: o14108
+  name: "staff blue"
+  roomDesc: "A piece of warm summer night has taken the form of a staff."
+  keywords: ["staff","blue"]
+  description: "A piece of warm summer night has taken the form of a staff."
+  type: STAFF
+- id: o14109
+  name: "dagger"
+  roomDesc: "A recklessly made lethal weapon lies on the ground."
+  keywords: ["dagger"]
+  description: "A recklessly made lethal weapon lies on the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14110
+  name: "cup beercup giant"
+  roomDesc: "Hmm.. the cup looks like it could contain a whole barrel of a beer."
+  keywords: ["cup","beercup","giant"]
+  description: "Hmm.. the cup looks like it could contain a whole barrel of a beer."
+  type: DRINKCON
+- id: o14111
+  name: "sword cursed"
+  roomDesc: "A sharp weapon lies here, possessed with evil. "
+  keywords: ["sword","cursed"]
+  description: "A sharp weapon lies here, possessed with evil. "
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14112
+  name: "skirt cotton"
+  roomDesc: "A simple long skirt. You won't look much attractive in it. "
+  keywords: ["skirt","cotton"]
+  description: "A simple long skirt. You won't look much attractive in it. "
+  type: LIGHTARMOR
+- id: o14113
+  name: "vobla"
+  roomDesc: "Ooohh, what joy, a dead fish, prefabricated with sun and salt. Yummy."
+  keywords: ["vobla"]
+  description: "Ooohh, what joy, a dead fish, prefabricated with sun and salt. Yummy."
+  type: FOOD
+- id: o14114
+  name: "spear wooden"
+  roomDesc: "Obviously a pretty blunt weapon, yet deadly when used properly."
+  keywords: ["spear","wooden"]
+  description: "Obviously a pretty blunt weapon, yet deadly when used properly."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14115
+  name: "shield wooden"
+  roomDesc: "A piece of wood, covered with leather. It won't give you much protection."
+  keywords: ["shield","wooden"]
+  description: "A piece of wood, covered with leather. It won't give you much protection."
+  type: SHIELD
+- id: o14116
+  name: "kannel"
+  roomDesc: "An ancient music instrument, perfect for creating annoying sounds."
+  keywords: ["kannel"]
+  description: "An ancient music instrument, perfect for creating annoying sounds."
+  type: FURNITURE
+- id: o14117
+  name: "spear"
+  roomDesc: "A nice expensive-looking weapon."
+  keywords: ["spear"]
+  description: "A nice expensive-looking weapon."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14118
+  name: "spear iron"
+  roomDesc: "You can almost hear the death cries of the innocent victims that lost their \n\rlives to that spear."
+  keywords: ["spear","iron"]
+  description: "You can almost hear the death cries of the innocent victims that lost their \n\rlives to that spear."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14119
+  name: "club iron"
+  roomDesc: "A simple, yet effective weapon. You got to be real strong to use it properly."
+  keywords: ["club","iron"]
+  description: "A simple, yet effective weapon. You got to be real strong to use it properly."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14120
+  name: "shield iron"
+  roomDesc: "A blood-stained and torn shield lies here abandoned."
+  keywords: ["shield","iron"]
+  description: "A blood-stained and torn shield lies here abandoned."
+  type: SHIELD
+- id: o14121
+  name: "helmet iron"
+  roomDesc: "A bucket-like helmet with small holes to look out of it."
+  keywords: ["helmet","iron"]
+  description: "A bucket-like helmet with small holes to look out of it."
+  type: HEAVYARMOR
+- id: o14122
+  name: "plate breastplate iron"
+  roomDesc: "Some piece of a fine armor lies here."
+  keywords: ["plate","breastplate","iron"]
+  description: "Some piece of a fine armor lies here."
+  type: HEAVYARMOR
+- id: o14123
+  name: "robe cross"
+  roomDesc: "A scary white robe with an evil-looking red cross drawn on it."
+  keywords: ["robe","cross"]
+  description: "A scary white robe with an evil-looking red cross drawn on it."
+  type: LIGHTARMOR
+- id: o14124
+  name: "amulet happy"
+  roomDesc: "A simple sun-shaped amulet."
+  keywords: ["amulet","happy"]
+  description: "A simple sun-shaped amulet."
+  type: ACCESSORY
+- id: o14125
+  name: "skull"
+  roomDesc: "A human skull like any other."
+  keywords: ["skull"]
+  description: "A human skull like any other."
+  type: KEY
+- id: o14126
+  name: "cup beercup"
+  roomDesc: "A wooden cup with an ornamented hang. "
+  keywords: ["cup","beercup"]
+  description: "A wooden cup with an ornamented hang. "
+  type: DRINKCON
+- id: o14127
+  name: "bone human"
+  roomDesc: "A nice bone, probably a rib ."
+  keywords: ["bone","human"]
+  description: "A nice bone, probably a rib ."
+  type: TRASH
+- id: o14128
+  name: "spear bearkilling"
+  roomDesc: "This spear looks like a toy."
+  keywords: ["spear","bearkilling"]
+  description: "This spear looks like a toy."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14129
+  name: "pussnuga"
+  roomDesc: "A weird ancient weapon, called pussnuga in some barbaric languages."
+  keywords: ["pussnuga"]
+  description: "A weird ancient weapon, called pussnuga in some barbaric languages."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14130
+  name: "plank"
+  roomDesc: "A simple plank can be a very dangerous weapon in the right hands. Beware."
+  keywords: ["plank"]
+  description: "A simple plank can be a very dangerous weapon in the right hands. Beware."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14131
+  name: "horns giant"
+  roomDesc: "Huge pale-green horns, torn off from the head of You Know Who."
+  keywords: ["horns","giant"]
+  description: "Huge pale-green horns, torn off from the head of You Know Who."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o14132
+  name: "amulet evil"
+  roomDesc: "You see some miserable souls captured in there. Don't look too \n\rlong, or you'll be the next."
+  keywords: ["amulet","evil"]
+  description: "You see some miserable souls captured in there. Don't look too \n\rlong, or you'll be the next."
+  type: ACCESSORY
+- id: o14133
+  name: "flowers globeflowers"
+  roomDesc: "Beautiful flowers, smelling like the dead."
+  keywords: ["flowers","globeflowers"]
+  description: "Beautiful flowers, smelling like the dead."
+  type: TRASH
+- id: o14134
+  name: "drum "
+  roomDesc: "A Drum is lying on the ground here, still buzzing evilly."
+  keywords: ["drum",""]
+  description: "A Drum is lying on the ground here, still buzzing evilly."
+  type: TRASH
+- id: o14135
+  name: "vomit puddle"
+  roomDesc: "Ewww... someone has been really sick here. No wonder."
+  keywords: ["vomit","puddle"]
+  description: "Ewww... someone has been really sick here. No wonder."
+  type: FOOD
+- id: o14136
+  name: "wheel spinning"
+  roomDesc: "This instrument looks too complicated to make any sense."
+  keywords: ["wheel","spinning"]
+  description: "This instrument looks too complicated to make any sense."
+  type: FURNITURE
+- id: o14137
+  name: "bridle"
+  roomDesc: "A bridle lies here."
+  keywords: ["bridle"]
+  description: "A bridle lies here."
+  type: FURNITURE
+- id: o14138
+  name: "plough"
+  roomDesc: "A plough lies here."
+  keywords: ["plough"]
+  description: "A plough lies here."
+  type: FURNITURE
+- id: o14139
+  name: "hoe"
+  roomDesc: "A simple hoe lies here."
+  keywords: ["hoe"]
+  description: "A simple hoe lies here."
+  type: FURNITURE
+- id: o14140
+  name: "harrow"
+  roomDesc: "A nice harrow lies here."
+  keywords: ["harrow"]
+  description: "A nice harrow lies here."
+  type: FURNITURE
+- id: o14141
+  name: "daisies"
+  roomDesc: "Some daisies grow here."
+  keywords: ["daisies"]
+  description: "Some daisies grow here."
+  type: FURNITURE
+- id: o14142
+  name: "turnip"
+  roomDesc: "A huge turnip grows here. "
+  keywords: ["turnip"]
+  description: "A huge turnip grows here. "
+  type: FURNITURE
+- id: o14143
+  name: "corn-flower flower"
+  roomDesc: "A sky-blue corn-flower grows here. "
+  keywords: ["corn-flower","flower"]
+  description: "A sky-blue corn-flower grows here. "
+  type: FURNITURE
+- id: o14144
+  name: "nettle bush"
+  roomDesc: "A bush of nettles grows here, looking for another victim. Ouch."
+  keywords: ["nettle","bush"]
+  description: "A bush of nettles grows here, looking for another victim. Ouch."
+  type: FURNITURE
+- id: o14145
+  name: "bag corn"
+  roomDesc: "A bag of full of golden corn lies  here. "
+  keywords: ["bag","corn"]
+  description: "A bag of full of golden corn lies  here. "
+  type: TREASURE
+- id: o14146
+  name: "rat dead"
+  roomDesc: "A dead rat lies here, covered with flies. "
+  keywords: ["rat","dead"]
+  description: "A dead rat lies here, covered with flies. "
+  type: ITEM_CORPSE_NPC
+- id: o14147
+  name: "mousetrap trap"
+  roomDesc: "A mousetrap lies in the corner. "
+  keywords: ["mousetrap","trap"]
+  description: "A mousetrap lies in the corner. "
+  type: KEY
+- id: o14148
+  name: "pitchfork"
+  roomDesc: "A wooden pitchfork has been stuck in the ground here. "
+  keywords: ["pitchfork"]
+  description: "A wooden pitchfork has been stuck in the ground here. "
+  type: FURNITURE
+- id: o14149
+  name: "scythe"
+  roomDesc: "A scythe hangs on the wall here."
+  keywords: ["scythe"]
+  description: "A scythe hangs on the wall here."
+  type: FURNITURE
+- id: o14150
+  name: "wooden spoon"
+  roomDesc: "A huge wooden spoon, suitable for a person with enormous appetite. "
+  keywords: ["wooden","spoon"]
+  description: "A huge wooden spoon, suitable for a person with enormous appetite. "
+  type: FURNITURE
+- id: o14151
+  name: "hat nailhat"
+  roomDesc: "A hat made entirely of human nails, looking like it has some magical powers. "
+  keywords: ["hat","nailhat"]
+  description: "A hat made entirely of human nails, looking like it has some magical powers. "
+  type: LIGHTARMOR
+- id: o14152
+  name: "corpse swallow"
+  roomDesc: "Brutal villagers have murdered this innocent bird in cold blood. Revenge!"
+  keywords: ["corpse","swallow"]
+  description: "Brutal villagers have murdered this innocent bird in cold blood. Revenge!"
+  type: ITEM_CORPSE_NPC
+- id: o14153
+  name: "strawshoes shoes"
+  roomDesc: "Strange footwear made entirely out of straw."
+  keywords: ["strawshoes","shoes"]
+  description: "Strange footwear made entirely out of straw."
+  type: FURNITURE
+- id: o14154
+  name: "girdle"
+  roomDesc: "A beautiful motley girdle, covered with happy ornament."
+  keywords: ["girdle"]
+  description: "A beautiful motley girdle, covered with happy ornament."
+  type: FURNITURE
+- id: o14155
+  name: "figurine "
+  roomDesc: "A roughly made figurine of some ancient northern god."
+  keywords: ["figurine",""]
+  description: "A roughly made figurine of some ancient northern god."
+  type: FURNITURE
+- id: o14156
+  name: "brooch"
+  roomDesc: "A silver brooch, beautiful in it's simplicity. "
+  keywords: ["brooch"]
+  description: "A silver brooch, beautiful in it's simplicity. "
+  type: ACCESSORY
+- id: o14157
+  name: "key"
+  roomDesc: "A shiny key to Tuuslar's Household. "
+  keywords: ["key"]
+  description: "A shiny key to Tuuslar's Household. "
+  type: KEY
+- id: o14158
+  name: "pile planks"
+  roomDesc: "A huge pile of planks lies here, too heavy to lift by any other than \n\rKalevipoeg."
+  keywords: ["pile","planks"]
+  description: "A huge pile of planks lies here, too heavy to lift by any other than \n\rKalevipoeg."
+  type: FURNITURE
+- id: o14159
+  name: "axe"
+  roomDesc: "A blunt axe hangs on the wall. "
+  keywords: ["axe"]
+  description: "A blunt axe hangs on the wall. "
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

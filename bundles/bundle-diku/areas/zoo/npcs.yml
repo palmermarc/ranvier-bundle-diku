@@ -1,0 +1,677 @@
+- id: m200
+  keywords: ["tiger"]
+  name: "the tiger"
+  description: >-
+    The tiger is here looking for something to chew on
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o214": 75
+        "zoo:o201": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m201
+  keywords: ["lion"]
+  name: "the lion"
+  description: >-
+    The lion prowls around looking for lunch
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o212": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m202
+  keywords: ["penguin"]
+  name: "the penguin"
+  description: >-
+    The penguin is here looking for fish
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m203
+  keywords: ["monkey"]
+  name: "the monkey"
+  description: >-
+    The monkey swings around chattering at you
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o215": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m204
+  keywords: ["armadillo"]
+  name: "the armadillo"
+  description: >-
+    The armadillo shuffles around looking for food
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o216": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m205
+  keywords: ["aardvaark"]
+  name: "the aardvaark"
+  description: >-
+    The aardvaark waddles around looking for insects
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o217": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m206
+  keywords: ["head","warden"]
+  name: "the head warden"
+  description: >-
+    The head warden stands here,really unhappy wiyh the situation
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o220": 75
+        "zoo:o228": 75
+        "zoo:o229": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 1
+- id: m207
+  keywords: ["shopkeeper"]
+  name: "the shopkeeper"
+  description: >-
+    The shopkeeper stands here looking bored
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o210": 75
+        "zoo:o211": 75
+        "zoo:o209": 75
+        "zoo:o232": 75
+  metadata:
+    vendor:
+      items:
+        "zoo:o210":
+          cost: 5000
+          currency: gold
+        "zoo:o211":
+          cost: 500
+          currency: gold
+        "zoo:o209":
+          cost: 50
+          currency: gold
+        "zoo:o232":
+          cost: 2750000
+          currency: gold
+    areaId: 86
+    exp_level: 10000
+    sex: 2
+- id: m208
+  keywords: ["seal"]
+  name: "the seal"
+  description: >-
+    The seal is here swimming in its pool
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o218": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m209
+  keywords: ["crocodile"]
+  name: "the crocodile"
+  description: >-
+    The crocodile is here grinning at you
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o203": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m210
+  keywords: ["shark"]
+  name: "the shark"
+  description: >-
+    The shark is here swimming in its tank
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o219": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m211
+  keywords: ["snake"]
+  name: "the snake"
+  description: >-
+    The snake slithers around looking for rodents
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m212
+  keywords: ["lizard"]
+  name: "the lizard"
+  description: >-
+    The lizard scuttles about
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m213
+  keywords: ["whale"]
+  name: "the whale"
+  description: >-
+    The whale is here performing tricks
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m214
+  keywords: ["canadian"]
+  name: "the canadian fur trapper"
+  description: >-
+    The canadian stands here culling seals
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o200": 75
+        "zoo:o226": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 1
+- id: m215
+  keywords: ["pigeon"]
+  name: "the pigeon"
+  description: >-
+    The pigeon is here pecking at the ground
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m216
+  keywords: ["visitor"]
+  name: "the visitor"
+  description: >-
+    The visitor stands here, completely clueless.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o210": 75
+        "zoo:o211": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 1
+- id: m217
+  keywords: ["visitor"]
+  name: "the visitor"
+  description: >-
+    The visitor stands here gawping at the animals
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o210": 75
+        "zoo:o211": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 2
+- id: m218
+  keywords: ["caretaker"]
+  name: "the caretaker"
+  description: >-
+    The caretaker is here, listlessly pushing a brush around
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o208": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 1
+- id: m219
+  keywords: ["security","man"]
+  name: "the security man"
+  description: >-
+    The security man stands here looking threatening
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o227": 75
+        "zoo:o223": 75
+        "zoo:o222": 75
+        "zoo:o225": 75
+        "zoo:o200": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 1
+- id: m220
+  keywords: ["security","woman"]
+  name: "the security woman"
+  description: >-
+    The security woman stands here hoping you'll make trouble
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o223": 75
+        "zoo:o222": 75
+        "zoo:o225": 75
+        "zoo:o221": 75
+        "zoo:o224": 75
+        "zoo:o227": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 2
+- id: m221
+  keywords: ["seal","pup"]
+  name: "the seal pup"
+  description: >-
+    The baby seal is here looking helpless
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m222
+  keywords: ["bear"]
+  name: "the bear"
+  description: >-
+    The bear is snuffling about looking for honey
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o213": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0
+- id: m223
+  keywords: ["dragon","red"]
+  name: "the red dragon"
+  description: >-
+    The dragon is here basking in the heat
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "zoo:o230": 75
+  metadata:
+    areaId: 86
+    exp_level: 10000
+    sex: 0

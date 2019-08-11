@@ -1,0 +1,124 @@
+- id: o1100
+  name: "rainbow staff"
+  roomDesc: "The rainbow staff lies here."
+  keywords: ["rainbow","staff"]
+  description: "The rainbow staff lies here."
+  type: LIGHT
+- id: o1101
+  name: "sting"
+  roomDesc: "Sting lies here."
+  keywords: ["sting"]
+  description: "Sting lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1102
+  name: "sign"
+  roomDesc: "A sign demands your attention."
+  keywords: ["sign"]
+  description: "A sign demands your attention."
+  type: FURNITURE
+- id: o1103
+  name: "pipeweed bread"
+  roomDesc: "A loaf of pipeweed bread arouses your hunger."
+  keywords: ["pipeweed","bread"]
+  description: "A loaf of pipeweed bread arouses your hunger."
+  type: FOOD
+- id: o1104
+  name: "silvery cloak"
+  roomDesc: "A silvery cloak lies here."
+  keywords: ["silvery","cloak"]
+  description: "A silvery cloak lies here."
+  type: ACCESSORY
+- id: o1105
+  name: "one ring"
+  roomDesc: "The One Ring is here."
+  keywords: ["one","ring"]
+  description: "The One Ring is here."
+  type: ACCESSORY
+- id: o1106
+  name: "elven bow"
+  roomDesc: "An elven bow lies here."
+  keywords: ["elven","bow"]
+  description: "An elven bow lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1107
+  name: "mithril axe"
+  roomDesc: "A mithril axe lies here."
+  keywords: ["mithril","axe"]
+  description: "A mithril axe lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1108
+  name: "thain girth"
+  roomDesc: "The girth of the thain lies here."
+  keywords: ["thain","girth"]
+  description: "The girth of the thain lies here."
+  type: ACCESSORY
+- id: o1109
+  name: "tiny dagger"
+  roomDesc: "A tiny dagger lies here."
+  keywords: ["tiny","dagger"]
+  description: "A tiny dagger lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1110
+  name: "egg"
+  roomDesc: "An egg lies here."
+  keywords: ["egg"]
+  description: "An egg lies here."
+  type: FOOD
+- id: o1111
+  name: "bag"
+  roomDesc: "A bag is on the floor."
+  keywords: ["bag"]
+  description: "A bag is on the floor."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1112
+  name: "lantern"
+  roomDesc: "A lantern is on the floor."
+  keywords: ["lantern"]
+  description: "A lantern is on the floor."
+  type: LIGHT
+- id: o1113
+  name: "bardiche"
+  roomDesc: "A long weapon with a sharp end is on the floor."
+  keywords: ["bardiche"]
+  description: "A long weapon with a sharp end is on the floor."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1114
+  name: "flail"
+  roomDesc: "A flail is on the floor."
+  keywords: ["flail"]
+  description: "A flail is on the floor."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1115
+  name: "clan toreador book"
+  roomDesc: "A golden book with a fancy binding, filled with clan secrets lies here."
+  keywords: ["clan","toreador","book"]
+  description: "A golden book with a fancy binding, filled with clan secrets lies here."
+  type: FURNITURE

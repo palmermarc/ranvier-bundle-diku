@@ -1,0 +1,12 @@
+---
+body: |
+  'Balance is the true path of the warrior'
+  
+  This said, special code is put into place that affects the 'balance' of
+  a player's hps/mana/move. The more balanced your stats are, the harder
+  your hits hit.
+  
+  This code starts to affect your player when you reach 3000 in any stat.
+  (hps/mana/move)
+  
+  

@@ -1,0 +1,26 @@
+---
+body: |
+  Syntax: brandish <staff>
+  Syntax: quaff <potion>
+  Syntax: recite <scroll> <target>
+  Syntax: zap <wand> <target>
+  Syntax: eat <pill>
+  
+  BRANDISH brandishes a magical staff. QUAFF quaffs a magical potion (as 
+  opposed to DRINK, which drinks mundane liquids). RECITE recites a magical 
+  scroll; the <target> is optional, depending on the nature of the scroll. 
+  ZAP zaps a magical wand at a target. If the target is not specified, and 
+  you are fighting someone, then that character is used for a target. You must
+  HOLD a wand or a staff before using BRANDISH or ZAP.
+  
+  All of these commands use up their objects. Potions and scrolls have a 
+  single charge. Wands and staves have multiple charges. When a magical 
+  object has no more charges, it will be consumed.
+  
+  *some are currently out due to abuse for recoding*
+  
+  see also: help MINOR
+  
+  - quaff
+  - recite
+  - zap

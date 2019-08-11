@@ -1,0 +1,134 @@
+- id: o8000
+  name: "Ramshorn"
+  roomDesc: "The horn is from Eshands holy lamb"
+  keywords: ["Ramshorn"]
+  description: "The horn is from Eshands holy lamb"
+  type: WAND
+- id: o8001
+  name: "sheepskin leggings"
+  roomDesc: "Some sheepskin leggings are lying here"
+  keywords: ["sheepskin","leggings"]
+  description: "Some sheepskin leggings are lying here"
+  type: LIGHTARMOR
+- id: o8002
+  name: "Black Robe"
+  roomDesc: "A piece of stinking black cloth is lying on the ground"
+  keywords: ["Black","Robe"]
+  description: "A piece of stinking black cloth is lying on the ground"
+  type: LIGHTARMOR
+- id: o8003
+  name: "fake ramshorn"
+  roomDesc: "A piece of horn is lying on the ground"
+  keywords: ["fake","ramshorn"]
+  description: "A piece of horn is lying on the ground"
+  type: WAND
+- id: o8004
+  name: "bumble bee"
+  roomDesc: "A creature that flicks between a bumble bee and a fairy is flying about here"
+  keywords: ["bumble","bee"]
+  description: "A creature that flicks between a bumble bee and a fairy is flying about here"
+  type: TRASH
+- id: o8005
+  name: "carpet"
+  roomDesc: "A large carpet is laid out on the floor"
+  keywords: ["carpet"]
+  description: "A large carpet is laid out on the floor"
+  type: TRASH
+- id: o8006
+  name: "club nail"
+  roomDesc: "A piece of wood with nails hammered through it is lying on the ground"
+  keywords: ["club","nail"]
+  description: "A piece of wood with nails hammered through it is lying on the ground"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o8007
+  name: "Knight Sword"
+  roomDesc: "A large sword obviously designed for choping and slashing is lying here"
+  keywords: ["Knight","Sword"]
+  description: "A large sword obviously designed for choping and slashing is lying here"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o8008
+  name: "broken mace"
+  roomDesc: "The mace on the ground is chipped and broken"
+  keywords: ["broken","mace"]
+  description: "The mace on the ground is chipped and broken"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o8009
+  name: "Spear"
+  roomDesc: "The spear has a rotting wooden shaft and a rustying head"
+  keywords: ["Spear"]
+  description: "The spear has a rotting wooden shaft and a rustying head"
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o8010
+  name: "Holy symbol"
+  roomDesc: "The holy symbol is discarded in the dust"
+  keywords: ["Holy","symbol"]
+  description: "The holy symbol is discarded in the dust"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o8011
+  name: "word eshand"
+  roomDesc: "The word of eshand is floating in the air"
+  keywords: ["word","eshand"]
+  description: "The word of eshand is floating in the air"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o8012
+  name: "Scroll eshand"
+  roomDesc: "The scroll of eshand is lying on the ground"
+  keywords: ["Scroll","eshand"]
+  description: "The scroll of eshand is lying on the ground"
+  type: SCROLL
+- id: o8013
+  name: "scroll arasham"
+  roomDesc: "The scroll of arasham is lying in the dirt"
+  keywords: ["scroll","arasham"]
+  description: "The scroll of arasham is lying in the dirt"
+  type: SCROLL
+- id: o8014
+  name: "dragonquest666"
+  roomDesc: "A Platinum Dragonstone lies here gleaming."
+  keywords: ["dragonquest666"]
+  description: "A Platinum Dragonstone lies here gleaming."
+  type: FOOD
+- id: o8015
+  name: "toy"
+  roomDesc: "A dogs toy has been thrown into a corner"
+  keywords: ["toy"]
+  description: "A dogs toy has been thrown into a corner"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o8016
+  name: "long sword"
+  roomDesc: "A long dangerous sword is lying on the ground"
+  keywords: ["long","sword"]
+  description: "A long dangerous sword is lying on the ground"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

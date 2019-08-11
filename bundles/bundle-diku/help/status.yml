@@ -1,0 +1,19 @@
+---
+body: |
+  This represents the 'danger' of the player. You only have a status if 
+  you are avatar or above. It grants no extra powers, but is a good measure 
+  of how deadly that player is in combat. Each time you decapitate an 
+  Immortal+ (or an Avatar if you are also an Avatar) your status goes up by 
+  one and their status goes down by one (to a minimum of zero). The 
+  following shows how many kills (minus deaths) you need for each status:
+  
+  0 = Avatar
+  1 - 4 = Immortal
+  5 - 9 = Fighter
+  10 - 14 = Adventurer
+  15 - 19 = Champion
+  20 - 24 = Warrior
+  25 + = Hero
+  
+  see also: LEAGUE, DECAP, DEATH
+  

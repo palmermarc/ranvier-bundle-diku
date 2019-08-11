@@ -1,0 +1,12 @@
+title: "City Of Dabour"
+metadata:
+  id: 16
+  name: "City Of Dabour"
+  createdBy: "tamaz"
+  starting_vnum: 8000
+  ending_vnum: 8049
+  item_requirements: 6000
+  filename: "dabour.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

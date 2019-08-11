@@ -1,0 +1,1448 @@
+- id: r14100
+  title: "Gates to the Northern Tale"
+  description: >-
+    Now the Northen Tale begins... Be brave, be careful...
+    - Wake, o grey and olden voices,
+      send us secret kennings,
+      tales of better times
+      and the joys of dearer days.
+      Come from Endla's waters
+      o Vanemuine's daughter.
+      You've stroked your silken hair
+      at length in that silver mirror.
+      Let us take truth's warrant,
+      o ancient shadows;
+      show the long-departed faces,
+      show the coursing of the Kalev's,
+      of the hardy men and witches.
+      Let us sweep soaringly southward,
+      take several steps toward the north,
+      to the heather where my seedings
+      flower in foreing fields. -
+  exits:
+    - roomId: "notale:r14101"
+      direction: east
+    - roomId: "joker1:r24059"
+      direction: down
+  npcs:
+    - id: "notale:m14100"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r14101
+  title: "Stormy sea"
+  description: >-
+    You are on the stormy sea. Salty water hurts your eyes, and you are nearly 
+    drowning under the enormous waves. You have also lost your sense of 
+    direction, and you feel like you wanna puke your guts out.
+    - Wave rolls after rolling wave,
+      the wheeling billows
+      swing against the stony shore,
+      brust in foam against the beach.
+      And the waves of our life,
+      rolling in the chill of evening
+      sway us toward our spelucher,
+      beneath a blanket of sod. -
+  exits:
+    - roomId: "notale:r14104"
+      direction: north
+    - roomId: "notale:r14107"
+      direction: south
+    - roomId: "notale:r14102"
+      direction: east
+    - roomId: "notale:r14103"
+      direction: west
+  npcs:
+    - id: "notale:m14100"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r14102
+  title: "Stormy sea"
+  description: >-
+    You are on the stormy sea. Salty water hurts your eyes, and you are nearly 
+    drowning under the enormous waves. You have also lost your sense of 
+    direction, and you feel like you wanna puke your guts out.
+  exits:
+    - roomId: "notale:r14105"
+      direction: north
+    - roomId: "notale:r14108"
+      direction: south
+    - roomId: "notale:r14101"
+      direction: east
+    - roomId: "notale:r14103"
+      direction: west
+- id: r14103
+  title: "Stormy sea"
+  description: >-
+    You are on the stormy sea. Salty water hurts your eyes, and you are nearly 
+    drowning under the enormous waves. You have also lost your sense of direction, 
+    and you feel like you wanna puke your guts out.
+  exits:
+    - roomId: "notale:r14109"
+      direction: north
+    - roomId: "notale:r14102"
+      direction: south
+    - roomId: "notale:r14101"
+      direction: east
+    - roomId: "notale:r14106"
+      direction: west
+    - roomId: "notale:r14110"
+      direction: up
+  npcs:
+    - id: "notale:m14100"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r14104
+  title: "Stormy sea"
+  description: >-
+    You are on the stormy sea. Salty water hurts your eyes, and you are nearly 
+    drowning under the enormous waves. You have also lost your sense of direction, 
+    and you feel like you wanna puke your guts out.
+  exits:
+    - roomId: "notale:r14105"
+      direction: north
+    - roomId: "notale:r14106"
+      direction: south
+    - roomId: "notale:r14101"
+      direction: east
+    - roomId: "notale:r14107"
+      direction: west
+- id: r14105
+  title: "Stormy sea"
+  description: >-
+    You are on the stormy sea. Salty water hurts your eyes, and you are nearly 
+    drowning under the enormous waves. You have also lost your sense of direction, 
+    and you feel like you wanna puke your guts out.
+  exits:
+    - roomId: "notale:r14108"
+      direction: north
+    - roomId: "notale:r14106"
+      direction: south
+    - roomId: "notale:r14106"
+      direction: east
+    - roomId: "notale:r14102"
+      direction: west
+  npcs:
+    - id: "notale:m14100"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r14106
+  title: "Stormy sea"
+  description: >-
+    You are on the stormy sea. Salty water hurts your eyes, and you are nearly 
+    drowning under the enormous waves. You have also lost your sense of direction, 
+    and you feel like you wanna puke your guts out.
+  exits:
+    - roomId: "notale:r14105"
+      direction: north
+    - roomId: "notale:r14109"
+      direction: south
+    - roomId: "notale:r14104"
+      direction: east
+    - roomId: "notale:r14103"
+      direction: west
+- id: r14107
+  title: "Stormy sea"
+  description: >-
+    You are on the stormy sea. Salty water hurts your eyes, and you are nearly 
+    drowning under the enormous waves. You have also lost your sense of direction, 
+    and you feel like you wanna puke your guts out.
+  exits:
+    - roomId: "notale:r14108"
+      direction: north
+    - roomId: "notale:r14109"
+      direction: south
+    - roomId: "notale:r14101"
+      direction: east
+    - roomId: "notale:r14104"
+      direction: west
+    - roomId: "notale:r14136"
+      direction: up
+  npcs:
+    - id: "notale:m14100"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r14108
+  title: "Stormy sea"
+  description: >-
+    You are on the stormy sea. Salty water hurts your eyes, and you are nearly 
+    drowning under the enormous waves. You have also lost your sense of direction, 
+    and you feel like you wanna puke your guts out.
+  exits:
+    - roomId: "notale:r14100"
+      direction: north
+    - roomId: "notale:r14109"
+      direction: south
+    - roomId: "notale:r14105"
+      direction: east
+    - roomId: "notale:r14107"
+      direction: west
+  npcs:
+    - id: "notale:m14100"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r14109
+  title: "Stormy sea"
+  description: >-
+    You are on the stormy sea. Salty water hurts your eyes, and you are nearly 
+    drowning under the enormous waves. You have also lost your sense of direction, 
+    and you feel like you wanna puke your guts out.
+  exits:
+    - roomId: "notale:r14134"
+      direction: north
+    - roomId: "notale:r14103"
+      direction: south
+    - roomId: "notale:r14108"
+      direction: east
+    - roomId: "notale:r14106"
+      direction: west
+- id: r14110
+  title: "On the board of the old viking ship Lennuk"
+  description: >-
+    You see traces of many hard battles on this ship. Shields with strange and 
+    evil ornaments lie on the boards, intimidating you.
+  exits:
+    - roomId: "notale:r14111"
+      direction: west
+    - roomId: "notale:r14103"
+      direction: down
+- id: r14111
+  title: "On the board of the old viking ship Lennuk"
+  description: >-
+    You see traces of many hard battles on this ship. Shields with strange and 
+    evil ornaments lie on the boards, intimidating you.
+  exits:
+    - roomId: "notale:r14110"
+      direction: east
+    - roomId: "notale:r14112"
+      direction: west
+  npcs:
+    - id: "notale:m14109"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14109"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14109"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r14112
+  title: "Captain room of Lennuk"
+  description: >-
+    It's a nice cozy place with a compass and steering wheel. You notice some 
+    bottles of hard alcohol by the wheel.
+  exits:
+    - roomId: "notale:r14113"
+      direction: north
+    - roomId: "notale:r14111"
+      direction: east
+  npcs:
+    - id: "notale:m14108"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14113
+  title: "Northern coast"
+  description: >-
+    Fierce waves roll to the rocky shore, trying to take you back to sea. Some 
+    stunted junipers grow here on the stones.
+  exits:
+    - roomId: "notale:r14114"
+      direction: north
+    - roomId: "notale:r14112"
+      direction: south
+- id: r14114
+  title: "Northern coast"
+  description: >-
+    Fierce waves roll to the rocky shore, trying to take you back to sea. Some 
+    stunted junipers grow here on the stones.
+  exits:
+    - roomId: "notale:r14113"
+      direction: south
+    - roomId: "notale:r14115"
+      direction: east
+- id: r14115
+  title: "Northern coast"
+  description: >-
+    Fierce waves roll to the rocky shore, trying to take you back to sea. Some 
+    stunted junipers grow here on the stones.
+  exits:
+    - roomId: "notale:r14116"
+      direction: east
+    - roomId: "notale:r14114"
+      direction: west
+- id: r14116
+  title: "Northern coast"
+  description: >-
+    Fierce waves roll to the rocky shore, trying to take you back to sea. Some 
+    stunted junipers grow here on the stones.
+  exits:
+    - roomId: "notale:r14117"
+      direction: north
+    - roomId: "notale:r14115"
+      direction: west
+- id: r14117
+  title: "Door to Tuuslar's household"
+  description: >-
+    Through the junipers you see a large conical building, obviously made of 
+    animal skins and wood. The skin-made conic is enshrouded with gray and 
+    stinky smoke, it feels like somebody is being burned alive in there.
+  exits:
+    - roomId: "notale:r14118"
+      direction: north
+    - roomId: "notale:r14116"
+      direction: south
+- id: r14118
+  title: "The First floor of the Tuuslar's Household"
+  description: >-
+    The smell of many unwashed bodies and clothing used for months makes you 
+    sick. Smoke gets even thicker inside. You hear loud voices speaking in an 
+    ancient and barbaric language, and noises of struggle.
+  exits:
+    - roomId: "notale:r14117"
+      direction: south
+    - roomId: "notale:r14119"
+      direction: east
+  npcs:
+    - id: "notale:m14107"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14119
+  title: "The First floor of the Tuuslar's Household"
+  description: >-
+    The smell of many unwashed bodys and clothing used for months makes you 
+    sick. Smoke gets even thicker inside. You hear loud voices speaking in an 
+    ancient and barbaric language, and noises of struggle.
+  exits:
+    - roomId: "notale:r14118"
+      direction: west
+    - roomId: "notale:r14120"
+      direction: up
+  npcs:
+    - id: "notale:m14107"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14120
+  title: "The Second floor of the Tuuslar's Household"
+  description: >-
+    You see traces of a barbaric feast. There are a lot of bones on the floor, 
+    some chewed and some covered with bloody flesh. A huge barrel sits in the 
+    corner, surrounded with a puddle of some smelly liquid.
+    Simple chairs and a long table are covered with dirt.
+  exits:
+    - roomId: "notale:r14121"
+      direction: north
+    - roomId: "notale:r14119"
+      direction: down
+  npcs:
+    - id: "notale:m14107"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "notale:m14107"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14121
+  title: "The Second floor of the Tuuslar's Household"
+  description: >-
+    You see traces of a barbaric feast. There are a lot of bones on the floor, 
+    some chewed and some covered with bloody flesh. A huge barrel sits in the 
+    corner, surrounded with a puddle of some smelly liquid.
+    Simple chairs and a long table are covered with dirt.
+  exits:
+    - roomId: "notale:r14120"
+      direction: south
+    - roomId: "notale:r14122"
+      direction: east
+  npcs:
+    - id: "notale:m14107"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "notale:m14107"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14122
+  title: "The Second floor of the Tuuslar's Household"
+  description: >-
+    You see traces of a barbaric feast. There are a lot of bones on the floor, 
+    some chewed and some covered with bloody flesh. A huge barrel sits in the 
+    corner, surrounded with a puddle of some smelly liquid.
+    Simple chairs and a long table are covered with dirt.
+  exits:
+    - roomId: "notale:r14121"
+      direction: west
+    - roomId: "notale:r14123"
+      direction: up
+  npcs:
+    - id: "notale:m14107"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "notale:m14107"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14123
+  title: "The Third floor of the Tuuslar's Household"
+  description: >-
+    You are standing in an empty room with two simple wooden doors. From the 
+    south you can hear an annoyingly scolding voice, and some merry singing 
+    from the north.
+  exits:
+    - roomId: "notale:r14126"
+      direction: north
+    - roomId: "notale:r14124"
+      direction: south
+    - roomId: "notale:r14122"
+      direction: down
+- id: r14124
+  title: "Tuuslar's bedroom"
+  description: >-
+    You can smell a strange perfume, possibly made of human blood and some 
+    other unusual components. Smelly old animal-skins lie in the corner, and 
+    some linen clothes are scattered all over the place.
+  exits:
+    - roomId: "notale:r14123"
+      direction: north
+    - roomId: "notale:r14125"
+      direction: up
+  npcs:
+    - id: "notale:m14103"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14125
+  title: "Tuuslar's study"
+  description: >-
+    A simple wooden desk is here with a wooden chair. Along the walls lie bags 
+    with all kinds of strange herbs. On the walls you notice some pictures of 
+    evil faces, and some paintings of slaughtering innocent creatures.
+  exits:
+    - roomId: "notale:r14124"
+      direction: down
+  npcs:
+    - id: "notale:m14102"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14126
+  title: "Sauna"
+  description: >-
+    You stand in hot steam, wondering if it isn't a torturing chamber. A wooden 
+    bench is here, and in the corner you see a strange fireplace without a flue.
+    A small stairway leads you down to a refreshing pool of cold water.
+  exits:
+    - roomId: "notale:r14123"
+      direction: south
+    - roomId: "notale:r14127"
+      direction: down
+  npcs:
+    - id: "notale:m14101"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14127
+  title: "Sauna pool"
+  description: >-
+    You dive into the cool dark water. When you stick your head out of the pool 
+    again, you see that everything has changed. Sauna is gone for good. You see 
+    small campfires all around you, and you can hear a lot of strange singing.
+  exits:
+    - roomId: "notale:r14128"
+      direction: up
+- id: r14128
+  title: "Northland"
+  description: >-
+    You are standing on soft lichen. These plains are empty as far as you can 
+    see, only some stunted birches grow here.
+  exits:
+    - roomId: "notale:r14129"
+      direction: north
+    - roomId: "notale:r14131"
+      direction: up
+  npcs:
+    - id: "notale:m14106"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "notale:m14104"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14106"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14129
+  title: "Northland"
+  description: >-
+    You are standing on soft lichen. These plains are empty as far as you can 
+    see, only some stunted birches grow here.
+  exits:
+    - roomId: "notale:r14128"
+      direction: south
+    - roomId: "notale:r14130"
+      direction: up
+  npcs:
+    - id: "notale:m14106"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "notale:m14104"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14106"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14130
+  title: "Northland"
+  description: >-
+    You are standing on soft lichen. These plains are empty as far as you can 
+    see, only some stunted birches grow here.
+  exits:
+    - roomId: "notale:r14132"
+      direction: north
+    - roomId: "notale:r14131"
+      direction: south
+    - roomId: "notale:r14129"
+      direction: down
+  npcs:
+    - id: "notale:m14106"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "notale:m14105"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14106"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14131
+  title: "Northland"
+  description: >-
+    You are standing on soft lichen. These plains are empty as far as you can 
+    see, only some stunted birches grow here.
+  exits:
+    - roomId: "notale:r14130"
+      direction: north
+    - roomId: "notale:r14128"
+      direction: down
+  npcs:
+    - id: "notale:m14106"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "notale:m14104"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14106"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r14132
+  title: "Thule"
+  description: >-
+    Under the bloodred sky you walk. Sun never sets here, nor rises. The cold 
+    northern plains of snow and ice make you feel like you are the only living 
+    creature on the whole earth. You realize that there is no escape from here. 
+    Once you step over the edge of the world, you will remain a prisoner till 
+    the end of you days.
+  exits:
+    - roomId: "notale:r14133"
+      direction: north
+    - roomId: "notale:r14133"
+      direction: south
+    - roomId: "notale:r14133"
+      direction: east
+    - roomId: "notale:r14133"
+      direction: west
+    - roomId: "notale:r14133"
+      direction: up
+    - roomId: "notale:r14133"
+      direction: down
+- id: r14133
+  title: "Thule"
+  description: >-
+    Under the bloodred sky you walk. Sun never sets here, nor rises. The cold 
+    northern plains of snow and ice make you feel like you are the only living 
+    creature on the whole earth. You realize that there is no escape from here. 
+    Once you step over the edge of the world, you will remain a prisoner till 
+    the end of you days.
+  exits:
+    - roomId: "notale:r14132"
+      direction: north
+    - roomId: "notale:r14132"
+      direction: south
+    - roomId: "notale:r14132"
+      direction: east
+    - roomId: "notale:r14132"
+      direction: west
+    - roomId: "notale:r14132"
+      direction: up
+    - roomId: "notale:r14132"
+      direction: down
+  items:
+    - id: "notale:o14100"
+      respawnChance: 75
+- id: r14134
+  title: "Island of the famous Nordic Blacksmith"
+  description: >-
+    There's a cozy-looking cottage right on the shore of the island. You see 
+    all kinds of swords, daggers, axes and other fine weapons standing in the 
+    straight rows in front of the building.
+  exits:
+    - roomId: "notale:r14135"
+      direction: east
+    - roomId: "notale:r14109"
+      direction: west
+  npcs:
+    - id: "notale:m14112"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "notale:m14113"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14112"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r14135
+  title: "Blacksmith's Cottage"
+  description: >-
+    You stand in a fair commodious building with wide windows. There's a small 
+    fireplace in the center of the room, and you feel the aroma of a delicious 
+    fresh hotpot.
+  exits:
+    - roomId: "notale:r14134"
+      direction: west
+  npcs:
+    - id: "notale:m14110"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14111"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14136
+  title: "South coast"
+  description: >-
+    You are standing on a sandy seaside. Fresh wind blows calmly through your 
+    hair. You can hear faint sounds of a village from the south.
+  exits:
+    - roomId: "notale:r14138"
+      direction: south
+    - roomId: "notale:r14137"
+      direction: east
+    - roomId: "notale:r14107"
+      direction: down
+- id: r14137
+  title: "South coast"
+  description: >-
+    You are standing on a sandy seaside. Fresh wind blows calmly through your 
+    hair. You can hear faint sounds of a village from the south.
+  exits:
+    - roomId: "notale:r14139"
+      direction: south
+    - roomId: "notale:r14136"
+      direction: west
+- id: r14138
+  title: "Forest"
+  description: >-
+    Huge oaktrees grow here, you can see the squirrels and little birds having 
+    a peep at you from their homes in the tops of the trees.
+  exits:
+    - roomId: "notale:r14136"
+      direction: north
+    - roomId: "notale:r14143"
+      direction: south
+    - roomId: "notale:r14139"
+      direction: east
+  npcs:
+    - id: "notale:m14135"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14139
+  title: "Forest"
+  description: >-
+    Huge oaktrees grow here, you can see the squirrels and little birds having 
+    a peep at you from their homes in the tops of the trees.
+  exits:
+    - roomId: "notale:r14137"
+      direction: north
+    - roomId: "notale:r14144"
+      direction: south
+    - roomId: "notale:r14140"
+      direction: east
+    - roomId: "notale:r14138"
+      direction: west
+  npcs:
+    - id: "notale:m14135"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14140
+  title: "Forest"
+  description: >-
+    Huge oaktrees grow here, you can see the squirrels and little birds having 
+    a peep at you from their homes in the tops of the trees.
+  exits:
+    - roomId: "notale:r14141"
+      direction: east
+    - roomId: "notale:r14139"
+      direction: west
+  npcs:
+    - id: "notale:m14135"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14141
+  title: "Forest"
+  description: >-
+    Huge oaktrees grow here, you can see the squirrels and little birds having 
+    a peep at you from their homes in the tops of the trees.
+  exits:
+    - roomId: "notale:r14146"
+      direction: south
+    - roomId: "notale:r14140"
+      direction: west
+  npcs:
+    - id: "notale:m14135"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14142
+  title: "Forest"
+  description: >-
+    Huge oaktrees grow here, you can see the squirrels and little birds having 
+    a peep at you from their homes in the tops of the trees.
+  exits:
+    - roomId: "notale:r14150"
+      direction: south
+    - roomId: "notale:r14143"
+      direction: east
+  npcs:
+    - id: "notale:m14135"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14143
+  title: "Forest"
+  description: >-
+    Huge oaktrees grow here, you can see the squirrels and little birds having 
+    a peep at you from their homes in the tops of the trees.
+  exits:
+    - roomId: "notale:r14138"
+      direction: north
+    - roomId: "notale:r14144"
+      direction: east
+    - roomId: "notale:r14142"
+      direction: west
+  npcs:
+    - id: "notale:m14135"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14144
+  title: "Forest"
+  description: >-
+    Huge oaktrees grow here, you can see the squirrels and little birds having 
+    a peep at you from their homes in the tops of the trees.
+  exits:
+    - roomId: "notale:r14139"
+      direction: north
+    - roomId: "notale:r14143"
+      direction: west
+  npcs:
+    - id: "notale:m14135"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r14145
+  title: "Kalev's dooryard"
+  description: >-
+    Buildings surround the yard bearing witness to a wealthy farm. Near pasture 
+    stands a paddlock shaded by a fine oaktree.
+  exits:
+    - roomId: "notale:r14153"
+      direction: south
+    - roomId: "notale:r14146"
+      direction: east
+- id: r14146
+  title: "Kalev's realms"
+  description: >-
+    Obviously the dwellers of this land are rather farmers than fighters. You 
+    see huge greenhouses and pretty golden fields of corn. Hundreds of appletrees 
+    are full of mellow fruits.
+  exits:
+    - roomId: "notale:r14141"
+      direction: north
+    - roomId: "notale:r14157"
+      direction: south
+    - roomId: "notale:r14145"
+      direction: west
+- id: r14147
+  title: "Tomb of old king Kalev"
+  description: >-
+    Kalvev's tomb is basically a pile of grey moss-grown stones, gathered here 
+    as a mortuary in an ancient northern manner.
+    - Linda, weeping widow,
+      then started to carry stones
+      for a cairn on Kalev's grave.
+      She wanted to set a landmark
+      for the sons of later generations;
+      for future daughters
+      to see where Kalev's tomb lay,
+      the pallet of the graveyard. -
+  exits:
+    - roomId: "notale:r14145"
+      direction: east
+    - roomId: "notale:r14148"
+      direction: up
+  npcs:
+    - id: "notale:m14130"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14131"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14148
+  title: "Kalev's realms"
+  description: >-
+    Obviously the dwellers of this land are rather farmers than fighters. You 
+    see huge greenhouses and pretty golden fields of corn. Hundreds of appletrees 
+    are full of mellow fruits.
+  exits:
+    - roomId: "notale:r14149"
+      direction: east
+    - roomId: "notale:r14147"
+      direction: down
+  items:
+    - id: "notale:o14149"
+      respawnChance: 75
+- id: r14149
+  title: "Kalev's realms"
+  description: >-
+    Obviously the dwellers of this land are rather farmers than fighters. You 
+    see huge greenhouses and pretty golden fields of corn. Hundreds of appletrees 
+    are full of mellow fruits.
+  exits:
+    - roomId: "notale:r14158"
+      direction: south
+    - roomId: "notale:r14150"
+      direction: east
+    - roomId: "notale:r14148"
+      direction: west
+  items:
+    - id: "notale:o14139"
+      respawnChance: 75
+    - id: "notale:o14133"
+      respawnChance: 75
+    - id: "notale:o14138"
+      respawnChance: 75
+- id: r14150
+  title: "Kalev's realms"
+  description: >-
+    Obviously the dwellers of this land are rather farmers than fighters. You 
+    see huge greenhouses and pretty golden fields of corn. Hundreds of appletrees 
+    are full of mellow fruits.
+  exits:
+    - roomId: "notale:r14142"
+      direction: north
+    - roomId: "notale:r14159"
+      direction: south
+    - roomId: "notale:r14149"
+      direction: west
+- id: r14151
+  title: "Kalev's Happy House"
+  description: >-
+    You are standing on the first floor of Kalev's House. The house is nicely 
+    taken care of, everything points out the regardful touch of the Lady of the 
+    House. Even the wooden furniture is perfectly clean.
+  exits:
+    - roomId: "notale:r14152"
+      direction: east
+    - roomId: "notale:r14156"
+      direction: up
+  items:
+    - id: "notale:o14145"
+      respawnChance: 75
+    - id: "notale:o14148"
+      respawnChance: 75
+- id: r14152
+  title: "Kalev's Happy House"
+  description: >-
+    You are standing on the first floor of Kalev's House. The house is nicely 
+    taken care of, everything points out the regardful touch of the Lady of the 
+    House. Even the wooden furniture is perfectly clean.
+  exits:
+    - roomId: "notale:r14153"
+      direction: east
+    - roomId: "notale:r14151"
+      direction: west
+  items:
+    - id: "notale:o14148"
+      respawnChance: 75
+- id: r14153
+  title: "Kalev's Happy House"
+  description: >-
+    You are standing on the first floor of Kalev's House. The house is nicely 
+    taken care of, everything points out the regardful touch of the Lady of the 
+    House. Even the wooden furniture is perfectly clean.
+  exits:
+    - roomId: "notale:r14145"
+      direction: north
+    - roomId: "notale:r14152"
+      direction: west
+- id: r14154
+  title: "Kalev's Happy House"
+  description: >-
+    The second floor of the Kalev's house just the opposite to the first. 
+    Scattered clothes, armorpieces and weapons indicate to young and reckless 
+    dwellers.
+  exits:
+    - roomId: "notale:r14155"
+      direction: west
+  npcs:
+    - id: "notale:m14125"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14126"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14127"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14128"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14129"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14155
+  title: "Kalev's Happy House"
+  description: >-
+    The second floor of the Kalev's house just the opposite to the first. 
+    Scattered clothes, armorpieces and weapons indicate to young and reckless 
+    dwellers.
+  exits:
+    - roomId: "notale:r14154"
+      direction: east
+    - roomId: "notale:r14156"
+      direction: west
+- id: r14156
+  title: "Kalev's Happy House"
+  description: >-
+    The second floor of the Kalev's house just the opposite to the first. 
+    Scattered clothes, armorpieces and weapons indicate to young and reckless 
+    dwellers.
+  exits:
+    - roomId: "notale:r14155"
+      direction: east
+    - roomId: "notale:r14151"
+      direction: down
+  items:
+    - id: "notale:o14147"
+      respawnChance: 75
+- id: r14157
+  title: "Kalev's realms"
+  description: >-
+    Obviously the dwellers of this land are rather farmers than fighters. You 
+    see huge greenhouses and pretty golden fields of corn. Hundreds of appletrees 
+    are full of mellow fruits.
+  exits:
+    - roomId: "notale:r14146"
+      direction: north
+    - roomId: "notale:r14163"
+      direction: south
+  items:
+    - id: "notale:o14144"
+      respawnChance: 75
+    - id: "notale:o14133"
+      respawnChance: 75
+- id: r14158
+  title: "Kalev's realms"
+  description: >-
+    Obviously the dwellers of this land are rather farmers than fighters. You 
+    see huge greenhouses and pretty golden fields of corn. Hundreds of appletrees 
+    are full of mellow fruits.
+  exits:
+    - roomId: "notale:r14149"
+      direction: north
+    - roomId: "notale:r14159"
+      direction: east
+- id: r14159
+  title: "Koljala village"
+  description: >-
+    Well-built wooden houses lie in straight rows here. Hard-working villagers 
+    seem to be happy and rich.
+  exits:
+    - roomId: "notale:r14150"
+      direction: north
+    - roomId: "notale:r14160"
+      direction: east
+    - roomId: "notale:r14158"
+      direction: west
+  npcs:
+    - id: "notale:m14124"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14123"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14121"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "notale:m14121"
+      respawnChance: 100
+      maxLoad: "2"
+  items:
+    - id: "notale:o14154"
+      respawnChance: 75
+    - id: "notale:o14155"
+      respawnChance: 75
+- id: r14160
+  title: "Kalev's realms"
+  description: >-
+    Obviously the dwellers of this land are rather farmers than fighters. You 
+    see huge greenhouses and pretty golden fields of corn. Hundreds of appletrees 
+    are full of mellow fruits.
+  exits:
+    - roomId: "notale:r14164"
+      direction: south
+    - roomId: "notale:r14161"
+      direction: east
+    - roomId: "notale:r14159"
+      direction: west
+  npcs:
+    - id: "notale:m14118"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14161
+  title: "Valjala village"
+  description: >-
+    You see a couple of luxurious manors surrounded by dozens of pathetic huts. 
+    A few well-fed villagers walk around proudly, paying no attention to their 
+    poor and miserable neighbors.
+  exits:
+    - roomId: "notale:r14165"
+      direction: south
+    - roomId: "notale:r14162"
+      direction: east
+    - roomId: "notale:r14160"
+      direction: west
+  npcs:
+    - id: "notale:m14120"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14122"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14114"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "notale:m14114"
+      respawnChance: 100
+      maxLoad: "2"
+  items:
+    - id: "notale:o14146"
+      respawnChance: 75
+- id: r14162
+  title: "Kalev's realms"
+  description: >-
+    Obviously the dwellers of this land are rather farmers than fighters. You 
+    see huge greenhouses and pretty golden fields of corn. Hundreds of appletrees 
+    are full of mellow fruits.
+  exits:
+    - roomId: "notale:r14163"
+      direction: east
+    - roomId: "notale:r14161"
+      direction: west
+  npcs:
+    - id: "notale:m14119"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "notale:o14140"
+      respawnChance: 75
+    - id: "notale:o14141"
+      respawnChance: 75
+    - id: "notale:o14149"
+      respawnChance: 75
+- id: r14163
+  title: "Mustjala village"
+  description: >-
+    Some little cottages with thatched roofs are scattered here. You see some 
+    villagers here gathered around the campfire.
+  exits:
+    - roomId: "notale:r14157"
+      direction: north
+    - roomId: "notale:r14171"
+      direction: east
+    - roomId: "notale:r14162"
+      direction: west
+  npcs:
+    - id: "notale:m14116"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14115"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14117"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "notale:m14117"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r14164
+  title: "Kalev's realms"
+  description: >-
+    Obviously the dwellers of this land are rather farmers than fighters. You 
+    see huge greenhouses and pretty golden fields of corn. Hundreds of appletrees 
+    are full of mellow fruits.
+  exits:
+    - roomId: "notale:r14160"
+      direction: north
+    - roomId: "notale:r14167"
+      direction: south
+    - roomId: "notale:r14165"
+      direction: east
+  items:
+    - id: "notale:o14159"
+      respawnChance: 75
+    - id: "notale:o14152"
+      respawnChance: 75
+- id: r14165
+  title: "Kalev's realms"
+  description: >-
+    Obviously the dwellers of this land are rather farmers than fighters. You 
+    see huge greenhouses and pretty golden fields of corn. Hundreds of appletrees 
+    are full of mellow fruits.
+  exits:
+    - roomId: "notale:r14161"
+      direction: north
+    - roomId: "notale:r14166"
+      direction: south
+    - roomId: "notale:r14164"
+      direction: west
+- id: r14166
+  title: "Kalev's realms"
+  description: >-
+    Obviously the dwellers of this land are rather farmers than fighters. You 
+    see huge greenhouses and pretty golden fields of corn. Hundreds of appletrees 
+    are full of mellow fruits.
+  exits:
+    - roomId: "notale:r14165"
+      direction: north
+    - roomId: "notale:r14169"
+      direction: east
+    - roomId: "notale:r14167"
+      direction: west
+  items:
+    - id: "notale:o14141"
+      respawnChance: 75
+- id: r14167
+  title: "Ymera battleground"
+  description: >-
+    Thick bushes and some small hills make this place perfect for ambushing and 
+    hiding. You can feel the presence of somebody, but you don't see anything.
+    - A steep, still vale of death,
+      the bloodthristy battlefield,
+      gathers bodies by thousands
+      to rest in the embrance of dust,
+      to sleep in the lawn's lap. -
+  exits:
+    - roomId: "notale:r14164"
+      direction: north
+    - roomId: "notale:r14168"
+      direction: south
+    - roomId: "notale:r14166"
+      direction: east
+  npcs:
+    - id: "notale:m14132"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14132"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14132"
+      respawnChance: 100
+      maxLoad: "3"
+  items:
+    - id: "notale:o14142"
+      respawnChance: 75
+- id: r14168
+  title: "Ymera battleground"
+  description: >-
+    Some dangerous-looking figures with iron clothes and loud voices have 
+    gathered here around the campfire. You hear a lot of arrogant laughing and 
+    bragging.
+  exits:
+    - roomId: "notale:r14167"
+      direction: north
+  npcs:
+    - id: "notale:m14133"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14133"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14132"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14134"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14169
+  title: "On the base of Bear Hill"
+  description: >-
+    You are standing on the base of Bear Hill, with your feet stuck in the 
+    dense undergrowth. You hear distant noises of a struggle from above.
+  exits:
+    - roomId: "notale:r14166"
+      direction: west
+    - roomId: "notale:r14170"
+      direction: up
+  npcs:
+    - id: "notale:m14136"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14170
+  title: "Bear Hill"
+  description: >-
+    The view is magnificent from here. You can even see the hostile lands far 
+    away in the south. Here lies the southern borderline of the Kalev's realms.
+  exits:
+    - roomId: "notale:r14169"
+      direction: down
+  npcs:
+    - id: "notale:m14138"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14138"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14138"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "notale:m14137"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14171
+  title: "Dark forest"
+  description: >-
+    You can see no movement in these woods, neither hear any sound. No bird 
+    sings, no animal runs along. Ancient gray trees are all you can see here, 
+    and you get a feeling that they can see you too.
+  exits:
+    - roomId: "notale:r14172"
+      direction: south
+    - roomId: "notale:r14163"
+      direction: west
+- id: r14172
+  title: "Dark forest"
+  description: >-
+    You can see no movement in these woods, neither hear any sound. No bird 
+    sings, no animal runs along. Ancient gray trees are all you can see here, 
+    and you get a feeling that they can see you too.
+    You can feel the chilling freeze glooming out from between some deep black 
+    rocks. It appears to come from the entrance to some passageway leading you 
+    down to darkness.
+  exits:
+    - roomId: "notale:r14171"
+      direction: north
+    - roomId: "notale:r14173"
+      direction: down
+  items:
+    - id: "notale:o14144"
+      respawnChance: 75
+    - id: "notale:o14144"
+      respawnChance: 75
+- id: r14173
+  title: "Passage"
+  description: >-
+    Air is still here, but yet you can feel some movement around you. There are 
+    flaming torches on the walls, giving just enough light for you to apprehend 
+    the darkness.
+  exits:
+    - roomId: "notale:r14174"
+      direction: south
+    - roomId: "notale:r14172"
+      direction: up
+- id: r14174
+  title: "Passage"
+  description: >-
+    Air is still here, but yet you can feel some movement around you. There are 
+    flaming torches on the walls, giving just enough light for you to apprehend 
+    the darkness.
+  exits:
+    - roomId: "notale:r14173"
+      direction: north
+    - roomId: "notale:r14175"
+      direction: down
+- id: r14175
+  title: "Passage"
+  description: >-
+    Air is still here, but yet you can feel some movement around you. There are 
+    flaming torches on the walls, giving just enough light for you to apprehend 
+    the darkness.
+  exits:
+    - roomId: "notale:r14176"
+      direction: south
+    - roomId: "notale:r14174"
+      direction: up
+- id: r14176
+  title: "Passage"
+  description: >-
+    Air is still here, but yet you can feel some movement around you. There are 
+    flaming torches on the walls, giving just enough light for you to apprehend 
+    the darkness.
+  exits:
+    - roomId: "notale:r14175"
+      direction: north
+    - roomId: "notale:r14177"
+      direction: down
+  items:
+    - id: "notale:o14133"
+      respawnChance: 75
+- id: r14177
+  title: "Dark passage"
+  description: >-
+    Benumbing fear sneaks around feet, as you hear the soft weeping coming from 
+    below. Torches have burned out, you have to fumble for your way down.
+  exits:
+    - roomId: "notale:r14176"
+      direction: up
+    - roomId: "notale:r14178"
+      direction: down
+  npcs:
+    - id: "notale:m14139"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "notale:m14139"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "notale:m14139"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "notale:m14139"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "notale:m14139"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14178
+  title: "Dark passage"
+  description: >-
+    Benumbing fear sneaks around feet, as you hear the soft weeping coming from 
+    below. Torches have burned out, you have to fumble for your way down.
+  exits:
+    - roomId: "notale:r14177"
+      direction: up
+    - roomId: "notale:r14179"
+      direction: down
+  npcs:
+    - id: "notale:m14139"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "notale:m14139"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "notale:m14139"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "notale:m14139"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "notale:m14139"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r14179
+  title: "Dark underground"
+  description: >-
+    Deep red light glows from below, through the stony floor. Some tortured 
+    figures lie on the cold stone floor in the corners here, weeping hopelessly.
+  exits:
+    - roomId: "notale:r14180"
+      direction: south
+    - roomId: "notale:r14181"
+      direction: east
+    - roomId: "notale:r14178"
+      direction: up
+    - roomId: "notale:r14183"
+      direction: down
+- id: r14180
+  title: "Dark underground"
+  description: >-
+    Deep red light glows from below, through the stony floor. Some tortured 
+    figures lie on the cold stone floor in the corners here, weeping hopelessly.
+  exits:
+    - roomId: "notale:r14179"
+      direction: north
+    - roomId: "notale:r14182"
+      direction: east
+    - roomId: "notale:r14184"
+      direction: down
+  npcs:
+    - id: "notale:m14140"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r14181
+  title: "Dark underground"
+  description: >-
+    Deep red light glows from below, through the stony floor. Some tortured 
+    figures lie on the cold stone floor in the corners here, weeping hopelessly.
+  exits:
+    - roomId: "notale:r14182"
+      direction: south
+    - roomId: "notale:r14179"
+      direction: west
+    - roomId: "notale:r14183"
+      direction: down
+  npcs:
+    - id: "notale:m14140"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r14182
+  title: "Dark underground"
+  description: >-
+    Deep red light glows from below, through the stony floor. Some tortured 
+    figures lie on the cold stone floor in the corners here, weeping hopelessly.
+  exits:
+    - roomId: "notale:r14181"
+      direction: north
+    - roomId: "notale:r14180"
+      direction: west
+    - roomId: "notale:r14184"
+      direction: down
+  npcs:
+    - id: "notale:m14140"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r14183
+  title: "Darkest underground"
+  description: >-
+    You seem to stand on the thin air. There is nothing more but the red light, 
+    no floor nor ceiling, just the light all around you, driving you insane.
+  exits:
+    - roomId: "notale:r14184"
+      direction: south
+    - roomId: "notale:r14181"
+      direction: up
+    - roomId: "notale:r14185"
+      direction: down
+- id: r14184
+  title: "Darkest underground"
+  description: >-
+    You seem to stand on the thin air. There is nothing more but the red light, 
+    no floor nor ceiling, just the light all around you, driving you insane.
+  exits:
+    - roomId: "notale:r14183"
+      direction: north
+    - roomId: "notale:r14182"
+      direction: up
+    - roomId: "notale:r14185"
+      direction: down
+- id: r14185
+  title: "Old Hornie's lair"
+  description: >-
+    You are in a small dimly lit room, covered in dust. A huge ancient armchair,
+     ornamented with human skulls, standing in the center of the room, leaves 
+    you no other choice but to think that you have entered the throne hall of 
+    the Old Hornie himself.
+  exits:
+    - roomId: "notale:r14184"
+      direction: up
+  npcs:
+    - id: "notale:m14142"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "notale:m14141"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r14186
+  title: "Vanemuine the song-wizard's room"
+  description: >-
+    Tales gathered and written by F.R. Kreutzwald
+    - Vanemuine, lend me your lyre.
+      A sweet song is stirring my senses
+      and I long unfold in song
+      the legacy of ancient ages. -
+    All lyrics translated by George Kurman
+    English Translation copyright UNESCO 1982

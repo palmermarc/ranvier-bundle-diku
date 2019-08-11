@@ -1,0 +1,12 @@
+title: "Miden'nir"
+metadata:
+  id: 46
+  name: "Miden'nir"
+  createdBy: "copper"
+  starting_vnum: 3500
+  ending_vnum: 3599
+  item_requirements: 0
+  filename: "midennir.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

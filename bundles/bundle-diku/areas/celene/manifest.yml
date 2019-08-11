@@ -1,0 +1,12 @@
+title: "Celene"
+metadata:
+  id: 12
+  name: "Celene"
+  createdBy: "avalon & Yaegar"
+  starting_vnum: 26400
+  ending_vnum: 26499
+  item_requirements: 6000
+  filename: "celene.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

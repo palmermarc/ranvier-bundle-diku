@@ -1,0 +1,250 @@
+- id: o5200
+  name: "mithril vest"
+  roomDesc: "A vest made of mithril plates lies heaped on the floor."
+  keywords: ["mithril","vest"]
+  description: "A vest made of mithril plates lies heaped on the floor."
+  type: HEAVYARMOR
+- id: o5201
+  name: "helm mithril"
+  roomDesc: "Here lies a large mithril helm."
+  keywords: ["helm","mithril"]
+  description: "Here lies a large mithril helm."
+  type: HEAVYARMOR
+- id: o5202
+  name: "gauntlets mithril"
+  roomDesc: "A pair of mithril gauntlets rests on the ground."
+  keywords: ["gauntlets","mithril"]
+  description: "A pair of mithril gauntlets rests on the ground."
+  type: HEAVYARMOR
+- id: o5203
+  name: "sleeves mithril"
+  roomDesc: "A set of mithril sleeves lies on the ground."
+  keywords: ["sleeves","mithril"]
+  description: "A set of mithril sleeves lies on the ground."
+  type: HEAVYARMOR
+- id: o5204
+  name: "boots mithril"
+  roomDesc: "A pair of mithril boots stands has been left here."
+  keywords: ["boots","mithril"]
+  description: "A pair of mithril boots stands has been left here."
+  type: HEAVYARMOR
+- id: o5205
+  name: "leggings mithril"
+  roomDesc: "A set of mithril leggings lie here unattended."
+  keywords: ["leggings","mithril"]
+  description: "A set of mithril leggings lie here unattended."
+  type: HEAVYARMOR
+- id: o5206
+  name: "girth mithril"
+  roomDesc: "A large iron girth lies at your feet."
+  keywords: ["girth","mithril"]
+  description: "A large iron girth lies at your feet."
+  type: ACCESSORY
+- id: o5207
+  name: "breast plate iron"
+  roomDesc: "A battered iron breast plate lies here."
+  keywords: ["breast","plate","iron"]
+  description: "A battered iron breast plate lies here."
+  type: HEAVYARMOR
+- id: o5208
+  name: "shield iron"
+  roomDesc: "A small, but sturdy, iron shield has been left here."
+  keywords: ["shield","iron"]
+  description: "A small, but sturdy, iron shield has been left here."
+  type: SHIELD
+- id: o5210
+  name: "potion black"
+  roomDesc: "A jet black potion sits upright waiting to be taken."
+  keywords: ["potion","black"]
+  description: "A jet black potion sits upright waiting to be taken."
+  type: POTION
+- id: o5211
+  name: "potion orange"
+  roomDesc: "A small orange potion lies here."
+  keywords: ["potion","orange"]
+  description: "A small orange potion lies here."
+  type: POTION
+- id: o5214
+  name: "ball quartz"
+  roomDesc: "A smooth quartz ball lies here gleaming."
+  keywords: ["ball","quartz"]
+  description: "A smooth quartz ball lies here gleaming."
+  type: LIGHT
+- id: o5215
+  name: "scroll tattered"
+  roomDesc: "A worn and tattered scroll has been left here."
+  keywords: ["scroll","tattered"]
+  description: "A worn and tattered scroll has been left here."
+  type: SCROLL
+- id: o5216
+  name: "scroll bound"
+  roomDesc: "A bound scroll of detection lies at your feet."
+  keywords: ["scroll","bound"]
+  description: "A bound scroll of detection lies at your feet."
+  type: SCROLL
+- id: o5217
+  name: "flute silver"
+  roomDesc: "A brilliant silver flute glimmers from beneath a rock."
+  keywords: ["flute","silver"]
+  description: "A brilliant silver flute glimmers from beneath a rock."
+  type: STAFF
+- id: o5218
+  name: "talisman demon"
+  roomDesc: "A demon-faced talisman glares at you angrily."
+  keywords: ["talisman","demon"]
+  description: "A demon-faced talisman glares at you angrily."
+  type: ACCESSORY
+- id: o5219
+  name: "venison chunk"
+  roomDesc: "A large chunk of venison sits here ready to be eaten."
+  keywords: ["venison","chunk"]
+  description: "A large chunk of venison sits here ready to be eaten."
+  type: FOOD
+- id: o5220
+  name: "fountain water"
+  roomDesc: "Some stagnant water lies in the bottom of the fountain."
+  keywords: ["fountain","water"]
+  description: "Some stagnant water lies in the bottom of the fountain."
+  type: FOUNTAIN
+- id: o5221
+  name: "two-handed two sword"
+  roomDesc: "A nice two-handed sword hangs on a hook in the wall."
+  keywords: ["two-handed","two","sword"]
+  description: "A nice two-handed sword hangs on a hook in the wall."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5222
+  name: "robe black silk"
+  roomDesc: "A black silk robe lies heaped in one corner."
+  keywords: ["robe","black","silk"]
+  description: "A black silk robe lies heaped in one corner."
+  type: LIGHTARMOR
+- id: o5223
+  name: "cloak green"
+  roomDesc: "A beautiful dark green cloak has been dropped by someone."
+  keywords: ["cloak","green"]
+  description: "A beautiful dark green cloak has been dropped by someone."
+  type: ACCESSORY
+- id: o5224
+  name: "seal ebony"
+  roomDesc: "A small, engraved ebony seal is here."
+  keywords: ["seal","ebony"]
+  description: "A small, engraved ebony seal is here."
+  type: KEY
+- id: o5225
+  name: "desk curved"
+  roomDesc: "A dirty, crumbling curved desk is here."
+  keywords: ["desk","curved"]
+  description: "A dirty, crumbling curved desk is here."
+  type: CONTAINER
+  items: ["thalos:o5215","thalos:o5216"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o5226
+  name: "seal ivory"
+  roomDesc: "A small, engraved ivory seal lies here."
+  keywords: ["seal","ivory"]
+  description: "A small, engraved ivory seal lies here."
+  type: KEY
+- id: o5227
+  name: "cabinet glass"
+  roomDesc: "A broken glass cabinet is here."
+  keywords: ["cabinet","glass"]
+  description: "A broken glass cabinet is here."
+  type: CONTAINER
+  items: ["midgaard:o3105"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o5228
+  name: "arm rotted"
+  roomDesc: "A rotted arm floats lazily by your feet."
+  keywords: ["arm","rotted"]
+  description: "A rotted arm floats lazily by your feet."
+  type: FOOD
+- id: o5230
+  name: "stone pale blue"
+  roomDesc: "A pale blue stone sits here."
+  keywords: ["stone","pale","blue"]
+  description: "A pale blue stone sits here."
+  type: TREASURE
+- id: o5231
+  name: "stone scarlet blue"
+  roomDesc: "A pretty scarlet and blue stone has been dropped here."
+  keywords: ["stone","scarlet","blue"]
+  description: "A pretty scarlet and blue stone has been dropped here."
+  type: TREASURE
+- id: o5232
+  name: "stone blue incandescent"
+  roomDesc: "A small incandescent blue stone lies here."
+  keywords: ["stone","blue","incandescent"]
+  description: "A small incandescent blue stone lies here."
+  type: TREASURE
+- id: o5233
+  name: "stone red deep"
+  roomDesc: "Someone has left a deep red stone here."
+  keywords: ["stone","red","deep"]
+  description: "Someone has left a deep red stone here."
+  type: TREASURE
+- id: o5234
+  name: "stone pink"
+  roomDesc: "A tiny pink stone lies at your feet."
+  keywords: ["stone","pink"]
+  description: "A tiny pink stone lies at your feet."
+  type: TREASURE
+- id: o5235
+  name: "stone pearly white"
+  roomDesc: "This pearly white stone would probably sell for a good price."
+  keywords: ["stone","pearly","white"]
+  description: "This pearly white stone would probably sell for a good price."
+  type: TREASURE
+- id: o5237
+  name: "stone lavender green"
+  roomDesc: "A stunning lavender and green stone rests on the ground."
+  keywords: ["stone","lavender","green"]
+  description: "A stunning lavender and green stone rests on the ground."
+  type: TREASURE
+- id: o5239
+  name: "stone grey dull"
+  roomDesc: "You can barely make out a dull grey stone on the ground."
+  keywords: ["stone","grey","dull"]
+  description: "You can barely make out a dull grey stone on the ground."
+  type: TREASURE
+- id: o5241
+  name: "stone pink green"
+  roomDesc: "A bright pink and green stone has been left here."
+  keywords: ["stone","pink","green"]
+  description: "A bright pink and green stone has been left here."
+  type: TREASURE
+- id: o5243
+  name: "stone clear"
+  roomDesc: "A odd clear stone lies at your feet."
+  keywords: ["stone","clear"]
+  description: "A odd clear stone lies at your feet."
+  type: TREASURE
+- id: o5250
+  name: "mandolin"
+  roomDesc: "A mandolin lies against the wall."
+  keywords: ["mandolin"]
+  description: "A mandolin lies against the wall."
+  type: TRASH
+- id: o5251
+  name: "harp golden"
+  roomDesc: "A battered golden harp has been tipped over."
+  keywords: ["harp","golden"]
+  description: "A battered golden harp has been tipped over."
+  type: TRASH
+- id: o5252
+  name: "long dagger slim"
+  roomDesc: "A long slim dagger has been left here."
+  keywords: ["long","dagger","slim"]
+  description: "A long slim dagger has been left here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

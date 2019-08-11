@@ -1,0 +1,29 @@
+---
+body: |
+  Immunities and resistances give you protection from the following:
+  Slash : Slashing/Slicing weapons inflict 10hp less.
+  Stab : Stabbing/Piercing weapons inflict 10hp less.
+  Smash : Blasting/Crushing/Pounding weapons inflict 10hp less.
+  Beast : Clawing/Biting weapons inflict 10hp less.
+  Grab : Grepping/Whipping/Sucking weapons inflict 10hp less.
+  Charm : You are no longer affected by the Charm Person spell.
+  Heat : You are unaffected by Burning Hands, Fireball, etc.
+  Cold : You are unaffected by Frost Breath, Chill Touch, etc.
+  Lightning : You are unaffected by Lightning bolt, Call Lightning, etc.
+  Acid : You are unaffected by Acid Blast, Acid Breath, etc.
+  Drain : You are unaffected by the Energy Drain spell.
+  Summon : You cannot be summoned by other players.
+  Hurl : You cannot be hurled.
+  Backstab : You cannot be backstabbed.
+  Kick : Kicks do no damage whatsoever to you.
+  Disarm : You cannot be disarmed by other players or by mobs.
+  Steal : Other players and mobs cannot steal from you.
+  Bite : Vampires may not bite you or feed you blood.
+  Stake : If you're a vampire with this, you cannot be staked down.
+  
+  Note that some immunities do have a 5% chance of being useless, for 
+  instance charm.
+  
+  - immunity
+  - immunities
+  - resistances

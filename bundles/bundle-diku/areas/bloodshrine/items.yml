@@ -1,0 +1,194 @@
+- id: o12500
+  name: "Broad Sword"
+  roomDesc: "A big dull looking sword lies in the dirt."
+  keywords: ["Broad","Sword"]
+  description: "A big dull looking sword lies in the dirt."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12501
+  name: "Serpentis Ring"
+  roomDesc: "A glowing ring lies here gleaming but coverd in blood."
+  keywords: ["Serpentis","Ring"]
+  description: "A glowing ring lies here gleaming but coverd in blood."
+  type: ACCESSORY
+- id: o12502
+  name: "Mad Sword"
+  roomDesc: "Mad's hand crafted sword called Mad lies here in a dark eerie glow."
+  keywords: ["Mad","Sword"]
+  description: "Mad's hand crafted sword called Mad lies here in a dark eerie glow."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12503
+  name: "Jynx Shield"
+  roomDesc: "A shield lies here with a wierd etching in it, no one can read it but Jynx herself."
+  keywords: ["Jynx","Shield"]
+  description: "A shield lies here with a wierd etching in it, no one can read it but Jynx herself."
+  type: SHIELD
+- id: o12504
+  name: "Stake"
+  roomDesc: "A silver stake lies here on the ground, useless against vampires."
+  keywords: ["Stake"]
+  description: "A silver stake lies here on the ground, useless against vampires."
+  type: STAKE
+- id: o12505
+  name: "Sex Change Pill"
+  roomDesc: "A sex change pill lies here."
+  keywords: ["Sex","Change","Pill"]
+  description: "A sex change pill lies here."
+  type: PILL
+- id: o12506
+  name: "Straight Jacket"
+  roomDesc: "A straight jacket lies here waiting to consume its next user."
+  keywords: ["Straight","Jacket"]
+  description: "A straight jacket lies here waiting to consume its next user."
+  type: ACCESSORY
+- id: o12507
+  name: "Coiled Staff"
+  roomDesc: "A coiled withered staff lies here."
+  keywords: ["Coiled","Staff"]
+  description: "A coiled withered staff lies here."
+  type: STAFF
+- id: o12508
+  name: "Sword of Command"
+  roomDesc: "A powerful sword lies here, ready to posses and dominate its next user."
+  keywords: ["Sword","of","Command"]
+  description: "A powerful sword lies here, ready to posses and dominate its next user."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12509
+  name: "Magical Light"
+  roomDesc: "A magical light lies here, it looks hand-crafted."
+  keywords: ["Magical","Light"]
+  description: "A magical light lies here, it looks hand-crafted."
+  type: LIGHT
+- id: o12510
+  name: "harpoon of Destruction"
+  roomDesc: "A large harpoon lies here, twiching with power."
+  keywords: ["harpoon","of","Destruction"]
+  description: "A large harpoon lies here, twiching with power."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12511
+  name: "Wrench"
+  roomDesc: "A plumbers wrench lies here."
+  keywords: ["Wrench"]
+  description: "A plumbers wrench lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12512
+  name: "Pig Stick"
+  roomDesc: "A Pig Sticker lies here."
+  keywords: ["Pig","Stick"]
+  description: "A Pig Sticker lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12513
+  name: "Helm Of Wimps"
+  roomDesc: "A steel helm lies here, its dull and eerie."
+  keywords: ["Helm","Of","Wimps"]
+  description: "A steel helm lies here, its dull and eerie."
+  type: HEAVYARMOR
+- id: o12514
+  name: "Wooden Sword"
+  roomDesc: "A wooden sword lies here, good for training."
+  keywords: ["Wooden","Sword"]
+  description: "A wooden sword lies here, good for training."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12515
+  name: "Cape of Fear"
+  roomDesc: "A cape lies here, it makes you want to kill anyone who uses the mask."
+  keywords: ["Cape","of","Fear"]
+  description: "A cape lies here, it makes you want to kill anyone who uses the mask."
+  type: ACCESSORY
+- id: o12516
+  name: "BlackHands"
+  roomDesc: "A pair of black gloves here glaze over, as you notice its deep black transparent color."
+  keywords: ["BlackHands"]
+  description: "A pair of black gloves here glaze over, as you notice its deep black transparent color."
+  type: MEDIUMARMOR
+- id: o12517
+  name: "Pale shrouds"
+  roomDesc: "A cover of some sort lies here out of sight, you wonder what powerful creature made it."
+  keywords: ["Pale","shrouds"]
+  description: "A cover of some sort lies here out of sight, you wonder what powerful creature made it."
+  type: ACCESSORY
+- id: o12518
+  name: "Big Mouth"
+  roomDesc: "A big mouth on a stick lies here ready to suck you to death."
+  keywords: ["Big","Mouth"]
+  description: "A big mouth on a stick lies here ready to suck you to death."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12519
+  name: "Holy Cross"
+  roomDesc: "A holy cross lies here from the holy vampire Faith."
+  keywords: ["Holy","Cross"]
+  description: "A holy cross lies here from the holy vampire Faith."
+  type: ACCESSORY
+- id: o12520
+  name: "Hamburger"
+  roomDesc: "A juicy Hamburger, the finest in all the land, lies here."
+  keywords: ["Hamburger"]
+  description: "A juicy Hamburger, the finest in all the land, lies here."
+  type: FOOD
+- id: o12521
+  name: "Glaive of Thieves"
+  roomDesc: "A Glaive rests here, not of a Minotaur, you wonder where it came from."
+  keywords: ["Glaive","of","Thieves"]
+  description: "A Glaive rests here, not of a Minotaur, you wonder where it came from."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12522
+  name: "Gargoyle Claw"
+  roomDesc: "A sharp 10 inch claw lies here."
+  keywords: ["Gargoyle","Claw"]
+  description: "A sharp 10 inch claw lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12523
+  name: "Sword of Blood"
+  roomDesc: "A huge sword lies here, bleeding on the ground."
+  keywords: ["Sword","of","Blood"]
+  description: "A huge sword lies here, bleeding on the ground."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o12524
+  name: "finger bone skeleton key"
+  roomDesc: "A bone from a skeleton lies here"
+  keywords: ["finger","bone","skeleton","key"]
+  description: "A bone from a skeleton lies here"
+  type: KEY

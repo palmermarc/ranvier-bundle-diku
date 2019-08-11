@@ -1,0 +1,12 @@
+title: "Senial's Junk Drawer"
+metadata:
+  id: 65
+  name: "Senial's Junk Drawer"
+  createdBy: "Senial"
+  starting_vnum: 32500
+  ending_vnum: 32999
+  item_requirements: 0
+  filename: "senial.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,12 @@
+title: "Dwarven Fortress"
+metadata:
+  id: 27
+  name: "Dwarven Fortress"
+  createdBy: "Senial"
+  starting_vnum: 11000
+  ending_vnum: 11099
+  item_requirements: 0
+  filename: "fortress.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

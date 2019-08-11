@@ -1,0 +1,18 @@
+---
+body: |
+  Celerity is a Discipline that grants vampires supernatural quickness and reflexes.
+  
+  #cQuickness (Rank 1)
+  #eGain two extra attacks
+  
+  #cPrecision (Rank 2)
+  #eGain a large boost to hit for 2 turns.
+  
+  #cMomentum (Rank 3)
+  #eFocus your celerity to gain a large boost to damage for 2 turns.
+  
+  #cFlawless Parry (Rank 4)
+  #eMake perfect defensive movements at the expense of all else.
+  
+  #cStutter-Step (Rank 5)
+  #egain dodge/parry

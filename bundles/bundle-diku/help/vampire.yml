@@ -1,0 +1,28 @@
+---
+body: |
+  Vampires are the creatures of the night and thus take damage if exposed 
+  to daylight. Vampires cannot eat food, or drink any liquids except for 
+  blood. If they cannot drink blood for a long duration of time they will 
+  start taking damage or maybe even go berserk, so it's a good idea to store 
+  some blood in a drinking container. Vampires take half damage from cold, 
+  none from gas, and double from fire, although those with the Heat 
+  immunity take normal fire damage rather than double. Other abilities:
+  
+  * Fangs - Gives a free bite attack in combat, and required to 'bite' people.
+  * Bite - Transforms target into a vampire, but costs the vampire 1000 exp.
+  * Order - As if target lower generation vampire of your clan was charmed.
+  * Introduce - Informs everyone in the room of your vampire lineage.
+  * Vamptalk - A special vampire channel which distinguishes between clans.
+  * Clan channels are also available now. use the first 4 letters of your
+  clan+talk .. e.g. nosftalk, gangtalk, malktalk etc...
+  * Regenerate - Vampire cannot regenerate naturally; they need to use this.
+  * Vclan - Shows information on the other members of a vampires clan.
+  * Feed - For feeding other vampires with your blood.
+  
+  In addition, all vampires get 3 or more disciplines, each of which grant 
+  one or more extra powers. For more information type 'help disciplines'.
+  The VAMPIRE command toggles on/off whether vampires may bite/feed you.
+  See Also: help BEAST
+  
+  - vampires
+  - blood

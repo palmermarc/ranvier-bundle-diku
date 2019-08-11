@@ -1,0 +1,22 @@
+---
+body: |
+  Syntax: skill | skill <player>
+  
+  This shows the target player's skill with the stance they are currently 
+  using. The following shows the different skill ratings:
+  
+  1) Completely unskilled. 6) Well trained.
+  2) Apprentice. 7) Highly skilled.
+  3) Trainee. 8) An expert.
+  4) Student. 9) A master.
+  5) Fairly Experienced. - more masterful
+   - even more masterful
+   - on the verge of
+   10) A grandmaster.
+  
+  Note that these are only rough estimates; one master might well be 
+  slightly more skilled than another master, and so on.
+  
+  See also: SKILL WEAPON BASIC ASTANCE STANCE
+  
+  - sskill

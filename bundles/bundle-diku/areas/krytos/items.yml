@@ -1,0 +1,198 @@
+- id: o13065
+  name: "Sword of the Royal Guard"
+  roomDesc: "A glinting platinum sword lies here."
+  keywords: ["Sword","of","the","Royal","Guard"]
+  description: "A glinting platinum sword lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o13066
+  name: "The Hammer of the Elite"
+  roomDesc: "A giant black hammer lies on the ground."
+  keywords: ["The","Hammer","of","the","Elite"]
+  description: "A giant black hammer lies on the ground."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o13067
+  name: "a tattered shirt"
+  roomDesc: "A tattered shirt lies here on the ground un-used."
+  keywords: ["a","tattered","shirt"]
+  description: "A tattered shirt lies here on the ground un-used."
+  type: LIGHTARMOR
+- id: o13068
+  name: "a worn dress"
+  roomDesc: "A worn dress lies crumpled on the ground."
+  keywords: ["a","worn","dress"]
+  description: "A worn dress lies crumpled on the ground."
+  type: LIGHTARMOR
+- id: o13069
+  name: "A Full Body Plate"
+  roomDesc: "A large piece of armor lies on the ground unattended."
+  keywords: ["A","Full","Body","Plate"]
+  description: "A large piece of armor lies on the ground unattended."
+  type: HEAVYARMOR
+- id: o13070
+  name: "A Pair of Royal Leggings"
+  roomDesc: "A pair of shiny leggings rests here."
+  keywords: ["A","Pair","of","Royal","Leggings"]
+  description: "A pair of shiny leggings rests here."
+  type: HEAVYARMOR
+- id: o13071
+  name: "Sleeves of the Guards"
+  roomDesc: "Some golden sleeves lie here waiting to be worn."
+  keywords: ["Sleeves","of","the","Guards"]
+  description: "Some golden sleeves lie here waiting to be worn."
+  type: HEAVYARMOR
+- id: o13072
+  name: "A cup of wine"
+  roomDesc: "A cup of wine waiting to be drunk from."
+  keywords: ["A","cup","of","wine"]
+  description: "A cup of wine waiting to be drunk from."
+  type: DRINKCON
+- id: o13073
+  name: "A beautiful dress"
+  roomDesc: "A soft, silky dress was dropped here."
+  keywords: ["A","beautiful","dress"]
+  description: "A soft, silky dress was dropped here."
+  type: LIGHTARMOR
+- id: o13074
+  name: "A ring of royalty"
+  roomDesc: "A shiny golden ring lies on the floor."
+  keywords: ["A","ring","of","royalty"]
+  description: "A shiny golden ring lies on the floor."
+  type: ACCESSORY
+- id: o13075
+  name: "A plate of chicken"
+  roomDesc: "A plate of chicken is waiting to be eaten."
+  keywords: ["A","plate","of","chicken"]
+  description: "A plate of chicken is waiting to be eaten."
+  type: FOOD
+- id: o13076
+  name: "The Sword of Reknown"
+  roomDesc: "A strange sword lies here radiating much energy."
+  keywords: ["The","Sword","of","Reknown"]
+  description: "A strange sword lies here radiating much energy."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o13077
+  name: "A practice sword"
+  roomDesc: "A small sword rests here."
+  keywords: ["A","practice","sword"]
+  description: "A small sword rests here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o13078
+  name: "A practice hammer"
+  roomDesc: "A hammer used for practice rests here."
+  keywords: ["A","practice","hammer"]
+  description: "A hammer used for practice rests here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o13079
+  name: "The Weaponmaster's Sword"
+  roomDesc: "A really long sword rests on the training grounds."
+  keywords: ["The","Weaponmaster's","Sword"]
+  description: "A really long sword rests on the training grounds."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o13080
+  name: "A huge hammer"
+  roomDesc: "A dangerously large hammer sits on the floor."
+  keywords: ["A","huge","hammer"]
+  description: "A dangerously large hammer sits on the floor."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o13081
+  name: "A skimpy skirt"
+  roomDesc: "A short, skimpy skirt lies here."
+  keywords: ["A","skimpy","skirt"]
+  description: "A short, skimpy skirt lies here."
+  type: LIGHTARMOR
+- id: o13082
+  name: "A gigantic claw"
+  roomDesc: "A gigantic claw rests here."
+  keywords: ["A","gigantic","claw"]
+  description: "A gigantic claw rests here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o13083
+  name: "Fangs of Doom"
+  roomDesc: "A pair of long fangs rests here."
+  keywords: ["Fangs","of","Doom"]
+  description: "A pair of long fangs rests here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o13084
+  name: "Scales of Invincibility"
+  roomDesc: "A large suit of armor lies here untaken."
+  keywords: ["Scales","of","Invincibility"]
+  description: "A large suit of armor lies here untaken."
+  type: HEAVYARMOR
+- id: o13085
+  name: "Cape of Royalty"
+  roomDesc: "A long flowing cape rests here."
+  keywords: ["Cape","of","Royalty"]
+  description: "A long flowing cape rests here."
+  type: ACCESSORY
+- id: o13086
+  name: "A Mystic Hammer"
+  roomDesc: "A shimmering black hammer lies here unused."
+  keywords: ["A","Mystic","Hammer"]
+  description: "A shimmering black hammer lies here unused."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o13087
+  name: "Beaks of Death"
+  roomDesc: "A long beak rests here."
+  keywords: ["Beaks","of","Death"]
+  description: "A long beak rests here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o13088
+  name: "The Phantom Blade"
+  roomDesc: "A dark evil sword lies here."
+  keywords: ["The","Phantom","Blade"]
+  description: "A dark evil sword lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o13089
+  name: "A vanishing cloak"
+  roomDesc: "A fading black cloak rests here."
+  keywords: ["A","vanishing","cloak"]
+  description: "A fading black cloak rests here."
+  type: ACCESSORY

@@ -1,0 +1,646 @@
+- id: r2201
+  title: "The Tower Gates"
+  description: >-
+    You are at the entrance to a tall tower.  Lightning flashes periodically and
+    it is raining.  You think it might be a good idea to turn back into the grove.
+  exits:
+    - roomId: "draconia:r2202"
+      direction: north
+    - roomId: "shadow:r1254"
+      direction: east
+  npcs:
+    - id: "draconia:m2200"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2202
+  title: "The Foyer "
+  description: >-
+    This is the entrance to the Tower.  The hallway continues to the north,
+    leading towards a staircase.  You notice a grim painting on the wall,  and 
+    quickly look away.
+  exits:
+    - roomId: "draconia:r2203"
+      direction: north
+    - roomId: "draconia:r2201"
+      direction: south
+  npcs:
+    - id: "draconia:m2200"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2203
+  title: "Hallway"
+  description: >-
+    This hallway seems to stretch on forever.  You notice a stairway in  
+    the distance.
+  exits:
+    - roomId: "draconia:r2204"
+      direction: north
+    - roomId: "draconia:r2202"
+      direction: south
+  npcs:
+    - id: "draconia:m2200"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2200"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2201"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r2204
+  title: "Hallway"
+  description: >-
+    You trudge down the hallway.  You notice doors to the east and west.
+  exits:
+    - roomId: "draconia:r2207"
+      direction: north
+    - roomId: "draconia:r2203"
+      direction: south
+    - roomId: "draconia:r2205"
+      direction: east
+    - roomId: "draconia:r2206"
+      direction: west
+  npcs:
+    - id: "draconia:m2201"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "draconia:m2201"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "draconia:m2201"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r2205
+  title: "Nursery"
+  description: >-
+    It looks like a tornado has been through here.  Toys are scattered everywhere,
+    and a small group of dragon hatchlings are fighting over a bone.
+  exits:
+    - roomId: "draconia:r2223"
+      direction: east
+    - roomId: "draconia:r2204"
+      direction: west
+  npcs:
+    - id: "draconia:m2200"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2200"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2200"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2200"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2206
+  title: "Storage Room"
+  description: >-
+    This room is covered with dust, it looks as if no one has been here in ages.
+  exits:
+    - roomId: "draconia:r2204"
+      direction: east
+    - roomId: "draconia:r2208"
+      direction: down
+  npcs:
+    - id: "draconia:m2200"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2207
+  title: "End of the Hallway"
+  description: >-
+    You have finally reached the end of the hallway.  A huge staircase leads up.
+    You see a sign at the base of the staircase.
+  exits:
+    - roomId: "draconia:r2204"
+      direction: south
+    - roomId: "draconia:r2210"
+      direction: up
+  npcs:
+    - id: "draconia:m2200"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2227"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2208
+  title: "Guardian's Room"
+  description: >-
+    You climb down the rickety stairs and find yourself face to face with a 
+    gargantuan hydra.  How fast can you climb UP stairs?
+  exits:
+    - roomId: "draconia:r2209"
+      direction: south
+    - roomId: "draconia:r2206"
+      direction: up
+  npcs:
+    - id: "draconia:m2226"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2209
+  title: "The Treasure Room"
+  description: >-
+    You have made it past the hydra into the vault.  You are astounded by 
+    the treasure here.  Not only are you now rich, you can probably rest here
+    safely.  The west wall seems to have a large door made entirely of ruby.
+  exits:
+    - roomId: "draconia:r2208"
+      direction: north
+    - roomId: "draconia:r2218"
+      direction: west
+- id: r2210
+  title: "The Second Floor"
+  description: >-
+    You have made it up to the second floor.  You hear hissing and see several
+    dragon men rushing you.  You wonder how long you will be staying here.
+  exits:
+    - roomId: "draconia:r2211"
+      direction: south
+    - roomId: "draconia:r2207"
+      direction: down
+  npcs:
+    - id: "draconia:m2201"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "draconia:m2207"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r2211
+  title: "The Court"
+  description: >-
+    You have entered what seems to be a large court.  The people guarding it
+    don't seem happy to see you ...
+  exits:
+    - roomId: "draconia:r2210"
+      direction: north
+    - roomId: "draconia:r2213"
+      direction: south
+    - roomId: "draconia:r2212"
+      direction: east
+  npcs:
+    - id: "draconia:m2207"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "draconia:m2207"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r2212
+  title: "Hall O' Pleasure"
+  description: >-
+    You stop dead in your tracks as you enter this ornately decorated room - it
+    is populated with the king's harem.
+  exits:
+    - roomId: "draconia:r2211"
+      direction: west
+  npcs:
+    - id: "draconia:m2206"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2206"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2206"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2206"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2213
+  title: "The Court"
+  description: >-
+    You are continuing down the hall.  To the east and west you see ornate doors.
+  exits:
+    - roomId: "draconia:r2211"
+      direction: north
+    - roomId: "draconia:r2216"
+      direction: south
+    - roomId: "draconia:r2214"
+      direction: east
+    - roomId: "draconia:r2215"
+      direction: west
+- id: r2214
+  title: "The Library"
+  description: >-
+    You have entered a huge room, filled with books.  A peaceful man is
+    sitting at a table, studying.
+  exits:
+    - roomId: "draconia:r2213"
+      direction: west
+  npcs:
+    - id: "draconia:m2203"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "draconia:m2242"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2204"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2215
+  title: "The Sanctum"
+  description: >-
+    This small room is modestly decorated with small dragon icons.  Its sole
+    occupant is deep in thought.
+  exits:
+    - roomId: "draconia:r2213"
+      direction: east
+- id: r2216
+  title: "The Court Ends"
+  description: >-
+    You have reached the end of the court.  A huge Draconian is sitting in a
+    chair here.  As you enter, he motions with his hand and you are rushed by three
+    of his bodyguards.
+  exits:
+    - roomId: "draconia:r2213"
+      direction: north
+    - roomId: "draconia:r2217"
+      direction: east
+  npcs:
+    - id: "draconia:m2205"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "draconia:m2207"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2207"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2207"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2242"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2242"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2217
+  title: "bedroom"
+  description: >-
+    This is the personal room of the draconian king.  It is not empty.
+  exits:
+    - roomId: "draconia:r2216"
+      direction: west
+  npcs:
+    - id: "draconia:m2243"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "draconia:m2227"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2227"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2241"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2218
+  title: "Entrance to the Crypt"
+  description: >-
+    You have entered a large room which smells heavily of reptile.  You wonder
+    what awaits you here.
+  exits:
+    - roomId: "draconia:r2209"
+      direction: east
+    - roomId: "draconia:r2219"
+      direction: west
+  npcs:
+    - id: "draconia:m2240"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2240"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2219
+  title: "Crypt"
+  description: >-
+    You are in a large room which continues to the west.  You notice many
+    coffins here.  Open coffins reveal remains of something other than man.  
+    The smell of reptile is very strong here.
+  exits:
+    - roomId: "draconia:r2218"
+      direction: east
+    - roomId: "draconia:r2222"
+      direction: west
+  npcs:
+    - id: "draconia:m2240"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "draconia:m2240"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2220
+  title: "The Lair"
+  description: >-
+    You have entered a large room dominated by a great white dragon.  It growls
+    at you before it attacks.
+  exits:
+    - roomId: "draconia:r2235"
+      direction: south
+  npcs:
+    - id: "draconia:m2223"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2221
+  title: "A Lair"
+  description: >-
+    You have entered a large room dominated by a great black dragon.  It looks
+    as though it is amused by your presence.
+  exits:
+    - roomId: "draconia:r2241"
+      direction: north
+  npcs:
+    - id: "draconia:m2222"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2222
+  title: "The Crypt Ends"
+  description: >-
+    You have come to the end of the Crypt.  It seems deserted.  There is a 
+    strange coffin lying against the wall.
+    
+  exits:
+    - roomId: "draconia:r2219"
+      direction: east
+    - roomId: "draconia:r2232"
+      direction: west
+  npcs:
+    - id: "draconia:m2202"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2223
+  title: "Entrance to the Great Hall"
+  description: >-
+    You have entered a huge hall.  It has been carefully decorated with
+    beautiful tapestries depicting a great battle between dragons and men.  The
+    dragons appear to be the victors.
+  exits:
+    - roomId: "draconia:r2224"
+      direction: east
+    - roomId: "draconia:r2205"
+      direction: west
+- id: r2224
+  title: "The Great Hall"
+  description: >-
+    You are working your way down the Hall.  To the north, you notice a smaller
+    passageway, while the main hall continues to the east.
+  exits:
+    - roomId: "draconia:r2225"
+      direction: north
+    - roomId: "draconia:r2229"
+      direction: east
+- id: r2225
+  title: "A Narrow Passageway"
+  description: >-
+    This Passageway branches off from the main hall and leads somewhere ... where?
+  exits:
+    - roomId: "draconia:r2226"
+      direction: north
+    - roomId: "draconia:r2224"
+      direction: south
+- id: r2226
+  title: "Lair"
+  description: >-
+    You have entered a large lair with bones strewn about the ground.  You
+    notice the source of these as you come face to face with a rather large red
+    dragon.  You notice a trap door in the floor.
+  exits:
+    - roomId: "draconia:r2225"
+      direction: south
+    - roomId: "draconia:r2227"
+      direction: down
+  npcs:
+    - id: "draconia:m2221"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2227
+  title: "Underground Tunnel"
+  description: >-
+    You have entered an underground tunnel.  It is dark and dirty, and you find
+    yourself wishing you were back in Midgaard.
+  exits:
+    - roomId: "draconia:r2228"
+      direction: north
+    - roomId: "draconia:r2226"
+      direction: up
+- id: r2228
+  title: "Underground Tunnel"
+  description: >-
+    This tunnel has come to a dead end.  You feel nervous about being trapped here.
+  exits:
+    - roomId: "draconia:r2227"
+      direction: south
+- id: r2229
+  title: "The Great Hall Ends."
+  description: >-
+    You have come to the end of the great hall.  You see before you a huge
+    golden door, it must be at least twenty feet tall!  It has beautiful etchings
+    of dragons.  You see a sign on the door.
+  exits:
+    - roomId: "draconia:r2230"
+      direction: east
+    - roomId: "draconia:r2224"
+      direction: west
+- id: r2230
+  title: "THE Lair"
+  description: >-
+    You have entered a huge lair.  You feel that something big lives here or at least did.  
+    The golden door lies back to the west.
+  exits:
+    - roomId: "draconia:r2229"
+      direction: west
+  npcs:
+    - id: "draconia:m2225"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2231
+  title: "The End..."
+  description: >-
+    You have reached the final lair.  It is dominated by a huge five headed
+    dragon.  You suddenly realize that you have SERIOUS problems...
+  exits:
+    - roomId: "draconia:r2243"
+      direction: south
+  npcs:
+    - id: "draconia:m2220"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r2232
+  title: "Stairwell"
+  description: >-
+    This is an old decrepit stairwell that leads to the wine cellar.  It looks
+    like it hasn't been used for decades.  Well, at least not by anything living.
+  exits:
+    - roomId: "draconia:r2222"
+      direction: east
+    - roomId: "draconia:r2233"
+      direction: down
+  npcs:
+    - id: "draconia:m2240"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2233
+  title: "Wine cellar"
+  description: >-
+    This is the old wine cellar of the Dragon Tower.  The shelves are empty.
+    Nothing living has been in here for a long time.  You see a tunnel leading
+    off to the east and boy does it smell bad.  Kinda of like rotting flesh.
+  exits:
+    - roomId: "draconia:r2234"
+      direction: east
+    - roomId: "draconia:r2232"
+      direction: up
+  npcs:
+    - id: "draconia:m2240"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2234
+  title: "Tunnel"
+  description: >-
+    This tunnel seems to stretch for miles.  You try to distinguish the end but
+    your eyes soon tire from the strain.  The smell here has increased two fold.
+    The tunnel continues to go to the east.  The wine cellar lies back to the 
+    west.
+  exits:
+    - roomId: "draconia:r2235"
+      direction: north
+    - roomId: "draconia:r2236"
+      direction: east
+    - roomId: "draconia:r2233"
+      direction: west
+  npcs:
+    - id: "draconia:m2240"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2235
+  title: "A cave opening"
+  description: >-
+    You stand at the opening of a giant cave.  There are many bones strewn across
+    the room.  Some human, some indistinguishable.  It smells very bad in here.
+    You can hear movement in the cave to the north.  The tunnel goes back to the
+    south.
+  exits:
+    - roomId: "draconia:r2220"
+      direction: north
+    - roomId: "draconia:r2234"
+      direction: south
+- id: r2236
+  title: "The End of the tunnel"
+  description: >-
+    You have finally come to the end of the tunnel.  Back to the west lies
+    the miles of tunnels you have walked through.  You see the faint outline of
+    a trapdoor above you.  A bride over an underground river lies to the south.
+  exits:
+    - roomId: "draconia:r2237"
+      direction: south
+    - roomId: "draconia:r2234"
+      direction: west
+    - roomId: "draconia:r2202"
+      direction: up
+  npcs:
+    - id: "draconia:m2240"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2237
+  title: "The Bridge"
+  description: >-
+    You are walking along an old wooden bridge.  Its not that secure.  You 
+    might want to hurry along.  To the south, on the other side of the bridge,
+    lies a small opening.
+  exits:
+    - roomId: "draconia:r2236"
+      direction: north
+    - roomId: "draconia:r2238"
+      direction: south
+- id: r2238
+  title: "A small opening"
+  description: >-
+    You are standing in a small opening.  To the north lies the old wooden
+    bridge.  To your south the you can see a clearing.  You can see sunlight
+    again.  What a welcome relief!
+  exits:
+    - roomId: "draconia:r2237"
+      direction: north
+    - roomId: "draconia:r2239"
+      direction: south
+- id: r2239
+  title: "Clearing"
+  description: >-
+    You stand out in a clearing.  Mountains are all around you.  There is a 
+    well in the middle of the clearing.  Lying against the well is a sign.  A
+    path leads up the mountain.  The small opening is back to the north.
+  exits:
+    - roomId: "draconia:r2238"
+      direction: north
+    - roomId: "draconia:r2240"
+      direction: up
+    - roomId: "draconia:r2244"
+      direction: down
+  npcs:
+    - id: "draconia:m2200"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2240
+  title: "A path"
+  description: >-
+    This path leads up the side of the mountain.  A clearing lies below you.
+    There is a cave opening to the west.  The path continues up the mountain.
+  exits:
+    - roomId: "draconia:r2241"
+      direction: west
+    - roomId: "draconia:r2242"
+      direction: up
+    - roomId: "draconia:r2239"
+      direction: down
+- id: r2241
+  title: "A cave opening"
+  description: >-
+    You stand before a huge cave opening.  You hearing heavy breathing from
+    within the cave.  There are a few skeletons lying about.  The cave lies to 
+    the south.  The path is back to the east.
+  exits:
+    - roomId: "draconia:r2221"
+      direction: south
+    - roomId: "draconia:r2240"
+      direction: east
+  npcs:
+    - id: "draconia:m2200"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r2242
+  title: "The path continues"
+  description: >-
+    The path continues up the mountain to the top.  The path also goes down.
+    Thats it, nothing more to see.
+  exits:
+    - roomId: "draconia:r2243"
+      direction: up
+    - roomId: "draconia:r2240"
+      direction: down
+- id: r2243
+  title: "The top of the mountain"
+  description: >-
+    You are standing at the top of the mountain.  It feels more like the top of
+    the world.  To your north lies a huge platinum door.  You hear very pronounced
+    grumbling from behind the doors.  It sounds like something huge and hungry.
+    But if you don't have the key you don't have to worry because you can't get it.
+    If you do have the key I would suggest not going in.  Some believe the Five
+    Headed dragon Tiamat was imprisoned here by the gods.  But who believes in 
+    fairy tales.  Well, if you're scared, you can always go down the mountain.
+  exits:
+    - roomId: "draconia:r2231"
+      direction: north
+    - roomId: "draconia:r2242"
+      direction: down
+- id: r2244
+  title: "Well"
+  description: >-
+    O
+     h
+       !
+         N
+          o
+           !
+       I warned you!  You have fallen into the bottomless pit.  You life flashes
+    right before your eyes.  Pretty pathetic isn't it?  Next time you'll know
+    to listen to the God of Laughs.

@@ -1,0 +1,202 @@
+- id: o5300
+  name: "collar"
+  roomDesc: "A lamia collar is on the ground."
+  keywords: ["collar"]
+  description: "A lamia collar is on the ground."
+  type: ACCESSORY
+- id: o5301
+  name: "breast plate iron"
+  roomDesc: "A beautiful iron breast plate lies here."
+  keywords: ["breast","plate","iron"]
+  description: "A beautiful iron breast plate lies here."
+  type: HEAVYARMOR
+- id: o5302
+  name: "staff serpentine"
+  roomDesc: "A green serpentine staff has been left here."
+  keywords: ["staff","serpentine"]
+  description: "A green serpentine staff has been left here."
+  type: STAFF
+- id: o5304
+  name: "scroll magic"
+  roomDesc: "A scroll of magical enchantment has been left here."
+  keywords: ["scroll","magic"]
+  description: "A scroll of magical enchantment has been left here."
+  type: SCROLL
+- id: o5305
+  name: "scroll bound"
+  roomDesc: "A bound scroll of detection lies at your feet."
+  keywords: ["scroll","bound"]
+  description: "A bound scroll of detection lies at your feet."
+  type: SCROLL
+- id: o5306
+  name: "fountain"
+  roomDesc: "An elaborate white marble fountain is here."
+  keywords: ["fountain"]
+  description: "An elaborate white marble fountain is here."
+  type: FOUNTAIN
+- id: o5307
+  name: "desk"
+  roomDesc: "A beautiful desk made from a gigantic sea shell is here."
+  keywords: ["desk"]
+  description: "A beautiful desk made from a gigantic sea shell is here."
+  type: CONTAINER
+  items: ["mirror:o5304","mirror:o5305","thalos:o5231"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o5308
+  name: "cabinet"
+  roomDesc: "A sturdy glass cabinet is here."
+  keywords: ["cabinet"]
+  description: "A sturdy glass cabinet is here."
+  type: CONTAINER
+  items: ["midgaard:o3105","thalos:o5214","thalos:o5230"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o5309
+  name: "mandolin"
+  roomDesc: "A mandolin lies against the wall."
+  keywords: ["mandolin"]
+  description: "A mandolin lies against the wall."
+  type: STAFF
+- id: o5310
+  name: "harp golden"
+  roomDesc: "A beautiful golden harp is waiting to be played."
+  keywords: ["harp","golden"]
+  description: "A beautiful golden harp is waiting to be played."
+  type: STAFF
+- id: o5311
+  name: "flute silver"
+  roomDesc: "A brilliant silver flute glimmers from its holster."
+  keywords: ["flute","silver"]
+  description: "A brilliant silver flute glimmers from its holster."
+  type: STAFF
+- id: o5312
+  name: "potion green"
+  roomDesc: "You see a green potion on the floor."
+  keywords: ["potion","green"]
+  description: "You see a green potion on the floor."
+  type: POTION
+- id: o5313
+  name: "herbs"
+  roomDesc: "Some bluish herbs are scattered here."
+  keywords: ["herbs"]
+  description: "Some bluish herbs are scattered here."
+  type: PILL
+- id: o5314
+  name: "herbs"
+  roomDesc: "Some purplish herbs are scattered here."
+  keywords: ["herbs"]
+  description: "Some purplish herbs are scattered here."
+  type: PILL
+- id: o5315
+  name: "herbs"
+  roomDesc: "Some grayish herbs are scattered here."
+  keywords: ["herbs"]
+  description: "Some grayish herbs are scattered here."
+  type: PILL
+- id: o5316
+  name: "herbs"
+  roomDesc: "Some orangish herbs are scattered here."
+  keywords: ["herbs"]
+  description: "Some orangish herbs are scattered here."
+  type: PILL
+- id: o5317
+  name: "sword"
+  roomDesc: "You see an imperial sword here."
+  keywords: ["sword"]
+  description: "You see an imperial sword here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5318
+  name: "mace"
+  roomDesc: "You see an imperial mace here."
+  keywords: ["mace"]
+  description: "You see an imperial mace here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5319
+  name: "chest plate"
+  roomDesc: "You see an imperial chest plate here."
+  keywords: ["chest","plate"]
+  description: "You see an imperial chest plate here."
+  type: HEAVYARMOR
+- id: o5320
+  name: "shield"
+  roomDesc: "You see an imperial shield here."
+  keywords: ["shield"]
+  description: "You see an imperial shield here."
+  type: SHIELD
+- id: o5321
+  name: "cloak"
+  roomDesc: "You see an imperial cloak here."
+  keywords: ["cloak"]
+  description: "You see an imperial cloak here."
+  type: ACCESSORY
+- id: o5322
+  name: "helm"
+  roomDesc: "You see an imperial helm here."
+  keywords: ["helm"]
+  description: "You see an imperial helm here."
+  type: HEAVYARMOR
+- id: o5323
+  name: "plate leggings"
+  roomDesc: "You see a pair of imperial plate leggings here."
+  keywords: ["plate","leggings"]
+  description: "You see a pair of imperial plate leggings here."
+  type: HEAVYARMOR
+- id: o5324
+  name: "plate boots"
+  roomDesc: "You see a pair of imperial plate boots here."
+  keywords: ["plate","boots"]
+  description: "You see a pair of imperial plate boots here."
+  type: HEAVYARMOR
+- id: o5325
+  name: "plate gloves"
+  roomDesc: "You see a pair of imperial plate gloves here."
+  keywords: ["plate","gloves"]
+  description: "You see a pair of imperial plate gloves here."
+  type: HEAVYARMOR
+- id: o5326
+  name: "plate sleeves"
+  roomDesc: "You see a pair of imperial plate sleeves here."
+  keywords: ["plate","sleeves"]
+  description: "You see a pair of imperial plate sleeves here."
+  type: HEAVYARMOR
+- id: o5327
+  name: "cape"
+  roomDesc: "You see an imperial cape here."
+  keywords: ["cape"]
+  description: "You see an imperial cape here."
+  type: ACCESSORY
+- id: o5328
+  name: "belt"
+  roomDesc: "You see an imperial belt here."
+  keywords: ["belt"]
+  description: "You see an imperial belt here."
+  type: ACCESSORY
+- id: o5329
+  name: "metal bracer"
+  roomDesc: "You see an imperial metal bracer here."
+  keywords: ["metal","bracer"]
+  description: "You see an imperial metal bracer here."
+  type: HEAVYARMOR
+- id: o5330
+  name: "ring signet"
+  roomDesc: "You see a ring with a strange symbol on the floor."
+  keywords: ["ring","signet"]
+  description: "You see a ring with a strange symbol on the floor."
+  type: ACCESSORY
+- id: o5331
+  name: "imperial banner"
+  roomDesc: "An imperial war banner is on the floor here."
+  keywords: ["imperial","banner"]
+  description: "An imperial war banner is on the floor here."
+  type: LIGHT

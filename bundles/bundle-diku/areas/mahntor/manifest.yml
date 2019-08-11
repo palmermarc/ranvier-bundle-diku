@@ -1,0 +1,12 @@
+title: "The Keep of Mahn-Tor"
+metadata:
+  id: 44
+  name: "The Keep of Mahn-Tor"
+  createdBy: "chris"
+  starting_vnum: 2300
+  ending_vnum: 2399
+  item_requirements: 6000
+  filename: "mahntor.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

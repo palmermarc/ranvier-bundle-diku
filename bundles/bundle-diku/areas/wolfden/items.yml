@@ -1,0 +1,46 @@
+- id: o25900
+  name: "wolf claws"
+  roomDesc: "These claws look deadly!"
+  keywords: ["wolf","claws"]
+  description: "These claws look deadly!"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o25901
+  name: "flea"
+  roomDesc: "This flea is looking for another host."
+  keywords: ["flea"]
+  description: "This flea is looking for another host."
+  type: TRASH
+- id: o25902
+  name: "some raw meat"
+  roomDesc: "Here lies some raw meat."
+  keywords: ["some","raw","meat"]
+  description: "Here lies some raw meat."
+  type: FOOD
+- id: o25903
+  name: "skull"
+  roomDesc: "Here lies a broken skull."
+  keywords: ["skull"]
+  description: "Here lies a broken skull."
+  type: TREASURE
+- id: o25904
+  name: "stone whetsone rock"
+  roomDesc: "This whetstone was used to sharpen Grull's claws."
+  keywords: ["stone","whetsone","rock"]
+  description: "This whetstone was used to sharpen Grull's claws."
+  type: TREASURE
+- id: o25905
+  name: "fur cloak"
+  roomDesc: "A pile of fur lies here."
+  keywords: ["fur","cloak"]
+  description: "A pile of fur lies here."
+  type: ACCESSORY
+- id: o25906
+  name: "ring "
+  roomDesc: "A small round  object lies here."
+  keywords: ["ring",""]
+  description: "A small round  object lies here."
+  type: ACCESSORY

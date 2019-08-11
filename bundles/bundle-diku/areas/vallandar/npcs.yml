@@ -1,0 +1,266 @@
+- id: m30300
+  keywords: ["tapestry","warrior"]
+  name: "a tapestry warrior"
+  description: >-
+    A warrior steps from the tapestry and attacks!
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vallandar:o30300": 75
+  metadata:
+    areaId: 80
+    exp_level: 10000
+    sex: 0
+- id: m30301
+  keywords: ["red","dragon"]
+  name: "the red dragon"
+  description: >-
+    The red dragon snores loudly on its pile of treasure.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vallandar:o30332": 75
+  metadata:
+    areaId: 80
+    exp_level: 10000
+    sex: 1
+- id: m30302
+  keywords: ["giant","spider"]
+  name: "the giant spider"
+  description: >-
+    A giant spider descends from its web to attack!
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 80
+    exp_level: 10000
+    sex: 2
+- id: m30303
+  keywords: ["axe","axe-blade","trap"]
+  name: "the axe-blade"
+  description: >-
+    The huge animated axe-blade spins towards you!
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 80
+    exp_level: 10000
+    sex: 0
+- id: m30304
+  keywords: ["living","statue"]
+  name: "the living statue"
+  description: >-
+    The living statue growls at you and lashes out with its claws!
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vallandar:o30314": 75
+  metadata:
+    areaId: 80
+    exp_level: 10000
+    sex: 0
+- id: m30305
+  keywords: ["gorgon","woman"]
+  name: "the gorgon"
+  description: >-
+    The evil gorgon snarls and attacks!
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 80
+    exp_level: 10000
+    sex: 2
+- id: m30306
+  keywords: ["skeleton"]
+  name: "the skeleton"
+  description: >-
+    A grinning skeleton brandishes his scimitar and attacks!
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vallandar:o30323": 75
+  metadata:
+    areaId: 80
+    exp_level: 10000
+    sex: 0
+- id: m30307
+  keywords: ["morgrin","spectre"]
+  name: "Morgrin"
+  description: >-
+    The spectre of Morgrin screams his hatred of the living and attacks!
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vallandar:o30312": 75
+        "vallandar:o30325": 75
+  metadata:
+    areaId: 80
+    exp_level: 10000
+    sex: 1
+- id: m30330
+  keywords: ["guardian"]
+  name: "the guardian"
+  description: >-
+    A guardian of the vortex stands on duty here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -666
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vallandar:o30333": 75
+        "vallandar:o30334": 75
+        "vallandar:o30335": 75
+        "vallandar:o30336": 75
+        "vallandar:o30337": 75
+        "vallandar:o30338": 75
+        "vallandar:o30339": 75
+        "vallandar:o30340": 75
+        "vallandar:o30341": 75
+        "vallandar:o30342": 75
+        "vallandar:o30343": 75
+        "vallandar:o30344": 75
+  metadata:
+    areaId: 80
+    exp_level: 10000
+    sex: 1

@@ -1,0 +1,294 @@
+- id: r25000
+  title: "The reception"
+  description: >-
+    You are standing in a small waiting room.  A young receptionist stands
+    behind a small counter on the east wall, checking a small timetable. 
+    A small door leads north, down a long corridor.
+  exits:
+    - roomId: "start:r25001"
+      direction: north
+  npcs:
+    - id: "start:m25000"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25001
+  title: "The corridor"
+  description: >-
+    You are standing within a narrow white corridor.  Strange sounds of
+    combat can be heard further ahead.  
+  exits:
+    - roomId: "start:r25002"
+      direction: north
+    - roomId: "start:r25000"
+      direction: south
+- id: r25002
+  title: "The junction"
+  description: >-
+    You are standing at a small junction in the corridor.  The corridor leads
+    on north, while to your east and west lie a couple of archways leading into
+    small rooms.  
+  exits:
+    - roomId: "start:r25005"
+      direction: north
+    - roomId: "start:r25001"
+      direction: south
+    - roomId: "start:r25004"
+      direction: east
+    - roomId: "start:r25003"
+      direction: west
+  npcs:
+    - id: "start:m25002"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25003
+  title: "The mutant information centre"
+  description: >-
+    This is a small information centre.  The clerk here has spent many years
+    researching into mutants, and knows quite a lot of information about them.  
+    He will be more than willing to answer any questions you have about them.
+  exits:
+    - roomId: "start:r25002"
+      direction: east
+  npcs:
+    - id: "start:m25003"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25004
+  title: "The scavenger information centre"
+  description: >-
+    You are standing in the scavenger information centre.  A short professor
+    sits behind a wooden desk in one corner.  He has spent many years studying
+    the history of the scavengers, and will try to give you whatever information
+    you require.  
+  exits:
+    - roomId: "start:r25002"
+      direction: west
+  npcs:
+    - id: "start:m25004"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25005
+  title: "The corridor"
+  description: >-
+    You are once again standing in a narrow corridor.  The sounds of combat
+    can be heard even closer than before; They seem to be coming from just a
+    little way ahead... 
+  exits:
+    - roomId: "start:r25006"
+      direction: north
+    - roomId: "start:r25002"
+      direction: south
+- id: r25006
+  title: "The junction"
+  description: >-
+    You are standing at another junction.  The sounds of combat can be heard
+    on all sides, and pools of blood are clearly visible on the floor.  
+  exits:
+    - roomId: "start:r25014"
+      direction: north
+    - roomId: "start:r25005"
+      direction: south
+    - roomId: "start:r25008"
+      direction: east
+    - roomId: "start:r25007"
+      direction: west
+  npcs:
+    - id: "start:m25006"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25007
+  title: "The tactics room"
+  description: >-
+    You are standing in a fairly large room, filled with books on combat
+    tactics, strange weapons, potions, scrolls, and many other devices.  
+  exits:
+    - roomId: "start:r25006"
+      direction: east
+  npcs:
+    - id: "start:m25007"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25008
+  title: "The combat room"
+  description: >-
+    You are standing within a small room, covered with blood, gore, and
+    severed body parts.  The sounds and snarls around you strike fear into your
+    heart, but you realise that if you wish to pass the test you'll have to
+    fight...  
+  exits:
+    - roomId: "start:r25009"
+      direction: north
+    - roomId: "start:r25011"
+      direction: south
+    - roomId: "start:r25010"
+      direction: east
+    - roomId: "start:r25006"
+      direction: west
+    - roomId: "start:r25013"
+      direction: up
+    - roomId: "start:r25012"
+      direction: down
+  npcs:
+    - id: "start:m25008"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25009
+  title: "The northern prison cell"
+  description: >-
+    You are standing within a prison cell.  A strangly twisted creature
+    screams insanely at you, desperately pulling at his chains in an attempt to
+    tear you limb from limb...  Of course he IS chained up, while you are not,
+    so surely he can't be THAT hard?  
+  exits:
+    - roomId: "start:r25008"
+      direction: south
+  npcs:
+    - id: "start:m25009"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25010
+  title: "The eastern prison cell"
+  description: >-
+    As you enter this room, you can't help but wrinkle your nose at the
+    smell.  Covering the floor is rotten food, old smelly socks, and all manner
+    of garbage.  Suddenly a putrid creature leaps from the pile of litter,
+    cackling madly to himself.  
+  exits:
+    - roomId: "start:r25008"
+      direction: west
+  npcs:
+    - id: "start:m25010"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25011
+  title: "The southern prison cell"
+  description: >-
+    This cell is currently empty.
+  exits:
+    - roomId: "start:r25008"
+      direction: north
+- id: r25012
+  title: "The centre of the torture chamber"
+  description: >-
+    You are standing within the centre of a large torture chamber.  Many
+    rusted implements of pain are hanging from the walls, still stained with
+    ancient blood.  Even more worrying are the huge rats that scamper all around
+    you.  
+  exits:
+    - roomId: "start:r25016"
+      direction: north
+    - roomId: "start:r25020"
+      direction: south
+    - roomId: "start:r25018"
+      direction: east
+    - roomId: "start:r25022"
+      direction: west
+    - roomId: "start:r25008"
+      direction: up
+  npcs:
+    - id: "start:m25012"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r25013
+  title: "The upper prison cell"
+  description: >-
+    This cell is currently empty.
+  exits:
+    - roomId: "start:r25008"
+      direction: down
+- id: r25014
+  title: "The corridor"
+  description: >-
+    You find yourself once more in the narrow corridor.  A faint humming can
+    be heard from up ahead!  You decide to procede with caution...  
+  exits:
+    - roomId: "start:r25015"
+      direction: north
+    - roomId: "start:r25006"
+      direction: south
+- id: r25015
+  title: "The gateway"
+  description: >-
+    You stand at the end of the corridor.  If you feel you are ready for the
+    big bad world, then you should tell the gatekeeper which side you wish to
+    fight for; The mutants or the scavengers.  If you do not yet feel ready, you
+    should go back and look through the other rooms.  
+  exits:
+    - roomId: "start:r25014"
+      direction: south
+  npcs:
+    - id: "start:m25015"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25016
+  title: "The northern end of the torture chamber"
+  description: >-
+  exits:
+    - roomId: "start:r25012"
+      direction: south
+    - roomId: "start:r25017"
+      direction: east
+    - roomId: "start:r25023"
+      direction: west
+- id: r25017
+  title: "The north-eastern corner of the torture chamber"
+  description: >-
+  exits:
+    - roomId: "start:r25018"
+      direction: south
+    - roomId: "start:r25016"
+      direction: west
+- id: r25018
+  title: "The eastern end of the torture chamber"
+  description: >-
+  exits:
+    - roomId: "start:r25017"
+      direction: north
+    - roomId: "start:r25019"
+      direction: south
+    - roomId: "start:r25012"
+      direction: west
+- id: r25019
+  title: "The south-eastern corner of the torture chamber"
+  description: >-
+  exits:
+    - roomId: "start:r25018"
+      direction: north
+    - roomId: "start:r25020"
+      direction: west
+- id: r25020
+  title: "The southern end of the torture chamber"
+  description: >-
+  exits:
+    - roomId: "start:r25012"
+      direction: north
+    - roomId: "start:r25019"
+      direction: east
+    - roomId: "start:r25021"
+      direction: west
+- id: r25021
+  title: "The south-western corner of the torture chamber"
+  description: >-
+  exits:
+    - roomId: "start:r25022"
+      direction: north
+    - roomId: "start:r25020"
+      direction: east
+- id: r25022
+  title: "The western end of the torture chamber"
+  description: >-
+  exits:
+    - roomId: "start:r25023"
+      direction: north
+    - roomId: "start:r25021"
+      direction: south
+    - roomId: "start:r25012"
+      direction: east
+- id: r25023
+  title: "The north-western corner of the torture chamber"
+  description: >-
+  exits:
+    - roomId: "start:r25022"
+      direction: south
+    - roomId: "start:r25016"
+      direction: east

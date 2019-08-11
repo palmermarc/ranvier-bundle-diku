@@ -1,0 +1,12 @@
+title: "Joker's Castle"
+metadata:
+  id: 9
+  name: "Joker's Castle"
+  createdBy: "joker"
+  starting_vnum: 24300
+  ending_vnum: 24399
+  item_requirements: 0
+  filename: "castle.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

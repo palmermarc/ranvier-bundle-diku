@@ -1,0 +1,355 @@
+- id: m6000
+  keywords: ["john","lumberjack"]
+  name: "John the Lumberjack"
+  description: >-
+    John the Lumberjack is here, looking for some trees to chop down.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 350
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "haon:o6000": 75
+        "haon:o6001": 75
+        "haon:o6002": 75
+  metadata:
+    areaId: 32
+    exp_level: 2000
+    sex: 1
+- id: m6002
+  keywords: ["bear"]
+  name: "the brown bear"
+  description: >-
+    A big, brown, angry-looking bear is here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -50
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 32
+    exp_level: 2000
+    sex: 0
+- id: m6003
+  keywords: ["rabbit"]
+  name: "the ferocious rabbit"
+  description: >-
+    A ferocious rabbit is here, glaring hungrily at you.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -150
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 32
+    exp_level: 2000
+    sex: 0
+- id: m6004
+  keywords: ["deer"]
+  name: "the fallow deer"
+  description: >-
+    A fallow deer is grazing peacefully here.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 350
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 32
+    exp_level: 2000
+    sex: 2
+- id: m6005
+  keywords: ["fox"]
+  name: "the brown fox"
+  description: >-
+    A brown fox is here, looking for some rabbits to chew up.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -50
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 32
+    exp_level: 2000
+    sex: 0
+- id: m6100
+  keywords: ["warg","vicious"]
+  name: "the vicious warg"
+  description: >-
+    A vicious warg is here, snarling angrily at you.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -350
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 32
+    exp_level: 2000
+    sex: 0
+- id: m6101
+  keywords: ["warg","ferocious"]
+  name: "the ferocious warg"
+  description: >-
+    A ferocious warg is here, snarling angrily at you.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -350
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 32
+    exp_level: 2000
+    sex: 0
+- id: m6102
+  keywords: ["wolf","grey"]
+  name: "the large, grey wolf"
+  description: >-
+    A large, grey wolf is here, glaring hungrily at you.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -150
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 32
+    exp_level: 2000
+    sex: 0
+- id: m6103
+  keywords: ["wolf","black"]
+  name: "the large, black wolf"
+  description: >-
+    A large, black wolf is here, glaring hungrily at you.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -150
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 32
+    exp_level: 2000
+    sex: 0
+- id: m6112
+  keywords: ["dragon","green"]
+  name: "the huge, green dragon"
+  description: >-
+    A huge green dragon is here, its narrow yellow eyes glowing with rage.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 47500
+          max: 52500
+      pools:
+        "haon:o6110": 75
+        "haon:o6112": 75
+        "haon:o6111": 75
+  metadata:
+    areaId: 32
+    exp_level: 2000
+    sex: 0
+- id: m6115
+  keywords: ["shargugh","brownie"]
+  name: "Shargugh"
+  description: >-
+    Shargugh the Forest Brownie is here, grinning broadly at you.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "haon:o6114": 75
+  metadata:
+    areaId: 32
+    exp_level: 2000
+    sex: 1
+- id: m6116
+  keywords: ["elder","druid"]
+  name: "the elder druid"
+  description: >-
+    The elder druid is here ... he looks very upset at your presence in his home.
+  level: 51
+  attributes:
+    health: 1800
+    armor: 200
+    hitroll: 75
+    damroll: 75
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "haon:o6155": 75
+  metadata:
+    areaId: 32
+    exp_level: 2000
+    sex: 1

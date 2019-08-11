@@ -1,0 +1,12 @@
+title: "Tower of Krytos"
+metadata:
+  id: 42
+  name: "Tower of Krytos"
+  createdBy: "marius"
+  starting_vnum: 13050
+  ending_vnum: 13149
+  item_requirements: 28000
+  filename: "krytos.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

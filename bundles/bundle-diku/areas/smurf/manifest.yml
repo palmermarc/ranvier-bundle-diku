@@ -1,0 +1,12 @@
+title: "Smurf Village"
+metadata:
+  id: 70
+  name: "Smurf Village"
+  createdBy: "generic"
+  starting_vnum: 100
+  ending_vnum: 149
+  item_requirements: 0
+  filename: "smurf.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

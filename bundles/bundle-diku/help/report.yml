@@ -1,0 +1,20 @@
+---
+body: |
+  Syntax: report
+  Syntax: score
+  Syntax: time
+  Syntax: weather
+  
+  REPORT shows your current statistics to you and also announces them to other
+  players in the room.
+  
+  SCORE shows detailed statistics of your character to you only.
+  
+  TIME shows the game time, as well as the time the mud was last started,
+  and the current local time for the host computer.
+  
+  WEATHER shows the current game weather.
+  
+  - score
+  - time
+  - weather

@@ -1,0 +1,18 @@
+---
+body: |
+  syntax: DECAP <player>
+  
+  If you are an avatar or higher, you may decap a mortally wounded player 
+  who has your status or higher. By decapping a player you gain one status 
+  point, and half of the current exp they have in hand. (ie, if they have 
+  1 mil exp you get 500k exp).
+  
+  A player that is decapped loses all of their exp, 1 immunity, and 1 of each 
+  attribute. 
+  
+  After a player is decapped, their head must be 'cracked' and their brain
+  destroyed so they can call their eq. 
+  
+  see also: help STATUS, help CRACK, help DEATH
+  
+  - decap

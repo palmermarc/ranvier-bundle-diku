@@ -1,0 +1,456 @@
+- id: r9700
+  title: "A Gate in the Forest"
+  description: >-
+    The forest path leads to a monolith gate
+    standing over 100 fathoms tall. The latch
+    appears to be rusted and a clear path lies
+    beyond. In the distance you see dark skys 
+    over what appears to be some sort of building.
+  exits:
+    - roomId: "azurkeep:r9701"
+      direction: north
+    - roomId: "crystalm:r10027"
+      direction: east
+- id: r9701
+  title: "A Well Kept Region of the Forest"
+  description: >-
+    The Gate to the south appears to be shut as if never
+    touched. There are several bushes trimmed into peculiar figures.
+    The sky clearly shines overhead and darkens over what you make
+    out as an enormous temple to the north. A strange glow beckons
+    you from there.
+  exits:
+    - roomId: "azurkeep:r9702"
+      direction: north
+    - roomId: "azurkeep:r9700"
+      direction: south
+- id: r9702
+  title: "Stairwell to the Keep of the Blue Fire"
+  description: >-
+    As you look up the steps toward the massive structure, an eerie
+    blue flame streaks through the sky. The sky is exclusively 
+    darker here, you look back towards the forest and all you can see is fog.
+  exits:
+    - roomId: "azurkeep:r9703"
+      direction: north
+    - roomId: "azurkeep:r9701"
+      direction: south
+- id: r9703
+  title: "Entrance to the Keep of the Blue Fire"
+  description: >-
+    From the top of the stairs you can see the great pillars as 
+    the basking warmth greets you at the door. All light from the 
+    sky previously seen now seems to be drowned out in the dreery 
+    overhead sky.
+  exits:
+    - roomId: "azurkeep:r9704"
+      direction: north
+    - roomId: "azurkeep:r9702"
+      direction: south
+  npcs:
+    - id: "azurkeep:m9700"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r9704
+  title: "The Grand Hall of the Keep"
+  description: >-
+    The Grand Hall of the keep is so big you only dimly see the 
+    walls at the far end. The little light coming from the torches 
+    are of little help. The ornate layout of the keep could lead to 
+    many surprises.
+  exits:
+    - roomId: "azurkeep:r9705"
+      direction: north
+    - roomId: "azurkeep:r9703"
+      direction: south
+    - roomId: "azurkeep:r9706"
+      direction: east
+    - roomId: "azurkeep:r9707"
+      direction: west
+- id: r9705
+  title: "Room of Honors"
+  description: >-
+    Here lies several plaques dedicated to those of importance to 
+    the keep. The Symbol of Ventrue surrounds the entire ordeal.
+  exits:
+    - roomId: "azurkeep:r9704"
+      direction: south
+- id: r9706
+  title: "The Eastern Hallway"
+  description: >-
+    To the west you can see the dim light of the Grand Hall. A 
+    magnificant stairwell lies to the east and the Halls continue 
+    North beyond eyes reach.
+  exits:
+    - roomId: "azurkeep:r9715"
+      direction: north
+    - roomId: "azurkeep:r9708"
+      direction: east
+    - roomId: "azurkeep:r9704"
+      direction: west
+- id: r9707
+  title: "The Western Hallway"
+  description: >-
+    To the east you can see the dim light of the Grand Hall. 
+    A magnificant stairwell lies to the west and the Halls 
+    continue North beyond eyes reach.
+  exits:
+    - roomId: "azurkeep:r9714"
+      direction: north
+    - roomId: "azurkeep:r9704"
+      direction: east
+    - roomId: "azurkeep:r9709"
+      direction: west
+- id: r9708
+  title: "Eastern Staircase"
+  description: >-
+    You are inside a very large stairwell for the keep. Upon 
+    looking out the arrow slit you see only dark clouds in the distance.
+  exits:
+    - roomId: "azurkeep:r9706"
+      direction: west
+    - roomId: "azurkeep:r9722"
+      direction: up
+    - roomId: "azurkeep:r9710"
+      direction: down
+- id: r9709
+  title: "Western Staircase"
+  description: >-
+    You are inside a very large stairwell for the keep. Upon 
+    looking out the arrow slit you see only dark clouds in the distance.
+  exits:
+    - roomId: "azurkeep:r9707"
+      direction: east
+    - roomId: "azurkeep:r9721"
+      direction: up
+    - roomId: "azurkeep:r9712"
+      direction: down
+- id: r9710
+  title: "Eastern Staircase"
+  description: >-
+    You are inside a very large stairwell for the keep. Upon 
+    looking out the arrow slit you see only dark clouds in the 
+    distance.
+  exits:
+    - roomId: "azurkeep:r9711"
+      direction: west
+    - roomId: "azurkeep:r9708"
+      direction: up
+- id: r9711
+  title: "Underground Storage Room"
+  description: >-
+    This room appears to have been unused for millenia...layers of 
+    dust and cobwebs line the room and boxes lieing about. You 
+    feel as if the world is sheltering you from all noise this deep 
+    underground.
+  exits:
+    - roomId: "azurkeep:r9710"
+      direction: east
+  npcs:
+    - id: "azurkeep:m9703"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "azurkeep:m9703"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r9712
+  title: "Western Staircase"
+  description: >-
+    You are inside a very large stairwell for the keep. Upon looking 
+    out the arrow slit you see only dark clouds in the distance.
+  exits:
+    - roomId: "azurkeep:r9713"
+      direction: east
+    - roomId: "azurkeep:r9709"
+      direction: up
+- id: r9713
+  title: "Underground Storage Room"
+  description: >-
+    This room appears to have been unused for millenia...layers of dust 
+    and cobwebs line the room and boxes lieing about. You feel as if 
+    the world is sheltering you from all noise this deep underground.
+  exits:
+    - roomId: "azurkeep:r9712"
+      direction: west
+  npcs:
+    - id: "azurkeep:m9703"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "azurkeep:m9703"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r9714
+  title: "The Western Hallway"
+  description: >-
+    The Hallway continues to the North and South. To the East appears 
+    to be a magnificant Library. An eerie blue glow fills the halls from 
+    the mysterious torches lining the walls.
+  exits:
+    - roomId: "azurkeep:r9719"
+      direction: north
+    - roomId: "azurkeep:r9707"
+      direction: south
+    - roomId: "azurkeep:r9716"
+      direction: east
+- id: r9715
+  title: "The Eastern Hallway"
+  description: >-
+    The Hallway continues to the North and South. To the West appears 
+    to be a magnificant Library. An eerie blue glow fills the halls from 
+    the mysterious torches lining the walls.
+  exits:
+    - roomId: "azurkeep:r9720"
+      direction: north
+    - roomId: "azurkeep:r9706"
+      direction: south
+    - roomId: "azurkeep:r9716"
+      direction: west
+- id: r9716
+  title: "The Library of the Keep"
+  description: >-
+    You are standing in the great library of the keep. Many texts of 
+    valuable information are held here. Knowledge here lies for those 
+    that are patient. Books on Ventrue, Disciplines, and other 
+    miscelaneous books lie here.
+  exits:
+    - roomId: "azurkeep:r9717"
+      direction: north
+    - roomId: "azurkeep:r9715"
+      direction: east
+    - roomId: "azurkeep:r9714"
+      direction: west
+- id: r9717
+  title: "The Alter"
+  description: >-
+    A Mysterious alter lies within this library. It is glowing with 
+    ready blue energy. Odd symbols adorn it in an undecipherable language. 
+    It appears the alter is some sort of portal.
+  exits:
+    - roomId: "azurkeep:r9716"
+      direction: south
+    - roomId: "azurkeep:r9718"
+      direction: down
+  npcs:
+    - id: "azurkeep:m9700"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r9718
+  title: "The Fountain of Knowledge"
+  description: >-
+    Here Lies the Fountain of Knowledge. In the fountain lies the secret 
+    to this Keep. It hovers in a blue light.
+  exits:
+    - roomId: "azurkeep:r9717"
+      direction: up
+  items:
+    - id: "azurkeep:o9700"
+      respawnChance: 75
+- id: r9719
+  title: "End of the Hallway"
+  description: >-
+    The Hallway appears to end abrubtly.... It almost feels as if it 
+    should continue beyond...
+  exits:
+    - roomId: "azurkeep:r9714"
+      direction: south
+  npcs:
+    - id: "azurkeep:m9701"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r9720
+  title: "End of the Hallway"
+  description: >-
+    The Hallway appears to end abrubtly.... It almost feels as if it 
+    should continue beyond...
+  exits:
+    - roomId: "azurkeep:r9715"
+      direction: south
+  npcs:
+    - id: "azurkeep:m9701"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r9721
+  title: "Western Staircase"
+  description: >-
+    You are inside a very large stairwell for the keep. Upon looking out 
+    the arrow slit you see only dark clouds in the distance.
+  exits:
+    - roomId: "azurkeep:r9724"
+      direction: east
+    - roomId: "azurkeep:r9727"
+      direction: up
+    - roomId: "azurkeep:r9709"
+      direction: down
+- id: r9722
+  title: "Eastern Staircase"
+  description: >-
+    You are inside a very large stairwell for the keep. Upon looking 
+    out the arrow slit you see only dark clouds in the distance.
+  exits:
+    - roomId: "azurkeep:r9723"
+      direction: west
+    - roomId: "azurkeep:r9728"
+      direction: up
+    - roomId: "azurkeep:r9708"
+      direction: down
+- id: r9723
+  title: "A Narrow Foyer"
+  description: >-
+    A Very Small Hallway Leads to the west. The Staircases lie to the 
+    East. There is barely enough room for one person here.
+  exits:
+    - roomId: "azurkeep:r9722"
+      direction: east
+    - roomId: "azurkeep:r9725"
+      direction: west
+- id: r9724
+  title: "A Narrow Foyer"
+  description: >-
+    A Very Small Hallway Leads to the east. The Staircases lie to 
+    the West. There is barely enough room for one person here.
+  exits:
+    - roomId: "azurkeep:r9725"
+      direction: east
+    - roomId: "azurkeep:r9721"
+      direction: west
+- id: r9725
+  title: "Door to the Garden"
+  description: >-
+    North of here lies an indoor garden with intricate deep dark colors. 
+    The hallway continues to the east and west.
+  exits:
+    - roomId: "azurkeep:r9726"
+      direction: north
+    - roomId: "azurkeep:r9723"
+      direction: east
+    - roomId: "azurkeep:r9724"
+      direction: west
+- id: r9726
+  title: "The Indoor Garden"
+  description: >-
+    This appears to be the only room you have seen with lighting 
+    suffient enough that you don't require extraneous effort. 
+    Intricate hues of blue and red glow in the area. Brilliant 
+    smells overwhelm you with sweet and dark essence. The hallway 
+    is back south.
+  exits:
+    - roomId: "azurkeep:r9725"
+      direction: south
+  npcs:
+    - id: "azurkeep:m9705"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "azurkeep:m9705"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "azurkeep:m9705"
+      respawnChance: 100
+      maxLoad: "10"
+  items:
+    - id: "azurkeep:o9702"
+      respawnChance: 75
+- id: r9727
+  title: "Western Staircase"
+  description: >-
+    You are inside a very large stairwell for the keep. Upon looking 
+    out the arrow slit you see only dark clouds in the distance.
+  exits:
+    - roomId: "azurkeep:r9732"
+      direction: east
+    - roomId: "azurkeep:r9729"
+      direction: up
+    - roomId: "azurkeep:r9721"
+      direction: down
+- id: r9728
+  title: "Eastern Staircase"
+  description: >-
+    You are inside a very large stairwell for the keep. Upon looking out 
+    the arrow slit you see only dark clouds in the distance.
+  exits:
+    - roomId: "azurkeep:r9733"
+      direction: west
+    - roomId: "azurkeep:r9731"
+      direction: up
+    - roomId: "azurkeep:r9722"
+      direction: down
+- id: r9729
+  title: "The Roof"
+  description: >-
+    You are standing on the Western side of the Roof of the keep. Dark 
+    stormy skys loom overhead. A strong wind blows and you almost lose 
+    hold of yourself.
+  exits:
+    - roomId: "azurkeep:r9730"
+      direction: east
+    - roomId: "azurkeep:r9727"
+      direction: down
+- id: r9730
+  title: "Center of the Roof"
+  description: >-
+    Lightning crackles down from the charred sky and hits an enormous 
+    statue of Azazel, leader of Ventrue. As you look up to try and see 
+    the top of the statue you are overwhelmed by an awe of power from 
+    which it emnates, lighting the area even with dark numerous clouds 
+    looming all around you.
+  exits:
+    - roomId: "azurkeep:r9731"
+      direction: east
+    - roomId: "azurkeep:r9729"
+      direction: west
+  npcs:
+    - id: "azurkeep:m9704"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r9731
+  title: "The Roof"
+  description: >-
+    You are standing on the Eastern side of the Roof of the keep. Dark 
+    stormy skys loom overhead. A strong wind blows and you almost lose 
+    hold of yourself.
+  exits:
+    - roomId: "azurkeep:r9730"
+      direction: west
+    - roomId: "azurkeep:r9728"
+      direction: down
+- id: r9732
+  title: "The Star Chamber"
+  description: >-
+    You look around you and your eyes glow from the reflections of the 
+    constellations and energy patterns from other material planes. 
+    Mysterious energys pulse through the very room itself. A concentration 
+    of this seems to lie to the east.
+  exits:
+    - roomId: "azurkeep:r9734"
+      direction: east
+    - roomId: "azurkeep:r9727"
+      direction: west
+- id: r9733
+  title: "The Star Chamber"
+  description: >-
+    You look around you and your eyes glow from the reflections of the 
+    constellations and energy patterns from other material planes. 
+    Mysterious energys pulse through the very room itself. A concentration 
+    of this seems to lie to the west.
+  exits:
+    - roomId: "azurkeep:r9728"
+      direction: east
+    - roomId: "azurkeep:r9734"
+      direction: west
+- id: r9734
+  title: "Center of the Star Chamber"
+  description: >-
+    A Massive beam of light emits from the center of this room, energy 
+    reflects off walls and creates a massive lightshow for your eyes. A 
+    spectacular energy pulls you towards the light.
+  exits:
+    - roomId: "azurkeep:r9733"
+      direction: east
+    - roomId: "azurkeep:r9732"
+      direction: west
+  npcs:
+    - id: "azurkeep:m9702"
+      respawnChance: 100
+      maxLoad: "4"
+  items:
+    - id: "azurkeep:o9701"
+      respawnChance: 75

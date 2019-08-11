@@ -1,0 +1,12 @@
+title: "Yggdrasil"
+metadata:
+  id: 77
+  name: "Yggdrasil"
+  createdBy: "glop"
+  starting_vnum: 10100
+  ending_vnum: 10149
+  item_requirements: 24000
+  filename: "tree.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

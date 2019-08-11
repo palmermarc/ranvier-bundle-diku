@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/bundle-example-areas" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/bundle-example-channels" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/bundle-example-classes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/bundle-example-combat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/bundle-example-commands" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/bundle-example-debug" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/bundle-example-effects" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/bundle-example-input-events" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/bundle-example-lib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/bundle-example-npc-behaviors" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/bundle-example-player-events" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/bundle-example-quests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/player-groups" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/progressive-respawn" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/simple-crafting" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/telnet-networking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/vendor-npcs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bundles/websocket-networking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/neuro" vcs="Git" />
+  </component>
+</project>

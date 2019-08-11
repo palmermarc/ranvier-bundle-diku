@@ -1,0 +1,356 @@
+- id: o3300
+  name: "dagger squire"
+  roomDesc: "A leather hilted dagger lies here."
+  keywords: ["dagger","squire"]
+  description: "A leather hilted dagger lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3301
+  name: "mace knight knight's"
+  roomDesc: "A clublike weapon with a spiked balled head lies here."
+  keywords: ["mace","knight","knight's"]
+  description: "A clublike weapon with a spiked balled head lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3302
+  name: "lance knight knight's"
+  roomDesc: "An 18' pole is sunk into the ground here."
+  keywords: ["lance","knight","knight's"]
+  description: "An 18' pole is sunk into the ground here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3303
+  name: "armor green"
+  roomDesc: "A fine suit of green armor bearing the crest of Hautdesert glistens here!"
+  keywords: ["armor","green"]
+  description: "A fine suit of green armor bearing the crest of Hautdesert glistens here!"
+  type: HEAVYARMOR
+- id: o3304
+  name: "axe benlad benlad's"
+  roomDesc: "A two headed axe with the Hautdesert crest lies here."
+  keywords: ["axe","benlad","benlad's"]
+  description: "A two headed axe with the Hautdesert crest lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3305
+  name: "bracer white"
+  roomDesc: "A humming, blinding white bracer lies here!"
+  keywords: ["bracer","white"]
+  description: "A humming, blinding white bracer lies here!"
+  type: MEDIUMARMOR
+- id: o3306
+  name: "grail holy"
+  roomDesc: "A beat-up, dirty, wooden cup lies here."
+  keywords: ["grail","holy"]
+  description: "A beat-up, dirty, wooden cup lies here."
+  type: POTION
+- id: o3307
+  name: "cloak many orkney"
+  roomDesc: "A cloak of many colors and the crest of Orkney lies here."
+  keywords: ["cloak","many","orkney"]
+  description: "A cloak of many colors and the crest of Orkney lies here."
+  type: ACCESSORY
+- id: o3308
+  name: "shield"
+  roomDesc: "A rainbow of colors is reflected from the shield which lies here!"
+  keywords: ["shield"]
+  description: "A rainbow of colors is reflected from the shield which lies here!"
+  type: SHIELD
+- id: o3309
+  name: "sword excalibur"
+  roomDesc: "A beautiful dragon hilted sword lies here!"
+  keywords: ["sword","excalibur"]
+  description: "A beautiful dragon hilted sword lies here!"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3310
+  name: "scabbard arthur arthur's golden"
+  roomDesc: "A beautiful golden scabbard lies here!"
+  keywords: ["scabbard","arthur","arthur's","golden"]
+  description: "A beautiful golden scabbard lies here!"
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o3311
+  name: "armband armbands garlon garlon's"
+  roomDesc: "A set of armbands of black iron lie here."
+  keywords: ["armband","armbands","garlon","garlon's"]
+  description: "A set of armbands of black iron lie here."
+  type: LIGHTARMOR
+- id: o3312
+  name: "helm horned gawaine gawaine's"
+  roomDesc: "A burnished steel helm with oxen horns lies here."
+  keywords: ["helm","horned","gawaine","gawaine's"]
+  description: "A burnished steel helm with oxen horns lies here."
+  type: HEAVYARMOR
+- id: o3313
+  name: "spurs silver lamorak lamorak's"
+  roomDesc: "A set of silver spurs lies here."
+  keywords: ["spurs","silver","lamorak","lamorak's"]
+  description: "A set of silver spurs lies here."
+  type: HEAVYARMOR
+- id: o3314
+  name: "gauntlets bravery"
+  roomDesc: "A glowing pair of burnished chain mesh gauntlets lies here."
+  keywords: ["gauntlets","bravery"]
+  description: "A glowing pair of burnished chain mesh gauntlets lies here."
+  type: HEAVYARMOR
+- id: o3315
+  name: "ring incubus crest gold"
+  roomDesc: "A ring of twisted red gold bearing the likeness of an Incubus lies here."
+  keywords: ["ring","incubus","crest","gold"]
+  description: "A ring of twisted red gold bearing the likeness of an Incubus lies here."
+  type: ACCESSORY
+- id: o3316
+  name: "staff merlin merlin's"
+  roomDesc: "A staff of two intertwined vines lies here in a circle of power!"
+  keywords: ["staff","merlin","merlin's"]
+  description: "A staff of two intertwined vines lies here in a circle of power!"
+  type: STAFF
+- id: o3317
+  name: "greaves blackened steel"
+  roomDesc: "A pair of blackened steel greaves lies here. There is an inscription on them."
+  keywords: ["greaves","blackened","steel"]
+  description: "A pair of blackened steel greaves lies here. There is an inscription on them."
+  type: HEAVYARMOR
+- id: o3318
+  name: "wand rod"
+  roomDesc: "A marble rod with a white hot tip is smouldering here."
+  keywords: ["wand","rod"]
+  description: "A marble rod with a white hot tip is smouldering here."
+  type: WAND
+- id: o3319
+  name: "pack backpack trailpack leather pellinore pellinore's"
+  roomDesc: "A backpack made of fine leather sits here. You see lettering on its corner."
+  keywords: ["pack","backpack","trailpack","leather","pellinore","pellinore's"]
+  description: "A backpack made of fine leather sits here. You see lettering on its corner."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o3320
+  name: "key p letter"
+  roomDesc: "A key with the letter \"P\" on it is here."
+  keywords: ["key","p","letter"]
+  description: "A key with the letter \"P\" on it is here."
+  type: KEY
+- id: o3321
+  name: "rations trail"
+  roomDesc: "Some trail rations (nuts, dried fuits, dried meats) are here."
+  keywords: ["rations","trail"]
+  description: "Some trail rations (nuts, dried fuits, dried meats) are here."
+  type: FOOD
+- id: o3322
+  name: "flask wine"
+  roomDesc: "A flask of nice, cold Pinot Noir wine is here, just waiting to be tasted."
+  keywords: ["flask","wine"]
+  description: "A flask of nice, cold Pinot Noir wine is here, just waiting to be tasted."
+  type: DRINKCON
+- id: o3323
+  name: "bones bone pile"
+  roomDesc: "A pile of bones lies here."
+  keywords: ["bones","bone","pile"]
+  description: "A pile of bones lies here."
+  type: TRASH
+- id: o3324
+  name: "skull human"
+  roomDesc: "A human skull lies here."
+  keywords: ["skull","human"]
+  description: "A human skull lies here."
+  type: DRINKCON
+- id: o3325
+  name: "rock black small"
+  roomDesc: "A small black rock lies here."
+  keywords: ["rock","black","small"]
+  description: "A small black rock lies here."
+  type: PILL
+- id: o3326
+  name: "letter love"
+  roomDesc: "A love letter addressed to Tristram is rolled and sealed with a wax emblem."
+  keywords: ["letter","love"]
+  description: "A love letter addressed to Tristram is rolled and sealed with a wax emblem."
+  type: SCROLL
+- id: o3327
+  name: "armor golden"
+  roomDesc: "A suit of golden armor shines here."
+  keywords: ["armor","golden"]
+  description: "A suit of golden armor shines here."
+  type: HEAVYARMOR
+- id: o3328
+  name: "spear unholy"
+  roomDesc: "A spear is here, glowing with an unholy dark light."
+  keywords: ["spear","unholy"]
+  description: "A spear is here, glowing with an unholy dark light."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3329
+  name: "favor silken"
+  roomDesc: "A silken favor is here. Maybe it belongs to your lady?"
+  keywords: ["favor","silken"]
+  description: "A silken favor is here. Maybe it belongs to your lady?"
+  type: TRASH
+- id: o3330
+  name: "necklace"
+  roomDesc: "An exquisite emerald necklace has been left here!"
+  keywords: ["necklace"]
+  description: "An exquisite emerald necklace has been left here!"
+  type: ACCESSORY
+- id: o3331
+  name: "ball chain"
+  roomDesc: "A massive spiked iron ball attached to a iron handle by a 3' chain is here."
+  keywords: ["ball","chain"]
+  description: "A massive spiked iron ball attached to a iron handle by a 3' chain is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3332
+  name: "motley fool fools"
+  roomDesc: "Some fool has left his motley here."
+  keywords: ["motley","fool","fools"]
+  description: "Some fool has left his motley here."
+  type: LIGHTARMOR
+- id: o3333
+  name: "helm wolf helmet"
+  roomDesc: "A helm with the semblance of a wolf is here."
+  keywords: ["helm","wolf","helmet"]
+  description: "A helm with the semblance of a wolf is here."
+  type: HEAVYARMOR
+- id: o3334
+  name: "armor shimmering red"
+  roomDesc: "A suit of shimmering red armor glistens in the sunlight."
+  keywords: ["armor","shimmering","red"]
+  description: "A suit of shimmering red armor glistens in the sunlight."
+  type: HEAVYARMOR
+- id: o3335
+  name: "key rusty"
+  roomDesc: "A key is here, lying in the dirt, rusting."
+  keywords: ["key","rusty"]
+  description: "A key is here, lying in the dirt, rusting."
+  type: KEY
+- id: o3336
+  name: "reward"
+  roomDesc: "A deed of payment for the rescue of a damsel in distress is here."
+  keywords: ["reward"]
+  description: "A deed of payment for the rescue of a damsel in distress is here."
+  type: MONEY
+- id: o3337
+  name: "key room"
+  roomDesc: "A brass key made depicting a young girl is here."
+  keywords: ["key","room"]
+  description: "A brass key made depicting a young girl is here."
+  type: KEY
+- id: o3338
+  name: "purse heavy"
+  roomDesc: "A rather heavy looking purse is here."
+  keywords: ["purse","heavy"]
+  description: "A rather heavy looking purse is here."
+  type: MONEY
+- id: o3339
+  name: "cloak lice infested"
+  roomDesc: "A lice infested cloak made of the skin of some animal is here."
+  keywords: ["cloak","lice","infested"]
+  description: "A lice infested cloak made of the skin of some animal is here."
+  type: ACCESSORY
+- id: o3340
+  name: "sword broad steel commander commander's"
+  roomDesc: "A commanders steel broad sword catches your eye."
+  keywords: ["sword","broad","steel","commander","commander's"]
+  description: "A commanders steel broad sword catches your eye."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3341
+  name: "skin whiskey"
+  roomDesc: "A skin smelling of whiskey is here, on the ground."
+  keywords: ["skin","whiskey"]
+  description: "A skin smelling of whiskey is here, on the ground."
+  type: DRINKCON
+- id: o3342
+  name: "ship dragon"
+  roomDesc: "A dragon ship is beached here- where are those Angle raiders?"
+  keywords: ["ship","dragon"]
+  description: "A dragon ship is beached here- where are those Angle raiders?"
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o3343
+  name: "angle"
+  roomDesc: "An angle is here. A raider must be nearby."
+  keywords: ["angle"]
+  description: "An angle is here. A raider must be nearby."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3344
+  name: "rod command"
+  roomDesc: "A rod of black, runed metal swallows light here."
+  keywords: ["rod","command"]
+  description: "A rod of black, runed metal swallows light here."
+  type: STAFF
+- id: o3345
+  name: "banner war persante blue"
+  roomDesc: "The blue war banner of Persante of Inde lies here. Persante has fallen!"
+  keywords: ["banner","war","persante","blue"]
+  description: "The blue war banner of Persante of Inde lies here. Persante has fallen!"
+  type: LIGHT
+- id: o3346
+  name: "lifecutter"
+  roomDesc: "A blue black crusader hilt sword is stuck in the ground."
+  keywords: ["lifecutter"]
+  description: "A blue black crusader hilt sword is stuck in the ground."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3347
+  name: "armor plate full"
+  roomDesc: "A suit of full plate armor gleams on the ground."
+  keywords: ["armor","plate","full"]
+  description: "A suit of full plate armor gleams on the ground."
+  type: HEAVYARMOR
+- id: o3348
+  name: "axe"
+  roomDesc: "An enormous axe is resting here."
+  keywords: ["axe"]
+  description: "An enormous axe is resting here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3349
+  name: "hat top black Lok Lok's"
+  roomDesc: "Lok's black top hat is here- maybe you should give it to him- nah."
+  keywords: ["hat","top","black","Lok","Lok's"]
+  description: "Lok's black top hat is here- maybe you should give it to him- nah."
+  type: LIGHTARMOR

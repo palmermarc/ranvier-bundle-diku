@@ -1,0 +1,751 @@
+- id: m901
+  keywords: ["zeus","god"]
+  name: "Zeus"
+  description: >-
+    Zeus sits here on a throne.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "olympus:o900": 75
+        "olympus:o901": 75
+        "olympus:o926": 75
+        "olympus:o909": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m902
+  keywords: ["prometheus"]
+  name: "Prometheus"
+  description: >-
+    Prometheus is here, playing with a match.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 38000
+          max: 42000
+      pools:
+        "olympus:o908": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m903
+  keywords: ["hermes"]
+  name: "Hermes"
+  description: >-
+    Hermes is busy, delivering a message.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 47500
+          max: 52500
+      pools:
+        "olympus:o904": 75
+        "olympus:o902": 75
+        "olympus:o926": 75
+        "olympus:o909": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m904
+  keywords: ["poseidon"]
+  name: "Poseidon"
+  description: >-
+    Poseidon is dining here.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "olympus:o906": 75
+        "olympus:o926": 75
+        "olympus:o909": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m905
+  keywords: ["apollo"]
+  name: "Apollo"
+  description: >-
+    Apollo is here, playing a tune.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 38000
+          max: 42000
+      pools:
+        "olympus:o907": 75
+        "olympus:o926": 75
+        "olympus:o909": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m906
+  keywords: ["ares"]
+  name: "Ares"
+  description: >-
+    Ares is here, kicking your ass.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 47500
+          max: 52500
+      pools:
+        "olympus:o903": 75
+        "olympus:o926": 75
+        "olympus:o909": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m907
+  keywords: ["athena"]
+  name: "Athena"
+  description: >-
+    Athena is relaxing here.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 57000
+          max: 63000
+      pools:
+        "olympus:o910": 75
+        "olympus:o905": 75
+        "olympus:o926": 75
+        "olympus:o909": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 2
+- id: m908
+  keywords: ["hephaestus","smith"]
+  name: "Hephaestus"
+  description: >-
+    Hephaestus the Smith is here, crafting a fine weapon.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 57000
+          max: 63000
+      pools:
+        "olympus:o912": 75
+        "olympus:o926": 75
+        "olympus:o909": 75
+  metadata:
+    vendor:
+      items:
+        "olympus:o912":
+          cost: 200000
+          currency: gold
+        "olympus:o926":
+          cost: 80000
+          currency: gold
+        "olympus:o909":
+          cost: 20000
+          currency: gold
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m909
+  keywords: ["handmaid","golden"]
+  name: "A Golden Maiden"
+  description: >-
+    A Handmaid of gold is here, assisting the smith.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "olympus:o917": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 2
+- id: m910
+  keywords: ["soldier"]
+  name: "A Soldier"
+  description: >-
+    A soldier is here, assisting Ares.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "olympus:o913": 75
+        "olympus:o919": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m911
+  keywords: ["musician","apprentice"]
+  name: "an apprentice musician"
+  description: >-
+    A musician is here, learning from Apollo.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 2375
+          max: 2625
+      pools:
+        "olympus:o916": 75
+        "olympus:o921": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m912
+  keywords: ["boy","serving","servant"]
+  name: "A serving boy"
+  description: >-
+    A servant is here, feeding Athena her grapes.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "olympus:o915": 75
+        "olympus:o914": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m913
+  keywords: ["hound","dog","war"]
+  name: "A hound of war"
+  description: >-
+    A large hound snarls at you.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 0
+- id: m914
+  keywords: ["Odin"]
+  name: "Odin"
+  description: >-
+    Odin is resting here.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "olympus:o924": 75
+        "olympus:o925": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m915
+  keywords: ["grocer","greengrocer","julius"]
+  name: "Julius the Green Grocer"
+  description: >-
+    Julius the Green Grocer stands here.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "olympus:o914": 75
+        "olympus:o918": 75
+        "olympus:o919": 75
+        "olympus:o920": 75
+        "olympus:o921": 75
+  metadata:
+    vendor:
+      items:
+        "olympus:o914":
+          cost: 50
+          currency: gold
+        "olympus:o918":
+          cost: 1000
+          currency: gold
+        "olympus:o919":
+          cost: 1000
+          currency: gold
+        "olympus:o920":
+          cost: 1000
+          currency: gold
+        "olympus:o921":
+          cost: 1000
+          currency: gold
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m916
+  keywords: ["alchemist"]
+  name: "the Alchemist"
+  description: >-
+    The ancient, wizened Alchemist stands here.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "olympus:o905": 75
+        "olympus:o909": 75
+        "olympus:o910": 75
+        "olympus:o926": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m917
+  keywords: ["clive"]
+  name: "Clive the Weapons Master"
+  description: >-
+    Clive the Weapons Master is practicing with his bow and axe.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 38000
+          max: 42000
+      pools:
+        "olympus:o907": 75
+        "olympus:o913": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m918
+  keywords: ["armorer","samuel"]
+  name: "Samuel the Armorer"
+  description: >-
+    Samuel the Armorer glares at you.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "olympus:o904": 75
+        "olympus:o908": 75
+        "olympus:o911": 75
+  metadata:
+    vendor:
+      items:
+        "olympus:o904":
+          cost: 100000
+          currency: gold
+        "olympus:o908":
+          cost: 60000
+          currency: gold
+        "olympus:o911":
+          cost: 40000
+          currency: gold
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m919
+  keywords: ["ra","sun","god"]
+  name: "Ra the Sun God"
+  description: >-
+    Ra the Egyptian Sun God is resting here.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "olympus:o922": 75
+        "olympus:o923": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m920
+  keywords: ["chimera"]
+  name: "a chimera"
+  description: >-
+    A chimera prowls the cell.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m921
+  keywords: ["hera"]
+  name: "Hera"
+  description: >-
+    Hera is here.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "olympus:o911": 75
+        "olympus:o926": 75
+        "olympus:o909": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 2
+- id: m922
+  keywords: ["roc"]
+  name: "a roc"
+  description: >-
+    A roc is here.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 0
+- id: m923
+  keywords: ["citizen","resident"]
+  name: "A citizen"
+  description: >-
+    A citizen of this town is strolling down the street here.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 65.55
+          max: 72.45
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m924
+  keywords: ["pegasus","horse"]
+  name: "a pegasus"
+  description: >-
+    A large horse with wings is here.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 760
+          max: 840
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 0
+- id: m925
+  keywords: ["cook"]
+  name: "A Cook"
+  description: >-
+    A cook is here, hard at work.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1
+- id: m926
+  keywords: ["jailer"]
+  name: "The Jailer"
+  description: >-
+    The jailer is here, watching for intruders.
+  level: 519
+  attributes:
+    health: 69512
+    armor: 37080
+    hitroll: 9300
+    damroll: 4650
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "olympus:o927": 75
+  metadata:
+    areaId: 57
+    exp_level: 44000
+    sex: 1

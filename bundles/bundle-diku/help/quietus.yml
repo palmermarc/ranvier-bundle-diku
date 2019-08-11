@@ -1,0 +1,16 @@
+---
+body: |
+  #cScorpion's Touch (Rank 1)
+  #eCreate a contact poison that greatly debilitates a victim physically (takes away hit/dam)
+  
+  #cDagon's Call (Rank 2)
+  #eCause harm from afar to a person who you have touched (victim has fight timer because of you)
+  
+  #cBaal's Caress (Rank 3)
+  #eCreate a poison that can be coated on weapons to make them more dangerous (Doesn't take away spell on a weapon, doesn't stack with Scorpion's Touch)
+  
+  #cTaste of Death (Rank 4)
+  #eSpit acidic blood at a target (Deals x% dmg per tick)
+  
+  #cErosion (Rank 5)
+  #eReduce all of a target's physical attributes to zero

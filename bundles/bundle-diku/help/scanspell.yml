@@ -1,0 +1,12 @@
+---
+body: |
+  Syntax: cast scan
+  Syntax: cast repair
+  
+  The SCAN spell will tell you all the items you are carrying which are 
+  currently in need of repairing.
+  
+  The REPAIR spell will repair all the items you are carrying which are 
+  currently in need of repairing.
+  
+  - repair

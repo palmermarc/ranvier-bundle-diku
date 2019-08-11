@@ -1,0 +1,329 @@
+- id: r8301
+  title: "Muddy Path "
+  description: >-
+    This section of the path is slowly being drowned by the nearby swamp to the
+    south, which is creeping slowly inland.  Several caved-in buildings sprawl
+    here, torn apart both by battle and the elements.
+  exits:
+    - roomId: "haon:r6125"
+      direction: north
+    - roomId: "marsh:r8302"
+      direction: south
+- id: r8302
+  title: "Swamp's Edge"
+  description: >-
+    Briars and marsh plants stick to your boots and clothes, and clouds cover the
+    skies above the murky marsh, leaving the path before you dark and sinister.
+    You see some disturbances in the marsh, but after a few strangled screams,
+    the sounds stop.
+  exits:
+    - roomId: "marsh:r8301"
+      direction: north
+    - roomId: "marsh:r8304"
+      direction: south
+    - roomId: "marsh:r8303"
+      direction: east
+- id: r8303
+  title: "Marshy Forest"
+  description: >-
+    This area is by no means a forest, but for those who dwell in these sparse
+    trees it is one.  Occasionally you see a whole humanoid form floating face down
+    in the water, but mostly you only find pieces.  You hear a loud bellow in the
+    distance.  And feel fear creep into your heart.
+  exits:
+    - roomId: "marsh:r8305"
+      direction: east
+    - roomId: "marsh:r8302"
+      direction: west
+  npcs:
+    - id: "marsh:m8301"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8302"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "marsh:m8303"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r8304
+  title: "On a hill."
+  description: >-
+    You stand atop a hill on the northwestern side of the evil swamp. Dark
+    clouds whip around you and the wind raises its voice and assails you.
+  exits:
+    - roomId: "marsh:r8302"
+      direction: north
+    - roomId: "marsh:r8310"
+      direction: south
+    - roomId: "marsh:r8309"
+      direction: east
+  npcs:
+    - id: "marsh:m8302"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8306"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8310"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8314"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r8305
+  title: "An Oozing Bog"
+  description: >-
+    You stand in an oozing quagmire.  A creaking beat fills the air, 
+    accompanied by groans and soughing of the air.  Several large winged
+    beasts flap over you and send chilling glares your way.  You feel out
+    of place, and feel that the occupants of this realm will soon 
+    have you for a feast.
+  exits:
+    - roomId: "marsh:r8306"
+      direction: east
+    - roomId: "marsh:r8303"
+      direction: west
+  npcs:
+    - id: "marsh:m8307"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8309"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8310"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8314"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r8306
+  title: "An Oozing Bog"
+  description: >-
+    The ground here is soft and oozing.  You feel slimy water seeping into your
+    boots.  Better stop and check for leeches when you get out of here.
+  exits:
+    - roomId: "marsh:r8305"
+      direction: west
+  npcs:
+    - id: "marsh:m8302"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8305"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8314"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r8307
+  title: "Swamp Thing's Lair"
+  description: >-
+    A horrible swamp thing resides here.  Mutilated corpses suffuse the air with
+    the overwhelming stench of putrid flesh.
+  exits:
+    - roomId: "marsh:r8308"
+      direction: west
+  npcs:
+    - id: "marsh:m8303"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8304"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "marsh:m8314"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "marsh:m8320"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r8308
+  title: "Pool of Quick Sand"
+  description: >-
+    You stand by a large oozing pool of quick sand.  Luckily only a complete
+    klutz could not avoid it.  Dancing lights fly about you and one seems to
+    be taunting you towards the pool.
+  exits:
+    - roomId: "marsh:r8314"
+      direction: south
+    - roomId: "marsh:r8307"
+      direction: east
+    - roomId: "marsh:r8309"
+      direction: west
+  npcs:
+    - id: "marsh:m8301"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8308"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "marsh:m8314"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r8309
+  title: "A Dark Pool."
+  description: >-
+    You stand beside a large dark pond.  The water boils not with heat, but with
+    motion, as if it is alive.  A creaking beat pulses through the air, leaving
+    you with a cold sweat and fear in your heart.
+  exits:
+    - roomId: "marsh:r8311"
+      direction: south
+    - roomId: "marsh:r8308"
+      direction: east
+    - roomId: "marsh:r8304"
+      direction: west
+  npcs:
+    - id: "marsh:m8312"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8314"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "marsh:m8320"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r8310
+  title: "Gloomy Path Through the Marsh."
+  description: >-
+    To the north lies a hill, shrouded in dark clouds, and to the south lies
+    a huge patch of vegetation.  You sense an evil presence and notice 
+    a beast flying overhead to the south east, towards what looks to be a 
+    huge fortress, half buried in the marsh.
+  exits:
+    - roomId: "marsh:r8304"
+      direction: north
+    - roomId: "marsh:r8312"
+      direction: south
+  npcs:
+    - id: "marsh:m8306"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8312"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8313"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8311
+  title: "Cloud of Darkness."
+  description: >-
+    As you travel through this cloud of darkness, a fear such as you have never
+    known before assails you.
+  exits:
+    - roomId: "marsh:r8309"
+      direction: north
+    - roomId: "marsh:r8313"
+      direction: south
+  npcs:
+    - id: "marsh:m8309"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8320"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r8312
+  title: "Near Vegetation from Hell."
+  description: >-
+    You stand near some of the strangest plant life you have ever seen, a mixture
+    of tumescent vegetables, evil-smelling fruit trees, and malignant ferns.
+  exits:
+    - roomId: "marsh:r8310"
+      direction: north
+    - roomId: "marsh:r8313"
+      direction: east
+  npcs:
+    - id: "marsh:m8318"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "marsh:m8318"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r8313
+  title: "By the Monolith."
+  description: >-
+    You are standing near a monolith which protrudes some 20 feet from the
+    marsh into the air.  Its black obsidian surface shines darkly in the 
+    strange, almost unearthly light that enters through the clouds above.
+    
+  exits:
+    - roomId: "marsh:r8311"
+      direction: north
+    - roomId: "marsh:r8314"
+      direction: east
+    - roomId: "marsh:r8312"
+      direction: west
+  npcs:
+    - id: "marsh:m8303"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8307"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8320"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r8314
+  title: "Murky Bog."
+  description: >-
+    A murky bog surrounds you.  To the east a black monolith juts forth from the
+    ground.  Far to the north lies a huge pool of quicksand.  Snarls can be heard
+    echoing as if from a great distance.
+  exits:
+    - roomId: "marsh:r8308"
+      direction: north
+    - roomId: "marsh:r8315"
+      direction: east
+    - roomId: "marsh:r8313"
+      direction: west
+- id: r8315
+  title: "Northern Lake Side."
+  description: >-
+    Floating on this boiling lake is not what you would consider an enjoyable 
+    experience.  Many a creature bumps the bottom of your boat, and glares 
+    at you through unblinking eyes from the waters below.  The southern 
+    portion of the lake looks calm and serene compared to this wild place.
+  exits:
+    - roomId: "marsh:r8316"
+      direction: south
+    - roomId: "marsh:r8314"
+      direction: west
+  npcs:
+    - id: "marsh:m8320"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r8316
+  title: "Southern Lake Side."
+  description: >-
+    You are floating on a calm section of blue crystal water.  You feel much more
+    at ease then you were before in this area.  Then a wave of fear passes over
+    you.  You are not alone.
+  exits:
+    - roomId: "marsh:r8315"
+      direction: north
+    - roomId: "marsh:r8317"
+      direction: west
+- id: r8317
+  title: "Beach"
+  description: >-
+    You are on a sandy shore.  Marsh life creeps across the surface.  To the west
+    lies an evil fortress.  You see figures walking along the battlements.
+  exits:
+    - roomId: "marsh:r8316"
+      direction: east
+    - roomId: "marsh:r8318"
+      direction: west
+- id: r8318
+  title: "Before the Great Gates."
+  description: >-
+    You stand before the gates of a huge fortress.  The drawbridge is up, the
+    gates closed, and the portcullis down.  This place looks very dangerous,
+    and you decide not to continue onward.
+  exits:
+    - roomId: "marsh:r8317"
+      direction: east
+  npcs:
+    - id: "marsh:m8321"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "marsh:m8321"
+      respawnChance: 100
+      maxLoad: "2"

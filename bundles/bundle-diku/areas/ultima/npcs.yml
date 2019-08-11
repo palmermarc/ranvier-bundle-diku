@@ -1,0 +1,2018 @@
+- id: m2400
+  keywords: ["insects","swarm","bugs"]
+  name: "the insects"
+  description: >-
+    You hear buzzing, and see a swarm of insects flying at you.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2401
+  keywords: ["bat"]
+  name: "the bat"
+  description: >-
+    A black furry bat flies into your face.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2408": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2402
+  keywords: ["shepherd","man"]
+  name: "the shepherd"
+  description: >-
+    A humble shepherd is here looking after his sheep.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2417": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2403
+  keywords: ["girl","child"]
+  name: "the girl"
+  description: >-
+    A smiling young girl is here.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2418": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 2
+- id: m2404
+  keywords: ["sheep"]
+  name: "the sheep"
+  description: >-
+    A sheep peacefully eats grass.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2405
+  keywords: ["katrina","woman","shepherd"]
+  name: "Katrina the Shepherd"
+  description: >-
+    Katrina the Shepherd is her looking over the village.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2419": 75
+        "ultima:o2401": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 2
+- id: m2406
+  keywords: ["rat"]
+  name: "the giant rat"
+  description: >-
+    A rat is knawing on a book.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2407
+  keywords: ["spider"]
+  name: "the giant spider"
+  description: >-
+    The giant spider sits on its web.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2409": 75
+        "ultima:o2420": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2408
+  keywords: ["mage"]
+  name: "the mage"
+  description: >-
+    A mage stands here reading a book.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2422": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2409
+  keywords: ["nystul","Librarian","mage"]
+  name: "Nystul the Librarian"
+  description: >-
+    Nystul the Librarian sits at his desk, writing some scrolls.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2421": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2410
+  keywords: ["mariah","mage"]
+  name: "Mariah the Mage"
+  description: >-
+    Mariah walks around the stacks, busily looking for a book.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2404": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 2
+- id: m2411
+  keywords: ["slime","puddle","mass"]
+  name: "the slime"
+  description: >-
+    An ugly green mass sits on the ground in a puddle.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2412
+  keywords: ["snake"]
+  name: "the snake"
+  description: >-
+    The snake strikes.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2410": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2413
+  keywords: ["horse","Smithy"]
+  name: "Mr. Smithy"
+  description: >-
+    Mr. Smithy, the talking horse, is chewing hay.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2423": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2414
+  keywords: ["bard","musician"]
+  name: "the bard"
+  description: >-
+    A bard sits here strumming his mandolin.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 750
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2424": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2415
+  keywords: ["beggar"]
+  name: "the beggar"
+  description: >-
+    A beggar is here with his hand out.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2425": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2416
+  keywords: ["iolo","bard","musician"]
+  name: "Iolo the Bard"
+  description: >-
+    Iolo sits here with a bottle in his hand, and a smile on hisface.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2428": 75
+        "ultima:o2400": 75
+        "ultima:o2427": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2417
+  keywords: ["jester","chuckles"]
+  name: "Chuckles the Jester"
+  description: >-
+    Chuckles the Jester is juggling and entertaining.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2429": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2418
+  keywords: ["townsman","man"]
+  name: "the townsman"
+  description: >-
+    A townsman is here downing drinks.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2419
+  keywords: ["gwenno","bard"]
+  name: "Gwenno the Bard"
+  description: >-
+    Gwenno the Bard, Iolo's happy wife, wanders around with bow inhand.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2430": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 2
+- id: m2420
+  keywords: ["orc","ape"]
+  name: "the orc"
+  description: >-
+    A mutated ape carries a spear.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2431": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2421
+  keywords: ["troll"]
+  name: "the troll"
+  description: >-
+    A stony troll swings his club.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2432": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2422
+  keywords: ["wisp","ball"]
+  name: "the wisp"
+  description: >-
+    A blue ball of light soars over to you and winks.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2423
+  keywords: ["druid"]
+  name: "the forest druid"
+  description: >-
+    A chanting druid walks the woods.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2424
+  keywords: ["druid"]
+  name: "the city druid"
+  description: >-
+    A druid walks around a flame.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 2
+- id: m2425
+  keywords: ["judge"]
+  name: "The Judge"
+  description: >-
+    The Judge sits here.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2433": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2426
+  keywords: ["jaana","druid"]
+  name: "Jaana the Druid"
+  description: >-
+    Jaana the Druid is in deep meditation.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2402": 75
+        "ultima:o2434": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 2
+- id: m2427
+  keywords: ["prisoner"]
+  name: "the dirty prisoner"
+  description: >-
+    The Prisoner grips the bars with his dirty hands.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -666
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2411": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2428
+  keywords: ["prisoner"]
+  name: "the prisoner"
+  description: >-
+    The Prisoner is big and grins evilly at you.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2429
+  keywords: ["citizen","yewsman"]
+  name: "the citizen of yew"
+  description: >-
+    A citizen of Yew walks around.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2430
+  keywords: ["bartender"]
+  name: "the bartender"
+  description: >-
+    A bartender stands here in middle of a throng of people.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2431
+  keywords: ["owner","bartender"]
+  name: "the pub owner"
+  description: >-
+    The owner of the pub walks around to her customers.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 2
+- id: m2432
+  keywords: ["ettin"]
+  name: "the ettin"
+  description: >-
+    The ettin scratches its heads, and attack.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2433
+  keywords: ["gremlin"]
+  name: "the gremlin"
+  description: >-
+    This little creature sneaks around and steals your food.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2434
+  keywords: ["headless"]
+  name: "the headless"
+  description: >-
+    The headless creature seems to be heading right for you!
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2412": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2435
+  keywords: ["fighter"]
+  name: "the fighter"
+  description: >-
+    A muscular fighter searches here.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2436": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 2
+- id: m2436
+  keywords: ["geoffrey"]
+  name: "Geoffrey the Fighter"
+  description: >-
+    Geoffrey the Fighter leads this campaign.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2406": 75
+        "ultima:o2435": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2437
+  keywords: ["lord","serpent","simon"]
+  name: "Lord Simon"
+  description: >-
+    Lord Simon of the Serpent Hold stares at your form.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2437": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2438
+  keywords: ["mimic"]
+  name: "the mimic"
+  description: >-
+    A treasure chest is here, overflowing with gold.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2439
+  keywords: ["gazer","eyeball"]
+  name: "the gazer"
+  description: >-
+    A floating eyeball glares at you.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2440
+  keywords: ["tinker"]
+  name: "a tinker"
+  description: >-
+    A tinker is fiddling with one device or another.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2438": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2441
+  keywords: ["julia"]
+  name: "Julia the Tinker"
+  description: >-
+    Julia the Tinker is here forging a sword.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2405": 75
+        "ultima:o2439": 75
+  metadata:
+    vendor:
+      items:
+        "ultima:o2405":
+          cost: 5000
+          currency: gold
+        "ultima:o2439":
+          cost: 5000
+          currency: gold
+    areaId: 79
+    exp_level: 20000
+    sex: 2
+- id: m2442
+  keywords: ["lady"]
+  name: "The Lady of Empath Abbey"
+  description: >-
+    The Lady of Empath Abbey stands here.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 2
+- id: m2443
+  keywords: ["sandtrap","tentacle"]
+  name: "the sandtrap"
+  description: >-
+    A tentacle reaches out of the sand, and latches onto your leg.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2444
+  keywords: ["dragon"]
+  name: "the dragon"
+  description: >-
+    A dragon lies on his heap of treasure, turns his head, and firecome billowing out of his maw.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2414": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2445
+  keywords: ["paladin"]
+  name: "the paladin"
+  description: >-
+    A paladin practices his sword strokes here.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2441": 75
+        "ultima:o2442": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2446
+  keywords: ["dupre","paladin"]
+  name: "Dupre the Paladin"
+  description: >-
+    Sitting here, Dupre the Paladin consults his maps.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2407": 75
+        "ultima:o2443": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2447
+  keywords: ["reaper"]
+  name: "the reaper"
+  description: >-
+    The reaper strikes out with his tentacles.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2448
+  keywords: ["gargoyle","king","draxthanum"]
+  name: "Draxthanum the Gargoyle"
+  description: >-
+    The King of Gargoyles is here.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2444": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2449
+  keywords: ["ghost","spirit"]
+  name: "the spirit"
+  description: >-
+    The spirit of peaceful man floats around here.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2450
+  keywords: ["ghost","spirit"]
+  name: "the ghost"
+  description: >-
+    This ghost was an evil man in a past life.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2451
+  keywords: ["skeleton"]
+  name: "the skeleton"
+  description: >-
+    The skeleton walks around in tattered clothing.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2445": 75
+        "ultima:o2446": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2452
+  keywords: ["daemon","demon"]
+  name: "the daemon"
+  description: >-
+    He unfurls his wings and swoops into you.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2415": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2453
+  keywords: ["mourner"]
+  name: "the mourner"
+  description: >-
+    A mourner bows his head over the grave.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 2
+- id: m2454
+  keywords: ["shamino","ranger"]
+  name: "Shamino the Ranger"
+  description: >-
+    Shamino the Ranger sits here, meditating.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2447": 75
+        "ultima:o2403": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2455
+  keywords: ["timelord"]
+  name: "the Timelord"
+  description: >-
+    The Timelord is here in an aura of power.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2416": 75
+        "ultima:o2448": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2456
+  keywords: ["guardian"]
+  name: "The Guardian"
+  description: >-
+    The Guardian as far as you can tell is just a big red face.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2449": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2457
+  keywords: ["blackthorn"]
+  name: "Blackthorn"
+  description: >-
+    Blackthorn wonders how he lost the throne.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2450": 75
+        "ultima:o2469": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2458
+  keywords: ["exodus"]
+  name: "Exodus"
+  description: >-
+    Exodus is here, reveling in his island fortress.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2451": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 0
+- id: m2459
+  keywords: ["minax"]
+  name: "Minax"
+  description: >-
+    Minax is here conjuring up the evil spirits.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2452": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 2
+- id: m2460
+  keywords: ["mondain"]
+  name: "Mondain"
+  description: >-
+    Mondain grips his evil gem and conjures magic to destroy you.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2453": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2461
+  keywords: ["sentri","guard"]
+  name: "Sentri"
+  description: >-
+    Sentri stoically stands here, protecting his Lord and castle fromharm.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2454": 75
+        "ultima:o2455": 75
+        "ultima:o2456": 75
+        "ultima:o2457": 75
+        "ultima:o2458": 75
+        "ultima:o2459": 75
+        "ultima:o2460": 75
+        "ultima:o2461": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2462
+  keywords: ["batlin"]
+  name: "Batlin"
+  description: >-
+    Batlin says, 'Join the Fellowship.'
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2462": 75
+        "ultima:o2400": 75
+        "ultima:o2401": 75
+        "ultima:o2402": 75
+        "ultima:o2403": 75
+        "ultima:o2404": 75
+        "ultima:o2405": 75
+        "ultima:o2406": 75
+        "ultima:o2407": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2463
+  keywords: ["avatar"]
+  name: "The Avatar"
+  description: >-
+    The Avatar is here chatting to Lord British.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2463": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2464
+  keywords: ["lord","british"]
+  name: "Lord British"
+  description: >-
+    Lord British is healing the Avatar's wounds.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2464": 75
+        "ultima:o2465": 75
+        "ultima:o2466": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2465
+  keywords: ["shark"]
+  name: "the shark"
+  description: >-
+    The shark smells blood.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2466
+  keywords: ["seahorse"]
+  name: "sea horse seahorse"
+  description: >-
+    The peaceful seahorse swims here.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2467
+  keywords: ["squid"]
+  name: "the squid"
+  description: >-
+    The squid's tentacles reach for you.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2413": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2468
+  keywords: ["armorer"]
+  name: "the armorer"
+  description: >-
+    The Armorer stands here.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    vendor:
+      items:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2469
+  keywords: ["weaponseller"]
+  name: "the weaponseller"
+  description: >-
+    The Weaponseller stands here.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    vendor:
+      items:
+    areaId: 79
+    exp_level: 20000
+    sex: 1
+- id: m2470
+  keywords: ["boatseller"]
+  name: "the boatseller"
+  description: >-
+    The Boatseller stands here.
+  level: 235
+  attributes:
+    health: 29504
+    armor: 13560
+    hitroll: 3300
+    damroll: 1650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "ultima:o2468": 75
+  metadata:
+    areaId: 79
+    exp_level: 20000
+    sex: 1

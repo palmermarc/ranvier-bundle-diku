@@ -1,0 +1,100 @@
+- id: o2901
+  name: "horns"
+  roomDesc: "A set of horns lies here."
+  keywords: ["horns"]
+  description: "A set of horns lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2902
+  name: "bladder milk"
+  roomDesc: "A milk bladder lies here."
+  keywords: ["bladder","milk"]
+  description: "A milk bladder lies here."
+  type: DRINKCON
+- id: o2903
+  name: "shovel"
+  roomDesc: "A shovel lies here."
+  keywords: ["shovel"]
+  description: "A shovel lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2904
+  name: "short sword"
+  roomDesc: "A short sword lies here."
+  keywords: ["short","sword"]
+  description: "A short sword lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2905
+  name: "hand axe"
+  roomDesc: "A hand axe lies here."
+  keywords: ["hand","axe"]
+  description: "A hand axe lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2906
+  name: "chainmail"
+  roomDesc: "A chainmail shirt lies here."
+  keywords: ["chainmail"]
+  description: "A chainmail shirt lies here."
+  type: HEAVYARMOR
+- id: o2907
+  name: "pick"
+  roomDesc: "A pick lies here."
+  keywords: ["pick"]
+  description: "A pick lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2911
+  name: "broad axe"
+  roomDesc: "A broad axe lies here."
+  keywords: ["broad","axe"]
+  description: "A broad axe lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2912
+  name: "leather suit"
+  roomDesc: "A leather suit lies here."
+  keywords: ["leather","suit"]
+  description: "A leather suit lies here."
+  type: MEDIUMARMOR
+- id: o2913
+  name: "mace"
+  roomDesc: "A mace lies here."
+  keywords: ["mace"]
+  description: "A mace lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2914
+  name: "potion"
+  roomDesc: "An orange potion lies here."
+  keywords: ["potion"]
+  description: "An orange potion lies here."
+  type: POTION
+- id: o2915
+  name: "egg newt"
+  roomDesc: "A newt egg lies here."
+  keywords: ["egg","newt"]
+  description: "A newt egg lies here."
+  type: FOOD

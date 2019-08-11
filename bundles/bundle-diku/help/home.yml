@@ -1,0 +1,10 @@
+---
+body: |
+  To set your recall point, enter the desired room and type 'home here'. 
+  From that point on you will recall to that point rather than the Temple 
+  of Midgaard (although you still go to the Templar Altar if you die).
+  
+  Your 'home' will be reset to the temple if you are staked.
+  
+  A home cannot be a safe room. (Or other "special" rooms that we choose)
+  

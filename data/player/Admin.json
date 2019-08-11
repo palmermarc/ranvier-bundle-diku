@@ -1,0 +1,59 @@
+{
+  "attributes": {
+    "strength": {
+      "delta": 0,
+      "base": 17
+    },
+    "agility": {
+      "delta": 0,
+      "base": 10
+    },
+    "intellect": {
+      "delta": 0,
+      "base": 8
+    },
+    "stamina": {
+      "delta": 0,
+      "base": 11
+    },
+    "health": {
+      "delta": 0,
+      "base": 154
+    },
+    "armor": {
+      "delta": 0,
+      "base": 10
+    },
+    "energy": {
+      "delta": 0,
+      "base": 100
+    },
+    "critical": {
+      "delta": 0,
+      "base": 5
+    },
+    "mana": {
+      "delta": 0,
+      "base": 100
+    }
+  },
+  "level": 1,
+  "name": "Admin",
+  "room": "newbie2:r802",
+  "effects": [],
+  "experience": 0,
+  "inventory": {
+    "items": [],
+    "max": 16
+  },
+  "metadata": {
+    "class": "mage"
+  },
+  "prompt": "[ %health.current%<b>hp</b> %mana.current%<b>mana</b> ]",
+  "quests": {
+    "completed": [],
+    "active": []
+  },
+  "role": 2,
+  "equipment": {}
+}

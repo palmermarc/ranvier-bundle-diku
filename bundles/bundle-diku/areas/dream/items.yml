@@ -1,0 +1,24 @@
+- id: o8600
+  name: "bells"
+  roomDesc: "A set of leggings with a dozen brass bells sewn on has been left here."
+  keywords: ["bells"]
+  description: "A set of leggings with a dozen brass bells sewn on has been left here."
+  type: MEDIUMARMOR
+- id: o8601
+  name: "handkerchief hankie kerchief"
+  roomDesc: "A white handkerchief is here."
+  keywords: ["handkerchief","hankie","kerchief"]
+  description: "A white handkerchief is here."
+  type: TREASURE
+- id: o8602
+  name: "sash"
+  roomDesc: "A white sash is here."
+  keywords: ["sash"]
+  description: "A white sash is here."
+  type: ACCESSORY
+- id: o8603
+  name: "staff"
+  roomDesc: "A short, stout staff made of polished wood is here."
+  keywords: ["staff"]
+  description: "A short, stout staff made of polished wood is here."
+  type: STAFF

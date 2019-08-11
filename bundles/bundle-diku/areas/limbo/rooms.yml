@@ -1,0 +1,30 @@
+- id: r1
+  title: "The Void "
+  description: >-
+    You are floating in nothing.
+  items:
+    - id: "joker1:o24002"
+      respawnChance: 75
+- id: r2
+  title: "Limbo"
+  description: >-
+    You are floating in a formless void, detached from all sensation of physical
+    matter, surrounded by swirling glowing light, which fades into the relative
+    darkness around you without any trace of edges or shadow.
+       There is a "No Tipping" notice pinned to the darkness.
+  npcs:
+    - id: "limbo:m1"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3
+  title: "The Prison"
+  description: >-
+    You have been banished to the Vampire Wars
+    Prison. This is a place of punishment for
+    players the ADMIN feel need to be disciplined.
+    There is no appeal process.
+    Take this time to familiarise yourself with
+    the contents of HELP LAW, HELP RULES & HELP LAW2,
+    and any of the other HELP files that you may not
+    have read yet.
+    Please enjoy your stay.

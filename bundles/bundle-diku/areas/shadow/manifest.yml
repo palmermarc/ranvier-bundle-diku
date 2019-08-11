@@ -1,0 +1,12 @@
+title: "Shadow Grove"
+metadata:
+  id: 68
+  name: "Shadow Grove"
+  createdBy: "Senial"
+  starting_vnum: 1250
+  ending_vnum: 1299
+  item_requirements: 0
+  filename: "shadow.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

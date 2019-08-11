@@ -1,0 +1,368 @@
+- id: r8901
+  title: "The holy grove "
+  description: >-
+    You are standing amidst the ancient oaks and poplars in the holy grove. You
+    can feel a strange sensation of contentedness and relief seeping through You,
+    as if great burdens have been lifted from Your shoulders. From here, friendly-
+    looking paths lead east and south.
+  exits:
+    - roomId: "vallandar:r30300"
+      direction: north
+    - roomId: "grove:r8904"
+      direction: south
+    - roomId: "grove:r8902"
+      direction: east
+  npcs:
+    - id: "grove:m8901"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r8902
+  title: "The holy grove"
+  description: >-
+    You are standing amidst the ancient oaks and poplars in the holy grove. You
+    feel unusually happy here, as if great burdens have been lifted from Your
+    shoulders. From here, pleasant-looking paths lead east, west and south.
+  exits:
+    - roomId: "grove:r8905"
+      direction: south
+    - roomId: "grove:r8903"
+      direction: east
+    - roomId: "grove:r8901"
+      direction: west
+  npcs:
+    - id: "grove:m8902"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r8903
+  title: "A clearing in the woods"
+  description: >-
+    You are standing in a clearing in the light woods. Somehow, this place
+    seems powerfully DIFFERENT from the rest of the forest, as if something is
+    severely strained in the fabric of reality here.  There is a small tablet 
+    on one of the trees.
+  exits:
+    - roomId: "mirror:r5378"
+      direction: north
+    - roomId: "grove:r8906"
+      direction: south
+    - roomId: "grove:r8902"
+      direction: west
+  npcs:
+    - id: "grove:m8907"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "grove:m8907"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "grove:m8907"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "grove:m8907"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "grove:m8907"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "grove:m8907"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r8904
+  title: "The holy grove"
+  description: >-
+    You are standing amidst the ancient oaks and poplars in the holy grove. You
+    feel calm and relaxed here, as if great burdens have been lifted from Your
+    shoulders. From here, pleasant-looking paths lead east, north and south. To
+    the west, through the trees, You can see the road to Midgaard.
+  exits:
+    - roomId: "grove:r8901"
+      direction: north
+    - roomId: "grove:r8907"
+      direction: south
+    - roomId: "grove:r8905"
+      direction: east
+    - roomId: "midennir:r3502"
+      direction: west
+  npcs:
+    - id: "grove:m8903"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r8905
+  title: "The sacred glade"
+  description: >-
+    You are standing in the middle of the sacred glades, where the citizens of
+    Midgaard come to celebrate the spring, where farmers give thanks for bountiful
+    harvest in the fall, and where lovers stroll in summer. You feel seasons of
+    remembered happiness and joy taking Your sorrows and worries away from You,
+    leaving You calm and invigorated, ready for the world. Paths lead into the
+    holy grove to the east, north and west, while to the south a wide, sunny field
+    slopes down to a sparkling lake.
+  exits:
+    - roomId: "grove:r8902"
+      direction: north
+    - roomId: "grove:r8908"
+      direction: south
+    - roomId: "grove:r8906"
+      direction: east
+    - roomId: "grove:r8904"
+      direction: west
+  npcs:
+    - id: "grove:m8900"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "grove:m8904"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "grove:m8904"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "grove:m8904"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "grove:m8906"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "grove:m8906"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8906
+  title: "The holy grove"
+  description: >-
+    You are standing amidst the ancient oaks and poplars in the holy grove. You
+    can feel a strange sensation of joy and calm seeping through You, as if great
+    burdens have been lifted from Your shoulders. To the south, You glimpse an open
+    area through the trees, while paths lead away north and west.
+  exits:
+    - roomId: "grove:r8903"
+      direction: north
+    - roomId: "grove:r8909"
+      direction: south
+    - roomId: "grove:r8905"
+      direction: west
+  npcs:
+    - id: "grove:m8905"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "grove:m8905"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "grove:m8905"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "grove:m8908"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "grove:m8908"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "grove:m8908"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r8907
+  title: "The holy grove"
+  description: >-
+    You are standing amidst the tall, majestic trees in the southern end of the
+    holy grove. Paths lead north and east. To the east, You can see a wide, open
+    field, sloping gently down towards a bright, glittering lake. Somehow, here
+    you feel an inexplicable happiness, as if the world's troubles no longer
+    really matter to you.
+  exits:
+    - roomId: "grove:r8904"
+      direction: north
+    - roomId: "grove:r8908"
+      direction: east
+- id: r8908
+  title: "The sunny field"
+  description: >-
+    You are standing in the middle of a wide, summery, sunlit field. There is a
+    fragrance of spring in the air, a sound of summer and a feeling of eternal
+    Saturday afternoon. To the south is a clear, sparkling lake, and to the north
+    and west is the holy grove. In the wood's edge, to the east, is a stately man-
+    sion, shimmering softly through the colors of the rainbow. You feel as if You
+    could spend the rest of your life here, lying on your back and looking at the
+    patterns of the clouds as they gently drift across the sky.
+  exits:
+    - roomId: "grove:r8905"
+      direction: north
+    - roomId: "grove:r8919"
+      direction: east
+    - roomId: "grove:r8907"
+      direction: west
+- id: r8909
+  title: "The croquet lawn"
+  description: >-
+    You are standing on a immaculately manicured green lawn, the kind you only
+    get after 200 years of meticulous work. There is a winding stone path leading
+    from the wood's edge to the north, to the softly shimmering, rainbow-colored
+    mansion to the south. This place enjoys a perpetual cool, sunny summers after-
+    noon.
+  exits:
+    - roomId: "grove:r8906"
+      direction: north
+    - roomId: "grove:r8910"
+      direction: south
+- id: r8910
+  title: "The foyer"
+  description: >-
+    You are standing in the foyer of Dragon's mansion. The wide double door to
+    the croquet lawn is to the north, flanked by large windows. The walls are
+    panelled in oak and hung with strange paintings.  There is door in the south
+    wall.
+  exits:
+    - roomId: "grove:r8909"
+      direction: north
+    - roomId: "grove:r8911"
+      direction: south
+- id: r8911
+  title: "The hallway"
+  description: >-
+    You are in the north end of a connecting hallway, tastefully decorated with
+    oak paneling and the coat-of-arms of various famous nobles hung on the walls.
+    The hallway leads south, and there is a door in the eastern wall.
+  exits:
+    - roomId: "grove:r8910"
+      direction: north
+    - roomId: "grove:r8913"
+      direction: south
+    - roomId: "grove:r8912"
+      direction: east
+  npcs:
+    - id: "grove:m8909"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8912
+  title: "The blue room"
+  description: >-
+    You are in the blue room, one of the guest rooms in Dragon's mansion. The
+    walls are (surprise!) blue, and the rest of the room is decorated in similar
+    shades, producing a very nice, cool effect. There is a large bed and a
+    matching set of sofas, easy-chairs and a coffee table. Through the venetian
+    blinds in front of the large east window you can see the edge of the grove.
+  exits:
+    - roomId: "grove:r8911"
+      direction: west
+  items:
+    - id: "grove:o8901"
+      respawnChance: 75
+- id: r8913
+  title: "The hallway"
+  description: >-
+    You are standing in the south end of the hallway. There are doors in the
+    elegant oak-panelled walls to the south, east and west. Many different
+    coat-of-arms adorn the walls here.
+  exits:
+    - roomId: "grove:r8911"
+      direction: north
+    - roomId: "grove:r8915"
+      direction: south
+    - roomId: "grove:r8914"
+      direction: east
+    - roomId: "grove:r8916"
+      direction: west
+- id: r8914
+  title: "The red room"
+  description: >-
+    You are in the red room, one of the guest rooms in Dragon's mansion. The
+    walls are wallpapered a deep warm red, and dark mahogany panelling nicely com-
+    plements them. There is a large, warm waterbed and a sofa group in dark wood
+    with leather upholstery, including a coffee table. Heavy brown curtains are
+    pulled away from the wide windows, to reveal a nice view towards the grove.
+  exits:
+    - roomId: "grove:r8913"
+      direction: west
+  npcs:
+    - id: "grove:m8910"
+      respawnChance: 100
+      maxLoad: "5"
+  items:
+    - id: "grove:o8901"
+      respawnChance: 75
+- id: r8915
+  title: "The kitchen"
+  description: >-
+    You are standing in the middle of Dragon's kitchen. Contrary to popular
+    belief, He *doesn't* eat virgins, which is amply demonstrated by the large
+    variety of foodstuffs found here on the shelves. There are numerous cans of
+    tomatoes, peas, corn etc., vines of garlic, a *Huge* array of small spice jars
+    along several shelves and a large combo refrigerator/freezer. A big oven and
+    stove is lurking in a corner. There is some proof here that Dragon is a less
+    than meticulous housekeeper... There are doors to the north and west.
+  exits:
+    - roomId: "grove:r8913"
+      direction: north
+    - roomId: "grove:r8918"
+      direction: west
+  items:
+    - id: "grove:o8902"
+      respawnChance: 75
+    - id: "grove:o8902"
+      respawnChance: 75
+    - id: "grove:o8905"
+      respawnChance: 75
+- id: r8916
+  title: "The ballroom"
+  description: >-
+    You are standing in the middle of a vast palisander floor. This is where
+    Dragon entertains large number of guests, but the cloth-covered chairs
+    standing forlornly in a corner suggests that this does not happen often.
+    There are doors in the south and west walls, while to the east there is a
+    short corridor to the greenhouse.
+  exits:
+    - roomId: "grove:r8918"
+      direction: south
+    - roomId: "grove:r8913"
+      direction: east
+    - roomId: "grove:r8917"
+      direction: west
+- id: r8917
+  title: "The greenhouse"
+  description: >-
+    This is Dragons' greenhouse. Green light filters in slantwise through the
+    plants, giving the room a subtropical ambience. It is not really hot in here,
+    though, rather a pleasantly warm temperature. The walls are all windows, except 
+    the eastern one joining the greenhouse to the main building, but it is hard to 
+    see out for all the greenery here. There is a set of easy-chairs and a glass
+    coffee table. To the south, there is a wide double door out to a sunlit 
+    terrace.
+  exits:
+    - roomId: "grove:r8919"
+      direction: south
+    - roomId: "grove:r8916"
+      direction: east
+  npcs:
+    - id: "grove:m8910"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8918
+  title: "The dining hall"
+  description: >-
+    This is Dragons' dining hall. There is a large long solid oak table,
+    seating at least 24, with heavy, wooden chairs to match. The oak panel walls
+    are filled with paintings. There are doors to the north and east, and to the
+    west there is a wide double door opening out onto the sunlit terrace.
+  exits:
+    - roomId: "grove:r8916"
+      direction: north
+    - roomId: "grove:r8915"
+      direction: east
+    - roomId: "grove:r8919"
+      direction: west
+  npcs:
+    - id: "grove:m8909"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8919
+  title: "The terrace"
+  description: >-
+    You are standing on a sunlit terrace in front of Dragon's mansion. To the
+    west, there is a splendid view over the field down over the lake. To the north
+    is the greenhouse, its large windowpanes shimmering with weird and wonderful
+    colors, while a double door leads into the house proper to the east. It is
+    warm and calm here. There is a white-painted table with a parasol here,
+    together with a matched set of chairs.
+  exits:
+    - roomId: "grove:r8917"
+      direction: north
+    - roomId: "grove:r8918"
+      direction: east
+    - roomId: "grove:r8908"
+      direction: west

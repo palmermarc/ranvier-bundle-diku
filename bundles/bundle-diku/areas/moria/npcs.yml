@@ -1,0 +1,949 @@
+- id: m4100
+  keywords: ["mage"]
+  name: "the Mage"
+  description: >-
+    A small intelligent looking mage is standing here. It looks like heknows his way with magic. 
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+      pools:
+        "moria:o4102": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4101
+  keywords: ["troll"]
+  name: "the troll"
+  description: >-
+    This large mean-looking troll wants to take a closer look at you.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "moria:o4100": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4102
+  keywords: ["guardian","snake"]
+  name: "the guardian snake"
+  description: >-
+    A large green snake is guardian for something.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+      pools:
+        "moria:o4103": 75
+        "moria:o4104": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4104
+  keywords: ["orc"]
+  name: "the orc"
+  description: >-
+    An ugly orc is standing here waiting for someone to practice on.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "moria:o4104": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4105
+  keywords: ["centipede"]
+  name: "a centipede"
+  description: >-
+    A small harmless centipede is here looking for some vegetation to eat.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 300
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 0
+- id: m4106
+  keywords: ["warrior"]
+  name: "the Warrior"
+  description: >-
+    A human warrior grins an evil grin in your face.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "moria:o4101": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4107
+  keywords: ["kobold"]
+  name: "the green kobold"
+  description: >-
+    A green kobold hobbles along the cave walls puking periodically.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 19
+          max: 21
+      pools:
+        "moria:o4104": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4150
+  keywords: ["bat","blue"]
+  name: "the blue bat"
+  description: >-
+    A blue bat flies in circles while electrical charges arc here and there.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 0
+- id: m4151
+  keywords: ["bat","red"]
+  name: "the red bat"
+  description: >-
+    A red bat hangs upside down from the ceiling, glowing.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 0
+- id: m4152
+  keywords: ["bat","green"]
+  name: "the green bat"
+  description: >-
+    A green bat flies from wall to wall leaving an awful smell.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 0
+- id: m4153
+  keywords: ["bat","white"]
+  name: "the white bat"
+  description: >-
+    A white bat rests on the ceiling.  You wonder where the cold is coming from.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 0
+- id: m4154
+  keywords: ["bat","black"]
+  name: "the black bat"
+  description: >-
+    A black bat flies from wall to wall leaving something hissing behind.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 0
+- id: m4155
+  keywords: ["thief"]
+  name: "the thief"
+  description: >-
+    A sneaky thief appears and disappears within the shadows.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "moria:o4152": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4156
+  keywords: ["troll"]
+  name: "the troll"
+  description: >-
+    A large ugly troll is here mumbling something.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 2850
+          max: 3150
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4157
+  keywords: ["mage"]
+  name: "the Mage"
+  description: >-
+    A small man is here researching magical incantations.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 760
+          max: 840
+      pools:
+        "moria:o4151": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4158
+  keywords: ["snake"]
+  name: "the snake"
+  description: >-
+    A brown snake hisses at you.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4159
+  keywords: ["troll"]
+  name: "the small troll"
+  description: >-
+    A small troll is here happily dancing.  Trala-la-la.  La-la.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4160
+  keywords: ["orc"]
+  name: "the orc"
+  description: >-
+    A large orc growls in your face.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "moria:o4150": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4000
+  keywords: ["python","snake"]
+  name: "the huge python"
+  description: >-
+    The huge python rears its head and hisses at you. 
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+      pools:
+        "moria:o4001": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4001
+  keywords: ["garter","snake"]
+  name: "the garter snake"
+  description: >-
+    A small green garter snake slithers along the floor.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 0
+- id: m4002
+  keywords: ["centipede"]
+  name: "the centipede"
+  description: >-
+    A small centipede here is looking for vegetation.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 0
+- id: m4003
+  keywords: ["kobold"]
+  name: "the kobold"
+  description: >-
+    An ugly kobold mumbles something under its breath.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 0
+- id: m4004
+  keywords: ["orc"]
+  name: "the orc"
+  description: >-
+    This orc is frothing around the mouth.  Better stay away.
+  level: 19
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 51
+    exp_level: 1431
+    sex: 1
+- id: m4005
+  keywords: ["orc"]
+  name: "the large orc"
+  description: >-
+    This large orc is looking for someone small to pick on.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "moria:o4000": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4050
+  keywords: ["warrior"]
+  name: "the warrior"
+  description: >-
+    This tall warrior has more scars than even you!
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "moria:o4051": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4051
+  keywords: ["warrior"]
+  name: "the warrior"
+  description: >-
+    This veteran warrior could even be your father.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4052
+  keywords: ["hobgoblin"]
+  name: "the hobgoblin"
+  description: >-
+    A small beat-up hobgoblin cringes in the corner.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4053
+  keywords: ["snake"]
+  name: "the snake"
+  description: >-
+    A sickly brown snake watches you with caution.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 0
+- id: m4054
+  keywords: ["centipede"]
+  name: "the centipede"
+  description: >-
+    A white centipede crawls along the cave floors randomly.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 0
+- id: m4055
+  keywords: ["hobgoblin"]
+  name: "the large hobgoblin"
+  description: >-
+    A large hobgoblin is here wondering if he should tear you apart.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 285
+          max: 315
+      pools:
+        "moria:o4050": 75
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4056
+  keywords: ["orc"]
+  name: "the orc"
+  description: >-
+    An orc is here, looking for something (or perhaps someone) to eat.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 142.5
+          max: 157.5
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4057
+  keywords: ["lion","mountain"]
+  name: "the mountain lion"
+  description: >-
+    A mountain lion bears its teeth at the sight of more food.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 750
+          max: 1250
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1
+- id: m4058
+  keywords: ["giant","hill"]
+  name: "the hill giant"
+  description: >-
+    A hill giant is here tossing rocks around.  Marbles perhaps?
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 51
+    exp_level: 1000
+    sex: 1

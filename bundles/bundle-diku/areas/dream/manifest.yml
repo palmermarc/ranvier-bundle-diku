@@ -1,0 +1,12 @@
+title: "Machine Dreams"
+metadata:
+  id: 20
+  name: "Machine Dreams"
+  createdBy: "furey"
+  starting_vnum: 8600
+  ending_vnum: 8649
+  item_requirements: 0
+  filename: "dream.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

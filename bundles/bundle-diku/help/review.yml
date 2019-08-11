@@ -1,0 +1,8 @@
+---
+body: |
+  Syntax: Review
+  
+  The Review command will allow you to see the last 10 tells and replies that 
+  were sent to you. It will also log your tells and replies to the other player.
+  This will help you see all those 'missed tells'.
+  

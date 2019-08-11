@@ -1,0 +1,366 @@
+- id: m5100
+  keywords: ["goblin","slave"]
+  name: "the goblin slave"
+  description: >-
+    A goblin slave lies here asleep.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -450
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 21
+    exp_level: 4000
+    sex: 1
+- id: m5101
+  keywords: ["drow","commoner"]
+  name: "the drow commoner"
+  description: >-
+    A drow commoner walks on guard duty.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 285
+          max: 315
+      pools:
+        "drow:o5100": 75
+  metadata:
+    areaId: 21
+    exp_level: 4000
+    sex: 1
+- id: m5102
+  keywords: ["drow","noble","warrior"]
+  name: "the drow warrior noble"
+  description: >-
+    The drow warrior noble stands here guarding his home.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "drow:o5101": 75
+  metadata:
+    areaId: 21
+    exp_level: 4000
+    sex: 1
+- id: m5103
+  keywords: ["drow","noble","mage"]
+  name: "the drow mage noble"
+  description: >-
+    The drow mage noble is here protecting his home.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "drow:o5102": 75
+  metadata:
+    areaId: 21
+    exp_level: 4000
+    sex: 1
+- id: m5104
+  keywords: ["drow","priestess"]
+  name: "the drow priestess"
+  description: >-
+    The drow priestess is here shouting orders.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 3800
+          max: 4200
+      pools:
+        "drow:o5103": 75
+  metadata:
+    areaId: 21
+    exp_level: 4000
+    sex: 2
+- id: m5105
+  keywords: ["drow","master"]
+  name: "The drow master"
+  description: >-
+    The drow master stares at you angrily.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "drow:o5105": 75
+        "drow:o5110": 75
+        "drow:o5104": 75
+  metadata:
+    areaId: 21
+    exp_level: 4000
+    sex: 1
+- id: m5106
+  keywords: ["drow","weapons","master"]
+  name: "The weapons master"
+  description: >-
+    The drow weapons master is here shadow boxing.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 14250
+          max: 15750
+      pools:
+        "drow:o5105": 75
+        "drow:o5109": 75
+  metadata:
+    areaId: 21
+    exp_level: 4000
+    sex: 1
+- id: m5107
+  keywords: ["drow","matron","mother"]
+  name: "the matron mother"
+  description: >-
+    The matron mother of the house is standing here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 28500
+          max: 31500
+      pools:
+        "drow:o5104": 75
+        "drow:o5114": 75
+        "drow:o5111": 75
+        "drow:o5108": 75
+  metadata:
+    areaId: 21
+    exp_level: 4000
+    sex: 2
+- id: m5108
+  keywords: ["drow","matron","mother"]
+  name: "the matron mother"
+  description: >-
+    The matron mother of the 1st house is waiting for you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 28500
+          max: 31500
+      pools:
+        "drow:o5104": 75
+        "drow:o5112": 75
+  metadata:
+    areaId: 21
+    exp_level: 4000
+    sex: 2
+- id: m5109
+  keywords: ["yochlol"]
+  name: "the yochlol"
+  description: >-
+    A yochlol forms out of a swirling mist.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 28500
+          max: 31500
+      pools:
+        "drow:o5113": 75
+  metadata:
+    areaId: 21
+    exp_level: 4000
+    sex: 2
+- id: m5110
+  keywords: ["drow","guard"]
+  name: "the drow guard"
+  description: >-
+    The drow guard is here staring at you ominously.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "drow:o5100": 75
+  metadata:
+    areaId: 21
+    exp_level: 4000
+    sex: 1
+- id: m5111
+  keywords: ["drow","scout"]
+  name: "the drow scout"
+  description: >-
+    The drow scout is here sneaking among the shadows.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "drow:o5100": 75
+  metadata:
+    areaId: 21
+    exp_level: 4000
+    sex: 2

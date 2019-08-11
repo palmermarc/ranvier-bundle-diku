@@ -1,0 +1,599 @@
+- id: m12410
+  keywords: ["dwarf","imp"]
+  name: "the dwarf imp"
+  description: >-
+    The dwarf imp says 'Turn back, while you still can'
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12425": 75
+        "htd:o12426": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12411
+  keywords: ["sentinel","guard"]
+  name: "The Sentinel"
+  description: >-
+    The Sentinel slices you Supernaturally Hard!!!!!
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12425": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12412
+  keywords: ["sentinel","guard"]
+  name: "The Sentinel"
+  description: >-
+    The Sentinel stands here with stately pride.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12425": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12413
+  keywords: ["dark","sentinel","guard"]
+  name: "The Dark Sentinel"
+  description: >-
+    The Dark Sentinel begins to rip you apart!
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12411": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12414
+  keywords: ["baby","sentinel","guard"]
+  name: "The Baby Sentinel"
+  description: >-
+    The baby sentinel bonks you.  BONK!! BONK!!
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12411": 75
+        "htd:o12410": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12415
+  keywords: ["light","sentinel","guard"]
+  name: "The Light Sentinel"
+  description: >-
+    The Light Sentinel contemplates killing you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12425": 75
+        "htd:o12412": 75
+        "htd:o12413": 75
+        "htd:o12414": 75
+        "htd:o12415": 75
+        "htd:o12416": 75
+        "htd:o12417": 75
+        "htd:o12418": 75
+        "htd:o12419": 75
+        "htd:o12420": 75
+        "htd:o12421": 75
+        "htd:o12422": 75
+        "htd:o12423": 75
+        "htd:o12427": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12416
+  keywords: ["sentinel","guard"]
+  name: "The Sentinel"
+  description: >-
+    The Sentinel slices you Supernaturally Hard!!!
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12425": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12417
+  keywords: ["sentinel","guard"]
+  name: "The Sentinel"
+  description: >-
+    The Sentinel slices you Supernaturally Hard!!!
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12425": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12418
+  keywords: ["sentinel","guard"]
+  name: "The Sentinel"
+  description: >-
+    The Sentinel slices you Supernaturally Hard!!!!!
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12425": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12419
+  keywords: ["dark","sentinel","guard"]
+  name: "The Dark Sentinel"
+  description: >-
+    The Dark Sentinel begins to rip you apart.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12411": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12420
+  keywords: ["dark","sentinel","guard"]
+  name: "The Dark Sentinel"
+  description: >-
+    The Dark Sentinel begins to rip you apart.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12411": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12421
+  keywords: ["dark","sentinel","guard"]
+  name: "The Dark Sentinel"
+  description: >-
+    The Dark Sentinel begins to rip you apart.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12411": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12422
+  keywords: ["dark","sentinel","guard"]
+  name: "The Dark Sentinel"
+  description: >-
+    The Dark Sentinel begins to rip you apart.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12411": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12423
+  keywords: ["dark","sentinel","guard"]
+  name: "The Dark Sentinel"
+  description: >-
+    The Dark Sentinel begins to rip you apart.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12411": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12424
+  keywords: ["light","sentinel","guard"]
+  name: "The Light Sentinel"
+  description: >-
+    The Light Sentinel contemplates killing you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12425": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12425
+  keywords: ["sentinel","guard"]
+  name: "The Sentinel"
+  description: >-
+    The Sentinel stands here with stately pride.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12425": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12426
+  keywords: ["sentinel","light","guard"]
+  name: "The Light Sentinel"
+  description: >-
+    The Light Sentinel is on the guard.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12425": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12427
+  keywords: ["sentinel","guard"]
+  name: "The Sentinel"
+  description: >-
+    The Sentinel is on guard.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12425": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12428
+  keywords: ["sentinel","dark","guard"]
+  name: "The Dark Sentinel"
+  description: >-
+    The dark sentinel attacks!
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12411": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1
+- id: m12429
+  keywords: ["sentinel","dark","guard"]
+  name: "The Dark Sentinel"
+  description: >-
+    The Dark Sentinel prevents you from advancing.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "htd:o12411": 75
+  metadata:
+    areaId: 36
+    exp_level: 8000
+    sex: 1

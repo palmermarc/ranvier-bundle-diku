@@ -1,0 +1,8 @@
+---
+body: |
+  You can only place a certain number of qp on an item. The limit for 
+  'created' eq is <1260 + (10 * Status)>. The limit for standard 'mud' eq 
+  is <760 + (10 * Status)>. 
+  
+  Spells, "extra" flags, and Indest do not count towards the maximum value.
+  

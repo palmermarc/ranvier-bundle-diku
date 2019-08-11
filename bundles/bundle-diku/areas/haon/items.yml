@@ -1,0 +1,154 @@
+- id: o6155
+  name: "morning-star star morning"
+  roomDesc: "The morning star is here collecting dust while it lies on the ground."
+  keywords: ["morning-star","star","morning"]
+  description: "The morning star is here collecting dust while it lies on the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o6000
+  name: "axe lumber"
+  roomDesc: "A heavy lumber axe lies here."
+  keywords: ["axe","lumber"]
+  description: "A heavy lumber axe lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o6001
+  name: "shirt"
+  roomDesc: "A chequered shirt lies here."
+  keywords: ["shirt"]
+  description: "A chequered shirt lies here."
+  type: LIGHTARMOR
+- id: o6002
+  name: "boots"
+  roomDesc: "A pair of leather boots lies here."
+  keywords: ["boots"]
+  description: "A pair of leather boots lies here."
+  type: MEDIUMARMOR
+- id: o6003
+  name: "fireplace"
+  roomDesc: "A fireplace made from stone is set against the east wall."
+  keywords: ["fireplace"]
+  description: "A fireplace made from stone is set against the east wall."
+  type: CONTAINER
+  items: ["haon:o6006"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o6005
+  name: "chest"
+  roomDesc: "A wooden chest stands in the corner."
+  keywords: ["chest"]
+  description: "A wooden chest stands in the corner."
+  type: CONTAINER
+  items: ["haon:o6007"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o6006
+  name: "key"
+  roomDesc: "A small brass key lies here."
+  keywords: ["key"]
+  description: "A small brass key lies here."
+  type: KEY
+- id: o6007
+  name: "coins gold"
+  roomDesc: "Some gold coins lie piled up in a heap on the floor."
+  keywords: ["coins","gold"]
+  description: "Some gold coins lie piled up in a heap on the floor."
+  type: MONEY
+- id: o6010
+  name: "blackberries"
+  roomDesc: "Some blackberries grow on a bush nearby."
+  keywords: ["blackberries"]
+  description: "Some blackberries grow on a bush nearby."
+  type: FOOD
+- id: o6011
+  name: "mushroom"
+  roomDesc: "A small mushroom grows nearby."
+  keywords: ["mushroom"]
+  description: "A small mushroom grows nearby."
+  type: FOOD
+- id: o6013
+  name: "water barrel"
+  roomDesc: "A water barrel has been left here."
+  keywords: ["water","barrel"]
+  description: "A water barrel has been left here."
+  type: DRINKCON
+- id: o6102
+  name: "tree opening"
+  roomDesc: "A colossal tree blocks the way westwards."
+  keywords: ["tree","opening"]
+  description: "A colossal tree blocks the way westwards."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o6103
+  name: "branch"
+  roomDesc: "A long, grey branch rests heavily on the ground."
+  keywords: ["branch"]
+  description: "A long, grey branch rests heavily on the ground."
+  type: LIGHT
+- id: o6104
+  name: "branch"
+  roomDesc: "A long, grey branch rests heavily on the ground."
+  keywords: ["branch"]
+  description: "A long, grey branch rests heavily on the ground."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o6105
+  name: "branch"
+  roomDesc: "A long, grey branch rests heavily on the ground."
+  keywords: ["branch"]
+  description: "A long, grey branch rests heavily on the ground."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o6106
+  name: "toadstool"
+  roomDesc: "A large toadstool grows nearby."
+  keywords: ["toadstool"]
+  description: "A large toadstool grows nearby."
+  type: FOOD
+- id: o6107
+  name: "toadstool"
+  roomDesc: "A large toadstool grows nearby."
+  keywords: ["toadstool"]
+  description: "A large toadstool grows nearby."
+  type: FOOD
+- id: o6110
+  name: "potion yellow"
+  roomDesc: "A yellow potion has been left here."
+  keywords: ["potion","yellow"]
+  description: "A yellow potion has been left here."
+  type: POTION
+- id: o6111
+  name: "shield large"
+  roomDesc: "A large round shield has been left here."
+  keywords: ["shield","large"]
+  description: "A large round shield has been left here."
+  type: SHIELD
+- id: o6112
+  name: "crown iron"
+  roomDesc: "An iron crown rests on the ground."
+  keywords: ["crown","iron"]
+  description: "An iron crown rests on the ground."
+  type: LIGHTARMOR
+- id: o6114
+  name: "ring iron"
+  roomDesc: "An iron ring has been left here."
+  keywords: ["ring","iron"]
+  description: "An iron ring has been left here."
+  type: ACCESSORY

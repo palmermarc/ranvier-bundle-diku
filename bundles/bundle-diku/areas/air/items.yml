@@ -1,0 +1,8 @@
+- id: o1001
+  name: "rose"
+  roomDesc: "A red rose is lying on the ground."
+  keywords: ["rose"]
+  description: "A red rose is lying on the ground."
+  type: TRASH
+  metadata:
+      value: 10

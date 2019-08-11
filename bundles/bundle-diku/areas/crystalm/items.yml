@@ -1,0 +1,122 @@
+- id: o10001
+  name: "turtle dragon shell"
+  roomDesc: "A giant Turtle dragon shell lies here."
+  keywords: ["turtle","dragon","shell"]
+  description: "A giant Turtle dragon shell lies here."
+  type: HEAVYARMOR
+- id: o10002
+  name: "farmers scythe"
+  roomDesc: "A farming scythe lies here."
+  keywords: ["farmers","scythe"]
+  description: "A farming scythe lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10003
+  name: "blue crystal staff"
+  roomDesc: "A blue crystal staff lies here."
+  keywords: ["blue","crystal","staff"]
+  description: "A blue crystal staff lies here."
+  type: STAFF
+- id: o10004
+  name: "bright silver bracer"
+  roomDesc: "A bright silver bracer lies here."
+  keywords: ["bright","silver","bracer"]
+  description: "A bright silver bracer lies here."
+  type: HEAVYARMOR
+- id: o10005
+  name: "fire pit"
+  roomDesc: "There is a fire pit here, still smoldering."
+  keywords: ["fire","pit"]
+  description: "There is a fire pit here, still smoldering."
+  type: CONTAINER
+  items: ["crystalm:o10004"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o10006
+  name: "house key "
+  roomDesc: "There is a house key on the ground."
+  keywords: ["house","key",""]
+  description: "There is a house key on the ground."
+  type: KEY
+- id: o10007
+  name: "coathanger"
+  roomDesc: "There is a coathanger on the ground."
+  keywords: ["coathanger"]
+  description: "There is a coathanger on the ground."
+  type: KEY
+- id: o10008
+  name: "silver longsword"
+  roomDesc: "There is a silver longsword on the ground."
+  keywords: ["silver","longsword"]
+  description: "There is a silver longsword on the ground."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10009
+  name: "farmer longjohns"
+  roomDesc: "A pair of farmers longjohns are lying here."
+  keywords: ["farmer","longjohns"]
+  description: "A pair of farmers longjohns are lying here."
+  type: LIGHTARMOR
+- id: o10010
+  name: "ancient coins gold"
+  roomDesc: "Some ancient gold coins lie piled up in a heap on the floor."
+  keywords: ["ancient","coins","gold"]
+  description: "Some ancient gold coins lie piled up in a heap on the floor."
+  type: MONEY
+- id: o10011
+  name: "ancient coins gold"
+  roomDesc: "Some ancient gold coins lie piled up in a heap on the floor."
+  keywords: ["ancient","coins","gold"]
+  description: "Some ancient gold coins lie piled up in a heap on the floor."
+  type: MONEY
+- id: o10012
+  name: "grain"
+  roomDesc: "There is some grain here."
+  keywords: ["grain"]
+  description: "There is some grain here."
+  type: FOOD
+- id: o10013
+  name: "leather armor"
+  roomDesc: "There is a suit of leather armor"
+  keywords: ["leather","armor"]
+  description: "There is a suit of leather armor"
+  type: MEDIUMARMOR
+- id: o10014
+  name: "chamorro dagger"
+  roomDesc: "There is a chamorro dagger lying here."
+  keywords: ["chamorro","dagger"]
+  description: "There is a chamorro dagger lying here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10015
+  name: "Footman's Lance"
+  roomDesc: "There is a long wicked looking pole arm lying here."
+  keywords: ["Footman's","Lance"]
+  description: "There is a long wicked looking pole arm lying here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10016
+  name: "Humanskin vest"
+  roomDesc: "A large pile of skin is lying here."
+  keywords: ["Humanskin","vest"]
+  description: "A large pile of skin is lying here."
+  type: LIGHTARMOR
+- id: o10017
+  name: "draconian helmet"
+  roomDesc: "A helmet made of leather and Iron lies here."
+  keywords: ["draconian","helmet"]
+  description: "A helmet made of leather and Iron lies here."
+  type: HEAVYARMOR

@@ -1,0 +1,20 @@
+---
+body: |
+  Syntax: hunt <mob>
+  
+  If you are in the same area as a mob you need to find, you can HUNT it down by
+  using this command. It tells you the direction that the mob is in.
+  Be careful because if you hunt a mob that is dead, you won't be able to find it, 
+  and if you hunt a mob that is the same name as something else you will find it 
+  hard to find the right one.
+  
+  HUNTING takes up a certain amount of MOVE every time you move it tells you which
+  direction the mob is in.
+  
+  Use this skill wisely - it is not for those who don't understand it.
+  
+  To use this skill properly, you need to PRACTICE it.
+  
+  ***Players can NOT be hunted***
+  
+  - hunting

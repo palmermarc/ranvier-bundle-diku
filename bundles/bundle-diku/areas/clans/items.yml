@@ -1,0 +1,144 @@
+- id: o24900
+  name: "gloves Brujah"
+  roomDesc: "Gloves of Brujah don't belong to you"
+  keywords: ["gloves","Brujah"]
+  description: "Gloves of Brujah don't belong to you"
+  type: ACCESSORY
+- id: o24901
+  name: "armplates Brujah"
+  roomDesc: "Armplates of Berserking don't belong to you"
+  keywords: ["armplates","Brujah"]
+  description: "Armplates of Berserking don't belong to you"
+  type: ACCESSORY
+- id: o24902
+  name: "boots Brujah"
+  roomDesc: "Boots of Stomping don't belong to you"
+  keywords: ["boots","Brujah"]
+  description: "Boots of Stomping don't belong to you"
+  type: ACCESSORY
+- id: o24903
+  name: "aura sanity Malkavian"
+  roomDesc: "A strange feeling is in the air"
+  keywords: ["aura","sanity","Malkavian"]
+  description: "A strange feeling is in the air"
+  type: ACCESSORY
+- id: o24904
+  name: "veil Illusions Malkavian"
+  roomDesc: "A transparent vision floats in the air here"
+  keywords: ["veil","Illusions","Malkavian"]
+  description: "A transparent vision floats in the air here"
+  type: ACCESSORY
+- id: o24905
+  name: "straight jacket Malkavian"
+  roomDesc: "A restraint for the disturbed is crumpled in the corner"
+  keywords: ["straight","jacket","Malkavian"]
+  description: "A restraint for the disturbed is crumpled in the corner"
+  type: ACCESSORY
+- id: o24906
+  name: "robe Tremere"
+  roomDesc: "A black robe lies here, eminating power"
+  keywords: ["robe","Tremere"]
+  description: "A black robe lies here, eminating power"
+  type: ACCESSORY
+- id: o24907
+  name: "bracer Tremere"
+  roomDesc: "A soflty glowing bracer lies here ready to devour your soul"
+  keywords: ["bracer","Tremere"]
+  description: "A soflty glowing bracer lies here ready to devour your soul"
+  type: ACCESSORY
+- id: o24908
+  name: "bracer Tremere"
+  roomDesc: "A bracer lies here, the sight of it makes your blood surge"
+  keywords: ["bracer","Tremere"]
+  description: "A bracer lies here, the sight of it makes your blood surge"
+  type: ACCESSORY
+- id: o24909
+  name: "red leather boots Toreador"
+  roomDesc: "A pair of rugged red leather boots is here."
+  keywords: ["red","leather","boots","Toreador"]
+  description: "A pair of rugged red leather boots is here."
+  type: ACCESSORY
+- id: o24910
+  name: "sunglasses Toreador"
+  roomDesc: "A pair of really cool sunglasses are here."
+  keywords: ["sunglasses","Toreador"]
+  description: "A pair of really cool sunglasses are here."
+  type: ACCESSORY
+- id: o24911
+  name: "Toreador cloak"
+  roomDesc: "A plush dark blue cloak is here."
+  keywords: ["Toreador","cloak"]
+  description: "A plush dark blue cloak is here."
+  type: ACCESSORY
+- id: o24912
+  name: "Ventrue belt"
+  roomDesc: "A belt with an ornate buckle has been left here"
+  keywords: ["Ventrue","belt"]
+  description: "A belt with an ornate buckle has been left here"
+  type: ACCESSORY
+- id: o24913
+  name: "Ventrue boots"
+  roomDesc: "A pair of boots made from dragonskin lie here"
+  keywords: ["Ventrue","boots"]
+  description: "A pair of boots made from dragonskin lie here"
+  type: ACCESSORY
+- id: o24914
+  name: "Ventrue waistcoat"
+  roomDesc: "A waistcoat of fine black silk has been dropped here"
+  keywords: ["Ventrue","waistcoat"]
+  description: "A waistcoat of fine black silk has been dropped here"
+  type: ACCESSORY
+- id: o24915
+  name: "mask Nosferatu"
+  roomDesc: "A beautifull smimmering mask lies here"
+  keywords: ["mask","Nosferatu"]
+  description: "A beautifull smimmering mask lies here"
+  type: ACCESSORY
+- id: o24916
+  name: "helmet Nosferatu"
+  roomDesc: "A great helmet lies discarded here, it looks peacefull so why disturb it?"
+  keywords: ["helmet","Nosferatu"]
+  description: "A great helmet lies discarded here, it looks peacefull so why disturb it?"
+  type: ACCESSORY
+- id: o24917
+  name: "chestplate plate Nosferatu"
+  roomDesc: "A small but sturdy chestplate lies here"
+  keywords: ["chestplate","plate","Nosferatu"]
+  description: "A small but sturdy chestplate lies here"
+  type: ACCESSORY
+- id: o24918
+  name: "Zen Yin Yang Gangrel"
+  roomDesc: "This room is too peaceful.."
+  keywords: ["Zen","Yin","Yang","Gangrel"]
+  description: "This room is too peaceful.."
+  type: ACCESSORY
+- id: o24919
+  name: "Veil Pure Cunning Innocence Gangrel"
+  roomDesc: "Two very powerful forces fight an unwinning battle here."
+  keywords: ["Veil","Pure","Cunning","Innocence","Gangrel"]
+  description: "Two very powerful forces fight an unwinning battle here."
+  type: ACCESSORY
+- id: o24920
+  name: "Shroud Holy Evil Gangrel"
+  roomDesc: "Two forms of energy clash and collide, neither side wavers here."
+  keywords: ["Shroud","Holy","Evil","Gangrel"]
+  description: "Two forms of energy clash and collide, neither side wavers here."
+  type: ACCESSORY
+- id: o24929
+  name: "armour armor cappadocian"
+  roomDesc: "A pile of bones lies here."
+  keywords: ["armour","armor","cappadocian"]
+  description: "A pile of bones lies here."
+  type: ACCESSORY
+- id: o24930
+  name: "robes death cappadocian"
+  roomDesc: "A robe lies here, it emenates death and decay."
+  keywords: ["robes","death","cappadocian"]
+  description: "A robe lies here, it emenates death and decay."
+  type: ACCESSORY
+- id: o24931
+  name: "mark necromancer cappadocian"
+  roomDesc: "A strange mark has been left here."
+  keywords: ["mark","necromancer","cappadocian"]
+  description: "A strange mark has been left here."
+  type: ACCESSORY

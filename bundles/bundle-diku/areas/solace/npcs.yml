@@ -1,0 +1,1571 @@
+- id: m10240
+  keywords: ["bat"]
+  name: "bat"
+  description: >-
+    There is a large bat here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 0
+- id: m10241
+  keywords: ["old","lady"]
+  name: "old lady"
+  description: >-
+    There is an old lady here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 0
+- id: m10242
+  keywords: ["tired","adventurer"]
+  name: "tired adventurer"
+  description: >-
+    There is a tired adventurer resting here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 0
+- id: m10243
+  keywords: ["Maginus","wizard"]
+  name: "Maginus wizard"
+  description: >-
+    Maginus the wizard is resting here from his long journeys.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+      pools:
+        "solace:o10292": 75
+        "solace:o10293": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10244
+  keywords: ["Lord","doom","warrior"]
+  name: "Lord Doom"
+  description: >-
+    Lord Doom is resting here from his long journeys.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+      pools:
+        "solace:o10294": 75
+        "solace:o10297": 75
+        "solace:o10296": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10245
+  keywords: ["foreign","trade","representative"]
+  name: "Foreign Trade Representative"
+  description: >-
+    A foreign trade representative is waiting here to meet with the Captain of the Guard.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+      pools:
+        "solace:o10303": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10246
+  keywords: ["bodyguard"]
+  name: "bodyguard"
+  description: >-
+    There is a bodyguard here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10247
+  keywords: ["Secretary","captain"]
+  name: "Secretary"
+  description: >-
+    The Captain of the Guard's Secretary is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 2
+- id: m10248
+  keywords: ["Secretary","Lieutenant",""]
+  name: "Secretary"
+  description: >-
+    The Lieutenant Commander's Secretary is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 2
+- id: m10249
+  keywords: ["Secretary","Sergeant",""]
+  name: "Secretary"
+  description: >-
+    The Sergeant at Arm's Secretary is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 2
+- id: m10250
+  keywords: ["Macaw"]
+  name: "the macaw"
+  description: >-
+    A large macaw is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 0
+- id: m10251
+  keywords: ["Rook"]
+  name: "the rook"
+  description: >-
+    A large, black rook is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 0
+- id: m10252
+  keywords: ["hunting","hawk"]
+  name: "the hunting hawk"
+  description: >-
+    A large, hunting hawk is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 0
+- id: m10253
+  keywords: ["Battle","falcon"]
+  name: "the battle falcon"
+  description: >-
+    A giant, falcon is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 0
+- id: m10201
+  keywords: ["captain","guard"]
+  name: "Captain of the Guard"
+  description: >-
+    The Captain of the Guard is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "solace:o10201": 75
+        "solace:o10298": 75
+        "solace:o10202": 75
+        "solace:o10203": 75
+        "solace:o10204": 75
+        "solace:o10205": 75
+        "solace:o10206": 75
+        "solace:o10207": 75
+        "solace:o10209": 75
+        "solace:o10208": 75
+        "solace:o10306": 75
+        "solace:o10211": 75
+        "solace:o10212": 75
+        "solace:o10213": 75
+        "solace:o10210": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10202
+  keywords: ["lieutenant","commander"]
+  name: "Lieutenant Commander"
+  description: >-
+    The Lieutenant Commander is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "solace:o10216": 75
+        "solace:o10299": 75
+        "solace:o10217": 75
+        "solace:o10218": 75
+        "solace:o10219": 75
+        "solace:o10220": 75
+        "solace:o10221": 75
+        "solace:o10222": 75
+        "solace:o10209": 75
+        "solace:o10223": 75
+        "solace:o10225": 75
+        "solace:o10212": 75
+        "solace:o10224": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10203
+  keywords: ["Sergeant","Arms"]
+  name: "Sergeant at Arms"
+  description: >-
+    The Sergeant at Arms is here polishing his hammer.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "solace:o10226": 75
+        "solace:o10300": 75
+        "solace:o10227": 75
+        "solace:o10228": 75
+        "solace:o10229": 75
+        "solace:o10230": 75
+        "solace:o10231": 75
+        "solace:o10232": 75
+        "solace:o10209": 75
+        "solace:o10233": 75
+        "solace:o10235": 75
+        "solace:o10212": 75
+        "solace:o10234": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10204
+  keywords: ["townguard","guard"]
+  name: "Townguard"
+  description: >-
+    A townguard stands here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10236": 75
+        "solace:o10237": 75
+        "solace:o10238": 75
+        "solace:o10239": 75
+        "solace:o10301": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10205
+  keywords: ["townguard","guard","agg"]
+  name: "Townguard"
+  description: >-
+    A townguard stands here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10236": 75
+        "solace:o10239": 75
+        "solace:o10301": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10206
+  keywords: ["citizen","solace"]
+  name: "Citizen of Solace."
+  description: >-
+    A citizen of Solace stands here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10207
+  keywords: ["woman"]
+  name: "woman."
+  description: >-
+    A woman is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 2
+- id: m10208
+  keywords: ["matt","brewmaster"]
+  name: "Matt the brewmaster"
+  description: >-
+    Matt the brewmaster is here looking for something to drink.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+      pools:
+        "solace:o10240": 75
+        "solace:o10255": 75
+        "solace:o10256": 75
+        "solace:o10257": 75
+        "solace:o10258": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10240":
+          cost: 1000
+          currency: gold
+        "solace:o10255":
+          cost: 300
+          currency: gold
+        "solace:o10256":
+          cost: 300
+          currency: gold
+        "solace:o10257":
+          cost: 300
+          currency: gold
+        "solace:o10258":
+          cost: 300
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10209
+  keywords: ["Mcbaker"]
+  name: "the Mcbaker"
+  description: >-
+    The Mcbaker looks at you calmly, wiping flour from his face with one hand.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "solace:o10241": 75
+        "solace:o10242": 75
+        "solace:o10243": 75
+        "solace:o10244": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10241":
+          cost: 100
+          currency: gold
+        "solace:o10242":
+          cost: 100
+          currency: gold
+        "solace:o10243":
+          cost: 100
+          currency: gold
+        "solace:o10244":
+          cost: 100
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10210
+  keywords: ["cookie's","helper"]
+  name: "Cookie's Helper"
+  description: >-
+    Cookie's Helper is here offering you a free cookie sample.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "solace:o10245": 75
+        "solace:o10246": 75
+        "solace:o10247": 75
+        "solace:o10248": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10245":
+          cost: 100
+          currency: gold
+        "solace:o10246":
+          cost: 100
+          currency: gold
+        "solace:o10247":
+          cost: 100
+          currency: gold
+        "solace:o10248":
+          cost: 100
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 2
+- id: m10211
+  keywords: ["marilyn"]
+  name: "Marilyn"
+  description: >-
+    Marilyn is here selling birds.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 2
+- id: m10212
+  keywords: ["ghost","jander"]
+  name: "Ghost of Jander"
+  description: >-
+    The Ghost of Jander is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10213
+  keywords: ["ghost","waiter"]
+  name: "ghost of waiter"
+  description: >-
+    A ghost of a waiter is here waiting to serve you.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10214
+  keywords: ["ghost","barkeep"]
+  name: "ghost of a barkeeper"
+  description: >-
+    A ghost of a barkeeper is here waiting an eternity to take your order.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "solace:o10307": 75
+        "solace:o10308": 75
+        "solace:o10309": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10307":
+          cost: 300
+          currency: gold
+        "solace:o10308":
+          cost: 300
+          currency: gold
+        "solace:o10309":
+          cost: 300
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 2
+- id: m10215
+  keywords: ["townguard","guard"]
+  name: "Townguard"
+  description: >-
+    A townguard is on patrol.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10236": 75
+        "solace:o10237": 75
+        "solace:o10238": 75
+        "solace:o10239": 75
+        "solace:o10301": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10216
+  keywords: ["field","rat"]
+  name: "field rat"
+  description: >-
+    A field rat is here looking for food.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 0
+- id: m10217
+  keywords: ["town","clerk"]
+  name: "Town Clerk"
+  description: >-
+    The Town Clerk is here impatiently waiting for you to pay taxes.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10249": 75
+        "solace:o10305": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10218
+  keywords: ["treasury","guards"]
+  name: "Treasury Guards"
+  description: >-
+    The Treasury Guards are here guarding the town's money.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10236": 75
+        "solace:o10250": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10219
+  keywords: ["Jhen"]
+  name: "Jhen the farmer"
+  description: >-
+    Jhen the farmer is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10251": 75
+        "solace:o10252": 75
+        "solace:o10253": 75
+        "solace:o10254": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10251":
+          cost: 100
+          currency: gold
+        "solace:o10252":
+          cost: 100
+          currency: gold
+        "solace:o10253":
+          cost: 100
+          currency: gold
+        "solace:o10254":
+          cost: 100
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10220
+  keywords: ["Krista"]
+  name: "Krista the fruit peddler."
+  description: >-
+    Krista the fruit peddler is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10259": 75
+        "solace:o10260": 75
+        "solace:o10261": 75
+        "solace:o10262": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10259":
+          cost: 100
+          currency: gold
+        "solace:o10260":
+          cost: 100
+          currency: gold
+        "solace:o10261":
+          cost: 100
+          currency: gold
+        "solace:o10262":
+          cost: 100
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 2
+- id: m10221
+  keywords: ["Janni"]
+  name: "Janni"
+  description: >-
+    Janni is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10263": 75
+        "solace:o10264": 75
+        "solace:o10265": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10263":
+          cost: 10000
+          currency: gold
+        "solace:o10264":
+          cost: 10000
+          currency: gold
+        "solace:o10265":
+          cost: 10000
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10222
+  keywords: ["Nisi"]
+  name: "Nisi the grocer"
+  description: >-
+    Nisi is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10266": 75
+        "solace:o10267": 75
+        "solace:o10268": 75
+        "solace:o10269": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10266":
+          cost: 10000
+          currency: gold
+        "solace:o10267":
+          cost: 10000
+          currency: gold
+        "solace:o10268":
+          cost: 10000
+          currency: gold
+        "solace:o10269":
+          cost: 1000
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 2
+- id: m10223
+  keywords: ["Molin"]
+  name: "Molin the brewer"
+  description: >-
+    Molin the brewer is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10270": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10270":
+          cost: 400
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10224
+  keywords: ["Rashan"]
+  name: "Rashan the farmer"
+  description: >-
+    Rashan the farmer is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10271": 75
+        "solace:o10272": 75
+        "solace:o10273": 75
+        "solace:o10274": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10271":
+          cost: 400
+          currency: gold
+        "solace:o10272":
+          cost: 400
+          currency: gold
+        "solace:o10273":
+          cost: 400
+          currency: gold
+        "solace:o10274":
+          cost: 400
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10225
+  keywords: ["Lexie"]
+  name: "Lexie"
+  description: >-
+    Lexie is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10275": 75
+        "solace:o10276": 75
+        "solace:o10277": 75
+        "solace:o10278": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10275":
+          cost: 400
+          currency: gold
+        "solace:o10276":
+          cost: 400
+          currency: gold
+        "solace:o10277":
+          cost: 400
+          currency: gold
+        "solace:o10278":
+          cost: 400
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10226
+  keywords: ["Croben"]
+  name: "Croben"
+  description: >-
+    Croben is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10279": 75
+        "solace:o10280": 75
+        "solace:o10281": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10279":
+          cost: 400
+          currency: gold
+        "solace:o10280":
+          cost: 400
+          currency: gold
+        "solace:o10281":
+          cost: 400
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10227
+  keywords: ["otik","sandath","bartender"]
+  name: "Otik Sandath"
+  description: >-
+    Otik sandath is here tending the bar
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10307": 75
+        "solace:o10308": 75
+        "solace:o10309": 75
+  metadata:
+    vendor:
+      items:
+        "solace:o10307":
+          cost: 300
+          currency: gold
+        "solace:o10308":
+          cost: 300
+          currency: gold
+        "solace:o10309":
+          cost: 300
+          currency: gold
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10228
+  keywords: ["tika","barmaid"]
+  name: "Tika the barmaid"
+  description: >-
+    Tika the barmaid is here delivering drinks and food.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10307": 75
+        "solace:o10308": 75
+        "solace:o10309": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 2
+- id: m10229
+  keywords: ["thief","cloaked","figure"]
+  name: "Thief"
+  description: >-
+    A cloaked figure sits here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10230
+  keywords: ["old","man"]
+  name: "old man"
+  description: >-
+    An old man is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10231
+  keywords: ["boy"]
+  name: "boy"
+  description: >-
+    A small boy is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10232
+  keywords: ["brat","boy"]
+  name: "bratty boy"
+  description: >-
+    A brat is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10233
+  keywords: ["Mage"]
+  name: "mage"
+  description: >-
+    A mage is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10282": 75
+        "solace:o10283": 75
+        "solace:o10284": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10234
+  keywords: ["Thief"]
+  name: "Thief"
+  description: >-
+    A thief is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10283": 75
+        "solace:o10286": 75
+        "solace:o10287": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10235
+  keywords: ["Warrior"]
+  name: "Warrior"
+  description: >-
+    A warrior is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10288": 75
+        "solace:o10289": 75
+        "solace:o10290": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10236
+  keywords: ["Cleric"]
+  name: "Cleric"
+  description: >-
+    A cleric is here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "solace:o10285": 75
+        "solace:o10291": 75
+        "solace:o10282": 75
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 1
+- id: m10237
+  keywords: ["ghost","gambler"]
+  name: "Ghost of gambler"
+  description: >-
+    A ghost of a gambler is floating here looking for something to bet on.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: -200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 0
+- id: m10238
+  keywords: ["child"]
+  name: "child."
+  description: >-
+    A child is here eating bugs off the ground.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: 800
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 0
+- id: m10239
+  keywords: ["rat"]
+  name: "rat"
+  description: >-
+    There is a large rat here.
+  level: 304
+  attributes:
+    health: 39506
+    armor: 19440
+    hitroll: 4800
+    damroll: 2400
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 71
+    exp_level: 26000
+    sex: 0

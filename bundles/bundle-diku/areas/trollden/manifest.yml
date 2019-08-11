@@ -1,0 +1,12 @@
+title: "Troll Den"
+metadata:
+  id: 78
+  name: "Troll Den"
+  createdBy: "merc"
+  starting_vnum: 2800
+  ending_vnum: 2849
+  item_requirements: 4000
+  filename: "trollden.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

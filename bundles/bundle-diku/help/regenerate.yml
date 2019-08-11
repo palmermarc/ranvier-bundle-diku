@@ -1,0 +1,13 @@
+---
+body: |
+  Syntax: cast 'regenerate' <body part> <character>
+  Syntax: cast 'clot' <character>
+  Syntax: cast 'mend' <character>
+  
+  REGENERATE will replace lost body parts on the target, while CLOT will 
+  stop them bleeding and MEND will fix any broken bones or cut open throats.
+  
+  See also: BODYPARTS
+  
+  - clot
+  - mend

@@ -1,0 +1,17 @@
+---
+body: |
+  Syntax: look
+  Syntax: look <object>
+  Syntax: look <character>
+  Syntax: look <direction>
+  Syntax: look <keyword>
+  Syntax: look in <container>
+  Syntax: look in <corpse>
+  Syntax: examine <container>
+  Syntax: examine <corpse>
+  
+  LOOK looks at something and sees what you can see.
+  
+  EXAMINE is short for 'LOOK container' followed by 'LOOK IN container'.
+  
+  - look

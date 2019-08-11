@@ -1,0 +1,11 @@
+---
+body: |
+  syntax: bite <player>
+  
+  To become a vampire, a person must be an avatar and must not be in
+  another clan. They must have their 'vampire' immunity off. A vampire
+  must be a sire or Prince to bite a new vamp. The cost is 1000 exp.
+  
+  see also: help CLAN, help FAVOUR
+  
+  

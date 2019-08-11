@@ -1,0 +1,504 @@
+- id: m3400
+  keywords: ["skeleton","bony"]
+  name: "the bony skeleton"
+  description: >-
+    A bony skeleton is here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 14.25
+          max: 15.75
+      pools:
+        "chapel:o3421": 75
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 1
+- id: m3401
+  keywords: ["undead","zombie"]
+  name: "the undead zombie"
+  description: >-
+    An undead zombie sits here munching on something ...
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 1
+- id: m3402
+  keywords: ["undead","ghoul"]
+  name: "The ghoul"
+  description: >-
+    A ghoul is here staring at you hungrily.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 142.5
+          max: 157.5
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 1
+- id: m3403
+  keywords: ["undead","wraith"]
+  name: "The wraith"
+  description: >-
+    You spot a wraith advancing towards you from the shadows.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "chapel:o3425": 75
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 1
+- id: m3404
+  keywords: ["undead","guardian","vampire"]
+  name: "The guardian vampire"
+  description: >-
+    A vampire is here hiding his face from your light source.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 14250
+          max: 15750
+      pools:
+        "chapel:o3428": 75
+        "chapel:o3427": 75
+        "chapel:o3419": 75
+        "chapel:o3424": 75
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 1
+- id: m3405
+  keywords: ["priest"]
+  name: "the priest"
+  description: >-
+    A priest of God stands here solemnly speaking words of praise.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 380
+          max: 420
+      pools:
+        "chapel:o3430": 75
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 1
+- id: m3406
+  keywords: ["Mi-Go","Fungi"]
+  name: "the Mi-Go"
+  description: >-
+    A Mi-Go is crawling here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 617.5
+          max: 682.5
+      pools:
+        "chapel:o3403": 75
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 0
+- id: m3407
+  keywords: ["nightgaunt"]
+  name: "The nightgaunt"
+  description: >-
+    A nightgaunt is standing here
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 142.5
+          max: 157.5
+      pools:
+        "chapel:o3402": 75
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 0
+- id: m3408
+  keywords: ["hunting","horror"]
+  name: "The hunting horror"
+  description: >-
+    The hunting horror is here in wait of an unwary traveler.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "chapel:o3425": 75
+        "chapel:o3426": 75
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 0
+- id: m3409
+  keywords: ["weeds"]
+  name: "some cave weeds"
+  description: >-
+    Some weeds are creeping across the floor.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 78.85
+          max: 87.15
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 0
+- id: m3410
+  keywords: ["snapper","joe"]
+  name: "Snapper Joe"
+  description: >-
+    Snapper Joe is standing here leering at you chillingly.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -750
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 2110.9
+          max: 2333.1
+      pools:
+        "chapel:o3414": 75
+        "chapel:o3429": 75
+        "chapel:o3411": 75
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 1
+- id: m3411
+  keywords: ["X-ist","eater"]
+  name: "The X-ist flesh eater"
+  description: >-
+    An X-ist flesh eater is sitting here munching on some coffin remains
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1482
+          max: 1638
+      pools:
+        "chapel:o3414": 75
+        "chapel:o3412": 75
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 1
+- id: m3412
+  keywords: ["spirit","ghost","king","crotus"]
+  name: "the spirit of King Crotus"
+  description: >-
+    The spirit of King Crotus is floating lazily above the floor.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 350
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "chapel:o3416": 75
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 1
+- id: m3413
+  keywords: ["rock","slug"]
+  name: "the rock slug"
+  description: >-
+    A rock slug is slowly creeping along, leaving a slime trail behind it.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 4.75
+          max: 5.25
+      pools:
+        "chapel:o3422": 75
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 0
+- id: m3414
+  keywords: ["etcher"]
+  name: "The mad etcher"
+  description: >-
+    The mad etcher is sitting here babbling to himself and working on the wall.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "chapel:o3423": 75
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 1
+- id: m3415
+  keywords: ["wife","ghost","specter"]
+  name: "The spectral etcher's wife"
+  description: >-
+    The spectral wife of the etcher is very faintly floating here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 118.75
+          max: 131.25
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 2
+- id: m3416
+  keywords: ["body"]
+  name: "The half-decomposed body"
+  description: >-
+    A half-decomposed body is lying in the corner here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -350
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 78.85
+          max: 87.15
+  metadata:
+    areaId: 13
+    exp_level: 8000
+    sex: 1

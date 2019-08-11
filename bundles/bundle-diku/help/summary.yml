@@ -1,0 +1,26 @@
+---
+body: |
+  MOVEMENT GROUP
+  north south east west up follow group gtell split
+  down exits recall sleep 
+  wake rest stand
+  
+  OBJECTS INFORMATION / COMMUNICATION
+  get put drop give sacrifice help credits areas commands socials
+  wear wield hold claim call report score time weather where who
+  recite quaff zap brandish channels config description password 
+  lock unlock open close pick auction chat music question answer
+  inventory equipment compare emote pose say tell title yell
+  eat drink fill empty look bug idea typo shout reply
+  list buy sell value 
+  
+  COMBAT OTHER
+  kill flee kick rescue disarm ! save quit qhelp quest
+  backstab cast wimpy ESCAPE practice train
+  
+  
+  For more help, type 'help <topic>' for any command, skill, or spell.
+  Also help on: CHANGES DAMAGE DEATH EXPERIENCE NEWS STORY TICK WIZLIST
+  
+  *** SEE HELP INDEX ALSO for a list of all help commands ***
+  

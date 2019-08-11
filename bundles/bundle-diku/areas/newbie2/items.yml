@@ -1,0 +1,235 @@
+- id: ring
+  name: "Newbie ring"
+  roomDesc: "A worn newbie ring lies here."
+  keywords: ["ring","newbie"]
+  description: "A worn newbie ring lies here."
+  type: RING
+  metadata:
+    quality: common
+    slot: ['ring1','ring2']
+    sellable:
+      value: 30
+      currency: gold
+- id: lightningneck
+  name: "Necklace of Lightning"
+  roomDesc: "A barely crackling lightning necklace lies here."
+  keywords: ["necklace","lightning"]
+  description: "A barely crackling lightning necklace lies here."
+  type: NECKLACE
+  metadata:
+    quality: common
+    slot: 'neck'
+    sellable:
+      value: 30
+      currency: gold
+- id: chestplace
+  name: "Newbie chestplate"
+  roomDesc: "A worn newbie chestplate lies here."
+  keywords: ["chestplate","newbie"]
+  description: "A worn newbie chestplate lies here."
+  type: CHEST
+  metadata:
+    quality: common
+    slot: 'chest'
+    sellable:
+      value: 30
+      currency: gold
+- id: helmet
+  name: "Newbie helmet"
+  roomDesc: "A worn newbie helmet lies here."
+  keywords: ["helmet","newbie"]
+  description: "A worn newbie helmet lies here."
+  type: HELMET
+  metadata:
+    quality: common
+    slot: 'head'
+- id: leggings
+  name: "Newbie leggings"
+  roomDesc: "A tattered pair of newbie leggings lie here."
+  keywords: ["leggings","newbie"]
+  description: "A tattered pair of newbie leggings lie here."
+  type: PANTS
+  metadata:
+    quality: common
+    slot: 'pants'
+    sellable:
+      value: 30
+      currency: gold
+- id: boots
+  name: "Newbie boots"
+  roomDesc: "A tattered pair of newbie boots lie here."
+  keywords: ["boots","newbie"]
+  description: "A tattered pair of newbie boots lie here."
+  type: BOOTS
+  metadata:
+    quality: common
+    slot: 'boots'
+    sellable:
+      value: 30
+      currency: gold
+- id: gloves
+  name: "Newbie gloves"
+  roomDesc: "A tattered pair of newbie gloves lie here."
+  keywords: ["gloves","newbie"]
+  description: "A tattered pair of newbie gloves lie here."
+  type: GLOVES
+  metadata:
+    quality: common
+    slot: 'gloves'
+    sellable:
+      value: 30
+      currency: gold
+- id: armguards
+  name: "Newbie armguards"
+  roomDesc: "A tattered pair of newbie armguards lie here."
+  keywords: ["armguards","newbie"]
+  description: "A tattered pair of newbie armguards lie here."
+  type: BRACERS
+  metadata:
+    quality: common
+    slot: 'wrists'
+    sellable:
+      value: 30
+      currency: gold
+- id: cloak
+  name: "Newbie cloak"
+  roomDesc: "A tattered newbie cloak lies here."
+  keywords: ["cloak","newbie"]
+  description: "A tattered newbie cloak lies here."
+  type: BACK
+  metadata:
+    quality: common
+    slot: 'back'
+    sellable:
+      value: 30
+      currency: gold
+- id: girth
+  name: "Newbie girth"
+  roomDesc: "A tattered newbie girth lies here."
+  keywords: ["girth","newbie"]
+  description: "A tattered newbie girth lies here."
+  type: BELT
+  metadata:
+    quality: common
+    slot: 'belt'
+    sellable:
+      value: 30
+      currency: gold
+- id: flamingbracer
+  name: "Flaming bracer"
+  roomDesc: "A dim flaming bracer lies here."
+  keywords: ["flaming","bracer"]
+  description: "A dim flaming bracer lies here."
+  type: BRACER
+  metadata:
+    quality: common
+    slot: 'wrists'
+    sellable:
+      value: 30
+      currency: gold
+- id: bag
+  name: "Newbie bag"
+  roomDesc: "A newbie bag lies here."
+  keywords: ["newbie","bag"]
+  description: "A newbie bag lies here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    sellable:
+      value: 30
+      currency: gold
+- id: sword
+  name: "Blunt newbie sword"
+  roomDesc: "A blunt newbie sword rests here."
+  keywords: ["sword","newbie"]
+  description: "A blunt newbie sword rests here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    slot: ['lhand', 'rhand']
+    maxDamage: 15
+    speed: 2.8
+    sellable:
+      value: 30
+      currency: gold
+- id: shoulders
+  name: "Newbie shoulders"
+  roomDesc: "A basic pair of newbie shoulders lie here."
+  keywords: ["shoulders","newbie"]
+  description: "A basic pair of newbie shoulders"
+  type: SHOULDERS
+  metadata:
+    quality: common
+    slot: 'necklace'
+    itemLevel: 10
+    level: 1
+    sellable:
+      value: 30
+      currency: gold
+- id: acidnecklace
+  name: "Tattered necklace of corrosion"
+  roomDesc: "A tattered necklace of corrosion lies here."
+  keywords: ["necklace","corrosion"]
+  description: "A tattered necklace of corrosion lies here."
+  type: NECKLACE
+  metadata:
+    quality: common
+    slot: 'necklace'
+    itemLevel: 10
+    level: 1
+    sellable:
+      value: 30
+      currency: gold
+- id: twohander
+  name: "Blunt newbie two-handed sword"
+  roomDesc: "A blunt newbie two-handed sword rests here."
+  keywords: ["two","handed","sword","newbie"]
+  description: "A blunt newbie two-handed sword rests here."
+  type: WEAPON2HAND
+  metadata:
+    quality: common
+    slot: "Both Hands"
+    itemLevel: 10
+    level: 5
+    minDamage: 11
+    maxDamage: 20
+    speed: 2.8
+    stats:
+      strength: 2
+      stamina: 2
+      critical: -1
+    sellable:
+      value: 30
+      currency: gold
+- id: shield
+  name: "Worn shield newbie"
+  roomDesc: "A worn newbie shield rests here."
+  keywords: ["shield","newbie"]
+  description: "A worn newbie shield rests here."
+  type: SHIELD
+  metadata:
+    slot: 'rhand'
+- id:  newbiesign
+  name: "a sign"
+  roomDesc: "There is a sign here - type: look sign"
+  keywords: ["sign", "newbie"]
+  description: >-
+    There are several things that new mudders should do when they first renter the mudding world. The first thing they should do is familiarize themselves with
+    the help files of the game. Type HELP INDEX to see a complete list of the helpfiles found on the game. This is a very long list, so I will list the ones that
+    are most helpful to newbies below:
+
+    1. HELP AVATAR
+
+    2. HELP NEWBIE
+
+    3. HELP LAW, LAW2, & CONDUCT
+
+    4. HELP CLANNED
+
+    5. HELP NAME
+
+    These aren't the only help files you should read, but they are a good start. Please make sure you read HELP AVATAR, it will save you a lot of misery when you
+    do decide to enter the PK world.
+  metadata:
+    noPickup: true

@@ -1,0 +1,38 @@
+- id: o8301
+  name: "spear long"
+  roomDesc: "A strange spear lies here."
+  keywords: ["spear","long"]
+  description: "A strange spear lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o8302
+  name: "horned helmet"
+  roomDesc: "A wicked looking horned helmet lies here."
+  keywords: ["horned","helmet"]
+  description: "A wicked looking horned helmet lies here."
+  type: HEAVYARMOR
+- id: o8303
+  name: "chain mail chainmail"
+  roomDesc: "An old suit of chainmail lies here, corroded by the marsh."
+  keywords: ["chain","mail","chainmail"]
+  description: "An old suit of chainmail lies here, corroded by the marsh."
+  type: HEAVYARMOR
+- id: o8306
+  name: "scythe"
+  roomDesc: "An evil, wicked-looking scythe lies in the shadows."
+  keywords: ["scythe"]
+  description: "An evil, wicked-looking scythe lies in the shadows."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o8307
+  name: "green potion"
+  roomDesc: "A murky green potion lies here in the mud."
+  keywords: ["green","potion"]
+  description: "A murky green potion lies here in the mud."
+  type: POTION

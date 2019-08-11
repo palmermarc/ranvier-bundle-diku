@@ -1,0 +1,12 @@
+title: "South East Tower"
+metadata:
+  id: 76
+  name: "South East Tower"
+  createdBy: "joker"
+  starting_vnum: 24400
+  ending_vnum: 24599
+  item_requirements: 0
+  filename: "tower1.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

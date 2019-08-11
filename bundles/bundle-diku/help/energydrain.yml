@@ -1,0 +1,7 @@
+---
+body: |
+  Syntax: cast 'energy drain' <victim>
+  
+  This spell saps the experience points, mana, and movement points of its
+  target.
+  

@@ -1,0 +1,213 @@
+- id: r7900
+  title: "Outside Redferne's residence "
+  description: >-
+    A huge cloud forms the plateau on which you are now standing. The wind here
+    is absolutely quiet and the sun is shining warmly upon you. From under the
+    cloud you can hear the faint sounds of Midgaard. Right before you to the
+    north lies the grand Mansion of Naris, the residence of the Greater God
+    Redferne.
+  exits:
+    - roomId: "redferne:r7901"
+      direction: north
+    - roomId: "dylan:r9101"
+      direction: south
+    - roomId: "redferne:r7918"
+      direction: down
+  npcs:
+    - id: "redferne:m7900"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r7901
+  title: "The Southern end of the hall"
+  description: >-
+    You are standing in a vast hall that is dimly lit, but wherefrom the
+    light comes, is a mystery. The walls seem to radiate warmth and give
+    the pleasant feeling of being welcome here. A large portrait is hanging
+    on one of the walls. A large wooden staircase leads up into the tower.
+    To the east there is a high passage away from the hall. This ends
+    shortly after by a tall oak door. The enormous hall extends further
+    north from here. To the south you can see a huge, and VERY heavy-
+    looking iron-wrought door. It looks like this is the only exit from
+    this magnificent old house. To the west you can see a large ashen door.
+  exits:
+    - roomId: "redferne:r7904"
+      direction: north
+    - roomId: "redferne:r7900"
+      direction: south
+    - roomId: "redferne:r7910"
+      direction: east
+    - roomId: "redferne:r7902"
+      direction: west
+    - roomId: "redferne:r7909"
+      direction: up
+- id: r7902
+  title: "Redferne's Library"
+  description: >-
+    This is truly a magnificent place! Books and scrolls lie together on every
+    shelf. A large globe, with the map of the Mud-world upon it, stands in the
+    dimly lit north-western corner of the room. Two large and comfortable-
+    looking leather arm-chairs adorn the center of the library together with
+    a huge oak desk. Dim light radiates from an enormous crystal chandelier
+    hanging down from the ceiling approximately 10 feet off the floor. To the
+    east there is a great old ashen door. A large glass window is set in the
+    west wall.
+  exits:
+    - roomId: "redferne:r7901"
+      direction: east
+- id: r7903
+  title: "The Artifact room of Naris"
+  description: >-
+    This is gloomy and dark room with only a faint light radiating from the
+    walls. A bunch of funny-looking items fill the center of the room. There are
+    no furniture here what-so-ever. The only way out seems to be west, through
+    the low steel door.
+  items:
+    - id: "redferne:o7909"
+      respawnChance: 75
+- id: r7904
+  title: "The Northern end of the hall"
+  description: >-
+    You are standing in the northern end of the huge hall. This part is under
+    the grand wooden staircase so the light seems a little less bright here,
+    but this doesn't bother your sight at all. To the north lies the kitchen.
+    To the south lies the Southern end of the hall. To the east there is a huge
+    metal door. To the west there is a large aspenwood door.
+  exits:
+    - roomId: "redferne:r7906"
+      direction: north
+    - roomId: "redferne:r7901"
+      direction: south
+    - roomId: "redferne:r7913"
+      direction: east
+    - roomId: "redferne:r7905"
+      direction: west
+- id: r7905
+  title: "The Sitting room of Naris"
+  description: >-
+    You are standing in the middle of a really comfortable place. The walls are
+    decorated with paintings of smiling Kings and Queens. The most attractive
+    picture is one of a Prince in shiny armour. By one of the walls there is an
+    old arm-chair. The only exit is through the aspenwood door to the east.
+  exits:
+    - roomId: "redferne:r7904"
+      direction: east
+- id: r7906
+  title: "The Kitchen of Naris"
+  description: >-
+    This must be the place of food and drink. You can hear the faint noise of 
+    rats feasting on meat and bread from somewhere undeterminable. The sound
+    makes you feel the agony of HUNGER. The only visible exit is south to the
+    Northern end of the hall. To the north there is a larder, and to the east
+    stands a fridge.
+  exits:
+    - roomId: "redferne:r7907"
+      direction: north
+    - roomId: "redferne:r7904"
+      direction: south
+    - roomId: "redferne:r7908"
+      direction: east
+- id: r7907
+  title: "The Larder"
+  description: >-
+    You can see food all over. Among the heaps of food you notice HUGE rats
+    scuttering around, nibbling pieces off the heaps here and there.
+  exits:
+    - roomId: "redferne:r7906"
+      direction: south
+- id: r7908
+  title: "The Fridge"
+  description: >-
+    This place is LOADED with drink, water and booze.
+  exits:
+    - roomId: "redferne:r7906"
+      direction: west
+  items:
+    - id: "haon:o6013"
+      respawnChance: 75
+- id: r7909
+  title: "On the stairs"
+  description: >-
+    You can see up and down the stairway. It seems to take forever, either going
+    up OR down. It's just a seemingly insurmountable climb, either way. Up is the 
+    bedroom of Redferne, and Down leads to the Southern end of the hall.
+  exits:
+    - roomId: "redferne:r7911"
+      direction: up
+    - roomId: "redferne:r7901"
+      direction: down
+- id: r7910
+  title: "The Treasure room"
+  description: >-
+    This place is gloomy.  The only visible exit is west, through the oak door.
+  exits:
+    - roomId: "redferne:r7901"
+      direction: west
+  items:
+    - id: "redferne:o7910"
+      respawnChance: 75
+- id: r7911
+  title: "Redferne's Bedroom"
+  description: >-
+    This is a snugly set bedroom with all the necessities for a romantic evening.
+    A large fireplace adorns the east wall, and sizzling away is the wood that
+    is ablaze within.  The bed is enormous, covering at least HALF of this great
+    room.  This stretches at least 300 square feet, so can you imagine the BED?
+    A large staircase leads down to the hall.  A couple of doors open up to a
+    broad balcony to the south.
+  exits:
+    - roomId: "redferne:r7912"
+      direction: south
+    - roomId: "redferne:r7909"
+      direction: down
+- id: r7912
+  title: "The Balcony of Redferne's Residence"
+  description: >-
+    You see a splendid of the most of this world. The valleys stretch as far as
+    the eye reaches to the south from here. Down below you can see the entrance
+    of this magnificent building. To the north are the doors to Redferne's Bedroom.
+  exits:
+    - roomId: "redferne:r7911"
+      direction: north
+- id: r7913
+  title: "The Monster Pen"
+  description: >-
+    This looks like the cage in which a large carnivore is being kept. Judging by
+    the state the walls are in, this could very well be a large AGGRESSIVE animal. 
+    This makes you pretty insecure, this stating your feeling about the place, 
+    quite mildly.
+  exits:
+    - roomId: "redferne:r7904"
+      direction: west
+- id: r7914
+  title: "On the Huge Chain"
+  description: >-
+    This place has quite a good view over Midgaard. Your possibilities of movement
+    seems to extend only to up and down. Unless you want to let go of the secure
+    and seemingly unmoveable chain, then those are the directions you should take
+    from here.
+  exits:
+    - roomId: "redferne:r7916"
+      direction: up
+    - roomId: "midgaard:r3120"
+      direction: down
+- id: r7916
+  title: "On the Great Chain of Naris"
+  description: >-
+    You are approximately on the middle of the treacherous Chain. One false step
+    and death will come and collect you quickly. The chain leads upwards and down.
+    No way are you going to descend now ... you've only just begun your climb.
+    Besides it could cost you your life.  Look down and you'll see why.
+  exits:
+    - roomId: "redferne:r7918"
+      direction: up
+- id: r7918
+  title: "The Mighty Chain of Naris"
+  description: >-
+    This place offers a splendid view of the WHOLE COUNTRY SIDE!!! A magnificent
+    light shines upon you and the way up through the clouds is opened. Up there
+    you can now see the Mansion of Naris, Residence of the Greater God Redferne.
+    The chain beneath you seems to evaporate in the mustering clouds that
+    surround you by now.
+  exits:
+    - roomId: "redferne:r7900"
+      direction: up

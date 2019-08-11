@@ -1,0 +1,8 @@
+---
+body: |
+  Imbue is the new system for adding spells to armor and weapons
+  Syntax Imbue <item> <spell> 
+  Weapons can have: Poison, Remove Curse, Sleep, Weaken, Blindness, Cure Poison, 
+  Curse, Dispel Magic, Energy Drain, Faerie Fire, Fireball. 
+  Armor can have the following: Fly, Infra-vision, Detect-Invis, Detect-Hidden, 
+  Sneak, Passdoor, Protection, Sanctuary, Invis, Shockshield, Fireshield, Acidshield, Iceshield.

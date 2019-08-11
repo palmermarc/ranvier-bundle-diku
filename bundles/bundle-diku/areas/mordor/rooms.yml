@@ -1,0 +1,1180 @@
+- id: r9501
+  title: "The tunnel entrance."
+  description: >-
+    You are standing at the entrance to a large tunnel. The walls are damp to 
+    the touch, and a shiver runs up your spine as you hear a scuffling sound 
+    from ahead. There is a sign here.
+  exits:
+    - roomId: "mordor:r9502"
+      direction: north
+    - roomId: "moria:r4036"
+      direction: south
+  items:
+    - id: "mordor:o9510"
+      respawnChance: 75
+- id: r9502
+  title: "A dark tunnel. "
+  description: >-
+    You are further up the tunnel, with millions of tons of rock pushing down on 
+    you from all sides. You hope the tunnel doesn't go on for much longer...
+  exits:
+    - roomId: "mordor:r9503"
+      direction: north
+- id: r9503
+  title: "The dark tunnel."
+  description: >-
+    You feel as though you've been trapped in the tunnel forever, and still it 
+    doesn't look like ending.
+  exits:
+    - roomId: "mordor:r9504"
+      direction: north
+    - roomId: "mordor:r9502"
+      direction: south
+- id: r9504
+  title: "The dark tunnel"
+  description: >-
+    You can see a light up ahead. It could be a way out of this awful tunnel, 
+    or it could be something much more sinister.
+  exits:
+    - roomId: "mordor:r9505"
+      direction: north
+    - roomId: "mordor:r9503"
+      direction: south
+- id: r9505
+  title: "Shelob's liar"
+  description: >-
+    The smell is terrible, death is everywhere and the cause of this suffering 
+    wants to make you its next meal...
+  exits:
+    - roomId: "mordor:r9506"
+      direction: north
+    - roomId: "mordor:r9504"
+      direction: south
+  npcs:
+    - id: "mordor:m9501"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9506
+  title: "The plains of Mordor"
+  description: >-
+    The relief you feel after coming out of the tunnel is shortlived as you 
+    take a look at your sourroundings...
+    you have entered the foreboding land of Mordor.
+  exits:
+    - roomId: "mordor:r9505"
+      direction: south
+    - roomId: "mordor:r9528"
+      direction: east
+    - roomId: "mordor:r9507"
+      direction: west
+- id: r9507
+  title: "The plains of Mordor"
+  description: >-
+    The plains continue to the west, while to the north you can see the start 
+    of a forest...
+  exits:
+    - roomId: "mordor:r9515"
+      direction: north
+    - roomId: "mordor:r9506"
+      direction: east
+    - roomId: "mordor:r9508"
+      direction: west
+- id: r9508
+  title: "The plains of Mordor"
+  description: >-
+    The land to the west becomes impossible to negotiate, forcing you to 
+    turn back or to the south from where sounds can be heard.
+  exits:
+    - roomId: "mordor:r9509"
+      direction: south
+    - roomId: "mordor:r9507"
+      direction: east
+- id: r9509
+  title: "The camp."
+  description: >-
+    You are at the north end of the camp of the riders of Rohan. 
+    To the south is the rest of the camp, while in the distance to the east 
+    you can just make out the camp of the orcs.
+  exits:
+    - roomId: "mordor:r9508"
+      direction: north
+    - roomId: "mordor:r9510"
+      direction: south
+  npcs:
+    - id: "mordor:m9502"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "mordor:m9502"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9510
+  title: "The camp."
+  description: >-
+    You are at the south end of the camp of the riders of Rohan. 
+    To the south you can see the plains of Mordor, while to the east if your 
+    quite you might be able to sneak into the orc encampment.
+  exits:
+    - roomId: "mordor:r9509"
+      direction: north
+    - roomId: "mordor:r9511"
+      direction: south
+    - roomId: "mordor:r9513"
+      direction: east
+  npcs:
+    - id: "mordor:m9502"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "mordor:m9502"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9511
+  title: "The plains of Mordor"
+  description: >-
+    You have left behind the anticpation of battle. 
+    To the south you think you can see a movement or three.....
+  exits:
+    - roomId: "mordor:r9510"
+      direction: north
+    - roomId: "mordor:r9512"
+      direction: south
+- id: r9512
+  title: "The party of three."
+  description: >-
+    You have come across three brave adventurers trying to work there way to 
+    the north without encountering the orcs.
+  exits:
+    - roomId: "mordor:r9511"
+      direction: north
+  npcs:
+    - id: "mordor:m9507"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "mordor:m9508"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "mordor:m9509"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9513
+  title: "The orc camp."
+  description: >-
+    You are at the south end of the orc camp. The smell is awful as the orcs 
+    prepare to go to battle by drinking themselves silly and practising on small 
+    animals and sometimes each other.
+  exits:
+    - roomId: "mordor:r9514"
+      direction: north
+    - roomId: "mordor:r9510"
+      direction: west
+  npcs:
+    - id: "mordor:m9503"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9514
+  title: "The orc camp."
+  description: >-
+    You are at the north end of the orc camp. The smell is just as bad here as 
+    it was to the south.
+  exits:
+    - roomId: "mordor:r9513"
+      direction: south
+  npcs:
+    - id: "mordor:m9503"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9515
+  title: "The start of a forest."
+  description: >-
+    The trees are thickening and the light is thinning, if it keeps up like 
+    this, you won't be able to see soon.
+  exits:
+    - roomId: "mordor:r9516"
+      direction: north
+    - roomId: "mordor:r9507"
+      direction: south
+- id: r9516
+  title: "The forest."
+  description: >-
+    You are deep in the forest. 
+    Trees surround you, and all light is blocked by the overhanging canopy. 
+    Strangely though an eerie light is being emitted from somewhere.
+  exits:
+    - roomId: "mordor:r9517"
+      direction: north
+    - roomId: "mordor:r9515"
+      direction: south
+    - roomId: "mordor:r9518"
+      direction: west
+- id: r9517
+  title: "The forest."
+  description: >-
+    You are in thick forest, but while it should be dark as hell, there seems 
+    to be a light coming from an old man standing by a tree. 
+    He seems to be trying to start up a conversation with it!
+  exits:
+    - roomId: "mordor:r9516"
+      direction: south
+    - roomId: "mordor:r9519"
+      direction: west
+  npcs:
+    - id: "mordor:m9504"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9518
+  title: "The forest"
+  description: >-
+    You are in thick forest. Still a strange light seems to be coming from 
+    somewhere.  On the edge of your vision your sure you keep seeing movements,
+    but when you look around, there are only trees there.
+  exits:
+    - roomId: "mordor:r9519"
+      direction: north
+    - roomId: "mordor:r9516"
+      direction: east
+- id: r9519
+  title: "The forest"
+  description: >-
+    You are in thick forest.  To the west you can see what looks like a glowing
+    old man, while to north you can see a very old looking tree that seems to
+    have a presence of its own...
+  exits:
+    - roomId: "mordor:r9520"
+      direction: north
+    - roomId: "mordor:r9518"
+      direction: south
+    - roomId: "mordor:r9517"
+      direction: east
+- id: r9520
+  title: "The forest."
+  description: >-
+    You have reached a small clearing in the forest. At the edge of the clearing
+    is a very old looking tree which you are sure keeps moving.
+  exits:
+    - roomId: "mordor:r9519"
+      direction: south
+    - roomId: "mordor:r9521"
+      direction: east
+  npcs:
+    - id: "mordor:m9505"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9521
+  title: "The forest."
+  description: >-
+    You are in the forest. To the north you can see movements.
+    Maybe you should turn back....
+  exits:
+    - roomId: "mordor:r9522"
+      direction: north
+    - roomId: "mordor:r9520"
+      direction: west
+- id: r9522
+  title: "A large clearing"
+  description: >-
+    You have reached what should be a large clearing, but maybe the word 
+    "clearing" is along the wrong lines as there are trees everywhere!
+  exits:
+    - roomId: "mordor:r9521"
+      direction: south
+    - roomId: "mordor:r9523"
+      direction: west
+  npcs:
+    - id: "mordor:m9506"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9523
+  title: "The forest"
+  description: >-
+    The trees are thinning out once again and you've passed through the forest.
+    But looking ahead you wonder if perhaps you might be safer in there.
+  exits:
+    - roomId: "mordor:r9524"
+      direction: north
+    - roomId: "mordor:r9522"
+      direction: east
+- id: r9524
+  title: "A path"
+  description: >-
+    You are on a path leading to the north where you can see a large tower.
+  exits:
+    - roomId: "mordor:r9525"
+      direction: north
+    - roomId: "mordor:r9523"
+      direction: south
+- id: r9525
+  title: "Before the tower."
+  description: >-
+    You are standing before a large, evil looking tower.
+    As you look towards the top of the tower, you get a very unpleasant feeling
+    about what lives up there.
+  exits:
+    - roomId: "mordor:r9526"
+      direction: north
+    - roomId: "mordor:r9524"
+      direction: south
+- id: r9526
+  title: "The base of Sarumans tower."
+  description: >-
+    You've managed to get into Sarumans tower.
+    Now you'll have to try and get out....alive.
+  exits:
+    - roomId: "mordor:r9525"
+      direction: south
+    - roomId: "mordor:r9527"
+      direction: up
+  npcs:
+    - id: "mordor:m9510"
+      respawnChance: 100
+      maxLoad: "25"
+    - id: "mordor:m9510"
+      respawnChance: 100
+      maxLoad: "25"
+    - id: "mordor:m9510"
+      respawnChance: 100
+      maxLoad: "25"
+- id: r9527
+  title: "Sarumans work room."
+  description: >-
+    There are potions and bubbling liquids everywhere.
+    You think it might be a good idea not to touch anything.
+  exits:
+    - roomId: "mordor:r9526"
+      direction: down
+  npcs:
+    - id: "mordor:m9511"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9528
+  title: "The plains."
+  description: >-
+    The plains continue to the east where you can see a T-junction.
+  exits:
+    - roomId: "mordor:r9529"
+      direction: east
+    - roomId: "mordor:r9506"
+      direction: west
+- id: r9529
+  title: "The plains."
+  description: >-
+    You at a T-junction. To the south you can see a lake, while to the north
+    the land seems to become darker if thats possible.
+  exits:
+    - roomId: "mordor:r9533"
+      direction: north
+    - roomId: "mordor:r9530"
+      direction: south
+    - roomId: "mordor:r9528"
+      direction: west
+- id: r9530
+  title: "Near a lake."
+  description: >-
+    You are approaching a dark lake. You find it hard to imagine what sort
+    of vile creature would live in those waters.
+  exits:
+    - roomId: "mordor:r9529"
+      direction: north
+    - roomId: "mordor:r9531"
+      direction: west
+- id: r9531
+  title: "Nearer a lake."
+  description: >-
+    As you get nearer the lake, you notice that it has a sickly sweet smell.
+    You shudder as you realise it is the smell of death.
+  exits:
+    - roomId: "mordor:r9532"
+      direction: south
+    - roomId: "mordor:r9530"
+      direction: east
+- id: r9532
+  title: "By a lake."
+  description: >-
+    You are at the shores of the lake. It is impossible to continue further
+    in this direction. The waters of the lake smell worse close up.
+  exits:
+    - roomId: "mordor:r9531"
+      direction: north
+  npcs:
+    - id: "mordor:m9512"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9533
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9539"
+      direction: north
+    - roomId: "mordor:r9534"
+      direction: south
+    - roomId: "mordor:r9537"
+      direction: east
+    - roomId: "mordor:r9529"
+      direction: west
+- id: r9534
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9535"
+      direction: north
+    - roomId: "mordor:r9533"
+      direction: south
+    - roomId: "mordor:r9536"
+      direction: west
+- id: r9535
+  title: "Dead end."
+  description: >-
+    You have reached a dead end. It is impossible to continue further this way.
+    Or is it?
+  exits:
+    - roomId: "mordor:r9534"
+      direction: east
+- id: r9536
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9537"
+      direction: north
+    - roomId: "mordor:r9545"
+      direction: south
+    - roomId: "mordor:r9534"
+      direction: west
+- id: r9537
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9538"
+      direction: north
+    - roomId: "mordor:r9533"
+      direction: south
+    - roomId: "mordor:r9544"
+      direction: east
+    - roomId: "mordor:r9536"
+      direction: west
+- id: r9538
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9543"
+      direction: north
+    - roomId: "mordor:r9541"
+      direction: south
+    - roomId: "mordor:r9537"
+      direction: east
+    - roomId: "mordor:r9539"
+      direction: west
+- id: r9539
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9538"
+      direction: south
+    - roomId: "mordor:r9533"
+      direction: east
+    - roomId: "mordor:r9540"
+      direction: west
+- id: r9540
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9539"
+      direction: north
+    - roomId: "mordor:r9541"
+      direction: south
+- id: r9541
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9538"
+      direction: north
+    - roomId: "mordor:r9542"
+      direction: south
+    - roomId: "mordor:r9540"
+      direction: west
+- id: r9542
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9541"
+      direction: north
+    - roomId: "mordor:r9546"
+      direction: south
+    - roomId: "mordor:r9543"
+      direction: west
+- id: r9543
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9547"
+      direction: north
+    - roomId: "mordor:r9538"
+      direction: south
+    - roomId: "mordor:r9542"
+      direction: east
+    - roomId: "mordor:r9544"
+      direction: west
+- id: r9544
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9543"
+      direction: north
+    - roomId: "mordor:r9545"
+      direction: south
+    - roomId: "mordor:r9537"
+      direction: east
+    - roomId: "mordor:r9548"
+      direction: west
+- id: r9545
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9536"
+      direction: north
+    - roomId: "mordor:r9544"
+      direction: south
+    - roomId: "mordor:r9549"
+      direction: east
+- id: r9546
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9542"
+      direction: north
+    - roomId: "mordor:r9547"
+      direction: east
+- id: r9547
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9546"
+      direction: north
+    - roomId: "mordor:r9543"
+      direction: south
+    - roomId: "mordor:r9548"
+      direction: east
+    - roomId: "mordor:r9552"
+      direction: west
+- id: r9548
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9547"
+      direction: north
+    - roomId: "mordor:r9549"
+      direction: south
+    - roomId: "mordor:r9544"
+      direction: east
+    - roomId: "mordor:r9551"
+      direction: west
+- id: r9549
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9548"
+      direction: south
+    - roomId: "mordor:r9545"
+      direction: east
+    - roomId: "mordor:r9550"
+      direction: west
+- id: r9550
+  title: "Dead end."
+  description: >-
+    You have reached a dead end. It is impossible to continue further this way.
+    Or is it?
+  exits:
+    - roomId: "mordor:r9570"
+      direction: south
+    - roomId: "mordor:r9549"
+      direction: east
+- id: r9551
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9554"
+      direction: north
+    - roomId: "mordor:r9548"
+      direction: south
+- id: r9552
+  title: "The dark land of Mordor."
+  description: >-
+    Its so dark here or maybe its just your imagination.
+    Even the sun seems darker.
+  exits:
+    - roomId: "mordor:r9553"
+      direction: north
+    - roomId: "mordor:r9547"
+      direction: south
+- id: r9553
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9552"
+      direction: south
+    - roomId: "mordor:r9554"
+      direction: west
+- id: r9554
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9551"
+      direction: south
+    - roomId: "mordor:r9553"
+      direction: east
+    - roomId: "mordor:r9555"
+      direction: west
+- id: r9555
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9557"
+      direction: north
+    - roomId: "mordor:r9554"
+      direction: east
+    - roomId: "mordor:r9556"
+      direction: west
+- id: r9556
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9558"
+      direction: north
+    - roomId: "mordor:r9555"
+      direction: east
+- id: r9557
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9555"
+      direction: south
+    - roomId: "mordor:r9558"
+      direction: west
+- id: r9558
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9559"
+      direction: north
+    - roomId: "mordor:r9556"
+      direction: south
+    - roomId: "mordor:r9557"
+      direction: east
+- id: r9559
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9560"
+      direction: north
+    - roomId: "mordor:r9558"
+      direction: south
+- id: r9560
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9561"
+      direction: north
+    - roomId: "mordor:r9559"
+      direction: south
+- id: r9561
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9568"
+      direction: north
+    - roomId: "mordor:r9560"
+      direction: south
+    - roomId: "mordor:r9562"
+      direction: east
+- id: r9562
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9563"
+      direction: north
+    - roomId: "mordor:r9561"
+      direction: west
+- id: r9563
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9564"
+      direction: north
+    - roomId: "mordor:r9562"
+      direction: south
+- id: r9564
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9563"
+      direction: south
+    - roomId: "mordor:r9565"
+      direction: west
+- id: r9565
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9564"
+      direction: east
+    - roomId: "mordor:r9566"
+      direction: west
+- id: r9566
+  title: "The end of the trail."
+  description: >-
+    You have reached the end of the trail. To the north you can see the ominous
+    tower of Sauron.
+  exits:
+    - roomId: "mordor:r9569"
+      direction: north
+    - roomId: "mordor:r9567"
+      direction: south
+    - roomId: "mordor:r9565"
+      direction: east
+- id: r9567
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9566"
+      direction: north
+    - roomId: "mordor:r9568"
+      direction: east
+- id: r9568
+  title: "The long trail."
+  description: >-
+    The land is dark and the trail seems to go on forever.
+  exits:
+    - roomId: "mordor:r9561"
+      direction: south
+    - roomId: "mordor:r9567"
+      direction: west
+- id: r9569
+  title: "The entrance to Saurons tower."
+  description: >-
+    You are at the entrance to Saurons tower. Strangely the doors are open, as 
+    if Sauron knows no one would dare to enter his abode.
+  exits:
+    - roomId: "mordor:r9571"
+      direction: north
+    - roomId: "mordor:r9566"
+      direction: south
+- id: r9570
+  title: "The hideout cave."
+  description: >-
+    You have found a secret cave used by the men of Gondor to rest in when
+    on scouting missions in Mordor.
+  exits:
+    - roomId: "mordor:r9550"
+      direction: north
+  npcs:
+    - id: "mordor:m9513"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9571
+  title: "The first floor."
+  description: >-
+    You are on the first floor of Saurons tower. It is deadly silient
+    except for your breathing.
+  exits:
+    - roomId: "mordor:r9577"
+      direction: north
+    - roomId: "mordor:r9569"
+      direction: south
+    - roomId: "mordor:r9573"
+      direction: east
+    - roomId: "mordor:r9572"
+      direction: west
+- id: r9572
+  title: "The first floor."
+  description: >-
+    You are on the first floor of Saurons tower. It is deadly silient
+    except for your breathing.
+  exits:
+    - roomId: "mordor:r9571"
+      direction: east
+- id: r9573
+  title: "The first floor."
+  description: >-
+    You are on the first floor of Saurons tower. It is deadly silient
+    except for your breathing.
+  exits:
+    - roomId: "mordor:r9575"
+      direction: north
+    - roomId: "mordor:r9574"
+      direction: east
+    - roomId: "mordor:r9571"
+      direction: west
+- id: r9574
+  title: "The first floor."
+  description: >-
+    You are on the first floor of Saurons tower. It is deadly silient
+    except for your breathing.
+  exits:
+    - roomId: "mordor:r9573"
+      direction: west
+- id: r9575
+  title: "The first floor."
+  description: >-
+    You are on the first floor of Saurons tower. It is deadly silient
+    except for your breathing.
+  exits:
+    - roomId: "mordor:r9580"
+      direction: north
+    - roomId: "mordor:r9573"
+      direction: south
+    - roomId: "mordor:r9576"
+      direction: east
+    - roomId: "mordor:r9577"
+      direction: west
+    - roomId: "mordor:r9581"
+      direction: up
+- id: r9576
+  title: "The first floor."
+  description: >-
+    You are on the first floor of Saurons tower. It is deadly silient
+    except for your breathing.
+  exits:
+    - roomId: "mordor:r9575"
+      direction: west
+  npcs:
+    - id: "mordor:m9514"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "mordor:m9514"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r9577
+  title: "The first floor."
+  description: >-
+    You are on the first floor of Saurons tower. It is deadly silient
+    except for your breathing.
+  exits:
+    - roomId: "mordor:r9579"
+      direction: north
+    - roomId: "mordor:r9571"
+      direction: south
+    - roomId: "mordor:r9575"
+      direction: east
+    - roomId: "mordor:r9578"
+      direction: west
+- id: r9578
+  title: "The first floor."
+  description: >-
+    You are on the first floor of Saurons tower. It is deadly silient
+    except for your breathing.
+  exits:
+    - roomId: "mordor:r9577"
+      direction: east
+- id: r9579
+  title: "The first floor."
+  description: >-
+    You are on the first floor of Saurons tower. It is deadly silient
+    except for your breathing.
+  exits:
+    - roomId: "mordor:r9577"
+      direction: south
+- id: r9580
+  title: "The first floor."
+  description: >-
+    You are on the first floor of Saurons tower. It is deadly silient
+    except for your breathing.
+  exits:
+    - roomId: "mordor:r9575"
+      direction: south
+- id: r9581
+  title: "The second floor."
+  description: >-
+    You have reached the second floor of Saurons tower. It seems a little 
+    warmer here.
+  exits:
+    - roomId: "mordor:r9584"
+      direction: north
+    - roomId: "mordor:r9582"
+      direction: west
+    - roomId: "mordor:r9575"
+      direction: down
+- id: r9582
+  title: "The second floor."
+  description: >-
+    You have reached the second floor of Saurons tower. It seems a little 
+    warmer here.
+  exits:
+    - roomId: "mordor:r9583"
+      direction: north
+    - roomId: "mordor:r9581"
+      direction: east
+- id: r9583
+  title: "The second floor."
+  description: >-
+    You have reached the second floor of Saurons tower. It seems a little 
+    warmer here.
+  exits:
+    - roomId: "mordor:r9582"
+      direction: south
+    - roomId: "mordor:r9584"
+      direction: east
+- id: r9584
+  title: "The second floor."
+  description: >-
+    You have reached the second floor of Saurons tower. It seems a little 
+    warmer here.
+  exits:
+    - roomId: "mordor:r9581"
+      direction: south
+    - roomId: "mordor:r9583"
+      direction: west
+    - roomId: "mordor:r9585"
+      direction: up
+  npcs:
+    - id: "mordor:m9514"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "mordor:m9514"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r9585
+  title: "The third floor."
+  description: >-
+    You have made it to the third floor. The silence is more obvious here
+    and it is definetly getting warmer.
+  exits:
+    - roomId: "mordor:r9588"
+      direction: north
+    - roomId: "mordor:r9586"
+      direction: west
+    - roomId: "mordor:r9584"
+      direction: down
+- id: r9586
+  title: "The third floor."
+  description: >-
+    You have made it to the third floor. The silence is more obvious here
+    and it is definetly getting warmer.
+  exits:
+    - roomId: "mordor:r9587"
+      direction: north
+    - roomId: "mordor:r9585"
+      direction: east
+- id: r9587
+  title: "The third floor."
+  description: >-
+    You have made it to the third floor. The silence is more obvious here
+    and it is definetly getting warmer.
+  exits:
+    - roomId: "mordor:r9586"
+      direction: south
+    - roomId: "mordor:r9588"
+      direction: east
+- id: r9588
+  title: "The third floor."
+  description: >-
+    You have made it to the third floor. The silence is more obvious here
+    and it is definetly getting warmer.
+  exits:
+    - roomId: "mordor:r9585"
+      direction: south
+    - roomId: "mordor:r9587"
+      direction: west
+    - roomId: "mordor:r9589"
+      direction: up
+  npcs:
+    - id: "mordor:m9518"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "mordor:m9514"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r9589
+  title: "The fourth floor."
+  description: >-
+    You are on the fourth floor. The heat is becoming unbearable as is the
+    silence that hangs over this place like a cloak.
+  exits:
+    - roomId: "mordor:r9592"
+      direction: north
+    - roomId: "mordor:r9590"
+      direction: west
+    - roomId: "mordor:r9588"
+      direction: down
+- id: r9590
+  title: "The fourth floor."
+  description: >-
+    You are on the fourth floor. The heat is becoming unbearable as is the
+    silence that hangs over this place like a cloak.
+  exits:
+    - roomId: "mordor:r9591"
+      direction: north
+    - roomId: "mordor:r9589"
+      direction: east
+- id: r9591
+  title: "The fourth floor."
+  description: >-
+    You are on the fourth floor. The heat is becoming unbearable as is the
+    silence that hangs over this place like a cloak.
+  exits:
+    - roomId: "mordor:r9590"
+      direction: south
+    - roomId: "mordor:r9592"
+      direction: east
+- id: r9592
+  title: "The fourth floor."
+  description: >-
+    You are on the fourth floor. The heat is becoming unbearable as is the
+    silence that hangs over this place like a cloak.
+  exits:
+    - roomId: "mordor:r9589"
+      direction: south
+    - roomId: "mordor:r9591"
+      direction: west
+    - roomId: "mordor:r9593"
+      direction: up
+  npcs:
+    - id: "mordor:m9514"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "mordor:m9518"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r9593
+  title: "The fifth floor."
+  description: >-
+    You have reached the fifth floor. While the heat continues to rise, the 
+    silence is broken by an ominous scratching and the sound of something
+    very big breathing....somehow you prefered the silence.
+  exits:
+    - roomId: "mordor:r9596"
+      direction: north
+    - roomId: "mordor:r9594"
+      direction: west
+    - roomId: "mordor:r9592"
+      direction: down
+- id: r9594
+  title: "The fifth floor."
+  description: >-
+    You have reached the fifth floor. While the heat continues to rise, the 
+    silence is broken by an ominous scratching and the sound of something
+    very big breathing....somehow you prefered the silence.
+  exits:
+    - roomId: "mordor:r9595"
+      direction: north
+    - roomId: "mordor:r9593"
+      direction: east
+- id: r9595
+  title: "The fifth floor."
+  description: >-
+    You have reached the fifth floor. While the heat continues to rise, the 
+    silence is broken by an ominous scratching and the sound of something
+    very big breathing....somehow you prefered the silence.
+  exits:
+    - roomId: "mordor:r9594"
+      direction: south
+    - roomId: "mordor:r9596"
+      direction: east
+- id: r9596
+  title: "The fifth floor."
+  description: >-
+    You have reached the fifth floor. While the heat continues to rise, the 
+    silence is broken by an ominous scratching and the sound of something
+    very big breathing....somehow you prefered the silence.
+  exits:
+    - roomId: "mordor:r9593"
+      direction: south
+    - roomId: "mordor:r9595"
+      direction: west
+    - roomId: "mordor:r9597"
+      direction: up
+  npcs:
+    - id: "mordor:m9515"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9597
+  title: "The top floor."
+  description: >-
+    You have reached the top of Saurons tower. The tempreture here is so
+    unbearable. You don't know how long you can stand it.
+  exits:
+    - roomId: "mordor:r9598"
+      direction: west
+    - roomId: "mordor:r9596"
+      direction: down
+- id: r9598
+  title: "The top floor."
+  description: >-
+    You have reached the top of Saurons tower. The tempreture here is so
+    unbearable. You don't know how long you can stand it.
+  exits:
+    - roomId: "mordor:r9599"
+      direction: north
+    - roomId: "mordor:r9597"
+      direction: east
+- id: r9599
+  title: "The antechamber."
+  description: >-
+    You are in the antechamber which leads to Saurons chamber. If you can
+    get past the eight foot tall creature blocking the way....
+  exits:
+    - roomId: "mordor:r9598"
+      direction: south
+    - roomId: "mordor:r9500"
+      direction: east
+  npcs:
+    - id: "mordor:m9516"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9500
+  title: "Sauron's room."
+  description: >-
+    You have reached Sauron!
+    Now what?  Surely its time to die.
+  exits:
+    - roomId: "mordor:r9599"
+      direction: west
+    - roomId: "midgaard:r3005"
+      direction: up
+  npcs:
+    - id: "mordor:m9517"
+      respawnChance: 100
+      maxLoad: "1"

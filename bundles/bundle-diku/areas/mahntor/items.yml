@@ -1,0 +1,656 @@
+- id: o2300
+  name: "gloves combat"
+  roomDesc: "A pair of metal plated gloves lie here."
+  keywords: ["gloves","combat"]
+  description: "A pair of metal plated gloves lie here."
+  type: HEAVYARMOR
+- id: o2301
+  name: "spiked armor garde"
+  roomDesc: "A pile of spiked chainmail lies here."
+  keywords: ["spiked","armor","garde"]
+  description: "A pile of spiked chainmail lies here."
+  type: HEAVYARMOR
+- id: o2302
+  name: "greaves black"
+  roomDesc: "Some black metal greaves lie here."
+  keywords: ["greaves","black"]
+  description: "Some black metal greaves lie here."
+  type: HEAVYARMOR
+- id: o2303
+  name: "vambraces black"
+  roomDesc: "Some black metal vambraces lie here."
+  keywords: ["vambraces","black"]
+  description: "Some black metal vambraces lie here."
+  type: HEAVYARMOR
+- id: o2304
+  name: "rod weaponry"
+  roomDesc: "A shiny metal rod lies here."
+  keywords: ["rod","weaponry"]
+  description: "A shiny metal rod lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2305
+  name: "cloak pitch black"
+  roomDesc: "A pile of black cloth lies here."
+  keywords: ["cloak","pitch","black"]
+  description: "A pile of black cloth lies here."
+  type: ACCESSORY
+- id: o2306
+  name: "neckguard neck guard black plate"
+  roomDesc: "A black plate collar rests here."
+  keywords: ["neckguard","neck","guard","black","plate"]
+  description: "A black plate collar rests here."
+  type: ACCESSORY
+- id: o2307
+  name: "spiked gauntlets"
+  roomDesc: "A pair of spiked gauntlets lies here."
+  keywords: ["spiked","gauntlets"]
+  description: "A pair of spiked gauntlets lies here."
+  type: HEAVYARMOR
+- id: o2308
+  name: "shield shadow"
+  roomDesc: "A shadowy shield rests here."
+  keywords: ["shield","shadow"]
+  description: "A shadowy shield rests here."
+  type: SHIELD
+- id: o2309
+  name: "nightbringer short sword shortsword"
+  roomDesc: "A very evil looking shortsword lies here."
+  keywords: ["nightbringer","short","sword","shortsword"]
+  description: "A very evil looking shortsword lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2310
+  name: "visor helm golden"
+  roomDesc: "A helm and visor made of pure gold rests here."
+  keywords: ["visor","helm","golden"]
+  description: "A helm and visor made of pure gold rests here."
+  type: HEAVYARMOR
+- id: o2311
+  name: "breast plate gilded gold"
+  roomDesc: "A large golden breast plate lies here."
+  keywords: ["breast","plate","gilded","gold"]
+  description: "A large golden breast plate lies here."
+  type: HEAVYARMOR
+- id: o2312
+  name: "cape white billowing silk"
+  roomDesc: "A pile of white silk lies here."
+  keywords: ["cape","white","billowing","silk"]
+  description: "A pile of white silk lies here."
+  type: ACCESSORY
+- id: o2313
+  name: "shield huge tower"
+  roomDesc: "A huge shield lies here."
+  keywords: ["shield","huge","tower"]
+  description: "A huge shield lies here."
+  type: SHIELD
+- id: o2314
+  name: "dawnbringer mace huge"
+  roomDesc: "A huge mace lies here. It radiates an aura of power."
+  keywords: ["dawnbringer","mace","huge"]
+  description: "A huge mace lies here. It radiates an aura of power."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2315
+  name: "spectacles wire rimmed"
+  roomDesc: "A small pair of wire rimmed spectacles rests here."
+  keywords: ["spectacles","wire","rimmed"]
+  description: "A small pair of wire rimmed spectacles rests here."
+  type: LIGHTARMOR
+- id: o2316
+  name: "ring banded"
+  roomDesc: "A small ring made of gold and silver bands lies here."
+  keywords: ["ring","banded"]
+  description: "A small ring made of gold and silver bands lies here."
+  type: ACCESSORY
+- id: o2317
+  name: "globe minor"
+  roomDesc: "A small globe rests here. It shimmers and radiates power."
+  keywords: ["globe","minor"]
+  description: "A small globe rests here. It shimmers and radiates power."
+  type: ACCESSORY
+- id: o2318
+  name: "staff gnarled magius"
+  roomDesc: "A gnarled staff lies here."
+  keywords: ["staff","gnarled","magius"]
+  description: "A gnarled staff lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2319
+  name: "girdle pouches many"
+  roomDesc: "A girdle lies here."
+  keywords: ["girdle","pouches","many"]
+  description: "A girdle lies here."
+  type: ACCESSORY
+- id: o2320
+  name: "robe heavy woolen"
+  roomDesc: "A heavy pile of wool lies here."
+  keywords: ["robe","heavy","woolen"]
+  description: "A heavy pile of wool lies here."
+  type: LIGHTARMOR
+- id: o2321
+  name: "broach ivory"
+  roomDesc: "A small ivory broach lies here."
+  keywords: ["broach","ivory"]
+  description: "A small ivory broach lies here."
+  type: ACCESSORY
+- id: o2322
+  name: "manual arts healing book"
+  roomDesc: "A small book lies here."
+  keywords: ["manual","arts","healing","book"]
+  description: "A small book lies here."
+  type: SCROLL
+- id: o2323
+  name: "mace huge mithril"
+  roomDesc: "A huge mace made of mithril metal lies here."
+  keywords: ["mace","huge","mithril"]
+  description: "A huge mace made of mithril metal lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2324
+  name: "symbol holy golden"
+  roomDesc: "A small holy symbol on a golden chain lies here."
+  keywords: ["symbol","holy","golden"]
+  description: "A small holy symbol on a golden chain lies here."
+  type: ACCESSORY
+- id: o2325
+  name: "ring marble thick"
+  roomDesc: "A thick ring made of marble"
+  keywords: ["ring","marble","thick"]
+  description: "A thick ring made of marble"
+  type: ACCESSORY
+- id: o2326
+  name: "bracelet thick marble"
+  roomDesc: "A thick bracelet made of marble lies here."
+  keywords: ["bracelet","thick","marble"]
+  description: "A thick bracelet made of marble lies here."
+  type: LIGHTARMOR
+- id: o2327
+  name: "boots striding"
+  roomDesc: "A lithe pair of leather boots have been left here."
+  keywords: ["boots","striding"]
+  description: "A lithe pair of leather boots have been left here."
+  type: MEDIUMARMOR
+- id: o2328
+  name: "cloak icy white"
+  roomDesc: "A cold pile of white cloth lies here."
+  keywords: ["cloak","icy","white"]
+  description: "A cold pile of white cloth lies here."
+  type: ACCESSORY
+- id: o2329
+  name: "staff ice"
+  roomDesc: "A staff made of ice rests here."
+  keywords: ["staff","ice"]
+  description: "A staff made of ice rests here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2330
+  name: "ring carved wooden"
+  roomDesc: "A wooden ring is on the floor."
+  keywords: ["ring","carved","wooden"]
+  description: "A wooden ring is on the floor."
+  type: ACCESSORY
+- id: o2331
+  name: "horn life"
+  roomDesc: "A severed minotaur horn lies here."
+  keywords: ["horn","life"]
+  description: "A severed minotaur horn lies here."
+  type: WAND
+- id: o2332
+  name: "belt life"
+  roomDesc: "A strange belt lies here."
+  keywords: ["belt","life"]
+  description: "A strange belt lies here."
+  type: ACCESSORY
+- id: o2333
+  name: "stone blood red"
+  roomDesc: "A blood red stone lies here collecting dust."
+  keywords: ["stone","blood","red"]
+  description: "A blood red stone lies here collecting dust."
+  type: TRASH
+- id: o2334
+  name: "crossbow huge"
+  roomDesc: "A huge crossbow rests here."
+  keywords: ["crossbow","huge"]
+  description: "A huge crossbow rests here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2335
+  name: "pack leather small"
+  roomDesc: "A small leather pack rests here."
+  keywords: ["pack","leather","small"]
+  description: "A small leather pack rests here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o2336
+  name: "hood black leather"
+  roomDesc: "A hood made of black leather rests here."
+  keywords: ["hood","black","leather"]
+  description: "A hood made of black leather rests here."
+  type: MEDIUMARMOR
+- id: o2337
+  name: "sleeves black leather"
+  roomDesc: "Some leather sleeves lie here."
+  keywords: ["sleeves","black","leather"]
+  description: "Some leather sleeves lie here."
+  type: MEDIUMARMOR
+- id: o2338
+  name: "pants black leather"
+  roomDesc: "Some leather pants lie here."
+  keywords: ["pants","black","leather"]
+  description: "Some leather pants lie here."
+  type: MEDIUMARMOR
+- id: o2339
+  name: "sword wicked short shortsword"
+  roomDesc: "A wicked looking shortsword lies here."
+  keywords: ["sword","wicked","short","shortsword"]
+  description: "A wicked looking shortsword lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2340
+  name: "globe major"
+  roomDesc: "A large globe rests here, pulsing uneasily."
+  keywords: ["globe","major"]
+  description: "A large globe rests here, pulsing uneasily."
+  type: ACCESSORY
+- id: o2341
+  name: "chain chainmail black suit"
+  roomDesc: "A huge pile of black chainmail rests here."
+  keywords: ["chain","chainmail","black","suit"]
+  description: "A huge pile of black chainmail rests here."
+  type: HEAVYARMOR
+- id: o2342
+  name: "buckler spiked"
+  roomDesc: "A small spiked buckler rests here."
+  keywords: ["buckler","spiked"]
+  description: "A small spiked buckler rests here."
+  type: SHIELD
+- id: o2343
+  name: "ring studded"
+  roomDesc: "A small studded ring lies here."
+  keywords: ["ring","studded"]
+  description: "A small studded ring lies here."
+  type: ACCESSORY
+- id: o2344
+  name: "helm horned"
+  roomDesc: "A small horned helm rests here."
+  keywords: ["helm","horned"]
+  description: "A small horned helm rests here."
+  type: HEAVYARMOR
+- id: o2345
+  name: "axe great"
+  roomDesc: "An extremely huge axe is resting here."
+  keywords: ["axe","great"]
+  description: "An extremely huge axe is resting here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2346
+  name: "plate ethereal suit"
+  roomDesc: "A suit of shimmering plate rests here."
+  keywords: ["plate","ethereal","suit"]
+  description: "A suit of shimmering plate rests here."
+  type: HEAVYARMOR
+- id: o2347
+  name: "helm ethereal"
+  roomDesc: "A shimmering helm rests here."
+  keywords: ["helm","ethereal"]
+  description: "A shimmering helm rests here."
+  type: HEAVYARMOR
+- id: o2348
+  name: "blade ethereal"
+  roomDesc: "A shimmering blade lies here."
+  keywords: ["blade","ethereal"]
+  description: "A shimmering blade lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2349
+  name: "branch willow"
+  roomDesc: "A small willow branch lies here."
+  keywords: ["branch","willow"]
+  description: "A small willow branch lies here."
+  type: WAND
+- id: o2350
+  name: "key keep"
+  roomDesc: "A small key lies here."
+  keywords: ["key","keep"]
+  description: "A small key lies here."
+  type: KEY
+- id: o2351
+  name: "key red"
+  roomDesc: "A small red key lies here."
+  keywords: ["key","red"]
+  description: "A small red key lies here."
+  type: KEY
+- id: o2352
+  name: "key black"
+  roomDesc: "A small black key lies here."
+  keywords: ["key","black"]
+  description: "A small black key lies here."
+  type: KEY
+- id: o2353
+  name: "key white"
+  roomDesc: "A small white key lies here."
+  keywords: ["key","white"]
+  description: "A small white key lies here."
+  type: KEY
+- id: o2354
+  name: "key brown"
+  roomDesc: "A small brown key lies here."
+  keywords: ["key","brown"]
+  description: "A small brown key lies here."
+  type: KEY
+- id: o2355
+  name: "key yellow"
+  roomDesc: "A small yellow key lies here."
+  keywords: ["key","yellow"]
+  description: "A small yellow key lies here."
+  type: KEY
+- id: o2356
+  name: "key maroon"
+  roomDesc: "A small maroon key lies here."
+  keywords: ["key","maroon"]
+  description: "A small maroon key lies here."
+  type: KEY
+- id: o2357
+  name: "key green"
+  roomDesc: "A small green key lies here."
+  keywords: ["key","green"]
+  description: "A small green key lies here."
+  type: KEY
+- id: o2358
+  name: "key grey"
+  roomDesc: "A small grey key lies here."
+  keywords: ["key","grey"]
+  description: "A small grey key lies here."
+  type: KEY
+- id: o2359
+  name: "key runed"
+  roomDesc: "A small runed key lies here."
+  keywords: ["key","runed"]
+  description: "A small runed key lies here."
+  type: KEY
+- id: o2360
+  name: "boots fur lined"
+  roomDesc: "A pair of boots are on the floor."
+  keywords: ["boots","fur","lined"]
+  description: "A pair of boots are on the floor."
+  type: MEDIUMARMOR
+- id: o2361
+  name: "pelt yeti white"
+  roomDesc: "A white pelt lies here."
+  keywords: ["pelt","yeti","white"]
+  description: "A white pelt lies here."
+  type: ACCESSORY
+- id: o2362
+  name: "sword kopesh"
+  roomDesc: "A sword with a curved blade lies here."
+  keywords: ["sword","kopesh"]
+  description: "A sword with a curved blade lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2363
+  name: "vambraces steel"
+  roomDesc: "A gleaming pair of vambraces lies here."
+  keywords: ["vambraces","steel"]
+  description: "A gleaming pair of vambraces lies here."
+  type: HEAVYARMOR
+- id: o2364
+  name: "greaves steel"
+  roomDesc: "A gleaming pair of greaves lie here."
+  keywords: ["greaves","steel"]
+  description: "A gleaming pair of greaves lie here."
+  type: HEAVYARMOR
+- id: o2365
+  name: "axe battle battleaxe"
+  roomDesc: "A dangerous looking battle axe rests here."
+  keywords: ["axe","battle","battleaxe"]
+  description: "A dangerous looking battle axe rests here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2366
+  name: "plate steel breast"
+  roomDesc: "A breast plate of thick steel rests here."
+  keywords: ["plate","steel","breast"]
+  description: "A breast plate of thick steel rests here."
+  type: HEAVYARMOR
+- id: o2367
+  name: "helm steel"
+  roomDesc: "A steel helm has been left here."
+  keywords: ["helm","steel"]
+  description: "A steel helm has been left here."
+  type: HEAVYARMOR
+- id: o2368
+  name: "halberd huge"
+  roomDesc: "A huge halberd has been left here."
+  keywords: ["halberd","huge"]
+  description: "A huge halberd has been left here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2369
+  name: "visor blue steel helm"
+  roomDesc: "A helm and visor of blue steel rests here."
+  keywords: ["visor","blue","steel","helm"]
+  description: "A helm and visor of blue steel rests here."
+  type: HEAVYARMOR
+- id: o2370
+  name: "greaves blue steel"
+  roomDesc: "Some greaves made of blue steel rest here."
+  keywords: ["greaves","blue","steel"]
+  description: "Some greaves made of blue steel rest here."
+  type: HEAVYARMOR
+- id: o2371
+  name: "vambraces blue steel"
+  roomDesc: "Some vambraces made of blue steel rest here."
+  keywords: ["vambraces","blue","steel"]
+  description: "Some vambraces made of blue steel rest here."
+  type: HEAVYARMOR
+- id: o2372
+  name: "sword two two-handed"
+  roomDesc: "A large sword lies here."
+  keywords: ["sword","two","two-handed"]
+  description: "A large sword lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2373
+  name: "visor helm steel red"
+  roomDesc: "A helm and visor made of red steel rests here."
+  keywords: ["visor","helm","steel","red"]
+  description: "A helm and visor made of red steel rests here."
+  type: HEAVYARMOR
+- id: o2374
+  name: "greaves red steel"
+  roomDesc: "Some greaves made of red steel rest here."
+  keywords: ["greaves","red","steel"]
+  description: "Some greaves made of red steel rest here."
+  type: HEAVYARMOR
+- id: o2375
+  name: "vambraces red steel"
+  roomDesc: "Some vambraces made of red steel rest here."
+  keywords: ["vambraces","red","steel"]
+  description: "Some vambraces made of red steel rest here."
+  type: HEAVYARMOR
+- id: o2376
+  name: "glaive"
+  roomDesc: "A very large glaive rests here."
+  keywords: ["glaive"]
+  description: "A very large glaive rests here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2377
+  name: "visor helm crimson steel"
+  roomDesc: "A helm and visor made of crimson steel rests here."
+  keywords: ["visor","helm","crimson","steel"]
+  description: "A helm and visor made of crimson steel rests here."
+  type: HEAVYARMOR
+- id: o2378
+  name: "greaves crimson steel"
+  roomDesc: "Some greaves made of crimson steel rest here."
+  keywords: ["greaves","crimson","steel"]
+  description: "Some greaves made of crimson steel rest here."
+  type: HEAVYARMOR
+- id: o2379
+  name: "vambraces crimson steel"
+  roomDesc: "Some vambraces made of crimson steel rest here."
+  keywords: ["vambraces","crimson","steel"]
+  description: "Some vambraces made of crimson steel rest here."
+  type: HEAVYARMOR
+- id: o2380
+  name: "star morning morningstar"
+  roomDesc: "A huge morningstar rests here."
+  keywords: ["star","morning","morningstar"]
+  description: "A huge morningstar rests here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2381
+  name: "spiked brass knuckles"
+  roomDesc: "A set of spiked brass knuckles lies here."
+  keywords: ["spiked","brass","knuckles"]
+  description: "A set of spiked brass knuckles lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2382
+  name: "ring key multi colored multi-colored"
+  roomDesc: "A ring of multi-colored keys rests here."
+  keywords: ["ring","key","multi","colored","multi-colored"]
+  description: "A ring of multi-colored keys rests here."
+  type: ACCESSORY
+- id: o2383
+  name: "maul huge wooden"
+  roomDesc: "A huge wooden maul rests here."
+  keywords: ["maul","huge","wooden"]
+  description: "A huge wooden maul rests here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2384
+  name: "potion misty"
+  roomDesc: "A small misty potion rests here."
+  keywords: ["potion","misty"]
+  description: "A small misty potion rests here."
+  type: POTION
+- id: o2385
+  name: "pouch belt"
+  roomDesc: "A belt pouch lies here."
+  keywords: ["pouch","belt"]
+  description: "A belt pouch lies here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o2386
+  name: "spear ogre"
+  roomDesc: "A crude spear rests here."
+  keywords: ["spear","ogre"]
+  description: "A crude spear rests here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2387
+  name: "club ogre war"
+  roomDesc: "A large, crude club rests here."
+  keywords: ["club","ogre","war"]
+  description: "A large, crude club rests here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2388
+  name: "cloak bear skin bearskin"
+  roomDesc: "A rough bearskin rests here."
+  keywords: ["cloak","bear","skin","bearskin"]
+  description: "A rough bearskin rests here."
+  type: ACCESSORY
+- id: o2389
+  name: "ear ring earring feathered"
+  roomDesc: "Some feathered earrings rest here."
+  keywords: ["ear","ring","earring","feathered"]
+  description: "Some feathered earrings rest here."
+  type: LIGHTARMOR
+- id: o2390
+  name: "gauntlets ogre power"
+  roomDesc: "Some heavy gauntlets lie here."
+  keywords: ["gauntlets","ogre","power"]
+  description: "Some heavy gauntlets lie here."
+  type: HEAVYARMOR
+- id: o2391
+  name: "club massive"
+  roomDesc: "A massive club lies here, discarded."
+  keywords: ["club","massive"]
+  description: "A massive club lies here, discarded."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2392
+  name: "cape thick fur"
+  roomDesc: "A thick pile of fur lies here."
+  keywords: ["cape","thick","fur"]
+  description: "A thick pile of fur lies here."
+  type: ACCESSORY
+- id: o2393
+  name: "tunic fur lined"
+  roomDesc: "A fur lined tunic rests here."
+  keywords: ["tunic","fur","lined"]
+  description: "A fur lined tunic rests here."
+  type: LIGHTARMOR

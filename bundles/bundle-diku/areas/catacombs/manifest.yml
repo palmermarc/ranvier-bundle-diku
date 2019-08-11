@@ -1,0 +1,12 @@
+title: "Temple Catacombs"
+metadata:
+  id: 11
+  name: "Temple Catacombs"
+  createdBy: "mute"
+  starting_vnum: 12600
+  ending_vnum: 12699
+  item_requirements: 4000
+  filename: "catacombs.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

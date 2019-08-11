@@ -1,0 +1,15 @@
+---
+body: |
+  syntax: cast 'minor creation' <object>
+  
+  The <object> may be a wand, pill, scroll,
+  potion, or staff.
+  
+  This powerful spell makes an empty item that
+  may be filled with a magical spell. This
+  spell is very useful for those 'no_spell'
+  areas.
+  
+  see also: help BREW, SCRIBE, CARVE, ENGRAVE, BAKE
+  
+  - minor

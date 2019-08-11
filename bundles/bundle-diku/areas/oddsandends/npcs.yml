@@ -1,0 +1,192 @@
+- id: m30000
+  keywords: ["hell","hound"]
+  name: "a hell hound"
+  description: >-
+    A hell hound stands here snarling at you.
+  level: 199
+  attributes:
+    health: 30000
+    armor: -500
+    hitroll: 500
+    damroll: 500
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+  metadata:
+    areaId: 54
+    exp_level: 14999
+    sex: 1
+- id: m30001
+  keywords: ["guardian","demon"]
+  name: "a guardian demon"
+  description: >-
+    A huge guardian demon stands here, radiating evil.
+  level: 20
+  attributes:
+    health: 600
+    armor: 2
+    hitroll: 10
+    damroll: 10
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+  metadata:
+    areaId: 54
+    exp_level: 2
+    sex: 1
+- id: m30002
+  keywords: ["gremlin"]
+  name: "a nasty little gremlin"
+  description: >-
+    A nasty little gremlin stands here, hopping from foot to foot.
+  level: 166
+  attributes:
+    health: 30000
+    armor: -500
+    hitroll: 350
+    damroll: 350
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+  metadata:
+    areaId: 54
+    exp_level: 12501
+    sex: 1
+- id: m30003
+  keywords: ["gremlin"]
+  name: "a big ugly gremlin"
+  description: >-
+    A big ugly gremlin stands here, snarling angrilly.
+  level: 199
+  attributes:
+    health: 30000
+    armor: -500
+    hitroll: 500
+    damroll: 350
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+  metadata:
+    areaId: 54
+    exp_level: 14999
+    sex: 1
+- id: m30004
+  keywords: ["gremlin"]
+  name: "a huge vicious gremlin"
+  description: >-
+    A huge vicious gremlin stands here, growling with anger.
+  level: 226
+  attributes:
+    health: 30000
+    armor: -500
+    hitroll: 500
+    damroll: 500
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+  metadata:
+    areaId: 54
+    exp_level: 17001
+    sex: 1
+- id: m30005
+  keywords: ["cute","fluffy","creature"]
+  name: "a cute little fluffy creature"
+  description: >-
+    A cute little fluffy creature looks up at you, begging for food.
+  level: 4
+  attributes:
+    health: 30000
+    armor: 2
+    hitroll: 5
+    damroll: 35
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+  metadata:
+    areaId: 54
+    exp_level: 361
+    sex: 1
+- id: m30006
+  keywords: ["mount"]
+  name: "a generic mount"
+  description: >-
+    A generic mount stands here, waiting to be ridden.
+  level: 150
+  attributes:
+    health: 300
+    armor: 2
+    hitroll: 5
+    damroll: 5
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 54
+    exp_level: 1
+    sex: 1
+- id: m30007
+  keywords: ["claymore"]
+  name: "the claymore"
+  description: >-
+    A Claymore mine is hiding in the corner.
+  level: 2
+  attributes:
+    health: 30000
+    armor: 0
+    hitroll: 500
+    damroll: 500
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 54
+    exp_level: 200
+    sex: 1

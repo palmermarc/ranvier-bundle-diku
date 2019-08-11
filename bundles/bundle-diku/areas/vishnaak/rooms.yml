@@ -1,0 +1,1192 @@
+- id: r25500
+  title: "Rolling hills"
+  description: >-
+    Gentle rolling hills stretch as far as
+    the eye can see, to the north in the side
+    of a hill is dark cave mouth.
+    Beyond the hills to the north lies a
+    small mountain range, that looks
+    difficult to pass.
+  exits:
+    - roomId: "vishnaak:r25501"
+      direction: north
+    - roomId: "juargan:r4785"
+      direction: south
+- id: r25501
+  title: "A cave entrance"
+  description: >-
+    Dim sunlight illuminates a sandy floor.
+    Strange tracks, unlike any others you have seen, cover the ground. 
+    The cave goes deeper into the hills, 
+    the depths of this cave are hiddhidden in darkness.
+  exits:
+    - roomId: "vishnaak:r25502"
+      direction: north
+    - roomId: "vishnaak:r25500"
+      direction: south
+- id: r25502
+  title: "A small cave"
+  description: >-
+    To the south you can see the light of an
+    exit. Movements carry to your ears from
+    the east and west.
+  exits:
+    - roomId: "vishnaak:r25505"
+      direction: north
+    - roomId: "vishnaak:r25501"
+      direction: south
+    - roomId: "vishnaak:r25503"
+      direction: east
+    - roomId: "vishnaak:r25504"
+      direction: west
+  npcs:
+    - id: "vishnaak:m25506"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r25503
+  title: "A Vishna'Ak guardpost"
+  description: >-
+    From here you can see all who try to
+    enter or leave this underground realm.
+    A shelf holds provisions for those on
+    duty, and a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25502"
+      direction: west
+  npcs:
+    - id: "vishnaak:m25501"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r25504
+  title: "A Vishna'Ak guardpost"
+  description: >-
+    From here you can see all who try to
+    enter or leave this underground realm.
+    A shelf holds provisions for those on
+    duty, and a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25502"
+      direction: east
+  npcs:
+    - id: "vishnaak:m25501"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r25505
+  title: "The twisting tunnels"
+  description: >-
+    To the south is a faint light, and a cool gentle breeze. 
+    To the north you can see the faint outlines of a junction in the gloom.
+    You hear movement to the south.
+  exits:
+    - roomId: "vishnaak:r25506"
+      direction: north
+    - roomId: "vishnaak:r25502"
+      direction: south
+- id: r25506
+  title: "The twisting tunnels"
+  description: >-
+    The passage diverges here going east and
+    west, deeper into the darkness.
+    This doesn't look like a natural tunnel, as the walls 
+    and ceiling are smooth, fine sand covers the floor, 
+    muffling your footsteps.
+  exits:
+    - roomId: "vishnaak:r25505"
+      direction: south
+    - roomId: "vishnaak:r25507"
+      direction: east
+    - roomId: "vishnaak:r25546"
+      direction: west
+- id: r25507
+  title: "The twisting tunnels"
+  description: >-
+    You see more unusual tracks in the sandy 
+    floor. There are gouge marks on the walls
+    as if a battle has been fought here.
+  exits:
+    - roomId: "vishnaak:r25508"
+      direction: east
+    - roomId: "vishnaak:r25506"
+      direction: west
+- id: r25508
+  title: "The twisting tunnels"
+  description: >-
+    The tunnel makes a sudden turn to the
+    south here, you realise this is a very
+    sensible defensive strategy.
+     
+    Dust glimmers in your lightsource.
+  exits:
+    - roomId: "vishnaak:r25509"
+      direction: south
+    - roomId: "vishnaak:r25507"
+      direction: west
+- id: r25509
+  title: "The twisting tunnels"
+  description: >-
+    Strange markings are inscribed in the wall here. 
+    You have never seen anything like them before. 
+    There are a great number of tracks here, almost 
+    as if some great battle had happened here.
+  exits:
+    - roomId: "vishnaak:r25508"
+      direction: north
+    - roomId: "vishnaak:r25510"
+      direction: east
+- id: r25510
+  title: "The twisting tunnels"
+  description: >-
+    Again the tunnels makes a sudden turn, 
+    this time back to the north.
+  exits:
+    - roomId: "vishnaak:r25511"
+      direction: north
+    - roomId: "vishnaak:r25509"
+      direction: west
+- id: r25511
+  title: "The twisting tunnels"
+  description: >-
+    The passage turns to the east here.
+    The darkness around you is impenatrable.
+  exits:
+    - roomId: "vishnaak:r25510"
+      direction: south
+    - roomId: "vishnaak:r25512"
+      direction: east
+- id: r25512
+  title: "The twisting tunnels"
+  description: >-
+    The passage continues east here, though you 
+    can see another turning in the distance.
+  exits:
+    - roomId: "vishnaak:r25513"
+      direction: east
+    - roomId: "vishnaak:r25511"
+      direction: west
+  npcs:
+    - id: "vishnaak:m25500"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r25513
+  title: "The twisting tunnels"
+  description: >-
+    From somewhere ahead of you, you can hear
+    movement, and the sound of metal clashing
+    on stone.
+  exits:
+    - roomId: "vishnaak:r25514"
+      direction: east
+    - roomId: "vishnaak:r25512"
+      direction: west
+- id: r25514
+  title: "The twisting tunnels"
+  description: >-
+    Once more the tunnel twists to the south.
+    You can make out the faint glimmer of a
+    light source many yards away.
+  exits:
+    - roomId: "vishnaak:r25515"
+      direction: south
+    - roomId: "vishnaak:r25513"
+      direction: west
+- id: r25515
+  title: "The twisting tunnels"
+  description: >-
+    The tunnel continues to twist and meander
+    to the south. Ahead a light shines from 
+    the west, illuminating a crossroads.
+  exits:
+    - roomId: "vishnaak:r25514"
+      direction: north
+    - roomId: "vishnaak:r25516"
+      direction: south
+- id: r25516
+  title: "The twisting tunnels"
+  description: >-
+    Light spills from another guardpost to
+    the west, and east and south all that
+    can be seen is more twisting tunnels.
+  exits:
+    - roomId: "vishnaak:r25515"
+      direction: north
+    - roomId: "vishnaak:r25519"
+      direction: south
+    - roomId: "vishnaak:r25517"
+      direction: east
+    - roomId: "vishnaak:r25518"
+      direction: west
+- id: r25517
+  title: "The twisting tunnels"
+  description: >-
+    This is another junction. In all directions you 
+    can still only see tunnels and more junctions. 
+    It would be easy to become lost down here.
+  exits:
+    - roomId: "vishnaak:r25519"
+      direction: north
+    - roomId: "vishnaak:r25520"
+      direction: east
+    - roomId: "vishnaak:r25516"
+      direction: west
+- id: r25518
+  title: "A Vishna'Ak guardpost"
+  description: >-
+    From here you can see all who travel
+    about this underground realm. A shelf
+    holds provisions for those on duty, and
+    a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25516"
+      direction: east
+  npcs:
+    - id: "vishnaak:m25501"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r25519
+  title: "The twisting tunnels"
+  description: >-
+    Another crossroads leading to more junctions.
+    You feel sure you have been this way before.
+  exits:
+    - roomId: "vishnaak:r25516"
+      direction: north
+    - roomId: "vishnaak:r25517"
+      direction: south
+    - roomId: "vishnaak:r25520"
+      direction: east
+    - roomId: "vishnaak:r25521"
+      direction: west
+- id: r25520
+  title: "The twisting tunnels"
+  description: >-
+    Yet another joining of the ways is here,
+    you are starting to feel very lost.
+  exits:
+    - roomId: "vishnaak:r25521"
+      direction: north
+    - roomId: "vishnaak:r25521"
+      direction: south
+    - roomId: "vishnaak:r25517"
+      direction: east
+    - roomId: "vishnaak:r25519"
+      direction: west
+- id: r25521
+  title: "The twisting tunnels"
+  description: >-
+    The tunnels continue to snake and twist
+    around, with little or no discernable
+    meaning to the changes in direction.
+  exits:
+    - roomId: "vishnaak:r25520"
+      direction: north
+    - roomId: "vishnaak:r25522"
+      direction: south
+    - roomId: "vishnaak:r25519"
+      direction: east
+    - roomId: "vishnaak:r25520"
+      direction: west
+- id: r25522
+  title: "The twisting tunnels"
+  description: >-
+    You are in a passage way that continues
+    mostly southwards. There are a great many
+    tracks in the sand.
+  exits:
+    - roomId: "vishnaak:r25521"
+      direction: north
+    - roomId: "vishnaak:r25524"
+      direction: south
+- id: r25523
+  title: "The twisting tunnels"
+  description: >-
+    You are completely lost in this
+    maze of twisting tunnels, as they
+    seem to interconnect with each
+    other in no logical order.
+  exits:
+    - roomId: "vishnaak:r25524"
+      direction: north
+    - roomId: "vishnaak:r25534"
+      direction: east
+    - roomId: "vishnaak:r25531"
+      direction: west
+- id: r25524
+  title: "The twisting tunnels"
+  description: >-
+    You are completely lost in this
+    maze of twisting tunnels, as they
+    seem to interconnect with each
+    other in no logical order.
+  exits:
+    - roomId: "vishnaak:r25522"
+      direction: east
+    - roomId: "vishnaak:r25523"
+      direction: west
+- id: r25525
+  title: "The twisting tunnels"
+  description: >-
+    You are completely lost in this
+    maze of twisting tunnels, as they
+    seem to interconnect with each
+    other in no logical order.
+  exits:
+    - roomId: "vishnaak:r25532"
+      direction: south
+    - roomId: "vishnaak:r25529"
+      direction: east
+- id: r25526
+  title: "The twisting tunnels"
+  description: >-
+    You are completely lost in this
+    maze of twisting tunnels, as they
+    seem to interconnect with each
+    other in no logical order.
+  exits:
+    - roomId: "vishnaak:r25529"
+      direction: east
+    - roomId: "vishnaak:r25534"
+      direction: west
+- id: r25527
+  title: "The twisting tunnels"
+  description: >-
+    You are completely lost in this
+    maze of twisting tunnels, as they
+    seem to interconnect with each
+    other in no logical order.
+  exits:
+    - roomId: "vishnaak:r25528"
+      direction: south
+    - roomId: "vishnaak:r25530"
+      direction: east
+- id: r25528
+  title: "The twisting tunnels"
+  description: >-
+    You are completely lost in this
+    maze of twisting tunnels, as they
+    seem to interconnect with each
+    other in no logical order.
+  exits:
+    - roomId: "vishnaak:r25532"
+      direction: north
+    - roomId: "vishnaak:r25527"
+      direction: west
+- id: r25529
+  title: "The twisting tunnels"
+  description: >-
+    You are completely lost in this
+    maze of twisting tunnels, as they
+    seem to interconnect with each
+    other in no logical order.
+  exits:
+    - roomId: "vishnaak:r25530"
+      direction: south
+    - roomId: "vishnaak:r25526"
+      direction: east
+    - roomId: "vishnaak:r25525"
+      direction: west
+- id: r25530
+  title: "The twisting tunnels"
+  description: >-
+    You are completely lost in this
+    maze of twisting tunnels, as they
+    seem to interconnect with each
+    other in no logical order.
+  exits:
+    - roomId: "vishnaak:r25527"
+      direction: north
+    - roomId: "vishnaak:r25529"
+      direction: west
+  npcs:
+    - id: "vishnaak:m25500"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r25531
+  title: "The twisting tunnels"
+  description: >-
+    You are completely lost in this
+    maze of twisting tunnels, as they
+    seem to interconnect with each
+    other in no logical order.
+  exits:
+    - roomId: "vishnaak:r25534"
+      direction: north
+    - roomId: "vishnaak:r25523"
+      direction: east
+- id: r25532
+  title: "The twisting tunnels"
+  description: >-
+    You are completely lost in this
+    maze of twisting tunnels, as they
+    seem to interconnect with each
+    other in no logical order.
+  exits:
+    - roomId: "vishnaak:r25533"
+      direction: north
+    - roomId: "vishnaak:r25525"
+      direction: east
+    - roomId: "vishnaak:r25528"
+      direction: west
+- id: r25533
+  title: "The twisting tunnels"
+  description: >-
+    You are completely lost in this
+    maze of twisting tunnels, as they
+    seem to interconnect with each
+    other in no logical order.
+  exits:
+    - roomId: "vishnaak:r25535"
+      direction: south
+    - roomId: "vishnaak:r25532"
+      direction: west
+- id: r25534
+  title: "The twisting tunnels"
+  description: >-
+    You are completely lost in this
+    maze of twisting tunnels, as they
+    seem to interconnect with each
+    other in no logical order.
+  exits:
+    - roomId: "vishnaak:r25526"
+      direction: north
+    - roomId: "vishnaak:r25523"
+      direction: south
+    - roomId: "vishnaak:r25531"
+      direction: east
+- id: r25535
+  title: "The twisting tunnels"
+  description: >-
+    To the north you see a small maze of
+    interconnecting passages, and to the 
+    south you can see a large cavern.
+  exits:
+    - roomId: "vishnaak:r25533"
+      direction: north
+    - roomId: "vishnaak:r25536"
+      direction: south
+- id: r25536
+  title: "A large cavern"
+  description: >-
+    A huge cavern stretches east and south.
+    From the south you see the light cast
+    by a large fire.
+  exits:
+    - roomId: "vishnaak:r25535"
+      direction: north
+    - roomId: "vishnaak:r25585"
+      direction: south
+    - roomId: "vishnaak:r25537"
+      direction: east
+- id: r25537
+  title: "A large cavern"
+  description: >-
+    You have entered a large cavern, you
+    can hear movement from the east, south
+    and west. To the southwest a large fire
+    burns brightly.
+  exits:
+    - roomId: "vishnaak:r25586"
+      direction: south
+    - roomId: "vishnaak:r25538"
+      direction: east
+    - roomId: "vishnaak:r25536"
+      direction: west
+- id: r25538
+  title: "A small tunnel"
+  description: >-
+    You have to bend low to fit in this tunnel. 
+    The sound of movement carries to you from 
+    the north and south, and to the west the 
+    tunnel seems to widen quite a lot. East 
+    is the faint glimmer of sunshine, 
+    and Maybe a way out.
+  exits:
+    - roomId: "vishnaak:r25539"
+      direction: north
+    - roomId: "vishnaak:r25540"
+      direction: south
+    - roomId: "vishnaak:r25541"
+      direction: east
+    - roomId: "vishnaak:r25537"
+      direction: west
+  npcs:
+    - id: "vishnaak:m25506"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r25539
+  title: "A Vishna'Ak guardpost"
+  description: >-
+    From here you can see all who try to
+    enter or leave this underground realm.
+    A shelf holds provisions for those on
+    duty, and a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25538"
+      direction: south
+  npcs:
+    - id: "vishnaak:m25501"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r25540
+  title: "A Vishna'Ak guardpost"
+  description: >-
+    From here you can see all who try to
+    enter or leave this underground realm.
+    A shelf holds provisions for those on
+    duty, and a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25538"
+      direction: north
+  npcs:
+    - id: "vishnaak:m25501"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r25541
+  title: "A small cave"
+  description: >-
+    It is quite dark in here, your footing
+    seems secure enough on the loose sand
+    covering the floor, but what are those
+    tracks ?!.
+  exits:
+    - roomId: "vishnaak:r25542"
+      direction: east
+    - roomId: "vishnaak:r25538"
+      direction: west
+- id: r25542
+  title: "Forrested hills"
+  description: >-
+    Rugged densely forrested hills stretch into 
+    the distance, to the west in the side of a 
+    hill is a dark cave mouth. Beyond the hills 
+    to the west lies a mountain range, 
+    that looks difficult to pass.
+  exits:
+    - roomId: "vishnaak:r25541"
+      direction: west
+- id: r25543
+  title: "The twisting tunnels"
+  description: >-
+    A dark dank hole descends into the
+    depths below, with no indication of
+    how deep it is.
+     
+     
+    A warm draught of fetid air tousles your hair.
+  exits:
+    - roomId: "vishnaak:r25544"
+      direction: east
+    - roomId: "vishnaak:r25548"
+      direction: down
+  npcs:
+    - id: "vishnaak:m25500"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r25544
+  title: "The twisting tunnels"
+  description: >-
+    These tunnels continue to twist and
+    turn with no logical pattern. It would
+    be so easy to become lost in here if
+    you weren't careful.
+  exits:
+    - roomId: "vishnaak:r25545"
+      direction: south
+    - roomId: "vishnaak:r25543"
+      direction: west
+- id: r25545
+  title: "The twisting tunnels"
+  description: >-
+    More sandy floor, more twists and turns.
+    Its all getting so confusing.
+  exits:
+    - roomId: "vishnaak:r25544"
+      direction: north
+    - roomId: "vishnaak:r25546"
+      direction: south
+- id: r25546
+  title: "The twisting tunnels"
+  description: >-
+    To the south is a patch of darkness
+    blacker than the shadows around it.
+  exits:
+    - roomId: "vishnaak:r25545"
+      direction: north
+    - roomId: "vishnaak:r25547"
+      direction: south
+    - roomId: "vishnaak:r25506"
+      direction: east
+- id: r25547
+  title: "The twisting tunnels"
+  description: >-
+    Bones from various peoples are lying
+    on the floor here. Rusted swords and
+    metal plates from the mightiest of armours
+    lie broken and discarded.
+    In amidst all this ruin are strange bony
+    carapace like pieces of armour.
+    
+    The depths of this hole are impossibly
+    dark, and not even your light penetrates
+    deeply here.
+  exits:
+    - roomId: "vishnaak:r25546"
+      direction: north
+    - roomId: "vishnaak:r25558"
+      direction: down
+- id: r25548
+  title: "The deeper tunnels"
+  description: >-
+    There is a dark opening in the ceiling leading up.
+  exits:
+    - roomId: "vishnaak:r25549"
+      direction: south
+    - roomId: "vishnaak:r25543"
+      direction: up
+- id: r25549
+  title: "The deeper tunnels"
+  description: >-
+    The walls here are more roughly hewn,
+    and there are more of those strange tracks in the sand.
+    You can hear movement from the east.
+  exits:
+    - roomId: "vishnaak:r25548"
+      direction: north
+    - roomId: "vishnaak:r25553"
+      direction: south
+    - roomId: "vishnaak:r25550"
+      direction: east
+- id: r25550
+  title: "A Vishna'Ak guardopst"
+  description: >-
+    From here you can see all who travel
+    about this underground realm. A shelf
+    holds provisions for those on duty, and
+    a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25551"
+      direction: east
+    - roomId: "vishnaak:r25549"
+      direction: west
+  npcs:
+    - id: "vishnaak:m25508"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "vishnaak:m25508"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r25551
+  title: "A storeroom"
+  description: >-
+    This small chamber seems to be a
+    storeroom for spare weapons, food stuffs
+    and somewhere to place prisoners, judging
+    by the heavy iron shackles attached
+    to the wall at ankle and wato the wall at
+    ankle and waist height.
+    In the distance you can hear the sounds
+    of sombre chanting.
+  exits:
+    - roomId: "vishnaak:r25550"
+      direction: west
+  items:
+    - id: "vishnaak:o25530"
+      respawnChance: 75
+    - id: "vishnaak:o25531"
+      respawnChance: 75
+    - id: "vishnaak:o25532"
+      respawnChance: 75
+    - id: "vishnaak:o25536"
+      respawnChance: 75
+- id: r25552
+  title: "The deeper tunnels"
+  description: >-
+    The tunnel bends sharply here.
+  exits:
+    - roomId: "vishnaak:r25555"
+      direction: south
+    - roomId: "vishnaak:r25553"
+      direction: east
+  npcs:
+    - id: "vishnaak:m25507"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r25553
+  title: "The deeper tunnels"
+  description: >-
+    You are standing at a junction of small
+    roughly hewn tunnels.
+  exits:
+    - roomId: "vishnaak:r25549"
+      direction: north
+    - roomId: "vishnaak:r25556"
+      direction: south
+    - roomId: "vishnaak:r25554"
+      direction: east
+    - roomId: "vishnaak:r25552"
+      direction: west
+- id: r25554
+  title: "The deeper tunnels"
+  description: >-
+    The tunnel turns sharply here.
+  exits:
+    - roomId: "vishnaak:r25557"
+      direction: south
+    - roomId: "vishnaak:r25553"
+      direction: west
+- id: r25555
+  title: "The deeper tunnels"
+  description: >-
+    A faint light glimmers in the distance.
+    Maybe a way out of this nightmare of
+    tunnels.
+  exits:
+    - roomId: "vishnaak:r25552"
+      direction: north
+    - roomId: "vishnaak:r25559"
+      direction: south
+- id: r25556
+  title: "A Vishna'Ak guardpost"
+  description: >-
+    From here you can see all who travel
+    about this underground realm. A shelf
+    holds provisions for those on duty, and
+    a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25553"
+      direction: north
+  npcs:
+    - id: "vishnaak:m25508"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r25557
+  title: "The deeper tunnels"
+  description: >-
+    Yet another junction. 
+    The darkness hangs oppressively about
+    you, like a living being intent on seeing
+    you dead.
+  exits:
+    - roomId: "vishnaak:r25554"
+      direction: north
+    - roomId: "vishnaak:r25560"
+      direction: south
+    - roomId: "vishnaak:r25558"
+      direction: east
+  npcs:
+    - id: "vishnaak:m25507"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r25558
+  title: "The deeper tunnels"
+  description: >-
+    A dark hole leads upwards, a feeble
+    breeze wafts from above, you can just
+    discern the hint of outside on it.
+  exits:
+    - roomId: "vishnaak:r25557"
+      direction: west
+    - roomId: "vishnaak:r25547"
+      direction: up
+- id: r25559
+  title: "The deeper tunnels"
+  description: >-
+    You can see movements on either side
+    and from the south, sombre chanting
+    echoes off the walls.
+  exits:
+    - roomId: "vishnaak:r25555"
+      direction: north
+    - roomId: "vishnaak:r25580"
+      direction: south
+    - roomId: "vishnaak:r25579"
+      direction: east
+    - roomId: "vishnaak:r25578"
+      direction: west
+- id: r25560
+  title: "The deeper tunnels"
+  description: >-
+    A dark hole leads downwards.
+  exits:
+    - roomId: "vishnaak:r25557"
+      direction: north
+    - roomId: "vishnaak:r25561"
+      direction: down
+- id: r25561
+  title: "The deeper tunnels"
+  description: >-
+    Strange shadows reflect off the walls
+    from the south, and to the east is a 
+    dark tunnel.
+  exits:
+    - roomId: "vishnaak:r25566"
+      direction: south
+    - roomId: "vishnaak:r25562"
+      direction: east
+    - roomId: "vishnaak:r25560"
+      direction: up
+- id: r25562
+  title: "The deeper tunnels"
+  description: >-
+    The tunnel twists and turns making
+    directions almost useless.
+  exits:
+    - roomId: "vishnaak:r25563"
+      direction: east
+    - roomId: "vishnaak:r25561"
+      direction: west
+- id: r25563
+  title: "A large cavern"
+  description: >-
+    You are standing in the corner of a 
+    large cavern, from somewhere ahead
+    carries some very unusual noises.
+  exits:
+    - roomId: "vishnaak:r25567"
+      direction: south
+    - roomId: "vishnaak:r25564"
+      direction: east
+    - roomId: "vishnaak:r25562"
+      direction: west
+- id: r25564
+  title: "A large cavern"
+  description: >-
+    Although the walls are roughly hewn.
+    The sandy floor here is immaculately
+    kept, almost as if someone of importance
+    can be found here.
+  exits:
+    - roomId: "vishnaak:r25568"
+      direction: south
+    - roomId: "vishnaak:r25565"
+      direction: east
+    - roomId: "vishnaak:r25563"
+      direction: west
+  npcs:
+    - id: "vishnaak:m25509"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25565
+  title: "A large cavern"
+  description: >-
+    You are standing in the corner of a 
+    large cavern, from the southwest comes
+    the sound of movement.
+  exits:
+    - roomId: "vishnaak:r25569"
+      direction: south
+    - roomId: "vishnaak:r25564"
+      direction: west
+- id: r25566
+  title: "A Vishna'Ak guardpost"
+  description: >-
+    From here you can see all who travel
+    about this underground realm. A shelf
+    holds provisions for those on duty, and
+    a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25561"
+      direction: north
+  npcs:
+    - id: "vishnaak:m25508"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r25567
+  title: "A large cavern"
+  description: >-
+    Fine sand covers the floor and from
+    the east comes the sound of movement.
+  exits:
+    - roomId: "vishnaak:r25563"
+      direction: north
+    - roomId: "vishnaak:r25568"
+      direction: east
+- id: r25568
+  title: "A large cavern"
+  description: >-
+    A tunnel leads southwards from the
+    confines of this large cavern. You
+    think you can smell trees and grass
+    on the breeze that wafts from the
+    tunnel. This mass of sprawling tunnels
+    and caves is beginning to get oppressive.
+  exits:
+    - roomId: "vishnaak:r25564"
+      direction: north
+    - roomId: "vishnaak:r25570"
+      direction: south
+    - roomId: "vishnaak:r25569"
+      direction: east
+    - roomId: "vishnaak:r25567"
+      direction: west
+- id: r25569
+  title: "A large cavern"
+  description: >-
+    You are standing in another corner of
+    this very large cave. It has obviously
+    been reserved for the use of someone
+    important within this community.
+  exits:
+    - roomId: "vishnaak:r25565"
+      direction: north
+    - roomId: "vishnaak:r25568"
+      direction: west
+- id: r25570
+  title: "The deeper tunnels"
+  description: >-
+    You can see movement to the west, and
+    hear the sounds of something unusual
+    from the north. At least you think its north.
+  exits:
+    - roomId: "vishnaak:r25568"
+      direction: north
+    - roomId: "vishnaak:r25572"
+      direction: south
+    - roomId: "vishnaak:r25587"
+      direction: west
+  npcs:
+    - id: "vishnaak:m25507"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r25571
+  title: "A Vishna'Ak guardpost"
+  description: >-
+    From here you can see all who travel
+    about this underground realm. A shelf
+    holds provisions for those on duty, and
+    a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25573"
+      direction: south
+  npcs:
+    - id: "vishnaak:m25508"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r25572
+  title: "The deeper tunnels"
+  description: >-
+    This dark tunnels twists sharply here.
+  exits:
+    - roomId: "vishnaak:r25570"
+      direction: north
+    - roomId: "vishnaak:r25573"
+      direction: east
+- id: r25573
+  title: "A small cave"
+  description: >-
+    There are strange tracks in the smooth
+    sandy floor of this cave.
+  exits:
+    - roomId: "vishnaak:r25571"
+      direction: north
+    - roomId: "vishnaak:r25574"
+      direction: south
+    - roomId: "vishnaak:r25575"
+      direction: east
+    - roomId: "vishnaak:r25572"
+      direction: west
+  npcs:
+    - id: "vishnaak:m25511"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "vishnaak:m25511"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r25574
+  title: "A Vishna'Ak guardpost"
+  description: >-
+    From here you can see all who travel
+    about this underground realm. A shelf
+    holds provisions for those on duty, and
+    a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25573"
+      direction: north
+  npcs:
+    - id: "vishnaak:m25508"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r25575
+  title: "Cave entrance"
+  description: >-
+    You are standing in the entrance to
+    a small cave. There is a strange fetid
+    odour in the air.
+  exits:
+    - roomId: "vishnaak:r25576"
+      direction: east
+    - roomId: "vishnaak:r25573"
+      direction: west
+- id: r25576
+  title: "Barren hills"
+  description: >-
+    Brown barren hills stretch in all
+    directions, bleak and lifeless.
+  exits:
+    - roomId: "vishnaak:r25575"
+      direction: west
+- id: r25577
+  title: "A large cavern"
+  description: >-
+    You are standing in the corner of a large
+    cave, from somewhere nearby comes the
+    sound of chanting.
+  exits:
+    - roomId: "vishnaak:r25584"
+      direction: north
+    - roomId: "vishnaak:r25583"
+      direction: east
+- id: r25578
+  title: "A Vishna'Ak guardpost"
+  description: >-
+    From here you can see all who travel
+    about this underground realm. A shelf
+    holds provisions for those on duty, and
+    a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25559"
+      direction: east
+  npcs:
+    - id: "vishnaak:m25508"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r25579
+  title: "A Vishna'Ak guardpost"
+  description: >-
+    From here you can see all who travel
+    about this underground realm. A shelf
+    holds provisions for those on duty, and
+    a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25559"
+      direction: west
+  npcs:
+    - id: "vishnaak:m25508"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r25580
+  title: "A large cavern"
+  description: >-
+    You have entered a large cavern, on the
+    walls are symbols, glyphs and wards.
+    Also are several strange pictograms
+    that seem to have an unpleasant meaning.
+  exits:
+    - roomId: "vishnaak:r25559"
+      direction: north
+    - roomId: "vishnaak:r25582"
+      direction: south
+- id: r25581
+  title: "A Dark Altar"
+  description: >-
+    This room is filled with the tangible
+    taint of evil, almost as if it seeps
+    like a living thing from the walls
+    and floors. Symbols, glyphs, and other
+    arcane sigils are inscribed into the
+    walls, floor and ceiling.
+    A large oily black Altar stands against
+    the back wall, and before it a huge
+    shape shimmers into being.
+    
+    It is eerily quiet.
+  exits:
+    - roomId: "vishnaak:r25584"
+      direction: south
+  npcs:
+    - id: "vishnaak:m25512"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "vishnaak:m25513"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r25582
+  title: "A large cavern"
+  description: >-
+    From somewhere neary comes the sound of
+    chanting. Eerie, macabre and monotonous.
+  exits:
+    - roomId: "vishnaak:r25580"
+      direction: north
+    - roomId: "vishnaak:r25583"
+      direction: south
+    - roomId: "vishnaak:r25584"
+      direction: west
+- id: r25583
+  title: "A large cavern"
+  description: >-
+    You are standing in a large cave.
+    Loose sand covers the floor.
+  exits:
+    - roomId: "vishnaak:r25582"
+      direction: north
+    - roomId: "vishnaak:r25577"
+      direction: west
+- id: r25584
+  title: "Summoning chamber"
+  description: >-
+    A large circle has been inscribed into
+    the floor, and at the cardinal points
+    arcane symbols seem to writhe in the
+    stone. To the north comes a feeling
+    of ancient evil released into the
+    mortal world.
+  exits:
+    - roomId: "vishnaak:r25581"
+      direction: north
+    - roomId: "vishnaak:r25577"
+      direction: south
+    - roomId: "vishnaak:r25582"
+      direction: east
+  npcs:
+    - id: "vishnaak:m25510"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25585
+  title: "A large cavern"
+  description: >-
+    You are standing in the southern most
+    part of this rather large cave, a large
+    fire burns brighly, complete with a
+    humanoid shape on a slowly turning spit.
+  exits:
+    - roomId: "vishnaak:r25536"
+      direction: north
+    - roomId: "vishnaak:r25586"
+      direction: east
+  npcs:
+    - id: "vishnaak:m25502"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "vishnaak:m25503"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "vishnaak:m25504"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "vishnaak:m25505"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r25586
+  title: "A large cavern"
+  description: >-
+    You are standing in the southeast corner
+    of this rather large cave, stange toys are lying on the floor here.
+  exits:
+    - roomId: "vishnaak:r25537"
+      direction: north
+    - roomId: "vishnaak:r25585"
+      direction: west
+- id: r25587
+  title: "A Vishna'Ak guardpost"
+  description: >-
+    From here you can see all who travel
+    about this underground realm. A shelf
+    holds provisions for those on duty, and
+    a rack contains spare weapons.
+  exits:
+    - roomId: "vishnaak:r25570"
+      direction: east
+  npcs:
+    - id: "vishnaak:m25508"
+      respawnChance: 100
+      maxLoad: "16"

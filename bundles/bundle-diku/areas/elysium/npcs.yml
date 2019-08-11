@@ -1,0 +1,290 @@
+- id: m26300
+  keywords: ["keeper"]
+  name: "The Keeper of the Elysium"
+  description: >-
+    The Keeper of the Elysium stands here, presiding over the gathering.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "elysium:o26313": 75
+        "elysium:o26314": 75
+        "elysium:o26318": 75
+        "elysium:o26319": 75
+  metadata:
+    areaId: 25
+    exp_level: 1000
+    sex: 1
+- id: m26301
+  keywords: ["retainer"]
+  name: "a Retainer"
+  description: >-
+    The Retainer is looking for his master.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "elysium:o26317": 75
+  metadata:
+    areaId: 25
+    exp_level: 1000
+    sex: 1
+- id: m26302
+  keywords: ["gangrel","ghoul"]
+  name: "a Gangrel ghoul"
+  description: >-
+    A Gangrel ghoul stares at you vacantly.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "elysium:o26304": 75
+        "elysium:o26305": 75
+  metadata:
+    areaId: 25
+    exp_level: 1000
+    sex: 1
+- id: m26303
+  keywords: ["tremere","ghoul"]
+  name: "a Tremere ghoul"
+  description: >-
+    A Tremere ghoul stares at you vacantly.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "elysium:o26301": 75
+        "elysium:o26300": 75
+  metadata:
+    areaId: 25
+    exp_level: 1000
+    sex: 1
+- id: m26304
+  keywords: ["toreador","ghoul"]
+  name: "a Toreador ghoul"
+  description: >-
+    A Toreador ghoul stares at you vacantly.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "elysium:o26310": 75
+        "elysium:o26307": 75
+  metadata:
+    areaId: 25
+    exp_level: 1000
+    sex: 1
+- id: m26305
+  keywords: ["brujah","ghoul"]
+  name: "a Brujah ghoul"
+  description: >-
+    A Brujah ghoul stares at you vacantly.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "elysium:o26303": 75
+        "elysium:o26306": 75
+  metadata:
+    areaId: 25
+    exp_level: 1000
+    sex: 1
+- id: m26306
+  keywords: ["malkavian","ghoul"]
+  name: "a Malkavian ghoul"
+  description: >-
+    A Malkavian ghoul stares at you vacantly.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "elysium:o26300": 75
+        "elysium:o26316": 75
+  metadata:
+    areaId: 25
+    exp_level: 1000
+    sex: 1
+- id: m26307
+  keywords: ["cappadocian","ghoul"]
+  name: "a Cappadocian ghoul"
+  description: >-
+    A Cappadocian ghoul stares at you vacantly.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "elysium:o26308": 75
+        "elysium:o26309": 75
+  metadata:
+    areaId: 25
+    exp_level: 1000
+    sex: 1
+- id: m26308
+  keywords: ["nosferatu","ghoul"]
+  name: "a Nosferatu ghoul"
+  description: >-
+    A Nosferatu ghoul stares at you vacantly.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "elysium:o26302": 75
+        "elysium:o26312": 75
+  metadata:
+    areaId: 25
+    exp_level: 1000
+    sex: 1
+- id: m26309
+  keywords: ["ventrue","ghoul"]
+  name: "a Ventrue ghoul"
+  description: >-
+    A Ventrue ghoul stares at you vacantly.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "elysium:o26315": 75
+        "elysium:o26311": 75
+  metadata:
+    areaId: 25
+    exp_level: 1000
+    sex: 1
+- id: m26310
+  keywords: ["fido","dog","pet"]
+  name: "a pet fido"
+  description: >-
+    A pet fido sniffs your feet.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 25
+    exp_level: 1000
+    sex: 1

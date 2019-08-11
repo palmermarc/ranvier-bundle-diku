@@ -1,0 +1,2189 @@
+- id: r7190
+  title: "Mid-air"
+  description: >-
+    You've just stepped into the most unlucky position in the whole of DikuMUD.
+    The result of such a foolish act should be punished with death, you know.
+    With an acceleration of approximately 9.82 metres per second per second, you
+    are now descending the Abyss. What awaits you at the bottom will continue to
+    be a mystery. Bye Cruel World.
+    You've fallen, and you can't get up!!!
+- id: r7199
+  title: "The Edge of the Water"
+  description: >-
+    The pool side is dimly lit up by your light. You can see absolutely nothing
+    else nearby. The darkness her seems enormously oppressive here. The air is
+    damp and the rock on which you stand is slippery. The pool seems too dark 
+    to make anything clear. The rock can be climbed upwards from here.
+  exits:
+    - roomId: "sewer:r7099"
+      direction: up
+- id: r7200
+  title: "The Treasury"
+  description: >-
+    You are in a small but well equipped treasury.  You can see some writing on
+    the wall.  The ceiling has a funny glow, which enables you to see.  You can
+    get back into the inner lair through the stone door which is east.
+  exits:
+    - roomId: "sewer:r7201"
+      direction: east
+  items:
+    - id: "sewer:o7204"
+      respawnChance: 75
+- id: r7201
+  title: "The inner Lair"
+  description: >-
+    You are in a octagonal room with smooth purple stone walls.  The floor is 
+    made from black stone.  In the western wall you see a large black stone door.
+  exits:
+    - roomId: "sewer:r7202"
+      direction: south
+    - roomId: "sewer:r7200"
+      direction: west
+  npcs:
+    - id: "sewer:m7200"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r7202
+  title: "The Lair"
+  description: >-
+    On the floor you see a lot of human decay, like bones and skulls. You also
+    see a lot of slime. On the wall is a torch sitting in its sconce. To the north 
+    are a wooden door.
+  exits:
+    - roomId: "sewer:r7201"
+      direction: north
+    - roomId: "sewer:r7203"
+      direction: south
+    - roomId: "sewer:r7205"
+      direction: east
+- id: r7203
+  title: "The Lair"
+  description: >-
+    On the floor you see a lot of human decay, like bones and skulls. You also
+    see a lot of slime. On the wall is a torch sitting in its sconce.
+  exits:
+    - roomId: "sewer:r7202"
+      direction: north
+    - roomId: "sewer:r7204"
+      direction: south
+    - roomId: "sewer:r7206"
+      direction: east
+  npcs:
+    - id: "sewer:m7201"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r7204
+  title: "The Lair"
+  description: >-
+    On the floor you see a lot of human decay, like bones and skulls. You also
+    see a lot of slime. On the wall is a torch sitting in its sconce.
+  exits:
+    - roomId: "sewer:r7203"
+      direction: north
+    - roomId: "sewer:r7208"
+      direction: south
+    - roomId: "sewer:r7207"
+      direction: east
+- id: r7205
+  title: "The Lair"
+  description: >-
+    On the floor you see a lot of human decay, like bones and skulls. You also
+    see a lot of slime. On the wall is a torch sitting in its sconce.
+  exits:
+    - roomId: "sewer:r7206"
+      direction: south
+    - roomId: "sewer:r7202"
+      direction: west
+  npcs:
+    - id: "sewer:m7202"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r7206
+  title: "The lair."
+  description: >-
+    On the floor you see a lot of human decay, like bones and skulls. You also
+    see a lot of slime. On the wall is a torch sitting in its sconce.
+  exits:
+    - roomId: "sewer:r7205"
+      direction: north
+    - roomId: "sewer:r7207"
+      direction: south
+    - roomId: "sewer:r7203"
+      direction: west
+  items:
+    - id: "sewer:o7206"
+      respawnChance: 75
+- id: r7207
+  title: "The lair."
+  description: >-
+    On the floor you see a lot of human decay, like bones and skulls. You also
+    see a lot of slime. On the wall is a torch sitting in its sconce.
+  exits:
+    - roomId: "sewer:r7206"
+      direction: north
+    - roomId: "sewer:r7204"
+      direction: west
+  npcs:
+    - id: "sewer:m7202"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r7208
+  title: "The lair entrance."
+  description: >-
+    You are in a dry part of the sewer. To the north is a wooden door, you 
+    can see some slime at the lower part of the door. You also see some skulls
+    and some broken bones.
+  exits:
+    - roomId: "sewer:r7204"
+      direction: north
+    - roomId: "sewer:r7209"
+      direction: east
+- id: r7209
+  title: "The crawlway."
+  description: >-
+    You are in a narrow crawlway.  You don't notice anything interesting here.
+  exits:
+    - roomId: "sewer:r7210"
+      direction: east
+    - roomId: "sewer:r7208"
+      direction: west
+- id: r7210
+  title: "The four-way junction."
+  description: >-
+    You are in a sewer junction. To the north is a small hole, to the west is a
+    narrow crawlway and to the east and south the sewer continues.
+  exits:
+    - roomId: "sewer:r7211"
+      direction: north
+    - roomId: "sewer:r7215"
+      direction: south
+    - roomId: "sewer:r7212"
+      direction: east
+    - roomId: "sewer:r7209"
+      direction: west
+- id: r7211
+  title: "The small cave."
+  description: >-
+    You are in a collapsed sewer drain, which now is more like a small cave.
+  exits:
+    - roomId: "sewer:r7210"
+      direction: south
+- id: r7212
+  title: "The sewer drain."
+  description: >-
+    You are in a dry sewer drain which bends to the north.
+  exits:
+    - roomId: "sewer:r7213"
+      direction: north
+    - roomId: "sewer:r7210"
+      direction: west
+- id: r7213
+  title: "The sewer drain."
+  description: >-
+    You are in a dry sewer drain which bends to the east.
+  exits:
+    - roomId: "sewer:r7212"
+      direction: south
+    - roomId: "sewer:r7214"
+      direction: east
+  npcs:
+    - id: "sewer:m7203"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r7214
+  title: "The drain end."
+  description: >-
+    You are at the end of the drain around you the sewer has collapsed, the only
+    exit is west.
+  exits:
+    - roomId: "sewer:r7213"
+      direction: west
+  npcs:
+    - id: "sewer:m7203"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r7215
+  title: "The half-wet drain."
+  description: >-
+    You are in a sewer drain where the floor is covered with water. To the north
+    it looks more dry, south however the drain runs down into some water.
+  exits:
+    - roomId: "sewer:r7210"
+      direction: north
+    - roomId: "sewer:r7216"
+      direction: south
+  npcs:
+    - id: "sewer:m7203"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r7216
+  title: "Under water in the sewer."
+  description: >-
+    You swim in some dirty water and is holding you breath. You'll better 
+    continue before you drown. It is a good thing that you can hold your light
+    above water-level.
+  exits:
+    - roomId: "sewer:r7215"
+      direction: north
+    - roomId: "sewer:r7217"
+      direction: south
+- id: r7217
+  title: "The half-dry drain."
+  description: >-
+    You are in a half-dry sewer drain. To the north the drain runs a little bit
+    downwards into some water to the east you can see a small hole. To the west
+    you see another drain.
+  exits:
+    - roomId: "sewer:r7216"
+      direction: north
+    - roomId: "sewer:r7218"
+      direction: east
+    - roomId: "sewer:r7219"
+      direction: west
+  npcs:
+    - id: "sewer:m7203"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r7218
+  title: "The very small room."
+  description: >-
+    You are in a very small room, it is pretty uninteresting.
+  exits:
+    - roomId: "sewer:r7217"
+      direction: west
+- id: r7219
+  title: "A dry sewer drain."
+  description: >-
+    You are in a dry but dirty sewer drain. The drain continues east and south.
+  exits:
+    - roomId: "sewer:r7220"
+      direction: south
+    - roomId: "sewer:r7217"
+      direction: east
+  npcs:
+    - id: "sewer:m7203"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r7220
+  title: "A boring drain."
+  description: >-
+    You are in yet another sewer drain.
+  exits:
+    - roomId: "sewer:r7219"
+      direction: north
+    - roomId: "sewer:r7221"
+      direction: east
+- id: r7221
+  title: "The sewer drain."
+  description: >-
+    You are in a sewer drain, there is nothing special inhere, except for a 
+    loud echo.
+  exits:
+    - roomId: "sewer:r7222"
+      direction: east
+    - roomId: "sewer:r7220"
+      direction: west
+    - roomId: "sewer:r7129"
+      direction: up
+  npcs:
+    - id: "sewer:m7203"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r7222
+  title: "The sewer drain."
+  description: >-
+    You are in a drain, with some slimy water on the floor.
+  exits:
+    - roomId: "sewer:r7223"
+      direction: east
+    - roomId: "sewer:r7221"
+      direction: west
+- id: r7223
+  title: "The sewer bend."
+  description: >-
+    You find yourself in an ordinary sewer bend, which bend from west to north.
+  exits:
+    - roomId: "sewer:r7224"
+      direction: north
+    - roomId: "sewer:r7222"
+      direction: west
+  npcs:
+    - id: "sewer:m7203"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r7224
+  title: "The sewer junction"
+  description: >-
+    You stand in a junction of three sewer drains. You see some odd scratches on
+    the pipe wall, as from a gigantic rat.North and south the sewer continues 
+    as usual, but west it looks a little strange.
+  exits:
+    - roomId: "sewer:r7225"
+      direction: north
+    - roomId: "sewer:r7223"
+      direction: south
+    - roomId: "sewer:r7229"
+      direction: west
+- id: r7225
+  title: "The sewer"
+  description: >-
+    You are in a sewer, where the slimy water runs down through a tiny hole.
+    You see some odd scratches on the pipe wall, as from a gigantic rat. There 
+    is a sewer drain south.
+  exits:
+    - roomId: "sewer:r7224"
+      direction: south
+  npcs:
+    - id: "sewer:m7203"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r7229
+  title: "The strange sewer"
+  description: >-
+    You are in a very strange sewer indeed, there are some odd scratches on the
+    pipe wall, as from a gigantic rat. And you can see a lot of organic decay
+    like bones from animals AND humans. West the drain runs slightly upwards.
+  exits:
+    - roomId: "sewer:r7224"
+      direction: east
+    - roomId: "sewer:r7230"
+      direction: west
+- id: r7230
+  title: "The damp sewer"
+  description: >-
+    You are in a sewer drain with a funny damp substance on the floor, in the 
+    substance you see a lot of decay. You see some odd scratches on the wall, as
+    from a gigantic rat. Both to the east and west the pipe seems to run down.
+  exits:
+    - roomId: "sewer:r7229"
+      direction: east
+    - roomId: "sewer:r7231"
+      direction: west
+- id: r7231
+  title: "The strange sewer"
+  description: >-
+    You are in an ordinary sewer except for a lot of scratches on the sewer wall,
+    ad a lot of debris on the floor.
+  exits:
+    - roomId: "sewer:r7230"
+      direction: east
+    - roomId: "sewer:r7232"
+      direction: west
+- id: r7232
+  title: "The sewer"
+  description: >-
+    You are in a sewer with more scratches on the walls. And of course a whole lot
+    of decay. The drain runs east and north.
+  exits:
+    - roomId: "sewer:r7233"
+      direction: north
+    - roomId: "sewer:r7231"
+      direction: east
+- id: r7233
+  title: "The sewer drain"
+  description: >-
+    You stand in in a sewer drain, you are able to see some kind of cave-like
+    room. You see some odd scratches on the drain wall, as from a gigantic rat. 
+    The sewer leads south.
+  exits:
+    - roomId: "sewer:r7232"
+      direction: south
+    - roomId: "sewer:r7234"
+      direction: east
+  npcs:
+    - id: "sewer:m7203"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "sewer:m7203"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r7234
+  title: "The rat's lair"
+  description: >-
+    You are in a little cave. You are able to see quite a lot of debris on the 
+    floor. There is a sewer drain west of here.
+  exits:
+    - roomId: "sewer:r7233"
+      direction: west
+  npcs:
+    - id: "sewer:m7204"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r7279
+  title: "The Wall of the Abyss"
+  description: >-
+    You hang onto some steps leading down into utter darkness. There's an exit 
+    leading up as well, though you'll have to open the tiny rock again to do so.
+  exits:
+    - roomId: "sewer:r7111"
+      direction: up
+    - roomId: "sewer:r7399"
+      direction: down
+- id: r7280
+  title: "The entrance."
+  description: >-
+    You are in a very dark room. You notice that some faces are
+    staring at you from inside the walls. In the middle of the room
+    there is a small altar. To the north there is a small round
+    door.
+  exits:
+    - roomId: "sewer:r7281"
+      direction: north
+    - roomId: "sewer:r7116"
+      direction: up
+  npcs:
+    - id: "sewer:m7000"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r7281
+  title: "The corridor."
+  description: >-
+    The corridor is glowing oppressively in a red hue. You can hear wailing
+    through an open black hole to the east. To the south there is a round door.
+  exits:
+    - roomId: "sewer:r7280"
+      direction: south
+    - roomId: "sewer:r7282"
+      direction: east
+  npcs:
+    - id: "sewer:m7000"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "sewer:m7000"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r7282
+  title: "The Realm of lost souls"
+  description: >-
+    You are standing in nothing. All around you there are stars.
+    Sometimes a shadow flies closely by you, wailing very loudly. 
+    To the north there is a small bright hole. To the west there is 
+    a small red hole.
+  exits:
+    - roomId: "sewer:r7283"
+      direction: north
+    - roomId: "sewer:r7281"
+      direction: west
+- id: r7283
+  title: "The T-crossing"
+  description: >-
+    You are in a small hallway. There are doors to the east and to
+    the west. To the south there are a black hole. There is writing
+    in the wall. Wails can be heard from the south.
+  exits:
+    - roomId: "sewer:r7282"
+      direction: south
+    - roomId: "sewer:r7286"
+      direction: east
+    - roomId: "sewer:r7284"
+      direction: west
+- id: r7284
+  title: "The firedeath"
+  description: >-
+    This room is very hot. There are flames surrounding you.  You can
+    see no exits at all!  Skeletons are lying all over the floor.
+- id: r7285
+  title: "The tortureroom."
+  description: >-
+    You are standing in a middle of a square room. Along the walls skeletons 
+    are hanging in rusty chains. In the middle of the room there is a big metal 
+    box, covered with dust. To the south you can just make out a small exit.
+  exits:
+    - roomId: "sewer:r7286"
+      direction: south
+  npcs:
+    - id: "sewer:m7002"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "sewer:m7002"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r7286
+  title: "The hells yard"
+  description: >-
+    You are standing in a lot of mud. A disgusting smell surrounds
+    the place, and makes you fell sick. Small flames sometimes shoot
+    up from the hot mud. To the west there is a small door. To the 
+    north you can see an iron door.
+  exits:
+    - roomId: "sewer:r7285"
+      direction: north
+    - roomId: "sewer:r7283"
+      direction: west
+  npcs:
+    - id: "sewer:m7000"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "sewer:m7013"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r7000
+  title: "The Entrance to the Realm of silence"
+  description: >-
+    This is an utterly silent place. As you look around you see that there
+    hasn't been a living thing in a long time. The dust lies here in a thick
+    layer on the floor and on the furniture. On the wall hangs a bleak and 
+    worn tapestry. A winding stone staircase leads up into darkness. On the 
+    wall to the west you can see a huge torch stuck into the solid rock.
+    A large portcullis blocks your way to the north.
+- id: r7399
+  title: "On the walls of the Abyss"
+  description: >-
+    You are clutching the steps on the wall so that you don't fall to the ground
+    down below.
+    A large sign says : I haven't gotten any further ... Yet. But  I'm pushing
+                        to get finished with this sewer. 
+                                               Greetings and Good Health :)
+                                                         Redferne The Gentle
+    This stops your journey down, the only exit is up.
+  exits:
+    - roomId: "sewer:r7279"
+      direction: up
+- id: r7400
+  title: "Cave entrance"
+  description: >-
+    You are standing in the cave entrance. It is very dark
+    down here. There is writing at the wall. There is an exit
+    to the north. A stairway leads up.
+  exits:
+    - roomId: "sewer:r7401"
+      direction: north
+    - roomId: "sewer:r7102"
+      direction: up
+- id: r7401
+  title: "Cave tunnel"
+  description: >-
+    You are walking in a tunnel. It is very cold. You
+    can feel the presence of a living thing ... SOMEWHERE.
+  exits:
+    - roomId: "sewer:r7402"
+      direction: north
+    - roomId: "sewer:r7400"
+      direction: south
+  npcs:
+    - id: "sewer:m7008"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r7402
+  title: "Cave room"
+  description: >-
+    You are standing in a room. It's much cooler now.
+    The walls are glowing.
+  exits:
+    - roomId: "sewer:r7401"
+      direction: south
+    - roomId: "sewer:r7403"
+      direction: east
+    - roomId: "sewer:r7421"
+      direction: west
+- id: r7403
+  title: "Cave T-cross"
+  description: >-
+    You are standing in a mud-like substance. The smell here is
+    awful, it is rotten. To the west you can see some light.
+  exits:
+    - roomId: "sewer:r7408"
+      direction: south
+    - roomId: "sewer:r7404"
+      direction: east
+    - roomId: "sewer:r7402"
+      direction: west
+  npcs:
+    - id: "sewer:m7013"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r7404
+  title: "Cave turning-point"
+  description: >-
+    The mud are getting deeper. You are wondering, 'Would
+    it be an idea to leave, before I disappear?'. To the
+    south you notice a flat round stone are blocking the
+    way. To the west you can see mud.
+  exits:
+    - roomId: "sewer:r7405"
+      direction: south
+    - roomId: "sewer:r7403"
+      direction: west
+- id: r7405
+  title: "The secret room"
+  description: >-
+    There is dust all over the place. It looks like nobody
+    has been here for ages. In the middle of the room you see
+    a socket with a crystal globe. The globe glows with a
+    pulsing light. To the north you see a stone door. To the
+    south you see a grey block.
+  exits:
+    - roomId: "sewer:r7404"
+      direction: north
+    - roomId: "sewer:r7406"
+      direction: south
+- id: r7406
+  title: "The mudhole"
+  description: >-
+    You are standing in a lot of mud. The mud goes to your
+    chest. You feel the presence of something IN the mud.
+    The only obvious exit is to the west.
+  exits:
+    - roomId: "sewer:r7405"
+      direction: north
+    - roomId: "sewer:r7407"
+      direction: west
+  npcs:
+    - id: "sewer:m7044"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r7407
+  title: "Tunnel"
+  description: >-
+    The mud goes to your knees. Otherwise the tunnel looks
+    very normal.
+  exits:
+    - roomId: "sewer:r7408"
+      direction: north
+    - roomId: "sewer:r7409"
+      direction: south
+    - roomId: "sewer:r7406"
+      direction: east
+- id: r7408
+  title: "The long tunnel"
+  description: >-
+    Here There is almost no mud, as you stand at the top
+    of a small rock. Just beside you there are a sign which
+    says 'WARNING! The worms are dangerous!'.
+  exits:
+    - roomId: "sewer:r7403"
+      direction: north
+    - roomId: "sewer:r7407"
+      direction: south
+- id: r7409
+  title: "The hot room"
+  description: >-
+    You are very surprised, as this room for a change are
+    hot instead of cold. To the north it goes downwards into
+    some mud. There are also an exit to the west.
+  exits:
+    - roomId: "sewer:r7407"
+      direction: north
+    - roomId: "sewer:r7410"
+      direction: west
+- id: r7410
+  title: "The small room"
+  description: >-
+    As you look around you notice a small statue. There are
+    exits to the west and to the east.
+  exits:
+    - roomId: "sewer:r7409"
+      direction: east
+    - roomId: "sewer:r7411"
+      direction: west
+- id: r7411
+  title: "The stalagmite cave"
+  description: >-
+    You are standing in a stalagmite cave. Water is dripping
+    from the walls. It is very cold in here.
+  exits:
+    - roomId: "sewer:r7414"
+      direction: north
+    - roomId: "sewer:r7412"
+      direction: south
+    - roomId: "sewer:r7410"
+      direction: east
+- id: r7412
+  title: "The stalagmite tunnel"
+  description: >-
+    You has entered a small tunnel. Here it is quite dry.
+    Maybe it would be an idea to rest here.
+  exits:
+    - roomId: "sewer:r7411"
+      direction: north
+    - roomId: "sewer:r7413"
+      direction: west
+  npcs:
+    - id: "sewer:m7013"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r7413
+  title: "The spongy room"
+  description: >-
+    You definitely NOT like this area. It is very dank, and most
+    of the places it is wet.
+  exits:
+    - roomId: "sewer:r7412"
+      direction: east
+    - roomId: "sewer:r7445"
+      direction: west
+- id: r7414
+  title: "The stalagmite T-cross"
+  description: >-
+    You are standing in a cross. To the north you can see
+    some light. Otherwise it is dark.
+  exits:
+    - roomId: "sewer:r7417"
+      direction: north
+    - roomId: "sewer:r7411"
+      direction: south
+    - roomId: "sewer:r7415"
+      direction: east
+- id: r7415
+  title: "The blind end room"
+  description: >-
+    This room is obviously a blind end. To the north you see
+    a primitive picture.
+  exits:
+    - roomId: "sewer:r7416"
+      direction: north
+    - roomId: "sewer:r7414"
+      direction: west
+- id: r7416
+  title: "The treasure room"
+  description: >-
+    This room is rich ornamented. The walls has carves showing
+    persons dancing around a sun which is drawn at the floor. It
+    looks very old, and it is very dusty. To the south you see a
+    secret door.
+  exits:
+    - roomId: "sewer:r7415"
+      direction: south
+- id: r7417
+  title: "The square lair"
+  description: >-
+    You are standing in the south-east part of the lair. You can
+    see a skeleton lying at the wall.
+  exits:
+    - roomId: "sewer:r7418"
+      direction: north
+    - roomId: "sewer:r7414"
+      direction: south
+    - roomId: "sewer:r7420"
+      direction: west
+- id: r7418
+  title: "The square lair"
+  description: >-
+    You are standing in the north-east part of the lair. You see
+    a sign at the wall
+  exits:
+    - roomId: "sewer:r7417"
+      direction: south
+    - roomId: "sewer:r7421"
+      direction: east
+    - roomId: "sewer:r7419"
+      direction: west
+- id: r7419
+  title: "The square lair"
+  description: >-
+    You are standing in the north-west part of the lair. Here's
+    another sign. There are a exit from the lair to the north.
+  exits:
+    - roomId: "sewer:r7422"
+      direction: north
+    - roomId: "sewer:r7420"
+      direction: south
+    - roomId: "sewer:r7418"
+      direction: east
+  npcs:
+    - id: "sewer:m7045"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r7420
+  title: "The lair end"
+  description: >-
+    You can see a table in front of you. It's very dusty.
+    Around the table five skeletons are siting. Exits are
+    north and east.
+  exits:
+    - roomId: "sewer:r7419"
+      direction: north
+    - roomId: "sewer:r7417"
+      direction: east
+- id: r7421
+  title: "East tunnel"
+  description: >-
+    You are standing in dark tunnel, the exits are east
+    and west. To the west you see a wooden door.
+  exits:
+    - roomId: "sewer:r7402"
+      direction: east
+    - roomId: "sewer:r7418"
+      direction: west
+- id: r7422
+  title: "North tunnel"
+  description: >-
+    You are standing in a dark tunnel, it leads upwards.
+  exits:
+    - roomId: "sewer:r7423"
+      direction: north
+    - roomId: "sewer:r7419"
+      direction: south
+    - roomId: "sewer:r7436"
+      direction: west
+  npcs:
+    - id: "sewer:m7007"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r7423
+  title: "The L-shaped room."
+  description: >-
+    You are standing in deep darkness. To the south there is a small exit.
+    To the east you can see a gaping hole.
+  exits:
+    - roomId: "sewer:r7422"
+      direction: south
+    - roomId: "sewer:r7424"
+      direction: east
+  npcs:
+    - id: "sewer:m7011"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r7424
+  title: "The Circular hall."
+  description: >-
+    You are standing in round hall. To the north, east and south you
+    can see a stone head hanging on the walls.
+  exits:
+    - roomId: "sewer:r7425"
+      direction: east
+    - roomId: "sewer:r7423"
+      direction: west
+  npcs:
+    - id: "sewer:m7046"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r7425
+  title: "Dusty tunnel"
+  description: >-
+    You are standing in dust. This place has not been
+    touched for a long time. Otherwise it is quite boring
+    here, looks like a place to rest! To the west you see
+    the outline of a door. A tunnel leads to the east.
+  exits:
+    - roomId: "sewer:r7426"
+      direction: east
+    - roomId: "sewer:r7424"
+      direction: west
+- id: r7426
+  title: "The crossing"
+  description: >-
+    You are standing in a crossing of hallways. You can leave this place
+    in every direction, except up and down. In the dust you notice strange
+    footprints.
+  exits:
+    - roomId: "sewer:r7431"
+      direction: north
+    - roomId: "sewer:r7427"
+      direction: south
+    - roomId: "sewer:r7430"
+      direction: east
+    - roomId: "sewer:r7425"
+      direction: west
+- id: r7427
+  title: "The L-shaped room"
+  description: >-
+    You are standing in a L-shaped room. You can hear noises from the long
+    tunnel to the east. You can feel fear! A sign is hanging on the wall.
+  exits:
+    - roomId: "sewer:r7426"
+      direction: north
+    - roomId: "sewer:r7428"
+      direction: east
+- id: r7428
+  title: "Dragons lair"
+  description: >-
+    You can see burned walls, the floorstones are fiery red.  All kinds of bones
+    are scattered all over the floor.  On the walls you can see some burned
+    shapes.  You smell burned flesh.  Two creatures are melted into the floor.
+    You're next.
+  exits:
+    - roomId: "sewer:r7429"
+      direction: north
+    - roomId: "sewer:r7427"
+      direction: west
+  npcs:
+    - id: "sewer:m7040"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r7429
+  title: "The burned room"
+  description: >-
+    You are in a room, which once had been quite burned.
+    There is writing on the wall.
+  exits:
+    - roomId: "sewer:r7428"
+      direction: south
+    - roomId: "sewer:r7430"
+      direction: west
+  npcs:
+    - id: "sewer:m7010"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r7430
+  title: "The wind tunnel"
+  description: >-
+    You are standing in a tunnel. Above you, you can feel
+    a breeze.
+  exits:
+    - roomId: "sewer:r7429"
+      direction: east
+    - roomId: "sewer:r7426"
+      direction: west
+- id: r7431
+  title: "The glittering room"
+  description: >-
+    This room are all bright. In the walls you can see some
+    silver. Exits are: West, east and south.
+  exits:
+    - roomId: "sewer:r7426"
+      direction: south
+    - roomId: "sewer:r7432"
+      direction: east
+    - roomId: "sewer:r7433"
+      direction: west
+- id: r7432
+  title: "The secret passageroom"
+  description: >-
+    You have entered a tiny room. There WAS an exit down, and an
+    exit to the west.
+  exits:
+    - roomId: "sewer:r7431"
+      direction: west
+- id: r7433
+  title: "End of long tunnel"
+  description: >-
+    You are at a end of a long tunnel. Right in front of you,
+    you can see a grey mass. To the east you can see a tremendous
+    long tunnel, but you know that, you has just been there.
+  exits:
+    - roomId: "sewer:r7431"
+      direction: east
+    - roomId: "sewer:r7434"
+      direction: west
+- id: r7434
+  title: "Stair-room"
+  description: >-
+    You are standing in a small room. Drawings of faces in pain
+    are on the walls. You can fell darkness is ruling the place.
+    there are two exits: south and down.
+  exits:
+    - roomId: "sewer:r7435"
+      direction: south
+- id: r7435
+  title: "Dark tunnel"
+  description: >-
+    You are standing in a dark tunnel. It continues to the north
+    and to the south. Bones are spread on the floor
+  exits:
+    - roomId: "sewer:r7434"
+      direction: north
+    - roomId: "sewer:r7436"
+      direction: south
+  npcs:
+    - id: "sewer:m7042"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r7436
+  title: "Entrance to lair"
+  description: >-
+    The smell here is awful.  To the south you can see some smoke.
+    A tunnel leads north, and east.
+  exits:
+    - roomId: "sewer:r7435"
+      direction: north
+    - roomId: "sewer:r7437"
+      direction: south
+    - roomId: "sewer:r7422"
+      direction: east
+- id: r7437
+  title: "North-eastern part of Basilisks cave"
+  description: >-
+    It is hard to see here because of the smoke. To the north you
+    can see barely see a small tunnel. Other exits are to the south
+    and to the west.
+  exits:
+    - roomId: "sewer:r7436"
+      direction: north
+    - roomId: "sewer:r7438"
+      direction: south
+    - roomId: "sewer:r7439"
+      direction: west
+- id: r7438
+  title: "South-eastern part of basilisks cave"
+  description: >-
+    There are a very small hole in wall, from where the smoke
+    are coming from. Otherwise it is pitch dark. Exits are north
+    and west.
+  exits:
+    - roomId: "sewer:r7437"
+      direction: north
+    - roomId: "sewer:r7440"
+      direction: west
+- id: r7439
+  title: "North-western part of basilisks cave"
+  description: >-
+    You can see some hay spread on the floor. The smell is awful here,
+    and it makes you feel sick.  The basilisk sleeps here.
+    Watch out ... Maybe it is not far away.
+  exits:
+    - roomId: "sewer:r7440"
+      direction: south
+    - roomId: "sewer:r7437"
+      direction: east
+  npcs:
+    - id: "sewer:m7043"
+      respawnChance: 100
+      maxLoad: "3"
+  items:
+    - id: "sewer:o7001"
+      respawnChance: 75
+- id: r7440
+  title: "South-western part of basilisks cave"
+  description: >-
+    You can see nothing but smoke.
+  exits:
+    - roomId: "sewer:r7439"
+      direction: north
+    - roomId: "sewer:r7441"
+      direction: south
+    - roomId: "sewer:r7438"
+      direction: east
+- id: r7441
+  title: "The small cave"
+  description: >-
+    You are standing in small cave. You can see
+    some light in the end. Exits are north and south.
+  exits:
+    - roomId: "sewer:r7440"
+      direction: north
+    - roomId: "sewer:r7442"
+      direction: south
+- id: r7442
+  title: "The northern end of the pool"
+  description: >-
+    You have wet feet, you are standing in water. The water looks calm. You can
+    see that it's a big lake. Light seeps from the water.
+  exits:
+    - roomId: "sewer:r7441"
+      direction: north
+    - roomId: "sewer:r7444"
+      direction: south
+    - roomId: "sewer:r7443"
+      direction: east
+- id: r7443
+  title: "The pool"
+  description: >-
+    You are swimming in water. It is getting deep here. It is dark in this end.
+  exits:
+    - roomId: "sewer:r7445"
+      direction: south
+    - roomId: "sewer:r7442"
+      direction: west
+- id: r7444
+  title: "The south end of the pool"
+  description: >-
+    You standing in water up to you neck. You can only see water.
+  exits:
+    - roomId: "sewer:r7442"
+      direction: north
+    - roomId: "sewer:r7445"
+      direction: east
+  npcs:
+    - id: "sewer:m7041"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r7445
+  title: "The pool"
+  description: >-
+    You are swimming in DARKNESS. You feel something
+    touching your right leg.
+  exits:
+    - roomId: "sewer:r7443"
+      direction: north
+    - roomId: "sewer:r7413"
+      direction: east
+    - roomId: "sewer:r7444"
+      direction: west
+- id: r7001
+  title: "The muddy sewer"
+  description: >-
+    You are standing in mud to your knees. This is not the kind of place
+    for a picnic. The muddy sewer stretches further into the south.
+  exits:
+    - roomId: "sewer:r7002"
+      direction: south
+- id: r7002
+  title: "The muddy sewer junction "
+  description: >-
+    The muddy sewer stretches into the dark to the south. It looks as if 
+    no person has ever sat his foot here before. It's too muddy for that
+    anyway. The sewer leads north, south and east from here.
+  exits:
+    - roomId: "sewer:r7001"
+      direction: north
+    - roomId: "sewer:r7003"
+      direction: south
+    - roomId: "sewer:r7007"
+      direction: east
+- id: r7003
+  title: "The mudhole"
+  description: >-
+    You stand in mud all the way up to your thighs and it's not too 
+    comfortable since you are used to a somewhat different environment.
+    The sewer leads to the north of here. In the middle you can just make
+    out an enormous drainpipe leading down.
+  exits:
+    - roomId: "sewer:r7002"
+      direction: north
+    - roomId: "sewer:r7101"
+      direction: down
+- id: r7004
+  title: "The Dark Pit"
+  description: >-
+    You are standing by the edge of a dark pit that leads down into even
+    deeper darkness. >BWWAAADDRR< - The smell from down there is unbearable.
+    The sewer stretches into the darkness to the east.
+  exits:
+    - roomId: "sewer:r7009"
+      direction: east
+    - roomId: "sewer:r7102"
+      direction: down
+  npcs:
+    - id: "sewer:m7001"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "sewer:m7001"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r7005
+  title: "The muddy sewer"
+  description: >-
+    You are standing in the middle of a bend of the sewer pipe. It is very
+    dark around here and the mud is sticking to your legs, not very pleasant.
+    The pipe leads east and south from here.
+  exits:
+    - roomId: "sewer:r7006"
+      direction: south
+    - roomId: "sewer:r7011"
+      direction: east
+- id: r7006
+  title: "The muddy sewer"
+  description: >-
+    You are standing in something that reminds you very much of porridge, this
+    has the advantage that it's not hot, it's rather cold actually. The pipe 
+    bends to the north and east.
+  exits:
+    - roomId: "sewer:r7005"
+      direction: north
+    - roomId: "sewer:r7012"
+      direction: east
+- id: r7007
+  title: "The muddy sewer bend"
+  description: >-
+    This isn't your idea of a place to stay too long. You're in up to your
+    knees in something that resembles mud, but you're not quite sure. The
+    bend in which you stand leads west and south.
+  exits:
+    - roomId: "sewer:r7008"
+      direction: south
+    - roomId: "sewer:r7002"
+      direction: west
+- id: r7008
+  title: "A muddy intersection"
+  description: >-
+    You have both your feet safely stuck in mud. It isn't the mud that's wrong
+    it's the smell, the sounds, the total darkness that surrounds you. Everything
+    here is so depressing. The pipe leads on with a trail of thick mud to the
+    north, east and south.
+  exits:
+    - roomId: "sewer:r7007"
+      direction: north
+    - roomId: "sewer:r7009"
+      direction: south
+    - roomId: "sewer:r7014"
+      direction: east
+- id: r7009
+  title: "The Sewer Junction"
+  description: >-
+    You stand in the middle of a huge junction of sewer pipes right under
+    what you'd think was an air shaft. The sewer pipes lead to the north,
+    south, east and west. It look quite impossible to force your way up.
+  exits:
+    - roomId: "sewer:r7008"
+      direction: north
+    - roomId: "sewer:r7010"
+      direction: south
+    - roomId: "sewer:r7017"
+      direction: east
+    - roomId: "sewer:r7004"
+      direction: west
+- id: r7010
+  title: "A bend in sewer pipe"
+  description: >-
+    You are in a bend in the sewer pipe. A strong smell seeps in from the north.
+    The sewer goes north and east.
+  exits:
+    - roomId: "sewer:r7009"
+      direction: north
+    - roomId: "sewer:r7018"
+      direction: east
+- id: r7011
+  title: "The muddy sewer pipe"
+  description: >-
+    You have entered a kind of tube intersection that leads south, west and east.
+    Your legs are covered in mud up to the knees. REAL yucky!
+  exits:
+    - roomId: "sewer:r7021"
+      direction: south
+    - roomId: "sewer:r7024"
+      direction: east
+    - roomId: "sewer:r7005"
+      direction: west
+- id: r7012
+  title: "The bend in the Muddy sewer"
+  description: >-
+    This is not your idea of a holiday. You stand in mud up to your knees.
+    It's absolutely inconceivable how all this mud could have been placed
+    here. The pipe leads to the west and south.
+  exits:
+    - roomId: "sewer:r7013"
+      direction: south
+    - roomId: "sewer:r7006"
+      direction: west
+- id: r7013
+  title: "A MUDDY intersection"
+  description: >-
+    You wouldn't want to know the true feeling of standing in this mud up to 
+    your hips. >BWAADR<. All that fills your mind right now is the dream of 
+    a hot bath. This is NOT very clean mud you know, remember you're in the
+    sewer! The pipes leads north, south and east.
+  exits:
+    - roomId: "sewer:r7012"
+      direction: north
+    - roomId: "sewer:r7014"
+      direction: south
+    - roomId: "sewer:r7026"
+      direction: east
+- id: r7014
+  title: "Muddy sewer"
+  description: >-
+    You stand in a bend of the pipe system of the sewer with mud up to your
+    thighs. Contemplating a higher level of existence here would be utterly
+    inappropriate, as the smell would keep any intelligent creature from even
+    thinking of anything but getting away from this foul end of the WORLD.
+    The bend goes from north to west.
+  exits:
+    - roomId: "sewer:r7013"
+      direction: north
+    - roomId: "sewer:r7008"
+      direction: west
+- id: r7015
+  title: "The old well"
+  description: >-
+    You are standing by an old and worn well from before this century. The sewer
+    leads to the east from here and the well leads down into darkness. Metal
+    bars implanted in the side of the well lead down as a ladder.
+  exits:
+    - roomId: "sewer:r7028"
+      direction: east
+    - roomId: "sewer:r7105"
+      direction: down
+- id: r7016
+  title: "The ordinary bend"
+  description: >-
+    You are in the middle of a bend in the pipe system of the sewer system, 
+    WHAT a place!!! The pipe leads to the south and the east.
+  exits:
+    - roomId: "sewer:r7017"
+      direction: south
+    - roomId: "sewer:r7021"
+      direction: east
+- id: r7017
+  title: "The sewer junction"
+  description: >-
+    You are in a junction that leads north, west and south.
+  exits:
+    - roomId: "sewer:r7016"
+      direction: north
+    - roomId: "sewer:r7018"
+      direction: south
+    - roomId: "sewer:r7009"
+      direction: west
+- id: r7018
+  title: "The ordinary junction"
+  description: >-
+    This looks like an ordinary junction, actually it seems very quiet
+    here. The pipelines lead west, east and north.
+  exits:
+    - roomId: "sewer:r7017"
+      direction: north
+    - roomId: "sewer:r7031"
+      direction: east
+    - roomId: "sewer:r7010"
+      direction: west
+- id: r7021
+  title: "A quiet pipe junction"
+  description: >-
+    This is the kind of place to rest, though the smell could be a LOT better
+    than this. The sewer goes east, north and west from here.
+  exits:
+    - roomId: "sewer:r7011"
+      direction: north
+    - roomId: "sewer:r7029"
+      direction: east
+    - roomId: "sewer:r7016"
+      direction: west
+- id: r7022
+  title: "The odd room with smooth walls"
+  description: >-
+    As you enter you hear a loud click from one of the walls ... and you fall
+    and fall and fall ...
+    .
+    .
+    .
+    .
+     ... And come to an abrupt end. THIS is strange indeed. There's an arched
+    entryway leading down.
+  exits:
+    - roomId: "sewer:r7112"
+      direction: down
+- id: r7024
+  title: "The sewer"
+  description: >-
+    You are standing in mud up to your ankles. This is an intersection with 
+    sewer pipes leading east, south and west.
+  exits:
+    - roomId: "sewer:r7025"
+      direction: south
+    - roomId: "sewer:r7037"
+      direction: east
+    - roomId: "sewer:r7011"
+      direction: west
+- id: r7025
+  title: "Another intersection"
+  description: >-
+    You have never seen anything so BORING...This is an intersection with pipes
+    leading north, south and east.
+  exits:
+    - roomId: "sewer:r7024"
+      direction: north
+    - roomId: "sewer:r7026"
+      direction: south
+    - roomId: "sewer:r7038"
+      direction: east
+  npcs:
+    - id: "sewer:m7001"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r7026
+  title: "A junction"
+  description: >-
+    This one seems interesting, a big difference from all the other junctions.
+    It seems cleaner than the rest of them. Weird. Something that looks like 
+    an air shaft leads upwards, but it looks far too slippery to climb.
+    The pipes lead to the south, west and north.
+  exits:
+    - roomId: "sewer:r7025"
+      direction: north
+    - roomId: "sewer:r7028"
+      direction: south
+    - roomId: "sewer:r7013"
+      direction: west
+- id: r7028
+  title: "The sewer junction"
+  description: >-
+    You stand in a junction of sewer pipes leading north, east and west.
+  exits:
+    - roomId: "sewer:r7026"
+      direction: north
+    - roomId: "sewer:r7034"
+      direction: east
+    - roomId: "sewer:r7015"
+      direction: west
+- id: r7029
+  title: "The Triple Junction"
+  description: >-
+    You stand in the middle of a huge junction of concrete sewer pipes. The 
+    pipes lead into three different directions : east, south and west.
+  exits:
+    - roomId: "sewer:r7030"
+      direction: south
+    - roomId: "sewer:r7035"
+      direction: east
+    - roomId: "sewer:r7021"
+      direction: west
+- id: r7030
+  title: "The Quadruple Junction Under the Dump"
+  description: >-
+    You are standing in something that reminds you of an entry to an ant hive.
+    There are enormous concrete pipes leading north, south, east and west. 
+    There's also a metal ladder built into the concrete wall leading up through
+    a layer of garbage.
+  exits:
+    - roomId: "sewer:r7029"
+      direction: north
+    - roomId: "sewer:r7031"
+      direction: south
+    - roomId: "sewer:r7036"
+      direction: east
+    - roomId: "sewer:r7022"
+      direction: west
+    - roomId: "midgaard:r3030"
+      direction: up
+- id: r7031
+  title: "A triple junction"
+  description: >-
+    You stand in a junction with pipes leading west, north and east.
+  exits:
+    - roomId: "sewer:r7030"
+      direction: north
+    - roomId: "sewer:r7044"
+      direction: east
+    - roomId: "sewer:r7018"
+      direction: west
+  npcs:
+    - id: "sewer:m7002"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r7034
+  title: "A bend in the sewer pipe"
+  description: >-
+    You can look in two directions where the pipe leads : south and west.
+  exits:
+    - roomId: "sewer:r7035"
+      direction: south
+    - roomId: "sewer:r7028"
+      direction: west
+- id: r7035
+  title: "The sewer pipe bend"
+  description: >-
+    You can look in two different directions where the pipe goes : west and 
+    north.
+  exits:
+    - roomId: "sewer:r7034"
+      direction: north
+    - roomId: "sewer:r7029"
+      direction: west
+- id: r7036
+  title: "The pit"
+  description: >-
+    You stand in a section of a pipe that leads to a dead end. In the floor
+    there's a pit leading down. There are bars set in the side of the pit wall
+    functioning as a ladder.
+  exits:
+    - roomId: "sewer:r7030"
+      direction: west
+    - roomId: "sewer:r7122"
+      direction: down
+- id: r7037
+  title: "The round room"
+  description: >-
+    As you enter the room it starts rotating - at first slowly, later faster
+    and faster - You get totally confused as to where up and down is, but you are
+    certain that the doorway is in the opposite direction of what it was when
+    you entered. It now leads east. There was only this one exit.
+  exits:
+    - roomId: "sewer:r7050"
+      direction: east
+  npcs:
+    - id: "sewer:m7003"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "sewer:m7003"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r7038
+  title: "The three way junction"
+  description: >-
+    You are standing in a junction of pipes that lead west, east and south.
+  exits:
+    - roomId: "sewer:r7039"
+      direction: south
+    - roomId: "sewer:r7045"
+      direction: east
+    - roomId: "sewer:r7025"
+      direction: west
+- id: r7039
+  title: "The Sewer Store Room"
+  description: >-
+    You stand in a small room lit by a single torch set in the wall. The only 
+    way out of here is to the north.
+  exits:
+    - roomId: "sewer:r7038"
+      direction: north
+  npcs:
+    - id: "sewer:m7003"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "sewer:m7003"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "sewer:m7003"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r7041
+  title: "The Shaft"
+  description: >-
+    You are standing by the edge of a deep, dark shaft leading down. A single
+    ladder is your tool to work your way down if you so wish. The sewer pipe
+    leads south from here.
+  exits:
+    - roomId: "sewer:r7043"
+      direction: south
+    - roomId: "sewer:r7123"
+      direction: down
+  npcs:
+    - id: "sewer:m7001"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r7043
+  title: "The Sewer Entrance"
+  description: >-
+    You stand in the middle of a pipe that leads from north to south. Above you
+    an air shaft leads up into sunlight. It seems totally impossible to go up
+    that way.
+  exits:
+    - roomId: "sewer:r7041"
+      direction: north
+    - roomId: "sewer:r7044"
+      direction: south
+- id: r7044
+  title: "The junction going three ways"
+  description: >-
+    You are in a passageway in the pipes of the sewer system leading north, east
+    and west.
+  exits:
+    - roomId: "sewer:r7043"
+      direction: north
+    - roomId: "sewer:r7049"
+      direction: east
+    - roomId: "sewer:r7031"
+      direction: west
+- id: r7045
+  title: "The Sewer Room"
+  description: >-
+    You are standing in a large room with chairs set in the walls. You have the
+    feeling of being watched. To the south there's an entry to a larger room.
+    The room is lit by five torches, also set in the walls. To the west there
+    is a doorway leading out to the sewers.
+  exits:
+    - roomId: "sewer:r7046"
+      direction: south
+    - roomId: "sewer:r7038"
+      direction: west
+- id: r7046
+  title: "The Sewer room"
+  description: >-
+    This is a Room with walls that glitters like gold though not quite like it.
+    This is strange as it looks as if the glitter lights the whole room. It
+    looks very bright. To the south the floor is covered with yucky water. The
+    North leads to sort of a Guard Room.
+  exits:
+    - roomId: "sewer:r7045"
+      direction: north
+    - roomId: "sewer:r7047"
+      direction: south
+- id: r7047
+  title: "The Pool in the Sewer"
+  description: >-
+    You stand in water to your waist.  To the north is the entrance to this room.
+    A single door leads east.
+  exits:
+    - roomId: "sewer:r7046"
+      direction: north
+    - roomId: "sewer:r7053"
+      direction: east
+- id: r7048
+  title: "The Sewers"
+  description: >-
+    You stand in a dead end of the sewer. The only way out is south.
+    You can see a shaft leading up but it looks too difficult to go up
+    that way.
+  exits:
+    - roomId: "sewer:r7049"
+      direction: south
+- id: r7049
+  title: "The junction"
+  description: >-
+    You stand in a junction leading north, west and east.
+  exits:
+    - roomId: "sewer:r7048"
+      direction: north
+    - roomId: "sewer:r7060"
+      direction: east
+    - roomId: "sewer:r7044"
+      direction: west
+  npcs:
+    - id: "sewer:m7002"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r7050
+  title: "The small room"
+  description: >-
+    The only thing in this room of interest is a chair, and that's tight to the 
+    rock floor. A doorway leads south and another leads east into darkness.
+  exits:
+    - roomId: "sewer:r7051"
+      direction: south
+    - roomId: "sewer:r7055"
+      direction: east
+  npcs:
+    - id: "sewer:m7003"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r7051
+  title: "The Sewer pipe"
+  description: >-
+    You are in what reminds you of a foul sewer, as if you liked being here! 
+    You can see two exits leading either north or south.
+  exits:
+    - roomId: "sewer:r7050"
+      direction: north
+    - roomId: "sewer:r7052"
+      direction: south
+- id: r7052
+  title: "The Grand Sewer"
+  description: >-
+    You are in a Grand Sewer Pipe. This stretches toward the south. It's large 
+    indeed! A doorway leads to the east from here.
+  exits:
+    - roomId: "sewer:r7051"
+      direction: north
+    - roomId: "sewer:r7053"
+      direction: south
+    - roomId: "sewer:r7056"
+      direction: east
+- id: r7053
+  title: "The South end of the Grand Pipe"
+  description: >-
+    You stand in water to your knees. A doorway leads west from here. The Pipe
+    stretches north.
+  exits:
+    - roomId: "sewer:r7052"
+      direction: north
+    - roomId: "sewer:r7047"
+      direction: west
+- id: r7055
+  title: "The Edge of The Water Sewer"
+  description: >-
+    You stand in a room where half of the floor is covered in water. The water
+    leads east and a doorway leads west.
+  exits:
+    - roomId: "sewer:r7061"
+      direction: east
+    - roomId: "sewer:r7050"
+      direction: west
+- id: r7056
+  title: "The Dark hallway"
+  description: >-
+    You can't see much of this, even with a light. The hallway goes into a
+    passageway to the south. A doorway leads west.
+  exits:
+    - roomId: "sewer:r7057"
+      direction: south
+    - roomId: "sewer:r7052"
+      direction: west
+- id: r7057
+  title: "The dark passageway"
+  description: >-
+    You can't see anything but the ground where you put your feet. The 
+    passageway seems to continue south and north.
+  exits:
+    - roomId: "sewer:r7056"
+      direction: north
+    - roomId: "sewer:r7058"
+      direction: south
+- id: r7058
+  title: "The dark passageway"
+  description: >-
+    You can't see anything but the ground where you put your feet. The
+    passageway seems to continue south and north.
+  exits:
+    - roomId: "sewer:r7057"
+      direction: north
+    - roomId: "sewer:r7059"
+      direction: south
+- id: r7059
+  title: "The dark passageway"
+  description: >-
+    You can't see anything but the ground where you put your feet. The
+    passageway seems to continue south and north.
+  exits:
+    - roomId: "sewer:r7058"
+      direction: north
+    - roomId: "sewer:r7060"
+      direction: south
+- id: r7060
+  title: "The dark passageway"
+  description: >-
+    You can't see anything but the ground where you put your feet. The
+    passageway seems to continue west and north. To the east there's water
+    covering the floor and that leads through an arched entry to a watery
+    sewer.
+  exits:
+    - roomId: "sewer:r7059"
+      direction: north
+    - roomId: "sewer:r7068"
+      direction: east
+    - roomId: "sewer:r7049"
+      direction: west
+- id: r7061
+  title: "The Watery Sewer Bend"
+  description: >-
+    You can't see anything but the water you're in up to your hips. The sewer
+    seems to bend and lead south and west.
+  exits:
+    - roomId: "sewer:r7062"
+      direction: south
+    - roomId: "sewer:r7055"
+      direction: west
+- id: r7062
+  title: "The Watery sewer"
+  description: >-
+    You can't see anything but the water you're in up to your hips. The sewer
+    seems to lead south and north.
+  exits:
+    - roomId: "sewer:r7061"
+      direction: north
+    - roomId: "sewer:r7063"
+      direction: south
+- id: r7063
+  title: "The Watery sewer"
+  description: >-
+    You can't see anything but the water you're in up to your hips. The sewer
+    seems to lead south and north.
+  exits:
+    - roomId: "sewer:r7062"
+      direction: north
+    - roomId: "sewer:r7064"
+      direction: south
+- id: r7064
+  title: "The Watery Sewer Junction"
+  description: >-
+    You can't see anything but the water you're in up to your hips. The sewer
+    seems to lead into a junction going south, north and east.
+  exits:
+    - roomId: "sewer:r7063"
+      direction: north
+    - roomId: "sewer:r7065"
+      direction: south
+    - roomId: "sewer:r7069"
+      direction: east
+- id: r7065
+  title: "The Watery sewer"
+  description: >-
+    You can't see anything but the water you're in up to your hips. The sewer
+    seems to lead south and north.
+  exits:
+    - roomId: "sewer:r7064"
+      direction: north
+    - roomId: "sewer:r7066"
+      direction: south
+- id: r7066
+  title: "The Watery sewer junction"
+  description: >-
+    You can't see anything but the water you're in up to your hips. The sewer
+    seems to lead into a junction that goes north, south and east.
+  exits:
+    - roomId: "sewer:r7065"
+      direction: north
+    - roomId: "sewer:r7067"
+      direction: south
+    - roomId: "sewer:r7070"
+      direction: east
+- id: r7067
+  title: "The Watery sewer"
+  description: >-
+    You can't see anything but the water you're in up to your hips. The sewer
+    seems to lead south and north.
+  exits:
+    - roomId: "sewer:r7066"
+      direction: north
+    - roomId: "sewer:r7068"
+      direction: south
+- id: r7068
+  title: "The Watery sewer bend"
+  description: >-
+    You can't see anything but the water you're in up to your hips. The sewer
+    seems to bend and lead west and north.
+  exits:
+    - roomId: "sewer:r7067"
+      direction: north
+    - roomId: "sewer:r7060"
+      direction: west
+- id: r7069
+  title: "A ledge by the dark pool"
+  description: >-
+    You can't see much here but the echo tells you that there's quite a drop
+    down. You can just make out a huge dark pool out there in the darkness, 
+    mostly because of the trickling of water. The water from the sewer actually
+    washes over this ledge and makes it quite slippery. From here it drops, 
+    like a waterfall, into the pool far down.
+  exits:
+    - roomId: "sewer:r7070"
+      direction: south
+    - roomId: "sewer:r7064"
+      direction: west
+- id: r7070
+  title: "A ledge by the dark pool"
+  description: >-
+    You can't see much here but the echo tells you that there's quite a drop
+    down. You can just make out a huge dark pool out there in the darkness,
+    mostly because of the trickling of water. The water from the sewer actually
+    washes over this ledge and makes it quite slippery. From here it drops,
+    like a waterfall, into the pool far down. Under you there is a small fissure
+    in the rock. It seems big enough to contain a few people.
+  exits:
+    - roomId: "sewer:r7069"
+      direction: north
+    - roomId: "sewer:r7066"
+      direction: west
+    - roomId: "sewer:r7099"
+      direction: down
+- id: r7099
+  title: "The fissure under the ledge"
+  description: >-
+    This is a small fissure in the solid rock. Under you lies the deep dark pool.
+    The water trickles quietly down from the ledge above you. The water smells 
+    like the water in a sewer.
+  exits:
+    - roomId: "sewer:r7070"
+      direction: up
+    - roomId: "sewer:r7199"
+      direction: down
+- id: r7101
+  title: "Under the mudhole"
+  description: >-
+    You stand in a small room with a great big opening in the ceiling. From this
+    opening there's mud dripping down in large lumps. >YUCK<. You can smell the 
+    foul stench of the slimy sediment as you try not to get covered by the 
+    falling sludge. To the east there is an entryway leading out from here and 
+    it seems absolutely impossible to force the muddy decent.
+  exits:
+    - roomId: "sewer:r7103"
+      direction: east
+  npcs:
+    - id: "sewer:m7006"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r7102
+  title: "Under the Dark Pit"
+  description: >-
+    Nice place you found yourself. You stand in the middle of a room with only
+    two exits, Up and East. A tall ladder is left here so that you can climb
+    up through the Pit without the use of a rope.
+  exits:
+    - roomId: "sewer:r7104"
+      direction: east
+    - roomId: "sewer:r7004"
+      direction: up
+    - roomId: "sewer:r7400"
+      direction: down
+  npcs:
+    - id: "sewer:m7004"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "sewer:m7006"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r7103
+  title: "A muddy bend in the sewer system"
+  description: >-
+    You are standing in what looks like a bend in the pipe system of the
+    sewer. The 'floor' is covered completely by mud! This includes covering
+    your legs up to your knees as well. The pipe leads west and south.
+  exits:
+    - roomId: "sewer:r7104"
+      direction: south
+    - roomId: "sewer:r7101"
+      direction: west
+  npcs:
+    - id: "sewer:m7000"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "sewer:m7000"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r7104
+  title: "A junction in the sewer pipes"
+  description: >-
+    You stand in the middle of what looks like a triple junction of pipes
+    going east, west and north.
+  exits:
+    - roomId: "sewer:r7103"
+      direction: north
+    - roomId: "sewer:r7112"
+      direction: east
+    - roomId: "sewer:r7102"
+      direction: west
+  npcs:
+    - id: "sewer:m7002"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "sewer:m7006"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r7105
+  title: "Down the old well"
+  description: >-
+    You are dangling on the slippery sides of the old well leading down and up.
+    The only secure point here is the metal bars that are cemented into the 
+    sides, the ones that you cling frantically to so that you don't fall. Who
+    knows how deep this well is?
+  exits:
+    - roomId: "sewer:r7015"
+      direction: up
+- id: r7106
+  title: "The northwestern corner of the ledge"
+  description: >-
+    You stand, swaying out from the ledge, with only a couple of inches of safe, 
+    solid ledge under your feet. The ledge continues to the east but not back
+    south. It seems that the ledge is too narrow to turn on so you'll have to
+    continue forward.
+  exits:
+    - roomId: "sewer:r7107"
+      direction: south
+    - roomId: "sewer:r7113"
+      direction: east
+- id: r7107
+  title: "The narrow ledge"
+  description: >-
+    You are in the progress of walking all the way around the ledge since there's
+    no way of turning around on this all too narrow path. There IS another exit
+    from here but that leads right into mid-air and with high probability of a
+    free fall session afterwards.
+  exits:
+    - roomId: "sewer:r7106"
+      direction: north
+    - roomId: "sewer:r7108"
+      direction: south
+    - roomId: "sewer:r7190"
+      direction: east
+- id: r7108
+  title: "The narrow ledge"
+  description: >-
+    You are in the progress of walking all the way around the ledge since there's
+    no way of turning around on this all too narrow path. There IS another exit
+    from here but that leads right into mid-air and with high probability of a
+    free fall session afterwards.
+  exits:
+    - roomId: "sewer:r7107"
+      direction: north
+    - roomId: "sewer:r7109"
+      direction: south
+    - roomId: "sewer:r7190"
+      direction: east
+- id: r7109
+  title: "The narrow ledge"
+  description: >-
+    You are in the progress of walking all the way around the ledge since there's
+    no way of turning around on this all too narrow path. There IS another exit
+    from here but that leads right into mid-air and with high probability of a
+    free fall session afterwards.
+  exits:
+    - roomId: "sewer:r7108"
+      direction: north
+    - roomId: "sewer:r7110"
+      direction: south
+    - roomId: "sewer:r7190"
+      direction: east
+- id: r7110
+  title: "The narrow ledge"
+  description: >-
+    You are in the progress of walking all the way around the ledge since there's
+    no way of turning around on this all too narrow path. There IS another exit
+    from here but that leads right into mid-air and with high probability of a
+    free fall session afterwards.
+  exits:
+    - roomId: "sewer:r7109"
+      direction: north
+    - roomId: "sewer:r7111"
+      direction: south
+    - roomId: "sewer:r7190"
+      direction: east
+- id: r7111
+  title: "The southwestern corner of the ledge"
+  description: >-
+    This seems like a ledge that is a little broader than the one just to the 
+    north of here. The ledge seems to lead around some sort of Abyss of total 
+    darkness. The ledge seems to have an odd-looking edge here.
+  exits:
+    - roomId: "sewer:r7110"
+      direction: north
+    - roomId: "sewer:r7112"
+      direction: south
+    - roomId: "sewer:r7115"
+      direction: east
+    - roomId: "sewer:r7279"
+      direction: down
+- id: r7112
+  title: "An odd intersection"
+  description: >-
+    You stand in a rather odd intersection of pipes. The pipes actually don't
+    resemble pipes anymore. They look more like a real stone tunnel, or a
+    passageway hewn directly into the rock. The ways from here lead north, east
+    and west.
+  exits:
+    - roomId: "sewer:r7111"
+      direction: north
+    - roomId: "sewer:r7122"
+      direction: east
+    - roomId: "sewer:r7104"
+      direction: west
+  npcs:
+    - id: "sewer:m7005"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "sewer:m7005"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r7113
+  title: "The narrow ledge going east to west"
+  description: >-
+    You are in the process of walking all the way around the ledge since there's
+    no way of turning around on this all too narrow path. There IS another exit
+    from here but that leads right into mid-air and with high probability of a
+    free fall session afterwards.
+  exits:
+    - roomId: "sewer:r7190"
+      direction: south
+    - roomId: "sewer:r7116"
+      direction: east
+    - roomId: "sewer:r7106"
+      direction: west
+- id: r7114
+  title: "Mid-air"
+  description: >-
+    You've just stepped into the most unlucky position in the whole of Merc Mud.
+    The result of such a foolish act should be punished with death, you know.
+    With an acceleration of approximately 9.82 metres per second per second, you
+    are now descending the Abyss. What awaits you at the bottom will continue to
+    be a mystery. Bye Cruel World.
+    You've fallen, and you can't get up!!!
+  exits:
+    - roomId: "vlord:r32000"
+      direction: south
+- id: r7115
+  title: "The Broad ledge"
+  description: >-
+    You are standing on a ledge that seems quite a lot larger than the rest 
+    of the ledges. This one leads to the west and the east, plus it has an exit
+    going to the south. Though you could jump into mid-air, but it probably 
+    wouldn't be such a good idea. The way south is in utter darkness.
+  exits:
+    - roomId: "sewer:r7114"
+      direction: north
+    - roomId: "sewer:r7129"
+      direction: south
+    - roomId: "sewer:r7121"
+      direction: east
+    - roomId: "sewer:r7111"
+      direction: west
+- id: r7116
+  title: "The northeastern corner of the ledge"
+  description: >-
+    You stand, swaying out from the ledge, with only a couple of inches of safe,
+    solid ledge under your feet. The ledge continues to the west and leads south
+    from here into darkness.
+  exits:
+    - roomId: "sewer:r7117"
+      direction: south
+    - roomId: "sewer:r7113"
+      direction: west
+    - roomId: "sewer:r7280"
+      direction: down
+- id: r7117
+  title: "The narrow eastern ledge"
+  description: >-
+    You are in the progress of walking all the way around the ledge since there's
+    no way of turning around on this all too narrow path. There IS another exit
+    from here but that leads right into mid-air and with high probability of a
+    free fall session afterwards. And THAT is west of here so watch your step.
+  exits:
+    - roomId: "sewer:r7118"
+      direction: south
+    - roomId: "sewer:r7114"
+      direction: west
+- id: r7118
+  title: "The narrow eastern ledge"
+  description: >-
+    You are in the progress of walking all the way around the ledge since there's
+    no way of turning around on this all too narrow path. There IS another exit
+    from here but that leads right into mid-air and with high probability of a
+    free fall session afterwards. And THAT is west of here so watch your step.
+  exits:
+    - roomId: "sewer:r7119"
+      direction: south
+    - roomId: "sewer:r7114"
+      direction: west
+- id: r7119
+  title: "The narrow eastern ledge"
+  description: >-
+    You are in the progress of walking all the way around the ledge since there's
+    no way of turning around on this all too narrow path. There IS another exit
+    from here but that leads right into mid-air and with high probability of a
+    free fall session afterwards. And THAT is west of here so watch your step.
+  exits:
+    - roomId: "sewer:r7120"
+      direction: south
+    - roomId: "sewer:r7114"
+      direction: west
+- id: r7120
+  title: "The narrow eastern ledge"
+  description: >-
+    You are in the progress of walking all the way around the ledge since there's
+    no way of turning around on this all too narrow path. There IS another exit
+    from here but that leads right into mid-air and with high probability of a
+    free fall session afterwards. And THAT is west of here so watch your step.
+    You also see a small opening to the east.
+  exits:
+    - roomId: "sewer:r7121"
+      direction: south
+    - roomId: "sewer:r7123"
+      direction: east
+    - roomId: "sewer:r7114"
+      direction: west
+- id: r7121
+  title: "The southeastern corner of the ledge"
+  description: >-
+    This seems like a ledge that is a little broader than the one just to the
+    north of here. The ledge seems to lead around some sort of abyss of total
+    darkness.
+  exits:
+    - roomId: "sewer:r7120"
+      direction: north
+    - roomId: "sewer:r7115"
+      direction: west
+- id: r7122
+  title: "Under the pit"
+  description: >-
+    You stand in a completely dark cavern leading west. The wall looks weird here.
+  exits:
+    - roomId: "sewer:r7112"
+      direction: west
+  npcs:
+    - id: "sewer:m7005"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r7123
+  title: "Under The Shaft"
+  description: >-
+    A ladder leads up from here to the Shaft.
+    A small opening leads west from here.
+  exits:
+    - roomId: "sewer:r7120"
+      direction: west
+    - roomId: "sewer:r7041"
+      direction: up
+- id: r7129
+  title: "The sewer line."
+  description: >-
+    You are in a narrow part of the sewer. Down the sewer continues and to the
+    north is the ledge.
+  exits:
+    - roomId: "sewer:r7115"
+      direction: north
+    - roomId: "sewer:r7221"
+      direction: down
+- id: r7130
+  title: "The sewer pipe."
+  description: >-
+    You are in an odd sewer pipe You see some odd scratches on the pipe wall, as
+    from a gigantic rat. You can see some slimy water gently running down into
+    a sewer drain, and north the drain continues.

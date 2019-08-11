@@ -1,0 +1,12 @@
+title: "Arena of Tar Zaroth"
+metadata:
+  id: 74
+  name: "Arena of Tar Zaroth"
+  createdBy: "necros"
+  starting_vnum: 14200
+  ending_vnum: 14299
+  item_requirements: 2000
+  filename: "tarzaroth.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

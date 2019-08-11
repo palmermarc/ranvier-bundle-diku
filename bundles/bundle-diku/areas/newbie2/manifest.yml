@@ -1,0 +1,12 @@
+title: "newbieVille"
+metadata:
+  id: 53
+  name: "newbieVille"
+  createdBy: "valis"
+  starting_vnum: 800
+  ending_vnum: 899
+  item_requirements: 0
+  filename: "newbie2.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,327 @@
+- id: m880
+  keywords: ["emaciated","mortal","wretch"]
+  name: "the emaciated mortal"
+  description: >-
+    An emaciated mortal lies here chained to the wall.
+  level: 2
+  attributes:
+    health: 10
+    armor: 10
+    hitroll: 5
+    damroll: 2
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 53
+    exp_level: 200
+    sex: 0
+- id: m881
+  keywords: ["emaciated","mortal","wretch"]
+  name: "the emaciated mortal"
+  description: >-
+    An emaciated mortal lies here chained to the wall.
+  level: 2
+  attributes:
+    health: 10
+    armor: 10
+    hitroll: 5
+    damroll: 2
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 53
+    exp_level: 209
+    sex: 0
+- id: m882
+  keywords: ["emaciated","mortal","wretch"]
+  name: "the emaciated mortal"
+  description: >-
+    An emaciated mortal lies here chained to the wall.
+  level: 2
+  attributes:
+    health: 10
+    armor: 10
+    hitroll: 5
+    damroll: 2
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 53
+    exp_level: 220
+    sex: 0
+- id: m883
+  keywords: ["emaciated","mortal","wretch"]
+  name: "the emaciated mortal"
+  description: >-
+    An emaciated mortal lies here chained to the wall.
+  level: 3
+  attributes:
+    health: 10
+    armor: 10
+    hitroll: 5
+    damroll: 2
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 53
+    exp_level: 230
+    sex: 0
+- id: m890
+  keywords: ["guardian"]
+  name: "the guardian"
+  description: >-
+    The Guardian of newbies is here to help you.
+  level: 386
+  attributes:
+    health: 29999
+    armor: 2
+    hitroll: 12000
+    damroll: 14999
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+  metadata:
+    areaId: 53
+    exp_level: 29000
+    sex: 1
+- id: m891
+  keywords: ["Io","nine-fold","dragon","hatchling"]
+  name: "Io the nine-fold dragon hatchling"
+  description: >-
+    Io the nine-fold dragon hatchling is here.
+  level: 3
+  attributes:
+    health: 3
+    armor: 10
+    hitroll: 1
+    damroll: 1
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 53
+    exp_level: 265
+    sex: 0
+- id: m893
+  keywords: ["munchkin"]
+  name: "a munchkin"
+  description: >-
+    A little munchkin stands here, growling
+  level: 167
+  attributes:
+    health: 0
+    armor: 0
+    hitroll: 0
+    damroll: 0
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 53
+    exp_level: 12599
+    sex: 1
+- id: m894
+  keywords: ["boatseller","baby"]
+  name: "a baby"
+  description: >-
+    A baby Boatseller is here.
+  level: 3
+  attributes:
+    health: 5
+    armor: 10
+    hitroll: 2
+    damroll: 1
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 53
+    exp_level: 244
+    sex: 0
+- id: m895
+  keywords: ["baby"]
+  name: "a baby Timelord"
+  description: >-
+    The baby Timelord grins inanely at you.
+  level: 4
+  attributes:
+    health: 4
+    armor: 10
+    hitroll: 3
+    damroll: 1
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 53
+    exp_level: 326
+    sex: 0
+- id: m896
+  keywords: ["mykell","hatchling"]
+  name: "Mykell's hatchling"
+  description: >-
+    Mykell's hatchling lies here sleeping peacefully.
+  level: 4
+  attributes:
+    health: 3
+    armor: 10
+    hitroll: 2
+    damroll: 1
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 53
+    exp_level: 350
+    sex: 0
+- id: m897
+  keywords: ["baby"]
+  name: "the baby sphinx"
+  description: >-
+    A dangerous looking baby Sphinx is here pecking out the eyeballs of an unfortunate mortal!
+  level: 3
+  attributes:
+    health: 4
+    armor: 10
+    hitroll: 2
+    damroll: 1
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 53
+    exp_level: 285
+    sex: 0
+- id: m898
+  keywords: ["damned","soul"]
+  name: "a damned soul"
+  description: >-
+    A Damned soul is here to torment you!
+  level: 3
+  attributes:
+    health: 49
+    armor: 10
+    hitroll: 30
+    damroll: 7
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 3.8
+          max: 4.2
+  metadata:
+    areaId: 53
+    exp_level: 230
+    sex: 0
+- id: m899
+  keywords: ["damned","soul"]
+  name: "a damned soul"
+  description: >-
+    A Damned soul lunges at you!
+  level: 2
+  attributes:
+    health: 19
+    armor: 10
+    hitroll: 25
+    damroll: 4
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 53
+    exp_level: 220
+    sex: 0

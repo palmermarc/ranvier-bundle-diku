@@ -1,0 +1,481 @@
+- id: m550
+  keywords: ["lesser","shadow"]
+  name: "a lesser shadow"
+  description: >-
+    A dark shape lurks waiting to attack.
+  level: 50
+  attributes:
+    health: 22500
+    armor: -750
+    hitroll: 375
+    damroll: 375
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o554": 75
+        "dread:o550": 75
+  metadata:
+    areaId: 19
+    exp_level: 5626
+    sex: 1
+- id: m551
+  keywords: ["shadow"]
+  name: "a shadow"
+  description: >-
+    A dark shape lurks, waiting to attack
+  level: 80
+  attributes:
+    health: 30000
+    armor: -1000
+    hitroll: 500
+    damroll: 500
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o554": 75
+        "dread:o550": 75
+  metadata:
+    areaId: 19
+    exp_level: 7500
+    sex: 2
+- id: m552
+  keywords: ["greater","shadow"]
+  name: "a greater shadow"
+  description: >-
+    A dark shapes lurks ready to attack.
+  level: 150
+  attributes:
+    health: 30000
+    armor: -1500
+    hitroll: 750
+    damroll: 750
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o555": 75
+        "dread:o552": 75
+        "dread:o557": 75
+  metadata:
+    areaId: 19
+    exp_level: 11250
+    sex: 1
+- id: m553
+  keywords: ["shadow","guard"]
+  name: "a shadow guardian"
+  description: >-
+    A dark shape lurks waiting to attack
+  level: 130
+  attributes:
+    health: 30000
+    armor: -1500
+    hitroll: 750
+    damroll: 750
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o554": 75
+        "dread:o551": 75
+  metadata:
+    areaId: 19
+    exp_level: 11249
+    sex: 2
+- id: m554
+  keywords: ["shadow","lord"]
+  name: "a shadow lord"
+  description: >-
+    A dark shape lurks, waiting to attack.
+  level: 170
+  attributes:
+    health: 30000
+    armor: -1500
+    hitroll: 750
+    damroll: 750
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o558": 75
+        "dread:o556": 75
+        "dread:o553": 75
+  metadata:
+    areaId: 19
+    exp_level: 11250
+    sex: 1
+- id: m555
+  keywords: ["dread","minion"]
+  name: "a Dread minion"
+  description: >-
+    A dark shape, closes in for the kill
+  level: 100
+  attributes:
+    health: 30000
+    armor: -1250
+    hitroll: 625
+    damroll: 625
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o554": 75
+        "dread:o550": 75
+  metadata:
+    areaId: 19
+    exp_level: 9376
+    sex: 2
+- id: m556
+  keywords: ["greater","dread"]
+  name: "a greater Dread"
+  description: >-
+    A dark shape moves in for the kill
+  level: 160
+  attributes:
+    health: 30000
+    armor: -1500
+    hitroll: 750
+    damroll: 750
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o557": 75
+        "dread:o555": 75
+        "dread:o552": 75
+  metadata:
+    areaId: 19
+    exp_level: 11250
+    sex: 2
+- id: m557
+  keywords: ["lesser","dread"]
+  name: "a lesser Dread"
+  description: >-
+    A dark shape closes in for the kill
+  level: 95
+  attributes:
+    health: 30000
+    armor: -1200
+    hitroll: 600
+    damroll: 600
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o554": 75
+        "dread:o550": 75
+  metadata:
+    areaId: 19
+    exp_level: 9000
+    sex: 2
+- id: m558
+  keywords: ["dread","master"]
+  name: "a Dread master"
+  description: >-
+    A dark shape closes in for the kill
+  level: 200
+  attributes:
+    health: 30000
+    armor: -1750
+    hitroll: 875
+    damroll: 875
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o558": 75
+        "dread:o555": 75
+        "dread:o552": 75
+  metadata:
+    areaId: 19
+    exp_level: 13124
+    sex: 1
+- id: m559
+  keywords: ["dread","lord"]
+  name: "a Dread Lord"
+  description: >-
+    A dark shape closes in for the kill
+  level: 250
+  attributes:
+    health: 30000
+    armor: -2000
+    hitroll: 1000
+    damroll: 1000
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o561": 75
+        "dread:o556": 75
+        "dread:o553": 75
+  metadata:
+    areaId: 19
+    exp_level: 18751
+    sex: 1
+- id: m560
+  keywords: ["dread","guard"]
+  name: "a Dread guard"
+  description: >-
+    A dark shape moves in to attack
+  level: 140
+  attributes:
+    health: 30000
+    armor: -1750
+    hitroll: 875
+    damroll: 875
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o554": 75
+        "dread:o551": 75
+  metadata:
+    areaId: 19
+    exp_level: 13124
+    sex: 2
+- id: m561
+  keywords: ["dread","guardian"]
+  name: "a Dread guardian"
+  description: >-
+    A dark shape moves closer to attack
+  level: 150
+  attributes:
+    health: 30000
+    armor: -1750
+    hitroll: 875
+    damroll: 875
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o554": 75
+        "dread:o550": 75
+  metadata:
+    areaId: 19
+    exp_level: 13124
+    sex: 1
+- id: m562
+  keywords: ["dragon","shadow"]
+  name: "a shadow dragon"
+  description: >-
+    A dark shape moves in for the kill
+  level: 200
+  attributes:
+    health: 30000
+    armor: -1750
+    hitroll: 875
+    damroll: 875
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o559": 75
+        "dread:o552": 75
+  metadata:
+    areaId: 19
+    exp_level: 13125
+    sex: 1
+- id: m563
+  keywords: ["smoke","dragon"]
+  name: "a smoke dragon"
+  description: >-
+    A dark shapes hovers waiting to kill
+  level: 140
+  attributes:
+    health: 30000
+    armor: -1500
+    hitroll: 750
+    damroll: 750
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dread:o560": 75
+        "dread:o553": 75
+  metadata:
+    areaId: 19
+    exp_level: 11250
+    sex: 2

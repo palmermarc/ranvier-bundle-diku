@@ -1,0 +1,13 @@
+---
+body: |
+  Definition of a bot.
+  A bot, is a set of trigger and aliases on a client, that interact
+  to do a set of actions automatically, withought input by the player.
+  They do such things as: train spells, get beast down, clear out areas,
+  create and kill guardian demons/clones/mounts, get quest items and complete 
+  cards.
+  
+  Place Botting Laws (if any) here.
+  
+  
+  - botting

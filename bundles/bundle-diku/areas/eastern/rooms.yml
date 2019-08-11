@@ -1,0 +1,622 @@
+- id: r5001
+  title: "A long tunnel"
+  description: >-
+    You encounter some rapids as you enter this tunnel cut out of
+    the mountains by the river.
+  exits:
+    - roomId: "eastern:r5002"
+      direction: east
+    - roomId: "midgaard:r3205"
+      direction: west
+- id: r5002
+  title: "A long tunnel "
+  description: >-
+    The tunnel branches off north.
+  exits:
+    - roomId: "eastern:r5008"
+      direction: north
+    - roomId: "eastern:r5003"
+      direction: east
+    - roomId: "eastern:r5001"
+      direction: west
+- id: r5003
+  title: "A long tunnel"
+  description: >-
+    The tunnel branches off south.
+  exits:
+    - roomId: "eastern:r5017"
+      direction: south
+    - roomId: "eastern:r5004"
+      direction: east
+    - roomId: "eastern:r5002"
+      direction: west
+- id: r5004
+  title: "A long tunnel"
+  description: >-
+    The tunnel branches off to the south.
+  exits:
+    - roomId: "eastern:r5018"
+      direction: south
+    - roomId: "eastern:r5005"
+      direction: east
+    - roomId: "eastern:r5003"
+      direction: west
+- id: r5005
+  title: "An underground lake"
+  description: >-
+    You are floating on a jet-black underground lake fed by dripping
+    water and lime from above. The tunnel continues to the east and the river
+    leads back west. To the north is a roughly-hewn hallway. There is also
+    a tunnel south.
+  exits:
+    - roomId: "eastern:r5016"
+      direction: north
+    - roomId: "eastern:r5023"
+      direction: south
+    - roomId: "eastern:r5006"
+      direction: east
+    - roomId: "eastern:r5004"
+      direction: west
+- id: r5006
+  title: "A long narrow tunnel"
+  description: >-
+    The tunnel rises sharply to the east.
+  exits:
+    - roomId: "eastern:r5007"
+      direction: east
+    - roomId: "eastern:r5005"
+      direction: west
+- id: r5007
+  title: "A wide tunnel"
+  description: >-
+    The tunnel continues east and west. To the east the tunnel dives
+    down into a bright light.
+  exits:
+    - roomId: "eastern:r5027"
+      direction: east
+    - roomId: "eastern:r5006"
+      direction: west
+- id: r5008
+  title: "Cave-in"
+  description: >-
+    You stand at the edge of a large pile of rubble created from the last
+    rockslide.
+  exits:
+    - roomId: "eastern:r5002"
+      direction: south
+    - roomId: "eastern:r5009"
+      direction: down
+- id: r5009
+  title: "At the foot of the rubble"
+  description: >-
+    You are at the bottom of a large pile of rubble. A tunnel branches
+    off to the north and east.
+  exits:
+    - roomId: "eastern:r5010"
+      direction: north
+    - roomId: "eastern:r5012"
+      direction: east
+    - roomId: "eastern:r5008"
+      direction: up
+  npcs:
+    - id: "eastern:m5011"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r5010
+  title: "Cave entrance"
+  description: >-
+    You stand in the middle of a large and beautiful cave. A path leads
+    deeper into the darkness.
+  exits:
+    - roomId: "eastern:r5009"
+      direction: south
+    - roomId: "eastern:r5011"
+      direction: down
+- id: r5011
+  title: "Giant cave"
+  description: >-
+    This cavern overwhelms you. The walls and ceiling seem miles away.
+    Bones of previous adventurers lie strewn on the cavern floor.
+  exits:
+    - roomId: "eastern:r5010"
+      direction: up
+  npcs:
+    - id: "eastern:m5010"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "eastern:o5005"
+      respawnChance: 75
+- id: r5012
+  title: "Narrow bend"
+  description: >-
+    The tunnel turns to the south and west.
+  exits:
+    - roomId: "eastern:r5013"
+      direction: south
+    - roomId: "eastern:r5009"
+      direction: west
+- id: r5013
+  title: "Large cave"
+  description: >-
+    You are standing in a large cave. Many furs are spread out on the floor.
+  exits:
+    - roomId: "eastern:r5012"
+      direction: north
+    - roomId: "eastern:r5014"
+      direction: east
+- id: r5014
+  title: "Damp hallway"
+  description: >-
+    The walls here are extremely damp, as well as the floor.
+  exits:
+    - roomId: "eastern:r5015"
+      direction: east
+    - roomId: "eastern:r5013"
+      direction: west
+  npcs:
+    - id: "eastern:m5012"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r5015
+  title: "Underground pool"
+  description: >-
+    You are wading in a knee deep pool of lime-water.
+  exits:
+    - roomId: "eastern:r5016"
+      direction: south
+    - roomId: "eastern:r5014"
+      direction: west
+- id: r5016
+  title: "Damp hallway"
+  description: >-
+    The walls of the tunnel are extremely damp here. You hear the faint
+    sound of running water to the south.
+  exits:
+    - roomId: "eastern:r5015"
+      direction: north
+    - roomId: "eastern:r5005"
+      direction: south
+- id: r5017
+  title: "Narrow crawlway"
+  description: >-
+    This crawlway is just big enough for a human to crawl through or a
+    halfling to walk through.
+  exits:
+    - roomId: "eastern:r5003"
+      direction: north
+    - roomId: "eastern:r5019"
+      direction: south
+    - roomId: "eastern:r5018"
+      direction: east
+- id: r5018
+  title: "Large cavern"
+  description: >-
+    You have entered a very large cavern. The rock formations would amaze
+    almost any dwarf.
+  exits:
+    - roomId: "eastern:r5004"
+      direction: north
+    - roomId: "eastern:r5017"
+      direction: west
+- id: r5019
+  title: "Fungus patch"
+  description: >-
+    As you walk through the fungus patch, you are shot at by many millions of
+    spores. You can hardly breathe.
+  exits:
+    - roomId: "eastern:r5017"
+      direction: north
+    - roomId: "eastern:r5020"
+      direction: east
+- id: r5020
+  title: "Fungus path"
+  description: >-
+    As you walk along the path, millions of spores are shot at you. You can
+    hardly breathe.
+  exits:
+    - roomId: "eastern:r5021"
+      direction: south
+    - roomId: "eastern:r5019"
+      direction: west
+- id: r5021
+  title: "Fungus temple"
+  description: >-
+    You find yourself standing inside of a giant mushroom. The inside
+    is decorated in the fashion of a temple.
+  exits:
+    - roomId: "eastern:r5020"
+      direction: north
+    - roomId: "eastern:r5022"
+      direction: east
+  npcs:
+    - id: "eastern:m5013"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "eastern:m5014"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5022
+  title: "Sloping passage"
+  description: >-
+    You follow a path sloping down from the fungus temple.
+  exits:
+    - roomId: "eastern:r5021"
+      direction: west
+    - roomId: "eastern:r5023"
+      direction: down
+- id: r5023
+  title: "Sloping passage"
+  description: >-
+    You are on a path that gently slopes up from the underground pool.
+  exits:
+    - roomId: "eastern:r5005"
+      direction: north
+    - roomId: "eastern:r5022"
+      direction: up
+- id: r5024
+  title: "The Great Eastern Desert"
+  description: >-
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  exits:
+    - roomId: "eastern:r5025"
+      direction: north
+    - roomId: "eastern:r5027"
+      direction: south
+    - roomId: "eastern:r5026"
+      direction: east
+    - roomId: "eastern:r5030"
+      direction: west
+  npcs:
+    - id: "eastern:m5015"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r5025
+  title: "The Great Eastern Desert"
+  description: >-
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  exits:
+    - roomId: "eastern:r5026"
+      direction: north
+    - roomId: "eastern:r5056"
+      direction: south
+    - roomId: "eastern:r5024"
+      direction: east
+    - roomId: "eastern:r5028"
+      direction: west
+  npcs:
+    - id: "eastern:m5000"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r5026
+  title: "The Great Eastern Desert"
+  description: >-
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  exits:
+    - roomId: "eastern:r5024"
+      direction: north
+    - roomId: "eastern:r5032"
+      direction: south
+    - roomId: "eastern:r5029"
+      direction: east
+    - roomId: "eastern:r5025"
+      direction: west
+  npcs:
+    - id: "eastern:m5015"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r5027
+  title: "The Great Eastern Desert"
+  description: >-
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  exits:
+    - roomId: "eastern:r5028"
+      direction: north
+    - roomId: "eastern:r5024"
+      direction: south
+    - roomId: "eastern:r5007"
+      direction: east
+    - roomId: "eastern:r5030"
+      direction: west
+  npcs:
+    - id: "eastern:m5000"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r5028
+  title: "The Great Eastern Desert"
+  description: >-
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  exits:
+    - roomId: "eastern:r5029"
+      direction: north
+    - roomId: "eastern:r5031"
+      direction: south
+    - roomId: "eastern:r5027"
+      direction: east
+    - roomId: "eastern:r5025"
+      direction: west
+  npcs:
+    - id: "eastern:m5003"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "eastern:m5004"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5029
+  title: "The Great Eastern Desert"
+  description: >-
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  exits:
+    - roomId: "eastern:r5032"
+      direction: north
+    - roomId: "eastern:r5028"
+      direction: south
+    - roomId: "eastern:r5062"
+      direction: east
+    - roomId: "eastern:r5026"
+      direction: west
+  npcs:
+    - id: "eastern:m5000"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r5030
+  title: "The Great Eastern Desert"
+  description: >-
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  exits:
+    - roomId: "eastern:r5032"
+      direction: north
+    - roomId: "eastern:r5031"
+      direction: south
+    - roomId: "eastern:r5027"
+      direction: east
+    - roomId: "eastern:r5024"
+      direction: west
+  npcs:
+    - id: "eastern:m5015"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r5031
+  title: "The Great Eastern Desert"
+  description: >-
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  exits:
+    - roomId: "eastern:r5032"
+      direction: north
+    - roomId: "eastern:r5063"
+      direction: south
+    - roomId: "eastern:r5028"
+      direction: east
+    - roomId: "eastern:r5030"
+      direction: west
+  npcs:
+    - id: "eastern:m5001"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "eastern:m5002"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r5032
+  title: "The Great Eastern Desert"
+  description: >-
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    You feel lost.
+  exits:
+    - roomId: "eastern:r5031"
+      direction: north
+    - roomId: "eastern:r5030"
+      direction: south
+    - roomId: "eastern:r5026"
+      direction: east
+    - roomId: "eastern:r5029"
+      direction: west
+  npcs:
+    - id: "eastern:m5015"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r5056
+  title: "A nomad camp"
+  description: >-
+    This small group of desert nomads has stopped for the day to rest
+    and refresh themselves beside this beautiful oasis. Three tents and some
+    camels make up the party. From within two of the tents you hear muffled
+    voices, obviously surprised at your visit.
+  exits:
+    - roomId: "eastern:r5058"
+      direction: north
+    - roomId: "eastern:r5025"
+      direction: south
+    - roomId: "eastern:r5057"
+      direction: east
+- id: r5057
+  title: "Inside a small tent"
+  description: >-
+    This is a small and simple tent with few possessions in sight. Lying
+    here and there are young-looking men and women, possibly slaves to the
+    leader of this band.
+  exits:
+    - roomId: "eastern:r5056"
+      direction: west
+  npcs:
+    - id: "eastern:m5009"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r5058
+  title: "Beside the camels"
+  description: >-
+    Here stand about ten camels, all hitched to some stakes plugged into
+    the ground. To the east you see a small tent while to the north you see a
+    larger, fancier tent.
+  exits:
+    - roomId: "eastern:r5060"
+      direction: north
+    - roomId: "eastern:r5056"
+      direction: south
+    - roomId: "eastern:r5059"
+      direction: east
+  npcs:
+    - id: "eastern:m5017"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5059
+  title: "The warrior's tent."
+  description: >-
+    This tent has a few furnishings, but mainly it holds the band's
+    protectors. They all stare at you coldly as you enter.
+  exits:
+    - roomId: "eastern:r5058"
+      direction: west
+  npcs:
+    - id: "eastern:m5008"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r5060
+  title: "The main tent"
+  description: >-
+    This tent is as lavishly decorated on the inside as it is on the
+    outside. A fancy carpet lies on the sand and numerous baskets line the
+    walls.
+  exits:
+    - roomId: "eastern:r5058"
+      direction: south
+    - roomId: "eastern:r5061"
+      direction: east
+  npcs:
+    - id: "eastern:m5007"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "eastern:o5007"
+      respawnChance: 75
+- id: r5061
+  title: "The main tent"
+  description: >-
+    This is where the leader of this band of nomads resides. He is
+    definitely rich as you inspect the tapestries, baskets, and a few
+    paintings as well.
+  exits:
+    - roomId: "eastern:r5060"
+      direction: west
+  npcs:
+    - id: "eastern:m5006"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "eastern:o5008"
+      respawnChance: 75
+    - id: "eastern:o5009"
+      respawnChance: 75
+    - id: "eastern:o5010"
+      respawnChance: 75
+- id: r5062
+  title: "Strange Glowing Sand"
+  description: >-
+    A vast desert stretches for miles, the sand constantly shifting around you.
+    But this patch of desert looks different ... the sand glows.  You see a
+    futuristic city to the south.
+  exits:
+    - roomId: "dabour:r8001"
+      direction: east
+    - roomId: "eastern:r5029"
+      direction: west
+- id: r5063
+  title: "The wind-swept ledge"
+  description: >-
+    Being very careful not to lose your balance, you look around and
+    find that this canyon is about a half a kilometer deep. To the west is
+    a dark cave leading under the desert sands.
+  exits:
+    - roomId: "eastern:r5031"
+      direction: north
+    - roomId: "eastern:r5064"
+      direction: west
+- id: r5064
+  title: "The cave mouth"
+  description: >-
+    The air in here is MUCH cooler than outside. From the west you hear
+    strange sounds, but can see nothing. The cave slopes down into the
+    darkness.
+  exits:
+    - roomId: "eastern:r5063"
+      direction: east
+    - roomId: "eastern:r5065"
+      direction: west
+- id: r5065
+  title: "The mysterious lair."
+  description: >-
+    You have stumbled upon the home of something. From the treasure
+    haphazardly strewn about and the rotting carcasses, you would guess that
+    this is a dragon's lair. As to what type, you can't really say. The cave
+    narrows out into a tunnel to the west.
+  exits:
+    - roomId: "eastern:r5064"
+      direction: east
+    - roomId: "eastern:r5066"
+      direction: west
+  npcs:
+    - id: "eastern:m5005"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5066
+  title: "A wide tunnel"
+  description: >-
+    This tunnel seems to go on forever into the darkness. You carefully
+    feel your way along the walls.
+  exits:
+    - roomId: "eastern:r5065"
+      direction: east
+    - roomId: "eastern:r5067"
+      direction: west
+- id: r5067
+  title: "A narrower tunnel"
+  description: >-
+    The tunnel becomes very narrow and you fight to squeeze your way through.
+    The floor seems to level off a little.
+  exits:
+    - roomId: "eastern:r5068"
+      direction: south
+    - roomId: "eastern:r5066"
+      direction: east
+- id: r5068
+  title: "A narrow crack"
+  description: >-
+    This part of the tunnel is the hardest to move through as the walls
+    move in to meet you.
+  exits:
+    - roomId: "eastern:r5067"
+      direction: north
+    - roomId: "eastern:r5069"
+      direction: west
+- id: r5069
+  title: "A small cavern."
+  description: >-
+    It is dark and damp and bats hang from the ceiling. A narrow crack is
+    in the east wall. The floor now slopes upwards.
+  exits:
+    - roomId: "eastern:r5070"
+      direction: north
+    - roomId: "eastern:r5068"
+      direction: east
+- id: r5070
+  title: "A small shaft"
+  description: >-
+    From within this shaft you can see a narrow hole in the roof just
+    large enough for one person. Back east is the cavern.
+  exits:
+    - roomId: "eastern:r5069"
+      direction: south
+    - roomId: "eastern:r5009"
+      direction: up
+  items:
+    - id: "eastern:o5023"
+      respawnChance: 75
+    - id: "eastern:o5015"
+      respawnChance: 75

@@ -1,0 +1,587 @@
+- id: m13065
+  keywords: ["The","Elite","Guard"]
+  name: "The Elite Guard of Krytos"
+  description: >-
+    The Royal Guard of Krytos stands here, defending their Lord and Master against all intruders.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13069": 75
+        "krytos:o13070": 75
+        "krytos:o13071": 75
+        "krytos:o13066": 75
+        "krytos:o13085": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13066
+  keywords: ["The","Royal","Guard"]
+  name: "The Royal Guard of Krytos"
+  description: >-
+    The Royal Guard of Krytos stands here, contemplating your death.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13070": 75
+        "krytos:o13071": 75
+        "krytos:o13065": 75
+        "krytos:o13069": 75
+        "krytos:o13085": 75
+        "krytos:o13066": 75
+        "krytos:o13072": 75
+        "krytos:o13075": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13067
+  keywords: ["A","servant"]
+  name: "A servant of the tower"
+  description: >-
+    A servant of the tower stands here, wondering what he is to do next.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13067": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13068
+  keywords: ["A","serving","wench"]
+  name: "A serving wench"
+  description: >-
+    The serving wench stands here, ready to serve.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13068": 75
+        "krytos:o13072": 75
+        "krytos:o13075": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 2
+- id: m13069
+  keywords: ["A","tower","chef"]
+  name: "A tower chef"
+  description: >-
+    The chef runs about cooking and serving.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13070
+  keywords: ["A","proud","Lady"]
+  name: "A proud Lady of the Tower"
+  description: >-
+    A proud Lady of the tower stands here with her nose turned up.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13073": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13071
+  keywords: ["Lord","Krytos"]
+  name: "Lord Krytos"
+  description: >-
+    Lord Krytos sees you and attacks!
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13076": 75
+        "krytos:o13069": 75
+        "krytos:o13070": 75
+        "krytos:o13071": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13072
+  keywords: ["The","Royal","Lady"]
+  name: "The Royal Lady"
+  description: >-
+    The Royal Lady lies in bed here, wondering what you're doing in this room.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13073": 75
+        "krytos:o13074": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13073
+  keywords: ["A","boy","in","training"]
+  name: "A boy in training"
+  description: >-
+    A lithe young man runs about dodging and parrying attacks.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13077": 75
+        "krytos:o13078": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13074
+  keywords: ["A","weaponsmaster"]
+  name: "A weaponsmaster"
+  description: >-
+    The weaponsmaster stands here disregarding you.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13079": 75
+        "krytos:o13080": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13075
+  keywords: ["A","young","girl"]
+  name: "A young girl"
+  description: >-
+    The young girl sits on the bed, crying.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13081": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 2
+- id: m13076
+  keywords: ["The","Guardian"]
+  name: "The Guardian"
+  description: >-
+    A giant dragon springs forward and attacks you!
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13082": 75
+        "krytos:o13084": 75
+        "krytos:o13083": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13077
+  keywords: ["The","blacksmith"]
+  name: "The blacksmith"
+  description: >-
+    The blacksmith of the tower stands here ready to serve you.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13086": 75
+        "krytos:o13065": 75
+        "krytos:o13066": 75
+        "krytos:o13069": 75
+        "krytos:o13070": 75
+        "krytos:o13071": 75
+        "krytos:o13077": 75
+        "krytos:o13078": 75
+  metadata:
+    vendor:
+      items:
+        "krytos:o13086":
+          cost: 5000
+          currency: gold
+        "krytos:o13065":
+          cost: 5000
+          currency: gold
+        "krytos:o13066":
+          cost: 5000
+          currency: gold
+        "krytos:o13069":
+          cost: 5000
+          currency: gold
+        "krytos:o13070":
+          cost: 5000
+          currency: gold
+        "krytos:o13071":
+          cost: 5000
+          currency: gold
+        "krytos:o13077":
+          cost: 5000
+          currency: gold
+        "krytos:o13078":
+          cost: 5000
+          currency: gold
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13078
+  keywords: ["A","savage","beast"]
+  name: "A savage beast"
+  description: >-
+    A savage beast rushes you as you enter.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13079
+  keywords: ["A","starving","prisoner"]
+  name: "A starving prisoner"
+  description: >-
+    A bony prisoner reaches out for you.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13067": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13080
+  keywords: ["The","Gryphon"]
+  name: "The Gryphon"
+  description: >-
+    The Gryphon stands here, ready to hunt and kill.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13087": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13081
+  keywords: ["A","huge","rat"]
+  name: "A huge rat"
+  description: >-
+    A huge rat crawls around here.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13082
+  keywords: ["The","Giant","Slug"]
+  name: "The Giant Slug"
+  description: >-
+    The Giant Slug swallows you whole!
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13083
+  keywords: ["The","Headless","Mob"]
+  name: "The Headless Mob"
+  description: >-
+    A headless monster faces you and attacks!
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "krytos:o13088": 75
+        "krytos:o13089": 75
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1
+- id: m13084
+  keywords: ["A","little","chicken"]
+  name: "A little chicken"
+  description: >-
+    A chicken stands here, completely clueless.
+  level: 327
+  attributes:
+    health: 38140
+    armor: 20400
+    hitroll: 5300
+    damroll: 2650
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 42
+    exp_level: 28000
+    sex: 1

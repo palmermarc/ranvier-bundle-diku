@@ -1,0 +1,14 @@
+---
+body: |
+  Syntax: cast protection
+  Syntax: cast sanctuary <character>
+  
+  The PROTECTION spell reduces the damage taken from any attack by an evil
+  creature by one quarter.
+  
+  The SANCTUARY spell reduces the damage taken by the character from any attack
+  by one half.
+  
+  These spells may be used simultaneously for cumulative effect.
+  
+  - sanctuary

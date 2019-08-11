@@ -1,0 +1,21 @@
+---
+body: |
+  A PFILE (player file) is the file where all of your characters data 
+  is stored. In some situations you pfile may become SHAGGED and this 
+  can cause you to lose stats or equipment, or worse CRASH THE MUD.
+  
+  If your pfile is SHAGGED (or Buggered, or Bugged, or Corrupted) please 
+  do not attempt to log it onto the mud. It may potentially crash the 
+  mud, further shagging your pfile, and possibly shagging others.
+  
+  DO mail the admin at: XXX@xxx.XXX so a Coder can look into 
+  the problem. Feel free to log on an alternate character til your
+  character is fixed.
+  
+  See also: help SAVE, BACKUP, LOSTEQ, CRASH
+  
+  
+  - shagged
+  - buggered
+  - bugged
+  - corrupted

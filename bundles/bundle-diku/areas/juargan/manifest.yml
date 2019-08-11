@@ -1,0 +1,12 @@
+title: "Kingdom of Juargan"
+metadata:
+  id: 40
+  name: "Kingdom of Juargan"
+  createdBy: "anon"
+  starting_vnum: 4700
+  ending_vnum: 4799
+  item_requirements: 10000
+  filename: "juargan.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

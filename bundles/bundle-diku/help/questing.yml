@@ -1,0 +1,24 @@
+---
+body: |
+  After you have created a quest card, you must now find the 4 items on
+  the card to complete the card. To see the items on your card, type:
+  <complete> card
+  
+  This will list the 4 items. You must now find these items. You may find
+  the 'locate' spell helpful: c <locate> <item>
+  If you are a vampire, 'scry' will also be helpful.
+  
+  There are lists of directions to the various areas of the mud (and some
+  items) on the VW webpage as well as some of the Clan pages. After you find 
+  an item, you must place it on your card by typing: complete card <item>
+  
+  After you find all four items and place them on your card, you must now 
+  find the quest card machine. Directions may be obtained from other players
+  or on the directions lists. Once you reach the machine, you need to 
+  type: <recharge> <card> <machine>
+  
+  A token will be generated and you should then eat it to store it in your pfile.
+  
+  see also: help QUEST, QUESTS, QUESTSPELL, RECHARGE, QLIMIT, QUESTPOINTS, QP.
+  see also: Http://www.vampire-wars.com/quest.htm
+  

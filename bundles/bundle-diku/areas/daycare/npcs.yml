@@ -1,0 +1,240 @@
+- id: m6600
+  keywords: ["youth","dwarven","dwarf"]
+  name: "the dwarven youth"
+  description: >-
+    A young dwarf plays with a toy axe.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -5
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "daycare:o6600": 75
+  metadata:
+    areaId: 17
+    exp_level: 8000
+    sex: 1
+- id: m6601
+  keywords: ["teddy","bear"]
+  name: "a teddy bear"
+  description: >-
+    A cute and fuzzy teddy bear stands here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 71.25
+          max: 78.75
+  metadata:
+    areaId: 17
+    exp_level: 8000
+    sex: 1
+- id: m6602
+  keywords: ["doll","raggedy","anne"]
+  name: "a raggedy anne doll"
+  description: >-
+    A raggedy anne doll is sitting here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 237.5
+          max: 262.5
+      pools:
+        "daycare:o6645": 75
+  metadata:
+    areaId: 17
+    exp_level: 8000
+    sex: 1
+- id: m6603
+  keywords: ["soldier","toy"]
+  name: "a toy soldier"
+  description: >-
+    A toy soldier is standing here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 380
+          max: 420
+      pools:
+        "daycare:o6647": 75
+  metadata:
+    areaId: 17
+    exp_level: 8000
+    sex: 1
+- id: m6604
+  keywords: ["bear","ugly"]
+  name: "the ugly bear"
+  description: >-
+    An ugly stuffed bear stands here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 17
+    exp_level: 8000
+    sex: 1
+- id: m6605
+  keywords: ["doll","old"]
+  name: "an old doll"
+  description: >-
+    An abused and old doll is here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -2
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "daycare:o6601": 75
+  metadata:
+    areaId: 17
+    exp_level: 8000
+    sex: 0
+- id: m6606
+  keywords: ["nanny"]
+  name: "the nanny"
+  description: >-
+    An old wrinkled nanny stands here, looking over the little ones.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 10
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 712.5
+          max: 787.5
+      pools:
+        "daycare:o6621": 75
+        "daycare:o6646": 75
+        "daycare:o6644": 75
+  metadata:
+    areaId: 17
+    exp_level: 8000
+    sex: 2
+- id: m6607
+  keywords: ["guard"]
+  name: "the armed guard"
+  description: >-
+    An armed guard stands here looking lost.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+  metadata:
+    areaId: 17
+    exp_level: 8000
+    sex: 1
+- id: m6608
+  keywords: ["brat","spoiled"]
+  name: "the spoiled brat"
+  description: >-
+    A spoiled brat is crying here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+  metadata:
+    areaId: 17
+    exp_level: 8000
+    sex: 1

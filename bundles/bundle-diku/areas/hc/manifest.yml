@@ -1,0 +1,12 @@
+title: "Hazzard County"
+metadata:
+  id: 33
+  name: "Hazzard County"
+  createdBy: "troile"
+  starting_vnum: 12000
+  ending_vnum: 12409
+  item_requirements: 14000
+  filename: "hc.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

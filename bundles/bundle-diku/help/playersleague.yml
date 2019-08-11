@@ -1,0 +1,15 @@
+---
+body: |
+  The league table is a list of all the players with more than 5 mob kills showing
+  the number of player kills (amount of players decapitated by that player), player
+  deaths (amount of times decapitated by another players, mob kills (number of mobs
+  killed) and mob deaths (number of times killed by a mob when mortal).
+  
+  For a copy of the Players League, you can find it on the web site (see help WEB)
+  or a not-so-up-to-date copy on the ftp site (see help FTP). The scoring system is
+  included in the table.
+  
+  see also : help status
+  
+  - leaguetable
+  - league

@@ -1,0 +1,722 @@
+- id: o10240
+  name: "chamorro ringmail"
+  roomDesc: "A bunch of rings sewn together with taotamoa bark is on the ground."
+  keywords: ["chamorro","ringmail"]
+  description: "A bunch of rings sewn together with taotamoa bark is on the ground."
+  type: HEAVYARMOR
+- id: o10241
+  name: "Mcbread"
+  roomDesc: "A Mcloaf of Mcbread has been left here."
+  keywords: ["Mcbread"]
+  description: "A Mcloaf of Mcbread has been left here."
+  type: FOOD
+- id: o10242
+  name: "Mcdonut"
+  roomDesc: "A chocolate Mcdonut has been left here."
+  keywords: ["Mcdonut"]
+  description: "A chocolate Mcdonut has been left here."
+  type: FOOD
+- id: o10243
+  name: "mcbagel"
+  roomDesc: "A Mcbagel has been left here."
+  keywords: ["mcbagel"]
+  description: "A Mcbagel has been left here."
+  type: FOOD
+- id: o10244
+  name: "mcpastry"
+  roomDesc: "A Mcpastry has been left here."
+  keywords: ["mcpastry"]
+  description: "A Mcpastry has been left here."
+  type: FOOD
+- id: o10245
+  name: "chocolate chip cookie"
+  roomDesc: "A chocoalte chip cookie has been left here."
+  keywords: ["chocolate","chip","cookie"]
+  description: "A chocoalte chip cookie has been left here."
+  type: FOOD
+- id: o10246
+  name: "peanut butter cookie"
+  roomDesc: "A peanut butter cookie has been left here."
+  keywords: ["peanut","butter","cookie"]
+  description: "A peanut butter cookie has been left here."
+  type: FOOD
+- id: o10247
+  name: "oatmeal cookie"
+  roomDesc: "A oatmeal  cookie has been left here."
+  keywords: ["oatmeal","cookie"]
+  description: "A oatmeal  cookie has been left here."
+  type: FOOD
+- id: o10248
+  name: "sugar cookie"
+  roomDesc: "A sugar cookie has been left here."
+  keywords: ["sugar","cookie"]
+  description: "A sugar cookie has been left here."
+  type: FOOD
+- id: o10249
+  name: "taxes fines"
+  roomDesc: "A bunch of taxes and fines are here waiting to take your money."
+  keywords: ["taxes","fines"]
+  description: "A bunch of taxes and fines are here waiting to take your money."
+  type: SCROLL
+- id: o10250
+  name: "enchanted two-handed sword"
+  roomDesc: "A large two-handed sword with runes etched in it is on the floor."
+  keywords: ["enchanted","two-handed","sword"]
+  description: "A large two-handed sword with runes etched in it is on the floor."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10251
+  name: "carrot"
+  roomDesc: "A carrot has been left here."
+  keywords: ["carrot"]
+  description: "A carrot has been left here."
+  type: FOOD
+- id: o10252
+  name: "cauliflower"
+  roomDesc: "A cauliflower has been left here."
+  keywords: ["cauliflower"]
+  description: "A cauliflower has been left here."
+  type: FOOD
+- id: o10253
+  name: "bell pepper"
+  roomDesc: "A bell pepper has been left here."
+  keywords: ["bell","pepper"]
+  description: "A bell pepper has been left here."
+  type: FOOD
+- id: o10254
+  name: "celery stick"
+  roomDesc: "A celery stick has been left here."
+  keywords: ["celery","stick"]
+  description: "A celery stick has been left here."
+  type: FOOD
+- id: o10255
+  name: "glass ice tea"
+  roomDesc: "A glass of ice tea has been left here."
+  keywords: ["glass","ice","tea"]
+  description: "A glass of ice tea has been left here."
+  type: DRINKCON
+- id: o10256
+  name: "glass water"
+  roomDesc: "A glass of water has been left here."
+  keywords: ["glass","water"]
+  description: "A glass of water has been left here."
+  type: DRINKCON
+- id: o10257
+  name: "glass koca colah"
+  roomDesc: "A glass of koca colah has been left here."
+  keywords: ["glass","koca","colah"]
+  description: "A glass of koca colah has been left here."
+  type: DRINKCON
+- id: o10258
+  name: "bottle Snapple ice tea"
+  roomDesc: "A bottle of Snapple has been left here."
+  keywords: ["bottle","Snapple","ice","tea"]
+  description: "A bottle of Snapple has been left here."
+  type: DRINKCON
+- id: o10259
+  name: "apple"
+  roomDesc: "An apple has been left here."
+  keywords: ["apple"]
+  description: "An apple has been left here."
+  type: FOOD
+- id: o10260
+  name: "grape"
+  roomDesc: "A grape has been left here."
+  keywords: ["grape"]
+  description: "A grape has been left here."
+  type: FOOD
+- id: o10261
+  name: "orange"
+  roomDesc: "An orange has been left here."
+  keywords: ["orange"]
+  description: "An orange has been left here."
+  type: FOOD
+- id: o10262
+  name: "pear"
+  roomDesc: "A pear has been left here."
+  keywords: ["pear"]
+  description: "A pear has been left here."
+  type: FOOD
+- id: o10263
+  name: "charm solace"
+  roomDesc: "A shiny black charm with a gold symbol is here."
+  keywords: ["charm","solace"]
+  description: "A shiny black charm with a gold symbol is here."
+  type: ACCESSORY
+- id: o10264
+  name: "ring solace"
+  roomDesc: "A shiny black ring with a gold symbol is here."
+  keywords: ["ring","solace"]
+  description: "A shiny black ring with a gold symbol is here."
+  type: ACCESSORY
+- id: o10265
+  name: "earrings solace"
+  roomDesc: "A pair of shiny black earrings with a gold symbols is here."
+  keywords: ["earrings","solace"]
+  description: "A pair of shiny black earrings with a gold symbols is here."
+  type: LIGHTARMOR
+- id: o10266
+  name: "frozen pizza crust"
+  roomDesc: "A large, frozen pizza crust is on the ground melting."
+  keywords: ["frozen","pizza","crust"]
+  description: "A large, frozen pizza crust is on the ground melting."
+  type: SHIELD
+- id: o10267
+  name: "frozen pumpkin"
+  roomDesc: "A large, frozen pumpkin is on the ground melting."
+  keywords: ["frozen","pumpkin"]
+  description: "A large, frozen pumpkin is on the ground melting."
+  type: LIGHTARMOR
+- id: o10268
+  name: "frozen side beef"
+  roomDesc: "A large, frozen side of beef is on the ground melting."
+  keywords: ["frozen","side","beef"]
+  description: "A large, frozen side of beef is on the ground melting."
+  type: LIGHTARMOR
+- id: o10269
+  name: "frozen asparagus spear"
+  roomDesc: "A frozen asparagus spear is on the ground melting."
+  keywords: ["frozen","asparagus","spear"]
+  description: "A frozen asparagus spear is on the ground melting."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10270
+  name: "mulburry extract"
+  roomDesc: "A small jar of mulburry extract has carelessly been left here."
+  keywords: ["mulburry","extract"]
+  description: "A small jar of mulburry extract has carelessly been left here."
+  type: POTION
+- id: o10271
+  name: "rutabaga"
+  roomDesc: "A small rutabaga is lying here."
+  keywords: ["rutabaga"]
+  description: "A small rutabaga is lying here."
+  type: FOOD
+- id: o10272
+  name: "rutabaga"
+  roomDesc: "A small rutabaga is lying here."
+  keywords: ["rutabaga"]
+  description: "A small rutabaga is lying here."
+  type: FOOD
+- id: o10273
+  name: "rutabaga"
+  roomDesc: "A small rutabaga is lying here."
+  keywords: ["rutabaga"]
+  description: "A small rutabaga is lying here."
+  type: FOOD
+- id: o10274
+  name: "rutabaga"
+  roomDesc: "A small rutabaga is lying here."
+  keywords: ["rutabaga"]
+  description: "A small rutabaga is lying here."
+  type: FOOD
+- id: o10275
+  name: "Scuba tank"
+  roomDesc: "A scuba tank is here."
+  keywords: ["Scuba","tank"]
+  description: "A scuba tank is here."
+  type: BOAT
+- id: o10276
+  name: "Scuba flippers"
+  roomDesc: "A pair of flippers are here."
+  keywords: ["Scuba","flippers"]
+  description: "A pair of flippers are here."
+  type: LIGHTARMOR
+- id: o10277
+  name: "scuba snorkle"
+  roomDesc: "A scuba snorkle is on the ground."
+  keywords: ["scuba","snorkle"]
+  description: "A scuba snorkle is on the ground."
+  type: LIGHTARMOR
+- id: o10278
+  name: "dive belt"
+  roomDesc: "A scuba dive belt is on the ground drying out."
+  keywords: ["dive","belt"]
+  description: "A scuba dive belt is on the ground drying out."
+  type: ACCESSORY
+- id: o10279
+  name: "belt pouch"
+  roomDesc: "A belt pouch is laying here."
+  keywords: ["belt","pouch"]
+  description: "A belt pouch is laying here."
+  type: ACCESSORY
+- id: o10280
+  name: "cloak storage"
+  roomDesc: "A cloak is on the ground in a pile."
+  keywords: ["cloak","storage"]
+  description: "A cloak is on the ground in a pile."
+  type: ACCESSORY
+- id: o10281
+  name: "ring holding"
+  roomDesc: "A small ring with a hinge is here collecting dust."
+  keywords: ["ring","holding"]
+  description: "A small ring with a hinge is here collecting dust."
+  type: ACCESSORY
+- id: o10282
+  name: "travellers robe"
+  roomDesc: "A pile of cloth is on the ground here."
+  keywords: ["travellers","robe"]
+  description: "A pile of cloth is on the ground here."
+  type: LIGHTARMOR
+- id: o10283
+  name: "travellers dagger"
+  roomDesc: "A small dagger is here. It looks like the kind alot of travellers carry."
+  keywords: ["travellers","dagger"]
+  description: "A small dagger is here. It looks like the kind alot of travellers carry."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10284
+  name: "travellers spellbook"
+  roomDesc: "A leather bound book with an arcane symbol is laying here."
+  keywords: ["travellers","spellbook"]
+  description: "A leather bound book with an arcane symbol is laying here."
+  type: STAFF
+- id: o10285
+  name: "travellers holy symbol"
+  roomDesc: "A cheap holy symbol is laying here."
+  keywords: ["travellers","holy","symbol"]
+  description: "A cheap holy symbol is laying here."
+  type: STAFF
+- id: o10286
+  name: "travellers vest"
+  roomDesc: "You see a travellers vest here."
+  keywords: ["travellers","vest"]
+  description: "You see a travellers vest here."
+  type: LIGHTARMOR
+- id: o10287
+  name: "travellers cloak"
+  roomDesc: "You see a travellers cloak here."
+  keywords: ["travellers","cloak"]
+  description: "You see a travellers cloak here."
+  type: ACCESSORY
+- id: o10288
+  name: "travellers sword"
+  roomDesc: "You see a travellers sword here."
+  keywords: ["travellers","sword"]
+  description: "You see a travellers sword here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10289
+  name: "travellers scalemail"
+  roomDesc: "You see a travellers scalemail here."
+  keywords: ["travellers","scalemail"]
+  description: "You see a travellers scalemail here."
+  type: HEAVYARMOR
+- id: o10290
+  name: "travellers shield"
+  roomDesc: "You see a travellers shield here."
+  keywords: ["travellers","shield"]
+  description: "You see a travellers shield here."
+  type: SHIELD
+- id: o10291
+  name: "travellers hammer"
+  roomDesc: "You see a travellers hammer here."
+  keywords: ["travellers","hammer"]
+  description: "You see a travellers hammer here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10292
+  name: "Maginus's spellbook"
+  roomDesc: "A leather bound book with an arcane symbol is laying here."
+  keywords: ["Maginus's","spellbook"]
+  description: "A leather bound book with an arcane symbol is laying here."
+  type: STAFF
+- id: o10293
+  name: "robe magi"
+  roomDesc: "A pile of cloth is on the ground. The cloth is covered with arcane symbols."
+  keywords: ["robe","magi"]
+  description: "A pile of cloth is on the ground. The cloth is covered with arcane symbols."
+  type: LIGHTARMOR
+- id: o10294
+  name: "crystal plate armor"
+  roomDesc: "A finely crafted suit of crystal plate armor is here."
+  keywords: ["crystal","plate","armor"]
+  description: "A finely crafted suit of crystal plate armor is here."
+  type: HEAVYARMOR
+- id: o10295
+  name: "Scythe Grim Reaper"
+  roomDesc: "A huge bloody scythe is here floating above the ground"
+  keywords: ["Scythe","Grim","Reaper"]
+  description: "A huge bloody scythe is here floating above the ground"
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10296
+  name: "crystal shield"
+  roomDesc: "A finely crafted crystal shield is here."
+  keywords: ["crystal","shield"]
+  description: "A finely crafted crystal shield is here."
+  type: SHIELD
+- id: o10297
+  name: "crystal longsword"
+  roomDesc: "A finely crafted crystal longsword is here."
+  keywords: ["crystal","longsword"]
+  description: "A finely crafted crystal longsword is here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10298
+  name: "obsidian plate armor"
+  roomDesc: "A suit of obsiadian plate armor is here on the ground."
+  keywords: ["obsidian","plate","armor"]
+  description: "A suit of obsiadian plate armor is here on the ground."
+  type: HEAVYARMOR
+- id: o10299
+  name: "steel plate armor"
+  roomDesc: "A suit of steel plate armor is here on the ground."
+  keywords: ["steel","plate","armor"]
+  description: "A suit of steel plate armor is here on the ground."
+  type: HEAVYARMOR
+- id: o10300
+  name: "red plate armor"
+  roomDesc: "A suit of red plate armor is here on the ground."
+  keywords: ["red","plate","armor"]
+  description: "A suit of red plate armor is here on the ground."
+  type: HEAVYARMOR
+- id: o10301
+  name: "enchanted bow"
+  roomDesc: "A bow with runes etched in it is on the floor."
+  keywords: ["enchanted","bow"]
+  description: "A bow with runes etched in it is on the floor."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10302
+  name: "safe deposit box"
+  roomDesc: "A strong metal box is embedded in the wall."
+  keywords: ["safe","deposit","box"]
+  description: "A strong metal box is embedded in the wall."
+  type: CONTAINER
+  items: ["solace:o10303","solace:o10303","solace:o10303","solace:o10303"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o10303
+  name: "gold coins"
+  roomDesc: "A lot of gold is here."
+  keywords: ["gold","coins"]
+  description: "A lot of gold is here."
+  type: MONEY
+- id: o10304
+  name: "fountain water"
+  roomDesc: "A large marble fountain gushes forth here."
+  keywords: ["fountain","water"]
+  description: "A large marble fountain gushes forth here."
+  type: FOUNTAIN
+- id: o10305
+  name: "depository key"
+  roomDesc: "A shiny depository key is here."
+  keywords: ["depository","key"]
+  description: "A shiny depository key is here."
+  type: KEY
+- id: o10306
+  name: "city key gold solace"
+  roomDesc: "A shiny gold city key is here."
+  keywords: ["city","key","gold","solace"]
+  description: "A shiny gold city key is here."
+  type: KEY
+- id: o10307
+  name: "flaming homer"
+  roomDesc: "A drink called, \"a Flaming homer\" is here."
+  keywords: ["flaming","homer"]
+  description: "A drink called, \"a Flaming homer\" is here."
+  type: DRINKCON
+- id: o10308
+  name: "jello shot"
+  roomDesc: "A jello shot is wiggling here."
+  keywords: ["jello","shot"]
+  description: "A jello shot is wiggling here."
+  type: DRINKCON
+- id: o10309
+  name: "bloody heads"
+  roomDesc: "A drink called, \"bloody heads\" is sitting here."
+  keywords: ["bloody","heads"]
+  description: "A drink called, \"bloody heads\" is sitting here."
+  type: DRINKCON
+- id: o10201
+  name: "helmet obsidian"
+  roomDesc: "A black helmet is on the floor."
+  keywords: ["helmet","obsidian"]
+  description: "A black helmet is on the floor."
+  type: HEAVYARMOR
+- id: o10202
+  name: "sleeves obsidian"
+  roomDesc: "A pair of black sleeves are on the floor."
+  keywords: ["sleeves","obsidian"]
+  description: "A pair of black sleeves are on the floor."
+  type: HEAVYARMOR
+- id: o10203
+  name: "leggings obsidian"
+  roomDesc: "Some black leggings are on the floor."
+  keywords: ["leggings","obsidian"]
+  description: "Some black leggings are on the floor."
+  type: HEAVYARMOR
+- id: o10204
+  name: "gauntlets obsidian"
+  roomDesc: "A pair of black gauntlets are on the floor."
+  keywords: ["gauntlets","obsidian"]
+  description: "A pair of black gauntlets are on the floor."
+  type: HEAVYARMOR
+- id: o10205
+  name: "boots obsidian"
+  roomDesc: "Some black boots are on the floor."
+  keywords: ["boots","obsidian"]
+  description: "Some black boots are on the floor."
+  type: HEAVYARMOR
+- id: o10206
+  name: "cloak obsidian"
+  roomDesc: "A black cloak lies on the floor."
+  keywords: ["cloak","obsidian"]
+  description: "A black cloak lies on the floor."
+  type: ACCESSORY
+- id: o10207
+  name: "girth obsidian"
+  roomDesc: "A black girth is on the floor."
+  keywords: ["girth","obsidian"]
+  description: "A black girth is on the floor."
+  type: ACCESSORY
+- id: o10208
+  name: "shield large obsidian"
+  roomDesc: "A large, black shield is on the floor."
+  keywords: ["shield","large","obsidian"]
+  description: "A large, black shield is on the floor."
+  type: SHIELD
+- id: o10209
+  name: "amulet solace"
+  roomDesc: "A shiny black amulet with a gold symbol is here."
+  keywords: ["amulet","solace"]
+  description: "A shiny black amulet with a gold symbol is here."
+  type: ACCESSORY
+- id: o10210
+  name: "obsidian key"
+  roomDesc: "A shiny black key is here."
+  keywords: ["obsidian","key"]
+  description: "A shiny black key is here."
+  type: KEY
+- id: o10211
+  name: "sword doomgiver"
+  roomDesc: "A black hilted sword with engravings on the blade lie here."
+  keywords: ["sword","doomgiver"]
+  description: "A black hilted sword with engravings on the blade lie here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10212
+  name: "signet ring"
+  roomDesc: "A shiny ring of obsidian is in the dirt."
+  keywords: ["signet","ring"]
+  description: "A shiny ring of obsidian is in the dirt."
+  type: ACCESSORY
+- id: o10213
+  name: "bracer"
+  roomDesc: "You see a obsidian bracer here."
+  keywords: ["bracer"]
+  description: "You see a obsidian bracer here."
+  type: HEAVYARMOR
+- id: o10214
+  name: "weapons cabinet"
+  roomDesc: "You see a weapons cabinet."
+  keywords: ["weapons","cabinet"]
+  description: "You see a weapons cabinet."
+  type: CONTAINER
+  items: ["solace:o10215"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o10215
+  name: "sword dragonslicer"
+  roomDesc: "A black hilted sword with engravings on the blade lie here."
+  keywords: ["sword","dragonslicer"]
+  description: "A black hilted sword with engravings on the blade lie here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10216
+  name: "helmet steel"
+  roomDesc: "A steel helmet is on the floor."
+  keywords: ["helmet","steel"]
+  description: "A steel helmet is on the floor."
+  type: HEAVYARMOR
+- id: o10217
+  name: "sleeves steel"
+  roomDesc: "A pair of steel sleeves are on the floor."
+  keywords: ["sleeves","steel"]
+  description: "A pair of steel sleeves are on the floor."
+  type: HEAVYARMOR
+- id: o10218
+  name: "leggings steel"
+  roomDesc: "Some steel leggings are on the floor."
+  keywords: ["leggings","steel"]
+  description: "Some steel leggings are on the floor."
+  type: HEAVYARMOR
+- id: o10219
+  name: "gauntlets steel"
+  roomDesc: "A pair of steel gauntlets are on the floor."
+  keywords: ["gauntlets","steel"]
+  description: "A pair of steel gauntlets are on the floor."
+  type: HEAVYARMOR
+- id: o10220
+  name: "boots steel"
+  roomDesc: "Some steel boots are on the floor."
+  keywords: ["boots","steel"]
+  description: "Some steel boots are on the floor."
+  type: HEAVYARMOR
+- id: o10221
+  name: "cloak lieutenant "
+  roomDesc: "A lieutenant's cloak lies on the floor."
+  keywords: ["cloak","lieutenant",""]
+  description: "A lieutenant's cloak lies on the floor."
+  type: ACCESSORY
+- id: o10222
+  name: "girth steel"
+  roomDesc: "A steel girth is on the floor."
+  keywords: ["girth","steel"]
+  description: "A steel girth is on the floor."
+  type: ACCESSORY
+- id: o10223
+  name: "shield large steel"
+  roomDesc: "A large, steel shield is on the floor."
+  keywords: ["shield","large","steel"]
+  description: "A large, steel shield is on the floor."
+  type: SHIELD
+- id: o10224
+  name: "bracer steel"
+  roomDesc: "You see a steel bracer here."
+  keywords: ["bracer","steel"]
+  description: "You see a steel bracer here."
+  type: HEAVYARMOR
+- id: o10225
+  name: "sword shieldbreaker"
+  roomDesc: "A black hilted sword with engravings on the blade lie here."
+  keywords: ["sword","shieldbreaker"]
+  description: "A black hilted sword with engravings on the blade lie here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10226
+  name: "helmet red"
+  roomDesc: "A red helmet is on the floor."
+  keywords: ["helmet","red"]
+  description: "A red helmet is on the floor."
+  type: HEAVYARMOR
+- id: o10227
+  name: "sleeves red scalemail"
+  roomDesc: "A pair of red scalemail sleeves are on the floor."
+  keywords: ["sleeves","red","scalemail"]
+  description: "A pair of red scalemail sleeves are on the floor."
+  type: HEAVYARMOR
+- id: o10228
+  name: "leggings red scalemail"
+  roomDesc: "Some red scalemail leggings are on the floor."
+  keywords: ["leggings","red","scalemail"]
+  description: "Some red scalemail leggings are on the floor."
+  type: HEAVYARMOR
+- id: o10229
+  name: "gauntlets red scalemail"
+  roomDesc: "A pair of red scalemail gauntlets are on the floor."
+  keywords: ["gauntlets","red","scalemail"]
+  description: "A pair of red scalemail gauntlets are on the floor."
+  type: HEAVYARMOR
+- id: o10230
+  name: "boots red scalemail"
+  roomDesc: "Some red scalemail boots are on the floor."
+  keywords: ["boots","red","scalemail"]
+  description: "Some red scalemail boots are on the floor."
+  type: HEAVYARMOR
+- id: o10231
+  name: "cloak red sergeant"
+  roomDesc: "A red sergeant's cloak lies on the floor."
+  keywords: ["cloak","red","sergeant"]
+  description: "A red sergeant's cloak lies on the floor."
+  type: ACCESSORY
+- id: o10232
+  name: "girth red scalemail"
+  roomDesc: "A red scalemail girth is on the floor."
+  keywords: ["girth","red","scalemail"]
+  description: "A red scalemail girth is on the floor."
+  type: ACCESSORY
+- id: o10233
+  name: "shield large red"
+  roomDesc: "A large, red shield is on the floor."
+  keywords: ["shield","large","red"]
+  description: "A large, red shield is on the floor."
+  type: SHIELD
+- id: o10234
+  name: "bracer red"
+  roomDesc: "You see a red bracer here."
+  keywords: ["bracer","red"]
+  description: "You see a red bracer here."
+  type: HEAVYARMOR
+- id: o10235
+  name: "warhammer mage masher"
+  roomDesc: "A red steel warhammer with engravings on the head lies here."
+  keywords: ["warhammer","mage","masher"]
+  description: "A red steel warhammer with engravings on the head lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10236
+  name: "plate black platemail"
+  roomDesc: "A suit of black platemail is sitting on the floor."
+  keywords: ["plate","black","platemail"]
+  description: "A suit of black platemail is sitting on the floor."
+  type: HEAVYARMOR
+- id: o10237
+  name: "enchanted longsword"
+  roomDesc: "A blade with runes etched in it is on the floor."
+  keywords: ["enchanted","longsword"]
+  description: "A blade with runes etched in it is on the floor."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10238
+  name: "enchanted hammer"
+  roomDesc: "A hammer with runes etched in it is on the floor."
+  keywords: ["enchanted","hammer"]
+  description: "A hammer with runes etched in it is on the floor."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10239
+  name: "enchanted pike"
+  roomDesc: "A polearm with runes etched in it is on the floor."
+  keywords: ["enchanted","pike"]
+  description: "A polearm with runes etched in it is on the floor."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

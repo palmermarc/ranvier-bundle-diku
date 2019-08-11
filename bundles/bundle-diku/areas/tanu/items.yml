@@ -1,0 +1,28 @@
+- id: o8700
+  name: "Torc"
+  roomDesc: "A golden hoop lies here upon the floor."
+  keywords: ["Torc"]
+  description: "A golden hoop lies here upon the floor."
+  type: ACCESSORY
+- id: o8701
+  name: "Mask"
+  roomDesc: "A white mask lies here upon the floor."
+  keywords: ["Mask"]
+  description: "A white mask lies here upon the floor."
+  type: ACCESSORY
+- id: o8702
+  name: "Katana sword"
+  roomDesc: "A golden Katana lies upon the floor"
+  keywords: ["Katana","sword"]
+  description: "A golden Katana lies upon the floor"
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o8703
+  name: "dragonquest666"
+  roomDesc: "A Copper Dragonstone lies here gleaming."
+  keywords: ["dragonquest666"]
+  description: "A Copper Dragonstone lies here gleaming."
+  type: FOOD

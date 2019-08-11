@@ -1,0 +1,28 @@
+---
+body: |
+  Syntax: tie <target>
+  Syntax: untie <target>
+  Syntax: gag <target>
+  Syntax: blindfold <target>
+  
+  TIE allows you yo tie up another player, who must be stunned, 
+  incapitated, or mortally wounded. While tied up, a players actions are 
+  limited - they cannot move, quit, or do many other commands.
+  
+  UNTIE will untie a player who is currently tied up. A player cannot 
+  untie themself.
+  
+  GAG places a gag over the mouth of the target player, who must first be 
+  tied up. This command will also remove a gag. A player can only remove 
+  a gag from themself if they are no longer tied up. It is not possible 
+  to talk or use any of the channels while gagged.
+  
+  BLINDFOLD places a blindfold over the eyes of the target player, who must 
+  first be tied up. The blindfold can also be removed with this command. 
+  A player can only remove a blindfold from themself if they are no longer 
+  tied up. Unsurprisingly, blindfolded players cannot see.
+  
+  See also: STRUGGLE
+  - untie
+  - gag
+  - blindfold

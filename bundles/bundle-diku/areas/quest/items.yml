@@ -1,0 +1,240 @@
+- id: o500
+  name: "sword"
+  roomDesc: "You see a standard issue sword here."
+  keywords: ["sword"]
+  description: "You see a standard issue sword here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o501
+  name: "quest card"
+  roomDesc: "A small silvery card lies on the floor"
+  keywords: ["quest","card"]
+  description: "A small silvery card lies on the floor"
+  type: QUESTCARD
+- id: o502
+  name: "quest token"
+  roomDesc: "A 50 point quest token lies on the floor"
+  keywords: ["quest","token"]
+  description: "A 50 point quest token lies on the floor"
+  type: QUEST
+- id: o503
+  name: "key iron"
+  roomDesc: "An iron key has been left here"
+  keywords: ["key","iron"]
+  description: "An iron key has been left here"
+  type: KEY
+- id: o504
+  name: "protoplasm plasm ball"
+  roomDesc: "A ball of protoplasm floats in the air"
+  keywords: ["protoplasm","plasm","ball"]
+  description: "A ball of protoplasm floats in the air"
+  type: TRASH
+- id: o505
+  name: "potion pink"
+  roomDesc: "A a pink potion rests here"
+  keywords: ["potion","pink"]
+  description: "A a pink potion rests here"
+  type: POTION
+- id: o506
+  name: "sword"
+  roomDesc: "You see a standard issue sword here"
+  keywords: ["sword"]
+  description: "You see a standard issue sword here"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o507
+  name: "quest card"
+  roomDesc: "A small silvery card lies on the floor"
+  keywords: ["quest","card"]
+  description: "A small silvery card lies on the floor"
+  type: QUESTCARD
+- id: o508
+  name: "key iron"
+  roomDesc: "An iron key has been left here"
+  keywords: ["key","iron"]
+  description: "An iron key has been left here"
+  type: KEY
+- id: o509
+  name: "protoplasm plasm ball"
+  roomDesc: "A ball of protoplasm floats in the air"
+  keywords: ["protoplasm","plasm","ball"]
+  description: "A ball of protoplasm floats in the air"
+  type: TRASH
+- id: o510
+  name: "potion pink"
+  roomDesc: "A a pink potion rests here"
+  keywords: ["potion","pink"]
+  description: "A a pink potion rests here"
+  type: POTION
+- id: o511
+  name: "quest token"
+  roomDesc: "A 50 point quest token lies on the floor"
+  keywords: ["quest","token"]
+  description: "A 50 point quest token lies on the floor"
+  type: QUEST
+- id: o512
+  name: "quest card"
+  roomDesc: "A small silvery card lies the floor"
+  keywords: ["quest","card"]
+  description: "A small silvery card lies the floor"
+  type: QUESTCARD
+- id: o513
+  name: "key iron"
+  roomDesc: "An iron key has been left here"
+  keywords: ["key","iron"]
+  description: "An iron key has been left here"
+  type: KEY
+- id: o514
+  name: "sword"
+  roomDesc: "You see a standard issue sword here"
+  keywords: ["sword"]
+  description: "You see a standard issue sword here"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o515
+  name: "protoplasm plasm ball"
+  roomDesc: "A ball of protoplasm floats here"
+  keywords: ["protoplasm","plasm","ball"]
+  description: "A ball of protoplasm floats here"
+  type: TRASH
+- id: o516
+  name: "potion pink"
+  roomDesc: "A a pink potion rests here"
+  keywords: ["potion","pink"]
+  description: "A a pink potion rests here"
+  type: POTION
+- id: o517
+  name: "quest token"
+  roomDesc: "A 50 point quest token lies on the floor"
+  keywords: ["quest","token"]
+  description: "A 50 point quest token lies on the floor"
+  type: QUEST
+- id: o518
+  name: "quest card"
+  roomDesc: "A small silvery card lies on the floor"
+  keywords: ["quest","card"]
+  description: "A small silvery card lies on the floor"
+  type: QUESTCARD
+- id: o519
+  name: "key iron"
+  roomDesc: "An iron key has been left here"
+  keywords: ["key","iron"]
+  description: "An iron key has been left here"
+  type: KEY
+- id: o520
+  name: "sword"
+  roomDesc: "You see a standard issue sword here"
+  keywords: ["sword"]
+  description: "You see a standard issue sword here"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o521
+  name: "protoplasm plasm ball"
+  roomDesc: "A ball of protoplasm floats in the air"
+  keywords: ["protoplasm","plasm","ball"]
+  description: "A ball of protoplasm floats in the air"
+  type: TRASH
+- id: o522
+  name: "potion pink"
+  roomDesc: "A a pink potion rests here"
+  keywords: ["potion","pink"]
+  description: "A a pink potion rests here"
+  type: POTION
+- id: o523
+  name: "quest token"
+  roomDesc: "A 50 point quest token lies on the floor"
+  keywords: ["quest","token"]
+  description: "A 50 point quest token lies on the floor"
+  type: QUEST
+- id: o524
+  name: "quest card"
+  roomDesc: "A small silvery card lies on the floor"
+  keywords: ["quest","card"]
+  description: "A small silvery card lies on the floor"
+  type: QUESTCARD
+- id: o525
+  name: "key iron"
+  roomDesc: "An iron key has been left here"
+  keywords: ["key","iron"]
+  description: "An iron key has been left here"
+  type: KEY
+- id: o526
+  name: "sword"
+  roomDesc: "You see a standard issue sword here"
+  keywords: ["sword"]
+  description: "You see a standard issue sword here"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o527
+  name: "protoplasm plasm ball"
+  roomDesc: "A ball of protoplasm floats in the air"
+  keywords: ["protoplasm","plasm","ball"]
+  description: "A ball of protoplasm floats in the air"
+  type: TRASH
+- id: o528
+  name: "potion pink"
+  roomDesc: "A a pink potion rests here"
+  keywords: ["potion","pink"]
+  description: "A a pink potion rests here"
+  type: POTION
+- id: o529
+  name: "quest token"
+  roomDesc: "A 50 point quest token lies on the floor"
+  keywords: ["quest","token"]
+  description: "A 50 point quest token lies on the floor"
+  type: QUEST
+- id: o530
+  name: "quest card"
+  roomDesc: "A small silvery card lies on the floor"
+  keywords: ["quest","card"]
+  description: "A small silvery card lies on the floor"
+  type: QUESTCARD
+- id: o531
+  name: "key iron"
+  roomDesc: "An iron key has been left here"
+  keywords: ["key","iron"]
+  description: "An iron key has been left here"
+  type: KEY
+- id: o532
+  name: "sword"
+  roomDesc: "You see a standard issue sword here"
+  keywords: ["sword"]
+  description: "You see a standard issue sword here"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o533
+  name: "protoplasm plasm ball"
+  roomDesc: "A ball of protoplasm floats in the air"
+  keywords: ["protoplasm","plasm","ball"]
+  description: "A ball of protoplasm floats in the air"
+  type: TRASH
+- id: o534
+  name: "potion pink"
+  roomDesc: "A a pink potion rests here"
+  keywords: ["potion","pink"]
+  description: "A a pink potion rests here"
+  type: POTION
+- id: o535
+  name: "quest token"
+  roomDesc: "A 50 point quest token lies on the floor"
+  keywords: ["quest","token"]
+  description: "A 50 point quest token lies on the floor"
+  type: QUEST

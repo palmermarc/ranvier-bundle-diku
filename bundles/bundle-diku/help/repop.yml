@@ -1,0 +1,13 @@
+---
+body: |
+  A REPOP is the timed resetting of mobs and items in an area. Since players
+  are always killing the mobs and taking the items for personal use or quest
+  cards, the mud must replace them. Each area resets at a set, predetermined
+  rate. An area will REPOP/RESET at a much faster rate if all the players
+  in that area leave. It will REPOP if players are in the area, but it is 
+  MUCH slower. This is why from time to time a player might ask you to leave
+  an area for a brief moment so he/she/it can get a quest item. 
+  
+  see also: help MOB, TICK
+  
+  - reset

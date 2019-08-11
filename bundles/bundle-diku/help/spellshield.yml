@@ -1,0 +1,16 @@
+---
+body: |
+  A SPELLSHIELD is a magical shield that can be quested onto your eq. Each 
+  spellshield costs 50 qp.
+  
+  The shields are:
+  
+  Iceshield
+  Shockshield (lightning)
+  Acidshield
+  Fireshield
+  
+  These shields add extra attacks. Their power is based on your
+  hitroll/damroll and stance.
+  
+  - spellshields

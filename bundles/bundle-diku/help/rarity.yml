@@ -1,0 +1,4 @@
+---
+body: |
+  Items now have a rarity value, rarity is based on total stats that item can have. 
+  Rarity levels are as follows from worst to best: #wWhite#e, #yGray#e, #GGreen#e, #CBlue#e, #MPurple#e.

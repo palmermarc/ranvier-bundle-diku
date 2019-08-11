@@ -1,0 +1,12 @@
+title: "Hallway to Darkness"
+metadata:
+  id: 36
+  name: "Hallway to Darkness"
+  createdBy: "troile"
+  starting_vnum: 12410
+  ending_vnum: 12451
+  item_requirements: 8000
+  filename: "htd.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

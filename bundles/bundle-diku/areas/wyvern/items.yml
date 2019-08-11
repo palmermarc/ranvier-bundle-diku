@@ -1,0 +1,166 @@
+- id: o1601
+  name: "rusty cleaver"
+  roomDesc: "A rusty cleaver lies on a counter top."
+  keywords: ["rusty","cleaver"]
+  description: "A rusty cleaver lies on a counter top."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1602
+  name: "fine mace"
+  roomDesc: "There is a large mace of fine quality here."
+  keywords: ["fine","mace"]
+  description: "There is a large mace of fine quality here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1603
+  name: "elven dagger"
+  roomDesc: "A long elven dagger made of adamantite is here."
+  keywords: ["elven","dagger"]
+  description: "A long elven dagger made of adamantite is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1604
+  name: "steel broad sword"
+  roomDesc: "A fine steel broad sword is lying on the ground."
+  keywords: ["steel","broad","sword"]
+  description: "A fine steel broad sword is lying on the ground."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1606
+  name: "rod might"
+  roomDesc: "A Rod of Might is lying here."
+  keywords: ["rod","might"]
+  description: "A Rod of Might is lying here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1612
+  name: "black kite shield"
+  roomDesc: "There is a large black kite shield lying here."
+  keywords: ["black","kite","shield"]
+  description: "There is a large black kite shield lying here."
+  type: SHIELD
+- id: o1614
+  name: "helm"
+  roomDesc: "A commander's helm rests on a table here."
+  keywords: ["helm"]
+  description: "A commander's helm rests on a table here."
+  type: HEAVYARMOR
+- id: o1615
+  name: "bracer"
+  roomDesc: "A magical bracer made from mithril lies on the ground!"
+  keywords: ["bracer"]
+  description: "A magical bracer made from mithril lies on the ground!"
+  type: HEAVYARMOR
+- id: o1616
+  name: "dark blue cloak"
+  roomDesc: "A valuable cloak of dark blue cloth lies on the floor."
+  keywords: ["dark","blue","cloak"]
+  description: "A valuable cloak of dark blue cloth lies on the floor."
+  type: ACCESSORY
+- id: o1621
+  name: "dark red potion"
+  roomDesc: "A dark red potion rests on the ground."
+  keywords: ["dark","red","potion"]
+  description: "A dark red potion rests on the ground."
+  type: POTION
+- id: o1651
+  name: "bronze chest"
+  roomDesc: "There is a sturdy bronze chest in the corner."
+  keywords: ["bronze","chest"]
+  description: "There is a sturdy bronze chest in the corner."
+  type: CONTAINER
+  items: ["wyvern:o1603"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1652
+  name: "ale barrel"
+  roomDesc: "There is a small barrel in one corner."
+  keywords: ["ale","barrel"]
+  description: "There is a small barrel in one corner."
+  type: DRINKCON
+- id: o1691
+  name: "key twin towers"
+  roomDesc: "There is a shiny skeleton key on the ground here."
+  keywords: ["key","twin","towers"]
+  description: "There is a shiny skeleton key on the ground here."
+  type: KEY
+- id: o1692
+  name: "strange key"
+  roomDesc: "There is a very strange-looking key on the ground here."
+  keywords: ["strange","key"]
+  description: "There is a very strange-looking key on the ground here."
+  type: KEY
+- id: o1701
+  name: "short bow"
+  roomDesc: "A short bow has been carelessly left here."
+  keywords: ["short","bow"]
+  description: "A short bow has been carelessly left here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1702
+  name: "long bow"
+  roomDesc: "A long bow has been foolishly abandoned here."
+  keywords: ["long","bow"]
+  description: "A long bow has been foolishly abandoned here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1703
+  name: "gnarled staff"
+  roomDesc: "A gnarled looking staff lies on the ground."
+  keywords: ["gnarled","staff"]
+  description: "A gnarled looking staff lies on the ground."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1704
+  name: "ancient sword"
+  roomDesc: "An ancient long sword has been left here."
+  keywords: ["ancient","sword"]
+  description: "An ancient long sword has been left here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1711
+  name: "fur cap"
+  roomDesc: "A fur cap lies here on the ground."
+  keywords: ["fur","cap"]
+  description: "A fur cap lies here on the ground."
+  type: LIGHTARMOR
+- id: o1712
+  name: "travelling boots"
+  roomDesc: "A sturdy pair of travelling boots lies here."
+  keywords: ["travelling","boots"]
+  description: "A sturdy pair of travelling boots lies here."
+  type: LIGHTARMOR
+- id: o1713
+  name: "bronze ring"
+  roomDesc: "A ring of etched bronze gleams dimly on the ground."
+  keywords: ["bronze","ring"]
+  description: "A ring of etched bronze gleams dimly on the ground."
+  type: ACCESSORY

@@ -1,0 +1,19 @@
+---
+body: |
+  Syntax: Spell: cast voodoo <victim>
+  Ability: voodoo <victim> <action>
+  
+  Voodoo magic allows the caster to do things to another player indirectly.
+  First, a body part of the victim is needed. The caster should hold this 
+  part and cast the spell on the target (they don't have to be in the same 
+  room). This will create the voodoo doll, which the caster the voodoo 
+  commands on to interfere with the victim.
+  
+  There are three voodoo actions. The first, 'Stab', is only of use as a 
+  warning to the victim, or to cause annoyance. The second, 'Throw', will 
+  hurl the victim from their feet and cause a small amount of damage. The 
+  third and final action, 'Burn', will set the victim on fire, as well as 
+  destroy the doll itself.
+  
+  To use a voodoo doll, you must hold it in your left hand.
+  

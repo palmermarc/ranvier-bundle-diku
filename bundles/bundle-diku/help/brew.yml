@@ -1,0 +1,18 @@
+---
+body: |
+  Syntax: cast brew <potion> <spell>
+  Syntax: cast scribe <scroll> <spell>
+  Syntax: cast carve <wand> <spell> 
+  Syntax: cast engrave <staff> <spell>
+  Syntax: cast bake <pill> <spell>
+  
+  These spells allow other spells to be embedded in the specified object, 
+  which is usually created via the 'minor creation' spell.
+  
+  *Note some of these are out to to abuse awaiting recode*
+  
+  see also: help BRANDISH, QUAFF, ZAP, RECITE
+  - scribe
+  - carve
+  - engrave
+  - bake

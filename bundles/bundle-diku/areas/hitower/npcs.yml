@@ -1,0 +1,1710 @@
+- id: m1301
+  keywords: ["lost","emaciated","adventurer"]
+  name: "a lost adventurer"
+  description: >-
+    An emaciated adventurer is here looking lost and hopeless.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 271.7
+          max: 300.3
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1303
+  keywords: ["diamond","golem"]
+  name: "the golem"
+  description: >-
+    A huge diamond golem is standing guard here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 935.75
+          max: 1034.25
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1304
+  keywords: ["mage","young"]
+  name: "a mage"
+  description: >-
+    A young mage wanders about, oblivious to all.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 450
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 414.2
+          max: 457.8
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1305
+  keywords: ["strick","bartender"]
+  name: "Strick the bartender"
+  description: >-
+    Strick is here levitating drinks to his customers.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 750
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "hitower:o1351": 75
+        "hitower:o1352": 75
+  metadata:
+    vendor:
+      items:
+        "hitower:o1351":
+          cost: 11
+          currency: gold
+        "hitower:o1352":
+          cost: 65
+          currency: gold
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1306
+  keywords: ["tatorious","wizard"]
+  name: "Tatorious"
+  description: >-
+    Tatorious the wizard is here counting his earnings.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+  metadata:
+    vendor:
+      items:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1307
+  keywords: ["ezmerelda","cook"]
+  name: "Ezmerelda"
+  description: >-
+    Ezmerelda the cook is here stirring a large pot of something.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1037.4
+          max: 1146.6
+      pools:
+        "hitower:o1355": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 2
+- id: m1308
+  keywords: ["assistant","mage"]
+  name: "The cook's assistant"
+  description: >-
+    The cook's assistant is here assisting the cook.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 110.2
+          max: 121.8
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1309
+  keywords: ["prisoner"]
+  name: "The prisoner"
+  description: >-
+    A prisoner is chained to the wall here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hitower:o1356": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1310
+  keywords: ["jailor","mage"]
+  name: "the Jailor"
+  description: >-
+    The Jailor is here enjoying a comfortable nap.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1259.7
+          max: 1392.3
+      pools:
+        "hitower:o1323": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1311
+  keywords: ["broom"]
+  name: "a broom"
+  description: >-
+    A straw broom is here leaning against the wall.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 50
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1312
+  keywords: ["lesser","guardian","hands"]
+  name: "a pair of disembodied hands"
+  description: >-
+    A pair of disembodied hands floats in the air here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1313
+  keywords: ["guardian","greater","eyes"]
+  name: "a pair of disembodied eyes"
+  description: >-
+    A pair of disembodied eyes floats here glaring at you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1314
+  keywords: ["mage","visitor"]
+  name: "the mage"
+  description: >-
+    A visiting mage is here snoring away in peaceful slumber.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 250
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 689.7
+          max: 762.3
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1315
+  keywords: ["apprentice","young"]
+  name: "a young apprentice magic user"
+  description: >-
+    A young apprentice magic user is here doing magical studies.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 350.55
+          max: 387.45
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 2
+- id: m1316
+  keywords: ["apprentice","young"]
+  name: "a young apprentice"
+  description: >-
+    A young apprentice is here mumbling words of magic to himself.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 380
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 462.65
+          max: 511.35
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1317
+  keywords: ["apprentice","young"]
+  name: "a young apprentice"
+  description: >-
+    A young apprentice is sleeping here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 350
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 200.45
+          max: 221.55
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1318
+  keywords: ["apprentice","young"]
+  name: "A young apprentice"
+  description: >-
+    A young apprentice is here teasing a cornered kitten.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 362.9
+          max: 401.1
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1319
+  keywords: ["kitten"]
+  name: "a small kitten"
+  description: >-
+    A small kitten is here meowing in terror.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 2
+- id: m1320
+  keywords: ["student"]
+  name: "a student"
+  description: >-
+    A student of spells is here looking quite bored
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 350
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 249.85
+          max: 276.15
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1321
+  keywords: ["instructor","teacher","mage"]
+  name: "an instructor of magic"
+  description: >-
+    The instructor screams at your interruption and attacks you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 836
+          max: 924
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1322
+  keywords: ["student"]
+  name: "a student of spells"
+  description: >-
+    A student of spells is here trying to master invisibility.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 188.1
+          max: 207.9
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1323
+  keywords: ["teacher","mage"]
+  name: "a spell teacher"
+  description: >-
+    A spell teacher screams at your interruption and attacks.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1193.2
+          max: 1318.8
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1324
+  keywords: ["student"]
+  name: "a student of spells"
+  description: >-
+    A student of spells has fallen asleep at her desk here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 538.65
+          max: 595.35
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 2
+- id: m1325
+  keywords: ["wizard","speaker","mage"]
+  name: "a wizard"
+  description: >-
+    An old wizard is here making a speech
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 2344.6
+          max: 2591.4
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1326
+  keywords: ["mage","young"]
+  name: "a young mage"
+  description: >-
+    A young mage is here learning hand to hand combat.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 300
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 660.25
+          max: 729.75
+      pools:
+        "hitower:o1357": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1327
+  keywords: ["mistress","battle"]
+  name: "the battle mistress"
+  description: >-
+    The battle mistress is here teaching the fine uses of a dagger.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 3050.45
+          max: 3371.55
+      pools:
+        "hitower:o1357": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 2
+- id: m1328
+  keywords: ["mage","teacher"]
+  name: "a spell teacher"
+  description: >-
+    A spell teacher is here relaxing.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 951.9
+          max: 1052.1
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1329
+  keywords: ["wizard"]
+  name: "an aged wizard"
+  description: >-
+    An aged wizard is sleeping here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 350
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1488.65
+          max: 1645.35
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1330
+  keywords: ["scribe","mage"]
+  name: "a scribe"
+  description: >-
+    A scribe is here working on some manuscripts.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 296.4
+          max: 327.6
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1331
+  keywords: ["scribe","mage"]
+  name: "a scribe"
+  description: >-
+    A scribe is here working diligently on some translations.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 649.8
+          max: 718.2
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 2
+- id: m1332
+  keywords: ["master","scribe"]
+  name: "the master scribe"
+  description: >-
+    The master scribe is here looking a little upset
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 5352.3
+          max: 5915.7
+      pools:
+        "hitower:o1359": 75
+        "hitower:o1360": 75
+        "hitower:o1361": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1333
+  keywords: ["assistant","scribe"]
+  name: "the scribe's assistant"
+  description: >-
+    The scribe's assistant is here folding parchments.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 997.5
+          max: 1102.5
+      pools:
+        "hitower:o1362": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1334
+  keywords: ["master","enchanter","mage"]
+  name: "the Enchanter"
+  description: >-
+    The Enchanter is here placing a dweomer upon well made sword.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 6471.4
+          max: 7152.6
+      pools:
+        "hitower:o1316": 75
+        "hitower:o1363": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1335
+  keywords: ["sword","dancing"]
+  name: "a dancing sword"
+  description: >-
+    A well crafted sword lies on the work table here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1336
+  keywords: ["alchemist"]
+  name: "the Mad Alchemist"
+  description: >-
+    The Mad Alchemist babbles something incomprehensible and attacks.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 150
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 2228.7
+          max: 2463.3
+      pools:
+        "hitower:o1364": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1337
+  keywords: ["master","summoner"]
+  name: "the master summoner"
+  description: >-
+    The master summoner is here holding gateways open to other planes.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 968.05
+          max: 1069.95
+      pools:
+        "hitower:o1371": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1338
+  keywords: ["master","charmer"]
+  name: "the master charmer"
+  description: >-
+    The master charmer utters the words, 'uuuzzldctz'.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 4438.4
+          max: 4905.6
+      pools:
+        "hitower:o1372": 75
+        "hitower:o1373": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1339
+  keywords: ["golem","wooden"]
+  name: "a wooden golem"
+  description: >-
+    A wooden golem stands a silent vigil here, guarding the stairs.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1340
+  keywords: ["master","binder"]
+  name: "the master spell binder"
+  description: >-
+    The master spell binder is here re-charging a blackened wand.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 2199.25
+          max: 2430.75
+      pools:
+        "hitower:o1325": 75
+        "hitower:o1374": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1341
+  keywords: ["master","maker"]
+  name: "the golem maker"
+  description: >-
+    The golem maker is here chiseling some stone.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 2544.1
+          max: 2811.9
+      pools:
+        "hitower:o1376": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1342
+  keywords: ["golem","granite"]
+  name: "a granite golem"
+  description: >-
+    A granite golem stands here waiting to do its master's bidding.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1343
+  keywords: ["golem","bronze"]
+  name: "a bronze golem"
+  description: >-
+    A bronze golem stands here shining in the light.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 350
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1344
+  keywords: ["golem","flesh"]
+  name: "a flesh golem"
+  description: >-
+    A flesh golem stands guard here
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1345
+  keywords: ["golem","cloth"]
+  name: "a cloth golem"
+  description: >-
+    A cloth golem wanders around here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 350
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1346
+  keywords: ["golem","adamantite"]
+  name: "an adamantite golem"
+  description: >-
+    An adamantite golem stands here looking very dangerous.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 350
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1347
+  keywords: ["golem","clay"]
+  name: "a clay golem"
+  description: >-
+    A clay golem stands guard here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1348
+  keywords: ["master","illusionist","mage"]
+  name: "the master of illusions"
+  description: >-
+    An enormous multi-colored three-headed dragon growls at you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 150
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 2227.75
+          max: 2462.25
+      pools:
+        "hitower:o1377": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1349
+  keywords: ["necromancer","master"]
+  name: "the Necromancer"
+  description: >-
+    The Necromancer is here raising undead servants
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -950
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 11099.8
+          max: 12268.2
+      pools:
+        "hitower:o1379": 75
+        "hitower:o1380": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1350
+  keywords: ["skeleton","undead"]
+  name: "an animated skeleton"
+  description: >-
+    An animated skeleton screams silently and attacks.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1351
+  keywords: ["undead","giant"]
+  name: "an undead giant"
+  description: >-
+    An undead giant lumbers towards you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hitower:o1381": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1352
+  keywords: ["witch","hag"]
+  name: "an ugly witch"
+  description: >-
+    An ugly witch is here scrying out secrets.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -450
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 2042.5
+          max: 2257.5
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 2
+- id: m1353
+  keywords: ["librarian","mage"]
+  name: "the Librarian"
+  description: >-
+    The Librarian has fallen asleep at his desk here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 450
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1222.65
+          max: 1351.35
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1354
+  keywords: ["apprentice"]
+  name: "the master's apprentice"
+  description: >-
+    The master's apprentice leaps to halt your passage.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 6386.85
+          max: 7059.15
+      pools:
+        "hitower:o1382": 75
+        "hitower:o1384": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1355
+  keywords: ["cat","grey","familiar"]
+  name: "a grey cat"
+  description: >-
+    A grey cat is lounging lazily here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 2
+- id: m1356
+  keywords: ["master","guildmaster","grey"]
+  name: "the master of Neutrality"
+  description: >-
+    The master of Neutrality stands here contemplating the balance of the universe.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 14582.5
+          max: 16117.5
+      pools:
+        "hitower:o1383": 75
+        "hitower:o1385": 75
+        "hitower:o1386": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1357
+  keywords: ["apprentice","black"]
+  name: "a black robed apprentice"
+  description: >-
+    A black robed apprentice jumps from the shadows and attacks.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 13182.2
+          max: 14569.8
+      pools:
+        "hitower:o1387": 75
+        "hitower:o1388": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 2
+- id: m1358
+  keywords: ["cat","black","familiar"]
+  name: "a black cat"
+  description: >-
+    A black cat with its fur up hisses at you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1359
+  keywords: ["master","guildmaster","black"]
+  name: "the master of the black robes"
+  description: >-
+    The master of the black robes is here plotting vile deeds.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 20995
+          max: 23205
+      pools:
+        "hitower:o1389": 75
+        "hitower:o1390": 75
+        "hitower:o1386": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1360
+  keywords: ["apprentice","white"]
+  name: "a white robed apprentice"
+  description: >-
+    A white robed apprentice screams at your desecration of goodness.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 7030
+          max: 7770
+      pools:
+        "hitower:o1391": 75
+        "hitower:o1392": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1361
+  keywords: ["cat","white","familiar"]
+  name: "a white cat"
+  description: >-
+    A white cat is here preening its fur.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1362
+  keywords: ["master","guildmaster","white"]
+  name: "The master of goodness"
+  description: >-
+    The master of goodness is here frowning at your intrusion.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 20805
+          max: 22995
+      pools:
+        "hitower:o1393": 75
+        "hitower:o1394": 75
+        "hitower:o1386": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1
+- id: m1363
+  keywords: ["cat","calico","familiar"]
+  name: "A calico cat"
+  description: >-
+    A large calico cat is here
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hitower:o1395": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 0
+- id: m1364
+  keywords: ["guildmaster","grand","mistress"]
+  name: "The Grand Mistress"
+  description: >-
+    The Grand Mistress of Magic is sitting here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 47500
+          max: 52500
+      pools:
+        "hitower:o1401": 75
+        "hitower:o1397": 75
+        "hitower:o1398": 75
+        "hitower:o1399": 75
+        "hitower:o1400": 75
+        "hitower:o1339": 75
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 2
+- id: m1365
+  keywords: ["wizard"]
+  name: "a wizard"
+  description: >-
+    A wandering wizard is here mumbling to himself.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 350
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 3049.5
+          max: 3370.5
+  metadata:
+    areaId: 34
+    exp_level: 8000
+    sex: 1

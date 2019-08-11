@@ -1,0 +1,903 @@
+- id: r12500
+  title: "A dusty hallway"
+  description: >-
+    You are standing in a dusty hallway, you see no foot prints, 
+    no sign of anything or anyone being here for centuries.
+    Stone stairs lead up into the darkness.
+  exits:
+    - roomId: "bloodshrine:r12501"
+      direction: north
+    - roomId: "joker:r20012"
+      direction: up
+  npcs:
+    - id: "bloodshrine:m12500"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12501
+  title: "A dusty hallway"
+  description: >-
+    You are standing in front of a small ornate door dripping with blood, 
+    but yet spider webs all over.
+  exits:
+    - roomId: "bloodshrine:r12502"
+      direction: north
+    - roomId: "bloodshrine:r12500"
+      direction: south
+- id: r12502
+  title: "A dusty shaft."
+  description: >-
+    You are standing in a room with a large pit and a ladder going down into the darkness.
+  exits:
+    - roomId: "bloodshrine:r12501"
+      direction: south
+    - roomId: "bloodshrine:r12503"
+      direction: down
+- id: r12503
+  title: "A long ladder."
+  description: >-
+    You are decending on a long wooden ladder.
+  exits:
+    - roomId: "bloodshrine:r12502"
+      direction: up
+    - roomId: "bloodshrine:r12504"
+      direction: down
+- id: r12504
+  title: "A long ladder"
+  description: >-
+    You continue down the ladder.
+  exits:
+    - roomId: "bloodshrine:r12503"
+      direction: up
+    - roomId: "bloodshrine:r12505"
+      direction: down
+- id: r12505
+  title: "A long ladder."
+  description: >-
+    You continue down the ladder.
+  exits:
+    - roomId: "bloodshrine:r12504"
+      direction: up
+    - roomId: "bloodshrine:r12506"
+      direction: down
+- id: r12506
+  title: "End of the Ladder"
+  description: >-
+    You reach the end of the ladder and see you are 
+    walking in a pool of blood that runs everywhere.
+  exits:
+    - roomId: "bloodshrine:r12505"
+      direction: up
+    - roomId: "bloodshrine:r12507"
+      direction: down
+- id: r12507
+  title: "Blood filled hallway."
+  description: >-
+    You see blood pooring down a small crevice.
+  exits:
+    - roomId: "bloodshrine:r12515"
+      direction: north
+    - roomId: "bloodshrine:r12537"
+      direction: east
+    - roomId: "bloodshrine:r12508"
+      direction: west
+    - roomId: "bloodshrine:r12506"
+      direction: up
+- id: r12508
+  title: "Blood Room"
+  description: >-
+    You see blood pooring down a deep slipery crevice.
+  exits:
+    - roomId: "bloodshrine:r12507"
+      direction: east
+    - roomId: "bloodshrine:r12509"
+      direction: down
+- id: r12509
+  title: "Blood Bath"
+  description: >-
+    You see strange things moving in the blood, 
+    you stand 2 foot deep in blood. 
+    You try and resist in frenzy.
+  exits:
+    - roomId: "bloodshrine:r12510"
+      direction: north
+    - roomId: "bloodshrine:r12512"
+      direction: south
+    - roomId: "bloodshrine:r12513"
+      direction: east
+    - roomId: "bloodshrine:r12511"
+      direction: west
+    - roomId: "bloodshrine:r12508"
+      direction: up
+  npcs:
+    - id: "bloodshrine:m12501"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12510
+  title: "Blood Bath"
+  description: >-
+    You come to a door covered in blood, 
+    with blood oozing out of the cracks in the door. 
+    Do you dare to open it?
+  exits:
+    - roomId: "bloodshrine:r12514"
+      direction: north
+    - roomId: "bloodshrine:r12509"
+      direction: south
+  npcs:
+    - id: "bloodshrine:m12501"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12511
+  title: "Blood Bath"
+  description: >-
+    You see strange things moving in the blood, 
+    you stand 2ft deep in blood. 
+    You try and resist in frenzy.
+  exits:
+    - roomId: "bloodshrine:r12509"
+      direction: east
+  npcs:
+    - id: "bloodshrine:m12501"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12512
+  title: "Blood Bath"
+  description: >-
+    You see strange things moving in the blood, 
+    you stand 2ft deep in blood. 
+    You try and resist in frenzy.
+  exits:
+    - roomId: "bloodshrine:r12509"
+      direction: north
+  npcs:
+    - id: "bloodshrine:m12501"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12513
+  title: "Blood Bath"
+  description: >-
+    You see strange things moving in the blood, 
+    you stand 2ft deep in blood. 
+    You try and resist in frenzy.
+  exits:
+    - roomId: "bloodshrine:r12509"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12501"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r12514
+  title: "Bloody Serpent's Lair"
+  description: >-
+    You stand in 4ft of blood before a giant serpent. 
+    You shiver and suffer at its enourmous size.
+  exits:
+    - roomId: "bloodshrine:r12510"
+      direction: south
+  npcs:
+    - id: "bloodshrine:m12502"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12515
+  title: "The Mad Circle"
+  description: >-
+    You stand in a room with four exits. 
+    Surprisingly there is NO BLOOD HERE. 
+    This place could drive any kindred INSANE!
+  exits:
+    - roomId: "bloodshrine:r12516"
+      direction: north
+    - roomId: "bloodshrine:r12507"
+      direction: south
+    - roomId: "bloodshrine:r12518"
+      direction: east
+    - roomId: "bloodshrine:r12517"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12503"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12516
+  title: "The Mad Circle"
+  description: >-
+    You stand in this room and you get a funny feeling of deja-vu? 
+    Have I been here before?
+  exits:
+    - roomId: "bloodshrine:r12521"
+      direction: north
+    - roomId: "bloodshrine:r12515"
+      direction: south
+    - roomId: "bloodshrine:r12520"
+      direction: east
+    - roomId: "bloodshrine:r12519"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12504"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12517
+  title: "Tremere Hallways"
+  description: >-
+    You stand in a hallway decorated with pictorals 
+    of the struggles and battles or the Tremere. 
+    You notice a strange magic glow in the blood 
+    that pours down these halls, your spine tingles.
+  exits:
+    - roomId: "bloodshrine:r12515"
+      direction: east
+    - roomId: "bloodshrine:r12528"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12506"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12518
+  title: "Cappadocian Hallways"
+  description: >-
+    You stand in a hallway decorated with pictorals 
+    of the struggles and battles or the Cappadocian. 
+    You look at the blood that pours down these halls 
+    and you notice it is pure black. 
+    Your feet begin to numb as you stand in the blood.
+  exits:
+    - roomId: "bloodshrine:r12529"
+      direction: east
+    - roomId: "bloodshrine:r12515"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12505"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12519
+  title: "Malkavian Hallways"
+  description: >-
+    You are standing in a pure white padded hallway. 
+    The blood runes bright red along the ground. 
+    You notice the blood does not stain the white walls. 
+    Your head begins to spin as you hear the sounds of Bethovens 9th symphony. 
+    You know the powerful Malkavian's must be around.
+  exits:
+    - roomId: "bloodshrine:r12516"
+      direction: east
+    - roomId: "bloodshrine:r12536"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12507"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12520
+  title: "Nosferatu Hallways"
+  description: >-
+    You enter a blood filled room. 
+    You puke as you smell the stench of the Nosferatu vampires. 
+    The blood makes you woozy as it is green in color but thick as molases.
+  exits:
+    - roomId: "bloodshrine:r12544"
+      direction: east
+    - roomId: "bloodshrine:r12516"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12515"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12521
+  title: "The Mad Circle"
+  description: >-
+    You stand in another room. Except its diffrent. 
+    There is a man standing in the middle. 
+    He is surrounded by a circle of candles praying. 
+    There is no blood here except on the mans cloak.
+  exits:
+    - roomId: "bloodshrine:r12524"
+      direction: north
+    - roomId: "bloodshrine:r12516"
+      direction: south
+    - roomId: "bloodshrine:r12523"
+      direction: east
+    - roomId: "bloodshrine:r12522"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12508"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12522
+  title: "Brujah Hallways"
+  description: >-
+    You stand in a room full of fresh blood. 
+    The blood seems of Brujah nature. 
+    You stand here in this blood and feel the rage of the Brujah brothers. 
+    The blood practically makes you frenzy!
+  exits:
+    - roomId: "bloodshrine:r12521"
+      direction: east
+    - roomId: "bloodshrine:r12551"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12509"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12523
+  title: "Toreador Hallways"
+  description: >-
+    You are standing in 2 inches of weak blood. 
+    The blood is thinned and weak. 
+    You see intracately made ornaments and paintings on the walls.
+  exits:
+    - roomId: "bloodshrine:r12527"
+      direction: east
+    - roomId: "bloodshrine:r12521"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12510"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12524
+  title: "The End of the Mad Circle"
+  description: >-
+    You stand at the last room of the Mad circle. 
+    Johan kneels here in prayer. 
+    He is aware of everything and can sense your approach. 
+    The room is filled with hair. 
+    Not human hair, nor any kind of animal. 
+    You wonder where this unhuman hair came from.
+  exits:
+    - roomId: "bloodshrine:r12521"
+      direction: south
+    - roomId: "bloodshrine:r12526"
+      direction: east
+    - roomId: "bloodshrine:r12525"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12522"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12525
+  title: "Ventrue Hallways."
+  description: >-
+    You enter the Ventrue Hallways and notice there is no blood at all here. 
+    You ponder where are the Ventrue vampires? 
+    Are they hiding in seclusion? Or have they been wiped out?
+  exits:
+    - roomId: "bloodshrine:r12524"
+      direction: east
+    - roomId: "bloodshrine:r12559"
+      direction: west
+- id: r12526
+  title: "Gangrel Hallways"
+  description: >-
+    You step into a hallway with blood running thick and potent. 
+    You see oreo cookies and a glass of milk on the counter. 
+    The blood of the gangrel makes you stop dead in your tracks from fear.
+  exits:
+    - roomId: "bloodshrine:r12555"
+      direction: east
+    - roomId: "bloodshrine:r12524"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12511"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12527
+  title: "Toreador Hallways"
+  description: >-
+    You are standing in 2 inches of weak blood. 
+    The blood is thinned and weak. 
+    You see intracately made ornaments and paintings on the walls.
+  exits:
+    - roomId: "bloodshrine:r12548"
+      direction: east
+    - roomId: "bloodshrine:r12523"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12512"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12528
+  title: "Tremere Hallways"
+  description: >-
+    You stand in a hallway decorated with pictorals 
+    of the struggles and battles or the Tremere. 
+    You notice a strange magic glow in the blood 
+    that pours down these halls, your spine tingles.
+  exits:
+    - roomId: "bloodshrine:r12517"
+      direction: east
+    - roomId: "bloodshrine:r12533"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12513"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12529
+  title: "Cappadocian Hallways"
+  description: >-
+    You stand in a hallway decorated with pictorals 
+    of the struggles and battles or the Cappadocian. 
+    You look at the blood that pours down these halls 
+    and you notice it is pure black. 
+    Your feet begin to numb as you stand in the blood.
+  exits:
+    - roomId: "bloodshrine:r12530"
+      direction: east
+    - roomId: "bloodshrine:r12518"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12514"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12530
+  title: "Cappadocian Hallways"
+  description: >-
+    You stand in a hallway decorated with pictorals 
+    of the struggles and battles or the Cappadocian. 
+    You look at the blood that pours down these halls 
+    and you notice it is pure black. 
+    Your feet begin to numb as you stand in the blood.
+  exits:
+    - roomId: "bloodshrine:r12531"
+      direction: east
+    - roomId: "bloodshrine:r12529"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12516"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12531
+  title: "Cappadocian Hallways"
+  description: >-
+    You stand in a hallway decorated with pictorals 
+    of the struggles and battles or the Cappadocian. 
+    You look at the blood that pours down these halls 
+    and you notice it is pure black. 
+    Your feet begin to numb as you stand in the blood. 
+    You stand before a prison cell door. 
+    The blood seems as tho is comming from the other side.
+  exits:
+    - roomId: "bloodshrine:r12532"
+      direction: east
+    - roomId: "bloodshrine:r12530"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12517"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12532
+  title: "Cappadocian Throne Room"
+  description: >-
+    The blood here is deeper and blacker than before. 
+    Your body grows cold and numb. 
+    You notice in the shadows the great Cappdadocian Grand Master Vampire.
+  exits:
+    - roomId: "bloodshrine:r12531"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12518"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12533
+  title: "Tremere Hallways"
+  description: >-
+    You stand in a hallway decorated with pictorals 
+    of the struggles and battles or the Tremere. 
+    You notice a strange magic glow in the blood 
+    that pours down these halls, your spine tingles.
+  exits:
+    - roomId: "bloodshrine:r12528"
+      direction: east
+    - roomId: "bloodshrine:r12534"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12519"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12534
+  title: "Tremere Hallways"
+  description: >-
+    You stand in a hallway decorated with pictorals 
+    of the struggles and battles or the Tremere. 
+    You notice a strange magic glow in the blood 
+    that pours down these halls, your spine tingles.
+  exits:
+    - roomId: "bloodshrine:r12533"
+      direction: east
+    - roomId: "bloodshrine:r12535"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12520"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12535
+  title: "Tremere Throne Room"
+  description: >-
+    You stand in a room filled with blood pouring 
+    up out of a Cauldron, it is unhuman. 
+    You notice all the magic scrolls and staves of 
+    the Tremere Grand Master Vampire. 
+    There is an altar here for blood rituals.
+  exits:
+    - roomId: "bloodshrine:r12534"
+      direction: east
+  npcs:
+    - id: "bloodshrine:m12521"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12536
+  title: "Malkavian Hallways"
+  description: >-
+    You are standing in a pure white padded hallway. 
+    The blood runes bright red along the ground. 
+    You notice the blood does not stain the white walls. 
+    Your head begins to spin as you hear the sounds of Bethovens 9th symphony. 
+    You know the powerful Malkavian's must be around.
+  exits:
+    - roomId: "bloodshrine:r12519"
+      direction: east
+    - roomId: "bloodshrine:r12541"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12525"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12537
+  title: "Blood Shrine Entrance"
+  description: >-
+    You come to an ornate door, blood flows 
+    strongly through the cracks and the bars of the door. 
+    The blood here is as thick as you have ever seen in your life!
+  exits:
+    - roomId: "bloodshrine:r12538"
+      direction: east
+    - roomId: "bloodshrine:r12507"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12523"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r12538
+  title: "Blood Shrine"
+  description: >-
+    You stand in a room filled with an ocean of blood. 
+    Surprisingly you do not sink, the blood is as strong 
+    as concrete where you step. There are many ornate 
+    carvings and symbols in the cylinder shaped room. 
+    There is something in the middle of the room watch out!
+  exits:
+    - roomId: "bloodshrine:r12537"
+      direction: west
+    - roomId: "bloodshrine:r12539"
+      direction: down
+  npcs:
+    - id: "bloodshrine:m12524"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12539
+  title: "Swimming through blood."
+  description: >-
+    You are swimming through a thick dense lake of blood.
+  exits:
+    - roomId: "bloodshrine:r12538"
+      direction: up
+    - roomId: "bloodshrine:r12540"
+      direction: down
+- id: r12540
+  title: "Swimming through blood."
+  description: >-
+    You are swimming through a thick dense lake of blood. 
+    You see light at the bottom of the blood.
+  exits:
+    - roomId: "bloodshrine:r12539"
+      direction: up
+- id: r12541
+  title: "Malkavian Hallways"
+  description: >-
+    You are standing in a pure white padded hallway. 
+    The blood runes bright red along the ground. 
+    You notice the blood does not stain the white walls. 
+    Your head begins to spin as you hear the sounds of Bethovens 9th symphony. 
+    You know the powerful Malkavian's must be around.
+  exits:
+    - roomId: "bloodshrine:r12536"
+      direction: east
+    - roomId: "bloodshrine:r12542"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12525"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12542
+  title: "Malkavian Hallways"
+  description: >-
+    You are standing in a pure white padded hallway. 
+    The blood runes bright red along the ground. 
+    You notice the blood does not stain the white walls. 
+    Your head begins to spin as you hear the sounds of Bethovens 9th symphony. 
+    You know the powerful Malkavian's must be around.
+  exits:
+    - roomId: "bloodshrine:r12541"
+      direction: east
+    - roomId: "bloodshrine:r12543"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12525"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12543
+  title: "Malkavian Throne Room"
+  description: >-
+    You are standing in a pure white padded room. 
+    The Grand Master Vampire is sitting here cross-eyed.
+  exits:
+    - roomId: "bloodshrine:r12542"
+      direction: east
+  npcs:
+    - id: "bloodshrine:m12526"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12544
+  title: "Nosferatu Hallways"
+  description: >-
+    You enter a blood filled room. 
+    You puke as you smell the stench of the Nosferatu vampires. 
+    The blood makes you woozy as it is green in color but thick as molases.
+  exits:
+    - roomId: "bloodshrine:r12545"
+      direction: east
+    - roomId: "bloodshrine:r12520"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12527"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12545
+  title: "Nosferatu Hallways"
+  description: >-
+    You enter a blood filled room. 
+    You puke as you smell the stench of the Nosferatu vampires. 
+    The blood makes you woozy as it is green in color but thick as molases.
+  exits:
+    - roomId: "bloodshrine:r12546"
+      direction: east
+    - roomId: "bloodshrine:r12544"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12527"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12546
+  title: "Nosferatu Hallways"
+  description: >-
+    You enter a blood filled room. 
+    You puke as you smell the stench of the Nosferatu vampires. 
+    The blood makes you woozy as it is green in color but thick as molases.
+  exits:
+    - roomId: "bloodshrine:r12547"
+      direction: east
+    - roomId: "bloodshrine:r12545"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12527"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12547
+  title: "Nosferatu Throne Room"
+  description: >-
+    You stand before the great Noseferatu Vampire, 
+    the ugliest thing you've ever seen!
+  exits:
+    - roomId: "bloodshrine:r12546"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12528"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12548
+  title: "Toreador Hallways"
+  description: >-
+    You are standing in 2 inches of weak blood. 
+    The blood is thinned and weak. 
+    You see intracately made ornaments and paintings on the walls.
+  exits:
+    - roomId: "bloodshrine:r12549"
+      direction: east
+    - roomId: "bloodshrine:r12527"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12512"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12549
+  title: "Toreador Hallways"
+  description: >-
+    You are standing in 2 inches of weak blood. 
+    The blood is thinned and weak. 
+    You see intracately made ornaments and paintings on the walls.
+  exits:
+    - roomId: "bloodshrine:r12550"
+      direction: east
+    - roomId: "bloodshrine:r12548"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12512"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12550
+  title: "Toreador Throne Room"
+  description: >-
+    You stand before the Toreadoran Grand Master Vampire who 
+    elegantly sits upon his throne and awaits a challenger!
+  exits:
+    - roomId: "bloodshrine:r12549"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12529"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12551
+  title: "Brujah Hallways"
+  description: >-
+    You stand in a room full of fresh blood. 
+    The blood seems of Brujah nature. 
+    You stand here in this blood and feel the rage of the Brujah brothers. 
+    The blood practically makes you frenzy!
+  exits:
+    - roomId: "bloodshrine:r12522"
+      direction: east
+    - roomId: "bloodshrine:r12552"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12530"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12552
+  title: "Brujah Hallways"
+  description: >-
+    You stand in a room full of fresh blood. 
+    The blood seems of Brujah nature. 
+    You stand here in this blood and feel the rage of the Brujah brothers. 
+    The blood practically makes you frenzy!
+  exits:
+    - roomId: "bloodshrine:r12551"
+      direction: east
+    - roomId: "bloodshrine:r12553"
+      direction: west
+- id: r12553
+  title: "Brujah Hallways"
+  description: >-
+    You stand in a room full of fresh blood. 
+    The blood seems of Brujah nature. 
+    You stand here in this blood and feel the rage of the Brujah brothers. 
+    The blood practically makes you frenzy!
+  exits:
+    - roomId: "bloodshrine:r12552"
+      direction: east
+    - roomId: "bloodshrine:r12554"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12530"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12554
+  title: "Brujah Throne Room"
+  description: >-
+    You stand before the great Brujah Grand Master vampire! Never before have you
+    seen such a mighty and powerful warrior.
+  exits:
+    - roomId: "bloodshrine:r12553"
+      direction: east
+  npcs:
+    - id: "bloodshrine:m12531"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12555
+  title: "Gangrel Hallways"
+  description: >-
+    You step into a hallway with blood running thick and potent. 
+    You see oreo cookies and a glass of milk on the counter. 
+    The blood of the gangrel makes you stop dead in your tracks from fear.
+  exits:
+    - roomId: "bloodshrine:r12556"
+      direction: east
+    - roomId: "bloodshrine:r12526"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12532"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12556
+  title: "Gangrel Hallways"
+  description: >-
+    You step into a hallway with blood running thick and potent. 
+    You see oreo cookies and a glass of milk on the counter. 
+    The blood of the gangrel makes you stop dead in your tracks from fear.
+  exits:
+    - roomId: "bloodshrine:r12557"
+      direction: east
+    - roomId: "bloodshrine:r12555"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12532"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12557
+  title: "Gangrel Hallways"
+  description: >-
+    You step into a hallway with blood running thick and potent. 
+    You see oreo cookies and a glass of milk on the counter. 
+    The blood of the gangrel makes you stop dead in your tracks from fear.
+  exits:
+    - roomId: "bloodshrine:r12558"
+      direction: east
+    - roomId: "bloodshrine:r12556"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12532"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "bloodshrine:m12532"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12558
+  title: "Gangrel Throne Room"
+  description: >-
+    You stand before the Gangrel Grand Master Vampire who sits upon his throne waiting to fight you!
+  exits:
+    - roomId: "bloodshrine:r12557"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12533"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12559
+  title: "Ventrue Hallways"
+  description: >-
+    You enter the Ventrue Hallways and notice there is no blood at all here. 
+    You ponder where are the Ventrue vampires? Are they hiding in seclusion? 
+    Or have they been wiped out?
+  exits:
+    - roomId: "bloodshrine:r12525"
+      direction: east
+    - roomId: "bloodshrine:r12560"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12534"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12560
+  title: "Ventrue Hallways"
+  description: >-
+    You enter the Ventrue Hallways and notice there is no blood at all here. 
+    You ponder where are the Ventrue vampires? Are they hiding in seclusion? 
+    Or have they been wiped out?
+  exits:
+    - roomId: "bloodshrine:r12559"
+      direction: east
+    - roomId: "bloodshrine:r12561"
+      direction: west
+- id: r12561
+  title: "Ventrue Hallways"
+  description: >-
+    You enter the Ventrue Hallways and notice there is no blood at all here. 
+    You ponder where are the Ventrue vampires? Are they hiding in seclusion? 
+    Or have they been wiped out?
+  exits:
+    - roomId: "bloodshrine:r12560"
+      direction: east
+    - roomId: "bloodshrine:r12562"
+      direction: west
+  npcs:
+    - id: "bloodshrine:m12534"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12562
+  title: "Ventrue Throne Room"
+  description: >-
+    You stand before a huge throne made of the purest gold, set with Diamonds,
+    Sapphires and Rubies that are larger than your hand. The seat is vacant, and 
+    there is noone to challenge you for your trespass.
+  exits:
+    - roomId: "bloodshrine:r12561"
+      direction: east
+  npcs:
+    - id: "bloodshrine:m12535"
+      respawnChance: 100
+      maxLoad: "1"

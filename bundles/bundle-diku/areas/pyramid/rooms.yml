@@ -1,0 +1,907 @@
+- id: r4200
+  title: "The Great Eastern Desert"
+  description: >-
+    A vast desert stretches for miles, the sands constantly shifting around you.
+    Rising out of the sand to the east you see a mighty pyramid.
+  exits:
+    - roomId: "pyramid:r4200"
+      direction: north
+    - roomId: "pyramid:r4200"
+      direction: south
+    - roomId: "pyramid:r4201"
+      direction: east
+    - roomId: "joker1:r24125"
+      direction: west
+- id: r4201
+  title: "At the Base of the Pyramid "
+  description: >-
+    The mighty pyramid towers above you out of the hot desert sands, made from
+    huge blocks of stone that have been coated over with a rough sandy plaster-like
+    substance.  The face of the pyramid is steep, but you think you might be able
+    to climb it.
+  exits:
+    - roomId: "joker1:r24125"
+      direction: west
+    - roomId: "pyramid:r4202"
+      direction: up
+- id: r4202
+  title: "Climbing the Great Pyramid"
+  description: >-
+    Hot air rises off the sides of the pyramid, and the wind chokes you with a
+    flurry of sand and dust.  So far you have made it halfway up the side.  The
+    walls of the pyramid are quite steep.
+  exits:
+    - roomId: "pyramid:r4203"
+      direction: north
+    - roomId: "pyramid:r4204"
+      direction: south
+    - roomId: "pyramid:r4207"
+      direction: up
+    - roomId: "pyramid:r4201"
+      direction: down
+  npcs:
+    - id: "pyramid:m4200"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r4203
+  title: "Climbing the Great Pyramid"
+  description: >-
+    Hot air rises off the sides of the pyramid, and the wind chokes you with a
+    flurry of sand and dust.  The walls of the pyramid are quite steep, and you
+    are having trouble keeping from sliding down into the sands below.
+  exits:
+    - roomId: "pyramid:r4205"
+      direction: east
+    - roomId: "pyramid:r4202"
+      direction: west
+    - roomId: "pyramid:r4207"
+      direction: up
+    - roomId: "pyramid:r4207"
+      direction: down
+  npcs:
+    - id: "pyramid:m4201"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r4204
+  title: "Climbing the Great Pyramid"
+  description: >-
+    Hot air rises off the sides of the pyramid, and the wind chokes you with a
+    flurry of sand and dust.  The walls of the pyramid are quite steep, and you
+    are having trouble keeping from sliding down into the sands below.
+  exits:
+    - roomId: "pyramid:r4205"
+      direction: east
+    - roomId: "pyramid:r4202"
+      direction: west
+    - roomId: "pyramid:r4207"
+      direction: up
+    - roomId: "pyramid:r4207"
+      direction: down
+- id: r4205
+  title: "Climbing the Great Pyramid"
+  description: >-
+    Here on the eastern side of the pyramid there is a little more shelter
+    from the heat and wind.  The stone side is not nearly so slippery smooth
+    from the ravages of time, and you think you may be able to even reach the
+    top from here.
+  exits:
+    - roomId: "pyramid:r4203"
+      direction: north
+    - roomId: "pyramid:r4204"
+      direction: south
+    - roomId: "pyramid:r4206"
+      direction: up
+    - roomId: "pyramid:r4207"
+      direction: down
+  npcs:
+    - id: "pyramid:m4200"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r4206
+  title: "The Apex of the Great Pyramid"
+  description: >-
+    Bathed in sweat, you have managed to reach the summit of the great pyramid.
+    The four sides of the pyramid slope sharply down into the hot sands in all four
+    cardinal directions.
+       A plaque has been set into the sandy stones beneath your feet.
+  exits:
+    - roomId: "pyramid:r4207"
+      direction: north
+    - roomId: "pyramid:r4207"
+      direction: south
+    - roomId: "pyramid:r4205"
+      direction: east
+    - roomId: "pyramid:r4207"
+      direction: west
+    - roomId: "pyramid:r4208"
+      direction: down
+  npcs:
+    - id: "pyramid:m4202"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r4207
+  title: "Climbing the Great Pyramid"
+  description: >-
+    Here the elements have carved away at the sides of the pyramid quite a 
+    bit.  You aren't so sure of your footing anymore...
+    Suddenly the wind picks up, and you lose your balance!
+    You tumble down the side of the pyramid, and fall to your death!
+    SPLAT.
+- id: r4208
+  title: "A Ladder"
+  description: >-
+    You are climbing an ancient ladder that leads down into the depths of
+    the pyramid.  The air around is thick with layers of dust and a strange
+    musty smell.  Above you you see tiny beams of light coming through the
+    stones of the ceiling.
+  exits:
+    - roomId: "pyramid:r4206"
+      direction: up
+    - roomId: "pyramid:r4209"
+      direction: down
+- id: r4209
+  title: "A Musty Chamber"
+  description: >-
+    You are standing in a dank, musty chamber just inside the pyramid. 
+    Footprints and other strange marks are set into the dusty floor here.
+    It would seem that some of the tenants of this monument are still alive.
+       Exits lead in all directions.   The door to the west is covered with
+    inscriptions.
+  exits:
+    - roomId: "pyramid:r4212"
+      direction: north
+    - roomId: "pyramid:r4224"
+      direction: south
+    - roomId: "pyramid:r4239"
+      direction: east
+    - roomId: "pyramid:r4210"
+      direction: west
+    - roomId: "pyramid:r4208"
+      direction: up
+  npcs:
+    - id: "pyramid:m4203"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "pyramid:m4203"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r4210
+  title: "The Fire Pool"
+  description: >-
+    This room is dominated by a massive raised pool that is filled with
+    not water but flames of intense heat.  The multicoloured flames lick out
+    at you, searching for things to burn.
+       The pool proceeds to the east into a small chamber.
+  exits:
+    - roomId: "pyramid:r4209"
+      direction: east
+    - roomId: "pyramid:r4211"
+      direction: west
+- id: r4211
+  title: "The Chamber of the Efreet"
+  description: >-
+    You make your way across the fire pool, and into a small stone chamber.
+    Here the flames are nearly as high as your head, singeing your face and 
+    evaporating your sweat instantaneously.
+  exits:
+    - roomId: "pyramid:r4210"
+      direction: east
+  npcs:
+    - id: "pyramid:m4209"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r4212
+  title: "A Tiny Crawlway"
+  description: >-
+    You have to go down onto your hands and knees to fit inside this tiny
+    space.  The crawlway is thick with sand and dust, and markings of the
+    passage of other creatures.
+  exits:
+    - roomId: "pyramid:r4213"
+      direction: north
+    - roomId: "pyramid:r4209"
+      direction: south
+    - roomId: "pyramid:r4237"
+      direction: up
+- id: r4213
+  title: "A Tiny Crawlway"
+  description: >-
+    You are on your hands and knees, inside a small crawlway that winds
+    through the inside of the pyramid.  The crawlway is thick with sand, dust, 
+    and markings of the passage of other creatures.
+  exits:
+    - roomId: "pyramid:r4212"
+      direction: south
+    - roomId: "pyramid:r4214"
+      direction: west
+  npcs:
+    - id: "pyramid:m4200"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r4214
+  title: "A Tiny Crawlway"
+  description: >-
+    You are on your hands and knees, inside a small crawlway that winds
+    through the inside of the pyramid.  The crawlway is thick with sand, dust, 
+    and markings of the passage of other creatures.
+  exits:
+    - roomId: "pyramid:r4213"
+      direction: east
+    - roomId: "pyramid:r4215"
+      direction: west
+- id: r4215
+  title: "A Tightening in the Crawlway"
+  description: >-
+    Here you are forced to slide on your belly through a particularly tight
+    section of the crawlway, as the stones of the pyramid close together
+    about you.  Below you is a small, slippery-looking hole that plummets into
+    blackness.
+  exits:
+    - roomId: "pyramid:r4216"
+      direction: south
+    - roomId: "pyramid:r4214"
+      direction: east
+    - roomId: "pyramid:r4217"
+      direction: down
+- id: r4216
+  title: "The Crawlway's End"
+  description: >-
+    The crawlway shrinks away to nothing as the sandy stones of the pyramid
+    close together into a space through which only a snake could fit.   There is
+    barely enough space to turn around and make your way back through the tiny
+    crawlway to the north.
+  exits:
+    - roomId: "pyramid:r4215"
+      direction: north
+  npcs:
+    - id: "pyramid:m4202"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r4217
+  title: "A Slippery Hole"
+  description: >-
+    The sides of this hole are slippery-smooth.  You lower yourself in, and 
+    proceed to move downward... when suddenly you lose your purchase!
+    You fall for what seems like an eternity, and smash into the stones below...
+    Under the Hole
+       You are in a small chamber underneath the slippery hole, far below
+    the pyramid now.   The floor is strewn with bones.  To the south is a
+    small rocky crevasse.
+  exits:
+    - roomId: "pyramid:r4219"
+      direction: south
+- id: r4218
+  title: "Under the Hole"
+  description: >-
+    You are in a small chamber underneath the slippery hole, far below
+    the pyramid now.   The floor is strewn with bones.  To the south is a
+    small rocky crevasse.
+  exits:
+    - roomId: "pyramid:r4219"
+      direction: south
+- id: r4219
+  title: "A Rough Crevasse"
+  description: >-
+    You are now exploring deep within a strange rocky crevasse that plunges
+    down into the rock on which the pyramid was constructed.  To the south you
+    see the flickering light of a fire, and the crevasse proceeds downward.
+  exits:
+    - roomId: "pyramid:r4218"
+      direction: north
+    - roomId: "pyramid:r4220"
+      direction: south
+    - roomId: "pyramid:r4221"
+      direction: down
+  items:
+    - id: "pyramid:o4223"
+      respawnChance: 75
+- id: r4220
+  title: "A Small Fire"
+  description: >-
+    Here a small fire burns in a nook in the rocks, providing some warmth and
+    comforting light in the cold, dark, dry air.
+    Standing here is a strange-looking old man, who stares at you balefully.
+  exits:
+    - roomId: "pyramid:r4219"
+      direction: north
+- id: r4221
+  title: "Down the Crevasse"
+  description: >-
+    The crevasse proceeds downward into the dark depths of the earth.
+    The air about you is now cold and quite dry, and your light source
+    gutters in a cool breeze that wafts up from below.
+  exits:
+    - roomId: "pyramid:r4219"
+      direction: up
+    - roomId: "pyramid:r4222"
+      direction: down
+- id: r4222
+  title: "At the Crevasse's End"
+  description: >-
+    Here the crevasse comes to an abrupt end.  A chilling wind howls
+    at your face from a black shape to the south, but the light from your
+    source is too dim to see exactly what it is.
+  exits:
+    - roomId: "pyramid:r4223"
+      direction: south
+    - roomId: "pyramid:r4221"
+      direction: up
+- id: r4223
+  title: "The Vault of the Lamp"
+  description: >-
+    The jaws of the massive stone tiger part wide to reveal a great vault.
+    An arched ceiling lies far above your head... and all about you is a low
+    guttural rumbling noise and a chill wind.
+    Giant heaps of ancient treasure, gold coins, and valuables surround you
+    on all sides.
+  exits:
+    - roomId: "pyramid:r4222"
+      direction: north
+  npcs:
+    - id: "pyramid:m4206"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "pyramid:m4211"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r4224
+  title: "A Crack in the Wall"
+  description: >-
+    You exhale, and squeeze yourself into the narrow crack in the wall.
+    Dust fills your eyes as you disturb it, and chunks of mortar and stone
+    mixed with a touch of sand fall on you as you scrape your way through.
+  exits:
+    - roomId: "pyramid:r4209"
+      direction: north
+    - roomId: "pyramid:r4225"
+      direction: south
+- id: r4225
+  title: "A Looted Tomb"
+  description: >-
+    The floor of this small tomb is littered with the lids of 
+    smashed sarcophagi, bits of treasure dropped by thieves and
+    looters, and corpses pulled from their resting places.
+  exits:
+    - roomId: "pyramid:r4224"
+      direction: north
+    - roomId: "pyramid:r4233"
+      direction: east
+    - roomId: "pyramid:r4226"
+      direction: west
+  npcs:
+    - id: "pyramid:m4204"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "pyramid:m4207"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "pyramid:m4207"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r4226
+  title: "A Demolished Tomb"
+  description: >-
+    This tomb has been utterly destroyed by thieves and looters in search of
+    the treasures of the pharoahs.  Nothing of interest remains in this room,
+    except a large stone coffin that leans against the western wall.
+  exits:
+    - roomId: "pyramid:r4225"
+      direction: east
+    - roomId: "pyramid:r4227"
+      direction: west
+  npcs:
+    - id: "pyramid:m4202"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "pyramid:m4204"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r4227
+  title: "A Stairway"
+  description: >-
+    You stand now at the head of a stairway that goes down into darkness.
+    The steps and walls are smooth sandy stone, covered with a thick layer
+    of dust.  Some inscriptions are carved into the wall here.
+  exits:
+    - roomId: "pyramid:r4226"
+      direction: east
+    - roomId: "pyramid:r4228"
+      direction: down
+- id: r4228
+  title: "A Stairway"
+  description: >-
+    You are on a stairway that disappears into darkness in both directions.
+    The smooth, uneven steps of the stairway have not been travelled in what
+    appears to be centuries.
+  exits:
+    - roomId: "pyramid:r4227"
+      direction: up
+    - roomId: "pyramid:r4229"
+      direction: down
+- id: r4229
+  title: "A Stairway"
+  description: >-
+    You stand now at the base of the uneven stairway.  The walls, floor,
+    and ceiling of this small landing are covered with strange hieroglyphics.
+  exits:
+    - roomId: "pyramid:r4230"
+      direction: south
+    - roomId: "pyramid:r4228"
+      direction: up
+- id: r4230
+  title: "The Ancient Hall"
+  description: >-
+    Here the air is deathly still, motes of dust thickly obscuring your
+    vision.  Several stone statues line the walls of the hall, depicting the 
+    gods of an ancient society.  Strange glyphs and sigils cover the walls, a 
+    peculiar pictorial form of written language that you don't understand.
+       Some steps lead to a raised dais to the south.
+  exits:
+    - roomId: "pyramid:r4229"
+      direction: north
+    - roomId: "pyramid:r4231"
+      direction: south
+- id: r4231
+  title: "A Raised Dais"
+  description: >-
+    You are at the southern end of the ancient hall, the dust and darkness
+    absorbing your light so that you cannot see past the steps of the dais.
+    A low pedestal rests here.  You see something written into the face of it.
+  exits:
+    - roomId: "pyramid:r4230"
+      direction: north
+    - roomId: "pyramid:r4232"
+      direction: down
+- id: r4232
+  title: "The Tomb of Ramses"
+  description: >-
+    You stand in an empty tomb, a cubicle no more then ten feet to a side.
+  exits:
+    - roomId: "pyramid:r4231"
+      direction: up
+  npcs:
+    - id: "pyramid:m4217"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r4233
+  title: "A Ransacked Tomb"
+  description: >-
+    This tomb has been completely ransacked and destroyed by the actions
+    of pyramid thieves and looters.  The floor is littered with junk.
+  exits:
+    - roomId: "pyramid:r4234"
+      direction: east
+    - roomId: "pyramid:r4225"
+      direction: west
+  npcs:
+    - id: "pyramid:m4204"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r4234
+  title: "A Tunnel"
+  description: >-
+    The low-ceilinged tunnel runs east-west.
+  exits:
+    - roomId: "pyramid:r4235"
+      direction: east
+    - roomId: "pyramid:r4233"
+      direction: west
+  npcs:
+    - id: "pyramid:m4204"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r4235
+  title: "A Fork in the Tunnel"
+  description: >-
+    Here the tunnel forks off through a gaping hole down in the
+    southern wall, continuing onward to the east and west as well.
+  exits:
+    - roomId: "pyramid:r4236"
+      direction: east
+    - roomId: "pyramid:r4234"
+      direction: west
+    - roomId: "pyramid:r4246"
+      direction: down
+  npcs:
+    - id: "pyramid:m4204"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r4236
+  title: "A Tunnel"
+  description: >-
+    The low-ceilinged tunnel makes a turn to the west and ends
+    to the north as it spills out into a dusty hallway.
+  exits:
+    - roomId: "pyramid:r4242"
+      direction: north
+    - roomId: "pyramid:r4235"
+      direction: west
+- id: r4237
+  title: "A Dank Chamber"
+  description: >-
+    This chamber has a dank, dusty, musty smell to it.  Small footprints
+    in the dust betray the recent passage of some sort of creatures.  A hole 
+    in the floor lies to the west and a stairway is to the east.
+  exits:
+    - roomId: "pyramid:r4238"
+      direction: east
+    - roomId: "pyramid:r4212"
+      direction: west
+  npcs:
+    - id: "pyramid:m4203"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "pyramid:m4203"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "pyramid:m4207"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r4238
+  title: "A Spiral Stairway"
+  description: >-
+    Some dusty, broken stone stairs here spiral slowly in a constricted
+    space down towards a dusty hallway.
+  exits:
+    - roomId: "pyramid:r4237"
+      direction: up
+    - roomId: "pyramid:r4241"
+      direction: down
+- id: r4239
+  title: "A Dust-Covered Hallway"
+  description: >-
+    This hallway is covered with dust that has accumulated over the
+    centuries that the pyramid has stood.  Small markings and footprints
+    in the dust betray the recent passage of others -- perhaps thieves?
+  exits:
+    - roomId: "pyramid:r4240"
+      direction: east
+    - roomId: "pyramid:r4209"
+      direction: west
+- id: r4240
+  title: "A Smelly Chamber"
+  description: >-
+    This small chamber has a sickly putrescent smell to it, the
+    smell of formaldehyde and other ointments used to preserve the
+    corpses of those who died ages ago.
+  exits:
+    - roomId: "pyramid:r4241"
+      direction: east
+    - roomId: "pyramid:r4239"
+      direction: west
+  npcs:
+    - id: "pyramid:m4200"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "pyramid:m4203"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "pyramid:m4203"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r4241
+  title: "A Dust-Covered Hallway"
+  description: >-
+    This hallway is covered with a thick, choking dust that rises
+    up to obscure your light source and sting your eyes.  Small marks
+    and footprints in the dust betray the recent passage of others.
+  exits:
+    - roomId: "pyramid:r4242"
+      direction: east
+    - roomId: "pyramid:r4240"
+      direction: west
+    - roomId: "pyramid:r4238"
+      direction: up
+  npcs:
+    - id: "pyramid:m4201"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "pyramid:m4207"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r4242
+  title: "A Turn in the Hallway"
+  description: >-
+    You are standing in an elbow turn in a dust-covered stone hallway,
+    that dead ends to the north and continues on to the west.  To the south
+    the stones of the pyramid have been torn asunder by thieves, making
+    a low-ceilinged tunnel.
+  exits:
+    - roomId: "pyramid:r4243"
+      direction: north
+    - roomId: "pyramid:r4236"
+      direction: south
+    - roomId: "pyramid:r4241"
+      direction: west
+  npcs:
+    - id: "pyramid:m4204"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r4243
+  title: "A Dead End"
+  description: >-
+    The dust-covered hallway has come to an abrupt end at a stony,
+    featureless wall.  Here and there are signs of the recent passage
+    of others in the dust.
+  exits:
+    - roomId: "pyramid:r4242"
+      direction: south
+    - roomId: "pyramid:r4244"
+      direction: down
+  npcs:
+    - id: "pyramid:m4205"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r4244
+  title: "The Tomb Entrance"
+  description: >-
+    You are in a small, dark chamber that has stood undisturbed for
+    many years.  To the north stands a massive stone tomb, which is
+    covered in hieroglyphics and gold-lined carvings that mark it as the
+    final resting place of the mighty pharoahs of this land.
+  exits:
+    - roomId: "pyramid:r4245"
+      direction: north
+    - roomId: "pyramid:r4243"
+      direction: up
+- id: r4245
+  title: "The Tomb of the Pharoahs"
+  description: >-
+    Great golden sarcophogai line the walls of this massive tomb.  It has
+    withstood the passage of time intact, untouched by the hands of thieves
+    and looters.  The treasures taken by the pharoahs to their graves still
+    lie before your feet.
+  exits:
+    - roomId: "pyramid:r4244"
+      direction: south
+  npcs:
+    - id: "pyramid:m4210"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "pyramid:m4210"
+      respawnChance: 100
+      maxLoad: "2"
+  items:
+    - id: "pyramid:o4210"
+      respawnChance: 75
+- id: r4246
+  title: "A Rubble-Strewn Hallway"
+  description: >-
+    This hallway formerly had a beautiful arch to the ceiling, now
+    collapsed under the weight of the slowly settling stones of the
+    pyramid.  Now, a massive pile of rubble leads up into a hole high 
+    in the northern portion of the hallway.  To the south, through the 
+    rubble and fallen stones you see a sandstone crypt.
+  exits:
+    - roomId: "pyramid:r4247"
+      direction: south
+    - roomId: "pyramid:r4235"
+      direction: up
+- id: r4247
+  title: "A Sandstone Crypt"
+  description: >-
+    This small crypt is lit by a hole in the wall to the south, through
+    which sand pours from the desert outside.  A hot wind blows in from the
+    desert, drying your skin instantly.  To the east and north the arched
+    hallway continues.
+  exits:
+    - roomId: "pyramid:r4246"
+      direction: north
+    - roomId: "pyramid:r4253"
+      direction: south
+    - roomId: "pyramid:r4248"
+      direction: east
+  npcs:
+    - id: "pyramid:m4215"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r4248
+  title: "An Arched Hall"
+  description: >-
+    This hallway has a beautiful arch to it, formed painstakingly and
+    exquisitely out of the sandy stones of the pyramid.  The dust that
+    covers most of the rest of the pyramid interior is not present here,
+    scoured away by the blowing of the desert winds that howl about
+    your ears.
+  exits:
+    - roomId: "pyramid:r4249"
+      direction: east
+    - roomId: "pyramid:r4247"
+      direction: west
+  npcs:
+    - id: "pyramid:m4212"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r4249
+  title: "An Arched Hall"
+  description: >-
+    This hallway has a beautiful arch to it, formed painstakingly and
+    exquisitely out of the sandy stones of the pyramid.  To the east is
+    a small, golden-coloured crypt, and the hall proceeds to the south
+    and north.
+  exits:
+    - roomId: "pyramid:r4248"
+      direction: north
+    - roomId: "pyramid:r4251"
+      direction: south
+    - roomId: "pyramid:r4250"
+      direction: east
+  npcs:
+    - id: "pyramid:m4212"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r4250
+  title: "A Golden Crypt"
+  description: >-
+    You stand inside a small crypt with walls and ceiling made of
+    golden bricks that obscure the large sandy stones of the pyramid.
+    Small rugs and tapestries are scattered about the floor here, and
+    they appear to have been used recently.
+  exits:
+    - roomId: "pyramid:r4249"
+      direction: west
+  npcs:
+    - id: "pyramid:m4213"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "pyramid:m4213"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r4251
+  title: "An Arched Hall"
+  description: >-
+    This hallway has a beautiful arch to it, formed painstakingly and
+    exquisitely out of the sandy stones of the pyramid.  The arched
+    hall proceeds to the north and ends to the south in a small vault.
+  exits:
+    - roomId: "pyramid:r4249"
+      direction: north
+    - roomId: "pyramid:r4252"
+      direction: south
+  npcs:
+    - id: "pyramid:m4212"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r4252
+  title: "A Shining Vault"
+  description: >-
+    The stones of the pyramid here take on a strange, twinkling quality,
+    almost seeming to shine with an internal light.  As you look closer you
+    see tiny glass-like glittery particles within the stones, that reflect
+    the light from your light source so perfectly that they seem to shine.
+  exits:
+    - roomId: "pyramid:r4251"
+      direction: north
+  npcs:
+    - id: "pyramid:m4214"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "pyramid:m4214"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r4253
+  title: "A Massive Sand Dune"
+  description: >-
+    You stand now on a massive sand dune on the southern side of
+    the pyramid.  At the foot of the sand dune to the north you see a
+    small hole where the stones of the pyramid have collapsed.  Not
+    far to the south is a massive roiling sandstorm; the wind from the
+    storm howls and bites at your face even here.
+  exits:
+    - roomId: "pyramid:r4247"
+      direction: north
+    - roomId: "pyramid:r4254"
+      direction: south
+- id: r4254
+  title: "A Swirling Sandstorm"
+  description: >-
+    You are caught in the midst of a massive sandstorm.  Howling winds
+    buffet you from all sides, and the sand tears at your skin, blinding
+    you and choking you.  You have lost all sense of direction.
+  exits:
+    - roomId: "pyramid:r4254"
+      direction: north
+    - roomId: "pyramid:r4255"
+      direction: south
+    - roomId: "pyramid:r4254"
+      direction: east
+    - roomId: "pyramid:r4253"
+      direction: west
+  npcs:
+    - id: "pyramid:m4208"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r4255
+  title: "A Swirling Sandstorm"
+  description: >-
+    You are caught in the midst of a massive sandstorm.  Howling winds
+    buffet you from all sides, and the sand tears at your skin, blinding
+    you and choking you.  You have lost all sense of direction.
+  exits:
+    - roomId: "pyramid:r4254"
+      direction: north
+    - roomId: "pyramid:r4256"
+      direction: south
+    - roomId: "pyramid:r4255"
+      direction: east
+    - roomId: "pyramid:r4255"
+      direction: west
+  npcs:
+    - id: "pyramid:m4208"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r4256
+  title: "A Swirling Sandstorm"
+  description: >-
+    You are caught in the midst of a massive sandstorm.  Howling winds
+    buffet you from all sides, and the sand tears at your skin, blinding
+    you and choking you.  You have lost all sense of direction.
+  exits:
+    - roomId: "pyramid:r4255"
+      direction: north
+    - roomId: "pyramid:r4256"
+      direction: south
+    - roomId: "pyramid:r4256"
+      direction: east
+    - roomId: "pyramid:r4257"
+      direction: west
+  npcs:
+    - id: "pyramid:m4208"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r4257
+  title: "A Swirling Sandstorm"
+  description: >-
+    You are caught in the midst of a massive sandstorm.  Howling winds
+    buffet you from all sides, and the sand tears at your skin, blinding
+    you and choking you.  You have lost all sense of direction.
+  exits:
+    - roomId: "pyramid:r4257"
+      direction: north
+    - roomId: "pyramid:r4257"
+      direction: south
+    - roomId: "pyramid:r4256"
+      direction: east
+    - roomId: "pyramid:r4258"
+      direction: west
+  npcs:
+    - id: "pyramid:m4208"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r4258
+  title: "A Massive Sand Dune"
+  description: >-
+    Somehow you managed to make your way through the howling winds
+    of the sandstorm, and clamber up on this sand dune.  You can see the
+    storm to the north of you, and presumably the pyramid is somewhere
+    beyond it.  Nothing but flat, featureless, open dunes of sand lie in
+    every other direction.
+  exits:
+    - roomId: "pyramid:r4257"
+      direction: north
+    - roomId: "pyramid:r4259"
+      direction: south
+  npcs:
+    - id: "pyramid:m4216"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r4259
+  title: "Through the Hole in the Sand"
+  description: >-
+    You squeeze through the small hole in the sand and land in a small
+    white chamber.  Above you is a small hole, reachable by climbing up
+    the small sandy slope down which you slid.
+  exits:
+    - roomId: "pyramid:r4253"
+      direction: up
+  items:
+    - id: "pyramid:o4218"
+      respawnChance: 75
+    - id: "pyramid:o4224"
+      respawnChance: 75
+    - id: "pyramid:o4225"
+      respawnChance: 75
+    - id: "pyramid:o4226"
+      respawnChance: 75
+    - id: "pyramid:o4227"
+      respawnChance: 75

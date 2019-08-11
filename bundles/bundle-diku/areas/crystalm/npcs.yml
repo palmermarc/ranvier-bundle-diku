@@ -1,0 +1,415 @@
+- id: m10001
+  keywords: ["Goldmoon","girl"]
+  name: "Goldmoon"
+  description: >-
+    Goldmoon is singing a beautiful song here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "crystalm:o10003": 75
+        "crystalm:o10013": 75
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 2
+- id: m10002
+  keywords: ["Fewmaster","Toede"]
+  name: "Fewmaster Toede"
+  description: >-
+    The Fewmaster Toede is here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -900
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "crystalm:o10014": 75
+        "crystalm:o10013": 75
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 1
+- id: m10003
+  keywords: ["riverwind","man"]
+  name: "Riverwind"
+  description: >-
+    Riverwind the Ranger is standing here..
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 900
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "crystalm:o10008": 75
+        "crystalm:o10013": 75
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 1
+- id: m10004
+  keywords: ["Baaz","Draconian","robed"]
+  name: "Baaz Draconian"
+  description: >-
+    A robed figure is standing here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -750
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "crystalm:o10015": 75
+        "crystalm:o10016": 75
+        "crystalm:o10017": 75
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 1
+- id: m10005
+  keywords: ["Farmer"]
+  name: "The Farmer"
+  description: >-
+    The Farmer is standing here looking after his workers...
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 150
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "crystalm:o10002": 75
+        "crystalm:o10009": 75
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 1
+- id: m10006
+  keywords: ["Farm","worker"]
+  name: "Farm worker"
+  description: >-
+    A farm worker is here harvesting grain.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 125
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "crystalm:o10009": 75
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 1
+- id: m10007
+  keywords: ["barracuda"]
+  name: "Barracuda"
+  description: >-
+    There is a barracuda swimming around you...it looks hungry..
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 20
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 0
+- id: m10008
+  keywords: ["Turtle","Dragon"]
+  name: "Turtle dragon"
+  description: >-
+    There is a very large Turtle dragon here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "crystalm:o10001": 75
+        "crystalm:o10010": 75
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 0
+- id: m10009
+  keywords: ["farmers","guard","dog"]
+  name: "Farmers guarddog"
+  description: >-
+    The Farmer's guarddog is here guarding whatever he's suppose to guard.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "crystalm:o10006": 75
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 0
+- id: m10010
+  keywords: ["strange","fish"]
+  name: "strange fish"
+  description: >-
+    A fish is swimming merrily by...
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 0
+- id: m10011
+  keywords: ["hobgoblin","flunky"]
+  name: "hobgoblin flunky"
+  description: >-
+    A small hobgoblin seems to be searching for something.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 1
+- id: m10012
+  keywords: ["White","Stag"]
+  name: "the White Stag"
+  description: >-
+    A beautiful white stag is here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 1
+- id: m10013
+  keywords: ["Old","pooh","bear"]
+  name: "Old pooh bear"
+  description: >-
+    An old worn out winnie the pooh bear is here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 237.5
+          max: 262.5
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 1
+- id: m10014
+  keywords: ["rat","large"]
+  name: "a large rat"
+  description: >-
+    A large rat is here eating grain.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 1
+- id: m10015
+  keywords: ["mouse","field"]
+  name: "a field mouse"
+  description: >-
+    A small mouse runs across your foot.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0.95
+          max: 1.05
+  metadata:
+    areaId: 15
+    exp_level: 10000
+    sex: 1

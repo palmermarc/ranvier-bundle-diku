@@ -1,0 +1,12 @@
+title: "Chapel Catacombs"
+metadata:
+  id: 13
+  name: "Chapel Catacombs"
+  createdBy: "copper"
+  starting_vnum: 3400
+  ending_vnum: 3499
+  item_requirements: 8000
+  filename: "chapel.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

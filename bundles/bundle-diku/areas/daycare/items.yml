@@ -1,0 +1,50 @@
+- id: o6600
+  name: "axe toy"
+  roomDesc: "An axe made of plastic lies here."
+  keywords: ["axe","toy"]
+  description: "An axe made of plastic lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o6601
+  name: "ring pink ice"
+  roomDesc: "A pink ice ring draws your eye."
+  keywords: ["ring","pink","ice"]
+  description: "A pink ice ring draws your eye."
+  type: ACCESSORY
+- id: o6621
+  name: "robe linen"
+  roomDesc: "A linen robe is crumpled into a ball here."
+  keywords: ["robe","linen"]
+  description: "A linen robe is crumpled into a ball here."
+  type: LIGHTARMOR
+- id: o6644
+  name: "meat steak"
+  roomDesc: "A juicy steak sits on a plate here."
+  keywords: ["meat","steak"]
+  description: "A juicy steak sits on a plate here."
+  type: FOOD
+- id: o6645
+  name: "steak rotten"
+  roomDesc: "A dry steak lies on the floor."
+  keywords: ["steak","rotten"]
+  description: "A dry steak lies on the floor."
+  type: FOOD
+- id: o6646
+  name: "potion amber"
+  roomDesc: "An amber potion sits in a corner."
+  keywords: ["potion","amber"]
+  description: "An amber potion sits in a corner."
+  type: POTION
+- id: o6647
+  name: "gun toy"
+  roomDesc: "A toy gun with a sharp bayonet lies here."
+  keywords: ["gun","toy"]
+  description: "A toy gun with a sharp bayonet lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

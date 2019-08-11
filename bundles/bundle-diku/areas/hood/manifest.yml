@@ -1,0 +1,12 @@
+title: "Dangerous Neighborhood"
+metadata:
+  id: 35
+  name: "Dangerous Neighborhood"
+  createdBy: "raff"
+  starting_vnum: 2100
+  ending_vnum: 2199
+  item_requirements: 8000
+  filename: "hood.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

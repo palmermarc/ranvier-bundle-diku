@@ -1,0 +1,26 @@
+---
+body: |
+  Syntax: CLAIM <object>
+  Syntax: CALL <object>
+  Syntax: CALL ALL
+  Syntax: GIFT <object> <player>
+  
+  CLAIM:
+  You can claim your equipment while it in your inventory for a small cost
+  of 5000 exp per item. When you have claimed your items you can then use
+  quest points to improve the equipment and also you can then use CALL on it.
+  
+  CALL:
+  Call simply summons the equipment back to your inventory no matter where 
+  it is, even if someone else is using or wearing it. Call all calls all items,
+  whereas call <item> calls a specific item.
+  
+  GIFT:
+  If you have CLAIMED an item, then you can GIFT it to another player. The item
+  must be in your inventory, and the player must be visible in the same room as
+  you. It enables them to use CALL on that item, as if they had CLAIMED it.
+  NOTE: You can't gift Indestructable or Autoclaim EQ.
+  
+  see also: help SPELLPROOF
+  - call
+  - gift

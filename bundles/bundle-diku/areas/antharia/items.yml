@@ -1,0 +1,224 @@
+- id: o1800
+  name: "mother pearl"
+  roomDesc: "A Mother of Pearl is shining here."
+  keywords: ["mother","pearl"]
+  description: "A Mother of Pearl is shining here."
+  type: TRASH
+- id: o1801
+  name: "green gem"
+  roomDesc: "A green gem is here."
+  keywords: ["green","gem"]
+  description: "A green gem is here."
+  type: TRASH
+- id: o1802
+  name: "sea shell armor"
+  roomDesc: "A shell from a sea turtle works as a nice piece of armor."
+  keywords: ["sea","shell","armor"]
+  description: "A shell from a sea turtle works as a nice piece of armor."
+  type: HEAVYARMOR
+- id: o1803
+  name: "giant clamshell"
+  roomDesc: "This is a giant clamshell used to store things."
+  keywords: ["giant","clamshell"]
+  description: "This is a giant clamshell used to store things."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1804
+  name: "Antharian Signet ring"
+  roomDesc: "This is an Antharian Signet ring, worn by all defenders of Antharia."
+  keywords: ["Antharian","Signet","ring"]
+  description: "This is an Antharian Signet ring, worn by all defenders of Antharia."
+  type: ACCESSORY
+- id: o1805
+  name: "Antharian Signet ring"
+  roomDesc: "This is an Antharian Signet ring, worn by all defenders of Antharia."
+  keywords: ["Antharian","Signet","ring"]
+  description: "This is an Antharian Signet ring, worn by all defenders of Antharia."
+  type: ACCESSORY
+- id: o1806
+  name: "Antharian Signet ring"
+  roomDesc: "This is an Antharian Signet ring, worn by all defenders of Antharia."
+  keywords: ["Antharian","Signet","ring"]
+  description: "This is an Antharian Signet ring, worn by all defenders of Antharia."
+  type: ACCESSORY
+- id: o1807
+  name: "Antharian plate mail"
+  roomDesc: "This is a piece of fine Antharian plate mail."
+  keywords: ["Antharian","plate","mail"]
+  description: "This is a piece of fine Antharian plate mail."
+  type: HEAVYARMOR
+- id: o1808
+  name: "Antharian plate mail"
+  roomDesc: "A fine piece of Antharian plate mail is here."
+  keywords: ["Antharian","plate","mail"]
+  description: "A fine piece of Antharian plate mail is here."
+  type: HEAVYARMOR
+- id: o1809
+  name: "Antharian plate mail"
+  roomDesc: "A fine piece of Antharian plate mail is here."
+  keywords: ["Antharian","plate","mail"]
+  description: "A fine piece of Antharian plate mail is here."
+  type: HEAVYARMOR
+- id: o1810
+  name: "synthetic fin"
+  roomDesc: "A pair of fins, of Antharian make, are here."
+  keywords: ["synthetic","fin"]
+  description: "A pair of fins, of Antharian make, are here."
+  type: LIGHTARMOR
+- id: o1811
+  name: "synthetic fin"
+  roomDesc: "A pair of fins, of Antharian make, are here."
+  keywords: ["synthetic","fin"]
+  description: "A pair of fins, of Antharian make, are here."
+  type: LIGHTARMOR
+- id: o1812
+  name: "synthetic fin"
+  roomDesc: "A pair of fins, of Antharian make, are here."
+  keywords: ["synthetic","fin"]
+  description: "A pair of fins, of Antharian make, are here."
+  type: LIGHTARMOR
+- id: o1813
+  name: "Antharian helmet"
+  roomDesc: "A helmet made of Antharian metals is here."
+  keywords: ["Antharian","helmet"]
+  description: "A helmet made of Antharian metals is here."
+  type: HEAVYARMOR
+- id: o1814
+  name: "Antharian helmet"
+  roomDesc: "A helmet made of Antharian metals is here."
+  keywords: ["Antharian","helmet"]
+  description: "A helmet made of Antharian metals is here."
+  type: HEAVYARMOR
+- id: o1815
+  name: "Antharian helmet"
+  roomDesc: "A helmet made of Antharian metals is here."
+  keywords: ["Antharian","helmet"]
+  description: "A helmet made of Antharian metals is here."
+  type: HEAVYARMOR
+- id: o1816
+  name: "Trident"
+  roomDesc: "A sparkling trident, of Antharian make, is here."
+  keywords: ["Trident"]
+  description: "A sparkling trident, of Antharian make, is here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1817
+  name: "trident"
+  roomDesc: "A sparkling trident, of Antharian make, is here."
+  keywords: ["trident"]
+  description: "A sparkling trident, of Antharian make, is here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1818
+  name: "trident"
+  roomDesc: "A sparkling trident, of Antharian make, is here."
+  keywords: ["trident"]
+  description: "A sparkling trident, of Antharian make, is here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1819
+  name: "Seafood platter"
+  roomDesc: "A big plate of Seafood is here."
+  keywords: ["Seafood","platter"]
+  description: "A big plate of Seafood is here."
+  type: FOOD
+- id: o1820
+  name: "Caviar"
+  roomDesc: "A small dish of Caviar is here."
+  keywords: ["Caviar"]
+  description: "A small dish of Caviar is here."
+  type: FOOD
+- id: o1821
+  name: "Special"
+  roomDesc: "This is the special of the day....NOT to be missed."
+  keywords: ["Special"]
+  description: "This is the special of the day....NOT to be missed."
+  type: FOOD
+- id: o1822
+  name: "Sushi"
+  roomDesc: "This is sushi."
+  keywords: ["Sushi"]
+  description: "This is sushi."
+  type: FOOD
+- id: o1823
+  name: "Antharian robe"
+  roomDesc: "This is an Antharian robe, woven by hand."
+  keywords: ["Antharian","robe"]
+  description: "This is an Antharian robe, woven by hand."
+  type: ACCESSORY
+- id: o1824
+  name: "Antharian belt"
+  roomDesc: "An Antharian belt, just your size, is here."
+  keywords: ["Antharian","belt"]
+  description: "An Antharian belt, just your size, is here."
+  type: ACCESSORY
+- id: o1825
+  name: "Antharian trousers"
+  roomDesc: "A pair of simple Antharian trousers are here."
+  keywords: ["Antharian","trousers"]
+  description: "A pair of simple Antharian trousers are here."
+  type: LIGHTARMOR
+- id: o1826
+  name: "Piece Metal"
+  roomDesc: "A round piece of some unknown metal is here."
+  keywords: ["Piece","Metal"]
+  description: "A round piece of some unknown metal is here."
+  type: WAND
+- id: o1827
+  name: "Crystal potion"
+  roomDesc: "A liquid substance in a crystal container is here."
+  keywords: ["Crystal","potion"]
+  description: "A liquid substance in a crystal container is here."
+  type: POTION
+- id: o1828
+  name: "crystal scroll"
+  roomDesc: "An amazing scroll of crystal is here."
+  keywords: ["crystal","scroll"]
+  description: "An amazing scroll of crystal is here."
+  type: SCROLL
+- id: o1829
+  name: "glowing seashell"
+  roomDesc: "A glowing seashell is here."
+  keywords: ["glowing","seashell"]
+  description: "A glowing seashell is here."
+  type: SCROLL
+- id: o1830
+  name: "antharian bracer"
+  roomDesc: "An Antharian style bracer is here."
+  keywords: ["antharian","bracer"]
+  description: "An Antharian style bracer is here."
+  type: MEDIUMARMOR
+- id: o1831
+  name: "antharian bracer"
+  roomDesc: "An Antharian style bracer is here."
+  keywords: ["antharian","bracer"]
+  description: "An Antharian style bracer is here."
+  type: MEDIUMARMOR
+- id: o1832
+  name: "antharian bracer"
+  roomDesc: "An Antharian style bracer is here."
+  keywords: ["antharian","bracer"]
+  description: "An Antharian style bracer is here."
+  type: MEDIUMARMOR
+- id: o1833
+  name: "net"
+  roomDesc: "A glowing net is here."
+  keywords: ["net"]
+  description: "A glowing net is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

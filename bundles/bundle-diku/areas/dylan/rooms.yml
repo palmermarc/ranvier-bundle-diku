@@ -1,0 +1,1223 @@
+- id: r9101
+  title: "A fluffy white cloud."
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+    A floating sign says:
+    "Scubdu's Area--Tread carefully! Only high levels should attempt
+    this place. Leave messages on the board if you have problems."
+  exits:
+    - roomId: "redferne:r7900"
+      direction: north
+    - roomId: "dylan:r9102"
+      direction: up
+- id: r9102
+  title: "A fluffy white cloud. "
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+  exits:
+    - roomId: "dylan:r9103"
+      direction: east
+    - roomId: "dylan:r9101"
+      direction: down
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9103
+  title: "A fluffy white cloud."
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+  exits:
+    - roomId: "dylan:r9128"
+      direction: north
+    - roomId: "dylan:r9104"
+      direction: south
+    - roomId: "dylan:r9102"
+      direction: west
+- id: r9104
+  title: "A fluffy white cloud."
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+  exits:
+    - roomId: "dylan:r9103"
+      direction: north
+    - roomId: "dylan:r9105"
+      direction: east
+- id: r9105
+  title: "A fluffy white cloud."
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+  exits:
+    - roomId: "dylan:r9106"
+      direction: east
+    - roomId: "dylan:r9104"
+      direction: west
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9106
+  title: "A fluffy white cloud."
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+  exits:
+    - roomId: "dylan:r9107"
+      direction: north
+    - roomId: "dylan:r9105"
+      direction: west
+- id: r9107
+  title: "A fluffy white cloud."
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+  exits:
+    - roomId: "dylan:r9106"
+      direction: south
+    - roomId: "dylan:r9108"
+      direction: east
+    - roomId: "dylan:r9126"
+      direction: down
+- id: r9108
+  title: "A fluffy white cloud."
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+  exits:
+    - roomId: "dylan:r9109"
+      direction: east
+    - roomId: "dylan:r9107"
+      direction: west
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9109
+  title: "A fluffy white cloud."
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+  exits:
+    - roomId: "dylan:r9108"
+      direction: west
+    - roomId: "dylan:r9110"
+      direction: down
+  npcs:
+    - id: "dylan:m9103"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "dylan:m9103"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r9110
+  title: "An ominous storm cloud."
+  description: >-
+    You find yourself in a storm.  Lightning flashes and thunder
+    crashes, making you wish you were dry and warm.
+  exits:
+    - roomId: "dylan:r9111"
+      direction: east
+    - roomId: "dylan:r9125"
+      direction: west
+    - roomId: "dylan:r9109"
+      direction: up
+- id: r9111
+  title: "High and perilous cliff"
+  description: >-
+    You are on a high and rocky cliff.  To the west you see a huge
+    ominous storm cloud moving this way.  You might want to take cover
+    before the storm hits.  You think that there is a narrow trail
+    leading to the south.
+  exits:
+    - roomId: "dylan:r9112"
+      direction: south
+    - roomId: "dylan:r9110"
+      direction: west
+- id: r9112
+  title: "Narrow rocky trail."
+  description: >-
+    A narrow trail leads down towards the mountain and north toward the
+    cliff.  It seems to fade in and out as it winds up the hill.
+    Obviously, it has not been maintained in years.
+  exits:
+    - roomId: "dylan:r9111"
+      direction: north
+    - roomId: "dylan:r9113"
+      direction: down
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9113
+  title: "Small valley."
+  description: >-
+    You are in a lush valley full of trees and other vegetation and the
+    odd carcass or two.  The trail leads south and it leads up.
+  exits:
+    - roomId: "dylan:r9114"
+      direction: south
+    - roomId: "dylan:r9112"
+      direction: up
+- id: r9114
+  title: "Small valley."
+  description: >-
+    You are in a lush valley full of trees and other vegetation and the
+    odd carcass or three.  The trail leads north and it leads down into
+    a crevasse.
+  exits:
+    - roomId: "dylan:r9113"
+      direction: north
+    - roomId: "dylan:r9115"
+      direction: down
+- id: r9115
+  title: "Deep, slippery crevice."
+  description: >-
+    The crevice is deep and a little dim and it is hard to make your
+    way around.  A mist makes everything a little damp and slippery.
+    Better take your time climbing through here.
+  exits:
+    - roomId: "dylan:r9117"
+      direction: south
+    - roomId: "dylan:r9116"
+      direction: west
+    - roomId: "dylan:r9114"
+      direction: up
+- id: r9116
+  title: "Incredibly slippery crevice."
+  description: >-
+    The crevice is getting more and more slippery.  You are getting
+    incredibly nervous and want to turn back.  To the east is the
+    crevice and trail you were following.  Below, you can just see the
+    edge of a cliff through the mist.  There is no trail leading there,
+    just a smooth, flat, dew-covered rock that almost resembles a
+    slide ...
+  exits:
+    - roomId: "dylan:r9115"
+      direction: east
+    - roomId: "dylan:r9199"
+      direction: down
+- id: r9117
+  title: "Steep mountainside."
+  description: >-
+    From here, you can see forever.  Clouds, birds, the forest.
+    Midgaard is far, far to the west.  What a postcard perfect view!
+  exits:
+    - roomId: "dylan:r9115"
+      direction: north
+    - roomId: "dylan:r9118"
+      direction: up
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9118
+  title: "Steep mountainside."
+  description: >-
+    From here, you can see forever.  Clouds, birds, the forest.
+    Midgaard is far, far to the west.  What a postcard perfect view!
+  exits:
+    - roomId: "dylan:r9119"
+      direction: east
+    - roomId: "dylan:r9117"
+      direction: down
+- id: r9119
+  title: "Treacherous Cliff."
+  description: >-
+    The cliff is rocky and difficult to negotiate.  One wrong slip and
+    you could fall and break a leg or impale yourself or something else
+    nasty.
+  exits:
+    - roomId: "dylan:r9118"
+      direction: west
+    - roomId: "dylan:r9120"
+      direction: up
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9120
+  title: "Cliff Face."
+  description: >-
+    You are more than a little nervous climbing on this almost vertical
+    cliff face.  You miraculously find places to grab onto and little
+    ledges to rest on.  You see a small cave here.
+  exits:
+    - roomId: "dylan:r9121"
+      direction: east
+    - roomId: "dylan:r9122"
+      direction: up
+    - roomId: "dylan:r9119"
+      direction: down
+- id: r9121
+  title: "Dank, dark, smelly hole."
+  description: >-
+    This hole must have been used as a lair or nest.  There are
+    feathers and bones everywhere and the floor is covered with
+    something disgusting.
+  exits:
+    - roomId: "dylan:r9120"
+      direction: west
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9122
+  title: "Large, sturdy ledge."
+  description: >-
+    You are on a ledge above a steep cliff face.  You can climb down
+    if you want, but be careful!  After viewing the scenery, you notice
+    two small caves here, one north and one west.
+  exits:
+    - roomId: "dylan:r9124"
+      direction: north
+    - roomId: "dylan:r9123"
+      direction: west
+    - roomId: "dylan:r9120"
+      direction: down
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9123
+  title: "Absolutely disgusting lair."
+  description: >-
+    The stench in here is quite foul.  There are feathers, bones and
+    rotting carcasses everywhere.  This place is absolutely gross and
+    you have to strain yourself not to lose your lunch.
+  exits:
+    - roomId: "dylan:r9122"
+      direction: east
+  npcs:
+    - id: "dylan:m9102"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9124
+  title: "Absolutely disgusting lair."
+  description: >-
+    The stench in here is quite foul.  There are feathers, bones and
+    rotting carcasses everywhere.  This place is absolutely gross and
+    you have to strain yourself not to lose your lunch.
+  exits:
+    - roomId: "dylan:r9122"
+      direction: south
+  npcs:
+    - id: "dylan:m9102"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9125
+  title: "A fluffy white cloud."
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+  exits:
+    - roomId: "dylan:r9110"
+      direction: east
+    - roomId: "dylan:r9126"
+      direction: up
+- id: r9126
+  title: "A fluffy white cloud."
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+  exits:
+    - roomId: "dylan:r9131"
+      direction: north
+    - roomId: "dylan:r9127"
+      direction: west
+    - roomId: "dylan:r9107"
+      direction: up
+    - roomId: "dylan:r9125"
+      direction: down
+- id: r9127
+  title: "A fluffy white cloud."
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+  exits:
+    - roomId: "dylan:r9130"
+      direction: north
+    - roomId: "dylan:r9126"
+      direction: east
+    - roomId: "dylan:r9128"
+      direction: up
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9128
+  title: "A fluffy white cloud."
+  description: >-
+    You find yourself standing on a small cloud.  The cloud feels kind
+    of spongy beneath your feet.  You find it hard to see anything in
+    the distance as wisps of cloud blow over your face.
+  exits:
+    - roomId: "dylan:r9103"
+      direction: south
+    - roomId: "dylan:r9127"
+      direction: down
+- id: r9129
+  title: "Sleepy little cloud."
+  description: >-
+    This cloud is peacefully snoozing away, enjoying himself.  There
+    is grumpy cloud to the east and a rather shy cloud north of here.
+  exits:
+    - roomId: "dylan:r9132"
+      direction: north
+    - roomId: "dylan:r9130"
+      direction: east
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9130
+  title: "Grumpy little cloud."
+  description: >-
+    This cloud mutters and grumbles at you.  You have to jump quickly
+    to avoid a lightning bolt that passes by your toe.  Your aren't
+    sure but you think you hear the cloud snicker.
+  exits:
+    - roomId: "dylan:r9127"
+      direction: south
+    - roomId: "dylan:r9131"
+      direction: east
+    - roomId: "dylan:r9129"
+      direction: west
+- id: r9131
+  title: "Happy little cloud."
+  description: >-
+    You hear the cloud humming a little song to itself, but you can't
+    figure out the song.
+  exits:
+    - roomId: "dylan:r9136"
+      direction: north
+    - roomId: "dylan:r9126"
+      direction: south
+    - roomId: "dylan:r9130"
+      direction: west
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9132
+  title: "Bashful little cloud."
+  description: >-
+    This cloud blushes and tries to avoid your glance as you look at
+    your surroundings.  You decide that overall it is a peaceful little
+    cloud.
+  exits:
+    - roomId: "dylan:r9133"
+      direction: north
+    - roomId: "dylan:r9129"
+      direction: south
+    - roomId: "dylan:r9142"
+      direction: west
+- id: r9133
+  title: "Sneezing little cloud."
+  description: >-
+    The cloud is wracked with sneezes.  At first you thought you were
+    in an earthquake before you realize where you are!
+  exits:
+    - roomId: "dylan:r9145"
+      direction: north
+    - roomId: "dylan:r9132"
+      direction: south
+    - roomId: "dylan:r9134"
+      direction: east
+    - roomId: "dylan:r9143"
+      direction: west
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9134
+  title: "Dopey little cloud."
+  description: >-
+    This cloud is too busy daydreaming to watch where its going.  It
+    doesn't even notice you landing on it.  It looks like it couldn't
+    figure its way out of an open box.
+  exits:
+    - roomId: "dylan:r9135"
+      direction: east
+    - roomId: "dylan:r9133"
+      direction: west
+- id: r9135
+  title: "Doc-like little cloud."
+  description: >-
+    The cloud looks at you through its Lennon like specs and examines
+    you quite scientifically.
+  exits:
+    - roomId: "dylan:r9136"
+      direction: south
+    - roomId: "dylan:r9134"
+      direction: west
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9136
+  title: "Snowy, white cloud."
+  description: >-
+    You shiver as you stand here.  This beautiful, fluffy, pure white
+    cloud is snowing.  The snow is pure and sweet as it melts in your
+    mouth.  What a nifty cloud to be on.
+  exits:
+    - roomId: "dylan:r9135"
+      direction: north
+    - roomId: "dylan:r9131"
+      direction: south
+    - roomId: "dylan:r9137"
+      direction: west
+- id: r9137
+  title: "Cold, damp cloud."
+  description: >-
+    Your mood grows grumpy as you find yourself cold and wet from this
+    dismal cloud.  You notice a rock outcropping above you.
+  exits:
+    - roomId: "dylan:r9136"
+      direction: east
+    - roomId: "dylan:r9138"
+      direction: up
+  npcs:
+    - id: "dylan:m9103"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "dylan:m9103"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r9138
+  title: "Mysterious rock outcropping."
+  description: >-
+    This rock outcropping just seems to hang in midair.  To the north
+    you see a house and if you ease yourself down, you can land on a
+    rather damp, dismal cloud.  The door to the house is closed.
+  exits:
+    - roomId: "dylan:r9139"
+      direction: north
+    - roomId: "dylan:r9137"
+      direction: down
+- id: r9139
+  title: "Foyer."
+  description: >-
+    Shadows play tricks on your eyes.  Everytime you think you see
+    something in a corner and turn to get a better look, nothing is
+    there.  The place is very dark.  Even with a torch, you have
+    trouble making out the room to the east.
+  exits:
+    - roomId: "dylan:r9138"
+      direction: south
+    - roomId: "dylan:r9140"
+      direction: east
+- id: r9140
+  title: "Tower."
+  description: >-
+    You are in a musty old tower.  The smell of mold and mildew is
+    almost overpowering.  You hear strange creaks and groans ... is it
+    the wind or did someone (something?) make that noise.  To the west
+    is the house and there is a stairway leading up into the tower.
+  exits:
+    - roomId: "dylan:r9139"
+      direction: west
+    - roomId: "dylan:r9141"
+      direction: up
+- id: r9141
+  title: "Witches Tower"
+  description: >-
+    Here you see strange things of arcane value.  There is a cauldron in the
+    corner bubbling madly, belching a foul brew that must have come from hell.
+    On shelves lie jars of strange creatures you have never seen before, or
+    hope to again.  A picture of a familiar temple hangs on the east wall.
+  exits:
+    - roomId: "midgaard:r3001"
+      direction: east
+    - roomId: "dylan:r9140"
+      direction: down
+  npcs:
+    - id: "dylan:m9107"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9142
+  title: "Suspicious little raincloud."
+  description: >-
+    On second glance, this cloud doesn't seem much like a raincloud.
+    A balloon sticks out of the top and you think you hear it humming
+    something like, 'Tut, tut!  It looks like rain!'
+  exits:
+    - roomId: "dylan:r9143"
+      direction: north
+    - roomId: "dylan:r9132"
+      direction: east
+- id: r9143
+  title: "Cirrus maximus cloud."
+  description: >-
+    This cloud looks like it is of the cirrus maximus genre of clouds.
+  exits:
+    - roomId: "dylan:r9142"
+      direction: south
+    - roomId: "dylan:r9133"
+      direction: east
+- id: r9144
+  title: "Raging hurricane."
+  description: >-
+    You are buffeted and knocked about by the almost godlike strength
+    of the raging hurricane.  It is hard to see and hear anything.
+    Your only thought is to seek refuge from the storm.
+  exits:
+    - roomId: "dylan:r9146"
+      direction: north
+    - roomId: "dylan:r9148"
+      direction: down
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9145
+  title: "Raging hurricane."
+  description: >-
+    You are buffeted and knocked about by the almost godlike strength
+    of the raging hurricane.  It is hard to see and hear anything.
+    Your only thought is to seek refuge from the storm.
+  exits:
+    - roomId: "dylan:r9133"
+      direction: south
+    - roomId: "dylan:r9150"
+      direction: up
+    - roomId: "dylan:r9148"
+      direction: down
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9146
+  title: "Raging hurricane."
+  description: >-
+    You are buffeted and knocked about by the almost godlike strength
+    of the raging hurricane.  It is hard to see and hear anything.
+    Your only thought is to seek refuge from the storm.
+  exits:
+    - roomId: "dylan:r9144"
+      direction: west
+    - roomId: "dylan:r9147"
+      direction: down
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9147
+  title: "Raging hurricane."
+  description: >-
+    You are buffeted and knocked about by the almost godlike strength
+    of the raging hurricane.  It is hard to see and hear anything.
+    Your only thought is to seek refuge from the storm.
+  exits:
+    - roomId: "dylan:r9148"
+      direction: east
+    - roomId: "dylan:r9146"
+      direction: up
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9148
+  title: "Raging hurricane."
+  description: >-
+    You are buffeted and knocked about by the almost godlike strength
+    of the raging hurricane.  It is hard to see and hear anything.
+    Your only thought is to seek refuge from the storm.
+  exits:
+    - roomId: "dylan:r9144"
+      direction: north
+    - roomId: "dylan:r9147"
+      direction: east
+    - roomId: "dylan:r9145"
+      direction: down
+  npcs:
+    - id: "dylan:m9103"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "dylan:m9103"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r9149
+  title: "Raging hurricane."
+  description: >-
+    You are buffeted and knocked about by the almost godlike strength
+    of the raging hurricane.  It is hard to see and hear anything.
+    Your only thought is to seek refuge from the storm.
+  exits:
+    - roomId: "dylan:r9157"
+      direction: north
+    - roomId: "dylan:r9152"
+      direction: east
+    - roomId: "dylan:r9150"
+      direction: west
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9150
+  title: "Raging hurricane."
+  description: >-
+    You are buffeted and knocked about by the almost godlike strength
+    of the raging hurricane.  It is hard to see and hear anything.
+    Your only thought is to seek refuge from the storm.
+  exits:
+    - roomId: "dylan:r9151"
+      direction: south
+    - roomId: "dylan:r9149"
+      direction: west
+    - roomId: "dylan:r9145"
+      direction: up
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9151
+  title: "Raging hurricane."
+  description: >-
+    You are buffeted and knocked about by the almost godlike strength
+    of the raging hurricane.  It is hard to see and hear anything.
+    Your only thought is to seek refuge from the storm.
+  exits:
+    - roomId: "dylan:r9152"
+      direction: north
+    - roomId: "dylan:r9150"
+      direction: up
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9152
+  title: "Raging hurricane."
+  description: >-
+    You are buffeted and knocked about by the almost godlike strength
+    of the raging hurricane.  It is hard to see and hear anything.
+    Your only thought is to seek refuge from the storm.
+  exits:
+    - roomId: "dylan:r9149"
+      direction: north
+    - roomId: "dylan:r9151"
+      direction: up
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9153
+  title: "Calm cloud."
+  description: >-
+    This cloud is just outside the hurricane.  It looks like it might
+    get sucked in, but you feel safe for the moment.
+  exits:
+    - roomId: "dylan:r9154"
+      direction: west
+    - roomId: "dylan:r9152"
+      direction: up
+  npcs:
+    - id: "dylan:m9106"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "dylan:m9106"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "dylan:m9106"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "dylan:m9106"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "dylan:m9106"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r9154
+  title: "Mountainside."
+  description: >-
+    You find yourself on the side of a huge granite mountain.  The air
+    is quite thin so you know you are at a very high altitude.  There
+    is no plant life beyond moss and lichen in this lonely, barren
+    place.
+  exits:
+    - roomId: "dylan:r9153"
+      direction: east
+    - roomId: "dylan:r9155"
+      direction: west
+- id: r9155
+  title: "Mountainside."
+  description: >-
+    You find yourself on the side of a huge granite mountain.  The air
+    is quite thin so you know you are at a very high altitude.  There
+    is no plant life beyond moss and lichen in this lonely, barren
+    place.
+  exits:
+    - roomId: "dylan:r9154"
+      direction: east
+    - roomId: "dylan:r9156"
+      direction: up
+- id: r9156
+  title: "Roc's Nest."
+  description: >-
+    You are standing in a nest.  It is huge, at least two spear-lengths
+    wide.  You see three eggs in the center.  They are knee high, brown
+    and look almost leathery.  Better hope mom isn't around!
+  exits:
+    - roomId: "dylan:r9155"
+      direction: down
+  npcs:
+    - id: "dylan:m9105"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "dylan:m9105"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "dylan:m9105"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "dylan:m9105"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "dylan:m9105"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r9157
+  title: "Cumulative nimbus cloud."
+  description: >-
+    This cloud looks like it belongs to the phylum of cumulative nimbus clouds.
+  exits:
+    - roomId: "dylan:r9159"
+      direction: south
+    - roomId: "dylan:r9158"
+      direction: west
+    - roomId: "dylan:r9149"
+      direction: up
+- id: r9158
+  title: "Dark hidden cloud."
+  description: >-
+    This cloud looks like the perfect place to hide.
+  exits:
+    - roomId: "dylan:r9157"
+      direction: east
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9159
+  title: "Yet another cloud"
+  description: >-
+    You find yourself in yet another cloud.  Will the madness never
+    end?  There is a rope ladder leading up.
+  exits:
+    - roomId: "dylan:r9157"
+      direction: north
+    - roomId: "dylan:r9160"
+      direction: up
+- id: r9160
+  title: "Front gate"
+  description: >-
+    There is a gate here.  It is huge, towering over you.  It creaks
+    as it sways in the breeze.  To the south you see a huge lawn.
+    There is a rope ladder leading down.
+  exits:
+    - roomId: "dylan:r9161"
+      direction: south
+    - roomId: "dylan:r9159"
+      direction: down
+- id: r9161
+  title: "Lawn"
+  description: >-
+    The lawn seems to stretch and stretch to the south and to the west.
+    North of you is a gate.  The grass is emerald green and luscious,
+    obviously well cared for.
+  exits:
+    - roomId: "dylan:r9160"
+      direction: north
+    - roomId: "dylan:r9163"
+      direction: south
+    - roomId: "dylan:r9162"
+      direction: west
+- id: r9162
+  title: "Croquet game"
+  description: >-
+    A croquet game has been set up and carelessly left out.  Who ever
+    was playing blue was in the lead before they quit.  Benches have
+    been set up for spectators and players to enjoy themselves.
+  exits:
+    - roomId: "dylan:r9164"
+      direction: south
+    - roomId: "dylan:r9161"
+      direction: east
+  npcs:
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+    - id: "dylan:m9101"
+      respawnChance: 100
+      maxLoad: "80"
+- id: r9163
+  title: "Huge, gorgeous fountain."
+  description: >-
+    An enormous golden fountain is here.  You see swans, angels,
+    gryphons and a host of other creatures in the fountain.  The
+    fountain empties into a huge pool that looks quite inviting.
+  exits:
+    - roomId: "dylan:r9161"
+      direction: north
+    - roomId: "dylan:r9164"
+      direction: west
+  npcs:
+    - id: "dylan:m9103"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "dylan:m9103"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r9164
+  title: "Patio."
+  description: >-
+    A huge patio overlooks the lawn area.  There are enough tables and
+    chairs for a party of 100.  The tables and chairs are ornate and
+    expensive, tasteful and elegant.  Stairs lead up to the main
+    house.
+  exits:
+    - roomId: "dylan:r9162"
+      direction: north
+    - roomId: "dylan:r9163"
+      direction: east
+    - roomId: "dylan:r9165"
+      direction: up
+- id: r9165
+  title: "Long stairway."
+  description: >-
+    This stairway is suspended on clouds.  It leads from the house to
+    the front lawn.  The banisters are made of ornate gold and silver
+    inlays.
+  exits:
+    - roomId: "dylan:r9166"
+      direction: up
+    - roomId: "dylan:r9164"
+      direction: down
+- id: r9166
+  title: "Front door"
+  description: >-
+    You stand at the front door of an immense, sprawling mansion made
+    of granite and marble.  The door is at least 10 feet high and is
+    made of oak.
+  exits:
+    - roomId: "dylan:r9177"
+      direction: south
+    - roomId: "dylan:r9173"
+      direction: east
+    - roomId: "dylan:r9167"
+      direction: west
+    - roomId: "dylan:r9165"
+      direction: down
+- id: r9167
+  title: "Lawn northwest of house."
+  description: >-
+    You stand just outside the northwest corner of the house.  You try
+    to peek in a window, but it is a little too high to see anything.
+  exits:
+    - roomId: "dylan:r9168"
+      direction: south
+    - roomId: "dylan:r9166"
+      direction: east
+- id: r9168
+  title: "Lawn west of house."
+  description: >-
+    You stand just outside the west corner of the house.  You try to
+    peek in a window, but it is a little too high to see anything.
+  exits:
+    - roomId: "dylan:r9167"
+      direction: north
+    - roomId: "dylan:r9169"
+      direction: south
+- id: r9169
+  title: "Lawn southwest of house."
+  description: >-
+    You stand just outside the southwest corner of the house.  You try
+    to peek in a window, but it is a little too high to see anything.
+  exits:
+    - roomId: "dylan:r9168"
+      direction: north
+    - roomId: "dylan:r9170"
+      direction: east
+    - roomId: "dylan:r9174"
+      direction: down
+- id: r9170
+  title: "Lawn south of house."
+  description: >-
+    You stand just outside the south corner of the house.  You try to
+    peek in a window, but it is a little too high to see anything.
+  exits:
+    - roomId: "dylan:r9171"
+      direction: east
+    - roomId: "dylan:r9169"
+      direction: west
+- id: r9171
+  title: "Lawn southeast of house."
+  description: >-
+    You stand just outside the southeast corner of the house.  You try
+    to peek in a window, but it is a little too high to see anything.
+  exits:
+    - roomId: "dylan:r9172"
+      direction: north
+    - roomId: "dylan:r9170"
+      direction: west
+- id: r9172
+  title: "Lawn east of house."
+  description: >-
+    You stand just outside the east corner of the house.  You try to
+    peek in a window, but it is a little too high to see anything.
+  exits:
+    - roomId: "dylan:r9173"
+      direction: north
+    - roomId: "dylan:r9171"
+      direction: south
+- id: r9173
+  title: "Lawn northeast of house."
+  description: >-
+    You stand just outside the northeast corner of the house.  You try
+    to peek in a window, but it is a little too high to see anything.
+  exits:
+    - roomId: "dylan:r9172"
+      direction: south
+    - roomId: "dylan:r9166"
+      direction: west
+- id: r9174
+  title: "Dirty, dusty tunnel."
+  description: >-
+    This dirty dusty tunnel must lead somewhere.
+  exits:
+    - roomId: "dylan:r9175"
+      direction: east
+    - roomId: "dylan:r9169"
+      direction: up
+- id: r9175
+  title: "Basement."
+  description: >-
+    This seems like your average basement.  Old Christmas decorations,
+    suitcases, bicycles litter your way.  You hear the squeaking of
+    rats in the corners.
+  exits:
+    - roomId: "dylan:r9176"
+      direction: north
+    - roomId: "dylan:r9174"
+      direction: west
+- id: r9176
+  title: "Bottom of the stairs."
+  description: >-
+    You stand at the bottom of a long staircase leading up to the main
+    house.  To the south you can barely make out the accumulated
+    clutter gathered throughout the years.
+  exits:
+    - roomId: "dylan:r9175"
+      direction: south
+    - roomId: "dylan:r9177"
+      direction: up
+- id: r9177
+  title: "Foyer."
+  description: >-
+    "Magnificent" does not even begin to describe the foyer.  Lavishly
+    decorated, yet elegant, it gives an impression of indescribable
+    wealth.  Paintings and tapestries line the walls depicting scenes
+    from throughout history.  Antiques furnitures and oriental rugs are
+    tastefully placed in ideal spots.  The door is at least 10 feet
+    high and is made of oak.
+  exits:
+    - roomId: "dylan:r9166"
+      direction: north
+    - roomId: "dylan:r9183"
+      direction: east
+    - roomId: "dylan:r9178"
+      direction: west
+    - roomId: "dylan:r9176"
+      direction: down
+  npcs:
+    - id: "dylan:m9103"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "dylan:m9103"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r9178
+  title: "Elegant hallway."
+  description: >-
+    You are in a long, sprawling hallway connecting the eastern and
+    western wings of the house.  There are several chairs and sofas in
+    the hallway and some gorgeous, handwoven drapes.
+  exits:
+    - roomId: "dylan:r9179"
+      direction: south
+    - roomId: "dylan:r9177"
+      direction: east
+    - roomId: "dylan:r9180"
+      direction: west
+- id: r9179
+  title: "Library"
+  description: >-
+    You are overwhelmed by the sheer volumes of books here.  The
+    shelves stretch all the way to the ceiling and are on every wall,
+    even above the doorway.  There are chairs for sitting and reading
+    and a desk for more intense studies.
+  exits:
+    - roomId: "dylan:r9178"
+      direction: north
+- id: r9180
+  title: "Arboretum."
+  description: >-
+    A small indoor garden so that the residents don't have to go
+    outside to enjoy plants and commune with nature.  There are several
+    trees, a small pond and flowers of every kind.
+  exits:
+    - roomId: "dylan:r9181"
+      direction: south
+    - roomId: "dylan:r9178"
+      direction: east
+- id: r9181
+  title: "Western tower."
+  description: >-
+    You are in the bottom part of a tower.  A draft brings a chill to
+    your spine and causes creaks and groans.  Curtains flutter in the
+    wind, causing quite a distraction.  When you go to shut the window,
+    you see that the window is closed.  An old, wooden staircase leads
+    up into darkness.
+  exits:
+    - roomId: "dylan:r9180"
+      direction: north
+    - roomId: "dylan:r9182"
+      direction: up
+- id: r9182
+  title: "Western tower."
+  description: >-
+    The tower creaks and groans, almost as if it were muttering to
+    itself.  There are windows displaying a full moon, reigning over
+    the night sky.  The room is dark and there is almost a musty odor
+    to it.  You are surprised that you can't detect any dust or dirt,
+    although there are a couple of cobwebs in the corner.
+  exits:
+    - roomId: "dylan:r9181"
+      direction: down
+  npcs:
+    - id: "dylan:m9104"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9183
+  title: "Elegant hallway."
+  description: >-
+    You are in a long, sprawling hallway connecting the eastern and
+    western wings of the house.  There are several chairs and sofas in
+    the hallway and some gorgeous, handwoven drapes.
+  exits:
+    - roomId: "dylan:r9184"
+      direction: south
+    - roomId: "dylan:r9185"
+      direction: east
+    - roomId: "dylan:r9177"
+      direction: west
+- id: r9184
+  title: "Conservatory"
+  description: >-
+    Here was the rehearsal and recital room for the residents of the
+    estate.  There is a Steinway piano in the corner and various gilded
+    instruments are on display in a glass cabinet.
+  exits:
+    - roomId: "dylan:r9183"
+      direction: north
+- id: r9185
+  title: "Office"
+  description: >-
+    You find yourself in a lavish office.  The desk is absolutely huge,
+    at least ten feet by five feet and made of ebony and inlaid with
+    mother of pearl.  A grandfather clock towers over the room,
+    mechanically ticking and tocking the hours away.
+  exits:
+    - roomId: "dylan:r9186"
+      direction: south
+    - roomId: "dylan:r9183"
+      direction: west
+- id: r9186
+  title: "Eastern tower."
+  description: >-
+    You are in the bottom part of a tower.  A draft brings a chill to
+    your spine and causes creaks and groans.  Curtains flutter in the
+    wind, causing quite a distraction.  When you go to shut the window,
+    you see that the window is closed.  An old, wooden staircase leads
+    up into darkness.
+  exits:
+    - roomId: "dylan:r9185"
+      direction: north
+    - roomId: "dylan:r9187"
+      direction: up
+- id: r9187
+  title: "Eastern tower."
+  description: >-
+    The tower creaks and groans, almost as if it were muttering to
+    itself.  There are windows displaying a full moon, reigning over
+    the night sky.  The room is dark and there is almost a musty odor
+    to it.  You are surprised that you can't detect any dust or dirt,
+    although there are a couple of cobwebs in the corner.
+  exits:
+    - roomId: "dylan:r9186"
+      direction: down
+  npcs:
+    - id: "dylan:m9104"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r9199
+  title: "Mid-Air."
+  description: >-
+    You slide down the moisture covered rock, gaining speed as you
+    approach the cliff.  Realizing your foolish error, you madly claw
+    at the rock, vainly trying to get a precious hold and save your
+    worthless hide.  Next time, heed your conscience.
+    You've fallen, and you can't get up!!!
+  exits:
+    - roomId: "vlord:r32001"
+      direction: north

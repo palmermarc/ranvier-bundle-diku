@@ -1,0 +1,276 @@
+- id: m500
+  keywords: ["questing","beast"]
+  name: "A questing beast"
+  description: >-
+    A questing beast wanders the land
+  level: 40
+  attributes:
+    health: 11999
+    armor: -500
+    hitroll: 100
+    damroll: 99
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "quest:o500": 75
+        "quest:o501": 75
+        "quest:o502": 75
+        "quest:o503": 75
+        "quest:o504": 75
+        "quest:o505": 75
+  metadata:
+    areaId: 62
+    exp_level: 41
+    sex: 1
+- id: m501
+  keywords: ["questing","beast"]
+  name: "A questing beast"
+  description: >-
+    A questing beast wanders the land
+  level: 60
+  attributes:
+    health: 17999
+    armor: -750
+    hitroll: 150
+    damroll: 149
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "quest:o506": 75
+        "quest:o507": 75
+        "quest:o508": 75
+        "quest:o509": 75
+        "quest:o510": 75
+        "quest:o511": 75
+  metadata:
+    areaId: 62
+    exp_level: 60
+    sex: 1
+- id: m502
+  keywords: ["questing","beast"]
+  name: "A questing beast"
+  description: >-
+    A questing beast wanders the land
+  level: 80
+  attributes:
+    health: 23999
+    armor: -1000
+    hitroll: 200
+    damroll: 199
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "quest:o514": 75
+        "quest:o512": 75
+        "quest:o513": 75
+        "quest:o515": 75
+        "quest:o516": 75
+        "quest:o517": 75
+  metadata:
+    areaId: 62
+    exp_level: 79
+    sex: 2
+- id: m503
+  keywords: ["questing","beast"]
+  name: "A questing beast"
+  description: >-
+    A questing beast wanders the land
+  level: 100
+  attributes:
+    health: 29999
+    armor: -1250
+    hitroll: 250
+    damroll: 249
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "quest:o520": 75
+        "quest:o518": 75
+        "quest:o519": 75
+        "quest:o521": 75
+        "quest:o522": 75
+        "quest:o523": 75
+  metadata:
+    areaId: 62
+    exp_level: 100
+    sex: 2
+- id: m504
+  keywords: ["questing","beast"]
+  name: "A questing beast"
+  description: >-
+    A questing beast wanders the land
+  level: 120
+  attributes:
+    health: 29999
+    armor: -1500
+    hitroll: 300
+    damroll: 299
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "quest:o526": 75
+        "quest:o524": 75
+        "quest:o525": 75
+        "quest:o527": 75
+        "quest:o528": 75
+        "quest:o529": 75
+  metadata:
+    areaId: 62
+    exp_level: 119
+    sex: 0
+- id: m505
+  keywords: ["questing","beast"]
+  name: "A questing beast"
+  description: >-
+    A questing beast wanders the land
+  level: 140
+  attributes:
+    health: 29999
+    armor: -1750
+    hitroll: 350
+    damroll: 349
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "quest:o532": 75
+        "quest:o530": 75
+        "quest:o531": 75
+        "quest:o533": 75
+        "quest:o534": 75
+        "quest:o535": 75
+  metadata:
+    areaId: 62
+    exp_level: 140
+    sex: 0
+- id: m506
+  keywords: ["questing","beast"]
+  name: "A questing beast"
+  description: >-
+    A questing beast wanders the land
+  level: 50
+  attributes:
+    health: 22499
+    armor: -1250
+    hitroll: 150
+    damroll: 149
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 62
+    exp_level: 50
+    sex: 1
+- id: m507
+  keywords: ["questing","beast"]
+  name: "A questing beast"
+  description: >-
+    A questing beast wanders the land
+  level: 100
+  attributes:
+    health: 29999
+    armor: -1950
+    hitroll: 300
+    damroll: 299
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 62
+    exp_level: 100
+    sex: 2
+- id: m508
+  keywords: ["questing","beast"]
+  name: "A questing beast"
+  description: >-
+    A questing beast wanders the land
+  level: 150
+  attributes:
+    health: 29999
+    armor: -2250
+    hitroll: 450
+    damroll: 449
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 62
+    exp_level: 151
+    sex: 0

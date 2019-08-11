@@ -1,0 +1,610 @@
+- id: m12600
+  keywords: ["rat","large"]
+  name: "a large rat"
+  description: >-
+    A large rat scurries into the darkness
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12601
+  keywords: ["spider"]
+  name: "a large spider"
+  description: >-
+    A large spider sits patiently in its web
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12602
+  keywords: ["priest","drunk"]
+  name: "a drunken priest"
+  description: >-
+    A balding man grunts and sweats as a woman writhes beneath him
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 250
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "catacombs:o12604": 75
+        "catacombs:o12600": 75
+        "catacombs:o12603": 75
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 1
+- id: m12603
+  keywords: ["nun"]
+  name: "an immoral nun"
+  description: >-
+    A barely clad woman moans in pleasure beneath a drunken priest
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 250
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "catacombs:o12605": 75
+        "catacombs:o12606": 75
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 2
+- id: m12604
+  keywords: ["skeleton"]
+  name: "a skeleton"
+  description: >-
+    A skeleton wanders here
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "catacombs:o12609": 75
+        "catacombs:o12610": 75
+        "catacombs:o12614": 75
+        "catacombs:o12612": 75
+        "catacombs:o12611": 75
+        "catacombs:o12613": 75
+        "catacombs:o12615": 75
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12605
+  keywords: ["zombie"]
+  name: "a zombie"
+  description: >-
+    A slightly rotten corpse wanders here
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12606
+  keywords: ["ghoul"]
+  name: "a ghoul"
+  description: >-
+    A greyish figure wanders here
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -350
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12607
+  keywords: ["ghost"]
+  name: "a ghost"
+  description: >-
+    A ghost flits around here
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12608
+  keywords: ["necromancer","mage"]
+  name: "an evil Necromancer"
+  description: >-
+    A figure wearing dark robes is here
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -750
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "catacombs:o12607": 75
+        "catacombs:o12608": 75
+        "catacombs:o12601": 75
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 1
+- id: m12609
+  keywords: ["adventurer","wandering"]
+  name: "a wandering adventurer"
+  description: >-
+    A wandering adventurer searches for excitement here
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "catacombs:o12616": 75
+        "catacombs:o12617": 75
+        "catacombs:o12618": 75
+        "catacombs:o12621": 75
+        "catacombs:o12619": 75
+        "catacombs:o12620": 75
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 1
+- id: m12610
+  keywords: ["skeleton"]
+  name: "a skeleton"
+  description: >-
+    A skeleton wanders around
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "catacombs:o12609": 75
+        "catacombs:o12610": 75
+        "catacombs:o12614": 75
+        "catacombs:o12612": 75
+        "catacombs:o12611": 75
+        "catacombs:o12613": 75
+        "catacombs:o12615": 75
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12611
+  keywords: ["zombie"]
+  name: "a zombie"
+  description: >-
+    A zombie staggers into view
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12612
+  keywords: ["ghoul"]
+  name: "a ghoul"
+  description: >-
+    A gaunt figure lurches towards you
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -350
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12613
+  keywords: ["ghost","spirit"]
+  name: "a ghost"
+  description: >-
+    A spirit wanders aimlessly about these passageways
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12614
+  keywords: ["adventurer","brave"]
+  name: "a brave adventurer"
+  description: >-
+    A strong bright eyed man wanders around, cheerfully whistling.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "catacombs:o12626": 75
+        "catacombs:o12625": 75
+        "catacombs:o12621": 75
+        "catacombs:o12617": 75
+        "catacombs:o12602": 75
+        "catacombs:o12620": 75
+        "catacombs:o12619": 75
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 1
+- id: m12615
+  keywords: ["skeleton"]
+  name: "a skeleton"
+  description: >-
+    A skeleton wanders aimlessly
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "catacombs:o12609": 75
+        "catacombs:o12610": 75
+        "catacombs:o12614": 75
+        "catacombs:o12612": 75
+        "catacombs:o12611": 75
+        "catacombs:o12613": 75
+        "catacombs:o12615": 75
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12616
+  keywords: ["zombie"]
+  name: "a zombie"
+  description: >-
+    A zombie shuffles about
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12617
+  keywords: ["ghoul"]
+  name: "a ghoul"
+  description: >-
+    A ghoul sees you and attacks hungrily.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12618
+  keywords: ["ghost"]
+  name: "a ghost"
+  description: >-
+    A ghost flits forelornly about.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 0
+- id: m12619
+  keywords: ["adventurer","lost"]
+  name: "a lost adventurer"
+  description: >-
+    A man wanders nervously around
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "catacombs:o12616": 75
+        "catacombs:o12617": 75
+        "catacombs:o12627": 75
+        "catacombs:o12621": 75
+        "catacombs:o12619": 75
+        "catacombs:o12620": 75
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 1
+- id: m12620
+  keywords: ["thief","man"]
+  name: "a thief"
+  description: >-
+    A thief seems to be looking out for something
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "catacombs:o12616": 75
+        "catacombs:o12630": 75
+        "catacombs:o12631": 75
+        "catacombs:o12627": 75
+        "catacombs:o12629": 75
+  metadata:
+    areaId: 11
+    exp_level: 4000
+    sex: 1

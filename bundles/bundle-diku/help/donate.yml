@@ -1,0 +1,8 @@
+---
+body: |
+  syntax: DONATE <ITEM>
+  
+  DONATE sends an unwanted item to a special "Donation Room" where other 
+  players may take it for their own use. This is especially helpful to
+  newbie players. If a player is a vampire, all donated items go to their
+  clan's donation room.

@@ -1,0 +1,34 @@
+- id: m7900
+  keywords: ["grand","knight","paladin"]
+  name: "the Grand Knight of paladins"
+  description: >-
+    The Grand Knight is standing here, waiting for someone to help.
+  level: 3
+  attributes:
+    health: 450
+    armor: -9
+    hitroll: 15
+    damroll: 15
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "redferne:o7216": 75
+        "redferne:o7217": 75
+        "redferne:o7218": 75
+        "redferne:o7219": 75
+        "redferne:o7220": 75
+        "redferne:o7221": 75
+        "redferne:o7223": 75
+        "redferne:o7222": 75
+        "redferne:o7224": 75
+        "redferne:o7911": 75
+  metadata:
+    areaId: 63
+    exp_level: 4999
+    sex: 1

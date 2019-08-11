@@ -1,0 +1,12 @@
+title: "Prehistoria"
+metadata:
+  id: 60
+  name: "Prehistoria"
+  createdBy: "valis"
+  starting_vnum: 11200
+  ending_vnum: 11499
+  item_requirements: 2000
+  filename: "prehistoria.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

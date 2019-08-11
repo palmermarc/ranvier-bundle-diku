@@ -1,0 +1,26 @@
+- id: m1
+  keywords: ["Puff"]
+  name: "Puff"
+  description: >-
+    Puff the Fractal Dragon is here, contemplating a higher reality.
+  level: 0
+  attributes:
+    health: 7800
+    armor: -1
+    hitroll: 130
+    damroll: 130
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+  metadata:
+    areaId: 43
+    exp_level: 27
+    sex: 2

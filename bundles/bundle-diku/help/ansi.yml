@@ -1,0 +1,18 @@
+---
+body: |
+  Syntax: ansi
+  
+  This will show things in colour. Spells will appear in their appropriate 
+  colour, and important messages will be highlighted. Your exp (or opponents
+  condition if you're fighting), hp, mana and move are shown in scaled colour.
+  Scaled colour is represented as follows:
+  
+  Cyan : Maximum.
+  Yellow : 75% to just below maximum.
+  Green : 50% to just below 75%
+  Blue : 25% to just below 50%
+  Red : Below 25%
+  
+  Ansi colour can be toggled on and off with the 'ansi' or 'config' commands.
+  
+  - colour

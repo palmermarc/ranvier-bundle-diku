@@ -1,0 +1,657 @@
+- id: r3500
+  title: "The Plains"
+  description: >-
+    You are standing on the plains. This is a vast desolate place where the
+    wind can howl undisturbed since nothing but you bars its way. However you
+    are not the first to wander here. Before you somebody has left a small path.
+    The path looks rather bewildered and is not the kind of path to lead to
+    anywhere significant or important but it seems to have made up its mind to
+    enter the hills far away north.
+  exits:
+    - roomId: "moria:r4000"
+      direction: north
+    - roomId: "midennir:r3501"
+      direction: south
+- id: r3501
+  title: "The Lane "
+  description: >-
+    You are strolling along a pleasant, shady lane. The road is lined on both
+    sides by tall, stately trees which lend the scene with a sense of quiet
+    serenity. You can follow the road north or south.
+  exits:
+    - roomId: "midennir:r3500"
+      direction: north
+    - roomId: "midennir:r3502"
+      direction: south
+- id: r3502
+  title: "The Cross Roads"
+  description: >-
+    The roads cross here.  Midgaard is to the west.  To the east, you see the
+    stately oaks and poplars of the holy grove.  A wide path leads south through
+    the dwarven forest, and another path leads down.  To the north is a very
+    desolate trail.
+  exits:
+    - roomId: "midennir:r3501"
+      direction: north
+    - roomId: "thalos:r5261"
+      direction: south
+    - roomId: "grove:r8904"
+      direction: east
+    - roomId: "midennir:r3503"
+      direction: west
+    - roomId: "dwarven:r6500"
+      direction: down
+- id: r3503
+  title: "City Entrance"
+  description: >-
+    You stand on the outskirts of a large city - Midgaard; the capital of this
+    land. The road leads east into the peace and quiet - and dangers - of the
+    forest; and to the west it becomes the main street of the town; surrounded by
+    a confusion of shops, bars, and market places.  Another path wanders off to
+    the south.
+  exits:
+    - roomId: "gnome:r1501"
+      direction: south
+    - roomId: "midennir:r3502"
+      direction: east
+    - roomId: "midgaard:r3053"
+      direction: west
+- id: r3504
+  title: "The South Bridge"
+  description: >-
+    You are standing on a small, rickety bridge leading from the Midgaard
+    City Dump, to the forest of Miden'nir (Goblinic for Green Blood). You can
+    smell the Dump to the north, or go south where there is fresh air and
+    greenery.
+  exits:
+    - roomId: "midgaard:r3030"
+      direction: north
+    - roomId: "midennir:r3505"
+      direction: south
+- id: r3505
+  title: "The Trail to Miden'nir"
+  description: >-
+    You are in a light forest. A path leads south, but the passage to the
+    east is easy enough. To the west, smoke can be seen rising above the
+    treetops. The sprawl of Midgaard lies north of here.
+  exits:
+    - roomId: "midennir:r3504"
+      direction: north
+    - roomId: "midennir:r3507"
+      direction: south
+    - roomId: "midennir:r3506"
+      direction: east
+    - roomId: "midennir:r3570"
+      direction: west
+- id: r3506
+  title: "The Miden'nir"
+  description: >-
+    You are in a dark forest. To the east, mountains block passage. From
+    here, only the lighter forest to the west or south offer a way to travel.
+  exits:
+    - roomId: "midennir:r3509"
+      direction: south
+    - roomId: "midennir:r3550"
+      direction: east
+    - roomId: "midennir:r3505"
+      direction: west
+  npcs:
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+- id: r3507
+  title: "The Miden'nir"
+  description: >-
+    The forest is deep here and the wind blows through the trees and
+    through your hair. To the north, the forest gets lighter. However, the
+    southern and western paths place you even deeper in the wood.
+  exits:
+    - roomId: "midennir:r3505"
+      direction: north
+    - roomId: "midennir:r3510"
+      direction: south
+    - roomId: "midennir:r3508"
+      direction: west
+- id: r3508
+  title: "On a Small Path"
+  description: >-
+    A path is here, leading east and south through the dark woods of
+    Miden'nir. Mountains slash the scenery to the west of here.
+  exits:
+    - roomId: "midennir:r3511"
+      direction: south
+    - roomId: "midennir:r3507"
+      direction: east
+- id: r3509
+  title: "The Miden'nir"
+  description: >-
+    The trees of Miden'nir are lush and green, hiding the evil that lurks
+    in these woods. The trees become too thick to the west, but you may go
+    north, south or travel toward the mountains that lie east of here.
+  exits:
+    - roomId: "midennir:r3506"
+      direction: north
+    - roomId: "midennir:r3514"
+      direction: south
+    - roomId: "midennir:r3512"
+      direction: east
+  npcs:
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+- id: r3510
+  title: "A Crossroads"
+  description: >-
+    Here footworn paths meet leading north, south and east. The trees seem to
+    be closing in on you at this point, and you can barely see the sky
+    through the thick branches above your head.
+  exits:
+    - roomId: "midennir:r3507"
+      direction: north
+    - roomId: "midennir:r3516"
+      direction: south
+    - roomId: "midennir:r3514"
+      direction: east
+- id: r3511
+  title: "The Trail"
+  description: >-
+    You are on a north-south trail through the woods. To the west, impassable
+    mountains glare at you, and the thick woods and undergrowth prevent any
+    movement westward.
+  exits:
+    - roomId: "midennir:r3508"
+      direction: north
+    - roomId: "midennir:r3515"
+      direction: south
+- id: r3512
+  title: "The Miden'nir"
+  description: >-
+    The trees of Miden'nir are lush and green, hiding the evil that lurks
+    in these woods. You can go north toward the mountains, or west to the
+    forest, but the steep mountains prevent any movement east.
+  exits:
+    - roomId: "midennir:r3550"
+      direction: north
+    - roomId: "midennir:r3513"
+      direction: south
+    - roomId: "midennir:r3509"
+      direction: west
+  npcs:
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+- id: r3513
+  title: "The Miden'nir"
+  description: >-
+    The forest is dark, and becomes even darker west.  You sense
+    that there is something evil hidden in these woods.  The forest gets
+    lighter to the north.  The wind kicks up as you ponder your options.
+  exits:
+    - roomId: "midennir:r3512"
+      direction: north
+    - roomId: "midennir:r3514"
+      direction: west
+  npcs:
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+- id: r3514
+  title: "Deep Forest"
+  description: >-
+    It is quite dark here, forest surrounds you. With each step, the forest
+    seems to close around you, and get darker and more foreboding.  It might just
+    be time to head back to somewhere safe.
+  exits:
+    - roomId: "midennir:r3509"
+      direction: north
+    - roomId: "midennir:r3517"
+      direction: south
+    - roomId: "midennir:r3513"
+      direction: east
+    - roomId: "midennir:r3510"
+      direction: west
+- id: r3515
+  title: "Light Forest"
+  description: >-
+    The forest is light here and you can easily pick your way through the 
+    trail.  To the east, the forest becomes thick and darker. South, the trail
+    continues.
+  exits:
+    - roomId: "midennir:r3511"
+      direction: north
+    - roomId: "midennir:r3518"
+      direction: south
+    - roomId: "midennir:r3516"
+      direction: east
+- id: r3516
+  title: "Muddy Ground"
+  description: >-
+    The ground is quite muddy here and puddles are all around. Your boots
+    make a disgusting SQUISH as you walk here. You can go in any of the
+    four cardinal directions from here. Hopefully, it will be dryer.
+  exits:
+    - roomId: "midennir:r3510"
+      direction: north
+    - roomId: "midennir:r3519"
+      direction: south
+    - roomId: "midennir:r3517"
+      direction: east
+    - roomId: "midennir:r3515"
+      direction: west
+- id: r3517
+  title: "Near the Mountains"
+  description: >-
+    The most prominent feature here is the mountains that lie to the east.
+    You can only go north and west from here as the rocks stop all other
+    movement.
+  exits:
+    - roomId: "midennir:r3514"
+      direction: north
+    - roomId: "midennir:r3516"
+      direction: west
+- id: r3518
+  title: "The Fading Trail"
+  description: >-
+    The trail becomes nearly unpassable here. You can go north
+    as the forest is relatively light. To the south, you can see a path.
+  exits:
+    - roomId: "midennir:r3515"
+      direction: north
+    - roomId: "midennir:r3522"
+      direction: south
+- id: r3519
+  title: "The Dark Path"
+  description: >-
+    You are hemmed in by trees on either side of you.  The path
+    continues north and south, and while is much to thick to explore west,
+    you can head off into the woods to the west.
+  exits:
+    - roomId: "midennir:r3516"
+      direction: north
+    - roomId: "midennir:r3521"
+      direction: south
+    - roomId: "midennir:r3520"
+      direction: east
+- id: r3520
+  title: "The Dark Forest"
+  description: >-
+    You stomp your way through the underbrush.  The dark forest of Miden'nir
+    get pretty thick here, and the branches high above your head are so thick that
+    they block out all direct sunlight.  While it is much too thick to go
+    further east, you might be able to make your way though the forest to the
+    south and west.
+  exits:
+    - roomId: "midennir:r3523"
+      direction: south
+    - roomId: "midennir:r3519"
+      direction: west
+- id: r3521
+  title: "Carnage"
+  description: >-
+    Here, you see a gruesome sight. Blood is everywhere... on the trees and
+    soaked into the ground. Two carcasses lie in front of you, seeming to look
+    up at you. The forest is impassible to the south, but the other directions
+    look ok.
+  exits:
+    - roomId: "midennir:r3519"
+      direction: north
+    - roomId: "midennir:r3523"
+      direction: east
+    - roomId: "midennir:r3522"
+      direction: west
+  npcs:
+    - id: "midennir:m3500"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "midennir:m3500"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "midennir:m3502"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "midennir:m3502"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "midennir:m3502"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "midennir:m3502"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "midennir:m3502"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "midennir:m3502"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r3522
+  title: "Deep in the Forest of Miden'nir"
+  description: >-
+    There is a sickening stench here. It smells of blood and death.
+    To the north, you catch glimpses of daylight. To the east, you
+    simply cannot see. The trees are close and stifling.
+  exits:
+    - roomId: "midennir:r3518"
+      direction: north
+    - roomId: "midennir:r3521"
+      direction: east
+- id: r3523
+  title: "The Dark Forest"
+  description: >-
+    The branches above you block out all direct sunlight, making the forest
+    in this area rather dark.  The forest continues east, where it meets the
+    mountains. The air is still and stuffy - a stench comes from the west and an
+    ugly feeling causes the hair to rise on the back of your neck!
+  exits:
+    - roomId: "midennir:r3520"
+      direction: north
+    - roomId: "midennir:r3551"
+      direction: east
+    - roomId: "midennir:r3521"
+      direction: west
+- id: r3550
+  title: "At The Foot of The Mountains"
+  description: >-
+    You find yourself at the foot of the mountains, where it is much to steep
+    to continue north or east.  You see the lush, green forest of Miden'nir to the
+    south and west.
+  exits:
+    - roomId: "midennir:r3512"
+      direction: south
+    - roomId: "midennir:r3506"
+      direction: west
+- id: r3551
+  title: "The Deep in the Forest of Miden'nir"
+  description: >-
+    The branches above you block out all direct sunlight, making the forest
+    in this area very dark.  The forest continues west, but mountains block
+    further exploration in all other directions, except south, where you notice a
+    small tunnel dug into the mountainside.
+  exits:
+    - roomId: "midennir:r3552"
+      direction: south
+    - roomId: "midennir:r3523"
+      direction: west
+  npcs:
+    - id: "midennir:m3506"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r3552
+  title: "A Tunnel in the Mountains"
+  description: >-
+    The walls of this tunnel were carved out many years ago by the goblins of
+    this forest.  The floor is well worn, and continues south, into the
+    mountain, or back north out into the forest.
+  exits:
+    - roomId: "midennir:r3551"
+      direction: north
+    - roomId: "midennir:r3553"
+      direction: south
+- id: r3553
+  title: "A Tunnel in the Mountains"
+  description: >-
+    The tunnel gets lighter to the north, presumably leading out, while to
+    the south the passage gets smaller and smaller.  A small alcove has been
+    carved into the east wall.
+  exits:
+    - roomId: "midennir:r3552"
+      direction: north
+    - roomId: "midennir:r3555"
+      direction: south
+    - roomId: "midennir:r3554"
+      direction: east
+- id: r3554
+  title: "A Small Alcove"
+  description: >-
+    A small alcove has been carved out here.  There are a bunch of twigs
+    and leaves thrown into a pile here, probably serving as a bed.
+  exits:
+    - roomId: "midennir:r3553"
+      direction: west
+- id: r3555
+  title: "A Tunnel in the Mountains"
+  description: >-
+    As you explore further into the mountainside, the tunnel gets smaller and
+    smaller to the south.  You almost have to hunch over to make your way thru
+    this area.  A small archway to the south leads into a large chamber.
+  exits:
+    - roomId: "midennir:r3553"
+      direction: north
+    - roomId: "midennir:r3556"
+      direction: south
+- id: r3556
+  title: "The Goblin Headquarters"
+  description: >-
+    The tunnel widens into a large (well, large for goblins) cavern that
+    serves as the living quarters for the goblins of Miden'nir.  The bones of
+    numbers woodland creatures are strewn about the room, the remanents of a
+    recent meal.
+  exits:
+    - roomId: "midennir:r3555"
+      direction: north
+    - roomId: "vlord:r32003"
+      direction: east
+  npcs:
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+    - id: "midennir:m3501"
+      respawnChance: 100
+      maxLoad: "28"
+    - id: "midennir:m3506"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "midennir:m3507"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3570
+  title: "The Front of the Inn"
+  description: >-
+    You are standing on a well-worn path which opens into a clearing.
+    An old, wooden building is here with smoke billowing from its
+    chimney. A painted sign is visible on the porch to the west. You
+    could go north or south around the building or leave this place and
+    return to the forest.
+  exits:
+    - roomId: "midennir:r3571"
+      direction: north
+    - roomId: "midennir:r3572"
+      direction: south
+    - roomId: "midennir:r3505"
+      direction: east
+    - roomId: "midennir:r3574"
+      direction: west
+- id: r3571
+  title: "North of the Inn"
+  description: >-
+    You are standing north of the inn. Things don't look much different
+    from this angle.  The air here is filled with smells of smoke and cooking.
+    South, the front porch is waiting for you... or you can see if there is
+    a back door.
+  exits:
+    - roomId: "midennir:r3570"
+      direction: south
+- id: r3572
+  title: "South of the Inn"
+  description: >-
+    You are standing south of the inn.  You could easily go north and enter
+    through the front door, or west and to the rear of the establishment.  You
+    here some muffled cries from a tiny trail leading south of here.
+  exits:
+    - roomId: "midennir:r3570"
+      direction: north
+    - roomId: "midennir:r3575"
+      direction: south
+    - roomId: "midennir:r3573"
+      direction: west
+- id: r3573
+  title: "Behind the Inn"
+  description: >-
+    You now stand behind the inn. The smell here is not so pleasant as
+    the keeper and his help throw a good deal of garbage here. A couple of
+    piles of rubbish are to the west, but you will smell the worse for
+    meddling there. As a clean alternative, you can go north or east around
+    the inn.
+  exits:
+    - roomId: "midennir:r3572"
+      direction: east
+    - roomId: "midennir:r3578"
+      direction: west
+- id: r3574
+  title: "The Woodsman Inn"
+  description: >-
+    You are in the common room of the Woodsman Inn. A thin haze of smoke sits
+    in the air here. The Inn is often empty, as the forest has become overrun by
+    goblins as of late, and it is no longer safe in these parts. The bar is just
+    north of here. If you'd rather have your own table, one is empty to the
+    south.
+  exits:
+    - roomId: "midennir:r3576"
+      direction: north
+    - roomId: "midennir:r3579"
+      direction: south
+    - roomId: "midennir:r3570"
+      direction: east
+    - roomId: "midennir:r3577"
+      direction: west
+- id: r3575
+  title: "The Ambush Point"
+  description: >-
+    This is a overgrown foot-trail south of the inn. It leads west, but you
+    would be hard pressed to follow it far. A number of bushes are trampled on
+    and some medium sized branches have been knocked down.  Obviously there has
+    been a battle here rather recently.
+  exits:
+    - roomId: "midennir:r3572"
+      direction: north
+    - roomId: "midennir:r3581"
+      direction: west
+  npcs:
+    - id: "midennir:m3502"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "midennir:m3502"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "midennir:m3502"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r3576
+  title: "The Bar"
+  description: >-
+    This is where people use to come and enjoy the food, drink and hospitality
+    of the innkeeper, but as of late, he only serves the few adventurers that
+    manage to survive a trip thru the forest. You can leave south and return to the
+    common room.
+  exits:
+    - roomId: "midennir:r3574"
+      direction: south
+  npcs:
+    - id: "midennir:m3503"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3577
+  title: "The Bard's Table"
+  description: >-
+    You are in a darker corner in the Inn.  A large round table with a few
+    wooden chairs sits here.  There is a large stain on the table, the remnants
+    of a spilled drink.
+  exits:
+    - roomId: "midennir:r3574"
+      direction: east
+  npcs:
+    - id: "midennir:m3504"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3578
+  title: "Garbage dump"
+  description: >-
+    You stand knee deep in garbage.  YECCH!!! It smells terrible and who knows
+    what vermin live in these piles of filth ...
+  exits:
+    - roomId: "midennir:r3573"
+      direction: east
+- id: r3579
+  title: "A Quieter Section of the Inn"
+  description: >-
+    There seems to be no one in this end of the Woodsman, probably a safe place
+    to rest and lick your wounds ...
+  exits:
+    - roomId: "midennir:r3574"
+      direction: north
+- id: r3581
+  title: "On the Trail of the Horsemen"
+  description: >-
+    The path continues east and west of here.  You notice fresh tracks in
+    the soft ground that show the horsemen fled to the west.
+  exits:
+    - roomId: "midennir:r3575"
+      direction: east
+    - roomId: "midennir:r3582"
+      direction: west
+- id: r3582
+  title: "On the Trail of the Horsemen"
+  description: >-
+    The path continues east and south.  You notice fresh tracks in
+    the soft ground that show the horsemen turned, and fled south.
+  exits:
+    - roomId: "midennir:r3583"
+      direction: south
+    - roomId: "midennir:r3581"
+      direction: east
+- id: r3583
+  title: "On the Trail of the Horsemen"
+  description: >-
+    The trail of the horsemen continues east and north along this path through
+    the forest.  The tracks are still fresh, so they must be near.
+  exits:
+    - roomId: "midennir:r3582"
+      direction: north
+    - roomId: "midennir:r3584"
+      direction: west
+- id: r3584
+  title: "A Dead End Trail"
+  description: >-
+    The path comes to an abrupt end here, as the trees close around you and
+    make any further exploration impossible.  Fresh tracks cover the ground, and
+    end right here.  The horsemen must be nearby.
+  exits:
+    - roomId: "midennir:r3583"
+      direction: east
+  npcs:
+    - id: "midennir:m3505"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "midennir:m3505"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "midennir:m3505"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "midennir:m3505"
+      respawnChance: 100
+      maxLoad: "8"

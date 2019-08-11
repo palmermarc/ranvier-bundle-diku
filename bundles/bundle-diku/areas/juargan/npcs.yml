@@ -1,0 +1,251 @@
+- id: m4700
+  keywords: ["dwarf"]
+  name: "the small dwarf"
+  description: >-
+    A small dwarf is here mining at the tunnel walls.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "juargan:o4701": 75
+  metadata:
+    areaId: 40
+    exp_level: 10000
+    sex: 1
+- id: m4701
+  keywords: ["dwarf"]
+  name: "the small dwarf"
+  description: >-
+    A small dwarf is here, on the watch for Duergar.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 40
+    exp_level: 10000
+    sex: 1
+- id: m4702
+  keywords: ["dwarf","guard"]
+  name: "the dwarf guard"
+  description: >-
+    A small dwarf is here, dressed in a makeshift suit of armor.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 700
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 142.5
+          max: 157.5
+      pools:
+        "juargan:o4702": 75
+        "juargan:o4703": 75
+  metadata:
+    areaId: 40
+    exp_level: 10000
+    sex: 1
+- id: m4703
+  keywords: ["dwarf","yentle"]
+  name: "Yentle the dwarf"
+  description: >-
+    A small dwarf sits here trying to grow a new rock.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 285
+          max: 315
+  metadata:
+    areaId: 40
+    exp_level: 10000
+    sex: 1
+- id: m4704
+  keywords: ["juargan","dwarf","king"]
+  name: "Juargan the Dwarven King"
+  description: >-
+    Juargan the Dwarven King sits here upon his throne, looking out over his gardens.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "juargan:o4700": 75
+  metadata:
+    areaId: 40
+    exp_level: 10000
+    sex: 1
+- id: m4705
+  keywords: ["duergar","dwarf"]
+  name: "the duergar dwarf"
+  description: >-
+    A repulsive Duergar is here, biting at its own arm.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 40
+    exp_level: 10000
+    sex: 1
+- id: m4706
+  keywords: ["grimdale","king","dwarf"]
+  name: "Grimdale the ancient king"
+  description: >-
+    A ancient and partially decayed dwarf lies here ever so silent.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -999
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "juargan:o4706": 75
+  metadata:
+    areaId: 40
+    exp_level: 10000
+    sex: 1
+- id: m4707
+  keywords: ["rock","worm","dreaded"]
+  name: "The dreaded rock worm"
+  description: >-
+    The dreaded rock worm has blasted through the rock wall, its jaws open wide!
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 3800
+          max: 4200
+  metadata:
+    areaId: 40
+    exp_level: 10000
+    sex: 0
+- id: m4708
+  keywords: ["spirit","dwarf"]
+  name: "a dwarven spirit"
+  description: >-
+    A small dwarven spirit is at unrest here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -999
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 40
+    exp_level: 10000
+    sex: 0

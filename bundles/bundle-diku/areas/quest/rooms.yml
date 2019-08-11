@@ -1,0 +1,161 @@
+- id: r500
+  title: "The Quest Generator"
+  description: >-
+    This room is occupied by a single
+    strange looking machine, which stands
+    in the corner making clicks, whirr's
+    and other strange noises.
+  exits:
+    - roomId: "dream:r8628"
+      direction: north
+    - roomId: "plains:r330"
+      direction: south
+    - roomId: "olympus:r909"
+      direction: east
+    - roomId: "smurf:r110"
+      direction: west
+    - roomId: "ofcol2:r601"
+      direction: up
+    - roomId: "air:r1026"
+      direction: down
+- id: r501
+  title: "The Quest Generator"
+  description: >-
+    This room has a single machine, which
+    creates objects and mobiles for
+    questing.
+  exits:
+    - roomId: "dylan:r9139"
+      direction: north
+    - roomId: "hitower:r1390"
+      direction: south
+    - roomId: "gnome:r1515"
+      direction: east
+    - roomId: "shire:r1120"
+      direction: west
+    - roomId: "dwarven:r6504"
+      direction: up
+    - roomId: "hood:r2127"
+      direction: down
+- id: r502
+  title: "The Quest Generator"
+  description: >-
+    This plain room has no decoration or
+    detail. Its sole purpose is to annoy
+    players with it's creation.
+  exits:
+    - roomId: "draconia:r2204"
+      direction: north
+    - roomId: "midgaard:r3040"
+      direction: south
+    - roomId: "mahntor:r2349"
+      direction: east
+    - roomId: "trollden:r2803"
+      direction: west
+    - roomId: "firenewt:r2929"
+      direction: up
+    - roomId: "chapel:r3455"
+      direction: down
+- id: r503
+  title: "The Quest Generator"
+  description: >-
+    Another room with the sole purpose
+    of making questing more interesting.
+  exits:
+    - roomId: "moria:r4108"
+      direction: north
+    - roomId: "midennir:r3516"
+      direction: south
+    - roomId: "ultima:r2560"
+      direction: east
+    - roomId: "juargan:r4769"
+      direction: west
+    - roomId: "pyramid:r4203"
+      direction: up
+    - roomId: "drow:r5113"
+      direction: down
+- id: r504
+  title: "The Quest Generator"
+  description: >-
+    A strange machine has been placed in
+    the corner, to create quest items and
+    creatures.
+  exits:
+    - roomId: "castle:r24318"
+      direction: north
+    - roomId: "wyvern:r1624"
+      direction: south
+    - roomId: "dabour:r8012"
+      direction: east
+    - roomId: "tree:r10104"
+      direction: west
+    - roomId: "antharia:r1820"
+      direction: up
+    - roomId: "mordor:r9526"
+      direction: down
+- id: r505
+  title: "The Quest Generator"
+  description: >-
+    Another plain room with a strange
+    machine. Once again doors lead off
+    in all directions.
+  exits:
+    - roomId: "joker1:r24084"
+      direction: north
+    - roomId: "mirror:r5301"
+      direction: south
+    - roomId: "canyon:r9249"
+      direction: east
+    - roomId: "solace:r10254"
+      direction: west
+    - roomId: "crystalm:r10007"
+      direction: up
+    - roomId: "marsh:r8301"
+      direction: down
+- id: r506
+  title: "The Quest Generator"
+  description: >-
+    Another plain room. But this is where
+    the new quests really begin. Portals
+    lead off in all directions.
+  exits:
+    - roomId: "quest:r503"
+      direction: north
+    - roomId: "quest:r501"
+      direction: south
+    - roomId: "quest:r504"
+      direction: east
+    - roomId: "quest:r502"
+      direction: west
+    - roomId: "quest:r500"
+      direction: up
+    - roomId: "quest:r505"
+      direction: down
+  npcs:
+    - id: "quest:m500"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "quest:m501"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "quest:m502"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "quest:m503"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "quest:m504"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "quest:m505"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "quest:m506"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "quest:m507"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "quest:m508"
+      respawnChance: 100
+      maxLoad: "1"

@@ -1,0 +1,12 @@
+title: "Ofcol"
+metadata:
+  id: 55
+  name: "Ofcol"
+  createdBy: "alfa"
+  starting_vnum: 5550
+  ending_vnum: 5599
+  item_requirements: 0
+  filename: "ofcol.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

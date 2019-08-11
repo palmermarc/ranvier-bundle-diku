@@ -1,0 +1,12 @@
+title: "Graveyard"
+metadata:
+  id: 30
+  name: "Graveyard"
+  createdBy: "alfa"
+  starting_vnum: 3600
+  ending_vnum: 3699
+  item_requirements: 2000
+  filename: "grave.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

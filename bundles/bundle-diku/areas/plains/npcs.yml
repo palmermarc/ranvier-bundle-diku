@@ -1,0 +1,265 @@
+- id: m300
+  keywords: ["druid","Aruncus"]
+  name: "Aruncus the Druid"
+  description: >-
+    Aruncus the Druid is walking around here, searching for herbs.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "plains:o308": 75
+        "plains:o307": 75
+        "plains:o312": 75
+        "plains:o302": 75
+  metadata:
+    areaId: 58
+    exp_level: 10000
+    sex: 1
+- id: m301
+  keywords: ["hermit","sorbus"]
+  name: "Sorbus the Hermit"
+  description: >-
+    Sorbus the Hermit is sitting here, roasting a rabbit.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0.95
+          max: 1.05
+      pools:
+        "plains:o303": 75
+  metadata:
+    areaId: 58
+    exp_level: 10000
+    sex: 1
+- id: m303
+  keywords: ["citizen"]
+  name: "the citizen"
+  description: >-
+    There is a citizen of Ofcol here glaring at you ... stranger!
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "plains:o309": 75
+  metadata:
+    areaId: 58
+    exp_level: 10000
+    sex: 1
+- id: m304
+  keywords: ["citizen"]
+  name: "the citizen"
+  description: >-
+    There is a citizen of Ofcol here glaring at you ... stranger!
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "plains:o3020": 75
+        "plains:o304": 75
+  metadata:
+    areaId: 58
+    exp_level: 10000
+    sex: 2
+- id: m305
+  keywords: ["worm","Shudde-M'ell"]
+  name: "Shudde-M'ell"
+  description: >-
+    Shudde-M'ell the Giant worm of G'harne is guarding his treasure.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 12982.7
+          max: 14349.3
+      pools:
+        "plains:o310": 75
+        "plains:o311": 75
+  metadata:
+    areaId: 58
+    exp_level: 10000
+    sex: 1
+- id: m306
+  keywords: ["luxan","shopkeeper"]
+  name: "Luxan"
+  description: >-
+    Luxan the Shopkeeper is here, eager to sell you anything.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 7600
+          max: 8400
+      pools:
+        "plains:o304": 75
+        "plains:o3030": 75
+        "plains:o313": 75
+  metadata:
+    vendor:
+      items:
+        "plains:o304":
+          cost: 10
+          currency: gold
+        "plains:o3030":
+          cost: 10
+          currency: gold
+        "plains:o313":
+          cost: 2550000
+          currency: gold
+    areaId: 58
+    exp_level: 10000
+    sex: 1
+- id: m308
+  keywords: ["keeper","innkeeper"]
+  name: "the Innkeeper"
+  description: >-
+    An Innkeeper is here waiting for your order.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: -100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "plains:o3000": 75
+        "plains:o3001": 75
+  metadata:
+    vendor:
+      items:
+        "plains:o3000":
+          cost: 300
+          currency: gold
+        "plains:o3001":
+          cost: 20
+          currency: gold
+    areaId: 58
+    exp_level: 10000
+    sex: 1
+- id: m309
+  keywords: ["rabbit"]
+  name: "the cute rabbit"
+  description: >-
+    A cute rabbit is here.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 58
+    exp_level: 10000
+    sex: 0
+- id: m310
+  keywords: ["dragon","pet"]
+  name: "the pet dragon"
+  description: >-
+    Ravan's pet dragon is bouncing around here flapping her cute wings.
+  level: 145
+  attributes:
+    health: 12834
+    armor: 2760
+    hitroll: 700
+    damroll: 400
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 58
+    exp_level: 10000
+    sex: 2

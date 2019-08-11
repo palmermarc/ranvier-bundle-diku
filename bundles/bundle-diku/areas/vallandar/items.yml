@@ -1,0 +1,224 @@
+- id: o30300
+  name: "short sword shortsword"
+  roomDesc: "A faded shortsword is lying on the floor here."
+  keywords: ["short","sword","shortsword"]
+  description: "A faded shortsword is lying on the floor here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o30301
+  name: "treasure"
+  roomDesc: "A huge pile of treasure is lying here."
+  keywords: ["treasure"]
+  description: "A huge pile of treasure is lying here."
+  type: CONTAINER
+  items: ["vallandar:o30330","vallandar:o30331"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o30302
+  name: "wand fire ice"
+  roomDesc: "A black wand with one red and one white end is hovering here."
+  keywords: ["wand","fire","ice"]
+  description: "A black wand with one red and one white end is hovering here."
+  type: WAND
+- id: o30303
+  name: "west grey face fountain"
+  roomDesc: "A fountain full of grey liquid sticks out from the west wall."
+  keywords: ["west","grey","face","fountain"]
+  description: "A fountain full of grey liquid sticks out from the west wall."
+  type: FOUNTAIN
+- id: o30304
+  name: "fountain scared scared-faced"
+  roomDesc: "A fountain full of purple liquid sticks out from the east wall."
+  keywords: ["fountain","scared","scared-faced"]
+  description: "A fountain full of purple liquid sticks out from the east wall."
+  type: FOUNTAIN
+- id: o30306
+  name: "restoration potion"
+  roomDesc: "A small potion of liquid is lying here."
+  keywords: ["restoration","potion"]
+  description: "A small potion of liquid is lying here."
+  type: POTION
+- id: o30310
+  name: "silver sceptre"
+  roomDesc: "A short silver sceptre is lying here."
+  keywords: ["silver","sceptre"]
+  description: "A short silver sceptre is lying here."
+  type: STAFF
+- id: o30312
+  name: "spirit spectral blade sword"
+  roomDesc: "A spectral blade is here, flickering in and out of reality."
+  keywords: ["spirit","spectral","blade","sword"]
+  description: "A spectral blade is here, flickering in and out of reality."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o30313
+  name: "gold golden casket"
+  roomDesc: "A golden casket is lying open here."
+  keywords: ["gold","golden","casket"]
+  description: "A golden casket is lying open here."
+  type: CONTAINER
+  items: ["vallandar:o30310","vallandar:o30306","vallandar:o30316"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o30314
+  name: "short sword shortsword magical"
+  roomDesc: "A magical shortsword lies here, humming with power."
+  keywords: ["short","sword","shortsword","magical"]
+  description: "A magical shortsword lies here, humming with power."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o30315
+  name: "sword faith"
+  roomDesc: "A mighty sword stands balanced on its point here."
+  keywords: ["sword","faith"]
+  description: "A mighty sword stands balanced on its point here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o30316
+  name: "vallandar vallandars crown"
+  roomDesc: "A plain golden crown is lying here."
+  keywords: ["vallandar","vallandars","crown"]
+  description: "A plain golden crown is lying here."
+  type: LIGHTARMOR
+- id: o30318
+  name: "barrier"
+  roomDesc: "The barrier of light flickers with violet flames."
+  keywords: ["barrier"]
+  description: "The barrier of light flickers with violet flames."
+  type: FURNITURE
+- id: o30319
+  name: "bronze helmet mirror mirrored visor"
+  roomDesc: "A bronze helmet with a mirrored visor lies here, shining brightly."
+  keywords: ["bronze","helmet","mirror","mirrored","visor"]
+  description: "A bronze helmet with a mirrored visor lies here, shining brightly."
+  type: HEAVYARMOR
+- id: o30322
+  name: "silver goblet"
+  roomDesc: "A silver goblet is lying here."
+  keywords: ["silver","goblet"]
+  description: "A silver goblet is lying here."
+  type: DRINKCON
+- id: o30323
+  name: "rusty scimitar"
+  roomDesc: "A rusty scimitar is lying here."
+  keywords: ["rusty","scimitar"]
+  description: "A rusty scimitar is lying here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o30325
+  name: "spectral cloak"
+  roomDesc: "A spectral cloak is lying here, concealed from sight."
+  keywords: ["spectral","cloak"]
+  description: "A spectral cloak is lying here, concealed from sight."
+  type: ACCESSORY
+- id: o30330
+  name: "golden sceptre"
+  roomDesc: "A short golden sceptre is lying here."
+  keywords: ["golden","sceptre"]
+  description: "A short golden sceptre is lying here."
+  type: STAFF
+- id: o30331
+  name: "small wooden harp"
+  roomDesc: "A small wooden harp is lying here."
+  keywords: ["small","wooden","harp"]
+  description: "A small wooden harp is lying here."
+  type: STAFF
+- id: o30332
+  name: "key"
+  roomDesc: "A large key is lying here."
+  keywords: ["key"]
+  description: "A large key is lying here."
+  type: KEY
+- id: o30333
+  name: "shimmering black breastplate"
+  roomDesc: "A shimmering black breastplate is lying here."
+  keywords: ["shimmering","black","breastplate"]
+  description: "A shimmering black breastplate is lying here."
+  type: HEAVYARMOR
+- id: o30334
+  name: "shimmering black helmet"
+  roomDesc: "A shimmering black helmet is lying here."
+  keywords: ["shimmering","black","helmet"]
+  description: "A shimmering black helmet is lying here."
+  type: HEAVYARMOR
+- id: o30335
+  name: "shimmering black sleeves"
+  roomDesc: "A pair of shimmering black sleeves are lying here."
+  keywords: ["shimmering","black","sleeves"]
+  description: "A pair of shimmering black sleeves are lying here."
+  type: HEAVYARMOR
+- id: o30336
+  name: "black shimmering leggings"
+  roomDesc: "A pair of black shimmering leggings are lying here."
+  keywords: ["black","shimmering","leggings"]
+  description: "A pair of black shimmering leggings are lying here."
+  type: HEAVYARMOR
+- id: o30337
+  name: "black shimmering gauntlets"
+  roomDesc: "A pair of black shimmering gauntlets are lying here."
+  keywords: ["black","shimmering","gauntlets"]
+  description: "A pair of black shimmering gauntlets are lying here."
+  type: HEAVYARMOR
+- id: o30338
+  name: "black shimmering boots"
+  roomDesc: "A pair of black shimmering boots are lying here."
+  keywords: ["black","shimmering","boots"]
+  description: "A pair of black shimmering boots are lying here."
+  type: HEAVYARMOR
+- id: o30339
+  name: "black shimmering bracer"
+  roomDesc: "A black shimmering bracer is lying here."
+  keywords: ["black","shimmering","bracer"]
+  description: "A black shimmering bracer is lying here."
+  type: HEAVYARMOR
+- id: o30340
+  name: "black shimmering long sword longsword"
+  roomDesc: "A black shimmering longsword is lying here."
+  keywords: ["black","shimmering","long","sword","longsword"]
+  description: "A black shimmering longsword is lying here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o30341
+  name: "black shimmering buckler"
+  roomDesc: "A black shimmering buckler is lying here."
+  keywords: ["black","shimmering","buckler"]
+  description: "A black shimmering buckler is lying here."
+  type: SHIELD
+- id: o30342
+  name: "black shimmering ring"
+  roomDesc: "A black shimmering ring is lying here."
+  keywords: ["black","shimmering","ring"]
+  description: "A black shimmering ring is lying here."
+  type: ACCESSORY
+- id: o30343
+  name: "black shimmering collar"
+  roomDesc: "A black shimmering collar is lying here."
+  keywords: ["black","shimmering","collar"]
+  description: "A black shimmering collar is lying here."
+  type: ACCESSORY
+- id: o30344
+  name: "black shimmering lantern"
+  roomDesc: "A black shimmering lantern is lying here."
+  keywords: ["black","shimmering","lantern"]
+  description: "A black shimmering lantern is lying here."
+  type: LIGHT

@@ -1,0 +1,48 @@
+- id: o2800
+  name: "corpse cadaver"
+  roomDesc: "A half eaten corpse is laying here"
+  keywords: ["corpse","cadaver"]
+  description: "A half eaten corpse is laying here"
+  type: CONTAINER
+  items: ["trollden:o2804"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o2801
+  name: "pile rotting heap bed"
+  roomDesc: "There is a bed made of carnage here."
+  keywords: ["pile","rotting","heap","bed"]
+  description: "There is a bed made of carnage here."
+  type: CONTAINER
+  items: ["trollden:o2803"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o2802
+  name: "trollskin troll skin"
+  roomDesc: "The filthy hide of a beast is laying here."
+  keywords: ["trollskin","troll","skin"]
+  description: "The filthy hide of a beast is laying here."
+  type: ACCESSORY
+- id: o2803
+  name: "ring opal"
+  roomDesc: "A ring of black opal lies here gathering dust."
+  keywords: ["ring","opal"]
+  description: "A ring of black opal lies here gathering dust."
+  type: ACCESSORY
+- id: o2804
+  name: "leather belt"
+  roomDesc: "An old leather belt is left on the floor."
+  keywords: ["leather","belt"]
+  description: "An old leather belt is left on the floor."
+  type: ACCESSORY
+- id: o2805
+  name: "bone cracked"
+  roomDesc: "A cracked piece of bone lies here."
+  keywords: ["bone","cracked"]
+  description: "A cracked piece of bone lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

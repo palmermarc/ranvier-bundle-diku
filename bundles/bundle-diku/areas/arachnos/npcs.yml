@@ -1,0 +1,493 @@
+- id: m6301
+  keywords: ["spider","young"]
+  name: "the young spider"
+  description: >-
+    The young spider is ballooning by you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 2
+- id: m6302
+  keywords: ["dragon","Yevaud"]
+  name: "Yevaud"
+  description: >-
+    Yevaud the Usurper of Midgaard is here, grinning evilly at you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "arachnos:o6304": 75
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 1
+- id: m6303
+  keywords: ["spider","wolf"]
+  name: "the Wolf Spider"
+  description: >-
+    The Wolf Spider is here, licking its bloody fangs.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1187.5
+          max: 1312.5
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 2
+- id: m6304
+  keywords: ["orc"]
+  name: "the orc"
+  description: >-
+    The orc is stuck in the web and he can't get out.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 1
+- id: m6305
+  keywords: ["wasp","queen"]
+  name: "the Queen Wasp"
+  description: >-
+    The Queen Wasp is here, thinking that you would make a tasty offeringto her master.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 2
+- id: m6306
+  keywords: ["spider","drone"]
+  name: "the drone spider"
+  description: >-
+    The drone spider walks around doing her master's bidding.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 1
+- id: m6307
+  keywords: ["spider","ethereal"]
+  name: "the ethereal spider"
+  description: >-
+    The ethereal spider strides here, traveling to different worlds.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1187.5
+          max: 1312.5
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 2
+- id: m6308
+  keywords: ["slave","human"]
+  name: "the slave of Arachnos"
+  description: >-
+    The slave works here relentlessly.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 1
+- id: m6309
+  keywords: ["quasit"]
+  name: "the quasit"
+  description: >-
+    The quasit blinks in and out, grinning at you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 1
+- id: m6310
+  keywords: ["spider","bird"]
+  name: "the Bird Spider"
+  description: >-
+    The Bird Spider snaps its powerful jaws.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1662.5
+          max: 1837.5
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 2
+- id: m6311
+  keywords: ["hermit"]
+  name: "the Hermit"
+  description: >-
+    The Hermit sits here and warns, "Go back before it's too late!"
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 712.5
+          max: 787.5
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 1
+- id: m6312
+  keywords: ["donjonkeeper"]
+  name: "the Donjonkeeper"
+  description: >-
+    The Donjonkeeper eyes you and wonders how pure your soul is.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 5700
+          max: 6300
+      pools:
+        "arachnos:o6309": 75
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 1
+- id: m6313
+  keywords: ["guardian"]
+  name: "The guardian"
+  description: >-
+    The guardian is obviously not doing his job.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 250
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1520
+          max: 1680
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 1
+- id: m6314
+  keywords: ["spider","empress","arachnos"]
+  name: "Arachnos"
+  description: >-
+    Arachnos the Empress of Spiders welcomes you with an evil smile.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "arachnos:o6303": 75
+        "arachnos:o6304": 75
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 2
+- id: m6315
+  keywords: ["ki-rin"]
+  name: "the Ki-Rin"
+  description: >-
+    The Ki-Rin smiles good-naturedly to you.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 14250
+          max: 15750
+      pools:
+        "arachnos:o6309": 75
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 2
+- id: m6316
+  keywords: ["dragon","wormkin","young"]
+  name: "the young dragon wormkin"
+  description: >-
+    A wormkin with no teeth plays here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 1
+- id: m6317
+  keywords: ["dragon","wormkin","medium"]
+  name: "the medium dragon wormkin"
+  description: >-
+    A wormkin that has grown a bit stares at you inquisitively.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 1
+- id: m6318
+  keywords: ["spider","poisonous"]
+  name: "the huge, poisonous spider"
+  description: >-
+    A huge, poisonous spider is here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -350
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "arachnos:o6309": 75
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 0
+- id: m6319
+  keywords: ["queen","spider"]
+  name: "the Queen Spider"
+  description: >-
+    The huge, bulky Queen Spider is here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "arachnos:o6308": 75
+  metadata:
+    areaId: 4
+    exp_level: 8000
+    sex: 2

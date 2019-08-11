@@ -1,0 +1,211 @@
+- id: m3500
+  keywords: ["wyvern"]
+  name: "the wyvern"
+  description: >-
+    A monstrous wyvern slowly circles just above your head.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 46
+    exp_level: 1000
+    sex: 0
+- id: m3501
+  keywords: ["goblin","mountain"]
+  name: "the goblin"
+  description: >-
+    A mountain goblin is wandering about, mumbling to himself.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 142.5
+          max: 157.5
+  metadata:
+    areaId: 46
+    exp_level: 1000
+    sex: 1
+- id: m3502
+  keywords: ["boy","small"]
+  name: "the small boy"
+  description: >-
+    A small boy sits here, licking his wounds.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 46
+    exp_level: 1000
+    sex: 1
+- id: m3503
+  keywords: ["innkeeper"]
+  name: "the Innkeeper"
+  description: >-
+    The Innkeeper stands here, cleaning glasses.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+  metadata:
+    areaId: 46
+    exp_level: 1000
+    sex: 1
+- id: m3504
+  keywords: ["bard"]
+  name: "the bard"
+  description: >-
+    A sullen bard is here, drinking away his problems.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+  metadata:
+    areaId: 46
+    exp_level: 1000
+    sex: 1
+- id: m3505
+  keywords: ["horseman","dark"]
+  name: "the dark horseman"
+  description: >-
+    A dark horseman is here, mounted on his black steed.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -900
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 46
+    exp_level: 1000
+    sex: 1
+- id: m3506
+  keywords: ["goblin","lieutenant"]
+  name: "the goblin lieutenant"
+  description: >-
+    A goblin lieutenant stands here, attempting to get his men in order.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 285
+          max: 315
+  metadata:
+    areaId: 46
+    exp_level: 1000
+    sex: 1
+- id: m3507
+  keywords: ["goblin","leader"]
+  name: "the goblin leader"
+  description: >-
+    The goblin leader surveys the room.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -900
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 46
+    exp_level: 1000
+    sex: 1

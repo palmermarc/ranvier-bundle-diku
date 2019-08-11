@@ -1,0 +1,12 @@
+title: "Land of the Fire Newts"
+metadata:
+  id: 26
+  name: "Land of the Fire Newts"
+  createdBy: "nirrad"
+  starting_vnum: 2900
+  ending_vnum: 2949
+  item_requirements: 10000
+  filename: "firenewt.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,9 @@
+---
+body: |
+  Your ARMOUR CLASS (or AC) represents how well armoured you are. By typing "score"
+  you can find out the current value of your AC - the higher the better. You can 
+  increase this by getting better armour to wear, with a better armour value.
+  
+  - armourclass
+  - armorclass
+  - ac

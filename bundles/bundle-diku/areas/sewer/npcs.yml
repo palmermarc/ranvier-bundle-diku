@@ -1,0 +1,719 @@
+- id: m7200
+  keywords: ["master","mind","mindflayer"]
+  name: "the master mindflayer"
+  description: >-
+    The master mindflayer is here, looking at you with an evil look.
+  level: 2
+  attributes:
+    health: 10000
+    armor: 0
+    hitroll: 150
+    damroll: 150
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "sewer:o7200": 75
+        "sewer:o7203": 75
+        "sewer:o7205": 75
+  metadata:
+    areaId: 67
+    exp_level: 5000
+    sex: 0
+- id: m7201
+  keywords: ["senior","mind","mindflayer"]
+  name: "the senior mindflayer"
+  description: >-
+    The senior mindflayer walks around here, looking for something useful.
+  level: 1
+  attributes:
+    health: 8000
+    armor: 2
+    hitroll: 100
+    damroll: 100
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 380
+          max: 420
+      pools:
+        "sewer:o7201": 75
+  metadata:
+    areaId: 67
+    exp_level: 4500
+    sex: 0
+- id: m7202
+  keywords: ["junior","mind","mindflayer"]
+  name: "the junior mindflayer"
+  description: >-
+    The junior mindflayer is here, watching you carefully from the corner.
+  level: 1
+  attributes:
+    health: 7000
+    armor: 4
+    hitroll: 150
+    damroll: 50
+    alignment: -350
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "sewer:o7202": 75
+  metadata:
+    areaId: 67
+    exp_level: 4050
+    sex: 0
+- id: m7203
+  keywords: ["wererat","rat","were"]
+  name: "the ugly wererat"
+  description: >-
+    An ugly wererat is here, looking at you with a strange flick in his eyes.
+  level: 13
+  attributes:
+    health: 300
+    armor: 3
+    hitroll: 5
+    damroll: 5
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "sewer:o7211": 75
+        "sewer:o7208": 75
+        "sewer:o7209": 75
+  metadata:
+    areaId: 67
+    exp_level: 1000
+    sex: 0
+- id: m7204
+  keywords: ["rat","gigantic"]
+  name: "the gigantic rat"
+  description: >-
+    There is a gigantic rat here, looking at you with a hungry look.
+  level: 13
+  attributes:
+    health: 300
+    armor: -2
+    hitroll: 5
+    damroll: 5
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 2387.35
+          max: 2638.65
+  metadata:
+    areaId: 67
+    exp_level: 999
+    sex: 1
+- id: m7000
+  keywords: ["mud","monster","mudmonster"]
+  name: "the horrifying Mudmonster"
+  description: >-
+    A horrifying Mudmonster is slowly evolving from the mud ...
+  level: 13
+  attributes:
+    health: 300
+    armor: -2
+    hitroll: 5
+    damroll: 5
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 67
+    exp_level: 1001
+    sex: 0
+- id: m7001
+  keywords: ["bat"]
+  name: "the small bat"
+  description: >-
+    The small fierce-looking bat is hanging from the ceiling.
+  level: 13
+  attributes:
+    health: 300
+    armor: -40
+    hitroll: 5
+    damroll: 5
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 67
+    exp_level: 1000
+    sex: 0
+- id: m7002
+  keywords: ["rat"]
+  name: "the great sewer rat"
+  description: >-
+    The huge hungry-looking sewer rat sits here.
+  level: 13
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 38
+          max: 42
+      pools:
+        "sewer:o7190": 75
+  metadata:
+    areaId: 67
+    exp_level: 1000
+    sex: 1
+- id: m7003
+  keywords: ["spider"]
+  name: "the small spider"
+  description: >-
+    The small hairy spider.
+  level: 10
+  attributes:
+    health: 300
+    armor: 3
+    hitroll: 3
+    damroll: 5
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0.95
+          max: 1.05
+  metadata:
+    areaId: 67
+    exp_level: 800
+    sex: 1
+- id: m7004
+  keywords: ["beetle"]
+  name: "the giant earth beetle"
+  description: >-
+    The giant mean-looking earth beetle crawls towards you.
+  level: 11
+  attributes:
+    health: 300
+    armor: 3
+    hitroll: 5
+    damroll: 5
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 67
+    exp_level: 899
+    sex: 1
+- id: m7005
+  keywords: ["maggot"]
+  name: "the maggot"
+  description: >-
+    The giant maggot crawls toward you.
+  level: 12
+  attributes:
+    health: 300
+    armor: 9
+    hitroll: 5
+    damroll: 5
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 67
+    exp_level: 900
+    sex: 1
+- id: m7006
+  keywords: ["snake"]
+  name: "the slithering snake"
+  description: >-
+    The snake slithers towards you.
+  level: 11
+  attributes:
+    health: 300
+    armor: 7
+    hitroll: 5
+    damroll: 5
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0.95
+          max: 1.05
+  metadata:
+    areaId: 67
+    exp_level: 899
+    sex: 0
+- id: m7007
+  keywords: ["wanderer"]
+  name: "the evil wanderer"
+  description: >-
+    The evil wanderer stares at you.
+  level: 13
+  attributes:
+    health: 300
+    armor: -20
+    hitroll: 5
+    damroll: 5
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 285
+          max: 315
+  metadata:
+    areaId: 67
+    exp_level: 999
+    sex: 1
+- id: m7008
+  keywords: ["homonculus","homo"]
+  name: "the homonculus"
+  description: >-
+    The homonculus is here, looking at you with an evil look.
+  level: 14
+  attributes:
+    health: 300
+    armor: -1
+    hitroll: 5
+    damroll: 5
+    alignment: -780
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 67
+    exp_level: 1050
+    sex: 0
+- id: m7010
+  keywords: ["chreffn"]
+  name: "the evil chreffn"
+  description: >-
+    The chreffn are crawling here, looking around with their yellow eyes.
+  level: 26
+  attributes:
+    health: 900
+    armor: 2
+    hitroll: 10
+    damroll: 5
+    alignment: -830
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+  metadata:
+    areaId: 67
+    exp_level: 1999
+    sex: 0
+- id: m7011
+  keywords: ["morkoth"]
+  name: "the shadowy moorkoth"
+  description: >-
+    The moorkoth is standing here, waiting for someone to KILL!
+  level: 13
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: -900
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0.95
+          max: 1.05
+  metadata:
+    areaId: 67
+    exp_level: 1000
+    sex: 0
+- id: m7013
+  keywords: ["mud","monster","mudmonster"]
+  name: "the horrifying mudmonster"
+  description: >-
+    A horrifying mudmonster is slowly evolving from the mud ...
+  level: 14
+  attributes:
+    health: 300
+    armor: -2
+    hitroll: 5
+    damroll: 5
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 67
+    exp_level: 1090
+    sex: 0
+- id: m7040
+  keywords: ["red","dragon"]
+  name: "the red dragon"
+  description: >-
+    The red fierce-looking dragon stares at you angrily.
+  level: 280
+  attributes:
+    health: 12000
+    armor: -100
+    hitroll: 400
+    damroll: 500
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "sewer:o7003": 75
+        "sewer:o7004": 75
+        "sewer:o7005": 75
+        "sewer:o7006": 75
+        "sewer:o7007": 75
+        "sewer:o7008": 75
+        "sewer:o7009": 75
+        "sewer:o7216": 75
+        "sewer:o7002": 75
+  metadata:
+    areaId: 67
+    exp_level: 13499
+    sex: 0
+- id: m7041
+  keywords: ["sea","hag"]
+  name: "the sea hag"
+  description: >-
+    The sea hag is swimming around here.
+  level: 1
+  attributes:
+    health: 300
+    armor: 1
+    hitroll: 5
+    damroll: 5
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 67
+    exp_level: 977
+    sex: 2
+- id: m7042
+  keywords: ["guardian","naga"]
+  name: "the guardian naga"
+  description: >-
+    The guardian naga looks kindly at you.
+  level: 1
+  attributes:
+    health: 300
+    armor: 2
+    hitroll: 5
+    damroll: 5
+    alignment: 700
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 67
+    exp_level: 1000
+    sex: 2
+- id: m7043
+  keywords: ["basilisk"]
+  name: "the scaled basilisk"
+  description: >-
+    The scaled basilisk crawls towards you slowly.
+  level: 1
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 332.5
+          max: 367.5
+  metadata:
+    areaId: 67
+    exp_level: 1000
+    sex: 1
+- id: m7044
+  keywords: ["lemure","blob"]
+  name: "the lemure blob"
+  description: >-
+    The lemure blob slithers terribly precisely towards you for an attack!
+  level: 11
+  attributes:
+    health: 300
+    armor: 6
+    hitroll: 5
+    damroll: 5
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 67
+    exp_level: 840
+    sex: 0
+- id: m7045
+  keywords: ["jones","cruncher","ettin"]
+  name: "Jones"
+  description: >-
+    Jones 'Cruncher' the ettin is standing here glaring at you.
+  level: 12
+  attributes:
+    health: 300
+    armor: 2
+    hitroll: 5
+    damroll: 5
+    alignment: -480
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 57
+          max: 63
+  metadata:
+    areaId: 67
+    exp_level: 931
+    sex: 1
+- id: m7046
+  keywords: ["herald","mouse","killer","ettin"]
+  name: "Herald"
+  description: >-
+    Herald 'Mouse-Killer' the ettin is standing here looking confused at you.
+  level: 12
+  attributes:
+    health: 300
+    armor: 4
+    hitroll: 5
+    damroll: 5
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 38
+          max: 42
+  metadata:
+    areaId: 67
+    exp_level: 940
+    sex: 1

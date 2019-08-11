@@ -1,0 +1,64 @@
+- id: o9700
+  name: "flame blue sword"
+  roomDesc: "A Magnificant Blue Flame hovers here."
+  keywords: ["flame","blue","sword"]
+  description: "A Magnificant Blue Flame hovers here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9701
+  name: "Book Key"
+  roomDesc: "A mysterious book pulsates with energy."
+  keywords: ["Book","Key"]
+  description: "A mysterious book pulsates with energy."
+  type: KEY
+- id: o9702
+  name: "fountain blood"
+  roomDesc: "An Eerie blood fountain is in the center of the room."
+  keywords: ["fountain","blood"]
+  description: "An Eerie blood fountain is in the center of the room."
+  type: FOUNTAIN
+- id: o9703
+  name: "Monolith Fire Claw"
+  roomDesc: "A Monolith Fire Claw lies here."
+  keywords: ["Monolith","Fire","Claw"]
+  description: "A Monolith Fire Claw lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9704
+  name: "jaw plant mouth"
+  roomDesc: "An odd bloody mouth that looks plantlike lies here."
+  keywords: ["jaw","plant","mouth"]
+  description: "An odd bloody mouth that looks plantlike lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9705
+  name: "sword sentinel"
+  roomDesc: "A massive sword emnating blue energy lies here."
+  keywords: ["sword","sentinel"]
+  description: "A massive sword emnating blue energy lies here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9706
+  name: "some tangled vines"
+  roomDesc: "Some bloody tangled vines lie here."
+  keywords: ["some","tangled","vines"]
+  description: "Some bloody tangled vines lie here."
+  type: TREASURE
+- id: o9707
+  name: "azure sphere tiny"
+  roomDesc: "A tiny bluish sphere is humming in the air."
+  keywords: ["azure","sphere","tiny"]
+  description: "A tiny bluish sphere is humming in the air."
+  type: TREASURE

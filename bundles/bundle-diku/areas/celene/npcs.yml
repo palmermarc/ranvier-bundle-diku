@@ -1,0 +1,1563 @@
+- id: m26400
+  keywords: ["prince","ruler","Melf","Brightflame"]
+  name: "Prince Melf Brightflame"
+  description: >-
+    Prince Melf Brightflame, Leader of the Kngihts of Luna, cousin to Queen Yolande.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26400": 75
+        "celene:o26401": 75
+        "celene:o26402": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26401
+  keywords: ["queen","yolande"]
+  name: "Queen Yolande"
+  description: >-
+    Her Fey Majesty, Queen Yolande of Celene, Lady Rhalta of all Elvenkind.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26403": 75
+        "celene:o26404": 75
+        "celene:o26405": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 2
+- id: m26402
+  keywords: ["archmage","mage","Theodain","Eriason"]
+  name: "The Archmage Theodain Eriason"
+  description: >-
+    The Archmage Theodain Eriason, loyal advisor to the Queen, stands here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26406": 75
+        "celene:o26407": 75
+        "celene:o26408": 75
+        "celene:o26409": 75
+        "celene:o26410": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26403
+  keywords: ["priest","lallinthenera"]
+  name: "The High Priest Lallinthera"
+  description: >-
+    The High Priest Lallinthera stands before you.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26412": 75
+        "celene:o26413": 75
+        "celene:o26411": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26404
+  keywords: ["haan","dragon","blackmoor","wyrm"]
+  name: "The Blackmoor Dragon"
+  description: >-
+    The Blackmoor Dragon known as Hautna Masq, ally and friend of the Prince, sleeps here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26414": 75
+        "celene:o26417": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26405
+  keywords: ["knight","luna","elf","elven"]
+  name: "A Knight of Luna"
+  description: >-
+    One of Melf's Knights of Luna stands rigidly at attention here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26419": 75
+        "celene:o26420": 75
+        "celene:o26421": 75
+        "celene:o26422": 75
+        "celene:o26423": 75
+        "celene:o26424": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26406
+  keywords: ["scout","elite","elf","elven"]
+  name: "An Elite Elven Scout"
+  description: >-
+    One of the Queen's Elite Elven Scouts stares at you suspiciously.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26425": 75
+        "celene:o26427": 75
+        "celene:o26428": 75
+        "celene:o26426": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26407
+  keywords: ["guard","city","elf","elven"]
+  name: "A Celene City Guard"
+  description: >-
+    A loyal Celene City Guard patrols the streets of his Queen's city.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26429": 75
+        "celene:o26430": 75
+        "celene:o26431": 75
+        "celene:o26432": 75
+        "celene:o26433": 75
+        "celene:o26434": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26408
+  keywords: ["citizen","elf","elven"]
+  name: "A Citizen of Celene"
+  description: >-
+    A Citizen of Celene strolls idly by.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26409
+  keywords: ["citizen","elf","elven"]
+  name: "A Citizen of Celene"
+  description: >-
+    A Citizen of Celene strolls idly by.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 2
+- id: m26410
+  keywords: ["acolyte"]
+  name: "An Acolyte of Corellon Larethian"
+  description: >-
+    An Acolyte of Corellon Larethian stands here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26435": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26411
+  keywords: ["acolyte"]
+  name: "An Acolyte of Corellon Larethian"
+  description: >-
+    An Acolyte of Corellon Larethian stands here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26425": 75
+        "celene:o26435": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 2
+- id: m26412
+  keywords: ["guardian","high","elf","elven"]
+  name: "The High Guardian of Celene"
+  description: >-
+    The High Guardian of Celene stands stoically before you.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26436": 75
+        "celene:o26437": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26413
+  keywords: ["cooshee","dog","pet"]
+  name: "A Cooshee"
+  description: >-
+    A Cooshee, faithful pet and hunting dog of elves across the world, is here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26414
+  keywords: ["pegasus"]
+  name: "A Pegasus"
+  description: >-
+    A Pegasus, faithful steed for some Knight of Luna, stands here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26415
+  keywords: ["unicorn"]
+  name: "A Unicorn"
+  description: >-
+    A Unicorn, steed of one of the Nobles of Celene, stands here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 2
+- id: m26416
+  keywords: ["scout","elf","elven"]
+  name: "An Elven Scout"
+  description: >-
+    An Elven Scout is here, preparing to brave the frontiers to scout for Goblins.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26425": 75
+        "celene:o26426": 75
+        "celene:o26427": 75
+        "celene:o26428": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26417
+  keywords: ["child","elf","elven"]
+  name: "An Elven child"
+  description: >-
+    An Elven child plays here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26418
+  keywords: ["child","elf","elven"]
+  name: "An Elven child"
+  description: >-
+    An Elven child plays here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26419
+  keywords: ["menelas","mage"]
+  name: "Menelas the Mage"
+  description: >-
+    Menelas the Mage welcome you to his place of business.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26440": 75
+        "celene:o26441": 75
+        "celene:o26442": 75
+        "celene:o26443": 75
+        "celene:o26444": 75
+  metadata:
+    vendor:
+      items:
+        "celene:o26440":
+          cost: 5000
+          currency: gold
+        "celene:o26441":
+          cost: 5000
+          currency: gold
+        "celene:o26442":
+          cost: 5000
+          currency: gold
+        "celene:o26443":
+          cost: 5000
+          currency: gold
+        "celene:o26444":
+          cost: 5000
+          currency: gold
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26420
+  keywords: ["grein","armorer"]
+  name: "Grein the Armorer"
+  description: >-
+    Grein the Armorer gruffly welcomes you to his armory.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26460": 75
+        "celene:o26462": 75
+  metadata:
+    vendor:
+      items:
+        "celene:o26460":
+          cost: 5000
+          currency: gold
+        "celene:o26462":
+          cost: 5000
+          currency: gold
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26421
+  keywords: ["tolos","weaponsmith","smith"]
+  name: "Tolos the Weaponsmith"
+  description: >-
+    Tolos the Weaponsmith stares coldly at you as you enter his store.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26463": 75
+        "celene:o26464": 75
+        "celene:o26465": 75
+        "celene:o26466": 75
+  metadata:
+    vendor:
+      items:
+        "celene:o26463":
+          cost: 5000
+          currency: gold
+        "celene:o26464":
+          cost: 5000
+          currency: gold
+        "celene:o26465":
+          cost: 5000
+          currency: gold
+        "celene:o26466":
+          cost: 5000
+          currency: gold
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26422
+  keywords: ["mithara","herbalist","healer"]
+  name: "Mithara the Herbalist"
+  description: >-
+    Mithara the Herbalist welcomes you with a sweet smile to her shop.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26467": 75
+        "celene:o26468": 75
+  metadata:
+    vendor:
+      items:
+        "celene:o26467":
+          cost: 1000
+          currency: gold
+        "celene:o26468":
+          cost: 400
+          currency: gold
+    areaId: 12
+    exp_level: 6000
+    sex: 2
+- id: m26423
+  keywords: ["loothala","cook","elf"]
+  name: "Loothala the fine Elven Cook"
+  description: >-
+    Loothala the fine Elven Cook welcomes you to her restaurant.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26469": 75
+        "celene:o26470": 75
+  metadata:
+    vendor:
+      items:
+        "celene:o26469":
+          cost: 5000
+          currency: gold
+        "celene:o26470":
+          cost: 5000
+          currency: gold
+    areaId: 12
+    exp_level: 6000
+    sex: 2
+- id: m26424
+  keywords: ["dyenkalas","grocer"]
+  name: "Dyenkalas the Grocer"
+  description: >-
+    Dyenkalas the Grocer welcomes you to his General Store.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26459": 75
+        "celene:o26461": 75
+  metadata:
+    vendor:
+      items:
+        "celene:o26459":
+          cost: 5000
+          currency: gold
+        "celene:o26461":
+          cost: 5000
+          currency: gold
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26425
+  keywords: ["wolthan","blacksmith","smith"]
+  name: "Wolthan the Blacksmith"
+  description: >-
+    Wolthan the Blacksmith offers to repair your damaged equipment.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    vendor:
+      items:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26426
+  keywords: ["sage","tasstellat"]
+  name: "Tastellat the Sage"
+  description: >-
+    Tastellat the Sage offers to identify any items of unknown nature you have.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26427
+  keywords: ["cartograhper","kasthellon"]
+  name: "Kasthellon the Cartographer"
+  description: >-
+    Kasthellon the Cartographer welcomes you to his store and offers you a map.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26471": 75
+  metadata:
+    vendor:
+      items:
+        "celene:o26471":
+          cost: 5000
+          currency: gold
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26428
+  keywords: ["noble","elf","elven"]
+  name: "An Elven Noble"
+  description: >-
+    An Elven Noble haughtily demands your respect.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26429
+  keywords: ["noble","elf","elven"]
+  name: "An Elven Noble"
+  description: >-
+    An Elven Noble haughtily demands your respect.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26430
+  keywords: ["guildmaster","elven","rastellagnar"]
+  name: "The Elven Guildmaster"
+  description: >-
+    Rastellagnar, the Elven Guildmaster, stands ready to train you.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26458": 75
+        "celene:o26451": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26431
+  keywords: ["guildmaster","human","julistha"]
+  name: "The Human Guildmistress"
+  description: >-
+    Julistha, the Human Guildmistress, coldly appraises your abilities.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 2
+- id: m26432
+  keywords: ["guildmaster","kender","macy"]
+  name: "The Halfling Guildmistress"
+  description: >-
+    Macy, the Halfling Guildmistress, smiles at you (wonder what she's stolen?:))
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 2
+- id: m26433
+  keywords: ["guildmaster","dwarf","keruggan"]
+  name: "The Dwarven Guildmaster"
+  description: >-
+    Keruggan, the Dwarven Guildmaster, seems astonished at having a pupil.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26434
+  keywords: ["guildmaster","dryad","moredhein"]
+  name: "The Dryad Guildmaster"
+  description: >-
+    Moredhein, the Dryad Guildmaster, stands ready to help you practice.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26435
+  keywords: ["guildmaster","illithid","bloonit"]
+  name: "The Illithid Guildmaster"
+  description: >-
+    Bloonit, the Illithid Guildmaster, welcomes you telepathically.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 0
+- id: m26436
+  keywords: ["guildmaster","avian","aelian"]
+  name: "The Avian Guildmaster"
+  description: >-
+    Aelian, the Avian Guildmaster, stares grimly at you.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26437
+  keywords: ["servant","elf","elven"]
+  name: "A surly Elven Servant"
+  description: >-
+    A surly Elven Servant glumly completes his tasks.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26438
+  keywords: ["servant","elf","elven"]
+  name: "A surly Elven Servant"
+  description: >-
+    A surly Elven Servant glumly completes her tasks.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 2
+- id: m26439
+  keywords: ["owner","t'kana","shopkeeper","pet"]
+  name: "T'Kana, the Pet Shop Owner"
+  description: >-
+    T'Kana welcomes you with great hospitality to his humble store.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    vendor:
+      items:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26440
+  keywords: ["allertathala","guard","captian","elf"]
+  name: "Captain Allertathala"
+  description: >-
+    Captain Allertathala cordially welcomes you to his office.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26419": 75
+        "celene:o26420": 75
+        "celene:o26421": 75
+        "celene:o26422": 75
+        "celene:o26423": 75
+        "celene:o26424": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26441
+  keywords: ["rabbit"]
+  name: "A Rabbit"
+  description: >-
+    A cute little Rabbit hops along here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 0
+- id: m26442
+  keywords: ["deer"]
+  name: "A noble-looking deer"
+  description: >-
+    A noble-looking deer stares proudly at you.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 0
+- id: m26443
+  keywords: ["squirrel"]
+  name: "A Squirrel"
+  description: >-
+    A ferocious-looking Squirrel is sizing you up!
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 0
+- id: m26444
+  keywords: ["stablemaster","master","elf"]
+  name: "The Stablemaster"
+  description: >-
+    The Stablemaster eyes you cautiously.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26445
+  keywords: ["stablehand","hand","elf"]
+  name: "A surly stablehand"
+  description: >-
+    A surly stablehand glares sullenly at you.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26446
+  keywords: ["golem"]
+  name: "A Huge Golem"
+  description: >-
+    A Huge Stone Golem blocks your progress.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 0
+- id: m26447
+  keywords: ["librarian","elf","elven"]
+  name: "An Elven Librarian"
+  description: >-
+    An Elven Librarian rushes madly past you, scattering books everywhere.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "celene:o26448": 75
+        "celene:o26452": 75
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26448
+  keywords: ["librarian","elf","elven"]
+  name: "An Elven Librarian"
+  description: >-
+    An Elven Librarian rushes madly past you, scattering books everywhere.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 2
+- id: m26449
+  keywords: ["griffon"]
+  name: "An Angry Griffon"
+  description: >-
+    An Angry Griffon lunges forth and attacks!
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26450
+  keywords: ["ocelot"]
+  name: "An Ocelot"
+  description: >-
+    An Ocelot bears it claws and snarls ferociously!
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26451
+  keywords: ["alsatian","dog"]
+  name: "An Alsatian"
+  description: >-
+    A savage Alsatian bears its teeth and growls menacingly.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26452
+  keywords: ["sloth"]
+  name: "A Three-toed Sloth"
+  description: >-
+    A Three-toed Sloth hangs here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26453
+  keywords: ["kangaroo"]
+  name: "A Kangaroo"
+  description: >-
+    A friendly Kangaroo hops playfully towards you.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26454
+  keywords: ["rhino","rhinocerous"]
+  name: "A Rhinocerous"
+  description: >-
+    A Rhinocerous rumbles along here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26455
+  keywords: ["gorilla"]
+  name: "A Huge Gorilla"
+  description: >-
+    A Huge Gorilla beats its chest and growls menacingly.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 1
+- id: m26456
+  keywords: ["pegasus"]
+  name: "A Pegasus"
+  description: >-
+    A well-trained Pegasus waits obediently here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 12
+    exp_level: 6000
+    sex: 2

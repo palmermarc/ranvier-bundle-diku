@@ -1,0 +1,18 @@
+---
+body: |
+  syntax: q <item> short <new short name>
+  q <short name> long <new long name>
+  
+  When an avatar reaches status 5 <fighter> he/she/it gains the ability
+  to 'rename' their eq. This costs 1 qp to do both the short and
+  long descriptions.
+  
+  The short desc is what you see when you type inventory or eq. The long
+  desc is what you see if it is on the ground.
+  
+  Clan EQ cannot be renamed.
+  
+  ***DO NOT RENAME SOULBLADES** (Is buggy)
+  
+  
+  - fbonus

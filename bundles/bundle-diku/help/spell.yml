@@ -1,0 +1,20 @@
+---
+body: |
+  Syntax: spells | spell <colour>
+  
+  This shows your spell casting ability with the various types of magic.
+  
+  1) Untrained. 6) An adept.
+  2) An apprentice. 7) A mage.
+  3) A student. 8) A warlock.
+  4) A scholar. 9) A master wizard.
+  5) A magus. 10) A grand sorcerer.
+  
+  Note that these are only rough estimates; one master wizard might well be 
+  slightly more skilled than another master wizard, and so on.
+  
+  For a list of all spells and skills, type: PRAC, PRAC1 or PRAC2
+  For information about individual spells, type: help <spellname>
+  See also: help BASICSPELLS
+  
+  - spells

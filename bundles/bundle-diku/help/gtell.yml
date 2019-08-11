@@ -1,0 +1,25 @@
+---
+body: |
+  Syntax: gtell <message>
+  Syntax: say <message>
+  Syntax: tell <character> <message>
+  
+  All of these commands send messages to other players. GTELL sends a message to
+  all of the characters in your group, wherever they are, even if they are
+  sleeping or stunned or dying. ';' is a synonym for GTELL.
+  
+  SAY sends a message to all awake players in your room. The single quote '''
+  is a synonym for SAY.
+  
+  TELL sends a message to one awake player anywhere in the world.
+  
+  REPLY sends a message to the last player who sent you a TELL. REPLY will work
+  even if you can't see the player, and without revealing their identity. This
+  is handy for talking to invisible or switched immortal players.
+  
+  'Your message doesn't get through' - This will appear when your target is unable
+  to get your message, i.e dead, mortalled, or in a silenced zone etc...
+  
+  - reply
+  - say
+  - tell

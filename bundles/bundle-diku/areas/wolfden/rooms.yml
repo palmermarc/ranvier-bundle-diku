@@ -1,0 +1,645 @@
+- id: r25900
+  title: "A hill overlooking the dark forest"
+  description: >-
+    From atop this hill you can see in all
+    directions.  You hear horrible howls in the
+    distance.
+  exits:
+    - roomId: "juargan:r4784"
+      direction: north
+    - roomId: "wolfden:r25901"
+      direction: up
+- id: r25901
+  title: "Before the Wolfden"
+  description: >-
+    From this bluff you notice strange things
+    in the distance.
+  exits:
+    - roomId: "wolfden:r25902"
+      direction: up
+    - roomId: "wolfden:r25900"
+      direction: down
+- id: r25902
+  title: "A clearing"
+  description: >-
+    This clearing has exits in all directions.
+  exits:
+    - roomId: "wolfden:r25905"
+      direction: north
+    - roomId: "wolfden:r25903"
+      direction: south
+    - roomId: "wolfden:r25904"
+      direction: east
+    - roomId: "wolfden:r25906"
+      direction: west
+    - roomId: "wolfden:r25927"
+      direction: up
+    - roomId: "wolfden:r25901"
+      direction: down
+- id: r25903
+  title: "A thicket"
+  description: >-
+    The forest has grown over thickly here. You
+    smell an unfamiliar stench.
+  exits:
+    - roomId: "wolfden:r25902"
+      direction: north
+    - roomId: "wolfden:r25907"
+      direction: down
+- id: r25904
+  title: "A thicket"
+  description: >-
+    The forest has grown over thickly here. You
+    smell an unfamiliar stench.
+  exits:
+    - roomId: "wolfden:r25902"
+      direction: west
+    - roomId: "wolfden:r25908"
+      direction: down
+- id: r25905
+  title: "A thicket"
+  description: >-
+    The forest has grown over thickly here. You
+    smell an unfamiliar stench.
+  exits:
+    - roomId: "wolfden:r25902"
+      direction: south
+    - roomId: "wolfden:r25909"
+      direction: down
+- id: r25906
+  title: "A thicket"
+  description: >-
+    The forest has grown over thickly here. You
+    smell an unfamiliar stench.
+  exits:
+    - roomId: "wolfden:r25902"
+      direction: east
+    - roomId: "wolfden:r25910"
+      direction: down
+- id: r25907
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25911"
+      direction: north
+    - roomId: "wolfden:r25913"
+      direction: south
+    - roomId: "wolfden:r25914"
+      direction: east
+    - roomId: "wolfden:r25912"
+      direction: west
+    - roomId: "wolfden:r25903"
+      direction: up
+  npcs:
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "13"
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25908
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25915"
+      direction: north
+    - roomId: "wolfden:r25917"
+      direction: south
+    - roomId: "wolfden:r25916"
+      direction: east
+    - roomId: "wolfden:r25918"
+      direction: west
+    - roomId: "wolfden:r25904"
+      direction: up
+  npcs:
+    - id: "wolfden:m25904"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r25909
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25920"
+      direction: north
+    - roomId: "wolfden:r25921"
+      direction: south
+    - roomId: "wolfden:r25922"
+      direction: east
+    - roomId: "wolfden:r25919"
+      direction: west
+    - roomId: "wolfden:r25905"
+      direction: up
+  npcs:
+    - id: "wolfden:m25906"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r25910
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25925"
+      direction: north
+    - roomId: "wolfden:r25923"
+      direction: south
+    - roomId: "wolfden:r25924"
+      direction: east
+    - roomId: "wolfden:r25926"
+      direction: west
+    - roomId: "wolfden:r25906"
+      direction: up
+  npcs:
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25911
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25921"
+      direction: north
+    - roomId: "wolfden:r25907"
+      direction: south
+  npcs:
+    - id: "wolfden:m25904"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25912
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25907"
+      direction: east
+  npcs:
+    - id: "wolfden:m25906"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25913
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25907"
+      direction: north
+    - roomId: "wolfden:r25920"
+      direction: south
+  npcs:
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25914
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25907"
+      direction: west
+  npcs:
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25915
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25908"
+      direction: south
+  npcs:
+    - id: "wolfden:m25904"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25916
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25908"
+      direction: west
+  npcs:
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25917
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25908"
+      direction: north
+  npcs:
+    - id: "wolfden:m25906"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "wolfden:m25906"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "wolfden:m25906"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25918
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25908"
+      direction: east
+- id: r25919
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25909"
+      direction: east
+    - roomId: "wolfden:r25924"
+      direction: west
+  npcs:
+    - id: "wolfden:m25904"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25920
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25913"
+      direction: north
+    - roomId: "wolfden:r25909"
+      direction: south
+  npcs:
+    - id: "wolfden:m25904"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25921
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25909"
+      direction: north
+    - roomId: "wolfden:r25911"
+      direction: south
+  npcs:
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25922
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25926"
+      direction: east
+    - roomId: "wolfden:r25909"
+      direction: west
+- id: r25923
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25910"
+      direction: north
+  npcs:
+    - id: "wolfden:m25904"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25924
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25919"
+      direction: east
+    - roomId: "wolfden:r25910"
+      direction: west
+  npcs:
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25925
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25910"
+      direction: south
+- id: r25926
+  title: "A Smelly Cavern"
+  description: >-
+    This small opening is dark and wet. You can
+    feel the fleas jumping onto your body. All 
+    of the exits look the same.
+  exits:
+    - roomId: "wolfden:r25910"
+      direction: east
+    - roomId: "wolfden:r25922"
+      direction: west
+  npcs:
+    - id: "wolfden:m25904"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25927
+  title: "The Center of the Den"
+  description: >-
+    You are now certain you are in a fortress
+    controlled by Garou forces.
+  exits:
+    - roomId: "wolfden:r25928"
+      direction: north
+    - roomId: "wolfden:r25933"
+      direction: south
+    - roomId: "wolfden:r25935"
+      direction: east
+    - roomId: "wolfden:r25931"
+      direction: west
+    - roomId: "wolfden:r25902"
+      direction: down
+- id: r25928
+  title: "The Exterior Walls"
+  description: >-
+    The walls of this dwelling are covererd
+    with pictures illustrating Lupine history.
+  exits:
+    - roomId: "wolfden:r25927"
+      direction: south
+    - roomId: "wolfden:r25929"
+      direction: east
+    - roomId: "wolfden:r25932"
+      direction: west
+  npcs:
+    - id: "wolfden:m25908"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r25929
+  title: "The Exterior Walls"
+  description: >-
+    The walls of this dwelling are covererd
+    with pictures illustrating Lupine history.
+  exits:
+    - roomId: "wolfden:r25935"
+      direction: south
+    - roomId: "wolfden:r25940"
+      direction: east
+    - roomId: "wolfden:r25928"
+      direction: west
+  npcs:
+    - id: "wolfden:m25907"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r25930
+  title: "The Exterior Walls"
+  description: >-
+    The walls of this dwelling are covererd
+    with pictures illustrating Lupine history.
+  exits:
+    - roomId: "wolfden:r25931"
+      direction: north
+    - roomId: "wolfden:r25933"
+      direction: east
+  npcs:
+    - id: "wolfden:m25905"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25931
+  title: "The Exterior Walls"
+  description: >-
+    The walls of this dwelling are covererd
+    with pictures illustrating Lupine history.
+  exits:
+    - roomId: "wolfden:r25932"
+      direction: north
+    - roomId: "wolfden:r25930"
+      direction: south
+    - roomId: "wolfden:r25927"
+      direction: east
+  npcs:
+    - id: "wolfden:m25908"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25932
+  title: "The Exterior Walls"
+  description: >-
+    The walls of this dwelling are covererd
+    with pictures illustrating Lupine history.
+  exits:
+    - roomId: "wolfden:r25931"
+      direction: south
+    - roomId: "wolfden:r25928"
+      direction: east
+    - roomId: "wolfden:r25936"
+      direction: up
+  npcs:
+    - id: "wolfden:m25907"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25933
+  title: "The Exterior Walls"
+  description: >-
+    The walls of this dwelling are covererd
+    with pictures illustrating Lupine history.
+  exits:
+    - roomId: "wolfden:r25927"
+      direction: north
+    - roomId: "wolfden:r25934"
+      direction: east
+    - roomId: "wolfden:r25930"
+      direction: west
+  npcs:
+    - id: "wolfden:m25907"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25934
+  title: "The Exterior Walls"
+  description: >-
+    The walls of this dwelling are covererd
+    with pictures illustrating Lupine history.
+  exits:
+    - roomId: "wolfden:r25935"
+      direction: north
+    - roomId: "wolfden:r25933"
+      direction: west
+    - roomId: "wolfden:r25937"
+      direction: up
+  npcs:
+    - id: "wolfden:m25906"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25935
+  title: "The Exterior Walls"
+  description: >-
+    The walls of this dwelling are covererd
+    with pictures illustrating Lupine history.
+  exits:
+    - roomId: "wolfden:r25929"
+      direction: north
+    - roomId: "wolfden:r25934"
+      direction: south
+    - roomId: "wolfden:r25927"
+      direction: west
+  npcs:
+    - id: "wolfden:m25907"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25936
+  title: "Stairwell of Death"
+  description: >-
+    These steps lead up to certain death.
+  exits:
+    - roomId: "wolfden:r25938"
+      direction: east
+    - roomId: "wolfden:r25932"
+      direction: down
+- id: r25937
+  title: "Stairwell of Death"
+  description: >-
+    These steps lead up to certain death.
+  exits:
+    - roomId: "wolfden:r25938"
+      direction: west
+    - roomId: "wolfden:r25934"
+      direction: down
+- id: r25938
+  title: "A Central Opening"
+  description: >-
+    This rooms is covered with blood.
+  exits:
+    - roomId: "wolfden:r25937"
+      direction: east
+    - roomId: "wolfden:r25936"
+      direction: west
+    - roomId: "wolfden:r25939"
+      direction: up
+  npcs:
+    - id: "wolfden:m25909"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25939
+  title: "The Uppermost Level"
+  description: >-
+    This is the top level of this werewolf
+    camp.  You can sense the presence of very
+    powerful lupines.
+  exits:
+    - roomId: "wolfden:r25942"
+      direction: north
+    - roomId: "wolfden:r25944"
+      direction: south
+    - roomId: "wolfden:r25941"
+      direction: east
+    - roomId: "wolfden:r25943"
+      direction: west
+    - roomId: "wolfden:r25938"
+      direction: down
+- id: r25940
+  title: "The Outlook"
+  description: >-
+    You can see the remains of a path to the 
+    east.  You wonder where it went.
+  exits:
+    - roomId: "wolfden:r25929"
+      direction: west
+- id: r25941
+  title: "Greyback's Chamber"
+  description: >-
+    You've found Greyback's Chamber.  You can see
+    the remains of dozens of skulls lining the
+    walls.
+  exits:
+    - roomId: "wolfden:r25939"
+      direction: west
+  npcs:
+    - id: "wolfden:m25903"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25942
+  title: "Thrynn's Chamber"
+  description: >-
+    This chamber is the domicile of one of the
+    twin wolves.
+  exits:
+    - roomId: "wolfden:r25939"
+      direction: south
+  npcs:
+    - id: "wolfden:m25902"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25943
+  title: "Thrain's Chamber"
+  description: >-
+    This chamber is the domicile of one of the
+    twin wolves.
+  exits:
+    - roomId: "wolfden:r25939"
+      direction: east
+  npcs:
+    - id: "wolfden:m25901"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r25944
+  title: "Grull's Chamber"
+  description: >-
+    Grull, the dark messenger, stand before you.
+    His claws are stained from the blood of many
+    slain enemies.
+  exits:
+    - roomId: "wolfden:r25939"
+      direction: north
+  npcs:
+    - id: "wolfden:m25900"
+      respawnChance: 100
+      maxLoad: "1"

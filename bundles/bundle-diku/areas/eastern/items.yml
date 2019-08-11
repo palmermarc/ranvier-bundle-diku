@@ -1,0 +1,240 @@
+- id: o5000
+  name: "pick"
+  roomDesc: "A small mining pick made of what appears to be silver lies on the ground."
+  keywords: ["pick"]
+  description: "A small mining pick made of what appears to be silver lies on the ground."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5001
+  name: "banded mail"
+  roomDesc: "A glowing suit of banded mail lies on the ground."
+  keywords: ["banded","mail"]
+  description: "A glowing suit of banded mail lies on the ground."
+  type: HEAVYARMOR
+- id: o5002
+  name: "halberd"
+  roomDesc: "A mighty halberd lies against the wall."
+  keywords: ["halberd"]
+  description: "A mighty halberd lies against the wall."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5003
+  name: "amulet"
+  roomDesc: "A mushroom shaped amulet lies on the ground."
+  keywords: ["amulet"]
+  description: "A mushroom shaped amulet lies on the ground."
+  type: ACCESSORY
+- id: o5005
+  name: "bone"
+  roomDesc: "A large leg bone rests on the ground."
+  keywords: ["bone"]
+  description: "A large leg bone rests on the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5006
+  name: "cactus"
+  roomDesc: "A small cactus cup lies on the ground."
+  keywords: ["cactus"]
+  description: "A small cactus cup lies on the ground."
+  type: DRINKCON
+- id: o5007
+  name: "basket"
+  roomDesc: "A small wicker basket sits on the ground."
+  keywords: ["basket"]
+  description: "A small wicker basket sits on the ground."
+  type: CONTAINER
+  items: ["eastern:o5011"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o5008
+  name: "basket"
+  roomDesc: "A small wicker basket sits on the ground."
+  keywords: ["basket"]
+  description: "A small wicker basket sits on the ground."
+  type: CONTAINER
+  items: ["eastern:o5014"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o5009
+  name: "basket"
+  roomDesc: "A small wicker basket sits on the ground."
+  keywords: ["basket"]
+  description: "A small wicker basket sits on the ground."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o5010
+  name: "basket"
+  roomDesc: "A small wicker basket sits on the ground."
+  keywords: ["basket"]
+  description: "A small wicker basket sits on the ground."
+  type: CONTAINER
+  items: ["eastern:o5013"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o5011
+  name: "rope"
+  roomDesc: "A long coil of rope lies on the ground."
+  keywords: ["rope"]
+  description: "A long coil of rope lies on the ground."
+  type: FURNITURE
+- id: o5012
+  name: "stakes"
+  roomDesc: "A small bundle of stakes lies here."
+  keywords: ["stakes"]
+  description: "A small bundle of stakes lies here."
+  type: FURNITURE
+- id: o5013
+  name: "map"
+  roomDesc: "An old, tattered, and much faded map lies here."
+  keywords: ["map"]
+  description: "An old, tattered, and much faded map lies here."
+  type: FURNITURE
+- id: o5014
+  name: "turban"
+  roomDesc: "A thick padded turban lies here."
+  keywords: ["turban"]
+  description: "A thick padded turban lies here."
+  type: LIGHTARMOR
+- id: o5015
+  name: "coins"
+  roomDesc: "A great, gleaming pile of treasure lies at your feet."
+  keywords: ["coins"]
+  description: "A great, gleaming pile of treasure lies at your feet."
+  type: MONEY
+- id: o5016
+  name: "sabre"
+  roomDesc: "A long, curved sabre stands upright in the ground."
+  keywords: ["sabre"]
+  description: "A long, curved sabre stands upright in the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5017
+  name: "scimitar"
+  roomDesc: "A curved scimitar lies at your feet."
+  keywords: ["scimitar"]
+  description: "A curved scimitar lies at your feet."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5018
+  name: "cutlass"
+  roomDesc: "A long, pointed cutlass lies here."
+  keywords: ["cutlass"]
+  description: "A long, pointed cutlass lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5019
+  name: "potion pink"
+  roomDesc: "A pink potion stands here."
+  keywords: ["potion","pink"]
+  description: "A pink potion stands here."
+  type: POTION
+- id: o5020
+  name: "wand platinum"
+  roomDesc: "A platinum wand lies here."
+  keywords: ["wand","platinum"]
+  description: "A platinum wand lies here."
+  type: WAND
+- id: o5021
+  name: "bow energy strange"
+  roomDesc: "A strange energy bow lies here."
+  keywords: ["bow","energy","strange"]
+  description: "A strange energy bow lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o5022
+  name: "scroll encrypted"
+  roomDesc: "An encrypted scroll lies at your feet."
+  keywords: ["scroll","encrypted"]
+  description: "An encrypted scroll lies at your feet."
+  type: SCROLL
+- id: o5023
+  name: "chest"
+  roomDesc: "An iron bound chest with a shiny lock sits here."
+  keywords: ["chest"]
+  description: "An iron bound chest with a shiny lock sits here."
+  type: CONTAINER
+  items: ["eastern:o5025","eastern:o5026","eastern:o5027","eastern:o5028","eastern:o5029","eastern:o5030","eastern:o5031","eastern:o5032"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o5024
+  name: "key golden"
+  roomDesc: "A shiny golden key lies here."
+  keywords: ["key","golden"]
+  description: "A shiny golden key lies here."
+  type: KEY
+- id: o5025
+  name: "bracelet copper"
+  roomDesc: "A tarnished copper bracelet lies at your feet."
+  keywords: ["bracelet","copper"]
+  description: "A tarnished copper bracelet lies at your feet."
+  type: LIGHTARMOR
+- id: o5026
+  name: "gem ruby"
+  roomDesc: "A large ruby lies on the ground collecting dust."
+  keywords: ["gem","ruby"]
+  description: "A large ruby lies on the ground collecting dust."
+  type: TREASURE
+- id: o5027
+  name: "gem diamond"
+  roomDesc: "A glittering diamond lies at your feet."
+  keywords: ["gem","diamond"]
+  description: "A glittering diamond lies at your feet."
+  type: TREASURE
+- id: o5028
+  name: "gem sapphire"
+  roomDesc: "A brilliant sapphire lies here twinkling."
+  keywords: ["gem","sapphire"]
+  description: "A brilliant sapphire lies here twinkling."
+  type: TREASURE
+- id: o5029
+  name: "gem lapis"
+  roomDesc: "A deep blue lapis lazuli gem lies here."
+  keywords: ["gem","lapis"]
+  description: "A deep blue lapis lazuli gem lies here."
+  type: TREASURE
+- id: o5030
+  name: "jewel tiger"
+  roomDesc: "The Tiger Jewel lies here blazing."
+  keywords: ["jewel","tiger"]
+  description: "The Tiger Jewel lies here blazing."
+  type: TREASURE
+- id: o5031
+  name: "jewel red-eyed"
+  roomDesc: "The red-eyed jewel glares at you greedily."
+  keywords: ["jewel","red-eyed"]
+  description: "The red-eyed jewel glares at you greedily."
+  type: TREASURE
+- id: o5032
+  name: "gem emerald"
+  roomDesc: "A fiery green emerald sits here."
+  keywords: ["gem","emerald"]
+  description: "A fiery green emerald sits here."
+  type: TREASURE

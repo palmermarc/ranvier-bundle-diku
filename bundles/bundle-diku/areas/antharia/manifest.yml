@@ -1,0 +1,12 @@
+title: "Antharia"
+metadata:
+  id: 3
+  name: "Antharia"
+  createdBy: "amadeus"
+  starting_vnum: 1800
+  ending_vnum: 1899
+  item_requirements: 26000
+  filename: "antharia.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

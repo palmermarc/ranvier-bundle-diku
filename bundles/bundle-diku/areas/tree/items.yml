@@ -1,0 +1,72 @@
+- id: o10101
+  name: "polearm body wrecker"
+  roomDesc: "A body-wrecker polearm lies here."
+  keywords: ["polearm","body","wrecker"]
+  description: "A body-wrecker polearm lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10102
+  name: "hammer iron"
+  roomDesc: "A hammer of iron with silver and nickel detail lies here."
+  keywords: ["hammer","iron"]
+  description: "A hammer of iron with silver and nickel detail lies here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10103
+  name: "bastard sword"
+  roomDesc: "A beautiful sword lies on the ground here."
+  keywords: ["bastard","sword"]
+  description: "A beautiful sword lies on the ground here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o10104
+  name: "looking glass"
+  roomDesc: "A looking glass lies here."
+  keywords: ["looking","glass"]
+  description: "A looking glass lies here."
+  type: TRASH
+- id: o10105
+  name: "cloudy staff"
+  roomDesc: "A staff made of cloudy glass lies here."
+  keywords: ["cloudy","staff"]
+  description: "A staff made of cloudy glass lies here."
+  type: STAFF
+- id: o10106
+  name: "crystal sleeves"
+  roomDesc: "Some sleeves made of crystal lie here."
+  keywords: ["crystal","sleeves"]
+  description: "Some sleeves made of crystal lie here."
+  type: HEAVYARMOR
+- id: o10107
+  name: "sparkling green"
+  roomDesc: "A green potion is lying here sparkling."
+  keywords: ["sparkling","green"]
+  description: "A green potion is lying here sparkling."
+  type: POTION
+- id: o10108
+  name: "paper triangle"
+  roomDesc: "A piece of paper in the shape of a triangle is here."
+  keywords: ["paper","triangle"]
+  description: "A piece of paper in the shape of a triangle is here."
+  type: SCROLL
+- id: o10109
+  name: "hollyphant tusk"
+  roomDesc: "A tusk of a hollyphant lies here."
+  keywords: ["hollyphant","tusk"]
+  description: "A tusk of a hollyphant lies here."
+  type: WAND
+- id: o10110
+  name: "girth cast iron"
+  roomDesc: "A cast iron girth lies here."
+  keywords: ["girth","cast","iron"]
+  description: "A cast iron girth lies here."
+  type: ACCESSORY

@@ -1,0 +1,6 @@
+---
+body: |
+  Syntax: cast 'remove curse' <character>
+  
+  This spell removes a curse from a character.
+  

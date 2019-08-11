@@ -1,0 +1,14 @@
+---
+body: |
+  Syntax: cast summon <character>
+  Syntax: Summon <on> or <off>
+  
+  This spell summons a character from anywhere else in your zone into your room.
+  Characters who are fighting may not be summoned.
+  
+  A player may type: summon <off> to prevent other players from being able to 
+  summon him or her. This 'immunity' to being summon has a failure rate 5% of
+  the time. So remember that you are never truly safe from being summoned.
+  
+  NOTE: A player CAN be summoned from his/her clanroom.
+  

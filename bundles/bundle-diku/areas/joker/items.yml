@@ -1,0 +1,102 @@
+- id: o20000
+  name: "water pistol"
+  roomDesc: "A orange water pistol lays here leaking."
+  keywords: ["water","pistol"]
+  description: "A orange water pistol lays here leaking."
+  type: MISSILE
+- id: o20001
+  name: "water cartridge"
+  roomDesc: "A water cartridge lays here."
+  keywords: ["water","cartridge"]
+  description: "A water cartridge lays here."
+  type: AMMO
+- id: o20002
+  name: "key owners"
+  roomDesc: "A large key belonging to the former owner has been left here."
+  keywords: ["key","owners"]
+  description: "A large key belonging to the former owner has been left here."
+  type: KEY
+- id: o20003
+  name: "key arena"
+  roomDesc: "A large key to open the Arena has been left here."
+  keywords: ["key","arena"]
+  description: "A large key to open the Arena has been left here."
+  type: KEY
+- id: o20004
+  name: "key archon"
+  roomDesc: "A large key belonging to Archon has been left here."
+  keywords: ["key","archon"]
+  description: "A large key belonging to Archon has been left here."
+  type: KEY
+- id: o20005
+  name: "key gods"
+  roomDesc: "A large key belonging to a god has been left here."
+  keywords: ["key","gods"]
+  description: "A large key belonging to a god has been left here."
+  type: KEY
+- id: o20006
+  name: "key gods"
+  roomDesc: "A large key belonging to a god has been left here."
+  keywords: ["key","gods"]
+  description: "A large key belonging to a god has been left here."
+  type: KEY
+- id: o20007
+  name: "key gods"
+  roomDesc: "A large key belonging to the Gods has been left here."
+  keywords: ["key","gods"]
+  description: "A large key belonging to the Gods has been left here."
+  type: KEY
+- id: o20008
+  name: "key somebody"
+  roomDesc: "A large key belonging to somebody has been left here."
+  keywords: ["key","somebody"]
+  description: "A large key belonging to somebody has been left here."
+  type: KEY
+- id: o20010
+  name: "big bomb"
+  roomDesc: "A big bomb lays here...... waiting to go BOOM!"
+  keywords: ["big","bomb"]
+  description: "A big bomb lays here...... waiting to go BOOM!"
+  type: BOMB
+- id: o20011
+  name: "rune bomb explosive"
+  roomDesc: "A small stone covered in glowing runes has been left here."
+  keywords: ["rune","bomb","explosive"]
+  description: "A small stone covered in glowing runes has been left here."
+  type: BOMB
+- id: o20012
+  name: "key ancient"
+  roomDesc: "A large key lies here"
+  keywords: ["key","ancient"]
+  description: "A large key lies here"
+  type: KEY
+- id: o20013
+  name: "key holy cross"
+  roomDesc: "A large cross lies here"
+  keywords: ["key","holy","cross"]
+  description: "A large cross lies here"
+  type: KEY
+- id: o20014
+  name: "key holy cross"
+  roomDesc: "A large cross lies here"
+  keywords: ["key","holy","cross"]
+  description: "A large cross lies here"
+  type: KEY
+- id: o20015
+  name: "key holy cross"
+  roomDesc: "A large cross lies here"
+  keywords: ["key","holy","cross"]
+  description: "A large cross lies here"
+  type: KEY
+- id: o20016
+  name: "key ancient"
+  roomDesc: "A large key lies here"
+  keywords: ["key","ancient"]
+  description: "A large key lies here"
+  type: KEY
+- id: o20017
+  name: "key ancient"
+  roomDesc: "A large key lies here"
+  keywords: ["key","ancient"]
+  description: "A large key lies here"
+  type: KEY

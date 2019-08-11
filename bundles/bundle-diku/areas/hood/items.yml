@@ -1,0 +1,88 @@
+- id: o2101
+  name: "ogre jacket"
+  roomDesc: "An Ogre gang jacket has been carelessly tossed here."
+  keywords: ["ogre","jacket"]
+  description: "An Ogre gang jacket has been carelessly tossed here."
+  type: LIGHTARMOR
+- id: o2102
+  name: "troll jacket"
+  roomDesc: "A Troll gang jacket has been carelessly tossed here."
+  keywords: ["troll","jacket"]
+  description: "A Troll gang jacket has been carelessly tossed here."
+  type: LIGHTARMOR
+- id: o2103
+  name: "chain"
+  roomDesc: "A hefty length of chain lies in a heap here on the floor."
+  keywords: ["chain"]
+  description: "A hefty length of chain lies in a heap here on the floor."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2104
+  name: "metal cover shield"
+  roomDesc: "A garbage can lid has been dropped on the floor."
+  keywords: ["metal","cover","shield"]
+  description: "A garbage can lid has been dropped on the floor."
+  type: SHIELD
+- id: o2105
+  name: "spray paint can"
+  roomDesc: "A can of spray paint has been discarded here."
+  keywords: ["spray","paint","can"]
+  description: "A can of spray paint has been discarded here."
+  type: WAND
+- id: o2106
+  name: "stiletto"
+  roomDesc: "A killer stiletto has been forgotten here."
+  keywords: ["stiletto"]
+  description: "A killer stiletto has been forgotten here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2107
+  name: "spiked heel boots"
+  roomDesc: "A pair of black leather boots with 6 inch spikes have been left here."
+  keywords: ["spiked","heel","boots"]
+  description: "A pair of black leather boots with 6 inch spikes have been left here."
+  type: MEDIUMARMOR
+- id: o2108
+  name: "mirror"
+  roomDesc: "A small mirror has been left here."
+  keywords: ["mirror"]
+  description: "A small mirror has been left here."
+  type: WAND
+- id: o2109
+  name: "gloves"
+  roomDesc: "A pair of soft lined leather gloves lie here."
+  keywords: ["gloves"]
+  description: "A pair of soft lined leather gloves lie here."
+  type: MEDIUMARMOR
+- id: o2110
+  name: "patrol club"
+  roomDesc: "A patrolman's club has carelessly been forgotten here."
+  keywords: ["patrol","club"]
+  description: "A patrolman's club has carelessly been forgotten here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o2111
+  name: "signet ring"
+  roomDesc: "A signet ring bearing the crest of a troll lies in the dust here."
+  keywords: ["signet","ring"]
+  description: "A signet ring bearing the crest of a troll lies in the dust here."
+  type: ACCESSORY
+- id: o2112
+  name: "knuckles brass"
+  roomDesc: "A set of brass knuckles left from a fight are here on the ground."
+  keywords: ["knuckles","brass"]
+  description: "A set of brass knuckles left from a fight are here on the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

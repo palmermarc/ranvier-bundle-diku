@@ -1,0 +1,24 @@
+---
+body: |
+  Advanced stances are a combination of two other basic stances - To use them, you
+  must be Grand Master in two basic stances, although you have to find out which
+  ones yourself! The types of stances are these :
+  
+  swallow - Quick and agile, this stance keeps you moving, and is the
+  ultimate defensive stance.
+  cobra - A well rounded stance, combining speed of offense with a
+  solid defense.
+  panther - Fast, and agile, leaping attacks that provide defence and rain
+  constant blows down on your opponant 
+  lion - A solid stance, that sacrifices defence for an all out offensive
+  assault.
+  grizzlie - A nasty combination of solid defence, with attacks of raw power
+  make this a stance to be feared.
+  falcon - Just like the falcon, this stance is agile, and yet able to
+  make powerful, punishing attacks.
+  
+  Remember, you have to find yourself out which basic stances you need to get
+  these. For syntax and information on basic stances, type : help STANCE
+  
+  - advancedstances
+  - astance

@@ -1,0 +1,12 @@
+---
+body: |
+  Syntax: cast transport <object> <character>
+  Syntax: Transport On/Off
+  
+  This spell will transport the specified object from your inventory to 
+  that of the specified character.
+  
+  You can also toggle transport on or off. This will allow you to prevent
+  players from sending you unwanted items. Admin will still be able to
+  send you whatever they want to :>
+  

@@ -1,0 +1,12 @@
+title: "Old Marsh"
+metadata:
+  id: 45
+  name: "Old Marsh"
+  createdBy: "generic"
+  starting_vnum: 8300
+  ending_vnum: 8349
+  item_requirements: 4000
+  filename: "marsh.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

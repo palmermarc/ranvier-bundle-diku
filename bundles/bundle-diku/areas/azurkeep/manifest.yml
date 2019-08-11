@@ -1,0 +1,12 @@
+title: "AzureKeep"
+metadata:
+  id: 5
+  name: "AzureKeep"
+  createdBy: "azureflame"
+  starting_vnum: 9700
+  ending_vnum: 9749
+  item_requirements: 32000
+  filename: "azurkeep.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

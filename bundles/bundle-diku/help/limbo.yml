@@ -1,0 +1,12 @@
+---
+body: |
+  LIMBO is a special room for players who do not input any commands 
+  after a certain amount of time. This is a built in safety feature 
+  for those players who are afk for long periods of time. Players 
+  who are in LIMBO cannot be reached by other players, and if they 
+  do not input any commands after a few minutes in LIMBO, they are 
+  automatically logged off the mud.
+  
+  see also: help AFK
+  
+  

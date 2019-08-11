@@ -1,0 +1,247 @@
+- id: m6400
+  keywords: ["servant"]
+  name: "a faceless servant"
+  description: >-
+    Someone lights the candles of the room.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "kree:o6401": 75
+        "kree:o6407": 75
+  metadata:
+    areaId: 41
+    exp_level: 6000
+    sex: 0
+- id: m6401
+  keywords: ["chef"]
+  name: "the chef"
+  description: >-
+    The chef prepares UNWELCOMED guests
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "kree:o6404": 75
+        "kree:o6403": 75
+        "kree:o6405": 75
+        "kree:o6406": 75
+        "kree:o6400": 75
+  metadata:
+    areaId: 41
+    exp_level: 6000
+    sex: 1
+- id: m6402
+  keywords: ["woman","guest"]
+  name: "a naked woman"
+  description: >-
+    A woman rises from the bed at your intrusion.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "kree:o6409": 75
+        "kree:o6408": 75
+  metadata:
+    areaId: 41
+    exp_level: 6000
+    sex: 2
+- id: m6403
+  keywords: ["servant"]
+  name: "a faceless servant"
+  description: >-
+    Someone lights the candles in the room.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "kree:o6407": 75
+        "kree:o6401": 75
+  metadata:
+    areaId: 41
+    exp_level: 6000
+    sex: 0
+- id: m6404
+  keywords: ["man","guest"]
+  name: "a naked man"
+  description: >-
+    A man stands near the bed protecting its occupant.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "kree:o6411": 75
+        "kree:o6410": 75
+  metadata:
+    areaId: 41
+    exp_level: 6000
+    sex: 1
+- id: m6405
+  keywords: ["guardian"]
+  name: "a guardian of stone"
+  description: >-
+    The guardian of stone stands before the doors.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "kree:o6413": 75
+        "kree:o6414": 75
+        "kree:o6412": 75
+        "kree:o6417": 75
+        "kree:o6418": 75
+        "kree:o6416": 75
+        "kree:o6415": 75
+        "kree:o6419": 75
+        "kree:o6420": 75
+  metadata:
+    areaId: 41
+    exp_level: 6000
+    sex: 2
+- id: m6406
+  keywords: ["starfire","healer"]
+  name: "Starfire, healer of the unwelcomed"
+  description: >-
+    Starfire rests here enjoying the quiet and the warmth of the fire.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "kree:o6421": 75
+  metadata:
+    areaId: 41
+    exp_level: 6000
+    sex: 1
+- id: m6407
+  keywords: ["tiger"]
+  name: "a white siberian tiger"
+  description: >-
+    The tiger lies casually near the bed waiting for his mistress.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "kree:o6422": 75
+  metadata:
+    areaId: 41
+    exp_level: 6000
+    sex: 1

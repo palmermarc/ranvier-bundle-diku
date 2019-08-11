@@ -1,0 +1,7 @@
+---
+body: |
+  Syntax: cast bless <character>
+  
+  This spell improves the to-hit roll and saving throw versus spell of the
+  target character by +1 each.
+  

@@ -1,0 +1,188 @@
+- id: o4200
+  name: "egyptian mace"
+  roomDesc: "A hierogylph-engraved mace has been left here."
+  keywords: ["egyptian","mace"]
+  description: "A hierogylph-engraved mace has been left here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o4201
+  name: "sand robes"
+  roomDesc: "Sand-colored robes lie here."
+  keywords: ["sand","robes"]
+  description: "Sand-colored robes lie here."
+  type: LIGHTARMOR
+- id: o4202
+  name: "obsidian dirk"
+  roomDesc: "A flat dirk made of chipped obsidian lies here."
+  keywords: ["obsidian","dirk"]
+  description: "A flat dirk made of chipped obsidian lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o4203
+  name: "cloth turban"
+  roomDesc: "A dirty cloth turban has been forgotten here."
+  keywords: ["cloth","turban"]
+  description: "A dirty cloth turban has been forgotten here."
+  type: LIGHTARMOR
+- id: o4204
+  name: "cloth wrappings"
+  roomDesc: "Long cloth wrappings lie on the ground in a pile."
+  keywords: ["cloth","wrappings"]
+  description: "Long cloth wrappings lie on the ground in a pile."
+  type: LIGHTARMOR
+- id: o4205
+  name: "bottle fluid"
+  roomDesc: "A dusty bottle lies here on the ground."
+  keywords: ["bottle","fluid"]
+  description: "A dusty bottle lies here on the ground."
+  type: POTION
+- id: o4206
+  name: "jar formaldehyde"
+  roomDesc: "A small jar lies here on the ground."
+  keywords: ["jar","formaldehyde"]
+  description: "A small jar lies here on the ground."
+  type: POTION
+- id: o4207
+  name: "ball fire"
+  roomDesc: "A little ball of fire hovers in the air before your eyes."
+  keywords: ["ball","fire"]
+  description: "A little ball of fire hovers in the air before your eyes."
+  type: LIGHT
+- id: o4208
+  name: "stone scimitar"
+  roomDesc: "A curved scimitar made of stone rests on the ground."
+  keywords: ["stone","scimitar"]
+  description: "A curved scimitar made of stone rests on the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o4209
+  name: "stone key"
+  roomDesc: "A stone key has been dropped here."
+  keywords: ["stone","key"]
+  description: "A stone key has been dropped here."
+  type: KEY
+- id: o4210
+  name: "stone sarcophagus"
+  roomDesc: "A mighty stone sarcophagus lies in the center of the tomb."
+  keywords: ["stone","sarcophagus"]
+  description: "A mighty stone sarcophagus lies in the center of the tomb."
+  type: CONTAINER
+  items: ["pyramid:o4211","pyramid:o4212"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o4211
+  name: "dust"
+  roomDesc: "A small pile of dust is being scattered by the breeze."
+  keywords: ["dust"]
+  description: "A small pile of dust is being scattered by the breeze."
+  type: TRASH
+- id: o4212
+  name: "scarab"
+  roomDesc: "A small emerald scarab lies here on the ground."
+  keywords: ["scarab"]
+  description: "A small emerald scarab lies here on the ground."
+  type: KEY
+- id: o4213
+  name: "lamp"
+  roomDesc: "A small, tarnished, battered lamp has been dropped here."
+  keywords: ["lamp"]
+  description: "A small, tarnished, battered lamp has been dropped here."
+  type: STAFF
+- id: o4214
+  name: "ankh"
+  roomDesc: "A small brass ankh has been left here."
+  keywords: ["ankh"]
+  description: "A small brass ankh has been left here."
+  type: TRASH
+- id: o4215
+  name: "book riddles"
+  roomDesc: "A medium-sized parchment book with well-worn pages lies here."
+  keywords: ["book","riddles"]
+  description: "A medium-sized parchment book with well-worn pages lies here."
+  type: SCROLL
+- id: o4216
+  name: "lion paw"
+  roomDesc: "The mighty paw of a lion-like creature has been dropped here."
+  keywords: ["lion","paw"]
+  description: "The mighty paw of a lion-like creature has been dropped here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o4217
+  name: "answer"
+  roomDesc: "A small piece of parchment covered in hieroglyphics lies here."
+  keywords: ["answer"]
+  description: "A small piece of parchment covered in hieroglyphics lies here."
+  type: KEY
+- id: o4218
+  name: "treasure"
+  roomDesc: "The massive treasure of the sphinx lies here in a big pile."
+  keywords: ["treasure"]
+  description: "The massive treasure of the sphinx lies here in a big pile."
+  type: MONEY
+- id: o4219
+  name: "pile sand"
+  roomDesc: "You see a small pile of sand."
+  keywords: ["pile","sand"]
+  description: "You see a small pile of sand."
+  type: MONEY
+- id: o4220
+  name: "curse mummy"
+  roomDesc: "Some fortunate soul has escaped the mummy's curse, for now."
+  keywords: ["curse","mummy"]
+  description: "Some fortunate soul has escaped the mummy's curse, for now."
+  type: TRASH
+- id: o4221
+  name: "small elixir"
+  roomDesc: "A small glass elixir lies under your feet."
+  keywords: ["small","elixir"]
+  description: "A small glass elixir lies under your feet."
+  type: POTION
+- id: o4222
+  name: "golden mask"
+  roomDesc: "A beautiful, intricately detailed mask has been forgotten here."
+  keywords: ["golden","mask"]
+  description: "A beautiful, intricately detailed mask has been forgotten here."
+  type: LIGHTARMOR
+- id: o4223
+  name: "diamond"
+  roomDesc: ""
+  keywords: ["diamond"]
+  description: ""
+  type: TRASH
+- id: o4224
+  name: "sun wand"
+  roomDesc: "A small length of brass shines here with its own light."
+  keywords: ["sun","wand"]
+  description: "A small length of brass shines here with its own light."
+  type: WAND
+- id: o4225
+  name: "sandy ring"
+  roomDesc: "A small sandy-colored ring has been carelessly dropped here."
+  keywords: ["sandy","ring"]
+  description: "A small sandy-colored ring has been carelessly dropped here."
+  type: ACCESSORY
+- id: o4226
+  name: "golden sphinx"
+  roomDesc: "A small golden sphinx glints in the light."
+  keywords: ["golden","sphinx"]
+  description: "A small golden sphinx glints in the light."
+  type: TREASURE
+- id: o4227
+  name: "spinhxian leggings"
+  roomDesc: "Massive leggings formed from the body of a sphinx stand here."
+  keywords: ["spinhxian","leggings"]
+  description: "Massive leggings formed from the body of a sphinx stand here."
+  type: HEAVYARMOR

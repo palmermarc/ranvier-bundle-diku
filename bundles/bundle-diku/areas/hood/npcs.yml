@@ -1,0 +1,237 @@
+- id: m2101
+  keywords: ["ogre","gang","member"]
+  name: "a gang member"
+  description: >-
+    A member of the Ogres wanders about here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "hood:o2101": 75
+  metadata:
+    areaId: 35
+    exp_level: 8000
+    sex: 1
+- id: m2102
+  keywords: ["troll","gang","member"]
+  name: "a gang member"
+  description: >-
+    A member of the Trolls wanders about here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 199.5
+          max: 220.5
+      pools:
+        "hood:o2102": 75
+  metadata:
+    areaId: 35
+    exp_level: 8000
+    sex: 1
+- id: m2103
+  keywords: ["gang","leader"]
+  name: "the gang leader"
+  description: >-
+    The gang leader is not pleased you found his hideout!
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "hood:o2111": 75
+        "hood:o2106": 75
+        "hood:o2112": 75
+  metadata:
+    areaId: 35
+    exp_level: 8000
+    sex: 1
+- id: m2104
+  keywords: ["bruiser"]
+  name: "a bruiser"
+  description: >-
+    A big, mean bruiser is looking for limbs to break.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -333
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+      pools:
+        "hood:o2104": 75
+        "hood:o2103": 75
+        "hood:o2109": 75
+        "hood:o2111": 75
+  metadata:
+    areaId: 35
+    exp_level: 8000
+    sex: 1
+- id: m2105
+  keywords: ["doll"]
+  name: "a doll"
+  description: >-
+    A gang doll looks naughty and nice.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "hood:o2108": 75
+        "hood:o2107": 75
+  metadata:
+    areaId: 35
+    exp_level: 8000
+    sex: 2
+- id: m2106
+  keywords: ["patrolman","patrol","man"]
+  name: "a patrolman"
+  description: >-
+    A patrolman is trying to keep the peace.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: 700
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 6650
+          max: 7350
+      pools:
+        "hood:o2110": 75
+  metadata:
+    areaId: 35
+    exp_level: 8000
+    sex: 1
+- id: m2107
+  keywords: ["vandal"]
+  name: "a vandal"
+  description: >-
+    A vandal is spray painting pro-gang slogans on the wall here.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "hood:o2105": 75
+  metadata:
+    areaId: 35
+    exp_level: 8000
+    sex: 1
+- id: m2108
+  keywords: ["dog","pit","bull","pitbull"]
+  name: "a pitbull"
+  description: >-
+    A vicious pitbull is foaming at the mouth in rabid anticipation.
+  level: 135
+  attributes:
+    health: 9500
+    armor: 1500
+    hitroll: 200
+    damroll: 150
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 35
+    exp_level: 8000
+    sex: 1

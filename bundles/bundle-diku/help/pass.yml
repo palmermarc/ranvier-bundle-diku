@@ -1,0 +1,7 @@
+---
+body: |
+  Syntax: cast 'pass door'
+  
+  This spell enables the caster to pass through closed doors.
+  
+  - passdoor

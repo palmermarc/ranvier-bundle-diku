@@ -1,0 +1,252 @@
+- id: o25500
+  name: "key iron"
+  roomDesc: "An iron key has been left here"
+  keywords: ["key","iron"]
+  description: "An iron key has been left here"
+  type: KEY
+- id: o25501
+  name: "bracer leather"
+  roomDesc: "A scrap of leather lies here"
+  keywords: ["bracer","leather"]
+  description: "A scrap of leather lies here"
+  type: MEDIUMARMOR
+- id: o25502
+  name: "bracer leather"
+  roomDesc: "A scrap of leather lies here"
+  keywords: ["bracer","leather"]
+  description: "A scrap of leather lies here"
+  type: MEDIUMARMOR
+- id: o25503
+  name: "bracer bone"
+  roomDesc: "A piece of bone armour lies here"
+  keywords: ["bracer","bone"]
+  description: "A piece of bone armour lies here"
+  type: MEDIUMARMOR
+- id: o25504
+  name: "bracer chitin"
+  roomDesc: "Some bone like armour lies here"
+  keywords: ["bracer","chitin"]
+  description: "Some bone like armour lies here"
+  type: HEAVYARMOR
+- id: o25505
+  name: "greaves leather"
+  roomDesc: "A scrap of leather has been left here"
+  keywords: ["greaves","leather"]
+  description: "A scrap of leather has been left here"
+  type: MEDIUMARMOR
+- id: o25506
+  name: "greaves leather"
+  roomDesc: "A scrap of leather lies here"
+  keywords: ["greaves","leather"]
+  description: "A scrap of leather lies here"
+  type: MEDIUMARMOR
+- id: o25507
+  name: "greaves bone"
+  roomDesc: "A piece of bone armour lies here"
+  keywords: ["greaves","bone"]
+  description: "A piece of bone armour lies here"
+  type: MEDIUMARMOR
+- id: o25508
+  name: "greaves chitin"
+  roomDesc: "Some bone like armour lies here"
+  keywords: ["greaves","chitin"]
+  description: "Some bone like armour lies here"
+  type: HEAVYARMOR
+- id: o25509
+  name: "belt leather"
+  roomDesc: "A scrap of leather lies here"
+  keywords: ["belt","leather"]
+  description: "A scrap of leather lies here"
+  type: ACCESSORY
+- id: o25510
+  name: "belt leather"
+  roomDesc: "A scrap of leather lies here"
+  keywords: ["belt","leather"]
+  description: "A scrap of leather lies here"
+  type: ACCESSORY
+- id: o25511
+  name: "belt hide"
+  roomDesc: "A scrap of leather lies here"
+  keywords: ["belt","hide"]
+  description: "A scrap of leather lies here"
+  type: ACCESSORY
+- id: o25512
+  name: "belt hide"
+  roomDesc: "A scrap of leather lies here"
+  keywords: ["belt","hide"]
+  description: "A scrap of leather lies here"
+  type: ACCESSORY
+- id: o25513
+  name: "cloak leather"
+  roomDesc: "A scrap of leather lies here"
+  keywords: ["cloak","leather"]
+  description: "A scrap of leather lies here"
+  type: ACCESSORY
+- id: o25514
+  name: "cloak leather"
+  roomDesc: "A scrap of leather lies here"
+  keywords: ["cloak","leather"]
+  description: "A scrap of leather lies here"
+  type: ACCESSORY
+- id: o25515
+  name: "cloak hide"
+  roomDesc: "A scrap of leather lies here"
+  keywords: ["cloak","hide"]
+  description: "A scrap of leather lies here"
+  type: ACCESSORY
+- id: o25516
+  name: "torc copper"
+  roomDesc: "A copper neck band lies here"
+  keywords: ["torc","copper"]
+  description: "A copper neck band lies here"
+  type: ACCESSORY
+- id: o25517
+  name: "torc silver"
+  roomDesc: "A silvery neck guard lies here"
+  keywords: ["torc","silver"]
+  description: "A silvery neck guard lies here"
+  type: ACCESSORY
+- id: o25518
+  name: "torc gold"
+  roomDesc: "A golden neck guard lies here"
+  keywords: ["torc","gold"]
+  description: "A golden neck guard lies here"
+  type: ACCESSORY
+- id: o25519
+  name: "symbol demonic"
+  roomDesc: "A large pendant radiates evil"
+  keywords: ["symbol","demonic"]
+  description: "A large pendant radiates evil"
+  type: ACCESSORY
+- id: o25520
+  name: "skull demon bone"
+  roomDesc: "A piece of bone armour lies here"
+  keywords: ["skull","demon","bone"]
+  description: "A piece of bone armour lies here"
+  type: MEDIUMARMOR
+- id: o25521
+  name: "gythka"
+  roomDesc: "A strange polearm lies here"
+  keywords: ["gythka"]
+  description: "A strange polearm lies here"
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o25522
+  name: "gythka"
+  roomDesc: "A strange polearm lies here"
+  keywords: ["gythka"]
+  description: "A strange polearm lies here"
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o25523
+  name: "gythka"
+  roomDesc: "A strange polearm lies here"
+  keywords: ["gythka"]
+  description: "A strange polearm lies here"
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o25524
+  name: "gythka"
+  roomDesc: "A strange polearm lies here"
+  keywords: ["gythka"]
+  description: "A strange polearm lies here"
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o25525
+  name: "chaktcha"
+  roomDesc: "A strange throwing wedge lies here"
+  keywords: ["chaktcha"]
+  description: "A strange throwing wedge lies here"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o25526
+  name: "chaktcha"
+  roomDesc: "A strange throwing wedge lies here"
+  keywords: ["chaktcha"]
+  description: "A strange throwing wedge lies here"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o25527
+  name: "shield leather"
+  roomDesc: "A large piece of hide lies here"
+  keywords: ["shield","leather"]
+  description: "A large piece of hide lies here"
+  type: SHIELD
+- id: o25528
+  name: "shield hide"
+  roomDesc: "A large piece of hide lies here"
+  keywords: ["shield","hide"]
+  description: "A large piece of hide lies here"
+  type: SHIELD
+- id: o25529
+  name: "shield chitin"
+  roomDesc: "Some bonelike armour lies here"
+  keywords: ["shield","chitin"]
+  description: "Some bonelike armour lies here"
+  type: SHIELD
+- id: o25530
+  name: "jerky elf"
+  roomDesc: "A strip of dried meat lies here "
+  keywords: ["jerky","elf"]
+  description: "A strip of dried meat lies here "
+  type: FOOD
+- id: o25531
+  name: "canteen leather"
+  roomDesc: "A leather waterskin lies here"
+  keywords: ["canteen","leather"]
+  description: "A leather waterskin lies here"
+  type: DRINKCON
+- id: o25532
+  name: "light ball"
+  roomDesc: "A bright ball of light shimmers in the air"
+  keywords: ["light","ball"]
+  description: "A bright ball of light shimmers in the air"
+  type: LIGHT
+- id: o25533
+  name: "scroll"
+  roomDesc: "A tightly rolled scroll lies here"
+  keywords: ["scroll"]
+  description: "A tightly rolled scroll lies here"
+  type: SCROLL
+- id: o25534
+  name: "wand ebony"
+  roomDesc: "A dark black rod lies here"
+  keywords: ["wand","ebony"]
+  description: "A dark black rod lies here"
+  type: WAND
+- id: o25535
+  name: "baleflower rose"
+  roomDesc: "A dark rose gives off an intense scent"
+  keywords: ["baleflower","rose"]
+  description: "A dark rose gives off an intense scent"
+  type: TREASURE
+- id: o25536
+  name: "dwarf pickle"
+  roomDesc: "A jar of preserved meat is here"
+  keywords: ["dwarf","pickle"]
+  description: "A jar of preserved meat is here"
+  type: FOOD
+- id: o25537
+  name: "key mystical"
+  roomDesc: "A key of unearthly origin is here"
+  keywords: ["key","mystical"]
+  description: "A key of unearthly origin is here"
+  type: KEY

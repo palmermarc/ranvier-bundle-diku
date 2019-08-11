@@ -1,0 +1,12 @@
+title: "The Elysium"
+metadata:
+  id: 25
+  name: "The Elysium"
+  createdBy: "azazel"
+  starting_vnum: 26300
+  ending_vnum: 26349
+  item_requirements: 0
+  filename: "elysium.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

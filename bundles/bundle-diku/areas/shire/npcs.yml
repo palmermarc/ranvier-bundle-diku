@@ -1,0 +1,853 @@
+- id: m1100
+  keywords: ["elven","wizard"]
+  name: "the Elven Wizard"
+  description: >-
+    An Elven Wizard is here, creating fireworks for the festivities.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 2003.55
+          max: 2214.45
+      pools:
+        - "shire:o1104": 75
+        - "shire:o1100": 75
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1101
+  keywords: ["ring","keeper"]
+  name: "the Keeper of the Ring"
+  description: >-
+    The Keeper of the Ring is here, guarding his treasure jealously.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1169.45
+          max: 1292.55
+      pools:
+        - "shire:o1101": 75
+        - "shire:o1105": 75
+        - "shire:o623": 75
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1102
+  keywords: ["farmer","gamgee"]
+  name: "Farmer Gamgee"
+  description: >-
+    Farmer Gamgee sniffs the air, wondering if harvest time is near.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 350
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1103
+  keywords: ["toddler"]
+  name: "a toddler"
+  description: >-
+    A toddler crawls about, looking for something to chew on.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1104
+  keywords: ["nursemaid"]
+  name: "a nursemaid"
+  description: >-
+    A nursemaid wanders about, trying to keep track of all the toddlers.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 28.5
+          max: 31.5
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 2
+- id: m1105
+  keywords: ["cow"]
+  name: "a cow"
+  description: >-
+    A cow is here, chewing her cud.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 0
+- id: m1106
+  keywords: ["pig"]
+  name: "a pig"
+  description: >-
+    A pig wallows in the mud and oinks in contentment.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 0
+- id: m1107
+  keywords: ["chicken"]
+  name: "a chicken"
+  description: >-
+    A chicken sits on her nest.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        - "shire:o1110": 75
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 2
+- id: m1108
+  keywords: ["bull"]
+  name: "a bull"
+  description: >-
+    A bull scratches at the ground and lowers his head.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1109
+  keywords: ["horse"]
+  name: "a horse"
+  description: >-
+    A horse becomes frightened by your presence.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 0
+- id: m1110
+  keywords: ["shiriff"]
+  name: "a shiriff"
+  description: >-
+    A shiriff of the Shire looks for signs of trouble.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 150
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        - "shire:o1109": 75
+        - "shire:o616": 75
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1111
+  keywords: ["shiriff"]
+  name: "a shiriff"
+  description: >-
+    A shiriff of the Shire looks for signs of trouble.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 150
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        - "shire:o616": 75
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1112
+  keywords: ["thain"]
+  name: "the Thain"
+  description: >-
+    The Thain commands respect from all Shire folk.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        - "shire:o1113": 75
+        - "shire:o616": 75
+        - "shire:o1108": 75
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1113
+  keywords: ["innkeeper"]
+  name: "the Innkeeper"
+  description: >-
+    The Innkeeper stands here awaiting your order.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 665
+          max: 735
+      pools:
+        - "shire:o1110": 75
+        - "shire:o648": 75
+        - "shire:o649": 75
+        - "shire:o650": 75
+  metadata:
+    vendor:
+      items:
+        "shire:o1110":
+          cost: 9
+          currency: gold
+        "shire:o648":
+          cost: 10
+          currency: gold
+        "shire:o649":
+          cost: 20
+          currency: gold
+        "shire:o650":
+          cost: 20
+          currency: gold
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1114
+  keywords: ["miller"]
+  name: "the Miller"
+  description: >-
+    The Miller is here, overseeing his busy mill workers.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 50
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1115
+  keywords: ["mill","worker"]
+  name: "the mill worker"
+  description: >-
+    The mill worker runs to and fro.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1116
+  keywords: ["elven","warrior"]
+  name: "the elven warrior"
+  description: >-
+    The elven warrior watches you solemnly.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        - "shire:o1106": 75
+        - "shire:o622": 75
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1117
+  keywords: ["dwarven","prince"]
+  name: "the dwarven prince"
+  description: >-
+    The dwarven prince sits here patiently for the return of his king.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 665
+          max: 735
+      pools:
+        - "shire:o1107": 75
+        - "shire:o621": 75
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1118
+  keywords: ["shopkeeper"]
+  name: "the shopkeeper"
+  description: >-
+    The shopkeeper smiles and patiently waits for you to buy something.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        - "shire:o1111": 75
+        - "shire:o1112": 75
+  metadata:
+    vendor:
+      items:
+        "shire:o1111":
+          cost: 50
+          currency: gold
+        "shire:o1112":
+          cost: 50
+          currency: gold
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1119
+  keywords: ["grocer"]
+  name: "the grocer"
+  description: >-
+    The grocer offers you the finest breads in all the land.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+      pools:
+        - "shire:o1103": 75
+  metadata:
+    vendor:
+      items:
+        "shire:o1103":
+          cost: 13
+          currency: gold
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1120
+  keywords: ["blacksmith"]
+  name: "the blacksmith"
+  description: >-
+    The blacksmith bids you welcome to his humble store.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 17100
+          max: 18900
+  metadata:
+    vendor:
+      items:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1121
+  keywords: ["battle","master"]
+  name: "the battle master"
+  description: >-
+    The battle master offers you the services of his fine trainees.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 350
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+      pools:
+        - "shire:o1113": 75
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1122
+  keywords: ["halfling","youth"]
+  name: "a halfling youth"
+  description: >-
+    A halfling youth stands here, waiting for nothing in particular.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1123
+  keywords: ["seasoned","adventurer"]
+  name: "a seasoned adventurer"
+  description: >-
+    A seasoned adventurer sits here, telling tales of fame and fortune.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 161.5
+          max: 178.5
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1124
+  keywords: ["local","gossip"]
+  name: "a local gossip"
+  description: >-
+    A local gossip asks you, "Have you heard the latest?"
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 23.75
+          max: 26.25
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 2
+- id: m1125
+  keywords: ["halfling","beauty"]
+  name: "a halfling beauty"
+  description: >-
+    A halfling beauty stares dreamily into your eyes.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 71.25
+          max: 78.75
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 2
+- id: m1126
+  keywords: ["trainee"]
+  name: "a trainee"
+  description: >-
+    A trainee screams a death cry as he delivers the fatal blow to a dummy.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        - "shire:o1113": 75
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1127
+  keywords: ["chic","urbanite"]
+  name: "a chic urbanite"
+  description: >-
+    A chic urbanite sits here, enjoying his class status.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1128
+  keywords: ["country","bumpkin"]
+  name: "a country bumpkin"
+  description: >-
+    A country bumpkin dreams of pipeweed and its many uses.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 66.5
+          max: 73.5
+      pools:
+        - "shire:o1103": 75
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1130
+  keywords: ["innkeeper"]
+  name: "the Innkeeper"
+  description: >-
+    The Innkeeper stands here awaiting your order.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        - "shire:o1110": 75
+        - "shire:o648": 75
+        - "shire:o649": 75
+        - "shire:o650": 75
+  metadata:
+    vendor:
+      items:
+        "shire:o1110":
+          cost: 9
+          currency: gold
+        "shire:o648":
+          cost: 10
+          currency: gold
+        "shire:o649":
+          cost: 20
+          currency: gold
+        "shire:o650":
+          cost: 20
+          currency: gold
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1131
+  keywords: ["receptionist"]
+  name: "the receptionist"
+  description: >-
+    The receptionist sits here, signing forms.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 200
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 66.5
+          max: 73.5
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1
+- id: m1132
+  keywords: ["shiriff"]
+  name: "a shiriff"
+  description: >-
+    A shiriff of the Shire looks for the lost halfling youth.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 150
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+  metadata:
+    areaId: 69
+    exp_level: 4000
+    sex: 1

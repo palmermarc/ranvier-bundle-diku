@@ -1,0 +1,363 @@
+- id: r1250
+  title: "Entrance to the Shadow Grove "
+  description: >-
+    Before you, the grove of shadows lies. Giant grey trees are all that
+    can be seen through the thick shadows. A great sense of both power and
+    menace permeates the surrounding area. You have a strange urge to turn
+    back and go back the way you've come.
+      A small path leads north into the shadows and back south to the road.
+  exits:
+    - roomId: "shadow:r1258"
+      direction: north
+    - roomId: "haon:r6137"
+      direction: south
+- id: r1251
+  title: "The Shadow Grove"
+  description: >-
+    You are inside the shadow grove. Giant trees seem to glare at you
+    from all sides. The shadowy mist obscures most of your vision. Strange
+    sounds of moaning and growling come from all directions.
+      All exits lead into shadows, you are very confused.
+  exits:
+    - roomId: "shadow:r1253"
+      direction: north
+    - roomId: "shadow:r1252"
+      direction: south
+    - roomId: "shadow:r1257"
+      direction: east
+    - roomId: "shadow:r1260"
+      direction: west
+- id: r1252
+  title: "The Shadow Grove"
+  description: >-
+    You are inside the shadow grove. Giant trees seem to glare at you
+    from all sides. The shadowy mist obscures most of your vision. Strange
+    sounds moaning and growling come from all directions.
+      All exits lead into shadows, you are very confused.
+  exits:
+    - roomId: "shadow:r1253"
+      direction: north
+    - roomId: "shadow:r1251"
+      direction: south
+    - roomId: "hitower:r1311"
+      direction: east
+    - roomId: "shadow:r1255"
+      direction: west
+  npcs:
+    - id: "shadow:m1250"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1253
+  title: "The Shadow Grove"
+  description: >-
+    You are inside the shadow grove. Giant trees seem the glare at you
+    from all sides. The shadowy mist obscures most of your vision. Strange
+    sounds of moaning and growling come from all directions.
+      All exits lead into shadows, you are very confused.
+  exits:
+    - roomId: "shadow:r1252"
+      direction: north
+    - roomId: "shadow:r1259"
+      direction: south
+    - roomId: "shadow:r1256"
+      direction: east
+    - roomId: "shadow:r1251"
+      direction: west
+- id: r1254
+  title: "The Shadow Grove"
+  description: >-
+    You are inside the shadow grove. Giant trees seem to glare at you
+    from all sides. The shadowy mist obscures most of your vision. Strange
+    sounds of moaning and growling come from all directions.
+      All exits lead into shadows, you are very confused.
+  exits:
+    - roomId: "shadow:r1255"
+      direction: north
+    - roomId: "shadow:r1251"
+      direction: south
+    - roomId: "draconia:r2201"
+      direction: east
+    - roomId: "shadow:r1257"
+      direction: west
+  npcs:
+    - id: "shadow:m1250"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1255
+  title: "The Shadow Grove"
+  description: >-
+    You are inside the shadow grove. Giant trees seem to glare at you
+    from all sides. The shadowy mist obscures most of your vision. Strange
+    sounds of moaning and growling come from all directions.
+      All exits lead into shadows, you are very confused.
+  exits:
+    - roomId: "shadow:r1258"
+      direction: north
+    - roomId: "shadow:r1252"
+      direction: south
+    - roomId: "shadow:r1254"
+      direction: east
+    - roomId: "shadow:r1256"
+      direction: west
+- id: r1256
+  title: "The Shadow Grove"
+  description: >-
+    You are inside the shadow grove. Giant trees seem to glare at you
+    from all sides. The shadowy mist obscures most of your vision. Strange
+    sounds of moaning and growling come from all directions.
+      All exits lead into shadows, you are very confused.
+  exits:
+    - roomId: "shadow:r1253"
+      direction: north
+    - roomId: "shadow:r1259"
+      direction: south
+    - roomId: "shadow:r1255"
+      direction: east
+    - roomId: "galaxy:r9301"
+      direction: west
+  npcs:
+    - id: "shadow:m1250"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1257
+  title: "The Shadow Grove"
+  description: >-
+    You are inside the shadow grove. Giant trees seem to glare at you
+    from all sides. The shadowy mist obscures most of your vision. Strange
+    sounds of moaning and growling come from all directions.
+      All exits lead into shadows, you are very confused.
+  exits:
+    - roomId: "shadow:r1259"
+      direction: north
+    - roomId: "shadow:r1251"
+      direction: south
+    - roomId: "shadow:r1254"
+      direction: east
+    - roomId: "shadow:r1258"
+      direction: west
+  npcs:
+    - id: "shadow:m1252"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1258
+  title: "The Shadow Grove"
+  description: >-
+    You are inside the shadow grove. Giant trees seem to glare at you
+    from all sides. The shadowy mist obscures most of your vision. Strange
+    sounds of moaning and growling come from all directions.
+      All exits lead into shadows, you are very confused.
+  exits:
+    - roomId: "shadow:r1259"
+      direction: north
+    - roomId: "shadow:r1250"
+      direction: south
+    - roomId: "shadow:r1255"
+      direction: east
+    - roomId: "shadow:r1257"
+      direction: west
+  npcs:
+    - id: "shadow:m1250"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1259
+  title: "The Shadow Grove"
+  description: >-
+    You are inside the shadow grove. Giant trees seem to glare at you
+    from all sides. The shadowy mist obscures most of your vision. Strange
+    sounds of moaning and growling come from all directions.
+      All directions lead into shadows, you are very confused.
+  exits:
+    - roomId: "shadow:r1258"
+      direction: north
+    - roomId: "shadow:r1253"
+      direction: south
+    - roomId: "shadow:r1256"
+      direction: east
+    - roomId: "shadow:r1257"
+      direction: west
+  npcs:
+    - id: "shadow:m1250"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1260
+  title: "Hall of Mirrors"
+  description: >-
+    You are inside surrounded by massive mirrors on either wall,
+    a glossy black floor, and the ceiling is the same black color.
+    Inside the mirrors it appears as if there are shadows dancing around.
+      Etched into the farthest mirror is the symbol for the clan Lasombra.
+  exits:
+    - roomId: "shadow:r1251"
+      direction: north
+- id: r1261
+  title: "Archway of Ascension"
+  description: >-
+    Entrance to the Lasombra haven, an ancient stone
+    archway is erected here.  Upon this timeless
+    architecture is a prophecy scribed in a lost tongue
+    known only to the clan and those they chose to know. 
+    It reads:
+                         Darkness shall reign eternal,
+                         And it will know only one name
+     
+                                   Lasombra 
+    
+  exits:
+    - roomId: "shadow:r1263"
+      direction: south
+- id: r1262
+  title: "Library of the Damned"
+  description: >-
+    As you enter the library, your jaw drops as you scan
+    the immense collection of books before you.  A single
+    iron staircase spirals downward allowing access to the
+    countless levels of this room.  You brows the books
+    within your reach and you discover literature thought
+    to be lost for centuries.  You grin with a new
+    knowledge as your realize this wisdom was never lost.
+  exits:
+    - roomId: "shadow:r1265"
+      direction: south
+    - roomId: "shadow:r1263"
+      direction: east
+  items:
+    - id: "shadow:o1250"
+      respawnChance: 75
+- id: r1263
+  title: "An Eerie Corridor"
+  description: >-
+    A long seemingly endless hallway extends into the
+    darkness ahead of you.  As you walk along this dimly
+    lit passage, you begin to hear faint cries and screams
+    echoing from a distance.  You pause and listen closely
+    but there is only silence.  You hasten your pace
+    hoping it really was just your imagination.
+  exits:
+    - roomId: "shadow:r1261"
+      direction: north
+    - roomId: "shadow:r1266"
+      direction: south
+    - roomId: "shadow:r1264"
+      direction: east
+    - roomId: "shadow:r1262"
+      direction: west
+- id: r1264
+  title: "Lasombra Conclave House"
+  description: >-
+    Over the ages, the several rings of onyx benches
+    within this room have housed the Lasombra conclaves. 
+    Here clan members gather to discuss issues of
+    importance involving the fate of the clan, kindred,
+    and kind alike.
+  exits:
+    - roomId: "shadow:r1267"
+      direction: south
+    - roomId: "shadow:r1263"
+      direction: west
+- id: r1265
+  title: "Alcove of Scribes"
+  description: >-
+    Just south of the library, this room is where
+    Lasombra come to write of the knowledge they have
+    gained.  near the entrance are stacks of blank
+    journals and a variety of pens readily available for
+    use.  Beyond this point are several private booths
+    lined along the walls to allow members a thoughtful
+    and productive atmosphere.
+  exits:
+    - roomId: "shadow:r1262"
+      direction: north
+    - roomId: "shadow:r1268"
+      direction: south
+    - roomId: "shadow:r1266"
+      direction: east
+- id: r1266
+  title: "Chasm of Regret"
+  description: >-
+    Here at the heart of the Lasombra haven lies a great
+    chasm descending far into the depths of this world. 
+    Believed by some to be a gateway to hell, only those
+    foolish to have earned the clans wraith know what
+    pain and torment await within it.  Alas, they will
+    never return to tell of this.
+  exits:
+    - roomId: "shadow:r1263"
+      direction: north
+    - roomId: "shadow:r1269"
+      direction: south
+    - roomId: "shadow:r1267"
+      direction: east
+    - roomId: "shadow:r1265"
+      direction: west
+- id: r1267
+  title: "Chamber of Sleeping Wisdom"
+  description: >-
+    A cool mist fills the air of this dark quiet tomb. 
+    While the sun rules the sky, the clan princes and a
+    number of members come here to rest and regenerate.
+  exits:
+    - roomId: "shadow:r1264"
+      direction: north
+    - roomId: "shadow:r1270"
+      direction: south
+    - roomId: "shadow:r1266"
+      direction: west
+- id: r1268
+  title: "Hall of the Neonate"
+  description: >-
+    Young Lasombra are here busily learning the ways of
+    the clan.  Some are enhancing their fighting skills
+    while others listen tentatively to a clan elder as he
+    speaks of ancient days.  While clan members spend at
+    least their first 100 years visiting this hall, all
+    members return here often to revitalize their
+    learnings.
+  exits:
+    - roomId: "shadow:r1265"
+      direction: north
+    - roomId: "shadow:r1269"
+      direction: east
+- id: r1269
+  title: "An Eerie Corridor"
+  description: >-
+    A long seemingly endless hallway extends into the
+    darkness ahead of you.  As you walk along this dimly
+    lit passage, you begin to hear faint cries and screams
+    echoing from a distance.  You pause and listen closely
+    but there is only silence.  You hasten your pace
+    hoping it really was just your imagination.
+  exits:
+    - roomId: "shadow:r1266"
+      direction: north
+    - roomId: "shadow:r1271"
+      direction: south
+    - roomId: "shadow:r1270"
+      direction: east
+    - roomId: "shadow:r1268"
+      direction: west
+- id: r1270
+  title: "Garden of Sorrow"
+  description: >-
+    Somewhat out of place within the darkness of the
+    Lasombra haven, a beautiful and brilliant garden of
+    rare flora has been maintained here throughout the
+    centuries.  Here clan members come to remember their
+    beloved brethren who have passed on to the eternal
+    sleep.
+  exits:
+    - roomId: "shadow:r1267"
+      direction: north
+    - roomId: "shadow:r1269"
+      direction: west
+- id: r1271
+  title: "The Vault"
+  description: >-
+    Seek and you shall find all things imaginable here
+    within the walls of the Lasombra vault.  With the
+    acquisition of knowledge come the gains of the
+    material world.  Legendary weapons, forgotten art, and
+    a vast assortment of other artifacts have been stored
+    here over the centuries.
+  exits:
+    - roomId: "shadow:r1269"
+      direction: north

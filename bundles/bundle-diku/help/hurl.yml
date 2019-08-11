@@ -1,0 +1,12 @@
+---
+body: |
+  Syntax: hurl <name>
+  Syntax: hurl <name> <direction>
+  
+  This ability allows you to hurl the target into walls, through exits, or 
+  through doors. Hurling someone through an exit does a little damage. 
+  Hurling them into walls does twice as much, and hurling them through 
+  doors does three times as much. If you don't specify a direction to hurl 
+  the target, it will be random (north, south, east or west). You cannot 
+  hurl someone who is already injured.
+  

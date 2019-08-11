@@ -1,0 +1,14 @@
+---
+body: |
+  Syntax: compare <object-1> <object-2>
+  Syntax: compare <object>
+  
+  COMPARE compares two objects in your inventory. If both objects are weapons,
+  it will report the one with the better average damage. If both objects are
+  armor, it will report the one with the better armor class.
+  
+  COMPARE with one argument compares an object in your inventory to the object
+  you are currently wearing or wielding of the same type.
+  
+  COMPARE doesn't consider any special modifiers of the objects.
+  

@@ -1,0 +1,1163 @@
+- id: r1501
+  title: "Entrance to Gnome Village"
+  description: >-
+    You stand on a dusty path that leads north and east.  To the east you hear
+    the sounds of a small village.
+  exits:
+    - roomId: "midennir:r3503"
+      direction: north
+    - roomId: "gnome:r1502"
+      direction: east
+- id: r1502
+  title: "A Dusty Path "
+  description: >-
+    This is a path leading into the village.  It continues east and west and
+    there is a small house to the north.
+  exits:
+    - roomId: "gnome:r1509"
+      direction: north
+    - roomId: "gnome:r1503"
+      direction: east
+    - roomId: "gnome:r1501"
+      direction: west
+- id: r1503
+  title: "A Road in the Village"
+  description: >-
+    This road runs north and south through the center of the village.  There
+    are a few people moving around, but not many.
+  exits:
+    - roomId: "gnome:r1505"
+      direction: north
+    - roomId: "gnome:r1507"
+      direction: south
+    - roomId: "gnome:r1504"
+      direction: east
+    - roomId: "gnome:r1502"
+      direction: west
+  npcs:
+    - id: "gnome:m1502"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1504
+  title: "A Dusty Path"
+  description: >-
+    You are on a dusty path on the far side of the village.  Houses are to the
+    north and south, while the path continues east.  There is a sign here.
+  exits:
+    - roomId: "gnome:r1512"
+      direction: north
+    - roomId: "gnome:r1513"
+      direction: south
+    - roomId: "gnome:r1559"
+      direction: east
+    - roomId: "gnome:r1503"
+      direction: west
+- id: r1505
+  title: "A Road in the Village"
+  description: >-
+    This road runs north and south through the center of the village.  There
+    are a few people moving around, but not many.
+  exits:
+    - roomId: "gnome:r1506"
+      direction: north
+    - roomId: "gnome:r1503"
+      direction: south
+    - roomId: "gnome:r1511"
+      direction: east
+    - roomId: "gnome:r1510"
+      direction: west
+  npcs:
+    - id: "gnome:m1502"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1506
+  title: "A Road in the Village"
+  description: >-
+    This road runs north and south through the center of the village.  There
+    are a few people moving around, but not many.
+  exits:
+    - roomId: "gnome:r1526"
+      direction: north
+    - roomId: "gnome:r1505"
+      direction: south
+  npcs:
+    - id: "gnome:m1502"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1507
+  title: "A Road in the Village"
+  description: >-
+    This road runs north and south through the center of the village.  There
+    are a few people moving around, but not many.
+  exits:
+    - roomId: "gnome:r1503"
+      direction: north
+    - roomId: "gnome:r1508"
+      direction: south
+    - roomId: "gnome:r1514"
+      direction: west
+- id: r1508
+  title: "A Road in the Village"
+  description: >-
+    This road runs north and south through the center of the village.  There
+    are a few people moving around, but not many.
+  exits:
+    - roomId: "gnome:r1507"
+      direction: north
+    - roomId: "gnome:r1517"
+      direction: south
+    - roomId: "gnome:r1516"
+      direction: east
+    - roomId: "gnome:r1515"
+      direction: west
+- id: r1509
+  title: "A Small Gnome House"
+  description: >-
+    This is a small suburban house made from quality wood.  You can see the
+    expert workmanship that went into making it, but it lacks creativity.
+  exits:
+    - roomId: "gnome:r1502"
+      direction: south
+  npcs:
+    - id: "gnome:m1500"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "gnome:m1501"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1510
+  title: "A Small Gnome House"
+  description: >-
+    This is a small suburban house made from quality wood.  You can see the
+    expert workmanship that went into making it, but it lacks creativity.
+  exits:
+    - roomId: "gnome:r1505"
+      direction: east
+  npcs:
+    - id: "gnome:m1500"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "gnome:m1501"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1511
+  title: "A Small Gnome House"
+  description: >-
+    This is a small suburban house made from quality wood.  You can see the
+    expert workmanship that went into making it, but it lacks creativity.
+  exits:
+    - roomId: "gnome:r1505"
+      direction: west
+  npcs:
+    - id: "gnome:m1500"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "gnome:m1501"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1512
+  title: "A Small Gnome House"
+  description: >-
+    This is a small suburban house made from quality wood.  You can see the
+    expert workmanship that went into making it, but it lacks creativity.
+  exits:
+    - roomId: "gnome:r1504"
+      direction: south
+- id: r1513
+  title: "A Small Gnome House"
+  description: >-
+    This is a small suburban house made from quality wood.  You can see the
+    expert workmanship that went into making it, but it lacks creativity.
+  exits:
+    - roomId: "gnome:r1504"
+      direction: north
+  npcs:
+    - id: "gnome:m1503"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1514
+  title: "A Gnome Shop"
+  description: >-
+    You are in one of the several shops of this fine town.  The wares look fine,
+    but unfortunately the gnomes don't do business with outsiders.
+  exits:
+    - roomId: "gnome:r1507"
+      direction: east
+  npcs:
+    - id: "gnome:m1503"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1515
+  title: "A Gnome Shop"
+  description: >-
+    You are in one of the several shops of this fine town.  The wares look fine,
+    but unfortunately the gnomes don't do business with outsiders.
+  exits:
+    - roomId: "gnome:r1508"
+      direction: east
+  npcs:
+    - id: "gnome:m1503"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1516
+  title: "A Gnome Shop"
+  description: >-
+    You are in one of the several shops of this fine town.  The wares look fine,
+    but unfortunately the gnomes don't do business with outsiders.
+  exits:
+    - roomId: "gnome:r1508"
+      direction: west
+- id: r1517
+  title: "Path by a Stream"
+  description: >-
+    You are on a small path leading north and west, that is surrounded on the
+    other two sides by a small stream.  The water looks mighty cold.
+  exits:
+    - roomId: "gnome:r1508"
+      direction: north
+    - roomId: "gnome:r1520"
+      direction: south
+    - roomId: "gnome:r1518"
+      direction: west
+- id: r1518
+  title: "Path by a Stream"
+  description: >-
+    You are on a small east-west path.  The path shows new grass, as if it
+    has stopped being used sometime in the recent past.  A river is to the south,
+    and a small hut is to the west.
+  exits:
+    - roomId: "gnome:r1521"
+      direction: south
+    - roomId: "gnome:r1517"
+      direction: east
+    - roomId: "gnome:r1519"
+      direction: west
+- id: r1519
+  title: "A Small Hut"
+  description: >-
+    The hut is a mess!  Blood has stained the grass walls into a dark rich
+    crimson color.  Torn clothes and trash lie all around, and you think you
+    see a skeleton in the corner.
+  exits:
+    - roomId: "gnome:r1518"
+      direction: east
+  npcs:
+    - id: "gnome:m1504"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1520
+  title: "On the Stream"
+  description: >-
+    The stream is cold and frigid, yet it supports plenty of life beneath its
+    surface.  The current trickles west and there is a field to the south.
+  exits:
+    - roomId: "gnome:r1517"
+      direction: north
+    - roomId: "gnome:r1522"
+      direction: south
+    - roomId: "gnome:r1521"
+      direction: west
+- id: r1521
+  title: "On the Stream"
+  description: >-
+    The current here flows from the east, but a logjam blocks you from 
+    continuing onward.
+  exits:
+    - roomId: "gnome:r1518"
+      direction: north
+    - roomId: "gnome:r1520"
+      direction: east
+- id: r1522
+  title: "The Field of Mice's Dreams"
+  description: >-
+    This is a large green field of waist high grass.  You feel something
+    scurry over your feet.  There is a cave to the east.
+  exits:
+    - roomId: "gnome:r1520"
+      direction: north
+    - roomId: "gnome:r1523"
+      direction: east
+  npcs:
+    - id: "gnome:m1508"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "gnome:m1508"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r1523
+  title: "The Dark Cave"
+  description: >-
+    The cave gleams as your light reflects off of it.  As you squint your eyes
+    and try to look ahead, you think you see something move.
+  exits:
+    - roomId: "gnome:r1524"
+      direction: north
+    - roomId: "gnome:r1522"
+      direction: west
+- id: r1524
+  title: "Darker Cave"
+  description: >-
+    The cave gets even darker as your terror grows stronger.  You fear for your
+    life as something emerges out of the shadows.
+  exits:
+    - roomId: "gnome:r1523"
+      direction: south
+  npcs:
+    - id: "gnome:m1507"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1526
+  title: "A Dusty Path"
+  description: >-
+    You are on a well traveled path that leads in many directions.  To the north
+    is a large house, and to the west is a fortress.
+  exits:
+    - roomId: "gnome:r1558"
+      direction: north
+    - roomId: "gnome:r1506"
+      direction: south
+    - roomId: "gnome:r1527"
+      direction: west
+- id: r1527
+  title: "The Iron Gateway"
+  description: >-
+    You stand at the entrance to the gnome fortress.  The place seems to be
+    well fortified.
+  exits:
+    - roomId: "gnome:r1526"
+      direction: east
+    - roomId: "gnome:r1528"
+      direction: west
+  npcs:
+    - id: "gnome:m1504"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1528
+  title: "A Long Hallway"
+  description: >-
+    You are now inside of the fortress; you must be lucky that the guards 
+    haven't killed you.  As you glance around, you notice that the walls and
+    floors are spotlessly cleaned.  The barracks are to the north and a
+    storage room is to the south.
+  exits:
+    - roomId: "gnome:r1530"
+      direction: north
+    - roomId: "gnome:r1532"
+      direction: south
+    - roomId: "gnome:r1527"
+      direction: east
+    - roomId: "gnome:r1529"
+      direction: west
+- id: r1529
+  title: "A Long Hallway"
+  description: >-
+    You are now inside of the fortress; you must be lucky that the guards 
+    haven't killed you.  As you glance around, you notice that the walls and
+    floors are spotlessly cleaned.  A mess hall is to the south.
+  exits:
+    - roomId: "gnome:r1534"
+      direction: south
+    - roomId: "gnome:r1528"
+      direction: east
+    - roomId: "gnome:r1535"
+      direction: west
+- id: r1530
+  title: "The Barracks"
+  description: >-
+    You now stand in the sleeping quarters of the gnome guards.  Every bed is
+    made perfectly, and not single article of clothing is on the floor.  There
+    is a small storage room to the east.
+  exits:
+    - roomId: "gnome:r1528"
+      direction: south
+    - roomId: "gnome:r1531"
+      direction: east
+  npcs:
+    - id: "gnome:m1504"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "gnome:m1504"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1531
+  title: "A Small Storage Room"
+  description: >-
+    This is where the gnomes store all their spare clothing and armor.
+    There is not much here, but you might come up with something.
+  exits:
+    - roomId: "gnome:r1530"
+      direction: west
+- id: r1532
+  title: "A Small Storage Room"
+  description: >-
+    This is where the gnomes store all their spare weapons.  A door leads off
+    to the east.
+  exits:
+    - roomId: "gnome:r1528"
+      direction: north
+    - roomId: "gnome:r1533"
+      direction: east
+- id: r1533
+  title: "A Small Storage Room"
+  description: >-
+    This is yet another room for storing gnome stuff.  Maps and battle plans
+    are stored in neat stacks on the shelves.
+  exits:
+    - roomId: "gnome:r1532"
+      direction: west
+- id: r1534
+  title: "The Mess Hall"
+  description: >-
+    You are in the room where the guards come to get their grub.  The benches 
+    and tables are neatly cleaned and straightened, while shiny plates line
+    the walls.
+  exits:
+    - roomId: "gnome:r1529"
+      direction: north
+  npcs:
+    - id: "gnome:m1504"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1535
+  title: "A Small Room"
+  description: >-
+    This is a small plain room.  Its only interesting feature is a ladder down.
+  exits:
+    - roomId: "gnome:r1529"
+      direction: east
+    - roomId: "gnome:r1536"
+      direction: down
+- id: r1536
+  title: "A Small Unused Room"
+  description: >-
+    You stand in a small room in an unused section of the fortress.  The whole
+    room is coated with dust and cobwebs.  The ladder leads back up, and
+    a rusty door is to the east.
+  exits:
+    - roomId: "gnome:r1537"
+      direction: east
+    - roomId: "gnome:r1535"
+      direction: up
+- id: r1537
+  title: "Dark Hallway"
+  description: >-
+    You find yourself in a very old section of the fortress.  You must be the
+    first person to pass through here in years.  The hallway continues south
+    and a door leads off to the east.
+  exits:
+    - roomId: "gnome:r1539"
+      direction: south
+    - roomId: "gnome:r1538"
+      direction: east
+    - roomId: "gnome:r1536"
+      direction: west
+- id: r1538
+  title: "Torture Chamber"
+  description: >-
+    This is a room that was once used to extract lies out of helpless victims.
+    The machines look unused, but could still work.
+  exits:
+    - roomId: "gnome:r1537"
+      direction: west
+- id: r1539
+  title: "Dark Hallway"
+  description: >-
+    The hall continues in a north-south direction.  The floor is coated with
+    some kind of molded slime.  Doors lead east and west.
+  exits:
+    - roomId: "gnome:r1537"
+      direction: north
+    - roomId: "gnome:r1540"
+      direction: south
+    - roomId: "gnome:r1542"
+      direction: east
+    - roomId: "gnome:r1541"
+      direction: west
+- id: r1540
+  title: "Dark Hallway"
+  description: >-
+    The hall continues in a north-south direction.  The floor is coated with
+    some kind of molded slime.  Doors lead east and west.
+  exits:
+    - roomId: "gnome:r1539"
+      direction: north
+    - roomId: "gnome:r1543"
+      direction: south
+    - roomId: "gnome:r1544"
+      direction: east
+    - roomId: "gnome:r1545"
+      direction: west
+- id: r1541
+  title: "Prison Cell"
+  description: >-
+    You are in a dark and nasty prison cell.  Bodies lying on the floor give off
+    an unbearable stench.
+  exits:
+    - roomId: "gnome:r1539"
+      direction: east
+  npcs:
+    - id: "gnome:m1509"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1542
+  title: "Prison Cell"
+  description: >-
+    You are in a dark and nasty prison cell.  Bodies lying on the floor give off
+    an unbearable stench.
+  exits:
+    - roomId: "gnome:r1539"
+      direction: west
+  npcs:
+    - id: "gnome:m1510"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1543
+  title: "Prison Cell"
+  description: >-
+    You are in a dark and nasty prison cell.  Bodies lying on the floor give off
+    an unbearable stench.
+  exits:
+    - roomId: "gnome:r1540"
+      direction: north
+  npcs:
+    - id: "gnome:m1511"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r1544
+  title: "Prison Cell"
+  description: >-
+    You are in a dark and nasty prison cell.  Bodies lying on the floor give off
+    an unbearable stench.
+  exits:
+    - roomId: "gnome:r1540"
+      direction: west
+- id: r1545
+  title: "End of the Dark Hallway"
+  description: >-
+    You have reached the end of the dark hallway and maybe the end of your puny
+    life.  Something lumbers its way out of the shadows.
+  exits:
+    - roomId: "gnome:r1540"
+      direction: east
+    - roomId: "gnome:r1546"
+      direction: west
+  npcs:
+    - id: "gnome:m1512"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1546
+  title: "A Ladder"
+  description: >-
+    You have come into a vertical tunnel with a ladder.
+  exits:
+    - roomId: "gnome:r1545"
+      direction: east
+    - roomId: "gnome:r1547"
+      direction: down
+- id: r1547
+  title: "Lair"
+  description: >-
+    You have entered a new lair in the fortress.  Anything could be lurking
+    around the corner.
+  exits:
+    - roomId: "gnome:r1548"
+      direction: south
+    - roomId: "gnome:r1546"
+      direction: up
+- id: r1548
+  title: "A Damp Hallway"
+  description: >-
+    You are wandering in a dark, damp, twisting hallway.  The temperature
+    seems to be greater here, as well as your fear.
+  exits:
+    - roomId: "gnome:r1549"
+      direction: north
+    - roomId: "gnome:r1551"
+      direction: east
+    - roomId: "gnome:r1547"
+      direction: west
+  npcs:
+    - id: "gnome:m1513"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "gnome:m1514"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r1549
+  title: "A Damp Hallway"
+  description: >-
+    You are wandering in a dark, damp, twisting hallway.  The temperature
+    seems to be greater here, as well as your fear.
+  exits:
+    - roomId: "gnome:r1550"
+      direction: south
+    - roomId: "gnome:r1548"
+      direction: east
+- id: r1550
+  title: "A Damp Hallway"
+  description: >-
+    You are wandering in a dark, damp, twisting hallway.  The temperature
+    seems to be greater here, as well as your fear.
+  exits:
+    - roomId: "gnome:r1555"
+      direction: south
+    - roomId: "gnome:r1549"
+      direction: west
+  npcs:
+    - id: "gnome:m1513"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "gnome:m1514"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r1551
+  title: "A Damp Hallway"
+  description: >-
+    You are wandering in a dark, damp, twisting hallway.  The temperature
+    seems to be greater here, as well as your fear.
+  exits:
+    - roomId: "gnome:r1548"
+      direction: south
+    - roomId: "gnome:r1552"
+      direction: west
+  npcs:
+    - id: "gnome:m1513"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "gnome:m1514"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r1552
+  title: "A Damp Hallway"
+  description: >-
+    You are wandering in a dark, damp, twisting hallway.  The temperature
+    seems to be greater here, as well as your fear.
+  exits:
+    - roomId: "gnome:r1553"
+      direction: north
+    - roomId: "gnome:r1551"
+      direction: east
+- id: r1553
+  title: "A Damp Hallway"
+  description: >-
+    You are wandering in a dark, damp, twisting hallway.  The temperature
+    seems to be greater here, as well as your fear.
+  exits:
+    - roomId: "gnome:r1554"
+      direction: south
+    - roomId: "gnome:r1552"
+      direction: east
+  npcs:
+    - id: "gnome:m1513"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "gnome:m1514"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r1554
+  title: "A Damp Hallway"
+  description: >-
+    You are wandering in a dark, damp, twisting hallway.  The temperature
+    seems to be greater here, as well as your fear.
+  exits:
+    - roomId: "gnome:r1553"
+      direction: south
+    - roomId: "gnome:r1556"
+      direction: east
+    - roomId: "gnome:r1555"
+      direction: west
+- id: r1555
+  title: "A Damp Hallway"
+  description: >-
+    You are wandering in a dark, damp, twisting hallway.  The temperature
+    seems to be greater here, as well as your fear.
+  exits:
+    - roomId: "gnome:r1550"
+      direction: east
+    - roomId: "gnome:r1554"
+      direction: west
+  npcs:
+    - id: "gnome:m1513"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "gnome:m1514"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r1556
+  title: "The End of the Hallway"
+  description: >-
+    You make your way out of the hallway, just to find yourself in greater
+    danger.  Before you looms the source of the great heat.
+  exits:
+    - roomId: "gnome:r1554"
+      direction: south
+    - roomId: "gnome:r1557"
+      direction: east
+  npcs:
+    - id: "gnome:m1515"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1557
+  title: "The Altar"
+  description: >-
+    You finally reach the end of the maze.  There is a great altar here in the
+    shape of a bat.  A passageway leads off to the west.
+  exits:
+    - roomId: "gnome:r1556"
+      direction: west
+  items:
+    - id: "gnome:o1517"
+      respawnChance: 75
+    - id: "gnome:o1518"
+      respawnChance: 75
+- id: r1558
+  title: "The Chief's House"
+  description: >-
+    You enter into a large and luxurious house.  The floor is coated with carpets
+    and the walls are covered in paintings.  You feel privileged just for stepping
+    inside.
+  exits:
+    - roomId: "gnome:r1526"
+      direction: south
+  npcs:
+    - id: "gnome:m1505"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1559
+  title: "The Unused Path"
+  description: >-
+    You are now on a fairly unused path that leads east out of the village.  
+    You wonder what could be out this way.
+  exits:
+    - roomId: "gnome:r1560"
+      direction: east
+    - roomId: "gnome:r1504"
+      direction: west
+- id: r1560
+  title: "The Overgrown Path"
+  description: >-
+    As the path continues on, the grass grows higher.  You can't imagine
+    what could possibly be out this way.
+  exits:
+    - roomId: "gnome:r1561"
+      direction: east
+    - roomId: "gnome:r1559"
+      direction: west
+- id: r1561
+  title: "The Clearing"
+  description: >-
+    Your progress is suddenly stopped by mountains on all sides.  The path leads
+    back to the west, and there appears to be an old mine shaft to the north.
+  exits:
+    - roomId: "gnome:r1562"
+      direction: north
+    - roomId: "gnome:r1560"
+      direction: west
+- id: r1562
+  title: "Entrance to the Mine Shaft"
+  description: >-
+    As you enter the mine shaft, you get a sudden fear of the walls closing
+    in on you.  You are surprised to notice that you don't need a light.
+  exits:
+    - roomId: "gnome:r1561"
+      direction: south
+    - roomId: "gnome:r1563"
+      direction: east
+- id: r1563
+  title: "Mine Shaft"
+  description: >-
+    This mine shaft looks stable, at least in this area.  The wooden supports are
+    thick and strong.  Torches line the walls.  Exits lead in all directions.
+  exits:
+    - roomId: "gnome:r1582"
+      direction: north
+    - roomId: "gnome:r1574"
+      direction: south
+    - roomId: "gnome:r1564"
+      direction: east
+    - roomId: "gnome:r1562"
+      direction: west
+  npcs:
+    - id: "gnome:m1520"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1564
+  title: "Mine Shaft"
+  description: >-
+    This mine shaft looks stable, at least in this area.  The wooden supports are
+    thick and strong.  Torches line the walls.  Exits lead in all directions.
+  exits:
+    - roomId: "gnome:r1583"
+      direction: north
+    - roomId: "gnome:r1573"
+      direction: south
+    - roomId: "gnome:r1565"
+      direction: east
+    - roomId: "gnome:r1563"
+      direction: west
+- id: r1565
+  title: "Mine Shaft"
+  description: >-
+    This mine shaft looks stable, at least in this area.  The wooden supports are
+    thick and strong.  Torches line the walls.  Exits lead in all directions
+    except north.
+  exits:
+    - roomId: "gnome:r1572"
+      direction: south
+    - roomId: "gnome:r1566"
+      direction: east
+    - roomId: "gnome:r1564"
+      direction: west
+  npcs:
+    - id: "gnome:m1520"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1566
+  title: "Walkway"
+  description: >-
+    You are on a well built path in the middle of a mountain.  You sense something
+    great up ahead, considering the hard work that must have gone into creating
+    this passage.
+  exits:
+    - roomId: "gnome:r1567"
+      direction: south
+    - roomId: "gnome:r1565"
+      direction: west
+- id: r1567
+  title: "Walkway"
+  description: >-
+    You are on a well built path in the middle of a mountain.  You sense something
+    great up ahead, considering the hard work that must have gone into creating
+    this passage.
+  exits:
+    - roomId: "gnome:r1566"
+      direction: north
+    - roomId: "gnome:r1568"
+      direction: south
+- id: r1568
+  title: "The Grand Hall"
+  description: >-
+    You have stepped into the Grand Hall of the hobgoblin kingdom; your luck
+    must be running low by now.  Golden pillars span the hallway, and you
+    notice a red carpet beneath your feet.
+  exits:
+    - roomId: "gnome:r1567"
+      direction: north
+    - roomId: "gnome:r1569"
+      direction: south
+- id: r1569
+  title: "The Throne Room"
+  description: >-
+    This is large bright room filled with Hobgoblins.  To the south there is
+    a large golden throne against the wall.
+  exits:
+    - roomId: "gnome:r1568"
+      direction: north
+  npcs:
+    - id: "gnome:m1518"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "gnome:m1518"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "gnome:m1518"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "gnome:m1518"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "gnome:m1518"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "gnome:m1519"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1570
+  title: "The Treasury"
+  description: >-
+    You are inside the hobgoblin's treasury.  Your eyes are almost blinded by the
+    gold, silver and copper coins.
+  exits:
+    - roomId: "gnome:r1571"
+      direction: north
+  npcs:
+    - id: "gnome:m1521"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "gnome:o1516"
+      respawnChance: 75
+    - id: "gnome:o1517"
+      respawnChance: 75
+- id: r1571
+  title: "Guarded Room"
+  description: >-
+    You are inside a well guarded room.  The place is slightly better built than
+    the mine shafts, and is lit by lanterns.
+  exits:
+    - roomId: "gnome:r1572"
+      direction: north
+    - roomId: "gnome:r1570"
+      direction: south
+  npcs:
+    - id: "gnome:m1517"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "gnome:m1517"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "gnome:m1517"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "gnome:m1517"
+      respawnChance: 100
+      maxLoad: "30"
+- id: r1572
+  title: "Guarded Room"
+  description: >-
+    You are inside a well guarded room.  The place is slightly better built than
+    the mine shafts, and is lit by lanterns.
+  exits:
+    - roomId: "gnome:r1565"
+      direction: north
+    - roomId: "gnome:r1571"
+      direction: south
+  npcs:
+    - id: "gnome:m1517"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "gnome:m1517"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "gnome:m1517"
+      respawnChance: 100
+      maxLoad: "30"
+    - id: "gnome:m1517"
+      respawnChance: 100
+      maxLoad: "30"
+- id: r1573
+  title: "Hobgoblin Armory"
+  description: >-
+    The guards store their spare weapons and armor here.  There are rusty swords
+    on rotting shelves, and armor hanging from hooks or laying on the floor.
+  exits:
+    - roomId: "gnome:r1564"
+      direction: north
+  items:
+    - id: "gnome:o1521"
+      respawnChance: 75
+- id: r1574
+  title: "Mine Shaft"
+  description: >-
+    You enter a part of the mine shaft where the torches have grown dim
+    and are almost ready to go out.  From what you can see, there are plenty
+    of cobwebs on the walls and rats at your feet.
+  exits:
+    - roomId: "gnome:r1563"
+      direction: north
+    - roomId: "gnome:r1575"
+      direction: south
+- id: r1575
+  title: "Entrance to a Dungeon"
+  description: >-
+    The floor dips slightly as you walk into this dark and nasty place.  Your
+    skin crawls as you look at the filth on the walls and see it move.  Most
+    of the exits lead into jail cells.
+  exits:
+    - roomId: "gnome:r1574"
+      direction: north
+    - roomId: "gnome:r1576"
+      direction: south
+    - roomId: "gnome:r1577"
+      direction: east
+    - roomId: "gnome:r1581"
+      direction: west
+- id: r1576
+  title: "A Dungeon"
+  description: >-
+    You are in the deepest and darkest part of the mine shafts.  The light from
+    the torches barely reaches to where you are.  Most directions from here
+    lead to jail cells.
+  exits:
+    - roomId: "gnome:r1575"
+      direction: north
+    - roomId: "gnome:r1579"
+      direction: south
+    - roomId: "gnome:r1578"
+      direction: east
+    - roomId: "gnome:r1580"
+      direction: west
+- id: r1577
+  title: "A Jail Cell"
+  description: >-
+    You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.
+    The walls glisten with slime.  You see something stir in the straw.
+  exits:
+    - roomId: "gnome:r1575"
+      direction: west
+  npcs:
+    - id: "gnome:m1522"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1578
+  title: "The Jail Cell"
+  description: >-
+    You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.
+    The walls glisten with slime.  You see something stir in the straw.
+  exits:
+    - roomId: "gnome:r1576"
+      direction: west
+  npcs:
+    - id: "gnome:m1522"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1579
+  title: "The Jail Cell"
+  description: >-
+    You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.
+    The walls glisten with slime.  You see something stir in the straw.
+  exits:
+    - roomId: "gnome:r1576"
+      direction: north
+  npcs:
+    - id: "gnome:m1522"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1580
+  title: "The Jail Cell"
+  description: >-
+    You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.
+    The walls glisten with slime.  You see something stir in the straw.
+  exits:
+    - roomId: "gnome:r1576"
+      direction: east
+  npcs:
+    - id: "gnome:m1523"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1581
+  title: "The Jail Cell"
+  description: >-
+    You are in a musty, dark jail cell.  Wet and dirty straw covers the floor.
+    The walls glisten with slime.  You see something stir in the straw.
+  exits:
+    - roomId: "gnome:r1575"
+      direction: east
+  npcs:
+    - id: "gnome:m1523"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r1582
+  title: "Small Mine Shaft"
+  description: >-
+    You are in a small extension of the mine shaft.  The dust on the floor is
+    undisturbed by footprints.
+  exits:
+    - roomId: "gnome:r1588"
+      direction: north
+    - roomId: "gnome:r1563"
+      direction: south
+- id: r1583
+  title: "Hobgoblin Barracks"
+  description: >-
+    You are suddenly surrounded by a small army of hobgoblin guards.  The room
+    itself is a mess with clothes and armor everywhere.  The beds are unmade and
+    stained.
+  exits:
+    - roomId: "gnome:r1584"
+      direction: north
+    - roomId: "gnome:r1564"
+      direction: south
+    - roomId: "gnome:r1585"
+      direction: east
+  npcs:
+    - id: "gnome:m1517"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "gnome:m1517"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r1584
+  title: "Hobgoblin Barracks"
+  description: >-
+    Yech!  As you continue forward, the smell just keeps getting worse.
+    What are you DOING here?
+  exits:
+    - roomId: "gnome:r1583"
+      direction: south
+  npcs:
+    - id: "gnome:m1517"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "gnome:m1517"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r1585
+  title: "Mess Hall"
+  description: >-
+    You stand in the hobgoblin eating area.  There are a few rotting tables
+    and many broken dishes scattered around the room.  You almost slip on a
+    rotten piece of meat, but catch yourself just in time.
+  exits:
+    - roomId: "gnome:r1586"
+      direction: north
+    - roomId: "gnome:r1587"
+      direction: east
+    - roomId: "gnome:r1583"
+      direction: west
+- id: r1586
+  title: "A Store Room"
+  description: >-
+    You stand in a small room filled with flour, grain, fruit, and bat droppings.
+  exits:
+    - roomId: "gnome:r1585"
+      direction: south
+- id: r1587
+  title: "The Kitchen"
+  description: >-
+    This kitchen hasn't been cleaned since the creation of humans.  The trash and
+    spoiled food laying on the floor reach up to your knees.  Off to the side a
+    pot is boiling over.  A human hand floats in it.
+  exits:
+    - roomId: "gnome:r1585"
+      direction: west
+  npcs:
+    - id: "gnome:m1526"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1588
+  title: "A Small Mine Shaft"
+  description: >-
+    You come to a place in the mine shaft where a tunnel leads down.  The
+    small passage continues north and south.
+  exits:
+    - roomId: "gnome:r1589"
+      direction: north
+    - roomId: "gnome:r1582"
+      direction: south
+    - roomId: "gnome:r1590"
+      direction: down
+- id: r1589
+  title: "Hermit's Lair"
+  description: >-
+    You are in a small section where the mine wall has collapsed to reveal a
+    tiny one-room cave.  The area is barely lit, but you can make out something
+    moving towards you.
+  exits:
+    - roomId: "gnome:r1588"
+      direction: south
+  npcs:
+    - id: "gnome:m1524"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1590
+  title: "A Hole"
+  description: >-
+    You are in a hole.
+  exits:
+    - roomId: "gnome:r1588"
+      direction: up
+  npcs:
+    - id: "gnome:m1520"
+      respawnChance: 100
+      maxLoad: "6"

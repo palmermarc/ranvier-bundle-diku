@@ -1,0 +1,10 @@
+- id: o11000
+  name: "gold two hand handed hammer"
+  roomDesc: "A rather large gold hammer is laying here."
+  keywords: ["gold","two","hand","handed","hammer"]
+  description: "A rather large gold hammer is laying here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

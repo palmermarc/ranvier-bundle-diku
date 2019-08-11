@@ -1,0 +1,1477 @@
+- id: r3100
+  title: "Northwest end of Concourse"
+  description: >-
+    You are at the concourse, the city wall is just west.  A small promenade
+    goes east, and the bridge is just north of here.  The concourse continues
+    south along the city wall.
+  exits:
+    - roomId: "midgaard:r3051"
+      direction: north
+    - roomId: "midgaard:r3127"
+      direction: south
+    - roomId: "midgaard:r3101"
+      direction: east
+- id: r3101
+  title: "Promenade"
+  description: >-
+    The river gently flows west just north of here.  The promenade continues
+    further east and to the west you see the city wall.  Park Road leads south
+    from here.
+  exits:
+    - roomId: "midgaard:r3131"
+      direction: south
+    - roomId: "midgaard:r3102"
+      direction: east
+    - roomId: "midgaard:r3100"
+      direction: west
+  items:
+    - id: "midgaard:o3134"
+      respawnChance: 75
+- id: r3102
+  title: "Promenade"
+  description: >-
+    The river gently flows west just north of here.  The promenade continues
+    both east and west.  South of here you see the entrance to the park, and a
+    small building seems to be just west of the entrance.
+  exits:
+    - roomId: "midgaard:r3105"
+      direction: south
+    - roomId: "midgaard:r3103"
+      direction: east
+    - roomId: "midgaard:r3101"
+      direction: west
+  items:
+    - id: "midgaard:o3134"
+      respawnChance: 75
+- id: r3103
+  title: "Promenade"
+  description: >-
+    The river gently flows west just north of here.  The promenade continues
+    both east and west.  A small path leads south.  Looking across the river you
+    see the levee.
+  exits:
+    - roomId: "midgaard:r3132"
+      direction: south
+    - roomId: "midgaard:r3104"
+      direction: east
+    - roomId: "midgaard:r3102"
+      direction: west
+  items:
+    - id: "midgaard:o3134"
+      respawnChance: 75
+- id: r3104
+  title: "Northeast end of Concourse"
+  description: >-
+    You are at the Concourse.  The city wall is just east and a small
+    promenade goes west.  Looking across the river you see a building that
+    resembles a warehouse.  The Concourse continues south along the city wall.
+  exits:
+    - roomId: "midgaard:r3130"
+      direction: south
+    - roomId: "midgaard:r3103"
+      direction: west
+- id: r3105
+  title: "Park Entrance"
+  description: >-
+    You are standing just inside the small park of Midgaard.  To the north is
+    the promenade and a small path leads south into the park.  To your east is
+    the famous Park Cafe.
+  exits:
+    - roomId: "midgaard:r3102"
+      direction: north
+    - roomId: "midgaard:r3108"
+      direction: south
+    - roomId: "midgaard:r3106"
+      direction: east
+- id: r3106
+  title: "Park Cafe"
+  description: >-
+    You are inside Park Cafe, a very well lighted, cosy place. The cafe
+    is built from large logs. Through the windows in the northern wall you
+    see the river, and through the southern window you see many vigorous
+    colorful plants.
+  exits:
+    - roomId: "midgaard:r3105"
+      direction: west
+  npcs:
+    - id: "midgaard:m3100"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3120"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3107
+  title: "Small path through the park"
+  description: >-
+    You are walking along a small path through the park.  The path continues
+    south and east.
+  exits:
+    - roomId: "midgaard:r3113"
+      direction: south
+    - roomId: "midgaard:r3108"
+      direction: east
+- id: r3108
+  title: "Small path in the park"
+  description: >-
+    You are standing on a small path inside the park.  The park entrance is
+    just north of here, and Park Cafe is just east of the entrance.  The path
+    leads further east and west.
+  exits:
+    - roomId: "midgaard:r3105"
+      direction: north
+    - roomId: "midgaard:r3109"
+      direction: east
+    - roomId: "midgaard:r3107"
+      direction: west
+- id: r3109
+  title: "Small path in the park"
+  description: >-
+    You are on a small path running through the park.  It continues west and
+    south and just north of here you see the southern wall of Park Cafe.
+  exits:
+    - roomId: "midgaard:r3115"
+      direction: south
+    - roomId: "midgaard:r3108"
+      direction: west
+  npcs:
+    - id: "midgaard:m3123"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3110
+  title: "Cityguard Head Quarters"
+  description: >-
+    You are inside a tidy office.  A big desk made from dark wood is standing
+    in the centre of the room.
+  exits:
+    - roomId: "midgaard:r3111"
+      direction: east
+    - roomId: "midgaard:r3142"
+      direction: west
+- id: r3111
+  title: "Park Road"
+  description: >-
+    The road continues north and south.  A building is just west of here, you
+    notice a sign on the door.  The park entrance is to the east.
+  exits:
+    - roomId: "midgaard:r3131"
+      direction: north
+    - roomId: "midgaard:r3118"
+      direction: south
+    - roomId: "midgaard:r3112"
+      direction: east
+    - roomId: "midgaard:r3110"
+      direction: west
+  npcs:
+    - id: "midgaard:m3060"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "midgaard:m3060"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "midgaard:m3060"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "midgaard:m3060"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r3112
+  title: "Western Park Entrance"
+  description: >-
+    You are standing at the western end of the park.  A small path leads east
+    into the park and going west through the entrance you will reach Park Road.
+  exits:
+    - roomId: "midgaard:r3113"
+      direction: east
+    - roomId: "midgaard:r3111"
+      direction: west
+- id: r3113
+  title: "A path in the park"
+  description: >-
+    You are in the park.  The paths lead north and west.  Westwards is the
+    park entrance and to the east you see a small pond.
+  exits:
+    - roomId: "midgaard:r3107"
+      direction: north
+    - roomId: "midgaard:r3114"
+      direction: east
+    - roomId: "midgaard:r3112"
+      direction: west
+  npcs:
+    - id: "midgaard:m3124"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r3114
+  title: "The Pond"
+  description: >-
+    You are swimming around in the pond, feeling rather stupid.  You can get
+    back on the path from the eastern and western end of the pond.
+  exits:
+    - roomId: "midgaard:r3115"
+      direction: east
+    - roomId: "midgaard:r3113"
+      direction: west
+  npcs:
+    - id: "midgaard:m3121"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3122"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3115
+  title: "A path in the park"
+  description: >-
+    You are in the park.  The paths lead north and east.  Eastwards is the
+    park entrance and to the west you see a small pond.
+  exits:
+    - roomId: "midgaard:r3109"
+      direction: north
+    - roomId: "midgaard:r3116"
+      direction: east
+    - roomId: "midgaard:r3114"
+      direction: west
+  npcs:
+    - id: "midgaard:m3124"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r3116
+  title: "Eastern Park Entrance"
+  description: >-
+    You are standing at the eastern end of the park.  A small path leads west
+    into the park.  Going east through the entrance you will reach Emerald
+    Avenue.
+  exits:
+    - roomId: "midgaard:r3117"
+      direction: east
+    - roomId: "midgaard:r3115"
+      direction: west
+- id: r3117
+  title: "Emerald Avenue"
+  description: >-
+    You are at Emerald Avenue which continues north and south.  To the west is
+    the park entrance and to the east is the not very big Town Hall of Midgaard.
+  exits:
+    - roomId: "midgaard:r3132"
+      direction: north
+    - roomId: "midgaard:r3119"
+      direction: south
+    - roomId: "midgaard:r3137"
+      direction: east
+    - roomId: "midgaard:r3116"
+      direction: west
+- id: r3118
+  title: "Park Road"
+  description: >-
+    You are on Park Road which leads north and south.
+  exits:
+    - roomId: "midgaard:r3111"
+      direction: north
+    - roomId: "midgaard:r3135"
+      direction: south
+- id: r3119
+  title: "Emerald Avenue"
+  description: >-
+    You are standing at a bend on Emerald Avenue.  The road leads north and west.
+  exits:
+    - roomId: "midgaard:r3117"
+      direction: north
+    - roomId: "midgaard:r3133"
+      direction: west
+- id: r3120
+  title: "Road Crossing"
+  description: >-
+    You are in the middle of the road cross.  Roads lead in all directions.
+    A huge black iron chain as thick as a tree trunk is fastened into the ground
+    at the centre of the road cross.  Its other end leads directly upwards towards
+    the sky.
+    A road sign is here.
+  exits:
+    - roomId: "midgaard:r3133"
+      direction: north
+    - roomId: "midgaard:r3134"
+      direction: south
+    - roomId: "midgaard:r3136"
+      direction: east
+    - roomId: "midgaard:r3135"
+      direction: west
+    - roomId: "redferne:r7914"
+      direction: up
+  npcs:
+    - id: "midgaard:m3144"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3121
+  title: "Emerald Avenue"
+  description: >-
+    You are standing at a bend on Emerald Avenue.  The road leads south and
+    east.
+  exits:
+    - roomId: "midgaard:r3125"
+      direction: south
+    - roomId: "midgaard:r3134"
+      direction: east
+- id: r3122
+  title: "Park Road"
+  description: >-
+    You are on Park Road which leads south and north.  Elm Stredt is east of
+    here.
+  exits:
+    - roomId: "midgaard:r3136"
+      direction: north
+    - roomId: "midgaard:r3126"
+      direction: south
+    - roomId: "midgaard:r3123"
+      direction: east
+- id: r3123
+  title: "Elm Street"
+  description: >-
+    You are on Elm street.  Park Road is to the west and Elm Street continues
+    in eastward direction.
+  exits:
+    - roomId: "midgaard:r3124"
+      direction: east
+    - roomId: "midgaard:r3122"
+      direction: west
+- id: r3124
+  title: "End of Elm Street"
+  description: >-
+    You are at the end of Elm Street.  An old elm tree grows here.
+  exits:
+    - roomId: "midgaard:r3123"
+      direction: west
+- id: r3125
+  title: "Emerald Avenue"
+  description: >-
+    You are on Emerald Avenue which continues north.
+    The Concourse is south of here.
+  exits:
+    - roomId: "midgaard:r3121"
+      direction: north
+    - roomId: "midgaard:r3128"
+      direction: south
+- id: r3126
+  title: "Park Road"
+  description: >-
+    You are on Park Road which continues north.  The Concourse is south of here.
+  exits:
+    - roomId: "midgaard:r3122"
+      direction: north
+    - roomId: "midgaard:r3129"
+      direction: south
+- id: r3127
+  title: "On the Concourse"
+  description: >-
+    You are at the southwest corner of the city wall.  The Concourse leads
+    both north and east.
+  exits:
+    - roomId: "midgaard:r3100"
+      direction: north
+    - roomId: "midgaard:r3128"
+      direction: east
+- id: r3128
+  title: "On the Concourse"
+  description: >-
+    The Concourse continues both east and west.  Emerald Avenue is north of
+    here.
+  exits:
+    - roomId: "midgaard:r3125"
+      direction: north
+    - roomId: "midgaard:r3129"
+      direction: east
+    - roomId: "midgaard:r3127"
+      direction: west
+  npcs:
+    - id: "midgaard:m3005"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3129
+  title: "On the Concourse"
+  description: >-
+    The Concourse continues both east and west.  Park Road is north of here
+    and an iron grate leads south to the graveyard.
+    A bronze sign has been set on the wall next to the grate.
+  exits:
+    - roomId: "midgaard:r3126"
+      direction: north
+    - roomId: "grave:r3600"
+      direction: south
+    - roomId: "midgaard:r3130"
+      direction: east
+    - roomId: "midgaard:r3128"
+      direction: west
+- id: r3130
+  title: "On the Concourse"
+  description: >-
+    You are at the southeast corner of the city wall.  The Concourse leads
+    both north and west.
+  exits:
+    - roomId: "midgaard:r3104"
+      direction: north
+    - roomId: "midgaard:r3129"
+      direction: west
+- id: r3131
+  title: "Park Road"
+  description: >-
+    You are at Park Road which continues north and south.
+  exits:
+    - roomId: "midgaard:r3101"
+      direction: north
+    - roomId: "midgaard:r3111"
+      direction: south
+- id: r3132
+  title: "Emerald Avenue"
+  description: >-
+    You are standing on the north end of Emerald Avenue.  To the north is the
+    promenade and to the east is the small street Penny Lane.
+  exits:
+    - roomId: "midgaard:r3103"
+      direction: north
+    - roomId: "midgaard:r3117"
+      direction: south
+    - roomId: "midgaard:r3139"
+      direction: east
+- id: r3133
+  title: "Emerald Avenue"
+  description: >-
+    You are standing at a bend on Emerald Avenue.  To the east the road goes on
+    and to the south is the Road Crossing.
+  exits:
+    - roomId: "joker:r20020"
+      direction: north
+    - roomId: "midgaard:r3120"
+      direction: south
+    - roomId: "midgaard:r3119"
+      direction: east
+    - roomId: "vlord:r32002"
+      direction: down
+- id: r3134
+  title: "Emerald Avenue"
+  description: >-
+    You are standing at a bend on Emerald Avenue.  To the west the road goes on
+    and to the north is the Road Crossing.
+  exits:
+    - roomId: "midgaard:r3120"
+      direction: north
+    - roomId: "midgaard:r3121"
+      direction: west
+- id: r3135
+  title: "Park Road"
+  description: >-
+    You are at a bend on Park Road.  To the north the road goes on and to the
+    east is the Road Crossing.  To the south, the ancient cliffs rise from deep
+    under the ground, forming a wall.
+  exits:
+    - roomId: "midgaard:r3118"
+      direction: north
+    - roomId: "midgaard:r3120"
+      direction: east
+- id: r3136
+  title: "Park Road"
+  description: >-
+    You are at a bend on Park Road.  To the south the road goes on and to the
+    west is the Road Crossing.
+  exits:
+    - roomId: "midgaard:r3122"
+      direction: south
+    - roomId: "midgaard:r3120"
+      direction: west
+- id: r3137
+  title: "The Waiting Room"
+  description: >-
+    You are standing in the waiting room at the town hall.  Wooden chairs stand
+    along the walls and a long desk is placed in the middle of the room.
+  exits:
+    - roomId: "midgaard:r3138"
+      direction: east
+    - roomId: "midgaard:r3117"
+      direction: west
+  npcs:
+    - id: "midgaard:m3142"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3138
+  title: "The Mayor's Office"
+  description: >-
+    You are in the not very big office of the Mayor of Midgaard.  A large and
+    polished but completely empty desk is standing in front of an armchair that
+    looks so comfortable that it most of all resembles a bed with the head end
+    raised slightly.
+  exits:
+    - roomId: "midgaard:r3137"
+      direction: west
+  npcs:
+    - id: "midgaard:m3143"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3069"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "midgaard:m3069"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "midgaard:m3069"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "midgaard:m3069"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r3139
+  title: "Penny Lane"
+  description: >-
+    You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane
+    continues in eastward direction.
+  exits:
+    - roomId: "midgaard:r3140"
+      direction: east
+    - roomId: "midgaard:r3132"
+      direction: west
+- id: r3140
+  title: "Penny Lane"
+  description: >-
+    You are on Penny Lane.  The narrow road continues north and west.
+  exits:
+    - roomId: "midgaard:r3141"
+      direction: north
+    - roomId: "midgaard:r3139"
+      direction: west
+- id: r3141
+  title: "End of Penny Lane"
+  description: >-
+    You are at the end of Penny Lane.  The only exit appears to be south.
+  exits:
+    - roomId: "midgaard:r3140"
+      direction: south
+  items:
+    - id: "midgaard:o3135"
+      respawnChance: 75
+    - id: "midgaard:o3136"
+      respawnChance: 75
+- id: r3142
+  title: "Captain's Office"
+  description: >-
+    You are in the Office of the Captain of the Guard.  The Midgaard Coat of
+    Arms is hanging on the north wall and a heavy steel door is to the south.
+  exits:
+    - roomId: "midgaard:r3143"
+      direction: south
+    - roomId: "midgaard:r3110"
+      direction: east
+  npcs:
+    - id: "midgaard:m3140"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3141"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "midgaard:m3141"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "midgaard:m3141"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "midgaard:m3141"
+      respawnChance: 100
+      maxLoad: "4"
+  items:
+    - id: "midgaard:o3130"
+      respawnChance: 75
+    - id: "midgaard:o3131"
+      respawnChance: 75
+- id: r3143
+  title: "The Jail"
+  description: >-
+    You are in a dark and humid jail.  The dark stone walls are hard and cold
+    to the touch.  A heavy steel door is to the north.
+  exits:
+    - roomId: "midgaard:r3142"
+      direction: north
+- id: r3200
+  title: "Under the Bridge"
+  description: >-
+    The arch under the bridge is covered by seaweed for one foot above the
+    surface of the river.  The water gently flows through an opening in the lower
+    part of the city wall.
+  exits:
+    - roomId: "midgaard:r3201"
+      direction: east
+    - roomId: "joker1:r24195"
+      direction: west
+- id: r3201
+  title: "On the River"
+  description: >-
+    North of here you see the miserable buildings of the poor alley.  The
+    river flows west towards the bridge.  The riverbanks are too steep to climb.
+  exits:
+    - roomId: "midgaard:r3202"
+      direction: east
+    - roomId: "midgaard:r3200"
+      direction: west
+- id: r3202
+  title: "On the River"
+  description: >-
+    North of here you see the dump.  The river flows from east to west.  The
+    riverbanks are too steep to climb.
+  exits:
+    - roomId: "midgaard:r3203"
+      direction: east
+    - roomId: "midgaard:r3201"
+      direction: west
+- id: r3203
+  title: "On the River"
+  description: >-
+    The levee is directly north of here.  The river flows in an east west
+    direction.
+  exits:
+    - roomId: "midgaard:r3049"
+      direction: north
+    - roomId: "midgaard:r3204"
+      direction: east
+    - roomId: "midgaard:r3202"
+      direction: west
+- id: r3204
+  title: "On the River"
+  description: >-
+    You see the warehouse on the northern riverbank.  East of here you see the
+    city wall.  The river flows west towards the levee.
+  exits:
+    - roomId: "midgaard:r3205"
+      direction: east
+    - roomId: "midgaard:r3203"
+      direction: west
+- id: r3205
+  title: "On the River"
+  description: >-
+    The river enters from a hole in the eastern city wall.  The hole has been
+    blocked by several vertically positioned iron bars set into the wall.
+  exits:
+    - roomId: "eastern:r5001"
+      direction: east
+    - roomId: "midgaard:r3204"
+      direction: west
+- id: r3206
+  title: "The Bank"
+  description: >-
+    You find yourself in the bank, here you can deposit money and withdraw
+    money. And any money you leave in the bank will be kept safe. At a small cost.
+  exits:
+    - roomId: "midgaard:r3054"
+      direction: west
+- id: r3207
+  title: "The Donation Room"
+  description: >-
+    You are in a large room that is some sort of storage room, the intended
+    use is for storing unwanted equipment and weapons. This could be very
+    handy for people new to this world, as it is an easy way to pick up good
+    equipment without having to travel too far.
+  exits:
+    - roomId: "midgaard:r3054"
+      direction: east
+- id: r3001
+  title: "The Temple Of Midgaard"
+  description: >-
+    You are in the southern end of the temple hall in the Temple of Midgaard.
+    The temple has been constructed from giant marble blocks, eternal in
+    appearance, and most of the walls are covered by ancient wall paintings
+    picturing Gods, Giants and peasants.
+    		The Temple lies to the north and the centre of Midgaard to the south.
+    NEWBIES : say 'take me home' to travel back to the safety of the newbie zone.
+  exits:
+    - roomId: "midgaard:r3054"
+      direction: north
+    - roomId: "midgaard:r3005"
+      direction: south
+    - roomId: "catacombs:r12600"
+      direction: down
+  npcs:
+    - id: "joker:m20004"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3011"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3002
+  title: "Cleric's Inner Sanctum"
+  description: >-
+    This is the inner sanctum.  A picture of the mighty Thor, is hanging on
+    the wall, just above the altar which is set against the western wall.  A well
+    in the middle of the floor leads down into darkness.  Vile smells waft from
+    the depths.
+  exits:
+    - roomId: "midgaard:r3003"
+      direction: east
+    - roomId: "sewer:r7026"
+      direction: down
+  npcs:
+    - id: "midgaard:m3021"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3003
+  title: "Cleric's Bar"
+  description: >-
+    The bar is one of the finest in the land, lucky it is members only.  Fine
+    furniture is set all around the room.  A small sign is hanging on the wall.
+  exits:
+    - roomId: "midgaard:r3004"
+      direction: south
+    - roomId: "midgaard:r3002"
+      direction: west
+  npcs:
+    - id: "midgaard:m3043"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3004
+  title: "Entrance to Cleric's Guild"
+  description: >-
+    The entrance hall is a small modest room, reflecting the true nature of
+    the Clerics.  The exit leads east to the temple square.  A small entrance to
+    the bar is in the northern wall.
+  exits:
+    - roomId: "midgaard:r3003"
+      direction: north
+    - roomId: "midgaard:r3005"
+      direction: east
+  npcs:
+    - id: "midgaard:m3025"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3060"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r3005
+  title: "The Temple Square"
+  description: >-
+    You are standing on the temple square.  Huge marble steps lead up to the
+    temple gate.  The entrance to the Clerics Guild is to the west, and the old
+    Grunting Boar Inn, is to the east.  Just south of here you see the market
+    square, the center of Midgaard.
+  exits:
+    - roomId: "midgaard:r3001"
+      direction: north
+    - roomId: "midgaard:r3014"
+      direction: south
+    - roomId: "midgaard:r3006"
+      direction: east
+    - roomId: "midgaard:r3004"
+      direction: west
+    - roomId: "midgaard:r3057"
+      direction: up
+  npcs:
+    - id: "joker:m20003"
+      respawnChance: 100
+      maxLoad: "5"
+  items:
+    - id: "midgaard:o3135"
+      respawnChance: 75
+- id: r3006
+  title: "Entrance to the Grunting Boar Inn"
+  description: >-
+    You are standing in the entrance hall of the Grunting Boar Inn.  The hall
+    has been wisely decorated with simple but functional furniture.  A small
+    staircase leads up to the defunct reception room and the bar is to the east.
+  exits:
+    - roomId: "midgaard:r3007"
+      direction: east
+    - roomId: "midgaard:r3005"
+      direction: west
+    - roomId: "midgaard:r3008"
+      direction: up
+  npcs:
+    - id: "midgaard:m3061"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3007
+  title: "The Grunting Boar"
+  description: >-
+    You are standing in the bar.  The bar is set against the northern wall, old
+    archaic writing, carvings and symbols cover its top.  A fireplace is built into
+    the western wall, and through the southeastern windows you can see the temple
+    square.  This place makes you feel like home.
+    A small sign with big letters is fastened to the bar.
+  exits:
+    - roomId: "midgaard:r3006"
+      direction: west
+  npcs:
+    - id: "midgaard:m3040"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3064"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r3008
+  title: "The Defunct Reception"
+  description: >-
+    You are standing in a dusty, defunct reception.  The staircase leads
+    down to the entrance hall.
+  exits:
+    - roomId: "midgaard:r3006"
+      direction: down
+  items:
+    - id: "midgaard:o3139"
+      respawnChance: 75
+    - id: "midgaard:o3140"
+      respawnChance: 75
+- id: r3009
+  title: "The Bakery"
+  description: >-
+    You are standing inside the small bakery.  A sweet scent of Danish and
+    fine bread fills the room.  The bread and Danish are arranged in fine order
+    on the shelves, and seem to be of the finest quality.
+    A small sign is on the counter.
+  exits:
+    - roomId: "midgaard:r3013"
+      direction: south
+  npcs:
+    - id: "midgaard:m3001"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3010
+  title: "The General Store"
+  description: >-
+    You are inside the general store.  All sorts of items are stacked on shelves
+    behind the counter, safely out of your reach.
+    A small note hangs on the wall.
+  exits:
+    - roomId: "midgaard:r3015"
+      direction: south
+  npcs:
+    - id: "midgaard:m3002"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3011
+  title: "The Weapon Shop"
+  description: >-
+    You are inside the weapon shop.  There is a small note on the counter.
+  exits:
+    - roomId: "midgaard:r3016"
+      direction: south
+  npcs:
+    - id: "midgaard:m3003"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3012
+  title: "Main Street"
+  description: >-
+    You are at the end of the main street of Midgaard.  South of here is the
+    entrance to the Guild of Magic Users.  The street continues east towards the
+    market square.  The magic shop is to the north and to the west is the city
+    gate.
+  exits:
+    - roomId: "midgaard:r3033"
+      direction: north
+    - roomId: "midgaard:r3017"
+      direction: south
+    - roomId: "midgaard:r3013"
+      direction: east
+    - roomId: "midgaard:r3040"
+      direction: west
+  npcs:
+    - id: "midgaard:m3062"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r3013
+  title: "Main Street"
+  description: >-
+    You are on the main street passing through the City of Midgaard.  South of
+    here is the entrance to the Armoury, and the bakery is to the north.  East of
+    here is the market square.
+  exits:
+    - roomId: "midgaard:r3009"
+      direction: north
+    - roomId: "midgaard:r3020"
+      direction: south
+    - roomId: "midgaard:r3014"
+      direction: east
+    - roomId: "midgaard:r3012"
+      direction: west
+- id: r3014
+  title: "Market Square"
+  description: >-
+    You are standing on the market square, the famous Square of Midgaard.
+    A large, peculiar looking statue is standing in the middle of the square.
+    Roads lead in every direction, north to the temple square, south to the
+    common square, east and westbound is the main street.
+  exits:
+    - roomId: "midgaard:r3005"
+      direction: north
+    - roomId: "midgaard:r3025"
+      direction: south
+    - roomId: "midgaard:r3015"
+      direction: east
+    - roomId: "midgaard:r3013"
+      direction: west
+  npcs:
+    - id: "midgaard:m3060"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r3015
+  title: "The Main Street"
+  description: >-
+    You are on Main Street crossing through town.  To the north is the general
+    store, and the main street continues east.  To the west you see and hear the
+    market place and to the south is the Jeweller's Shop.
+  exits:
+    - roomId: "midgaard:r3010"
+      direction: north
+    - roomId: "midgaard:r3034"
+      direction: south
+    - roomId: "midgaard:r3016"
+      direction: east
+    - roomId: "midgaard:r3014"
+      direction: west
+- id: r3016
+  title: "The Main Street"
+  description: >-
+    The main street, to the north is the weapon shop and to the south is the
+    Guild of Swordsmen.  To the east you leave town and to the west the street
+    leads to the market square.
+  exits:
+    - roomId: "midgaard:r3011"
+      direction: north
+    - roomId: "midgaard:r3021"
+      direction: south
+    - roomId: "midgaard:r3041"
+      direction: east
+    - roomId: "midgaard:r3015"
+      direction: west
+  npcs:
+    - id: "midgaard:m3062"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r3017
+  title: "Entrance to Mage's Guild"
+  description: >-
+    The entrance hall is a small, poor lighted room.
+  exits:
+    - roomId: "midgaard:r3012"
+      direction: north
+    - roomId: "midgaard:r3018"
+      direction: south
+  npcs:
+    - id: "midgaard:m3024"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3060"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r3018
+  title: "Mage's Bar"
+  description: >-
+    The bar is one of the wierdest in the land.  Mystical images float around
+    the air.  Illusions of fine furniture appear all around the room.
+  exits:
+    - roomId: "midgaard:r3017"
+      direction: north
+    - roomId: "midgaard:r3019"
+      direction: east
+  npcs:
+    - id: "midgaard:m3042"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3019
+  title: "Mage's Laboratory"
+  description: >-
+    This is the Magical Experiments Laboratory.  Dark smoke-stained stones
+    arch over numerous huge oaken tables, most of these cluttered with strange-
+    looking pipes and flasks.  The floor is covered with half-erased pentagrams
+    and even weirder symbols, and a blackboard in a dark corner has only been
+    partially cleaned, some painful-looking letters faintly visible.  A well in
+    the middle of the floor leads down into darkness.  Vile smells waft from the
+    depths.
+  exits:
+    - roomId: "midgaard:r3018"
+      direction: west
+    - roomId: "sewer:r7017"
+      direction: down
+  npcs:
+    - id: "midgaard:m3020"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3020
+  title: "The Armoury"
+  description: >-
+    The armoury with all kinds of armours on the walls and in the window.  You
+    see helmets, shields and chain mails.  To the north is the main street.
+    On the wall is a small note.
+  exits:
+    - roomId: "midgaard:r3013"
+      direction: north
+  npcs:
+    - id: "midgaard:m3004"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3021
+  title: "Entrance Hall to the Guild of Swordsmen"
+  description: >-
+    The entrance hall to the Guild of Swordsmen.  A place where one has to be
+    careful not to say something wrong (or right).  To the east is the bar and to
+    the north is the main street.
+  exits:
+    - roomId: "midgaard:r3016"
+      direction: north
+    - roomId: "midgaard:r3022"
+      direction: east
+  npcs:
+    - id: "midgaard:m3027"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3060"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r3022
+  title: "The Bar of Swordsmen"
+  description: >-
+    The bar of swordsmen, once upon a time beautifully furnished.  But now the
+    furniture is all around you in small pieces.  To the south is the yard, and
+    to the west is the entrance hall.
+  exits:
+    - roomId: "midgaard:r3023"
+      direction: south
+    - roomId: "midgaard:r3021"
+      direction: west
+  npcs:
+    - id: "midgaard:m3045"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3023
+  title: "The Tournament and Practice Yard"
+  description: >-
+    The practice yard of the fighters.  To the north is the bar.  A well leads
+    down into darkness.
+  exits:
+    - roomId: "midgaard:r3022"
+      direction: north
+    - roomId: "sewer:r7048"
+      direction: down
+  npcs:
+    - id: "midgaard:m3023"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3024
+  title: "Eastern End of Poor Alley"
+  description: >-
+    You are at the poor alley.  South of here is the Grubby Inn and to the
+    east you see common square.  The alley continues further west.
+  exits:
+    - roomId: "midgaard:r3048"
+      direction: south
+    - roomId: "midgaard:r3025"
+      direction: east
+    - roomId: "midgaard:r3044"
+      direction: west
+  npcs:
+    - id: "midgaard:m3062"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r3025
+  title: "The Common Square"
+  description: >-
+    The common square, people pass you, talking to each other.  To the west is
+    the poor alley and to the east is the dark alley.  To the north, this square
+    is connected to the market square.  From the south you notice a nasty smell.
+  exits:
+    - roomId: "midgaard:r3014"
+      direction: north
+    - roomId: "midgaard:r3030"
+      direction: south
+    - roomId: "midgaard:r3026"
+      direction: east
+    - roomId: "midgaard:r3024"
+      direction: west
+  npcs:
+    - id: "midgaard:m3050"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3062"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r3026
+  title: "The Dark Alley"
+  description: >-
+    The dark alley, to the west is the common square and to the south is the
+    Guild of Thieves.  The alley continues east.
+  exits:
+    - roomId: "midgaard:r3027"
+      direction: south
+    - roomId: "midgaard:r3045"
+      direction: east
+    - roomId: "midgaard:r3025"
+      direction: west
+  npcs:
+    - id: "midgaard:m3063"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "midgaard:m3066"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3027
+  title: "Entrance Hall to the Guild of Thieves"
+  description: >-
+    The entrance hall to the thieves' and assassins' guild.  A place where you
+    can lose both your life and your money, if you are not careful.  To the north
+    is the dark alley and to the east is the thieves' bar.
+  exits:
+    - roomId: "midgaard:r3026"
+      direction: north
+    - roomId: "midgaard:r3028"
+      direction: east
+  npcs:
+    - id: "midgaard:m3026"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3060"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "midgaard:m3005"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r3028
+  title: "The Thieves Bar"
+  description: >-
+    The bar of the thieves.  Once upon a time this place was beautifully
+    furnished, but now it seems almost empty.  To the south is the yard, and to
+    the west is the entrance hall.
+       (Maybe the furniture has been stolen?!)
+  exits:
+    - roomId: "midgaard:r3029"
+      direction: south
+    - roomId: "midgaard:r3027"
+      direction: west
+  npcs:
+    - id: "midgaard:m3044"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3029
+  title: "The Secret Yard"
+  description: >-
+    The secret practice yard of thieves and assassins.  To the north is the
+    bar.  A well leads down into darkness.
+  exits:
+    - roomId: "midgaard:r3028"
+      direction: north
+    - roomId: "sewer:r7043"
+      direction: down
+  npcs:
+    - id: "midgaard:m3022"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3030
+  title: "The Dump"
+  description: >-
+    The dump, where the people from the city drop their garbage.  Through the
+    garbage you can see a large junction of pipes, looks like the entrance to the
+    sewer system.  South of here you see the river and to the north is the common
+    square.
+  exits:
+    - roomId: "midgaard:r3025"
+      direction: north
+    - roomId: "midennir:r3504"
+      direction: south
+    - roomId: "sewer:r7030"
+      direction: down
+- id: r3031
+  title: "The Pet Shop"
+  description: >-
+    The Pet Shop is a small crowded store, full of cages and animals of
+    various sorts and sizes.  There is a sign on the wall.
+  exits:
+    - roomId: "midgaard:r3045"
+      direction: south
+  npcs:
+    - id: "midgaard:m3008"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3032
+  title: "Pet Shop Store"
+  description: >-
+    This is the small dark room in which the Pet Shop Boy keeps his pets.
+    It is vital that this room be immediately after the pet shop.
+  npcs:
+    - id: "midgaard:m3090"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3091"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3092"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3093"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3094"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3033
+  title: "The Magic Shop"
+  description: >-
+    You are in a small room that smells of rare chemicals and spices.
+    Dividing the room in two is a large desk, and on the wall behind it are
+    numerous shelves crammed with jars, bottles, books and scrolls of all
+    sorts and sizes.
+  exits:
+    - roomId: "midgaard:r3012"
+      direction: south
+  npcs:
+    - id: "midgaard:m3000"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3034
+  title: "The Jeweller's Shop"
+  description: >-
+    You are in a small, beautifully furnished room.  The warm light emanating
+    from the small oil lamps on the walls is reflected in the hard, polished
+    surface of the big mahogany desk that stands in the centre of the room.
+    A small sign with golden letters stands on the desk.
+  exits:
+    - roomId: "midgaard:r3015"
+      direction: north
+  npcs:
+    - id: "midgaard:m3009"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3035
+  title: "The Leather Shop"
+  description: >-
+    An acrid smell fills this large room.  Along the walls are numerous
+    shelves containing all sorts of animal hide and in the crackling fireplace
+    hangs a big iron pot with boiling water.  In the middle of the room is a
+    large oak table.
+    A wooden sign is hanging above the fireplace.
+  exits:
+    - roomId: "midgaard:r3044"
+      direction: south
+  npcs:
+    - id: "midgaard:m3010"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3040
+  title: "Inside the West Gate of Midgaard"
+  description: >-
+    You are by two small towers that have been built into the city wall and
+    connected with a footbridge across the heavy wooden gate.  Main Street leads
+    east and Wall Road leads south from here.
+  exits:
+    - roomId: "smurf:r101"
+      direction: north
+    - roomId: "midgaard:r3042"
+      direction: south
+    - roomId: "midgaard:r3012"
+      direction: east
+    - roomId: "midgaard:r3052"
+      direction: west
+  npcs:
+    - id: "midgaard:m3068"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "midgaard:m3068"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r3041
+  title: "Inside the East Gate of Midgaard"
+  description: >-
+    You are by two small towers that have been built into the city wall and
+    connected with a footbridge across the heavy wooden gate.  Main Street leads
+    west from here.  South of here is the wall road, but it looks dirty and 
+    not too safe.
+  exits:
+    - roomId: "hood:r2171"
+      direction: south
+    - roomId: "midgaard:r3053"
+      direction: east
+    - roomId: "midgaard:r3016"
+      direction: west
+  npcs:
+    - id: "midgaard:m3067"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "midgaard:m3067"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r3042
+  title: "Wall Road"
+  description: >-
+    You are walking next to the western city wall.  The road continues further
+    south and the city gate is just north of here.
+  exits:
+    - roomId: "midgaard:r3040"
+      direction: north
+    - roomId: "midgaard:r3043"
+      direction: south
+    - roomId: "zoo:r200"
+      direction: west
+- id: r3043
+  title: "Wall Road"
+  description: >-
+    You are walking next to the western city wall.  Wall Road continues further
+    north and south.  A small, poor alley leads east.
+    Some letters have been written on the wall here.
+  exits:
+    - roomId: "midgaard:r3042"
+      direction: north
+    - roomId: "midgaard:r3047"
+      direction: south
+    - roomId: "midgaard:r3044"
+      direction: east
+- id: r3044
+  title: "Poor Alley"
+  description: >-
+    You are in narrow and dirty alley leading east and west.  The leather shop
+    is to the north.
+  exits:
+    - roomId: "midgaard:r3035"
+      direction: north
+    - roomId: "midgaard:r3024"
+      direction: east
+    - roomId: "midgaard:r3043"
+      direction: west
+  npcs:
+    - id: "midgaard:m3065"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r3045
+  title: "Alley at Levee"
+  description: >-
+    You are standing in the alley which continues east and west.  South of
+    here you see the levee.  North is the Pet Shop.
+  exits:
+    - roomId: "midgaard:r3031"
+      direction: north
+    - roomId: "midgaard:r3049"
+      direction: south
+    - roomId: "midgaard:r3046"
+      direction: east
+    - roomId: "midgaard:r3026"
+      direction: west
+- id: r3046
+  title: "Eastern end of Alley"
+  description: >-
+    You are standing at the eastern end of the alley.  An old three-story
+    warehouse is directly south of here, and the Mob Factory is east.
+  exits:
+    - roomId: "midgaard:r3050"
+      direction: south
+    - roomId: "mobfact:r9400"
+      direction: east
+    - roomId: "midgaard:r3045"
+      direction: west
+- id: r3047
+  title: "Wall Road"
+  description: >-
+    You are standing on the road next to the western city wall which
+    continues north.  South of here is a bridge across the river.
+  exits:
+    - roomId: "midgaard:r3043"
+      direction: north
+    - roomId: "midgaard:r3051"
+      direction: south
+- id: r3048
+  title: "Grubby Inn"
+  description: >-
+    You are inside the old Grubby Inn.  This place has not been cleaned for
+    several decades, vile smells make you dizzy.
+  exits:
+    - roomId: "midgaard:r3024"
+      direction: north
+  npcs:
+    - id: "midgaard:m3046"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "midgaard:m3065"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r3049
+  title: "Levee"
+  description: >-
+    You are at the levee.  South of here you see the river gently flowing west.
+    The river bank is very low making it possible to enter the river.
+  exits:
+    - roomId: "midgaard:r3045"
+      direction: north
+    - roomId: "midgaard:r3203"
+      direction: south
+  npcs:
+    - id: "midgaard:m3006"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3050
+  title: "Abandoned Warehouse"
+  description: >-
+    You are inside the only room in the old warehouse.  The place is very dusty
+    and appears to have been unused for many years.  The skylight spills
+    violet-tinged light.
+  exits:
+    - roomId: "midgaard:r3046"
+      direction: north
+    - roomId: "dream:r8604"
+      direction: up
+  npcs:
+    - id: "midgaard:m3007"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r3051
+  title: "On the Bridge"
+  description: >-
+    You are standing on the stone bridge crosses the river.  The bridge is
+    built out from the western city wall and the river flows west through an
+    opening in the wall ten feet below the bridge.
+  exits:
+    - roomId: "midgaard:r3047"
+      direction: north
+    - roomId: "midgaard:r3100"
+      direction: south
+- id: r3052
+  title: "Outside the West Gate of Midgaard"
+  description: >-
+    You are by two small towers that have been built into the city wall and
+    connected with a footbridge across the heavy wooden gate.  To the west you
+    can see the edge of a big forest. A small dusty trail leads north along the
+    wall.
+  exits:
+    - roomId: "moria:r4075"
+      direction: north
+    - roomId: "midgaard:r3040"
+      direction: east
+    - roomId: "haon:r6000"
+      direction: west
+- id: r3053
+  title: "Outside the East Gate of Midgaard"
+  description: >-
+    You are by two small towers that have been built into the city wall and
+    connected with a footbridge across the heavy wooden gate.  To the east the
+    plains stretch out in the distance. To the north a small dusty trail follow
+    the city wall.
+  exits:
+    - roomId: "moria:r4083"
+      direction: north
+    - roomId: "midennir:r3503"
+      direction: east
+    - roomId: "midgaard:r3041"
+      direction: west
+- id: r3054
+  title: "By the Temple Altar"
+  description: >-
+    You are by the temple altar in the northern end of the Temple of Midgaard.
+    A huge altar made from white polished marble is standing in front of you and
+    behind it is a ten foot tall sitting statue of Odin, the King of the Gods.
+  exits:
+    - roomId: "midgaard:r3001"
+      direction: south
+    - roomId: "midgaard:r3206"
+      direction: east
+    - roomId: "midgaard:r3207"
+      direction: west
+  npcs:
+    - id: "midgaard:m3012"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "midgaard:o3010"
+      respawnChance: 75
+- id: r3057
+  title: "In the air..."
+  description: >-
+    WOW you can fly!  You are floating in the air above Temple Square of Midgaard.
+  exits:
+    - roomId: "air:r1017"
+      direction: up
+    - roomId: "midgaard:r3005"
+      direction: down

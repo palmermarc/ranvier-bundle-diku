@@ -1,0 +1,17 @@
+---
+body: |
+  Syntax: drink <object>
+  Syntax: eat <object>
+  Syntax: fill <object>
+  
+  When you are thirsty, DRINK something.
+  
+  When you are hungry, EAT something.
+  
+  FILL fills a drink container from a fountain.
+  
+  EMPTY empties the container onto the floor.
+  
+  - eat
+  - fill
+  - empty

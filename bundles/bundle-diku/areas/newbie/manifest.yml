@@ -1,0 +1,12 @@
+title: "Newbie Area"
+metadata:
+  id: 52
+  name: "Newbie Area"
+  createdBy: "satan"
+  starting_vnum: 700
+  ending_vnum: 749
+  item_requirements: 0
+  filename: "newbie.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,986 @@
+- id: m26200
+  keywords: ["ranger","adventurer"]
+  name: "an Elven ranger"
+  description: >-
+    An Elven ranger from Celene is scouting the peninsula.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "pomarj:o26230": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 1
+- id: m26201
+  keywords: ["hill","giant"]
+  name: "the hill giant"
+  description: >-
+    A hungry hill giant waves a large bone club at at you!
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "pomarj:o26212": 75
+        "pomarj:o26213": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26202
+  keywords: ["tiny","Orc"]
+  name: "a tiny Orc"
+  description: >-
+    A tiny Orc wanders about.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 10.45
+          max: 11.55
+      pools:
+        "pomarj:o26224": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26203
+  keywords: ["turrosh","mak"]
+  name: "Turrosh Mak"
+  description: >-
+    His most ferocious Majesty, the Despot, Turrosh Mak.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "pomarj:o26210": 75
+        "pomarj:o26211": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26204
+  keywords: ["small","Orc"]
+  name: "a small Orc"
+  description: >-
+    A small, rather non-descript Orc.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 237.5
+          max: 262.5
+      pools:
+        "pomarj:o26223": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26205
+  keywords: ["medium","Orc","raider"]
+  name: "an Orc raider"
+  description: >-
+    An Orc raider.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 10
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 712.5
+          max: 787.5
+      pools:
+        "pomarj:o26220": 75
+        "pomarj:o26218": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26206
+  keywords: ["large","Orc"]
+  name: "a large Orc"
+  description: >-
+    A large Orc, member of Turrosh Maks warband.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 20
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "pomarj:o26219": 75
+        "pomarj:o26222": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26207
+  keywords: ["shargaas","Orc","priest"]
+  name: "the priest of Shargaas"
+  description: >-
+    The high priest of Shargaas the Nightlord, orc god of darkness, caves and death.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "pomarj:o26200": 75
+        "pomarj:o26201": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26208
+  keywords: ["Gruumsh","Orc","priest"]
+  name: "the high priest of Gruumsh"
+  description: >-
+    This huge battle scarred Orc worships Gruumsh, Orc god of Fire and Strength.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "pomarj:o26202": 75
+        "pomarj:o26203": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26209
+  keywords: ["bahgtru","Orc","priest"]
+  name: "the priest of Bahgtru"
+  description: >-
+    A hugely muscled priest of Bahgtru, Orc god of battle.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "pomarj:o26204": 75
+        "pomarj:o26205": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26210
+  keywords: ["Priest","of","Ilneval","Orc","priest"]
+  name: "The priest of Ilneval"
+  description: >-
+    This tall unsmiling Orc is the priest of Ilneval, god of warfare.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "pomarj:o26206": 75
+        "pomarj:o26207": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26211
+  keywords: ["yurtrus","orc","priest"]
+  name: "The priest of Yurtrus"
+  description: >-
+    An orcish giant covered with peeling and rotting green flesh.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "pomarj:o26208": 75
+        "pomarj:o26209": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26212
+  keywords: ["swamp","troll"]
+  name: "an swamp troll"
+  description: >-
+    A bad smelling swamp troll ambles about.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 213.75
+          max: 236.25
+      pools:
+        "pomarj:o26215": 75
+        "pomarj:o26223": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26213
+  keywords: ["fire","giant"]
+  name: "a fire giant"
+  description: >-
+    A large fire giant waves a 10 foot long black sword in one hand.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 142.5
+          max: 157.5
+      pools:
+        "pomarj:o26214": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26214
+  keywords: ["fen","troll"]
+  name: "a fen troll"
+  description: >-
+    A green slimy warty troll hunts small orcs.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 520
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26215
+  keywords: ["goblin"]
+  name: "a small goblin"
+  description: >-
+    A small goblin.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 93.1
+          max: 102.9
+      pools:
+        "pomarj:o26216": 75
+        "pomarj:o26219": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26216
+  keywords: ["orog","Orc"]
+  name: "an Orog"
+  description: >-
+    An Orc-Ogre cross breed scavenges for food.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 142.5
+          max: 157.5
+      pools:
+        "pomarj:o26218": 75
+        "pomarj:o26217": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26217
+  keywords: ["half","Orc"]
+  name: "a half-orc"
+  description: >-
+    A half-orc sharpens his dagger against a rock.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26218
+  keywords: ["dire","wolf"]
+  name: "a dire wolf"
+  description: >-
+    A large dire wolf sniffs around.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 297.35
+          max: 328.65
+      pools:
+        "pomarj:o26221": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26219
+  keywords: ["gnoll","Orc"]
+  name: "a Gnoll"
+  description: >-
+    A filthy smelly Gnoll brandishes a spiked club.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 380
+          max: 420
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26220
+  keywords: ["thief","Orc"]
+  name: "an Orc thief"
+  description: >-
+    An Orcish thief sneaks up on you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 285
+          max: 315
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26221
+  keywords: ["kobold","Orc"]
+  name: "a Kobold"
+  description: >-
+    A small dog faced humanoid smells funny.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+      pools:
+        "pomarj:o26220": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26222
+  keywords: ["scout","Orc"]
+  name: "an Orcish scout"
+  description: >-
+    A scout for the empire of Turrosh Mak sneaks by.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "pomarj:o26224": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26223
+  keywords: ["bugbear"]
+  name: "a bugbear"
+  description: >-
+    A big hairy creature with large teeth and pointy ears, eyes you up.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 28.5
+          max: 31.5
+      pools:
+        "pomarj:o26217": 75
+        "pomarj:o26224": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26224
+  keywords: ["fire","giant"]
+  name: "a fire giant ambassador"
+  description: >-
+    A large fire giant ambassador loudly proclaims his allegiance to Turrosh Mak
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 23750
+          max: 26250
+      pools:
+        "pomarj:o26225": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26225
+  keywords: ["storm","giant"]
+  name: "a storm giant emmisary"
+  description: >-
+    A massive blue giant is an emmissary to Turrosh Mak.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -150
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "pomarj:o26229": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26226
+  keywords: ["frost","giant"]
+  name: "a frost giant emissary"
+  description: >-
+    A large pale giant in wolf furs is an emmissary to Turrosh Mak.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -250
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 28500
+          max: 31500
+      pools:
+        "pomarj:o26226": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26227
+  keywords: ["stone","giant"]
+  name: "a stone giant"
+  description: >-
+    The stone giant considers you in stoney silence.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -310
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 18050
+          max: 19950
+      pools:
+        "pomarj:o26227": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26228
+  keywords: ["cloud","giant"]
+  name: "a cloud giant emissary"
+  description: >-
+    A huge giant figure seemingly made up of clouds.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -10
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 39027.9
+          max: 43136.1
+      pools:
+        "pomarj:o26228": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26229
+  keywords: ["Orc","Orcish","witchdoctor"]
+  name: "an Orcish witchdoctor"
+  description: >-
+    An Orcish witchdoctor practices his voodoo.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -50
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 7600
+          max: 8400
+      pools:
+        "pomarj:o26214": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26230
+  keywords: ["warrior","gruumsh"]
+  name: "a fanatic of Gruumsh"
+  description: >-
+    A fanatical warrior of Gruumsh waves his spiked mace menacingly.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -150
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 7600
+          max: 8400
+      pools:
+        "pomarj:o26219": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26231
+  keywords: ["goblin","illusionist"]
+  name: "a goblin illusionist"
+  description: >-
+    The goblin illusionist scares away small Orcs with his spells.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -50
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1805
+          max: 1995
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26232
+  keywords: ["Orc","shaman"]
+  name: "an Orcish shaman"
+  description: >-
+    An Orcish shaman wanders by in search of magical herbs.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -50
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1805
+          max: 1995
+      pools:
+        "pomarj:o26217": 75
+        "pomarj:o26216": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26233
+  keywords: ["baby","red","dragon"]
+  name: "a baby red dragon"
+  description: >-
+    A baby red dragon plays with goblinoid children, occasionaly eating a few.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "pomarj:o26215": 75
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26234
+  keywords: ["imp"]
+  name: "a little quickling"
+  description: >-
+    A little quickling runs along being annoying.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0.95
+          max: 1.05
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26235
+  keywords: ["HUGE","Orc"]
+  name: "a HUGE Orc"
+  description: >-
+    A HUGE Orc stands here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 30
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+  metadata:
+    areaId: 59
+    exp_level: 4000
+    sex: 0
+- id: m26236
+  keywords: ["a","drow","merchant"]
+  name: "a drow merchant"
+  description: >-
+    A drow merchant is on his way to trade with Turrosh Mak.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "pomarj:o26230": 75
+  metadata:
+    vendor:
+      items:
+        "pomarj:o26230":
+          cost: 100
+          currency: gold
+    areaId: 59
+    exp_level: 4000
+    sex: 1

@@ -1,0 +1,12 @@
+title: "Krees area"
+metadata:
+  id: 41
+  name: "Krees area"
+  createdBy: "kree"
+  starting_vnum: 6400
+  ending_vnum: 6449
+  item_requirements: 6000
+  filename: "kree.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

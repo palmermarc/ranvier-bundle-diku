@@ -1,0 +1,517 @@
+- id: m2001
+  keywords: ["bat"]
+  name: "a bat"
+  description: >-
+    A bat flaps wildly at you!
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 0
+- id: m2002
+  keywords: ["page","templar"]
+  name: "a templar page"
+  description: >-
+    A templar page in training is here looking mildly confused.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 570
+          max: 630
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 1
+- id: m2003
+  keywords: ["spelunker","explorer"]
+  name: "a spelunker"
+  description: >-
+    A spelunker knows his way around these tunnels.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 760
+          max: 840
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 1
+- id: m2004
+  keywords: ["gravedigger","digger","robber","graverobber"]
+  name: "a graverobber"
+  description: >-
+    A graverobber uncovers dead bodies.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 1
+- id: m2005
+  keywords: ["mist","swirling"]
+  name: "some mist"
+  description: >-
+    Some mist swirls about you here ... it seems ALIVE!
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "catacomb:o2015": 75
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 0
+- id: m2006
+  keywords: [""]
+  name: "It"
+  description: >-
+    
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 0
+- id: m2007
+  keywords: ["skeleton","skeletal","soldier"]
+  name: "a skeleton"
+  description: >-
+    A skeletal soldier fights in the battle of the underworld.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -290
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1045
+          max: 1155
+      pools:
+        "catacomb:o2009": 75
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 1
+- id: m2008
+  keywords: ["templar"]
+  name: "a templar"
+  description: >-
+    A templar shouts "AKK! SLAY THE INFIDEL!"
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 600
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "catacomb:o2009": 75
+        "catacomb:o2016": 75
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 1
+- id: m2009
+  keywords: ["wraith"]
+  name: "a mysterious wraith"
+  description: >-
+    A mysterious ghostly wraith forms before your eyes.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 570
+          max: 630
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 1
+- id: m2010
+  keywords: ["officer","templar"]
+  name: "the templar officer"
+  description: >-
+    A templar officer keeps an eye on things here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 700
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 570
+          max: 630
+      pools:
+        "catacomb:o2016": 75
+        "catacomb:o2009": 75
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 1
+- id: m2011
+  keywords: ["zombie","mage"]
+  name: "zombie"
+  description: >-
+    A blank-faced zombie mage joins the battle.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 522.5
+          max: 577.5
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 1
+- id: m2012
+  keywords: ["shadow","shadows"]
+  name: "the shadow"
+  description: >-
+    Eerie shadows fill the room.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 760
+          max: 840
+      pools:
+        "catacomb:o2014": 75
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 0
+- id: m2013
+  keywords: ["bat","vampire"]
+  name: "The vampire"
+  description: >-
+    A bat flaps wildly at you!
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -100
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "catacomb:o2004": 75
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 1
+- id: m2014
+  keywords: ["necromancer","necro","cleric"]
+  name: "the evil necromancer"
+  description: >-
+    The evil necromancer makes undead soldiers from corpses.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -888
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1045
+          max: 1155
+      pools:
+        "catacomb:o2011": 75
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 1
+- id: m2015
+  keywords: ["grand","templar","leader"]
+  name: "the grand templar"
+  description: >-
+    The grand templar stands here quietly observing your actions
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+      pools:
+        "catacomb:o2010": 75
+        "catacomb:o2001": 75
+        "catacomb:o2008": 75
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 1
+- id: m2016
+  keywords: ["prism","dragon","prismdragon"]
+  name: "the prism dragon"
+  description: >-
+    The light shines off a beautiful but dangerous dragon lurking here.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -303
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 28500
+          max: 31500
+      pools:
+        "catacomb:o2012": 75
+        "catacomb:o2013": 75
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 1
+- id: m2017
+  keywords: ["darken","dark","beast","darkenbeast"]
+  name: "The DarkenBeast"
+  description: >-
+    You hear and smell the presense of the darkenbeast.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 19000
+          max: 21000
+      pools:
+        "catacomb:o2003": 75
+        "catacomb:o2002": 75
+        "catacomb:o2006": 75
+  metadata:
+    areaId: 10
+    exp_level: 4000
+    sex: 0

@@ -1,0 +1,12 @@
+title: "Dragon Tower"
+metadata:
+  id: 18
+  name: "Dragon Tower"
+  createdBy: "wench"
+  starting_vnum: 2200
+  ending_vnum: 2299
+  item_requirements: 0
+  filename: "draconia.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

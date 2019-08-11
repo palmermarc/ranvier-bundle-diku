@@ -1,0 +1,1012 @@
+- id: m2300
+  keywords: ["knight","ethereal","dark"]
+  name: "the Dark Ethereal Knight"
+  description: >-
+    A dark ethereal knight hovers over the bloody clearing.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 23750
+          max: 26250
+      pools:
+        "mahntor:o2346": 75
+        "mahntor:o2347": 75
+        "mahntor:o2348": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2301
+  keywords: ["treant","tree"]
+  name: "the Old Treant"
+  description: >-
+    A huge, gnarled tree stands here, battered by age and nature.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 250
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 0
+- id: m2302
+  keywords: ["dweller","cave"]
+  name: "the Cave Dweller"
+  description: >-
+    A slimy, gross creature is here munching on a corpse.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 2375
+          max: 2625
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 0
+- id: m2303
+  keywords: ["toad","rock"]
+  name: "the Rock Toad"
+  description: >-
+    A rather large rock toad sits here, croaking loudly.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -250
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 2422.5
+          max: 2677.5
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 0
+- id: m2304
+  keywords: ["weeping","willow","tree"]
+  name: "the Weeping Willow"
+  description: >-
+    A large willow tree stands here, weeping.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 19000
+          max: 21000
+      pools:
+        "mahntor:o2349": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 2
+- id: m2305
+  keywords: ["mist","mistling"]
+  name: "the Mistling"
+  description: >-
+    A mistling emerges from the mist surrounding you.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 0
+- id: m2306
+  keywords: ["swamp","wraith"]
+  name: "the Swamp Wraith"
+  description: >-
+    A swamp wraith emerges from the mist here.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 23750
+          max: 26250
+      pools:
+        "mahntor:o2384": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2307
+  keywords: ["ogre","villager"]
+  name: "the Ogre Villager"
+  description: >-
+    The ogre villager is here, going about its chores.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "mahntor:o2385": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 0
+- id: m2308
+  keywords: ["warrior","ogre"]
+  name: "the Ogre Warrior"
+  description: >-
+    The ogre warrior stands here, growling fiercely.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -350
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "mahntor:o2386": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2309
+  keywords: ["guard","ogre"]
+  name: "the Ogre Guard"
+  description: >-
+    The ogre guard is here manning his post faithfully.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "mahntor:o2387": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2310
+  keywords: ["shaman","ogre"]
+  name: "The Ogre Shaman"
+  description: >-
+    The ogre shaman is here chanting arcane words and waving his arms.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 47500
+          max: 52500
+      pools:
+        "mahntor:o2388": 75
+        "mahntor:o2389": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2311
+  keywords: ["chief","chieftain","ogre"]
+  name: "the Ogre Chieftain"
+  description: >-
+    The ogre chieftain is here, observing his subjects.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 47500
+          max: 52500
+      pools:
+        "mahntor:o2390": 75
+        "mahntor:o2391": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2312
+  keywords: ["barbarian"]
+  name: "the Plains Barbarian"
+  description: >-
+    A plains barbarian is here, clad in heavy furs.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "mahntor:o2392": 75
+        "mahntor:o2393": 75
+        "mahntor:o2360": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2313
+  keywords: ["yeti","white"]
+  name: "the White Yeti"
+  description: >-
+    The white yeti crouches here snarling.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -350
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "mahntor:o2361": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 0
+- id: m2314
+  keywords: ["worm","ice","iceworm"]
+  name: "the Ice Worm"
+  description: >-
+    A huge ice worm burrows through the ice and snow here. It rears up andattacks!
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 3325
+          max: 3675
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 0
+- id: m2315
+  keywords: ["citizen","minotaur"]
+  name: "the Minotaur Citizen"
+  description: >-
+    A minotaur citizen is here, hurrying through the icy streets.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "mahntor:o2362": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 0
+- id: m2316
+  keywords: ["guard","minotaur"]
+  name: "the Minotaur Guard"
+  description: >-
+    A minotaur guard catches you trespassing and attacks!
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -330
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 23750
+          max: 26250
+      pools:
+        "mahntor:o2363": 75
+        "mahntor:o2364": 75
+        "mahntor:o2365": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2317
+  keywords: ["warrior","minotaur"]
+  name: "the Minotaur Warrior"
+  description: >-
+    A minotaur warrior is here looking for intruders.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -330
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 23750
+          max: 26250
+      pools:
+        "mahntor:o2366": 75
+        "mahntor:o2367": 75
+        "mahntor:o2368": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2318
+  keywords: ["minotaur","gatekeeper"]
+  name: "the Minotaur Gatekeeper"
+  description: >-
+    A minotaur is here guarding the Keep of Mahn-Tor.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -330
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 23750
+          max: 26250
+      pools:
+        "mahntor:o2350": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 0
+- id: m2319
+  keywords: ["minotaur","high","guard"]
+  name: "the High Minotaur Guard"
+  description: >-
+    The minotaur high guard is here guarding the Keep.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -330
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 42750
+          max: 47250
+      pools:
+        "mahntor:o2369": 75
+        "mahntor:o2370": 75
+        "mahntor:o2371": 75
+        "mahntor:o2366": 75
+        "mahntor:o2372": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2320
+  keywords: ["minotaur","royal","guard"]
+  name: "the Royal Minotaur Guard"
+  description: >-
+    The royal minotaur guard considers you an intruder and attacks!
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -330
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 47500
+          max: 52500
+      pools:
+        "mahntor:o2373": 75
+        "mahntor:o2374": 75
+        "mahntor:o2375": 75
+        "mahntor:o2366": 75
+        "mahntor:o2376": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2321
+  keywords: ["guard","minotaur","elite"]
+  name: "the Elite Minotaur Guard"
+  description: >-
+    The elite minotaur guard sees you and attacks!
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 71250
+          max: 78750
+      pools:
+        "mahntor:o2377": 75
+        "mahntor:o2378": 75
+        "mahntor:o2379": 75
+        "mahntor:o2366": 75
+        "mahntor:o2380": 75
+        "mahntor:o2359": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2322
+  keywords: ["girl","haremgirl","harem","slave"]
+  name: "the Harem Girl"
+  description: >-
+    A harem girl cowers here in fear.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2323
+  keywords: ["butler","minotaur"]
+  name: "the Minotaur Butler"
+  description: >-
+    A minotaur butler stands here rigidly, awaiting orders.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 250
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2324
+  keywords: ["keeper","minotaur","ring-keeper"]
+  name: "the Minotaur Ring-Keeper"
+  description: >-
+    The minotaur ring-keeper stands guarding his post.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -300
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 47500
+          max: 52500
+      pools:
+        "mahntor:o2381": 75
+        "mahntor:o2382": 75
+        "mahntor:o2383": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2325
+  keywords: ["gorak","minotaur","warrior","master"]
+  name: "Gorak"
+  description: >-
+    Gorak, the Minotaur Master Warrior, is here practicing his skills.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "mahntor:o2300": 75
+        "mahntor:o2301": 75
+        "mahntor:o2302": 75
+        "mahntor:o2303": 75
+        "mahntor:o2304": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2326
+  keywords: ["darkoth","minotaur","anti-paladin","master"]
+  name: "Darkoth"
+  description: >-
+    Darkoth, the minotaur anti-paladin, stands here grinning wickedly.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "mahntor:o2305": 75
+        "mahntor:o2306": 75
+        "mahntor:o2307": 75
+        "mahntor:o2308": 75
+        "mahntor:o2309": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2327
+  keywords: ["tyrgoth","minotaur","paladin","master"]
+  name: "Tyrgoth"
+  description: >-
+    Tyrgoth, the minotaur paladin, is here worshipping silently.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "mahntor:o2310": 75
+        "mahntor:o2311": 75
+        "mahntor:o2312": 75
+        "mahntor:o2313": 75
+        "mahntor:o2314": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2328
+  keywords: ["amyrok","minotaur","mage","master"]
+  name: "Amyrok"
+  description: >-
+    Amyrok, the minotaur archmage, is here chanting arcane spells.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "mahntor:o2315": 75
+        "mahntor:o2316": 75
+        "mahntor:o2317": 75
+        "mahntor:o2318": 75
+        "mahntor:o2319": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2329
+  keywords: ["sumaron","minotaur","cleric","master"]
+  name: "Sumaron"
+  description: >-
+    Sumaron, master cleric of Mahn-Tor, is here looking holy.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "mahntor:o2320": 75
+        "mahntor:o2321": 75
+        "mahntor:o2322": 75
+        "mahntor:o2323": 75
+        "mahntor:o2324": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2330
+  keywords: ["nasturn","minotaur","druid","master"]
+  name: "Nasturn"
+  description: >-
+    Nasturn, the minotaur druid, is here studying the arts of nature.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "mahntor:o2325": 75
+        "mahntor:o2326": 75
+        "mahntor:o2327": 75
+        "mahntor:o2328": 75
+        "mahntor:o2329": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2331
+  keywords: ["belrak","minotaur","ranger","master"]
+  name: "Belrak"
+  description: >-
+    Belrak, the minotaur ranger, looks unhappy about having visitors.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "mahntor:o2330": 75
+        "mahntor:o2331": 75
+        "mahntor:o2332": 75
+        "mahntor:o2334": 75
+        "mahntor:o2333": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2332
+  keywords: ["dorgar","minotaur","thief","master"]
+  name: "Dorgar"
+  description: >-
+    Dorgar, the minotaur thief, is here hiding in the shadows.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "mahntor:o2335": 75
+        "mahntor:o2336": 75
+        "mahntor:o2337": 75
+        "mahntor:o2338": 75
+        "mahntor:o2339": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1
+- id: m2333
+  keywords: ["mahn-tor","minotaur","grand","master"]
+  name: "Mahn-Tor"
+  description: >-
+    Mahn-Tor, the minotaur grand master, is here looking down at you.
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "mahntor:o2340": 75
+        "mahntor:o2341": 75
+        "mahntor:o2342": 75
+        "mahntor:o2343": 75
+        "mahntor:o2344": 75
+        "mahntor:o2345": 75
+  metadata:
+    areaId: 44
+    exp_level: 6000
+    sex: 1

@@ -1,0 +1,3973 @@
+- id: r11264
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11261"
+      direction: north
+    - roomId: "prehistoria:r11272"
+      direction: south
+    - roomId: "prehistoria:r11263"
+      direction: east
+    - roomId: "prehistoria:r11265"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11204"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11209"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11209"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11211"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "prehistoria:m11211"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "prehistoria:m11211"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r11265
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11260"
+      direction: north
+    - roomId: "prehistoria:r11271"
+      direction: south
+    - roomId: "prehistoria:r11264"
+      direction: east
+    - roomId: "prehistoria:r11267"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11204"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11216"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r11266
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11252"
+      direction: south
+    - roomId: "prehistoria:r11270"
+      direction: east
+    - roomId: "prehistoria:r11289"
+      direction: west
+- id: r11267
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11259"
+      direction: north
+    - roomId: "prehistoria:r11401"
+      direction: south
+    - roomId: "prehistoria:r11265"
+      direction: east
+    - roomId: "prehistoria:r11399"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11215"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "prehistoria:m11210"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "prehistoria:m11210"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r11268
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11313"
+      direction: north
+    - roomId: "prehistoria:r11287"
+      direction: south
+    - roomId: "prehistoria:r11314"
+      direction: east
+    - roomId: "prehistoria:r11280"
+      direction: west
+- id: r11269
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11256"
+      direction: south
+    - roomId: "prehistoria:r11297"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11216"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11217"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11217"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11217"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11209"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r11270
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11251"
+      direction: south
+    - roomId: "prehistoria:r11248"
+      direction: east
+    - roomId: "prehistoria:r11266"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11203"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11209"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r11271
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11265"
+      direction: north
+    - roomId: "prehistoria:r11276"
+      direction: south
+    - roomId: "prehistoria:r11272"
+      direction: east
+    - roomId: "prehistoria:r11401"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11215"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r11272
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11264"
+      direction: north
+    - roomId: "prehistoria:r11275"
+      direction: south
+    - roomId: "prehistoria:r11273"
+      direction: east
+    - roomId: "prehistoria:r11271"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11209"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11211"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r11273
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11263"
+      direction: north
+    - roomId: "prehistoria:r11274"
+      direction: south
+    - roomId: "prehistoria:r11311"
+      direction: east
+    - roomId: "prehistoria:r11272"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11209"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r11274
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11273"
+      direction: north
+    - roomId: "prehistoria:r11277"
+      direction: south
+    - roomId: "prehistoria:r11312"
+      direction: east
+    - roomId: "prehistoria:r11275"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11209"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11211"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "prehistoria:m11211"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r11275
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11272"
+      direction: north
+    - roomId: "prehistoria:r11278"
+      direction: south
+    - roomId: "prehistoria:r11274"
+      direction: east
+    - roomId: "prehistoria:r11276"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11204"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r11276
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11271"
+      direction: north
+    - roomId: "prehistoria:r11279"
+      direction: south
+    - roomId: "prehistoria:r11275"
+      direction: east
+    - roomId: "prehistoria:r11403"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11211"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "prehistoria:m11218"
+      respawnChance: 100
+      maxLoad: "14"
+    - id: "prehistoria:m11218"
+      respawnChance: 100
+      maxLoad: "14"
+    - id: "prehistoria:m11218"
+      respawnChance: 100
+      maxLoad: "14"
+- id: r11277
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11274"
+      direction: north
+    - roomId: "prehistoria:r11280"
+      direction: south
+    - roomId: "prehistoria:r11313"
+      direction: east
+    - roomId: "prehistoria:r11278"
+      direction: west
+- id: r11278
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11275"
+      direction: north
+    - roomId: "prehistoria:r11281"
+      direction: south
+    - roomId: "prehistoria:r11277"
+      direction: east
+    - roomId: "prehistoria:r11279"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11211"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "prehistoria:m11204"
+      respawnChance: 100
+      maxLoad: "14"
+- id: r11279
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11276"
+      direction: north
+    - roomId: "prehistoria:r11282"
+      direction: south
+    - roomId: "prehistoria:r11278"
+      direction: east
+    - roomId: "prehistoria:r11404"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11213"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r11280
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11277"
+      direction: north
+    - roomId: "prehistoria:r11286"
+      direction: south
+    - roomId: "prehistoria:r11268"
+      direction: east
+    - roomId: "prehistoria:r11281"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11203"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11201"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r11281
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11278"
+      direction: north
+    - roomId: "prehistoria:r11285"
+      direction: south
+    - roomId: "prehistoria:r11280"
+      direction: east
+    - roomId: "prehistoria:r11282"
+      direction: west
+- id: r11282
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11279"
+      direction: north
+    - roomId: "prehistoria:r11284"
+      direction: south
+    - roomId: "prehistoria:r11281"
+      direction: east
+    - roomId: "prehistoria:r11250"
+      direction: west
+- id: r11283
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11250"
+      direction: north
+    - roomId: "prehistoria:r11396"
+      direction: south
+    - roomId: "prehistoria:r11284"
+      direction: east
+    - roomId: "prehistoria:r11407"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11209"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "prehistoria:m11220"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r11284
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11282"
+      direction: north
+    - roomId: "prehistoria:r11293"
+      direction: south
+    - roomId: "prehistoria:r11285"
+      direction: east
+    - roomId: "prehistoria:r11283"
+      direction: west
+- id: r11285
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11281"
+      direction: north
+    - roomId: "prehistoria:r11291"
+      direction: south
+    - roomId: "prehistoria:r11286"
+      direction: east
+    - roomId: "prehistoria:r11284"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11215"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r11286
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11280"
+      direction: north
+    - roomId: "prehistoria:r11290"
+      direction: south
+    - roomId: "prehistoria:r11287"
+      direction: east
+    - roomId: "prehistoria:r11285"
+      direction: west
+- id: r11287
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11268"
+      direction: north
+    - roomId: "prehistoria:r11288"
+      direction: south
+    - roomId: "prehistoria:r11315"
+      direction: east
+    - roomId: "prehistoria:r11286"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r11288
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11287"
+      direction: north
+    - roomId: "prehistoria:r11299"
+      direction: south
+    - roomId: "prehistoria:r11316"
+      direction: east
+    - roomId: "prehistoria:r11290"
+      direction: west
+- id: r11289
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11253"
+      direction: south
+    - roomId: "prehistoria:r11266"
+      direction: east
+    - roomId: "prehistoria:r11292"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11213"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r11290
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11286"
+      direction: north
+    - roomId: "prehistoria:r11298"
+      direction: south
+    - roomId: "prehistoria:r11288"
+      direction: east
+    - roomId: "prehistoria:r11291"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11203"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11218"
+      respawnChance: 100
+      maxLoad: "14"
+- id: r11291
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11285"
+      direction: north
+    - roomId: "prehistoria:r11296"
+      direction: south
+    - roomId: "prehistoria:r11290"
+      direction: east
+    - roomId: "prehistoria:r11293"
+      direction: west
+- id: r11292
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11254"
+      direction: south
+    - roomId: "prehistoria:r11289"
+      direction: east
+    - roomId: "prehistoria:r11297"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11219"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11219"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11219"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r11293
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11284"
+      direction: north
+    - roomId: "prehistoria:r11295"
+      direction: south
+    - roomId: "prehistoria:r11291"
+      direction: east
+    - roomId: "prehistoria:r11396"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11209"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "prehistoria:m11219"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r11294
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11300"
+      direction: north
+    - roomId: "prehistoria:r11420"
+      direction: south
+- id: r11295
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11293"
+      direction: north
+    - roomId: "prehistoria:r11303"
+      direction: south
+    - roomId: "prehistoria:r11296"
+      direction: east
+    - roomId: "prehistoria:r11395"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11210"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r11296
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11291"
+      direction: north
+    - roomId: "prehistoria:r11301"
+      direction: south
+    - roomId: "prehistoria:r11298"
+      direction: east
+    - roomId: "prehistoria:r11295"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11216"
+      respawnChance: 100
+      maxLoad: "13"
+- id: r11297
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11255"
+      direction: south
+    - roomId: "prehistoria:r11292"
+      direction: east
+    - roomId: "prehistoria:r11269"
+      direction: west
+- id: r11298
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11290"
+      direction: north
+    - roomId: "prehistoria:r11302"
+      direction: south
+    - roomId: "prehistoria:r11299"
+      direction: east
+    - roomId: "prehistoria:r11296"
+      direction: west
+- id: r11299
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11288"
+      direction: north
+    - roomId: "prehistoria:r11318"
+      direction: south
+    - roomId: "prehistoria:r11317"
+      direction: east
+    - roomId: "prehistoria:r11298"
+      direction: west
+- id: r11300
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11304"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11203"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r11301
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11296"
+      direction: north
+    - roomId: "prehistoria:r11305"
+      direction: south
+    - roomId: "prehistoria:r11302"
+      direction: east
+    - roomId: "prehistoria:r11303"
+      direction: west
+- id: r11302
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11298"
+      direction: north
+    - roomId: "prehistoria:r11319"
+      direction: south
+    - roomId: "prehistoria:r11318"
+      direction: east
+    - roomId: "prehistoria:r11301"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11214"
+      respawnChance: 100
+      maxLoad: "14"
+- id: r11303
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11295"
+      direction: north
+    - roomId: "prehistoria:r11382"
+      direction: south
+    - roomId: "prehistoria:r11301"
+      direction: east
+    - roomId: "prehistoria:r11394"
+      direction: west
+- id: r11304
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11307"
+      direction: north
+    - roomId: "prehistoria:r11306"
+      direction: east
+- id: r11305
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11301"
+      direction: north
+    - roomId: "prehistoria:r11320"
+      direction: south
+    - roomId: "prehistoria:r11319"
+      direction: east
+    - roomId: "prehistoria:r11382"
+      direction: west
+- id: r11306
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11425"
+      direction: south
+- id: r11307
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11308"
+      direction: north
+- id: r11308
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11343"
+      direction: east
+- id: r11309
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11249"
+      direction: north
+    - roomId: "prehistoria:r11310"
+      direction: south
+    - roomId: "prehistoria:r11331"
+      direction: east
+    - roomId: "prehistoria:r11262"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11208"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11208"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11208"
+      respawnChance: 100
+      maxLoad: "10"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11310
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11309"
+      direction: north
+    - roomId: "prehistoria:r11311"
+      direction: south
+    - roomId: "prehistoria:r11332"
+      direction: east
+    - roomId: "prehistoria:r11263"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11311
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11310"
+      direction: north
+    - roomId: "prehistoria:r11312"
+      direction: south
+    - roomId: "prehistoria:r11333"
+      direction: east
+    - roomId: "prehistoria:r11273"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11312
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11311"
+      direction: north
+    - roomId: "prehistoria:r11313"
+      direction: south
+    - roomId: "prehistoria:r11334"
+      direction: east
+    - roomId: "prehistoria:r11274"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11313
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11312"
+      direction: north
+    - roomId: "prehistoria:r11268"
+      direction: south
+    - roomId: "prehistoria:r11335"
+      direction: east
+    - roomId: "prehistoria:r11277"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11314
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11335"
+      direction: north
+    - roomId: "prehistoria:r11315"
+      direction: south
+    - roomId: "prehistoria:r11342"
+      direction: east
+    - roomId: "prehistoria:r11268"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11315
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11314"
+      direction: north
+    - roomId: "prehistoria:r11316"
+      direction: south
+    - roomId: "prehistoria:r11341"
+      direction: east
+    - roomId: "prehistoria:r11287"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11316
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11315"
+      direction: north
+    - roomId: "prehistoria:r11317"
+      direction: south
+    - roomId: "prehistoria:r11340"
+      direction: east
+    - roomId: "prehistoria:r11288"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11317
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11316"
+      direction: north
+    - roomId: "prehistoria:r11337"
+      direction: south
+    - roomId: "prehistoria:r11339"
+      direction: east
+    - roomId: "prehistoria:r11299"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11318
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11299"
+      direction: north
+    - roomId: "prehistoria:r11345"
+      direction: south
+    - roomId: "prehistoria:r11337"
+      direction: east
+    - roomId: "prehistoria:r11302"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11319
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11302"
+      direction: north
+    - roomId: "prehistoria:r11347"
+      direction: south
+    - roomId: "prehistoria:r11345"
+      direction: east
+    - roomId: "prehistoria:r11305"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11320
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11305"
+      direction: north
+    - roomId: "prehistoria:r11321"
+      direction: south
+    - roomId: "prehistoria:r11347"
+      direction: east
+    - roomId: "prehistoria:r11383"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11321
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11320"
+      direction: north
+    - roomId: "prehistoria:r11322"
+      direction: south
+    - roomId: "prehistoria:r11348"
+      direction: east
+    - roomId: "prehistoria:r11388"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "prehistoria:m11211"
+      respawnChance: 100
+      maxLoad: "16"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11322
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11321"
+      direction: north
+    - roomId: "prehistoria:r11351"
+      direction: south
+    - roomId: "prehistoria:r11349"
+      direction: east
+    - roomId: "prehistoria:r11376"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11323
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11376"
+      direction: north
+    - roomId: "prehistoria:r11324"
+      direction: south
+    - roomId: "prehistoria:r11351"
+      direction: east
+    - roomId: "prehistoria:r11370"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11324
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11323"
+      direction: north
+    - roomId: "prehistoria:r11325"
+      direction: south
+    - roomId: "prehistoria:r11352"
+      direction: east
+    - roomId: "prehistoria:r11369"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11325
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11324"
+      direction: north
+    - roomId: "prehistoria:r11355"
+      direction: south
+    - roomId: "prehistoria:r11353"
+      direction: east
+    - roomId: "prehistoria:r11326"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11326
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11369"
+      direction: north
+    - roomId: "prehistoria:r11356"
+      direction: south
+    - roomId: "prehistoria:r11325"
+      direction: east
+    - roomId: "prehistoria:r11327"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "25"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11327
+  title: "River Bank"
+  description: >-
+    You stand on one of the banks of the river Ob, you hear the gush of rapid 
+    flowing water nearby.  Reeds and Bullrushes sprout from the ground all 
+    around here and pretty flowers grow on the banks.
+  exits:
+    - roomId: "prehistoria:r11368"
+      direction: north
+    - roomId: "prehistoria:r11357"
+      direction: south
+    - roomId: "prehistoria:r11326"
+      direction: east
+    - roomId: "prehistoria:r11366"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "25"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11328
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11418"
+      direction: north
+    - roomId: "prehistoria:r11363"
+      direction: west
+- id: r11329
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11445"
+      direction: north
+    - roomId: "prehistoria:r11330"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11330
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11247"
+      direction: north
+    - roomId: "prehistoria:r11331"
+      direction: south
+    - roomId: "prehistoria:r11329"
+      direction: east
+    - roomId: "prehistoria:r11249"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11331
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11330"
+      direction: north
+    - roomId: "prehistoria:r11332"
+      direction: south
+    - roomId: "prehistoria:r11309"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11332
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11331"
+      direction: north
+    - roomId: "prehistoria:r11333"
+      direction: south
+    - roomId: "prehistoria:r11310"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11333
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11332"
+      direction: north
+    - roomId: "prehistoria:r11334"
+      direction: south
+    - roomId: "prehistoria:r11311"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11334
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11333"
+      direction: north
+    - roomId: "prehistoria:r11335"
+      direction: south
+    - roomId: "prehistoria:r11312"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11335
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11334"
+      direction: north
+    - roomId: "prehistoria:r11314"
+      direction: south
+    - roomId: "prehistoria:r11336"
+      direction: east
+    - roomId: "prehistoria:r11313"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11336
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11342"
+      direction: south
+    - roomId: "prehistoria:r11335"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11337
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11317"
+      direction: north
+    - roomId: "prehistoria:r11344"
+      direction: south
+    - roomId: "prehistoria:r11338"
+      direction: east
+    - roomId: "prehistoria:r11318"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11338
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11339"
+      direction: north
+    - roomId: "prehistoria:r11337"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11339
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11340"
+      direction: north
+    - roomId: "prehistoria:r11338"
+      direction: south
+    - roomId: "prehistoria:r11317"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11340
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11341"
+      direction: north
+    - roomId: "prehistoria:r11339"
+      direction: south
+    - roomId: "prehistoria:r11316"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11341
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11342"
+      direction: north
+    - roomId: "prehistoria:r11340"
+      direction: south
+    - roomId: "prehistoria:r11315"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11342
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11336"
+      direction: north
+    - roomId: "prehistoria:r11341"
+      direction: south
+    - roomId: "prehistoria:r11314"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11343
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11359"
+      direction: north
+- id: r11344
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11337"
+      direction: north
+    - roomId: "prehistoria:r11345"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11345
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11318"
+      direction: north
+    - roomId: "prehistoria:r11346"
+      direction: south
+    - roomId: "prehistoria:r11344"
+      direction: east
+    - roomId: "prehistoria:r11319"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11346
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11345"
+      direction: north
+    - roomId: "prehistoria:r11347"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11207"
+      respawnChance: 100
+      maxLoad: "8"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11347
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11319"
+      direction: north
+    - roomId: "prehistoria:r11348"
+      direction: south
+    - roomId: "prehistoria:r11346"
+      direction: east
+    - roomId: "prehistoria:r11320"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11348
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11347"
+      direction: north
+    - roomId: "prehistoria:r11349"
+      direction: south
+    - roomId: "prehistoria:r11321"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11349
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11348"
+      direction: north
+    - roomId: "prehistoria:r11350"
+      direction: south
+    - roomId: "prehistoria:r11322"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11350
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11349"
+      direction: north
+    - roomId: "prehistoria:r11351"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11351
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11322"
+      direction: north
+    - roomId: "prehistoria:r11352"
+      direction: south
+    - roomId: "prehistoria:r11350"
+      direction: east
+    - roomId: "prehistoria:r11323"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11352
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11351"
+      direction: north
+    - roomId: "prehistoria:r11353"
+      direction: south
+    - roomId: "prehistoria:r11324"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11353
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11352"
+      direction: north
+    - roomId: "prehistoria:r11354"
+      direction: south
+    - roomId: "prehistoria:r11325"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11354
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11353"
+      direction: north
+    - roomId: "prehistoria:r11355"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11207"
+      respawnChance: 100
+      maxLoad: "8"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11355
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11325"
+      direction: north
+    - roomId: "prehistoria:r11354"
+      direction: east
+    - roomId: "prehistoria:r11356"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11356
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11326"
+      direction: north
+    - roomId: "prehistoria:r11355"
+      direction: east
+    - roomId: "prehistoria:r11357"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11357
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11327"
+      direction: north
+    - roomId: "prehistoria:r11356"
+      direction: east
+    - roomId: "prehistoria:r11358"
+      direction: west
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11358
+  title: "The River Ob"
+  description: >-
+    The rapids gush beneath your feet!
+  exits:
+    - roomId: "prehistoria:r11366"
+      direction: north
+    - roomId: "prehistoria:r11357"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11207"
+      respawnChance: 100
+      maxLoad: "8"
+  items:
+    - id: "prehistoria:o11236"
+      respawnChance: 75
+- id: r11359
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that ti allows no light through to the forest floor.  The trail 
+    extends further east still.
+  exits:
+    - roomId: "prehistoria:r11360"
+      direction: north
+- id: r11360
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11361"
+      direction: west
+- id: r11361
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubbery crunch underfoot as you walk, they seem 
+    to spring up from everywhere here.  Some small thorn bushes and thistles 
+    grow here also.
+  exits:
+    - roomId: "prehistoria:r11362"
+      direction: west
+- id: r11362
+  title: "A drinking hole"
+  description: >-
+    A rather large pond has been formed here.  Some HUGE footprints lead from 
+    the shrubery into the pond, I wonder what made those?
+  exits:
+    - roomId: "prehistoria:r11364"
+      direction: north
+  items:
+    - id: "prehistoria:o11213"
+      respawnChance: 75
+- id: r11363
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11455"
+      direction: east
+    - roomId: "prehistoria:r11456"
+      direction: west
+- id: r11364
+  title: "Plateau"
+  description: >-
+    You stand atop a high plateau looking down over the plains and forests 
+    below, its a truly dazzling view.  You can just hear the gush of the river
+    Ob flowing below.
+  exits:
+    - roomId: "prehistoria:r11436"
+      direction: north
+    - roomId: "prehistoria:r11447"
+      direction: south
+- id: r11365
+  title: "Rocky outcropping"
+  description: >-
+    You find yourself treading precariously over a crevasse, better watch your 
+    step!
+  exits:
+    - roomId: "prehistoria:r11454"
+      direction: south
+    - roomId: "prehistoria:r11446"
+      direction: east
+- id: r11366
+  title: "A nest!"
+  description: >-
+    You have stumbled into the middle of some HUGE beasts nest!!!!
+    Is it time to leave you wonder?
+  exits:
+    - roomId: "prehistoria:r11367"
+      direction: north
+    - roomId: "prehistoria:r11358"
+      direction: south
+    - roomId: "prehistoria:r11327"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11206"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r11367
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that ti allows no light through to the forest floor.  The trail 
+    extends further east still.
+  exits:
+    - roomId: "prehistoria:r11372"
+      direction: north
+    - roomId: "prehistoria:r11366"
+      direction: south
+    - roomId: "prehistoria:r11368"
+      direction: east
+- id: r11368
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that ti allows no light through to the forest floor.  The trail 
+    extends further east still.
+  exits:
+    - roomId: "prehistoria:r11371"
+      direction: north
+    - roomId: "prehistoria:r11327"
+      direction: south
+    - roomId: "prehistoria:r11369"
+      direction: east
+    - roomId: "prehistoria:r11367"
+      direction: west
+- id: r11369
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that ti allows no light through to the forest floor.  The trail 
+    extends further east still.
+  exits:
+    - roomId: "prehistoria:r11370"
+      direction: north
+    - roomId: "prehistoria:r11326"
+      direction: south
+    - roomId: "prehistoria:r11324"
+      direction: east
+    - roomId: "prehistoria:r11368"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11209"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r11370
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that ti allows no light through to the forest floor.  The trail 
+    extends further east still.
+  exits:
+    - roomId: "prehistoria:r11375"
+      direction: north
+    - roomId: "prehistoria:r11369"
+      direction: south
+    - roomId: "prehistoria:r11323"
+      direction: east
+    - roomId: "prehistoria:r11371"
+      direction: west
+- id: r11371
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that ti allows no light through to the forest floor.  The trail 
+    extends further east still.
+  exits:
+    - roomId: "prehistoria:r11374"
+      direction: north
+    - roomId: "prehistoria:r11368"
+      direction: south
+    - roomId: "prehistoria:r11370"
+      direction: east
+    - roomId: "prehistoria:r11372"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11202"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r11372
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that ti allows no light through to the forest floor.  The trail 
+    extends further east still.
+  exits:
+    - roomId: "prehistoria:r11373"
+      direction: north
+    - roomId: "prehistoria:r11367"
+      direction: south
+    - roomId: "prehistoria:r11371"
+      direction: east
+- id: r11373
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that ti allows no light through to the forest floor.  The trail 
+    extends further east still.
+  exits:
+    - roomId: "prehistoria:r11377"
+      direction: north
+    - roomId: "prehistoria:r11372"
+      direction: south
+    - roomId: "prehistoria:r11374"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11202"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r11374
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that ti allows no light through to the forest floor.  The trail 
+    extends further east still.
+  exits:
+    - roomId: "prehistoria:r11386"
+      direction: north
+    - roomId: "prehistoria:r11371"
+      direction: south
+    - roomId: "prehistoria:r11375"
+      direction: east
+    - roomId: "prehistoria:r11373"
+      direction: west
+- id: r11375
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that ti allows no light through to the forest floor.  The trail 
+    extends further east still.
+  exits:
+    - roomId: "prehistoria:r11387"
+      direction: north
+    - roomId: "prehistoria:r11370"
+      direction: south
+    - roomId: "prehistoria:r11376"
+      direction: east
+    - roomId: "prehistoria:r11374"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r11376
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that ti allows no light through to the forest floor.  The trail 
+    extends further east still.
+  exits:
+    - roomId: "prehistoria:r11388"
+      direction: north
+    - roomId: "prehistoria:r11323"
+      direction: south
+    - roomId: "prehistoria:r11322"
+      direction: east
+    - roomId: "prehistoria:r11375"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11217"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r11377
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11378"
+      direction: north
+    - roomId: "prehistoria:r11373"
+      direction: south
+    - roomId: "prehistoria:r11386"
+      direction: east
+- id: r11378
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11379"
+      direction: north
+    - roomId: "prehistoria:r11377"
+      direction: south
+    - roomId: "prehistoria:r11385"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11215"
+      respawnChance: 100
+      maxLoad: "13"
+- id: r11379
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11393"
+      direction: north
+    - roomId: "prehistoria:r11378"
+      direction: south
+    - roomId: "prehistoria:r11380"
+      direction: east
+- id: r11380
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11389"
+      direction: north
+    - roomId: "prehistoria:r11385"
+      direction: south
+    - roomId: "prehistoria:r11381"
+      direction: east
+    - roomId: "prehistoria:r11379"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11201"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r11381
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11394"
+      direction: north
+    - roomId: "prehistoria:r11384"
+      direction: south
+    - roomId: "prehistoria:r11382"
+      direction: east
+    - roomId: "prehistoria:r11380"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11218"
+      respawnChance: 100
+      maxLoad: "14"
+- id: r11382
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11303"
+      direction: north
+    - roomId: "prehistoria:r11383"
+      direction: south
+    - roomId: "prehistoria:r11305"
+      direction: east
+    - roomId: "prehistoria:r11381"
+      direction: west
+- id: r11383
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11382"
+      direction: north
+    - roomId: "prehistoria:r11388"
+      direction: south
+    - roomId: "prehistoria:r11320"
+      direction: east
+    - roomId: "prehistoria:r11384"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11213"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r11384
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11381"
+      direction: north
+    - roomId: "prehistoria:r11387"
+      direction: south
+    - roomId: "prehistoria:r11383"
+      direction: east
+    - roomId: "prehistoria:r11385"
+      direction: west
+- id: r11385
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11380"
+      direction: north
+    - roomId: "prehistoria:r11386"
+      direction: south
+    - roomId: "prehistoria:r11384"
+      direction: east
+    - roomId: "prehistoria:r11378"
+      direction: west
+- id: r11386
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11385"
+      direction: north
+    - roomId: "prehistoria:r11374"
+      direction: south
+    - roomId: "prehistoria:r11387"
+      direction: east
+    - roomId: "prehistoria:r11377"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11213"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r11387
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11384"
+      direction: north
+    - roomId: "prehistoria:r11375"
+      direction: south
+    - roomId: "prehistoria:r11388"
+      direction: east
+    - roomId: "prehistoria:r11386"
+      direction: west
+- id: r11388
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11383"
+      direction: north
+    - roomId: "prehistoria:r11376"
+      direction: south
+    - roomId: "prehistoria:r11321"
+      direction: east
+    - roomId: "prehistoria:r11387"
+      direction: west
+- id: r11389
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11390"
+      direction: north
+    - roomId: "prehistoria:r11380"
+      direction: south
+    - roomId: "prehistoria:r11394"
+      direction: east
+    - roomId: "prehistoria:r11393"
+      direction: west
+- id: r11390
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11397"
+      direction: north
+    - roomId: "prehistoria:r11389"
+      direction: south
+    - roomId: "prehistoria:r11395"
+      direction: east
+    - roomId: "prehistoria:r11391"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11208"
+      respawnChance: 100
+      maxLoad: "13"
+- id: r11391
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11392"
+      direction: north
+    - roomId: "prehistoria:r11393"
+      direction: south
+    - roomId: "prehistoria:r11390"
+      direction: east
+- id: r11392
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11412"
+      direction: north
+    - roomId: "prehistoria:r11391"
+      direction: south
+    - roomId: "prehistoria:r11397"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11216"
+      respawnChance: 100
+      maxLoad: "13"
+- id: r11393
+  title: "Light forest"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11391"
+      direction: north
+    - roomId: "prehistoria:r11379"
+      direction: south
+    - roomId: "prehistoria:r11389"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11202"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r11394
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11395"
+      direction: north
+    - roomId: "prehistoria:r11381"
+      direction: south
+    - roomId: "prehistoria:r11303"
+      direction: east
+    - roomId: "prehistoria:r11389"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11211"
+      respawnChance: 100
+      maxLoad: "16"
+- id: r11395
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11396"
+      direction: north
+    - roomId: "prehistoria:r11394"
+      direction: south
+    - roomId: "prehistoria:r11295"
+      direction: east
+    - roomId: "prehistoria:r11390"
+      direction: west
+- id: r11396
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11283"
+      direction: north
+    - roomId: "prehistoria:r11395"
+      direction: south
+    - roomId: "prehistoria:r11293"
+      direction: east
+    - roomId: "prehistoria:r11397"
+      direction: west
+- id: r11397
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11407"
+      direction: north
+    - roomId: "prehistoria:r11390"
+      direction: south
+    - roomId: "prehistoria:r11396"
+      direction: east
+    - roomId: "prehistoria:r11392"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11202"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r11398
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11257"
+      direction: north
+    - roomId: "prehistoria:r11408"
+      direction: south
+    - roomId: "prehistoria:r11399"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11202"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11202"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r11399
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11258"
+      direction: north
+    - roomId: "prehistoria:r11400"
+      direction: south
+    - roomId: "prehistoria:r11267"
+      direction: east
+    - roomId: "prehistoria:r11398"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11202"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r11400
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11399"
+      direction: north
+    - roomId: "prehistoria:r11402"
+      direction: south
+    - roomId: "prehistoria:r11401"
+      direction: east
+    - roomId: "prehistoria:r11408"
+      direction: west
+- id: r11401
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11267"
+      direction: north
+    - roomId: "prehistoria:r11403"
+      direction: south
+    - roomId: "prehistoria:r11271"
+      direction: east
+    - roomId: "prehistoria:r11400"
+      direction: west
+- id: r11402
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11400"
+      direction: north
+    - roomId: "prehistoria:r11405"
+      direction: south
+    - roomId: "prehistoria:r11403"
+      direction: east
+    - roomId: "prehistoria:r11409"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "prehistoria:m11205"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r11403
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11401"
+      direction: north
+    - roomId: "prehistoria:r11404"
+      direction: south
+    - roomId: "prehistoria:r11276"
+      direction: east
+    - roomId: "prehistoria:r11402"
+      direction: west
+- id: r11404
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11403"
+      direction: north
+    - roomId: "prehistoria:r11250"
+      direction: south
+    - roomId: "prehistoria:r11279"
+      direction: east
+    - roomId: "prehistoria:r11405"
+      direction: west
+- id: r11405
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11402"
+      direction: north
+    - roomId: "prehistoria:r11406"
+      direction: south
+    - roomId: "prehistoria:r11404"
+      direction: east
+    - roomId: "prehistoria:r11410"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11204"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "prehistoria:m11213"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r11406
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11405"
+      direction: north
+    - roomId: "prehistoria:r11407"
+      direction: south
+    - roomId: "prehistoria:r11250"
+      direction: east
+    - roomId: "prehistoria:r11411"
+      direction: west
+- id: r11407
+  title: "Rough shrubland"
+  description: >-
+    Clumps of rough looking shrubery crunch underfoot as you walk, they seem to 
+    spring up from everywhere here.  Some small thorn bushes and thistles grow 
+    here also.
+  exits:
+    - roomId: "prehistoria:r11406"
+      direction: north
+    - roomId: "prehistoria:r11397"
+      direction: south
+    - roomId: "prehistoria:r11283"
+      direction: east
+    - roomId: "prehistoria:r11412"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11220"
+      respawnChance: 100
+      maxLoad: "12"
+- id: r11408
+  title: "A drinking hole"
+  description: >-
+    A rather large pond has been formed here.  Some HUGE footprints lead from 
+    the shrubery into the pond, I wonder what made those?
+  exits:
+    - roomId: "prehistoria:r11398"
+      direction: north
+    - roomId: "prehistoria:r11409"
+      direction: south
+    - roomId: "prehistoria:r11400"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11214"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11214"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11214"
+      respawnChance: 100
+      maxLoad: "10"
+  items:
+    - id: "prehistoria:o11213"
+      respawnChance: 75
+- id: r11409
+  title: "A drinking hole"
+  description: >-
+    A rather large pond has been formed here.  Some HUGE footprints lead from 
+    the shrubery into the pond, I wonder what made those?
+  exits:
+    - roomId: "prehistoria:r11408"
+      direction: north
+    - roomId: "prehistoria:r11410"
+      direction: south
+    - roomId: "prehistoria:r11402"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11202"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "prehistoria:m11214"
+      respawnChance: 100
+      maxLoad: "8"
+  items:
+    - id: "prehistoria:o11213"
+      respawnChance: 75
+- id: r11410
+  title: "A drinking hole"
+  description: >-
+    A rather large pond has been formed here.  Some HUGE footprints lead from 
+    the shrubery into the pond, I wonder what made those?
+  exits:
+    - roomId: "prehistoria:r11409"
+      direction: north
+    - roomId: "prehistoria:r11411"
+      direction: south
+    - roomId: "prehistoria:r11405"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11202"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "prehistoria:m11214"
+      respawnChance: 100
+      maxLoad: "8"
+  items:
+    - id: "prehistoria:o11213"
+      respawnChance: 75
+- id: r11411
+  title: "A drinking hole"
+  description: >-
+    A rather large pond has been formed here.  Some HUGE footprints lead from 
+    the shrubery into the pond, I wonder what made those?
+  exits:
+    - roomId: "prehistoria:r11410"
+      direction: north
+    - roomId: "prehistoria:r11412"
+      direction: south
+    - roomId: "prehistoria:r11406"
+      direction: east
+  items:
+    - id: "prehistoria:o11213"
+      respawnChance: 75
+- id: r11412
+  title: "A drinking hole"
+  description: >-
+    A rather large pond has been formed here.  Some HUGE footprints lead from 
+    the shrubery into the pond, I wonder what made those?
+  exits:
+    - roomId: "prehistoria:r11411"
+      direction: north
+    - roomId: "prehistoria:r11392"
+      direction: south
+    - roomId: "prehistoria:r11407"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11209"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "prehistoria:m11212"
+      respawnChance: 100
+      maxLoad: "16"
+    - id: "prehistoria:m11208"
+      respawnChance: 100
+      maxLoad: "13"
+  items:
+    - id: "prehistoria:o11213"
+      respawnChance: 75
+- id: r11413
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11414"
+      direction: east
+    - roomId: "prehistoria:r11445"
+      direction: west
+- id: r11414
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11415"
+      direction: east
+    - roomId: "prehistoria:r11413"
+      direction: west
+- id: r11415
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11416"
+      direction: east
+    - roomId: "prehistoria:r11414"
+      direction: west
+- id: r11416
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11417"
+      direction: south
+    - roomId: "prehistoria:r11415"
+      direction: west
+- id: r11417
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11416"
+      direction: north
+    - roomId: "prehistoria:r11418"
+      direction: south
+    - roomId: "prehistoria:r11419"
+      direction: east
+- id: r11418
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11417"
+      direction: north
+    - roomId: "prehistoria:r11455"
+      direction: south
+- id: r11419
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11441"
+      direction: east
+    - roomId: "prehistoria:r11417"
+      direction: west
+- id: r11420
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11421"
+      direction: south
+    - roomId: "prehistoria:r11457"
+      direction: east
+- id: r11421
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11420"
+      direction: north
+    - roomId: "prehistoria:r11422"
+      direction: west
+- id: r11422
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11423"
+      direction: south
+    - roomId: "prehistoria:r11421"
+      direction: east
+- id: r11423
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11422"
+      direction: north
+    - roomId: "prehistoria:r11424"
+      direction: west
+- id: r11424
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11423"
+      direction: east
+- id: r11425
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11426"
+      direction: south
+- id: r11426
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11470"
+      direction: north
+    - roomId: "prehistoria:r11428"
+      direction: east
+    - roomId: "prehistoria:r11457"
+      direction: west
+- id: r11427
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11429"
+      direction: north
+    - roomId: "prehistoria:r11431"
+      direction: south
+    - roomId: "prehistoria:r11438"
+      direction: east
+- id: r11428
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11429"
+      direction: south
+    - roomId: "prehistoria:r11426"
+      direction: west
+- id: r11429
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11428"
+      direction: north
+    - roomId: "prehistoria:r11427"
+      direction: south
+- id: r11430
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11431"
+      direction: east
+    - roomId: "prehistoria:r11432"
+      direction: west
+- id: r11431
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11427"
+      direction: north
+    - roomId: "prehistoria:r11430"
+      direction: west
+- id: r11432
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11433"
+      direction: south
+    - roomId: "prehistoria:r11430"
+      direction: east
+- id: r11433
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11432"
+      direction: north
+    - roomId: "prehistoria:r11434"
+      direction: south
+- id: r11434
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11433"
+      direction: north
+    - roomId: "prehistoria:r11435"
+      direction: west
+- id: r11435
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11434"
+      direction: east
+    - roomId: "prehistoria:r11437"
+      direction: west
+- id: r11436
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11364"
+      direction: south
+    - roomId: "prehistoria:r11437"
+      direction: east
+- id: r11437
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11435"
+      direction: east
+    - roomId: "prehistoria:r11436"
+      direction: west
+- id: r11438
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11427"
+      direction: west
+- id: r11439
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11456"
+      direction: east
+- id: r11440
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11442"
+      direction: north
+    - roomId: "prehistoria:r11441"
+      direction: south
+- id: r11441
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11440"
+      direction: north
+    - roomId: "prehistoria:r11419"
+      direction: west
+- id: r11442
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11440"
+      direction: south
+    - roomId: "prehistoria:r11443"
+      direction: east
+- id: r11443
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11444"
+      direction: east
+    - roomId: "prehistoria:r11442"
+      direction: west
+- id: r11444
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11443"
+      direction: west
+- id: r11445
+  title: "Bone Bridgeway"
+  description: >-
+    A huge skeleton of some hidious beast rests here across the river Ob 
+    bridging the two sides.   There are some strange paintings on the spine here.
+  exits:
+    - roomId: "prehistoria:r11329"
+      direction: south
+    - roomId: "prehistoria:r11413"
+      direction: east
+    - roomId: "prehistoria:r11247"
+      direction: west
+- id: r11446
+  title: "Plateau"
+  description: >-
+    You stand atop a high plateau looking down over the plains and forests 
+    below, its a truly dazzling view.  You can just hear the gush of the river 
+    Ob flowing below.
+  exits:
+    - roomId: "prehistoria:r11451"
+      direction: south
+    - roomId: "prehistoria:r11447"
+      direction: east
+    - roomId: "prehistoria:r11365"
+      direction: west
+- id: r11447
+  title: "Plateau"
+  description: >-
+    You stand atop a high plateau looking down over the plains and forests 
+    below, its a truly dazzling view.  You can just hear the gush of the river 
+    Ob flowing below.
+  exits:
+    - roomId: "prehistoria:r11364"
+      direction: north
+    - roomId: "prehistoria:r11450"
+      direction: south
+    - roomId: "prehistoria:r11448"
+      direction: east
+    - roomId: "prehistoria:r11446"
+      direction: west
+- id: r11448
+  title: "Plateau"
+  description: >-
+    You stand atop a high plateau looking down over the plains and forests 
+    below, its a truly dazzling view.  You can just hear the gush of the river 
+    Ob flowing below.
+  exits:
+    - roomId: "prehistoria:r11449"
+      direction: south
+    - roomId: "prehistoria:r11447"
+      direction: west
+- id: r11449
+  title: "Plateau"
+  description: >-
+    You stand atop a high plateau looking down over the plains and forests 
+    below, its a truly dazzling view.  You can just hear the gush of the river 
+    Ob flowing below.
+  exits:
+    - roomId: "prehistoria:r11448"
+      direction: north
+    - roomId: "prehistoria:r11450"
+      direction: west
+- id: r11450
+  title: "Plateau"
+  description: >-
+    You stand atop a high plateau looking down over the plains and forests 
+    below, its a truly dazzling view.  You can just hear the gush of the river 
+    Ob flowing below.
+  exits:
+    - roomId: "prehistoria:r11447"
+      direction: north
+    - roomId: "prehistoria:r11449"
+      direction: east
+    - roomId: "prehistoria:r11451"
+      direction: west
+- id: r11451
+  title: "Plateau"
+  description: >-
+    You stand atop a high plateau looking down over the plains and forests 
+    below, its a truly dazzling view.  You can just hear the gush of the river
+    Ob flowing below.
+  exits:
+    - roomId: "prehistoria:r11446"
+      direction: north
+    - roomId: "prehistoria:r11450"
+      direction: east
+    - roomId: "prehistoria:r11454"
+      direction: west
+- id: r11452
+  title: "Rocky outcropping"
+  description: >-
+    You find yourself treading precariously over a crevasse, better watch your 
+    step!
+  exits:
+    - roomId: "prehistoria:r11451"
+      direction: north
+- id: r11453
+  title: "Rocky outcropping"
+  description: >-
+    You find yourself treading precariously over a crevasse, better watch your 
+    step!
+  exits:
+    - roomId: "prehistoria:r11450"
+      direction: north
+    - roomId: "prehistoria:r11452"
+      direction: west
+- id: r11454
+  title: "Rocky outcropping"
+  description: >-
+    You find yourself treading precariously over a crevasse, better watch your 
+    step!
+  exits:
+    - roomId: "prehistoria:r11365"
+      direction: north
+    - roomId: "prehistoria:r11451"
+      direction: east
+- id: r11455
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11418"
+      direction: north
+    - roomId: "prehistoria:r11363"
+      direction: west
+- id: r11456
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11458"
+      direction: south
+    - roomId: "prehistoria:r11363"
+      direction: east
+    - roomId: "prehistoria:r11439"
+      direction: west
+- id: r11457
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11426"
+      direction: east
+    - roomId: "prehistoria:r11420"
+      direction: west
+- id: r11458
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11456"
+      direction: north
+    - roomId: "prehistoria:r11459"
+      direction: south
+- id: r11459
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11458"
+      direction: north
+    - roomId: "prehistoria:r11460"
+      direction: east
+- id: r11460
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11461"
+      direction: east
+    - roomId: "prehistoria:r11459"
+      direction: west
+- id: r11461
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11462"
+      direction: east
+    - roomId: "prehistoria:r11460"
+      direction: west
+- id: r11462
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11463"
+      direction: south
+    - roomId: "prehistoria:r11461"
+      direction: west
+- id: r11463
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11462"
+      direction: north
+    - roomId: "prehistoria:r11464"
+      direction: south
+    - roomId: "prehistoria:r11471"
+      direction: east
+- id: r11464
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11463"
+      direction: north
+    - roomId: "prehistoria:r11465"
+      direction: west
+- id: r11465
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11464"
+      direction: east
+    - roomId: "prehistoria:r11466"
+      direction: west
+- id: r11466
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11467"
+      direction: south
+    - roomId: "prehistoria:r11465"
+      direction: east
+- id: r11467
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11466"
+      direction: north
+    - roomId: "prehistoria:r11468"
+      direction: south
+    - roomId: "prehistoria:r11473"
+      direction: west
+- id: r11468
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11467"
+      direction: north
+    - roomId: "prehistoria:r11469"
+      direction: east
+- id: r11469
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11470"
+      direction: south
+    - roomId: "prehistoria:r11468"
+      direction: west
+- id: r11470
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11469"
+      direction: north
+    - roomId: "prehistoria:r11426"
+      direction: south
+- id: r11471
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11472"
+      direction: east
+    - roomId: "prehistoria:r11463"
+      direction: west
+- id: r11472
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11471"
+      direction: west
+- id: r11473
+  title: "Dusty trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking a 
+    dusty trail.
+  exits:
+    - roomId: "prehistoria:r11467"
+      direction: east
+- id: r11474
+  title: "test room"
+  description: >-
+    longdesc.
+- id: r11475
+  title: "The Centre Room."
+  description: >-
+    Four pens surround you, each contains a poor Dinosaur
+    which Merlin the evil wizard has imprisoned here to
+    test his nasty potions on!
+  exits:
+    - roomId: "prehistoria:r11476"
+      direction: north
+    - roomId: "prehistoria:r11478"
+      direction: south
+    - roomId: "prehistoria:r11479"
+      direction: east
+    - roomId: "prehistoria:r11477"
+      direction: west
+    - roomId: "prehistoria:r11200"
+      direction: up
+    - roomId: "prehistoria:r11480"
+      direction: down
+- id: r11476
+  title: "The North Cage."
+  description: >-
+    You are in the northern cage of the Dungeon.
+    A poor dinosaur is chained to the wall in the corner.
+    The only exit is south.
+  exits:
+    - roomId: "prehistoria:r11475"
+      direction: south
+  npcs:
+    - id: "prehistoria:m11223"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r11477
+  title: "The West cave."
+  description: >-
+    You are in the western cage of the Dungeon.  
+    A poor dinosaur is chained to the wall in the corner.
+    The only exit is east.
+  exits:
+    - roomId: "prehistoria:r11475"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11224"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r11478
+  title: "The Southern cave."
+  description: >-
+    You are in the southern cage of the Dungeon. 
+    A poor dinosaur is chained to the wall in the corner.
+    The only exit is north.
+  exits:
+    - roomId: "prehistoria:r11475"
+      direction: north
+  npcs:
+    - id: "prehistoria:m11225"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r11479
+  title: "The Eastern cave."
+  description: >-
+    You are in the eastern cage of the Dungeon. 
+    A poor dinosaur is chained to the wall in the corner.
+    The only exit is west.
+  exits:
+    - roomId: "prehistoria:r11475"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11226"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r11480
+  title: "Pit of the Damned."
+  description: >-
+    You have wandered into the dungeons' lower levels.
+    You are surrounded by the Souls of the Damned. These
+    wretched creatures are the spiritual remains of the
+    Tortured Dinosaurs tested on by Merlin the evil mage!
+    The only exit is up.
+  exits:
+    - roomId: "prehistoria:r11475"
+      direction: up
+  npcs:
+    - id: "prehistoria:m11227"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "prehistoria:m11228"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r11481
+  title: "Connections"
+  description: >-
+    Your ticket to first class travel.
+    This node leads to the 'holy grove'.
+  exits:
+    - roomId: "prehistoria:r11246"
+      direction: north
+    - roomId: "prehistoria:r11482"
+      direction: south
+- id: r11482
+  title: "Connections"
+  description: >-
+    Your ticket to first class travel.
+    This node leads to the 'olympus'.
+  exits:
+    - roomId: "prehistoria:r11481"
+      direction: north
+    - roomId: "prehistoria:r11483"
+      direction: south
+- id: r11483
+  title: "Connections"
+  description: >-
+    Your ticket to first class travel.
+    This node is currently unused.
+  exits:
+    - roomId: "prehistoria:r11482"
+      direction: north
+- id: r11200
+  title: "A Rough path"
+  description: >-
+    You find yourself sitting on a rough path that extends northwards and an 
+    archway is off to your south.
+  exits:
+    - roomId: "prehistoria:r11201"
+      direction: north
+    - roomId: "prehistoria:r11246"
+      direction: south
+    - roomId: "prehistoria:r11224"
+      direction: east
+    - roomId: "elysium:r26300"
+      direction: west
+    - roomId: "prehistoria:r11475"
+      direction: down
+  items:
+    - id: "prehistoria:o11237"
+      respawnChance: 75
+- id: r11201
+  title: "A Dusty Trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking 
+    along a dusty trail, you vision is limited but you notice the trail leads 
+    off to the north.
+  exits:
+    - roomId: "prehistoria:r11202"
+      direction: north
+    - roomId: "prehistoria:r11200"
+      direction: south
+  npcs:
+    - id: "prehistoria:m11222"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r11202
+  title: "A Dusty Trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking 
+    along a dusty trail, you vision is limited but you notice the trail leads 
+    off to the west.
+  exits:
+    - roomId: "prehistoria:r11201"
+      direction: south
+    - roomId: "prehistoria:r11203"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11222"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r11203
+  title: "A Dusty Trail"
+  description: >-
+    The wind blows and dust swirls up around you.  You find yourself walking 
+    along a dusty trail, you vision is limited but you notice the trail leads 
+    off to the north and back to the east.
+  exits:
+    - roomId: "prehistoria:r11204"
+      direction: north
+    - roomId: "prehistoria:r11202"
+      direction: east
+- id: r11204
+  title: "A T-Junction in the trail"
+  description: >-
+    The trail fawks off to the north and west here.  The northern trail 
+    seems to wind up a hill to a mountain, and the western path appears 
+    to open into light scrub land.
+    A sign hangs here from a blood stained post.
+  exits:
+    - roomId: "prehistoria:r11205"
+      direction: north
+    - roomId: "prehistoria:r11203"
+      direction: south
+    - roomId: "prehistoria:r11231"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11222"
+      respawnChance: 100
+      maxLoad: "9"
+  items:
+    - id: "prehistoria:o11235"
+      respawnChance: 75
+- id: r11205
+  title: "A Rocky Trail"
+  description: >-
+    The smooth dusty trail has given way to a rough rocky trail leading north up a hill.  The rough trail extends north.
+  exits:
+    - roomId: "prehistoria:r11206"
+      direction: north
+    - roomId: "prehistoria:r11204"
+      direction: south
+- id: r11206
+  title: "A Rocky Trail"
+  description: >-
+    The smooth dusty trail has given way to a rough rocky trail leading north up a hill.  The rough trail extends north.
+  exits:
+    - roomId: "prehistoria:r11207"
+      direction: north
+    - roomId: "prehistoria:r11205"
+      direction: south
+- id: r11207
+  title: "A rocky Incline"
+  description: >-
+    The rocky trail fades into the distance as you climb the steep incline up the mountain side.  A rough mountain path branches off to the east here.
+  exits:
+    - roomId: "prehistoria:r11208"
+      direction: north
+    - roomId: "prehistoria:r11206"
+      direction: south
+    - roomId: "prehistoria:r11212"
+      direction: east
+- id: r11208
+  title: "A rocky Incline"
+  description: >-
+    Rough rocks pertrude from all angles around the path, the path inclines steeply to the north.
+  exits:
+    - roomId: "prehistoria:r11209"
+      direction: north
+    - roomId: "prehistoria:r11207"
+      direction: south
+- id: r11209
+  title: "A mountainous path"
+  description: >-
+    The rocky incline slowly gives way to a mountainous climb, surely you cant be far from the top?
+  exits:
+    - roomId: "prehistoria:r11208"
+      direction: south
+    - roomId: "prehistoria:r11210"
+      direction: east
+- id: r11210
+  title: "A steep mountain path"
+  description: >-
+    Finally you find yourself at the top of this raggid path.  As you look down 
+    behind you the magniude of the height you have scaled hits you!  You must be 
+    a thousand feet up!
+    You see some kind of stone structure to the north.
+  exits:
+    - roomId: "prehistoria:r11211"
+      direction: north
+    - roomId: "prehistoria:r11209"
+      direction: west
+- id: r11211
+  title: "Beneath the Archway"
+  description: >-
+    You find yourself beneath a HUGE archway.  You stand at the entrance to 
+    Gondmaeglom - the mountain hill fort.
+  exits:
+    - roomId: "prehistoria:r11210"
+      direction: south
+- id: r11212
+  title: "A rough Mountain path"
+  description: >-
+    As you step onto the path you suddenly notice you are only inches from 
+    a sheer verticle drop of several hundred feet!
+    The rugged path extends to the east.
+  exits:
+    - roomId: "prehistoria:r11213"
+      direction: east
+    - roomId: "prehistoria:r11207"
+      direction: west
+- id: r11213
+  title: "A rough Mountain path"
+  description: >-
+    As you step onto the path you suddenly notice you are only inches from 
+    a sheer verticle drop of several hundred feet!
+    The rugged path extends to the south.
+  exits:
+    - roomId: "prehistoria:r11214"
+      direction: south
+    - roomId: "prehistoria:r11212"
+      direction: west
+- id: r11214
+  title: "A rough Mountain path"
+  description: >-
+    As you step onto the path you suddenly notice you are only inches from 
+    a sheer verticle drop of several hundred feet!
+    The rugged path extends to the east.
+  exits:
+    - roomId: "prehistoria:r11213"
+      direction: north
+    - roomId: "prehistoria:r11215"
+      direction: east
+- id: r11215
+  title: "A rough Mountain path"
+  description: >-
+    As you step onto the path you suddenly notice you are only inches from 
+    a sheer verticle drop of several hundred feet!
+    The rugged path extends to the east.
+  exits:
+    - roomId: "prehistoria:r11216"
+      direction: east
+    - roomId: "prehistoria:r11214"
+      direction: west
+- id: r11216
+  title: "A rough Mountain path"
+  description: >-
+    As you step onto the path you suddenly notice you are only inches from 
+    a sheer verticle drop of several hundred feet!
+    The rugged path extends to the east.
+  exits:
+    - roomId: "prehistoria:r11217"
+      direction: east
+    - roomId: "prehistoria:r11215"
+      direction: west
+- id: r11217
+  title: "A rough Mountain path"
+  description: >-
+    As you step onto the path you suddenly notice you are only inches from 
+    a sheer verticle drop of several hundred feet!
+    The rugged path extends to the east.
+  exits:
+    - roomId: "prehistoria:r11218"
+      direction: east
+    - roomId: "prehistoria:r11216"
+      direction: west
+- id: r11218
+  title: "A rough Mountain path"
+  description: >-
+    As you step onto the path you suddenly notice you are only inches from 
+    a sheer verticle drop of several hundred feet!
+    The rugged path extends to the east and you notice a wide opening in 
+    the mountain face.
+  exits:
+    - roomId: "prehistoria:r11219"
+      direction: east
+    - roomId: "prehistoria:r11217"
+      direction: west
+- id: r11219
+  title: "Cave Entrance"
+  description: >-
+    You stand at the entrance to a large smelly cave.
+    The dark cave lies to the east.
+  exits:
+    - roomId: "prehistoria:r11220"
+      direction: east
+    - roomId: "prehistoria:r11218"
+      direction: west
+- id: r11220
+  title: "A dark cave"
+  description: >-
+    It is very dark in here.
+  exits:
+    - roomId: "prehistoria:r11221"
+      direction: east
+    - roomId: "prehistoria:r11219"
+      direction: west
+- id: r11221
+  title: "A dark and damp cave"
+  description: >-
+    It is very dark and smelly in here.  In fact it's REALLY very smelly here, 
+    I wonder what your standing in?
+  exits:
+    - roomId: "prehistoria:r11222"
+      direction: north
+    - roomId: "prehistoria:r11220"
+      direction: west
+- id: r11222
+  title: "Dead-End!"
+  description: >-
+    Cracks in the ceiling of the cave allow some slithers of light in, you can 
+    barely make out what the cause of that terrible smell is, You are standing 
+    in what is left of the mouldering remains of several people.
+    Some ancient markings are engraved on the wall here.
+  exits:
+    - roomId: "prehistoria:r11221"
+      direction: south
+- id: r11223
+  title: "Merlins Workshop"
+  description: >-
+    A large bench runs the length of the room and 
+    is littered with strange bottles. The bottles 
+    are filled with wierd coloured liquids and the 
+    walls are hung with herbs and entrails!   
+    'whobat thobe fobuck' 
+  npcs:
+    - id: "prehistoria:m11229"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r11224
+  title: "Light forest trail"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east.
+  exits:
+    - roomId: "prehistoria:r11226"
+      direction: east
+    - roomId: "prehistoria:r11200"
+      direction: west
+- id: r11225
+  title: "Wooded path"
+  description: >-
+    Tall trees and heavy foliage surround you here.  Some light filters in 
+    from above through the thick tree canopy.  The trail extends further east.
+  exits:
+    - roomId: "prehistoria:r11227"
+      direction: east
+    - roomId: "prehistoria:r11226"
+      direction: west
+- id: r11226
+  title: "Light forest trail"
+  description: >-
+    Small trees and light shrubery surround you here.  Light filters freely 
+    from above through the thin layering of treetops.  The trail extends east 
+    but seems to get darker.
+  exits:
+    - roomId: "prehistoria:r11225"
+      direction: east
+    - roomId: "prehistoria:r11224"
+      direction: west
+- id: r11227
+  title: "Wooded path"
+  description: >-
+    Tall trees and heavy foliage surround you here.  Some light filters in 
+    from above through the thick tree canopy.  The trail extends further east 
+    but seems really dark.
+  exits:
+    - roomId: "prehistoria:r11228"
+      direction: east
+    - roomId: "prehistoria:r11225"
+      direction: west
+- id: r11228
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that it allows no light through to the forest floor.  The trail 
+    extends further east still.
+  exits:
+    - roomId: "prehistoria:r11229"
+      direction: east
+    - roomId: "prehistoria:r11227"
+      direction: west
+- id: r11229
+  title: "Dark Forest"
+  description: >-
+    Tall trees and heavy foliage surround completely.  The tree canopy is so 
+    dense that ti allows no light through to the forest floor.  The trail 
+    extends further east but seems really dark.
+  exits:
+    - roomId: "prehistoria:r11228"
+      direction: west
+- id: r11231
+  title: "Open scrubland"
+  description: >-
+    Light foliage and small shrubs surround you.
+  exits:
+    - roomId: "prehistoria:r11235"
+      direction: south
+    - roomId: "prehistoria:r11204"
+      direction: east
+- id: r11232
+  title: "Open Plains"
+  description: >-
+    Wide open plains with a scattering of plants and wildlife.
+  exits:
+    - roomId: "prehistoria:r11235"
+      direction: north
+    - roomId: "prehistoria:r11239"
+      direction: south
+    - roomId: "prehistoria:r11233"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11211"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11204"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r11233
+  title: "Open Plains"
+  description: >-
+    Wide open plains with a scattering of plants and wildlife.
+  exits:
+    - roomId: "prehistoria:r11232"
+      direction: east
+    - roomId: "prehistoria:r11237"
+      direction: west
+- id: r11235
+  title: "Open scrubland"
+  description: >-
+    Light foliage and small shrubs surround you.
+  exits:
+    - roomId: "prehistoria:r11231"
+      direction: north
+    - roomId: "prehistoria:r11232"
+      direction: south
+  npcs:
+    - id: "prehistoria:m11222"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r11236
+  title: "Sandy Plains"
+  description: >-
+    The earth has been so harshly baked by the scorching sun it has become 
+    desertified.  Nothing lives here.
+  exits:
+    - roomId: "prehistoria:r11240"
+      direction: east
+    - roomId: "prehistoria:r11244"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11222"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r11237
+  title: "Barren Plains"
+  description: >-
+    The skull of a large animal is decaying here in the baking sunlight, 
+    drought has baked the land and killed the plants.  Nothing but dry barren 
+    plains.
+  exits:
+    - roomId: "prehistoria:r11238"
+      direction: north
+    - roomId: "prehistoria:r11233"
+      direction: east
+  npcs:
+    - id: "prehistoria:m11211"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "prehistoria:m11210"
+      respawnChance: 100
+      maxLoad: "12"
+    - id: "prehistoria:m11222"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r11238
+  title: "Barren Plains"
+  description: >-
+    The skull of a large animal is decaying here in the baking sunlight, 
+    drought has baked the land and killed the plants.  Nothing but dry barren 
+    plains.
+  exits:
+    - roomId: "prehistoria:r11241"
+      direction: north
+    - roomId: "prehistoria:r11237"
+      direction: south
+- id: r11239
+  title: "Barren Plains"
+  description: >-
+    The skull of a large animal is decaying here in the baking sunlight, 
+    drought has baked the land and killed the plants.  Nothing but dry barren 
+    plains.
+  exits:
+    - roomId: "prehistoria:r11232"
+      direction: north
+    - roomId: "prehistoria:r11240"
+      direction: south
+  npcs:
+    - id: "prehistoria:m11222"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r11240
+  title: "Barren plains"
+  description: >-
+    The skull of a large animal is decaying here in the baking sunlight, 
+    drought has baked the land and killed the plants.  Nothing but dry barren 
+    plains.
+  exits:
+    - roomId: "prehistoria:r11239"
+      direction: north
+    - roomId: "prehistoria:r11236"
+      direction: west
+- id: r11241
+  title: "Rocky plains"
+  description: >-
+    The dried out land is embedded with huge rocky out-cropping.
+  exits:
+    - roomId: "prehistoria:r11242"
+      direction: north
+    - roomId: "prehistoria:r11238"
+      direction: south
+  npcs:
+    - id: "prehistoria:m11222"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r11242
+  title: "Rocky plains"
+  description: >-
+    The dried out land is embedded with huge rocky out-cropping.
+    You notice a small building to the north.
+  exits:
+    - roomId: "prehistoria:r11243"
+      direction: north
+    - roomId: "prehistoria:r11241"
+      direction: south
+    - roomId: "newbie2:r820"
+      direction: east
+- id: r11243
+  title: "Ye Olde Shoppe"
+  description: >-
+    Inside a small cramped shop you see a small smelly rodent who must be the 
+    proprietor of this hovel.
+    Type 'list' to see what is sold here. [he doesn't like being hit either!]
+  exits:
+    - roomId: "prehistoria:r11242"
+      direction: south
+  npcs:
+    - id: "prehistoria:m11221"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r11244
+  title: "Sandy Plains"
+  description: >-
+    The earth has been so harshly baked by the scorching sun it has become 
+    desertified.  Nothing lives here.
+  exits:
+    - roomId: "prehistoria:r11245"
+      direction: south
+    - roomId: "prehistoria:r11236"
+      direction: east
+- id: r11245
+  title: "Entrance to Dul-Guldur"
+  description: >-
+    A Giant skeleton of some HUGE beast forms a macabre archway into Dul-Guldur.
+    There are some paintings here on the skeleton bone.
+    The path runs south.
+  exits:
+    - roomId: "prehistoria:r11244"
+      direction: north
+    - roomId: "prehistoria:r11247"
+      direction: south
+  npcs:
+    - id: "prehistoria:m11222"
+      respawnChance: 100
+      maxLoad: "9"
+- id: r11246
+  title: "Connections"
+  description: >-
+    As you walk through the archway you find yourself in a small corridor.
+    This corridor has nodes which connect it to several other areas of this 
+    world.  
+    A sign hangs here on a stone pillar, better read it.
+    This node leads to the 'mob factory'.
+  exits:
+    - roomId: "prehistoria:r11200"
+      direction: north
+    - roomId: "prehistoria:r11481"
+      direction: south
+- id: r11247
+  title: "A Path in the plains"
+  description: >-
+    A slightly dusty  track with no notable features what so ever on.
+  exits:
+    - roomId: "prehistoria:r11245"
+      direction: north
+    - roomId: "prehistoria:r11330"
+      direction: south
+    - roomId: "prehistoria:r11248"
+      direction: west
+- id: r11248
+  title: "A Path in the plains"
+  description: >-
+    A slightly dusty  track with no notable features what so ever on.
+  exits:
+    - roomId: "prehistoria:r11249"
+      direction: south
+    - roomId: "prehistoria:r11247"
+      direction: east
+    - roomId: "prehistoria:r11270"
+      direction: west
+- id: r11249
+  title: "A Path in the plains"
+  description: >-
+    A slightly dusty  track with no notable features what so ever on.
+  exits:
+    - roomId: "prehistoria:r11248"
+      direction: north
+    - roomId: "prehistoria:r11309"
+      direction: south
+    - roomId: "prehistoria:r11330"
+      direction: east
+    - roomId: "prehistoria:r11251"
+      direction: west
+- id: r11250
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11404"
+      direction: north
+    - roomId: "prehistoria:r11283"
+      direction: south
+    - roomId: "prehistoria:r11282"
+      direction: east
+    - roomId: "prehistoria:r11406"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11218"
+      respawnChance: 100
+      maxLoad: "14"
+- id: r11251
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11270"
+      direction: north
+    - roomId: "prehistoria:r11262"
+      direction: south
+    - roomId: "prehistoria:r11249"
+      direction: east
+    - roomId: "prehistoria:r11252"
+      direction: west
+- id: r11252
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11266"
+      direction: north
+    - roomId: "prehistoria:r11261"
+      direction: south
+    - roomId: "prehistoria:r11251"
+      direction: east
+    - roomId: "prehistoria:r11253"
+      direction: west
+- id: r11253
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11289"
+      direction: north
+    - roomId: "prehistoria:r11260"
+      direction: south
+    - roomId: "prehistoria:r11252"
+      direction: east
+    - roomId: "prehistoria:r11254"
+      direction: west
+- id: r11254
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11292"
+      direction: north
+    - roomId: "prehistoria:r11259"
+      direction: south
+    - roomId: "prehistoria:r11253"
+      direction: east
+    - roomId: "prehistoria:r11255"
+      direction: west
+- id: r11255
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11297"
+      direction: north
+    - roomId: "prehistoria:r11258"
+      direction: south
+    - roomId: "prehistoria:r11254"
+      direction: east
+    - roomId: "prehistoria:r11256"
+      direction: west
+- id: r11256
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11269"
+      direction: north
+    - roomId: "prehistoria:r11257"
+      direction: south
+    - roomId: "prehistoria:r11255"
+      direction: east
+- id: r11257
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11256"
+      direction: north
+    - roomId: "prehistoria:r11398"
+      direction: south
+    - roomId: "prehistoria:r11258"
+      direction: east
+- id: r11258
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11255"
+      direction: north
+    - roomId: "prehistoria:r11399"
+      direction: south
+    - roomId: "prehistoria:r11259"
+      direction: east
+    - roomId: "prehistoria:r11257"
+      direction: west
+- id: r11259
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11254"
+      direction: north
+    - roomId: "prehistoria:r11267"
+      direction: south
+    - roomId: "prehistoria:r11260"
+      direction: east
+    - roomId: "prehistoria:r11258"
+      direction: west
+- id: r11260
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11253"
+      direction: north
+    - roomId: "prehistoria:r11265"
+      direction: south
+    - roomId: "prehistoria:r11261"
+      direction: east
+    - roomId: "prehistoria:r11259"
+      direction: west
+  npcs:
+    - id: "prehistoria:m11215"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r11261
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11252"
+      direction: north
+    - roomId: "prehistoria:r11264"
+      direction: south
+    - roomId: "prehistoria:r11262"
+      direction: east
+    - roomId: "prehistoria:r11260"
+      direction: west
+- id: r11262
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11251"
+      direction: north
+    - roomId: "prehistoria:r11263"
+      direction: south
+    - roomId: "prehistoria:r11309"
+      direction: east
+    - roomId: "prehistoria:r11261"
+      direction: west
+- id: r11263
+  title: "Open plains"
+  description: >-
+    Wide open plains extend before you as far as the eye can see.
+  exits:
+    - roomId: "prehistoria:r11262"
+      direction: north
+    - roomId: "prehistoria:r11273"
+      direction: south
+    - roomId: "prehistoria:r11310"
+      direction: east
+    - roomId: "prehistoria:r11264"
+      direction: west

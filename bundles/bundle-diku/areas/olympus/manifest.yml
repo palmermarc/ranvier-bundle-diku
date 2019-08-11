@@ -1,0 +1,12 @@
+title: "Olympus"
+metadata:
+  id: 57
+  name: "Olympus"
+  createdBy: "generic"
+  starting_vnum: 900
+  ending_vnum: 999
+  item_requirements: 44000
+  filename: "olympus.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,446 @@
+- id: r200
+  title: "Entrance to Midgaard Zoo"
+  description: >-
+    You are standing in the entrance to Midgaard Zoo, the ticket booth is closed,
+    but the gates have been forced apart a little.
+  exits:
+    - roomId: "midgaard:r3042"
+      direction: east
+    - roomId: "zoo:r201"
+      direction: west
+- id: r201
+  title: "A main junction "
+  description: >-
+    This the main junction of the path network in the Zoo. There is a tall white
+    sign in front of you. The grass on the side of the path is very long and 
+    obscures a small sign.
+  exits:
+    - roomId: "zoo:r214"
+      direction: north
+    - roomId: "zoo:r202"
+      direction: south
+    - roomId: "zoo:r200"
+      direction: east
+  items:
+    - id: "zoo:o231"
+      respawnChance: 75
+- id: r202
+  title: "pathway"
+  description: >-
+    The path continues here, weaving its way through the Zoo
+  exits:
+    - roomId: "zoo:r201"
+      direction: north
+    - roomId: "zoo:r203"
+      direction: south
+    - roomId: "zoo:r212"
+      direction: west
+- id: r203
+  title: "Entrance to the reptile house"
+  description: >-
+    You are standing at the entrance to the reptile house. The door is secured 
+    with a heavy chain which has rusted shut.
+  exits:
+    - roomId: "zoo:r202"
+      direction: north
+    - roomId: "zoo:r204"
+      direction: east
+    - roomId: "zoo:r205"
+      direction: west
+  npcs:
+    - id: "zoo:m204"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r204
+  title: "The reptile house"
+  description: >-
+    You are standing in the reptile house.all around you are various glass 
+    fronted chambers. Oh dear! all the glass is broken,then you see the name of 
+    one the missing exhibits......
+    BABY RED DRAGON
+  exits:
+    - roomId: "zoo:r203"
+      direction: west
+- id: r205
+  title: "Pathway"
+  description: >-
+    This is a crossroads in the path network,there is a large white sign in the
+    middle,standing on a small island. The path to the south is overgrown with 
+    brambles,but you could get through if you tried.
+  exits:
+    - roomId: "zoo:r212"
+      direction: north
+    - roomId: "zoo:r206"
+      direction: south
+    - roomId: "zoo:r203"
+      direction: east
+    - roomId: "zoo:r211"
+      direction: west
+- id: r206
+  title: "Tiger enclosure"
+  description: >-
+    The tiger enclosure is herenext to the path,the cage seems to be empty, which 
+    could be explained by the open gate. You had best BEWARE ...........
+    there are tigers loose somewhere.
+  exits:
+    - roomId: "zoo:r205"
+      direction: north
+    - roomId: "zoo:r207"
+      direction: west
+  npcs:
+    - id: "zoo:m200"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "zoo:m215"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r207
+  title: "Crossroads"
+  description: >-
+    The path has reached a crossroads.The small island in the centre has a spike 
+    sticking out of it. It looks likes it used to be a Zoo sign post.
+  exits:
+    - roomId: "zoo:r211"
+      direction: north
+    - roomId: "zoo:r208"
+      direction: south
+    - roomId: "zoo:r206"
+      direction: east
+    - roomId: "zoo:r213"
+      direction: west
+  npcs:
+    - id: "zoo:m212"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "zoo:m218"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "zoo:m205"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "zoo:o231"
+      respawnChance: 75
+- id: r208
+  title: "Pathway"
+  description: >-
+    The path continues south to a small shed,which is marked "HEAD WARDEN".
+  exits:
+    - roomId: "zoo:r207"
+      direction: north
+    - roomId: "zoo:r209"
+      direction: south
+  npcs:
+    - id: "zoo:m206"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "zoo:m215"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r209
+  title: "The shed"
+  description: >-
+    You enter the shed to see a scene of total destruction and mayhem.The floor 
+    is strewn with paper and rubbish.
+  exits:
+    - roomId: "zoo:r208"
+      direction: north
+    - roomId: "zoo:r210"
+      direction: down
+- id: r210
+  title: "Boiler room"
+  description: >-
+    You are standing in the boiler room for the Zoo,a large furnace is here,and 
+    in the corner you a large pile of coal. From somewhere you hear a reptilian 
+    hiss.
+  exits:
+    - roomId: "zoo:r209"
+      direction: up
+  npcs:
+    - id: "zoo:m223"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r211
+  title: "Pathway"
+  description: >-
+    The path stops at this point,or so it seems.After fighting through the 
+    brambles you get to a small clearing and see another exit.
+  exits:
+    - roomId: "zoo:r207"
+      direction: south
+    - roomId: "zoo:r205"
+      direction: east
+  npcs:
+    - id: "zoo:m215"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r212
+  title: "Pathway"
+  description: >-
+    The path turns here and follows its own wandering couse through the Zoo to 
+    the other animals.
+  exits:
+    - roomId: "zoo:r205"
+      direction: south
+    - roomId: "zoo:r202"
+      direction: east
+  npcs:
+    - id: "zoo:m211"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "zoo:m204"
+      respawnChance: 100
+      maxLoad: "2"
+  items:
+    - id: "zoo:o231"
+      respawnChance: 75
+- id: r213
+  title: "Lion pen"
+  description: >-
+    The lions enclosure is a large field stretching as far as the eye can see,
+    but there are no lions here as the gate is open.
+  exits:
+    - roomId: "zoo:r207"
+      direction: east
+  npcs:
+    - id: "zoo:m201"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "zoo:m211"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r214
+  title: "Pathway"
+  description: >-
+    A turn in the path takes you on a wandering journey through the flora and 
+    fauna.
+  exits:
+    - roomId: "zoo:r201"
+      direction: south
+    - roomId: "zoo:r215"
+      direction: west
+  npcs:
+    - id: "zoo:m216"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "zoo:m215"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r215
+  title: "Pathway"
+  description: >-
+    The path continues straight on. It seems the path has not been looked after 
+    for some time, since the paving stones are broken and very uneven.
+    Try not to trip.
+  exits:
+    - roomId: "zoo:r214"
+      direction: east
+    - roomId: "zoo:r216"
+      direction: west
+  npcs:
+    - id: "zoo:m219"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "zoo:m212"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r216
+  title: "penguin enclosue"
+  description: >-
+    There are no penguins here. Hmmmm! What is it with this zoo ? All you see are several rotting fishheads.
+  exits:
+    - roomId: "zoo:r217"
+      direction: north
+    - roomId: "zoo:r218"
+      direction: south
+    - roomId: "zoo:r215"
+      direction: east
+  npcs:
+    - id: "zoo:m202"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "zoo:m217"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r217
+  title: "The seal pool"
+  description: >-
+    This is obviously the seal pool, and there are some here splashing in thier 
+    pool. But there does seem to be a lot of blood around.
+  exits:
+    - roomId: "zoo:r216"
+      direction: south
+  npcs:
+    - id: "zoo:m208"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "zoo:m214"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "zoo:m221"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r218
+  title: "T junction"
+  description: >-
+    You have reached a T-junction. There is a large white sign here.
+  exits:
+    - roomId: "zoo:r216"
+      direction: north
+    - roomId: "zoo:r219"
+      direction: south
+    - roomId: "zoo:r220"
+      direction: west
+  npcs:
+    - id: "zoo:m205"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "zoo:m216"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "zoo:o231"
+      respawnChance: 75
+- id: r219
+  title: "Souvenir shop"
+  description: >-
+    You are standing the souvenir shop.All sorts of memorabilia can be bought 
+    here.
+  exits:
+    - roomId: "zoo:r218"
+      direction: north
+  npcs:
+    - id: "zoo:m207"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "zoo:m217"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r220
+  title: "Pathway"
+  description: >-
+    You are on a pathway leading through the Zoo.
+  exits:
+    - roomId: "zoo:r221"
+      direction: south
+    - roomId: "zoo:r218"
+      direction: east
+    - roomId: "zoo:r226"
+      direction: west
+  npcs:
+    - id: "zoo:m218"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "zoo:m220"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "zoo:m216"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "zoo:m211"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r221
+  title: "monkey house"
+  description: >-
+    The cage has a large sign on the side telling you of the eating habbits and
+    places of origin of the monkeys that were supposed to be here. But the door 
+    is open and you guess that they have escaped.
+  exits:
+    - roomId: "zoo:r220"
+      direction: north
+    - roomId: "zoo:r222"
+      direction: west
+  npcs:
+    - id: "zoo:m203"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r222
+  title: "T junction"
+  description: >-
+    You are at yet another T-junction with a large white sign on an island.
+  exits:
+    - roomId: "zoo:r226"
+      direction: north
+    - roomId: "zoo:r223"
+      direction: south
+    - roomId: "zoo:r221"
+      direction: east
+  npcs:
+    - id: "zoo:m215"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r223
+  title: "Crocodile pool"
+  description: >-
+    Yet another empty exhibition area. There are no crocodiles to be seen here.
+  exits:
+    - roomId: "zoo:r222"
+      direction: north
+    - roomId: "zoo:r224"
+      direction: south
+  npcs:
+    - id: "zoo:m209"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r224
+  title: "Shark pool"
+  description: >-
+    This is the shark pool. At last there are some sharks swimming here.
+  exits:
+    - roomId: "zoo:r223"
+      direction: north
+    - roomId: "zoo:r225"
+      direction: south
+  npcs:
+    - id: "zoo:m210"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r225
+  title: "Whale arena"
+  description: >-
+    There is a large whale here listfully pushing a ring around. The children 
+    here watching seem to enjoy it though.
+  exits:
+    - roomId: "zoo:r224"
+      direction: north
+  npcs:
+    - id: "zoo:m213"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r226
+  title: "Bear pit"
+  description: >-
+    This is a large pit some 30 yards across. There are some grizzly bears 
+    here,looking hungry.
+  exits:
+    - roomId: "zoo:r227"
+      direction: north
+    - roomId: "zoo:r222"
+      direction: south
+    - roomId: "zoo:r220"
+      direction: east
+  npcs:
+    - id: "zoo:m222"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r227
+  title: "Picnic area"
+  description: >-
+    This is a nice peaceful area with wooden tables and benches. Trees provide 
+    shade from the sun, such a nice place to relax. There is a small sign here.
+  exits:
+    - roomId: "zoo:r226"
+      direction: south
+  npcs:
+    - id: "zoo:m217"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "zoo:m220"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "zoo:o231"
+      respawnChance: 75
+    - id: "zoo:o207"
+      respawnChance: 75

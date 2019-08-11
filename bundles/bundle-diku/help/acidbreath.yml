@@ -1,0 +1,15 @@
+---
+body: |
+  Syntax: cast 'acid breath' <victim>
+  Syntax: cast 'fire breath' <victim>
+  Syntax: cast 'frost breath' <victim>
+  Syntax: cast 'gas breath'
+  Syntax: cast 'lightning breath' <victim>
+  
+  Acid, fire, frost, and lightning damage one victim, whereas gas damages every NPC
+  in the room. Fire and frost can break objects, and acid can damage armor.
+  
+  - firebreath
+  - frostbreath
+  - gasbreath
+  - lightningbreath

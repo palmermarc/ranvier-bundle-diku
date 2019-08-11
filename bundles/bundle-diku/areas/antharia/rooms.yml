@@ -1,0 +1,977 @@
+- id: r1800
+  title: "Temple of Anthar"
+  description: >-
+    You are standing just south of the grand temple of Anthar.  This seems
+    to be the center of life in the city of Antharia -- Antharians are
+    passing by here on a regular basis.  Also, you can almost hear the
+    humming power radiating from the Gem of Salvation mounted upon the
+    Temple.  
+        From here you can walk around the temple to the east or west...or
+    you can return to the Sea by going south.  There is also a Magical
+    sign posted here, put up by the councils of Antharia after the initial
+    contact with Anon.
+  exits:
+    - roomId: "antharia:r1802"
+      direction: south
+    - roomId: "antharia:r1803"
+      direction: east
+    - roomId: "antharia:r1825"
+      direction: west
+  npcs:
+    - id: "antharia:m1801"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "antharia:m1800"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "antharia:m1813"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1801
+  title: "Entrance Street"
+  description: >-
+    As you enter from the sea, you suddenly are aware of a type of
+    stability and balance that is not typical of being underwater.
+    Standing and walking is now almost like being in the open air, thanks
+    to the power of the Gem of Salvation.
+        Looking ahead you can see the Temple of Anthar just a bit further
+    to the north.  The city looks huge from here, even though you know
+    that a great portion of the northern section of the city is now in
+    ruins, with the waning power of the Gem.  Antharians are walking
+    everywhere, a serious people.  They do not seem to be totally
+    heartless, just aware of what they have to do to survive.  "Work
+    before play" is the motto that Antharians live by.
+        Looking directly up..you can see a clear shot right to the
+    surface..you're amazed at how easy it is to notice the sun at this
+    depth.  More Antharian magic, you think.
+  exits:
+    - roomId: "antharia:r1802"
+      direction: north
+    - roomId: "joker1:r24112"
+      direction: up
+  npcs:
+    - id: "antharia:m1808"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1802
+  title: "Entrance Street"
+  description: >-
+    As you get closer to the Temple of Anthar, the power of the gem
+    becomes more and more resonate.  The Temple of Anthar is just a bit
+    further to the north, and from here you can see the big Gem of
+    Salvation mounted on top of it.  The Gem looks, from here, to be a
+    huge red stone mounted in a golden tripod.  There is a faint, but
+    visible ray of light that emits from the gem, blanketing the city in a
+    protective aura.  The sheer power that emits from the gem is awesome
+    in iteslf, the wizards of ancient Antharia must have been akin to
+    gods.
+        The street continues north from here to the Temple, or south back
+    to the Sea.
+  exits:
+    - roomId: "antharia:r1800"
+      direction: north
+    - roomId: "antharia:r1801"
+      direction: south
+- id: r1803
+  title: "Main Road of Antharia"
+  description: >-
+    You are walking around the grand Temple of Anthar towards the
+    east.  The road here is very well kept, and protected day and night by
+    the guards of Antharia.  Antharians flash you a quick smile as they
+    pass, busy in their work.  Looking around there are many private
+    residents visible, their houses hugging the road just like any other
+    city of this size.  Although old, they are well kept and in good
+    condition.
+  exits:
+    - roomId: "antharia:r1826"
+      direction: north
+    - roomId: "antharia:r1804"
+      direction: east
+    - roomId: "antharia:r1800"
+      direction: west
+- id: r1804
+  title: "Main Road of Antharia"
+  description: >-
+    The paved road of Antharia continues to the west.  There are
+    houses of every shape form and fashion lining the sides of the street.
+    Every so often you can hear the cry of an infant Antharian coming from
+    these houses.  Although they are different from the other races, they
+    still have a lot in common with them.  Moreover, the Antharian seem
+    content with their lives underwater, showing no signs of resentment
+    that their once great empire was completely forgotton on the surface.
+        The road continues from here to the west and to the east.
+  exits:
+    - roomId: "antharia:r1805"
+      direction: east
+    - roomId: "antharia:r1803"
+      direction: west
+  npcs:
+    - id: "antharia:m1808"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "antharia:m1809"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1805
+  title: "Turn in the Main Road"
+  description: >-
+    Here the main road makes a sharp turn to the north, following the
+    high walls surrounding the city.  The road also continues back to the
+    west towards the Temple of Anthar.
+        After standing here a moment you decide that it IS food that you
+    are smelling.  Your mouth waters as you smell an aroma of fine
+    Antharian food coming from the north.
+  exits:
+    - roomId: "antharia:r1806"
+      direction: north
+    - roomId: "antharia:r1804"
+      direction: west
+  npcs:
+    - id: "antharia:m1800"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1806
+  title: "Main Road at Eatery"
+  description: >-
+    Standing here, you can smell the fantastic foods that is being
+    prepared and sold inside the shop to the east.  Sometimes it's hard to
+    find a smiling Antharian; however, every one that comes out of this
+    shop has a very big smile on..and usually something in their hand that
+    looks VERY good.
+       The main road continues to the north and south, if you ever want to
+    leave.
+  exits:
+    - roomId: "antharia:r1808"
+      direction: north
+    - roomId: "antharia:r1805"
+      direction: south
+    - roomId: "antharia:r1807"
+      direction: east
+- id: r1807
+  title: "Irghum's Antharian Eatery"
+  description: >-
+    Heaven.  Every type of Antharian food can be found here, from
+    simple breads to complex meals.  Irghum is standing behind the counter
+    fixing something as you stand there.  Working as a master craftsman,
+    he produces a product that would make any chef red with envy.  Looking
+    around, it is obvious that Irghum is not hurting for business.  It is
+    said that every Antharian visits Irghum at least once a month, and on
+    special occasions.  Antharians love their food and love Irghum.
+  exits:
+    - roomId: "antharia:r1806"
+      direction: west
+  npcs:
+    - id: "antharia:m1804"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1808
+  title: "Main Street of Antharia"
+  description: >-
+    Leaving the wonderful smell of the eatery, the road continues
+    north.  Just ahead you can see a big intersection.
+  exits:
+    - roomId: "antharia:r1809"
+      direction: north
+    - roomId: "antharia:r1806"
+      direction: south
+  npcs:
+    - id: "antharia:m1800"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1809
+  title: "East Intersection -- Main and Center"
+  description: >-
+    This is the east intersection of the city of Antharia.  The road
+    continues to the north and south, and Center Street goes to the west.
+        There is a road sign posted here.
+  exits:
+    - roomId: "antharia:r1810"
+      direction: north
+    - roomId: "antharia:r1808"
+      direction: south
+    - roomId: "antharia:r1831"
+      direction: west
+  npcs:
+    - id: "antharia:m1807"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "antharia:m1807"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1810
+  title: "Main Road of Antharia"
+  description: >-
+    Walking along this road is never boring.  Even though it is very
+    symetrical in form, the houses and people that you pass never leave
+    you with nothing to study.  Just the fact that this city could have
+    survived at all under these conditions is amazing in itself, but for
+    their artwork and architecture to survive is a miracle.
+        Antharians are very good at making simple houses look like
+    mansions.  After the house is built (all of which are quite old), the
+    Antharian family spends the rest of their life adding carvings and
+    paintings to their individual houses.  As generations pass, this
+    artwork gets more and more impressive.  Antharians are very proud of
+    their heritage.
+  exits:
+    - roomId: "antharia:r1811"
+      direction: north
+    - roomId: "antharia:r1809"
+      direction: south
+  npcs:
+    - id: "antharia:m1808"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "antharia:m1810"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1811
+  title: "Small Intersection"
+  description: >-
+    Here the main bends to the west, with a less traveled road going to
+    the east.  There is a small sign here.
+  exits:
+    - roomId: "antharia:r1810"
+      direction: south
+    - roomId: "antharia:r1835"
+      direction: east
+    - roomId: "antharia:r1812"
+      direction: west
+  npcs:
+    - id: "antharia:m1800"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "antharia:m1813"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1812
+  title: "Main Road of Antharia"
+  description: >-
+    Walking along the northern edge of the current Antharia, you can
+    look north and see the ruins of what was the rest of the grand
+    Antharia.  Antharians now call what Antharia was in the past, "grand
+    Antharia", and they tell the story of grand Antharia not unlike gospel.
+    The Antharians are very proud of their heritage and grand Antharia is
+    a major part of that heritage.  Right now, there is a kind of magic
+    wall between this section of the city, and the older ruined section.
+    Representatives from the other races and the city of Anon are
+    working to gain permission to explore this section of Antharia.
+        At this point in time, only Zaertses is allowed to explore these
+    ruins.  He is known to tell stories sometimes; however, he is usually
+    very quiet about the things that he has seen.  What wanders await us
+    in the ruins of grand Antharia?
+        To the south you see the shop of the Sorceress Cyrtpea.  The
+    building seems to radiate with power.
+  exits:
+    - roomId: "antharia:r1814"
+      direction: south
+    - roomId: "antharia:r1811"
+      direction: east
+    - roomId: "antharia:r1813"
+      direction: west
+- id: r1813
+  title: "Main Road of Antharia"
+  description: >-
+    Standing here are two Antharians guarding the portal into the ruins of
+    grand Antharia.   Not that anyone could enter without the key -- the
+    portal is magically locked by a very powerful wizard.  Right now, only
+    Zaertses owns a copy of this key, and it's secret is guarded with
+    incredible zeal.  One day it is hoped that anyone can apply for
+    admission into the ruins, but not now.
+  exits:
+    - roomId: "antharia:r1812"
+      direction: east
+    - roomId: "antharia:r1815"
+      direction: west
+  npcs:
+    - id: "antharia:m1807"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "antharia:m1807"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1814
+  title: "Workplace of Cyrtpea the Sorceress"
+  description: >-
+    It is said that Cyrtpea actually has knowledge of some of the
+    magics of ancient Antharia, although she denies this to the fullest
+    degree.  However, she does keep her workplace as close to the ruins
+    of grand Antharia as possible, and is known to to make special visits
+    to Zaertses.  Common Antharians are convinced that Cyrtpea will make
+    the discovery that will bring Antharia back to the splendor that it
+    once knew.  
+        The building itself seems to radiate with magical power, even
+    touching you -- a non Antharian.  Cyrtpea sits at her desk, looking at
+    books that you are sure hold the secrets of the world.
+  exits:
+    - roomId: "antharia:r1812"
+      direction: north
+  npcs:
+    - id: "antharia:m1805"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1815
+  title: "Main Road of Antharia"
+  description: >-
+    Walking along the northern edge of the current Antharia, you can
+    look north and see the ruins of what was the rest of the grand
+    Antharia.  Antharians now call what Antharia was in the past, "grand
+    Antharia", and they tell the story of grand Antharia not unlike
+    gospel.  The Antharians are very proud of their heritage and grand
+    Antharia is a major part of that heritage.  Right now, there is a kind
+    of magic wall between this section of the city, and the older ruined
+    section.  Representatives from the other races and the city of
+    Anon are working to gain permission to explore this section of
+    Antharia.  
+        At this point in time, on Zaertses is allowed to explore these
+    ruins.  He is known to tell stories sometimes; however, he is usually
+    very quiet about the things that he has seen.  What wanders await us
+    in the ruins of grand Antharia?
+  exits:
+    - roomId: "antharia:r1813"
+      direction: east
+    - roomId: "antharia:r1817"
+      direction: west
+    - roomId: "antharia:r1816"
+      direction: up
+  npcs:
+    - id: "antharia:m1808"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1816
+  title: "Forgotten Room"
+  description: >-
+    This room is full of cobwebs and dust..as no one has been here in
+    such a long time.   You have obviously stumbled upon a part of
+    Antharian history, as the room still looks like it did 2000 yrs ago.
+  items:
+    - id: "antharia:o1826"
+      respawnChance: 75
+- id: r1817
+  title: "Main Road of Antharia"
+  description: >-
+    Here the road makes a sharp turn to the east and south.  This
+    seems to be a less traveled section of the city.
+  exits:
+    - roomId: "antharia:r1818"
+      direction: south
+    - roomId: "antharia:r1815"
+      direction: east
+  npcs:
+    - id: "antharia:m1800"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1818
+  title: "Main Road of Antharia"
+  description: >-
+    Walking along this road is never boring.  Even though it is very
+    symetrical in form, the houses and people that you pass never leave
+    you with nothing to study.  Just the fact that this city could have
+    survived at all under these conditions is amazing in itself, but for
+    their artwork and architecture to survive is a miracle.
+         Antharians are very good at making simple houses look like
+    mansions.  After the house is built (all of which are quite old now),
+    the Antharian family spends the rest of their life adding carvings and
+    paintings to their individual houses.  As generations pass, this
+    artwork gets more and more impressive.  Antharians are very proud of
+    their heritage.
+  exits:
+    - roomId: "antharia:r1817"
+      direction: north
+    - roomId: "antharia:r1819"
+      direction: south
+  npcs:
+    - id: "antharia:m1810"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1819
+  title: "East Intersection -- Main and Center"
+  description: >-
+    This is the busy east intersection of Antharia.  From here one and
+    go north, south, east or west.  This seems to be a very busy section
+    of town.
+         There is a small street sign posted here.
+  exits:
+    - roomId: "antharia:r1818"
+      direction: north
+    - roomId: "antharia:r1820"
+      direction: south
+    - roomId: "antharia:r1832"
+      direction: east
+    - roomId: "antharia:r1839"
+      direction: west
+  npcs:
+    - id: "antharia:m1807"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "antharia:m1807"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1820
+  title: "Main Street of Antharia"
+  description: >-
+    In this particular section of street there are children playing
+    games.  Running and playing, they make you remember your childhood.
+    Just like all children, these children have that internal need to
+    play IN the street -- instead of in the park or other, more sensible
+    places.  
+         Instead of running in fright, these children seem to be intrigued
+    by your presence.  Looking at you in curiosity, they almost look as
+    though they might talk to you.
+  exits:
+    - roomId: "antharia:r1819"
+      direction: north
+    - roomId: "antharia:r1821"
+      direction: south
+  npcs:
+    - id: "antharia:m1811"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "antharia:m1811"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "antharia:m1811"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "antharia:m1812"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "antharia:m1812"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "antharia:m1812"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r1821
+  title: "Main Street of Antharia"
+  description: >-
+    The main street of Antharia continues north and south.
+  exits:
+    - roomId: "antharia:r1820"
+      direction: north
+    - roomId: "antharia:r1822"
+      direction: south
+  npcs:
+    - id: "antharia:m1800"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "antharia:m1810"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1822
+  title: "Main Street of Antharia"
+  description: >-
+    Here the street makes a sharp turn to the north and east.
+  exits:
+    - roomId: "antharia:r1821"
+      direction: north
+    - roomId: "antharia:r1823"
+      direction: east
+  npcs:
+    - id: "antharia:m1809"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1823
+  title: "Main Street Before Zaertses'"
+  description: >-
+    Here the main street of Antharia goes past the shop of Zaertses.
+    Just south of here is a building, simple and rustic -- with a sign
+    hanging on it stating: Zaertses House of Relics.
+          The street continues east and west.
+  exits:
+    - roomId: "antharia:r1824"
+      direction: south
+    - roomId: "antharia:r1825"
+      direction: east
+    - roomId: "antharia:r1822"
+      direction: west
+  npcs:
+    - id: "antharia:m1808"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1824
+  title: "Zaertses' House of Relics"
+  description: >-
+    This one room shop is absolutely amazing.  There are cases and
+    shelves filled with trinkets and other unusual objects.  Zaertses
+    himself is studying a new piece of artwork that he found in the ruins
+    of Grand Antharia.  Zaertses is the only person allowed, at this point
+    in time, to visit those ruins north of current Antharia.  Some of the
+    things he displays here in his shop, very few (of which there are
+    many) he sells, and the most valuble objects are displayed in a museum
+    Antharians are convinced is located in the heart of the Temple of
+    Anthar.
+  exits:
+    - roomId: "antharia:r1823"
+      direction: north
+  npcs:
+    - id: "antharia:m1806"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1825
+  title: "Main Street of Antharia"
+  description: >-
+    You are walking around the grand Temple of Anthar towards the
+    east.  The road here is very well kept, and protected day and night by
+    the guards of Antharia.  Antharians flash you a quick smile as they
+    pass, busy in their work.  Looking around, there are many private
+    residents visible, their houses hugging the road just like any other
+    city of this size.  Although old, they are well kept and in good
+    condition.
+  exits:
+    - roomId: "antharia:r1833"
+      direction: north
+    - roomId: "antharia:r1800"
+      direction: east
+    - roomId: "antharia:r1823"
+      direction: west
+- id: r1826
+  title: "Temple Circle"
+  description: >-
+    This road circles around the Grand Temple of Anthar.  Just
+    standing here, you feel the magnitude of just how much was put into
+    its building.  You can only imagine at the amount of labor force it
+    took to build something of this magnitude.  Now, with the Gem of
+    Salvation mounted on the top of the temple, it is even more
+    impressive.  The temple seems to be a focus of tremendous power, you
+    feel that if you could just get inside, you could aquire some of that
+    power.  
+        The road continues to the north and south.
+  exits:
+    - roomId: "antharia:r1827"
+      direction: north
+    - roomId: "antharia:r1803"
+      direction: south
+  npcs:
+    - id: "antharia:m1800"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1827
+  title: "Temple Circle"
+  description: >-
+    Taking a closer look at the temple from this angle, you can tell
+    that it is made of many different levels. It seems to be built almost as
+    a pyramid:  large at the base, and getting smaller as it goes up.  The
+    connections between the levels seems to be implicable, almost perfect
+    in their accuracy.  You wonder, did the wizards help in this
+    accomplishment, or were the Antharian masons of that time incredibly
+    good?  Maybe the secret lies within the temple....
+  exits:
+    - roomId: "antharia:r1826"
+      direction: south
+    - roomId: "antharia:r1828"
+      direction: west
+- id: r1828
+  title: "Temple Circle at Kaer's Bridge"
+  description: >-
+    You are standing just north of the Temple of Anthar, and just
+    south of Kaer's Bridge.  According to Antharian history, Kaer was a
+    king just prior to the catastrophy that forced Antharia underwater.
+    Wanting to be remembered for all time, he had this bridge built in his
+    name.  It is a bridge made of the same material as the Temple --
+    something that we have no knowledge of today.  However, you can feel
+    the material, and it feels smooth and glossy..almost like ivory.  You
+    assume that this bridge once spanned a river or something of that
+    nature; however, now this bridge spannes a channel filled with the
+    same water that you are now breathing.
+  exits:
+    - roomId: "antharia:r1829"
+      direction: north
+    - roomId: "antharia:r1827"
+      direction: east
+    - roomId: "antharia:r1834"
+      direction: west
+  npcs:
+    - id: "antharia:m1808"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1829
+  title: "Kaer's Bridge"
+  description: >-
+    As with most bridges built in the past, the bridge rises in the
+    center and comes down on both ends.  From here it is a little easier
+    to see parts of the city.  Two things stand out more than the rest
+    though: the Temple of Anthar to the south, and a larger, more
+    spectacular building to the far north.  You assume that this northern
+    building is part of the ruins of grand Antharia.
+        This bridge is used heavily, as it connects the Temple Circle to
+    Center street.
+  exits:
+    - roomId: "antharia:r1830"
+      direction: north
+    - roomId: "antharia:r1828"
+      direction: south
+  npcs:
+    - id: "antharia:m1813"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1830
+  title: "Center Street"
+  description: >-
+    You are standing here in the exact center of modern Antharia.
+    There is a heavy amount of traffic, as people go to and from the
+    Temple of Anthar via the bridge, and also this street is a shortcut
+    across town.
+         Just north of here is a dignified building of Ertuvia the
+    Weaponsmith.  Instead of the clanging of metal that is usually
+    associated with weaponsmiths, there is only the sound of talking
+    coming from the building.
+        There is a small street sign here.
+  exits:
+    - roomId: "antharia:r1838"
+      direction: north
+    - roomId: "antharia:r1829"
+      direction: south
+    - roomId: "antharia:r1831"
+      direction: east
+    - roomId: "antharia:r1832"
+      direction: west
+  npcs:
+    - id: "antharia:m1808"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1831
+  title: "Center Street"
+  description: >-
+    This street seems to split modern Antharia right in the middle,
+    making the connection from the eastern part of the city, to the
+    western.  Antharians are passing by continually, on their way to see
+    Ertuvia or maybe visit the Temple of Anthar.  Walking on Center street
+    leaves you know doubt that this is really a bustling city.
+       Just north of here is the shop of Heaustf the Armorer.  As with the
+    case with Ertuvia, there is no sound of metal upon metal coming from
+    the building..just the sound of Antharian voices.
+  exits:
+    - roomId: "antharia:r1837"
+      direction: north
+    - roomId: "antharia:r1809"
+      direction: east
+    - roomId: "antharia:r1830"
+      direction: west
+  npcs:
+    - id: "antharia:m1800"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "antharia:m1809"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1832
+  title: "Center Street"
+  description: >-
+    This street seems to split modern Antharia right through the
+    middle, connecting the eastern part of the city to the western.  
+    Antharians are passing by continually, possibly on their way to see
+    Heaustf, or maybe to visit the Temple of Anthar.  Walking on Center
+    street leaves you no doubt that this is really a major city.
+  exits:
+    - roomId: "antharia:r1830"
+      direction: east
+    - roomId: "antharia:r1819"
+      direction: west
+- id: r1833
+  title: "Temple Circle"
+  description: >-
+    This road circles around the grand Temple of Anthar.  Just
+    standing here, you feel the magnitude of just how much was put into
+    its building.  You can only imagine at the amount of labor it took to
+    build something of this magnitude.  Now, with the Gem of Salvation
+    mounted on the top of the temple, it is even more impressive.  The
+    temple seems to be a focus of tremendous power, you fell that if you
+    could just get inside, you could aquire some of that power.
+  exits:
+    - roomId: "antharia:r1834"
+      direction: north
+    - roomId: "antharia:r1825"
+      direction: south
+- id: r1834
+  title: "Temple Circle"
+  description: >-
+    Taking a closer look at the the temple from this angle, you can
+    tell that it is made of many different levels.  Seems to be built
+    almost as a pyramid:  large at the base, and getting smaller as it
+    goes up.  The connections between the levels seems to be implicable,
+    almost perfect in its accuracy.  You wonder, did the wizards help in
+    this accomplishment, or were the Antharian masons of that time
+    incredibly good?  Maybe the secret lies within the temple...
+  exits:
+    - roomId: "antharia:r1833"
+      direction: south
+    - roomId: "antharia:r1828"
+      direction: east
+  npcs:
+    - id: "antharia:m1800"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1835
+  title: "A New Road"
+  description: >-
+    This road seems to be recently built, leading from the Main street
+    to some location to the east.
+  exits:
+    - roomId: "antharia:r1836"
+      direction: east
+    - roomId: "antharia:r1811"
+      direction: west
+- id: r1836
+  title: "Zoo Gate"
+  description: >-
+    You are standing at the gate of the zoo of Antharia.  Looking
+    through the gate, you get a glimpse of known and unknown animals
+    contained therein.  According to the Antharians, the zoo was built
+    before the catastophy -- as hard as that might be to believe.  It is
+    said that the Council of Clerics at that time insisted that the zoo be
+    one of the protected areas.  They wished to preserve the endangered and
+    unusual animals that they had aquired through the generations.  Now,
+    this is the most extensive and important zoo in the world, as it
+    contains animals that is found nowhere else.
+        As with many of aspects of the Antharian culture, this zoo is not
+    currently opened to non-Antharians.  Hopefully, the other races can
+    convince the Antharians to allow other races to explore and
+    investigate the zoo.
+  exits:
+    - roomId: "antharia:r1835"
+      direction: west
+  npcs:
+    - id: "antharia:m1807"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1837
+  title: "Heaustf's Armory"
+  description: >-
+    You are standing in a shop that looks more like a museum than an
+    armory.  In Antharian society, the art of making Armor is very highly
+    respected.  Heaustf is one of the most important people in Antharian
+    society, being the maker of this armor.  His shop does not look like
+    an regular armory would -- dirty, smelly, or dark.  Rather, it is
+    clean, with Heaustf running the shop like a king running his kingdom.
+  exits:
+    - roomId: "antharia:r1831"
+      direction: south
+  npcs:
+    - id: "antharia:m1803"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1838
+  title: "Ertuvia's Weapon Shop"
+  description: >-
+    You are standing in the shop of the distingushed Antharian,
+    Ertuvia.  Ertuvia is considered, by the Antharians, to be a
+    artist -- and he commands respect from them.  There are weapons lining
+    the walls, of every shape and form.  There are also certain weapons
+    that are obviously of Antharian origin.  You wonder what exactly those
+    weapons are, and what kind of price Ertuvia will charge you for them.
+  exits:
+    - roomId: "antharia:r1830"
+      direction: south
+  npcs:
+    - id: "antharia:m1802"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1839
+  title: "Guild Street"
+  description: >-
+    You are walking along Guild street, where all the different races in
+    the world are represented.  This street is fairly new, built after the
+    meeting between Antharia and the rest of the overwater world.
+       The street continues to the west, and goes back to the West
+    intersection directly to the east.
+  exits:
+    - roomId: "antharia:r1819"
+      direction: east
+    - roomId: "antharia:r1840"
+      direction: west
+- id: r1840
+  title: "Guild Street"
+  description: >-
+    You are walking along Guild street, where all the races of the
+    world have representatives to help you `long while you're here.  They
+    can answer any questions and help you with diplomatic problems.  
+       Just to the north is the Human guild.  The street continues to the
+    east and west. The Illithid guild lies to the south.
+  exits:
+    - roomId: "antharia:r1844"
+      direction: north
+    - roomId: "antharia:r1850"
+      direction: south
+    - roomId: "antharia:r1839"
+      direction: east
+    - roomId: "antharia:r1841"
+      direction: west
+- id: r1841
+  title: "Guild Street"
+  description: >-
+    You are walking along Guild street, where all the races of the
+    world have representatives to help you `long while you're here.  They
+    can answer any questions and help you with diplomatic problems.
+        The Dwarven guild is just south.  Guild street goes east and west.
+    The Avian guild is due north of here.
+  exits:
+    - roomId: "antharia:r1851"
+      direction: north
+    - roomId: "antharia:r1845"
+      direction: south
+    - roomId: "antharia:r1840"
+      direction: east
+    - roomId: "antharia:r1842"
+      direction: west
+  npcs:
+    - id: "antharia:m1800"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "antharia:m1809"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "antharia:m1813"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1842
+  title: "Guild Street"
+  description: >-
+    You are walking along Guild street, where all the races have
+    representatives to help you while you're here.  They can answer and
+    questions, and help you with any diplomatic problems.
+        The Druid guild is to the north, while the Elven guild is to the
+    south.  Guild street runs east and west.
+  exits:
+    - roomId: "antharia:r1846"
+      direction: north
+    - roomId: "antharia:r1847"
+      direction: south
+    - roomId: "antharia:r1841"
+      direction: east
+    - roomId: "antharia:r1843"
+      direction: west
+- id: r1843
+  title: "Guild Street"
+  description: >-
+    You are at the end of Guild street, where all the races of the
+    world have representatives to help you while you're here.  They can
+    answer any questions, and help you with any diplomatic problems.
+       The Kender guild is to the north, while the Antharian guild is to
+    the south.  Guild street runs towards the east.
+  exits:
+    - roomId: "antharia:r1848"
+      direction: north
+    - roomId: "antharia:r1849"
+      direction: south
+    - roomId: "antharia:r1842"
+      direction: east
+  npcs:
+    - id: "antharia:m1813"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r1844
+  title: "Human Guild"
+  description: >-
+    You are standing in the small, bare building of the human guild.
+    The representative from the human race is standing here willing to
+    help any of her fellow humans here in Antharia.
+       The exit door to the south leads back to guild street.
+  exits:
+    - roomId: "antharia:r1840"
+      direction: south
+  npcs:
+    - id: "antharia:m1814"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1845
+  title: "Dwarven Guild"
+  description: >-
+    You are standing in the small, bare building of the Dwarven guild.
+    The representative from the Dwarves is standing here willing to help
+    any of his fellow Dwarves here in Antharia.
+       The exit directly to the north leads to Guild street.
+  exits:
+    - roomId: "antharia:r1841"
+      direction: north
+  npcs:
+    - id: "antharia:m1815"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1846
+  title: "Druid's Guild"
+  description: >-
+    You are standing in the small, bare building of the Druidic guild.
+    The representative from the Druids is standing here willing to help
+    any of his fellow druids here in Antharia.
+       The exit directly to the south leads to Guild street.
+  exits:
+    - roomId: "antharia:r1842"
+      direction: south
+  npcs:
+    - id: "antharia:m1817"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1847
+  title: "Elven Guild"
+  description: >-
+    You are standing in the small, bare building that houses the Elven
+    guild.  The representative from the Elves is standing here willing to
+    help any of her fellow elves here in Antharia.
+        The exit directly to the north leads back to Guild street.
+  exits:
+    - roomId: "antharia:r1842"
+      direction: north
+  npcs:
+    - id: "antharia:m1816"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1848
+  title: "Kender Guild"
+  description: >-
+    You are standing in the small, bare building that houses the
+    Kender guild.  The representative from the Kender is standing here
+    willing to help any of her fellow Kender in Antharia.
+        The exit directly to the south leads to Guild street.
+  exits:
+    - roomId: "antharia:r1843"
+      direction: south
+  npcs:
+    - id: "antharia:m1818"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1849
+  title: "Antharian Guild"
+  description: >-
+    You are standing in the building that houses the Antharian guild.
+    This building is a little less bare than the other guilds, being
+    financed directly by the Antharian government.  The Antharian
+    representative is here helping his fellow Antharians in dealing with
+    the other races, and with dealing with YOU.  This Antharian is
+    important in the diplomatic relationship between Antharia and the
+    other races of the world.
+       The exit directly to the north leads back to guild street.
+  exits:
+    - roomId: "antharia:r1843"
+      direction: north
+  npcs:
+    - id: "antharia:m1819"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1850
+  title: "Illithid Guild"
+  description: >-
+    You are standing in the small, bare building that houses the
+    Illithid guild.  The representative from the Illithid is standing here
+    willing to help any of her fellow Illithids in Antharia.
+        The exit directly to the north leads to Guild street.
+  exits:
+    - roomId: "antharia:r1840"
+      direction: north
+  npcs:
+    - id: "antharia:m1820"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r1851
+  title: "Avian Guild"
+  description: >-
+    You are standing in the small, bare building that houses the
+    Avian guild.  The representative from the Avian is standing here
+    willing to help any of her fellow Avian in Antharia.
+        The exit directly to the south leads to Guild street.
+  exits:
+    - roomId: "antharia:r1841"
+      direction: south
+  npcs:
+    - id: "antharia:m1821"
+      respawnChance: 100
+      maxLoad: "1"

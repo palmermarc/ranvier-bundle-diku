@@ -1,0 +1,422 @@
+- id: r8001
+  title: "Outside A Desert City"
+  description: >-
+    The sand to the north has been blasted by the sun for centuries giving it a 
+    strange glow.
+    There is a sign here which reads
+    *****************************************
+                 City Of Dabour
+           Birthplace of Holy Eshand
+       Come Hear the Holy Arasham Preach
+    *****************************************
+  exits:
+    - roomId: "dabour:r8002"
+      direction: south
+    - roomId: "eastern:r5062"
+      direction: west
+- id: r8002
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    This is a junction with roads running East, North and South.
+  exits:
+    - roomId: "dabour:r8001"
+      direction: north
+    - roomId: "dabour:r8007"
+      direction: south
+    - roomId: "dabour:r8003"
+      direction: east
+  npcs:
+    - id: "dabour:m8012"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8003
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    The street runs west and south.
+  exits:
+    - roomId: "dabour:r8004"
+      direction: south
+    - roomId: "dabour:r8002"
+      direction: west
+- id: r8004
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    The street runs north to south. To the west is the door to the buildings 
+    holding Ulesim's tent.
+  exits:
+    - roomId: "dabour:r8003"
+      direction: north
+    - roomId: "dabour:r8005"
+      direction: south
+    - roomId: "dabour:r8016"
+      direction: west
+  npcs:
+    - id: "dabour:m8012"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8005
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    The road runs north and west.
+  exits:
+    - roomId: "dabour:r8004"
+      direction: north
+    - roomId: "dabour:r8006"
+      direction: west
+- id: r8006
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    The road runs north, east and south.  To the west you can hear the bleating 
+    of sheep.
+  exits:
+    - roomId: "dabour:r8007"
+      direction: north
+    - roomId: "dabour:r8008"
+      direction: south
+    - roomId: "dabour:r8005"
+      direction: east
+    - roomId: "dabour:r8018"
+      direction: west
+  npcs:
+    - id: "dabour:m8012"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8007
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    The road runs north to south.  To the west you can hear the lowing of cattle.
+  exits:
+    - roomId: "dabour:r8002"
+      direction: north
+    - roomId: "dabour:r8006"
+      direction: south
+    - roomId: "dabour:r8017"
+      direction: west
+- id: r8008
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people
+    have been forced to put a tent inside.
+    The road runs north, south and east.  There is a merchants stand to the west.
+  exits:
+    - roomId: "dabour:r8006"
+      direction: north
+    - roomId: "dabour:r8015"
+      direction: south
+    - roomId: "dabour:r8009"
+      direction: east
+    - roomId: "dabour:r8019"
+      direction: west
+  npcs:
+    - id: "dabour:m8000"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8009
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    The road runs west to east.  There are merchants stands to the north and 
+    south.
+  exits:
+    - roomId: "dabour:r8021"
+      direction: north
+    - roomId: "dabour:r8022"
+      direction: south
+    - roomId: "dabour:r8010"
+      direction: east
+    - roomId: "dabour:r8008"
+      direction: west
+- id: r8010
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    The road runs west and south.  There is some sort of trader to the north, 
+    strange smells emanate from a doorway.
+  exits:
+    - roomId: "dabour:r8027"
+      direction: north
+    - roomId: "dabour:r8011"
+      direction: south
+    - roomId: "dabour:r8009"
+      direction: west
+  npcs:
+    - id: "dabour:m8002"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8011
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    The road runs north to south.  There are moans of discomfort from the west.
+  exits:
+    - roomId: "dabour:r8010"
+      direction: north
+    - roomId: "dabour:r8012"
+      direction: south
+    - roomId: "dabour:r8025"
+      direction: east
+- id: r8012
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    The road runs north and west.
+  exits:
+    - roomId: "dabour:r8011"
+      direction: north
+    - roomId: "dabour:r8013"
+      direction: west
+  npcs:
+    - id: "dabour:m8012"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8013
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    The road runs west to east.  There is a large tent to the south.
+  exits:
+    - roomId: "dabour:r8023"
+      direction: south
+    - roomId: "dabour:r8012"
+      direction: east
+    - roomId: "dabour:r8014"
+      direction: west
+- id: r8014
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    To the south there is what passes for a mansion in this city.  The road 
+    runs north and east.
+  exits:
+    - roomId: "dabour:r8015"
+      direction: north
+    - roomId: "dabour:r8026"
+      direction: south
+    - roomId: "dabour:r8013"
+      direction: east
+  npcs:
+    - id: "dabour:m8002"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8015
+  title: "Dabour City Street"
+  description: >-
+    The street is hot and dusty.  The buildings that line each side are 
+    dilapidated, and some of the roofs have fallen in so badly that people 
+    have been forced to put a tent inside.
+    The road runs north to south.  From the west there is the sound of horses.
+  exits:
+    - roomId: "dabour:r8008"
+      direction: north
+    - roomId: "dabour:r8014"
+      direction: south
+    - roomId: "dabour:r8020"
+      direction: west
+- id: r8016
+  title: "Tent of Ulesim"
+  description: >-
+    This tent is untidy and carries Ulesims strange odour
+  exits:
+    - roomId: "dabour:r8004"
+      direction: east
+  npcs:
+    - id: "dabour:m8008"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8017
+  title: "Cattle Pens"
+  description: >-
+    The area is filled with pens that would be perfect for holding animals
+  exits:
+    - roomId: "dabour:r8007"
+      direction: east
+  npcs:
+    - id: "dabour:m8005"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8018
+  title: "Sheep Pens"
+  description: >-
+    The area is filled with pens that would be perfect for holding animals
+  exits:
+    - roomId: "dabour:r8006"
+      direction: east
+  npcs:
+    - id: "dabour:m8004"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8019
+  title: "Seller of holy writings"
+  description: >-
+    The merchants stall is filled with fake artefacts that even the most 
+    stupid would be suspicious off.
+  exits:
+    - roomId: "dabour:r8008"
+      direction: east
+  npcs:
+    - id: "dabour:m8015"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8020
+  title: "Stable"
+  description: >-
+    There are horses stalls lining the walls, each is filled with fresh hay.
+  exits:
+    - roomId: "dabour:r8015"
+      direction: east
+  npcs:
+    - id: "dabour:m8003"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8021
+  title: "Carpet Seller"
+  description: >-
+    The carpet seller's stall is piled high with carpets of all colours and 
+    types.
+  exits:
+    - roomId: "dabour:r8009"
+      direction: south
+  npcs:
+    - id: "dabour:m8001"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8022
+  title: "Seller of holy items"
+  description: >-
+    The merchants stall is filled with fake artefacts that even the most stupid 
+    would be suspicious off.
+  exits:
+    - roomId: "dabour:r8009"
+      direction: north
+  npcs:
+    - id: "dabour:m8014"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8023
+  title: "Arasham Guard Post"
+  description: >-
+    This space is perfect for the men to keep watch on whoever tries to get into 
+    Arashams tent.
+  exits:
+    - roomId: "dabour:r8013"
+      direction: north
+    - roomId: "dabour:r8024"
+      direction: east
+  npcs:
+    - id: "dabour:m8016"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r8024
+  title: "Arasham's Tent"
+  description: >-
+    This is a large smelly tent.  The tent has large cushions piled up for 
+    Arasham to sit on, old men like their comfort.  There is a cooked roast of 
+    milk fed veal, perfect for men who have no teeth.
+  exits:
+    - roomId: "dabour:r8023"
+      direction: west
+  npcs:
+    - id: "dabour:m8009"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "dabour:m8011"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8025
+  title: "Prison"
+  description: >-
+    This room is dark, dismal and damp.
+  exits:
+    - roomId: "dabour:r8011"
+      direction: west
+  npcs:
+    - id: "dabour:m8013"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8026
+  title: "Mirrelek's House"
+  description: >-
+    This house has a low hard bed in the corner. There are also some rough 
+    chairs and a table in centre of the floor.
+    There are jars hanging from the ceiling, there is water dripping from them 
+    to keep the room cooler.
+  exits:
+    - roomId: "dabour:r8014"
+      direction: north
+    - roomId: "dabour:r8029"
+      direction: west
+  npcs:
+    - id: "dabour:m8010"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8027
+  title: "Doctors Receptionist"
+  description: >-
+    Many useless items stock the shelves of this store.  The strange odour is 
+    strong and seems to be coming from the room next door.  You do recognise 
+    some of the items as crude healing potions.
+  exits:
+    - roomId: "dabour:r8028"
+      direction: north
+    - roomId: "dabour:r8010"
+      direction: south
+  npcs:
+    - id: "dabour:m8006"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8028
+  title: "Doctors Room"
+  description: >-
+    This rooms stinks of chemicals, and the walls are lined with shelves filled 
+    with bottles of coloured liquid and boxed of strange substances
+  exits:
+    - roomId: "dabour:r8027"
+      direction: south
+  npcs:
+    - id: "dabour:m8007"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "dabour:o8004"
+      respawnChance: 75
+- id: r8029
+  title: "Cupboad"
+  description: >-
+    A dark and dismal cupboard.
+  exits:
+    - roomId: "dabour:r8026"
+      direction: east
+  items:
+    - id: "dabour:o8007"
+      respawnChance: 75

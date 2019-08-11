@@ -1,0 +1,158 @@
+- id: o7800
+  name: "chainmail chain mail"
+  roomDesc: "A shiny metallic shirt is on the floor."
+  keywords: ["chainmail","chain","mail"]
+  description: "A shiny metallic shirt is on the floor."
+  type: HEAVYARMOR
+- id: o7801
+  name: "boots"
+  roomDesc: "Some soft boots are on the floor."
+  keywords: ["boots"]
+  description: "Some soft boots are on the floor."
+  type: LIGHTARMOR
+- id: o7802
+  name: "longsword sword long"
+  roomDesc: "A shiny blade is on the floor."
+  keywords: ["longsword","sword","long"]
+  description: "A shiny blade is on the floor."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o7803
+  name: "cloak brown"
+  roomDesc: "A pile of brown cloth is on the floor."
+  keywords: ["cloak","brown"]
+  description: "A pile of brown cloth is on the floor."
+  type: ACCESSORY
+- id: o7804
+  name: "key"
+  roomDesc: "A shiny key is on the floor."
+  keywords: ["key"]
+  description: "A shiny key is on the floor."
+  type: KEY
+- id: o7805
+  name: "key"
+  roomDesc: "A shiny key is on the floor."
+  keywords: ["key"]
+  description: "A shiny key is on the floor."
+  type: KEY
+- id: o7806
+  name: "ring"
+  roomDesc: "A shiny ring is on the floor."
+  keywords: ["ring"]
+  description: "A shiny ring is on the floor."
+  type: ACCESSORY
+- id: o7807
+  name: "quarterstaff staff"
+  roomDesc: "A quarterstaff is on the floor."
+  keywords: ["quarterstaff","staff"]
+  description: "A quarterstaff is on the floor."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o7808
+  name: "potion"
+  roomDesc: "A potion is on the floor."
+  keywords: ["potion"]
+  description: "A potion is on the floor."
+  type: POTION
+- id: o7809
+  name: "potion"
+  roomDesc: "A potion is on the floor."
+  keywords: ["potion"]
+  description: "A potion is on the floor."
+  type: POTION
+- id: o7810
+  name: "potion"
+  roomDesc: "A potion is on the floor."
+  keywords: ["potion"]
+  description: "A potion is on the floor."
+  type: POTION
+- id: o7811
+  name: "potion"
+  roomDesc: "A potion is on the floor."
+  keywords: ["potion"]
+  description: "A potion is on the floor."
+  type: POTION
+- id: o7812
+  name: "potion"
+  roomDesc: "A potion is on the floor."
+  keywords: ["potion"]
+  description: "A potion is on the floor."
+  type: POTION
+- id: o7813
+  name: "potion"
+  roomDesc: "A potion is on the floor."
+  keywords: ["potion"]
+  description: "A potion is on the floor."
+  type: POTION
+- id: o7814
+  name: "potion"
+  roomDesc: "A potion is on the floor."
+  keywords: ["potion"]
+  description: "A potion is on the floor."
+  type: POTION
+- id: o7815
+  name: "potion"
+  roomDesc: "A potion is on the floor."
+  keywords: ["potion"]
+  description: "A potion is on the floor."
+  type: POTION
+- id: o7816
+  name: "potion"
+  roomDesc: "A potion is on the floor."
+  keywords: ["potion"]
+  description: "A potion is on the floor."
+  type: POTION
+- id: o7817
+  name: "scroll"
+  roomDesc: "A scroll is on the floor."
+  keywords: ["scroll"]
+  description: "A scroll is on the floor."
+  type: SCROLL
+- id: o7818
+  name: "scroll"
+  roomDesc: "A scroll is on the floor."
+  keywords: ["scroll"]
+  description: "A scroll is on the floor."
+  type: SCROLL
+- id: o7819
+  name: "scroll"
+  roomDesc: "A scroll is on the floor."
+  keywords: ["scroll"]
+  description: "A scroll is on the floor."
+  type: SCROLL
+- id: o7820
+  name: "scroll"
+  roomDesc: "A scroll is on the floor."
+  keywords: ["scroll"]
+  description: "A scroll is on the floor."
+  type: SCROLL
+- id: o7821
+  name: "scroll"
+  roomDesc: "A scroll is on the floor."
+  keywords: ["scroll"]
+  description: "A scroll is on the floor."
+  type: SCROLL
+- id: o7822
+  name: "scroll"
+  roomDesc: "A scroll is on the floor."
+  keywords: ["scroll"]
+  description: "A scroll is on the floor."
+  type: SCROLL
+- id: o7823
+  name: "scroll"
+  roomDesc: "A scroll is on the floor."
+  keywords: ["scroll"]
+  description: "A scroll is on the floor."
+  type: SCROLL
+- id: o7824
+  name: "rod light"
+  roomDesc: "A dull iron shaft is on the floor."
+  keywords: ["rod","light"]
+  description: "A dull iron shaft is on the floor."
+  type: LIGHT

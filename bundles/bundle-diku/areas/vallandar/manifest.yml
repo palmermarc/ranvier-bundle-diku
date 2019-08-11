@@ -1,0 +1,12 @@
+title: "Vallandar's Tomb"
+metadata:
+  id: 80
+  name: "Vallandar's Tomb"
+  createdBy: "kavir"
+  starting_vnum: 30300
+  ending_vnum: 30349
+  item_requirements: 10000
+  filename: "vallandar.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

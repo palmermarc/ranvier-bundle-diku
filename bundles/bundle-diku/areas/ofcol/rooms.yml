@@ -1,0 +1,113 @@
+- id: r5550
+  title: "Village street "
+  description: >-
+    You stand at the small village street in Ofcol.
+    From here you see small houses and only few people.
+    North of here the village street continues up to the small
+    square where some people are gathered as always.
+  exits:
+    - roomId: "ofcol:r5551"
+      direction: north
+    - roomId: "plains:r314"
+      direction: south
+  npcs:
+    - id: "plains:m303"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r5551
+  title: "Village street"
+  description: >-
+    You are standing on the village street of Ofcol.
+    East from here is a small alley and north you enter the village
+    square. Towards the south you can leave Ofcol.
+  exits:
+    - roomId: "ofcol:r5552"
+      direction: north
+    - roomId: "ofcol:r5550"
+      direction: south
+    - roomId: "ofcol:r5553"
+      direction: east
+- id: r5552
+  title: "Village square"
+  description: >-
+    The village square is a place where inhabitants of Ofcol gather
+    to talk, trade and sell items and just have a good time.
+    You see a small shop to the west and the local inn to the north.
+    If you leave south you go to village street.
+  exits:
+    - roomId: "ofcol:r5556"
+      direction: north
+    - roomId: "ofcol:r5551"
+      direction: south
+    - roomId: "ofcol:r5555"
+      direction: west
+  npcs:
+    - id: "plains:m304"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r5553
+  title: "The small alley"
+  description: >-
+    You are in a small, quiet alley.  From here you see the village street
+    to the west and a small room lies to the south.
+  exits:
+    - roomId: "ofcol:r5554"
+      direction: south
+    - roomId: "ofcol2:r601"
+      direction: east
+    - roomId: "ofcol:r5551"
+      direction: west
+  npcs:
+    - id: "plains:m304"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r5554
+  title: "The future training room"
+  description: >-
+    This is the future site of a training room.  The only exit is north
+    leading to the small alley.
+  exits:
+    - roomId: "ofcol:r5553"
+      direction: north
+- id: r5555
+  title: "Luxan's mixed shop"
+  description: >-
+    You are standing in a small shop, filled with all kinds of goods.
+    Here you might be able to find just the thing you're looking for.
+    The only exit is east to village square.
+  exits:
+    - roomId: "ofcol:r5552"
+      direction: east
+  npcs:
+    - id: "plains:m306"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5556
+  title: "The Local Inn"
+  description: >-
+    You are in the local inn, where the peaceful citizens of Ofcol
+    gather to have a drink or 5 if they have dry throats.
+    You can't help thinking that Ofcol is a dry city, when you see the
+    many people here.
+    The only exit is south to the village square.
+  exits:
+    - roomId: "ofcol:r5552"
+      direction: south
+  npcs:
+    - id: "plains:m303"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "plains:m308"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r5577
+  title: "Ravan's hideout"
+  description: >-
+    This place is a small, cosy place where no one disturbs you all
+    the time. The room has little decoration except for some pictures
+    on the wall.
+    You notice that there are no exits from this room.
+  npcs:
+    - id: "plains:m310"
+      respawnChance: 100
+      maxLoad: "1"

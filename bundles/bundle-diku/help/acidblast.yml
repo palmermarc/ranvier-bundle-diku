@@ -1,0 +1,18 @@
+---
+body: |
+  Syntax: cast 'acid blast' <victim>
+  Syntax: cast 'burning hands' <victim>
+  Syntax: cast 'colour spray' <victim>
+  Syntax: cast 'fireball' <victim>
+  Syntax: cast 'lightning bolt' <victim>
+  Syntax: cast 'magic missile' <victim>
+  Syntax: cast 'shocking grasp' <victim>
+  
+  These spells inflict damage on the victim.
+  
+  - burninghands
+  - 
+  - fireball
+  - lightningbolt
+  - magicmissile
+  - shockinggrasp

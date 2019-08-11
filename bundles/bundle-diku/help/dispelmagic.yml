@@ -1,0 +1,7 @@
+---
+body: |
+  Syntax: cast 'dispel magic' <character>
+  
+  This spell dispels magical affects on a character. It may be used as
+  an offensive spell to remove an enemy's magical advantages, or as a
+  benign spell to remove a friend's (or one's own) magical handicaps.

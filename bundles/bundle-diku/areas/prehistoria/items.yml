@@ -1,0 +1,236 @@
+- id: o11200
+  name: "sword stone"
+  roomDesc: "A solid marble sword lays here."
+  keywords: ["sword","stone"]
+  description: "A solid marble sword lays here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o11201
+  name: "flaming torch"
+  roomDesc: "A flaming torch burns here."
+  keywords: ["flaming","torch"]
+  description: "A flaming torch burns here."
+  type: LIGHT
+- id: o11202
+  name: "ring tarnished"
+  roomDesc: "A dull ring lies here."
+  keywords: ["ring","tarnished"]
+  description: "A dull ring lies here."
+  type: ACCESSORY
+- id: o11203
+  name: "garlic necklace"
+  roomDesc: "You see a giant garlic necklace"
+  keywords: ["garlic","necklace"]
+  description: "You see a giant garlic necklace"
+  type: ACCESSORY
+- id: o11204
+  name: "hat"
+  roomDesc: "You see a hat made entirely of garlic here."
+  keywords: ["hat"]
+  description: "You see a hat made entirely of garlic here."
+  type: LIGHTARMOR
+- id: o11205
+  name: "leggings"
+  roomDesc: "You see a pair of leather leggings here."
+  keywords: ["leggings"]
+  description: "You see a pair of leather leggings here."
+  type: MEDIUMARMOR
+- id: o11206
+  name: "boots"
+  roomDesc: "You see a pair of heavy boots here."
+  keywords: ["boots"]
+  description: "You see a pair of heavy boots here."
+  type: MEDIUMARMOR
+- id: o11207
+  name: "cape"
+  roomDesc: "You see a black cape here."
+  keywords: ["cape"]
+  description: "You see a black cape here."
+  type: ACCESSORY
+- id: o11208
+  name: "belt"
+  roomDesc: "You see a steel belt here."
+  keywords: ["belt"]
+  description: "You see a steel belt here."
+  type: ACCESSORY
+- id: o11209
+  name: "animal skin jacket"
+  roomDesc: "You see an animal skin jacket here."
+  keywords: ["animal","skin","jacket"]
+  description: "You see an animal skin jacket here."
+  type: MEDIUMARMOR
+- id: o11210
+  name: "Leather Gauntlets"
+  roomDesc: "Leather Gauntlets lie here."
+  keywords: ["Leather","Gauntlets"]
+  description: "Leather Gauntlets lie here."
+  type: MEDIUMARMOR
+- id: o11211
+  name: "heavy leather arm guards"
+  roomDesc: "Some heavy leather arm guards sit here."
+  keywords: ["heavy","leather","arm","guards"]
+  description: "Some heavy leather arm guards sit here."
+  type: MEDIUMARMOR
+- id: o11212
+  name: "jet black jet-black mask"
+  roomDesc: "A mask  lies here."
+  keywords: ["jet","black","jet-black","mask"]
+  description: "A mask  lies here."
+  type: LIGHTARMOR
+- id: o11213
+  name: "fountain hole drinking"
+  roomDesc: "A drinking hole is here."
+  keywords: ["fountain","hole","drinking"]
+  description: "A drinking hole is here."
+  type: FOUNTAIN
+- id: o11214
+  name: "water skin water-skin"
+  roomDesc: "An old skin lies here"
+  keywords: ["water","skin","water-skin"]
+  description: "An old skin lies here"
+  type: DRINKCON
+- id: o11215
+  name: "worm round"
+  roomDesc: "A worm round lies here uneaten."
+  keywords: ["worm","round"]
+  description: "A worm round lies here uneaten."
+  type: FOOD
+- id: o11216
+  name: "bracer"
+  roomDesc: "You see a leather bracer here."
+  keywords: ["bracer"]
+  description: "You see a leather bracer here."
+  type: MEDIUMARMOR
+- id: o11217
+  name: "potion pink"
+  roomDesc: "A a pink potion rests here."
+  keywords: ["potion","pink"]
+  description: "A a pink potion rests here."
+  type: POTION
+- id: o11218
+  name: "potion red"
+  roomDesc: "A a red potion rests here."
+  keywords: ["potion","red"]
+  description: "A a red potion rests here."
+  type: POTION
+- id: o11219
+  name: "potion mauve"
+  roomDesc: "A mauve potion rests here."
+  keywords: ["potion","mauve"]
+  description: "A mauve potion rests here."
+  type: POTION
+- id: o11220
+  name: "violet potion "
+  roomDesc: "A violet potion rests here."
+  keywords: ["violet","potion",""]
+  description: "A violet potion rests here."
+  type: POTION
+- id: o11221
+  name: "potion silver"
+  roomDesc: "A silver potion rests here."
+  keywords: ["potion","silver"]
+  description: "A silver potion rests here."
+  type: POTION
+- id: o11222
+  name: "scroll identify"
+  roomDesc: "A scroll with strange runes on lies here"
+  keywords: ["scroll","identify"]
+  description: "A scroll with strange runes on lies here"
+  type: SCROLL
+- id: o11223
+  name: "boat small wooden"
+  roomDesc: "A small wooden boat sits here."
+  keywords: ["boat","small","wooden"]
+  description: "A small wooden boat sits here."
+  type: BOAT
+- id: o11224
+  name: "coins"
+  roomDesc: "A large pile of coins lays here."
+  keywords: ["coins"]
+  description: "A large pile of coins lays here."
+  type: MONEY
+- id: o11225
+  name: "wand"
+  roomDesc: "A a wand of fireball rests here."
+  keywords: ["wand"]
+  description: "A a wand of fireball rests here."
+  type: WAND
+- id: o11226
+  name: "garlic necklace"
+  roomDesc: "You see a giant garlic necklace"
+  keywords: ["garlic","necklace"]
+  description: "You see a giant garlic necklace"
+  type: ACCESSORY
+- id: o11227
+  name: "hat"
+  roomDesc: "You see a hat made entirely of garlic here."
+  keywords: ["hat"]
+  description: "You see a hat made entirely of garlic here."
+  type: LIGHTARMOR
+- id: o11228
+  name: "leggings"
+  roomDesc: "You see a pair of leather leggings here."
+  keywords: ["leggings"]
+  description: "You see a pair of leather leggings here."
+  type: MEDIUMARMOR
+- id: o11229
+  name: "boots"
+  roomDesc: "You see a pair of heavy boots here."
+  keywords: ["boots"]
+  description: "You see a pair of heavy boots here."
+  type: MEDIUMARMOR
+- id: o11230
+  name: "cape"
+  roomDesc: "You see a black cape here."
+  keywords: ["cape"]
+  description: "You see a black cape here."
+  type: ACCESSORY
+- id: o11231
+  name: "belt"
+  roomDesc: "You see a steel belt here."
+  keywords: ["belt"]
+  description: "You see a steel belt here."
+  type: ACCESSORY
+- id: o11232
+  name: "bracer"
+  roomDesc: "You see a leather bracer here."
+  keywords: ["bracer"]
+  description: "You see a leather bracer here."
+  type: MEDIUMARMOR
+- id: o11233
+  name: "sword steel diamond"
+  roomDesc: "A really sharp looking sword lays here."
+  keywords: ["sword","steel","diamond"]
+  description: "A really sharp looking sword lays here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o11234
+  name: "coins"
+  roomDesc: "A small pile of coins lays here"
+  keywords: ["coins"]
+  description: "A small pile of coins lays here"
+  type: MONEY
+- id: o11235
+  name: "fountain"
+  roomDesc: "A fountain gushes forth here."
+  keywords: ["fountain"]
+  description: "A fountain gushes forth here."
+  type: FOUNTAIN
+- id: o11236
+  name: "river ob"
+  roomDesc: ""
+  keywords: ["river","ob"]
+  description: ""
+  type: FOUNTAIN
+- id: o11237
+  name: "paper wad newbie pad manual book"
+  roomDesc: "The newbie manual lies here, you simply must read it (get book, then look \n\rbook)"
+  keywords: ["paper","wad","newbie","pad","manual","book"]
+  description: "The newbie manual lies here, you simply must read it (get book, then look \n\rbook)"
+  type: TRASH

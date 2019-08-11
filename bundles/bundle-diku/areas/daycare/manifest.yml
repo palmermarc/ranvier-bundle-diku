@@ -1,0 +1,12 @@
+title: "Dwarven Day Care"
+metadata:
+  id: 17
+  name: "Dwarven Day Care"
+  createdBy: "sandman"
+  starting_vnum: 6600
+  ending_vnum: 6649
+  item_requirements: 8000
+  filename: "daycare.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

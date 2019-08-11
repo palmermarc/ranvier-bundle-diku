@@ -1,0 +1,538 @@
+- id: o3072
+  name: "jerkin scale mail"
+  roomDesc: "A scale mail jerkin is lying on the ground."
+  keywords: ["jerkin","scale","mail"]
+  description: "A scale mail jerkin is lying on the ground."
+  type: HEAVYARMOR
+- id: o3073
+  name: "coif scale mail"
+  roomDesc: "A scale mail coif is lying on the ground."
+  keywords: ["coif","scale","mail"]
+  description: "A scale mail coif is lying on the ground."
+  type: HEAVYARMOR
+- id: o3074
+  name: "skirt scale mail"
+  roomDesc: "A long scale mail skirt is lying on the ground."
+  keywords: ["skirt","scale","mail"]
+  description: "A long scale mail skirt is lying on the ground."
+  type: HEAVYARMOR
+- id: o3075
+  name: "boots reinforced"
+  roomDesc: "A pair of reinforced boots lies here."
+  keywords: ["boots","reinforced"]
+  description: "A pair of reinforced boots lies here."
+  type: MEDIUMARMOR
+- id: o3076
+  name: "gloves reinforced"
+  roomDesc: "A pair of reinforced gloves is lying on the ground."
+  keywords: ["gloves","reinforced"]
+  description: "A pair of reinforced gloves is lying on the ground."
+  type: MEDIUMARMOR
+- id: o3077
+  name: "sleeves scale mail"
+  roomDesc: "A pair of scale mail sleeves is lying on the ground."
+  keywords: ["sleeves","scale","mail"]
+  description: "A pair of scale mail sleeves is lying on the ground."
+  type: HEAVYARMOR
+- id: o3097
+  name: "shield small metal"
+  roomDesc: "A small metal shield is lying on the ground."
+  keywords: ["shield","small","metal"]
+  description: "A small metal shield is lying on the ground."
+  type: SHIELD
+- id: o3100
+  name: "tea cup"
+  roomDesc: "A cup has been set here."
+  keywords: ["tea","cup"]
+  description: "A cup has been set here."
+  type: DRINKCON
+- id: o3101
+  name: "coffee cup"
+  roomDesc: "A cup has been set here."
+  keywords: ["coffee","cup"]
+  description: "A cup has been set here."
+  type: DRINKCON
+- id: o3102
+  name: "water cup"
+  roomDesc: "A cup has been set here."
+  keywords: ["water","cup"]
+  description: "A cup has been set here."
+  type: DRINKCON
+- id: o3105
+  name: "bracer bronze"
+  roomDesc: "A bronze bracer is lying on the ground."
+  keywords: ["bracer","bronze"]
+  description: "A bronze bracer is lying on the ground."
+  type: HEAVYARMOR
+- id: o3106
+  name: "bracer iron"
+  roomDesc: "An iron bracer is lying on the ground."
+  keywords: ["bracer","iron"]
+  description: "An iron bracer is lying on the ground."
+  type: HEAVYARMOR
+- id: o3120
+  name: "key iron"
+  roomDesc: "An iron key has been left here."
+  keywords: ["key","iron"]
+  description: "An iron key has been left here."
+  type: KEY
+- id: o3121
+  name: "key rusty"
+  roomDesc: "A rusty key has been left here."
+  keywords: ["key","rusty"]
+  description: "A rusty key has been left here."
+  type: KEY
+- id: o3122
+  name: "key wooden"
+  roomDesc: "A wooden key has been left here."
+  keywords: ["key","wooden"]
+  description: "A wooden key has been left here."
+  type: KEY
+- id: o3123
+  name: "key brass"
+  roomDesc: "A brass key has been left here."
+  keywords: ["key","brass"]
+  description: "A brass key has been left here."
+  type: KEY
+- id: o3124
+  name: "sword long"
+  roomDesc: "A long sword has been left here."
+  keywords: ["sword","long"]
+  description: "A long sword has been left here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3129
+  name: "hand cuffs"
+  roomDesc: "A pair of hand cuffs has been left here."
+  keywords: ["hand","cuffs"]
+  description: "A pair of hand cuffs has been left here."
+  type: TRASH
+- id: o3130
+  name: "desk drawer"
+  roomDesc: "A desk is set against the western wall."
+  keywords: ["desk","drawer"]
+  description: "A desk is set against the western wall."
+  type: CONTAINER
+  items: ["midgaard:o3123"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o3131
+  name: "safe"
+  roomDesc: "A safe is placed in a dark corner of the room."
+  keywords: ["safe"]
+  description: "A safe is placed in a dark corner of the room."
+  type: CONTAINER
+  items: ["midgaard:o3132"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o3132
+  name: "gold coins"
+  roomDesc: "A lot of gold is here."
+  keywords: ["gold","coins"]
+  description: "A lot of gold is here."
+  type: MONEY
+- id: o3133
+  name: "city key"
+  roomDesc: "The very big City Key is lying here."
+  keywords: ["city","key"]
+  description: "The very big City Key is lying here."
+  type: KEY
+- id: o3134
+  name: "bench"
+  roomDesc: "A white-painted wooden bench is standing here."
+  keywords: ["bench"]
+  description: "A white-painted wooden bench is standing here."
+  type: FURNITURE
+- id: o3135
+  name: "fountain water"
+  roomDesc: "A small white fountain gushes forth here."
+  keywords: ["fountain","water"]
+  description: "A small white fountain gushes forth here."
+  type: FOUNTAIN
+- id: o3136
+  name: "coins gold"
+  roomDesc: "A small pile of gold coins lies here."
+  keywords: ["coins","gold"]
+  description: "A small pile of gold coins lies here."
+  type: MONEY
+- id: o3137
+  name: "key steel"
+  roomDesc: "A large steel key has been left here."
+  keywords: ["key","steel"]
+  description: "A large steel key has been left here."
+  type: KEY
+- id: o3138
+  name: "skin water buffalo"
+  roomDesc: "A bloated dead buffalo is on the floor."
+  keywords: ["skin","water","buffalo"]
+  description: "A bloated dead buffalo is on the floor."
+  type: DRINKCON
+- id: o3139
+  name: "letter resignation"
+  roomDesc: "The receptionist's letter of resignation is taped to the wall."
+  keywords: ["letter","resignation"]
+  description: "The receptionist's letter of resignation is taped to the wall."
+  type: FURNITURE
+- id: o3140
+  name: "notice liquidation bank"
+  roomDesc: "The bank's notice of liquidation is taped to the wall."
+  keywords: ["notice","liquidation","bank"]
+  description: "The bank's notice of liquidation is taped to the wall."
+  type: FURNITURE
+- id: o3220
+  name: "sword"
+  roomDesc: "You see a standard issue sword here."
+  keywords: ["sword"]
+  description: "You see a standard issue sword here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3221
+  name: "dagger"
+  roomDesc: "You see a standard issue dagger here."
+  keywords: ["dagger"]
+  description: "You see a standard issue dagger here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3222
+  name: "mace"
+  roomDesc: "You see a standard issue mace here."
+  keywords: ["mace"]
+  description: "You see a standard issue mace here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3223
+  name: "vest"
+  roomDesc: "You see a standard issue vest here."
+  keywords: ["vest"]
+  description: "You see a standard issue vest here."
+  type: MEDIUMARMOR
+- id: o3224
+  name: "shield"
+  roomDesc: "You see a standard issue shield here."
+  keywords: ["shield"]
+  description: "You see a standard issue shield here."
+  type: SHIELD
+- id: o3225
+  name: "cloak"
+  roomDesc: "You see a standard issue cloak here."
+  keywords: ["cloak"]
+  description: "You see a standard issue cloak here."
+  type: ACCESSORY
+- id: o3226
+  name: "helmet"
+  roomDesc: "You see a standard issue helmet here."
+  keywords: ["helmet"]
+  description: "You see a standard issue helmet here."
+  type: HEAVYARMOR
+- id: o3227
+  name: "leggings"
+  roomDesc: "You see a pair of standard issue leggings here."
+  keywords: ["leggings"]
+  description: "You see a pair of standard issue leggings here."
+  type: HEAVYARMOR
+- id: o3228
+  name: "boots"
+  roomDesc: "You see a pair of standard issue boots here."
+  keywords: ["boots"]
+  description: "You see a pair of standard issue boots here."
+  type: HEAVYARMOR
+- id: o3229
+  name: "gloves"
+  roomDesc: "You see a pair of standard issue gloves here."
+  keywords: ["gloves"]
+  description: "You see a pair of standard issue gloves here."
+  type: HEAVYARMOR
+- id: o3230
+  name: "sleeves"
+  roomDesc: "You see a pair of standard issue sleeves here."
+  keywords: ["sleeves"]
+  description: "You see a pair of standard issue sleeves here."
+  type: HEAVYARMOR
+- id: o3231
+  name: "cape"
+  roomDesc: "You see a standard issue cape here."
+  keywords: ["cape"]
+  description: "You see a standard issue cape here."
+  type: ACCESSORY
+- id: o3232
+  name: "belt"
+  roomDesc: "You see a standard issue belt here."
+  keywords: ["belt"]
+  description: "You see a standard issue belt here."
+  type: ACCESSORY
+- id: o3233
+  name: "bracer"
+  roomDesc: "You see a standard issue bracer here."
+  keywords: ["bracer"]
+  description: "You see a standard issue bracer here."
+  type: HEAVYARMOR
+- id: o3234
+  name: "ring signet"
+  roomDesc: "You see a ring with a strange symbol on the floor."
+  keywords: ["ring","signet"]
+  description: "You see a ring with a strange symbol on the floor."
+  type: ACCESSORY
+- id: o3235
+  name: "banner"
+  roomDesc: "A war banner is on the floor here."
+  keywords: ["banner"]
+  description: "A war banner is on the floor here."
+  type: LIGHT
+- id: o3236
+  name: "ring diamond wedding"
+  roomDesc: "Vanya's diamond wedding ring has been left here."
+  keywords: ["ring","diamond","wedding"]
+  description: "Vanya's diamond wedding ring has been left here."
+  type: ACCESSORY
+- id: o3237
+  name: "band gold wedding"
+  roomDesc: "House's gold wedding band has been left here."
+  keywords: ["band","gold","wedding"]
+  description: "House's gold wedding band has been left here."
+  type: ACCESSORY
+- id: o3000
+  name: "barrel beer"
+  roomDesc: "A beer barrel has been left here."
+  keywords: ["barrel","beer"]
+  description: "A beer barrel has been left here."
+  type: DRINKCON
+- id: o3001
+  name: "bottle beer"
+  roomDesc: "A beer bottle has been left here."
+  keywords: ["bottle","beer"]
+  description: "A beer bottle has been left here."
+  type: DRINKCON
+- id: o3002
+  name: "bottle ale"
+  roomDesc: "A dark bottle of ale has been left here."
+  keywords: ["bottle","ale"]
+  description: "A dark bottle of ale has been left here."
+  type: DRINKCON
+- id: o3003
+  name: "bottle firebreather"
+  roomDesc: "A firebreather has been left here."
+  keywords: ["bottle","firebreather"]
+  description: "A firebreather has been left here."
+  type: DRINKCON
+- id: o3004
+  name: "bottle local"
+  roomDesc: "A dark bottle has been left here."
+  keywords: ["bottle","local"]
+  description: "A dark bottle has been left here."
+  type: DRINKCON
+- id: o3005
+  name: "axe blade"
+  roomDesc: "An executioner's axe is here waiting to possess its next user."
+  keywords: ["axe","blade"]
+  description: "An executioner's axe is here waiting to possess its next user."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3009
+  name: "potpie pot pie"
+  roomDesc: "A big pot pie has been left here."
+  keywords: ["potpie","pot","pie"]
+  description: "A big pot pie has been left here."
+  type: FOOD
+- id: o3010
+  name: "pit"
+  roomDesc: "A pit for sacrifices is in front of the altar."
+  keywords: ["pit"]
+  description: "A pit for sacrifices is in front of the altar."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o3020
+  name: "dagger"
+  roomDesc: "A dagger with a long thin blade is here."
+  keywords: ["dagger"]
+  description: "A dagger with a long thin blade is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3021
+  name: "sword small"
+  roomDesc: "A small sword lies here."
+  keywords: ["sword","small"]
+  description: "A small sword lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3022
+  name: "sword long"
+  roomDesc: "A long sword has been left here."
+  keywords: ["sword","long"]
+  description: "A long sword has been left here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3030
+  name: "torch"
+  roomDesc: "A large torch."
+  keywords: ["torch"]
+  description: "A large torch."
+  type: LIGHT
+- id: o3031
+  name: "lantern"
+  roomDesc: "A hooded brass lantern has been left here."
+  keywords: ["lantern"]
+  description: "A hooded brass lantern has been left here."
+  type: LIGHT
+- id: o3032
+  name: "bag"
+  roomDesc: "A small bag."
+  keywords: ["bag"]
+  description: "A small bag."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o3033
+  name: "box"
+  roomDesc: "A small box."
+  keywords: ["box"]
+  description: "A small box."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o3040
+  name: "scroll identify"
+  roomDesc: "A scroll has carelessly been left here."
+  keywords: ["scroll","identify"]
+  description: "A scroll has carelessly been left here."
+  type: SCROLL
+- id: o3041
+  name: "potion yellow"
+  roomDesc: "A small yellow potion has carelessly been left here."
+  keywords: ["potion","yellow"]
+  description: "A small yellow potion has carelessly been left here."
+  type: POTION
+- id: o3042
+  name: "scroll recall"
+  roomDesc: "A scroll has carelessly been left here."
+  keywords: ["scroll","recall"]
+  description: "A scroll has carelessly been left here."
+  type: SCROLL
+- id: o3045
+  name: "jacket scale mail"
+  roomDesc: "A scale mail jacket is lying on the ground."
+  keywords: ["jacket","scale","mail"]
+  description: "A scale mail jacket is lying on the ground."
+  type: HEAVYARMOR
+- id: o3046
+  name: "bronze breast plate"
+  roomDesc: "A bronze breast plate is lying on the ground."
+  keywords: ["bronze","breast","plate"]
+  description: "A bronze breast plate is lying on the ground."
+  type: HEAVYARMOR
+- id: o3050
+  name: "raft"
+  roomDesc: "A raft has been left here."
+  keywords: ["raft"]
+  description: "A raft has been left here."
+  type: BOAT
+- id: o3051
+  name: "canoe"
+  roomDesc: "A canoe has been left here."
+  keywords: ["canoe"]
+  description: "A canoe has been left here."
+  type: BOAT
+- id: o3060
+  name: "jerkin"
+  roomDesc: "A leather jerkin is lying on the ground."
+  keywords: ["jerkin"]
+  description: "A leather jerkin is lying on the ground."
+  type: MEDIUMARMOR
+- id: o3061
+  name: "cap"
+  roomDesc: "A leather cap is lying on the ground."
+  keywords: ["cap"]
+  description: "A leather cap is lying on the ground."
+  type: MEDIUMARMOR
+- id: o3062
+  name: "pants"
+  roomDesc: "A pair of leather pants is lying on the ground."
+  keywords: ["pants"]
+  description: "A pair of leather pants is lying on the ground."
+  type: MEDIUMARMOR
+- id: o3063
+  name: "boots"
+  roomDesc: "A pair of leather boots lies here."
+  keywords: ["boots"]
+  description: "A pair of leather boots lies here."
+  type: MEDIUMARMOR
+- id: o3064
+  name: "gloves"
+  roomDesc: "A pair of leather gloves is lying on the ground."
+  keywords: ["gloves"]
+  description: "A pair of leather gloves is lying on the ground."
+  type: MEDIUMARMOR
+- id: o3065
+  name: "sleeves"
+  roomDesc: "A pair of leather sleeves is lying on the ground."
+  keywords: ["sleeves"]
+  description: "A pair of leather sleeves is lying on the ground."
+  type: MEDIUMARMOR
+- id: o3066
+  name: "jerkin"
+  roomDesc: "A studded leather jerkin is lying on the ground."
+  keywords: ["jerkin"]
+  description: "A studded leather jerkin is lying on the ground."
+  type: MEDIUMARMOR
+- id: o3067
+  name: "cap"
+  roomDesc: "A hard leather cap is lying on the ground."
+  keywords: ["cap"]
+  description: "A hard leather cap is lying on the ground."
+  type: MEDIUMARMOR
+- id: o3068
+  name: "pants"
+  roomDesc: "A pair of studded leather pants is lying on the ground."
+  keywords: ["pants"]
+  description: "A pair of studded leather pants is lying on the ground."
+  type: MEDIUMARMOR
+- id: o3069
+  name: "boots"
+  roomDesc: "A pair of hard leather boots lies here."
+  keywords: ["boots"]
+  description: "A pair of hard leather boots lies here."
+  type: MEDIUMARMOR
+- id: o3070
+  name: "gloves"
+  roomDesc: "A pair of hard leather gloves is lying on the ground."
+  keywords: ["gloves"]
+  description: "A pair of hard leather gloves is lying on the ground."
+  type: MEDIUMARMOR
+- id: o3071
+  name: "sleeves"
+  roomDesc: "A pair of studded leather sleeves is lying on the ground."
+  keywords: ["sleeves"]
+  description: "A pair of studded leather sleeves is lying on the ground."
+  type: MEDIUMARMOR

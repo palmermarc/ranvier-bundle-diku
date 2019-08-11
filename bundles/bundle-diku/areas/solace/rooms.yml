@@ -1,0 +1,1941 @@
+- id: r10240
+  title: "Lexie's Scuba Shop"
+  description: >-
+    This is one shop that seems to be ahead of its time.
+    But who doesn't like scuba diving. If you don't already have
+    a diving license you can buy one. Lexie can also train you too. Not  in
+    scuba though. Something about a revoked teaching credential due to too
+    many students dying or something. This does seem to be an odd place to have
+    a scuba shop considering the sea is miles away. But I guess you could
+    always go diving in the lake. But why?....
+    There is a small sign here.
+  exits:
+    - roomId: "solace:r10231"
+      direction: south
+  npcs:
+    - id: "solace:m10225"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10241
+  title: "Croben's Containers."
+  description: >-
+    This is the catch all, hold all, container shop. Croben sell all sorts.
+    Just take your pick. And no he doesn't know how much each one holds.
+    What...you think he has nothing better to do than fill each container
+    just to see how much it holds? Get a life....
+    There is a small sign here.
+  exits:
+    - roomId: "solace:r10230"
+      direction: south
+  npcs:
+    - id: "solace:m10226"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10242
+  title: "Matt's Brewery."
+  description: >-
+    Matt could never find enough to drink. So to solve this he started his own
+    brewery. "You can never drink enough" is Matt's logo and offers plenty
+    to drink.
+    There is a small sign here.
+  exits:
+    - roomId: "solace:r10225"
+      direction: north
+  npcs:
+    - id: "solace:m10208"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10243
+  title: "a House."
+  description: >-
+    This is a small house off of West Gullen Way. It is not your house and you
+    were not invited. Why are you here?
+  exits:
+    - roomId: "solace:r10226"
+      direction: north
+  npcs:
+    - id: "solace:m10206"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10207"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10238"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r10244
+  title: "a House."
+  description: >-
+    This is a small house off of West Gullen Way. It is sparsely furnished and
+    very tidy. a small fire burns warmly in the fireplace. The sweet smell of 
+    flowers is present. Ahhh....what a nice home.
+  exits:
+    - roomId: "solace:r10227"
+      direction: north
+  npcs:
+    - id: "solace:m10206"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "solace:m10207"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10238"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r10245
+  title: "Cookie's Cookie Cookery."
+  description: >-
+    This is the cookie shop of who else...Cookie. She's not in right now
+    but there are many delicious cookies to munch on if you want to wait till
+    she returns.
+  exits:
+    - roomId: "solace:r10203"
+      direction: east
+    - roomId: "solace:r10250"
+      direction: west
+  npcs:
+    - id: "solace:m10210"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10246
+  title: "a House."
+  description: >-
+    This is a small house off of the main street. It is well furnished and
+    very tidy. a small fire burns warmly in the fireplace. The sweet smell of 
+    flowers is present. Ahhh....what a nice home.
+  exits:
+    - roomId: "solace:r10202"
+      direction: east
+  npcs:
+    - id: "solace:m10206"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "solace:m10207"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "solace:m10238"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "solace:m10241"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10247
+  title: "Old Gambling Parlor."
+  description: >-
+    This used to be a very popular and busy gambling parlor. But the Captain
+    of the Guard lost big here once and thereafter declared gambling illegal.
+    It has been closed for many years. It is dusty and full of cobwebs.
+  exits:
+    - roomId: "solace:r10218"
+      direction: south
+  npcs:
+    - id: "solace:m10216"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10237"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r10248
+  title: "The McBakery"
+  description: >-
+    You are standing inside the small bakery.  A sweet scent of McDanish
+    and fine McBread fills the room.  The McBread and McDanish are arranged
+    in fine order on the McShelves, and seem to be of the finest McQuality. You
+    remember seeing a place like this somewhere before. Maybe its a McChain?
+    A small McSign is on the McCounter.
+  exits:
+    - roomId: "solace:r10221"
+      direction: west
+  npcs:
+    - id: "solace:m10209"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10249
+  title: "a House."
+  description: >-
+    This is a small house off of the main street. It is well furnished and
+    very tidy. a small fire burns warmly in the fireplace. The sweet smell of 
+    flowers is present. Ahhh....what a nice home.
+  exits:
+    - roomId: "solace:r10222"
+      direction: west
+  npcs:
+    - id: "solace:m10206"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "solace:m10207"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10238"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r10250
+  title: "Cookie's Relaxing Room."
+  description: >-
+    This is where Cookie comes to unwind. She comes here sometimes to just
+    munch on cookies and talk to her friends.
+  exits:
+    - roomId: "solace:r10245"
+      direction: east
+- id: r10251
+  title: "a House."
+  description: >-
+    This is a small house off of West Gullen Way. It is not your house and you
+    were not invited. Why are you here?
+  exits:
+    - roomId: "solace:r10206"
+      direction: north
+  npcs:
+    - id: "solace:m10206"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10207"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10238"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10241"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10252
+  title: "The Marilyn's Bird Factory."
+  description: >-
+    This is Marilyn's Bird Factory. There are a wide variety of birds here.
+    Buy a pet. Take it home. A loving companion to keep you company.
+  exits:
+    - roomId: "solace:r10207"
+      direction: north
+  npcs:
+    - id: "solace:m10211"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10253
+  title: "Pet Storage"
+  description: >-
+    This is where Marilyn keeps her birds. It is important that this room be
+    right after the bird factory.
+  npcs:
+    - id: "solace:m10253"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10252"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10251"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10250"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10254
+  title: "Storage Building"
+  description: >-
+    This is an abandon storage building. Its empty walls used to house large
+    amounts of surplus equipment for the market and various vendors. Sales
+    have been good lately and all surplus has been sold. It seems supply has
+    yet to catch up to demand.
+  exits:
+    - roomId: "solace:r10211"
+      direction: east
+  npcs:
+    - id: "solace:m10216"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10239"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "solace:m10240"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r10255
+  title: "Jander's"
+  description: >-
+    Jander's bar used to be a very popular bar in Solace. For some reason or
+    another it is now empty. Dust and cobwebs cover everything. It looks as if
+    nobody has tread here in years. The bar is hidden beneath broken bottles
+    and shattered glasses. Tables and chairs are scattered all over the floor.
+    There is a sign on the wall.
+    There is a door to Ketra Road to the east.
+  exits:
+    - roomId: "solace:r10212"
+      direction: east
+    - roomId: "solace:r10256"
+      direction: west
+  npcs:
+    - id: "solace:m10213"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10214"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10216"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r10256
+  title: "Jander's Poolhall"
+  description: >-
+    Jander's bar used to be a very popular bar in Solace. For some reason or
+    another it is now empty. Dust and cobwebs cover everything. It looks as if
+    nobody has tread here in years. The bar is to the east. The pooltables are
+    broken in half and lie in a heap on the floor. 
+    There is a sign on the door to Jander's office.
+    A backdoor to the alley is to the south.
+  exits:
+    - roomId: "solace:r10259"
+      direction: north
+    - roomId: "solace:r10215"
+      direction: south
+    - roomId: "solace:r10255"
+      direction: east
+    - roomId: "solace:r10257"
+      direction: west
+  npcs:
+    - id: "solace:m10213"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10216"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r10257
+  title: "Jander's Restaurant"
+  description: >-
+    Jander's bar and restaurant used to be a very popular bar in Solace.
+    For some reason or another it is now empty. Dust and cobwebs cover
+    everything. It looks as if nobody has tread here in years.
+    The poolhall and bar are to the east.
+    A door to the main road is to the west.
+  exits:
+    - roomId: "solace:r10256"
+      direction: east
+    - roomId: "solace:r10202"
+      direction: west
+  npcs:
+    - id: "solace:m10213"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "solace:m10216"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r10258
+  title: "Death's Chambers"
+  description: >-
+    This is the Chamber of Death. If you are lucky, he isn't here right now.
+    The walls are covered with twisted faces of a countless tortured
+    souls crying out in agony. The floor is made of black marble as is the 
+    ceiling. The air smells of brimstone and makes your lungs burn with
+    every breath. 
+    There is a sign floating in front of you.
+- id: r10259
+  title: "Jander's Office"
+  description: >-
+    This is Jander's Office and obviously you didn't read the sign before
+    coming in.The office is dusty and abandon like the rest of the bar, but is
+    otherwise in the same condition as when it was occupied. An oak desk
+    sits in the middle of the room. A bookcase rests against the wall. Various
+    chairs are set in front of the desk. An employee that was called into Jander's
+    office was not likely to leave. Jander was rarely if ever seen. He mostly
+    stayed in his office and did office stuff. He was never in a good mood.
+    The office door is to the south.
+  exits:
+    - roomId: "solace:r10256"
+      direction: south
+  npcs:
+    - id: "solace:m10212"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10260
+  title: "Inside Southeast Watchtower."
+  description: >-
+    You are inside the Southeast Watchtower.
+    >From up here you can see above the trees and most of the valley.
+    There is a beautiful view of Crystalmir lake.
+    Well actually the Southwest watchtower is blocking some of your view.
+    You are however not suppose to be up here. If the guards catch you up
+    here you are likely to be in BIG trouble...
+  exits:
+    - roomId: "solace:r10213"
+      direction: down
+  npcs:
+    - id: "solace:m10205"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10205"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10261
+  title: "Inside Southwest Watchtower."
+  description: >-
+    You are inside the Southwest Watchtower.
+    >From up here you can see above the trees and most of the valley.
+    There is a beautiful view of Crystalmir lake.
+    You are however not suppose to be up here. If the guards catch you up
+    here you are likely to be in BIG trouble...
+  exits:
+    - roomId: "solace:r10220"
+      direction: down
+  npcs:
+    - id: "solace:m10205"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10205"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10262
+  title: "Dusty road."
+  description: >-
+    This dusty road looks well traveled. To the East you see the Townguard
+    Administration Building.
+  exits:
+    - roomId: "solace:r10263"
+      direction: east
+    - roomId: "solace:r10229"
+      direction: west
+  npcs:
+    - id: "solace:m10206"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r10263
+  title: "Townguard Administration Building."
+  description: >-
+    Before you stands the Townguard Administration Building. This is a large
+    building with various statues and other artwork decorating the building.
+    There is a door the east.
+  exits:
+    - roomId: "solace:r10264"
+      direction: east
+    - roomId: "solace:r10262"
+      direction: west
+- id: r10264
+  title: "Entrance Hall."
+  description: >-
+    The entrance hall is made entirely of marble and granite. It seems sort of
+    extravagant for a townguard administration building. The 30 foot high
+    ceiling seems to dwarf everything in the hallway. The Seal of the Town
+    of Solace lies embedded in the center of the floor.
+    A pair of heavy double doors lies to the east.
+    The entrance door is to the west.
+  exits:
+    - roomId: "solace:r10265"
+      direction: south
+    - roomId: "solace:r10270"
+      direction: east
+    - roomId: "solace:r10263"
+      direction: west
+  npcs:
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10265
+  title: "Marble Corridor."
+  description: >-
+    This corridor is also decorated with paintings and sculptures. Marble
+    columns line the walls. Crystal chandeliers hang from the ceiling.
+    A door to the Town Clerk's office is to the west.
+  exits:
+    - roomId: "solace:r10264"
+      direction: north
+    - roomId: "solace:r10268"
+      direction: east
+    - roomId: "solace:r10266"
+      direction: west
+- id: r10266
+  title: "Town Clerk."
+  description: >-
+    This is where you pay your fines and taxes.
+    The Town Clerk's desk sits in front of you. There are chairs and a
+    few tables along the walls. There is a metal door on the west wall
+    behind the clerk's desk.
+    The hallway is to the east.
+    A heavy metal depository door is to the west.
+  exits:
+    - roomId: "solace:r10265"
+      direction: east
+    - roomId: "solace:r10267"
+      direction: west
+  npcs:
+    - id: "solace:m10217"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10267
+  title: "Deposits Room."
+  description: >-
+    This is a large safe like room. All payments for taxes and fines are deposited
+    here by the clerk. The walls are made of white marble and have gold deposit
+    boxes set into them.
+    The safe door is to the east.
+  exits:
+    - roomId: "solace:r10266"
+      direction: east
+  npcs:
+    - id: "solace:m10218"
+      respawnChance: 100
+      maxLoad: "4"
+  items:
+    - id: "solace:o10302"
+      respawnChance: 75
+    - id: "solace:o10302"
+      respawnChance: 75
+    - id: "solace:o10302"
+      respawnChance: 75
+    - id: "solace:o10302"
+      respawnChance: 75
+- id: r10268
+  title: "Marble Corridor."
+  description: >-
+    This corridor is also decorated with paintings and sculptures. Marble
+    columns line the walls. Crystal chandeliers hang from the ceiling.
+    A pair of heavy double doors lie to the north.
+  exits:
+    - roomId: "solace:r10270"
+      direction: north
+    - roomId: "solace:r10269"
+      direction: east
+    - roomId: "solace:r10265"
+      direction: west
+  npcs:
+    - id: "solace:m10241"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10269
+  title: "Water Fountain."
+  description: >-
+    There is a very large water fountain here. Large marble lion heads spout
+    water from their mouths and stone fish spit water from the base of the
+    fountain.
+  exits:
+    - roomId: "solace:r10268"
+      direction: west
+  npcs:
+    - id: "solace:m10232"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "solace:o10304"
+      respawnChance: 75
+- id: r10270
+  title: "Hallway Intersection."
+  description: >-
+    This is the intersection of four large hallways. Light streams in from the 
+    stainglass skylight above. Large double doors close off each hallway.
+    The doors are made of oak and encrusted with gold patterns.
+    A pair of double doors are in each direction.
+  exits:
+    - roomId: "solace:r10276"
+      direction: north
+    - roomId: "solace:r10268"
+      direction: south
+    - roomId: "solace:r10271"
+      direction: east
+    - roomId: "solace:r10264"
+      direction: west
+- id: r10271
+  title: "End of Long Hall"
+  description: >-
+    This is the end of a long and lavish hallway. exquisite paintings and
+    statues line the walls. The ceilings are covered with colorful mosaics.
+    A pair of double doors lie to the west.
+  exits:
+    - roomId: "solace:r10277"
+      direction: east
+    - roomId: "solace:r10270"
+      direction: west
+- id: r10272
+  title: "Cobblestone Path"
+  description: >-
+    You are walking on a cobblestone path. It leads to a large building to the
+    north.
+  exits:
+    - roomId: "solace:r10282"
+      direction: north
+    - roomId: "solace:r10229"
+      direction: south
+- id: r10273
+  title: "Sergeant's Reception Room"
+  description: >-
+    This room is decorated with various swords and other ornamental artifacts
+    of combat. Pictures of bloody battles adorn the walls. If you have an
+    appointment to see the Sergeant at Arms this is where you'd come to wait.
+    But who knows how long you'll have to wait...
+    The door to the Sergeant's office is to the north.
+    The door to the hallway is on the east wall.
+  exits:
+    - roomId: "solace:r10283"
+      direction: north
+    - roomId: "solace:r10274"
+      direction: east
+  npcs:
+    - id: "solace:m10241"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10249"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10274
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+    The Sergeant's waiting room is to the west.
+  exits:
+    - roomId: "solace:r10284"
+      direction: north
+    - roomId: "solace:r10275"
+      direction: east
+    - roomId: "solace:r10273"
+      direction: west
+- id: r10275
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+    There is an oak door to the north.
+  exits:
+    - roomId: "solace:r10285"
+      direction: north
+    - roomId: "solace:r10276"
+      direction: east
+    - roomId: "solace:r10274"
+      direction: west
+- id: r10276
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+    A pair of double doors are south of you.
+  exits:
+    - roomId: "solace:r10286"
+      direction: north
+    - roomId: "solace:r10270"
+      direction: south
+    - roomId: "solace:r10275"
+      direction: west
+- id: r10277
+  title: "Long Hallway"
+  description: >-
+    This hallway is sparse compared to some of the others. It seems to go
+    on and on. The marble floors are barren of any type of decorations.
+    The walls are rough stone bound by large wooden beams. This is maybe
+    the only hallway that doesn't have large amounts of gold and other artifacts.
+  exits:
+    - roomId: "solace:r10287"
+      direction: north
+    - roomId: "solace:r10271"
+      direction: south
+- id: r10278
+  title: "West end of Common Room"
+  description: >-
+    You are standing in the West end of a very large room. It is where
+    adventurers rest their weary feet if they don't have enough gold to
+    pay for a private room. The room continues to the East.
+  exits:
+    - roomId: "solace:r10279"
+      direction: east
+  npcs:
+    - id: "solace:m10233"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10234"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10235"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10236"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r10279
+  title: "East end of Common Room"
+  description: >-
+    You are standing in the East end of a very large room. It is where
+    adventurers rest their weary feet if they don't have enough gold to
+    pay for a private room. The room continues to the west.
+    A door to the hallway is to the north.
+  exits:
+    - roomId: "solace:r10289"
+      direction: north
+    - roomId: "solace:r10278"
+      direction: west
+  npcs:
+    - id: "solace:m10233"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10234"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10235"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10236"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10242"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r10280
+  title: "West end of Bar."
+  description: >-
+    You are standing of the west end of the bar. This is a darker corner where
+    less seems to occur. Maybe a beer and a nap would be nice.
+  exits:
+    - roomId: "solace:r10281"
+      direction: east
+  npcs:
+    - id: "solace:m10233"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10234"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10235"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10236"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10242"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10281
+  title: "Inn of the Last Home."
+  description: >-
+    The Inn of the Last Home never changes. The polished wooden bar curves
+    around several living branches. An old man weaves stories in the corner and
+    delights the crowd gathered about him. The delicate windows of stained
+    glass behind the bar are being polished by Otik Sandath, the barkeeper.
+    The carved door to the Inn is to the east.
+  exits:
+    - roomId: "solace:r10291"
+      direction: north
+    - roomId: "solace:r10282"
+      direction: east
+    - roomId: "solace:r10280"
+      direction: west
+    - roomId: "solace:r10290"
+      direction: up
+  npcs:
+    - id: "solace:m10233"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10234"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10235"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10236"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10206"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10227"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10228"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10282
+  title: "Outside the Inn of the Last Home."
+  description: >-
+    The Inn of the Last Home rests within the trunk of a huge vallenwood tree.
+    Warm laughter tumbles from the inn. The worn steps wind around the heavy
+    trunk up to the familiar, carved door.
+  exits:
+    - roomId: "solace:r10292"
+      direction: north
+    - roomId: "solace:r10272"
+      direction: south
+    - roomId: "solace:r10281"
+      direction: west
+  npcs:
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10283
+  title: "Sergeant's Office"
+  description: >-
+    This is the office of the Sergeant at Arms. He is in charge of all minor
+    complaints. His office is richly decorated with ornamental weapons and
+    pictures of war. A large desk sits in the middle of the room.
+    You see an Iron bound door to the south.
+  exits:
+    - roomId: "solace:r10273"
+      direction: south
+  npcs:
+    - id: "solace:m10203"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10284
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+  exits:
+    - roomId: "solace:r10294"
+      direction: north
+    - roomId: "solace:r10274"
+      direction: south
+- id: r10285
+  title: "Guards Room."
+  description: >-
+    There are many barrels and chests of food in here. All of it looks spoiled.
+    This is where the town guards hang out when not on duty.
+    You see an oak door to the south.
+  exits:
+    - roomId: "solace:r10275"
+      direction: south
+  npcs:
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10204"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10204"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10204"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10204"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10286
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+  exits:
+    - roomId: "solace:r10296"
+      direction: north
+    - roomId: "solace:r10276"
+      direction: south
+- id: r10287
+  title: "Long Hallway"
+  description: >-
+    This hallway is sparse compared to some of the others. It seems to go
+    on and on. The marble floors are barren of any type of decorations.
+    The walls are rough stone bound by large wooden beams. This is maybe
+    the only hallway that doesn't have large amounts of gold and other artifacts.
+  exits:
+    - roomId: "solace:r10297"
+      direction: north
+    - roomId: "solace:r10277"
+      direction: south
+  npcs:
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10288
+  title: "Hallway"
+  description: >-
+    You are standing in an old vallenwood hallway.
+  exits:
+    - roomId: "solace:r10298"
+      direction: north
+    - roomId: "solace:r10289"
+      direction: east
+- id: r10289
+  title: "Outside Common Room"
+  description: >-
+    You are standing in an old vallenwood hallway. Laughter and the murmur
+    of conversation comes from the south.
+    The door to the common room lies to the south.
+  exits:
+    - roomId: "solace:r10279"
+      direction: south
+    - roomId: "solace:r10290"
+      direction: east
+    - roomId: "solace:r10288"
+      direction: west
+- id: r10290
+  title: "Second Floor of the Inn."
+  description: >-
+    You are at the top of a wooden staircase. Downstairs is the bar.
+    To the west you can hear laughter and the low murmur of voices.
+  exits:
+    - roomId: "solace:r10289"
+      direction: west
+    - roomId: "solace:r10281"
+      direction: down
+- id: r10291
+  title: "North End of Bar."
+  description: >-
+    A smoky fire struggles in the blackened stove, feebly challenging
+    the gloom in the town. In sharp contrast to the usual lively crowd,
+    the few patrons present are lost in their own thoughts. No one
+    smiles, nor does anyone seem interested in the arrival of a few
+    more customers.
+  exits:
+    - roomId: "solace:r10281"
+      direction: south
+  npcs:
+    - id: "solace:m10233"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10234"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10235"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10236"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "solace:m10229"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10230"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10231"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10292
+  title: "Captain's Office."
+  description: >-
+    This is the office of the Captain of the Guard. Leather couches
+    and a solid marble desk sit against the far wall. A weapons
+    cabinet stands against the west wall. The Captain has a large
+    portrait of himself on the wall behind his desk.
+    A pair of heavy metal doors with the emblem of the townguard
+    is on the north wall.
+  exits:
+    - roomId: "solace:r10302"
+      direction: north
+    - roomId: "solace:r10282"
+      direction: south
+  npcs:
+    - id: "solace:m10201"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "solace:o10214"
+      respawnChance: 75
+- id: r10293
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+  exits:
+    - roomId: "solace:r10303"
+      direction: north
+    - roomId: "solace:r10294"
+      direction: east
+- id: r10294
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+  exits:
+    - roomId: "solace:r10284"
+      direction: south
+    - roomId: "solace:r10295"
+      direction: east
+    - roomId: "solace:r10293"
+      direction: west
+- id: r10295
+  title: "Lieutenant's Reception Area."
+  description: >-
+    This is the waiting room for meetings with the Lieutenant Commander.
+    The furniture is made of vallenwood and the walls are covered with
+    finger paintings. Various crayon drawings are framed behind the
+    secretary 's desk.
+    A glass door with the townguard emblem is to the north.
+  exits:
+    - roomId: "solace:r10305"
+      direction: north
+    - roomId: "solace:r10294"
+      direction: west
+  npcs:
+    - id: "solace:m10248"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10296
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+  exits:
+    - roomId: "solace:r10306"
+      direction: north
+    - roomId: "solace:r10286"
+      direction: south
+  npcs:
+    - id: "solace:m10241"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10297
+  title: "Long Hallway"
+  description: >-
+    This hallway is sparse compared to some of the others. It seems to go
+    on and on. The marble floors are barren of any type of decorations.
+    The walls are rough stone bound by large wooden beams. This is maybe
+    the only hallway that doesn't have large amounts of gold and other artifacts.
+  exits:
+    - roomId: "solace:r10307"
+      direction: north
+    - roomId: "solace:r10287"
+      direction: south
+- id: r10298
+  title: "Hallway"
+  description: >-
+    You are standing in an old vallenwood hallway.
+  exits:
+    - roomId: "solace:r10308"
+      direction: north
+    - roomId: "solace:r10288"
+      direction: south
+- id: r10299
+  title: "Private Room"
+  description: >-
+    This is a private room. Those with some money can rent these rooms instead
+    of staying in the common room. It is well furnished with a large bed and
+    other bedroom stuff.
+    There is a door to the north.
+  exits:
+    - roomId: "solace:r10309"
+      direction: north
+  npcs:
+    - id: "solace:m10242"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10300
+  title: "Private Room"
+  description: >-
+    This is a private room. Those with some money can rent these rooms instead
+    of staying in the common room. It is well furnished with a large bed and
+    other bedroom stuff.
+    There is a door to the north.
+  exits:
+    - roomId: "solace:r10310"
+      direction: north
+  npcs:
+    - id: "solace:m10243"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10301
+  title: "Private Room"
+  description: >-
+    This is a private room. Those with some money can rent these rooms instead
+    of staying in the common room. It is well furnished with a large bed and
+    other bedroom stuff.
+    There is a door to the north.
+  exits:
+    - roomId: "solace:r10311"
+      direction: north
+  npcs:
+    - id: "solace:m10244"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10302
+  title: "Captain's Meeting room."
+  description: >-
+    You are standing in the meeting room of the Captain of the Guard. This
+    is where he holds his administrative meetings and other official functions.
+    A large meeting tables sits in the middle of the room.
+    There is a pair of glass double doors to the north.
+    There is a pair of heavy metal doors with the emblem of the 
+    townguard to the south.
+  exits:
+    - roomId: "solace:r10312"
+      direction: north
+    - roomId: "solace:r10292"
+      direction: south
+  npcs:
+    - id: "solace:m10245"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10246"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r10303
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+  exits:
+    - roomId: "solace:r10313"
+      direction: north
+    - roomId: "solace:r10293"
+      direction: south
+- id: r10304
+  title: "Guards Room."
+  description: >-
+    There are many barrels and chests of food in here. All of it looks spoiled.
+    This is where the town guards hang out when not on duty.
+    There is an oak door to the north.
+  exits:
+    - roomId: "solace:r10314"
+      direction: north
+  npcs:
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10204"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10204"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10204"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10204"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10305
+  title: "Lieutenant's Office."
+  description: >-
+    This is the Office of the Lieutenant Commander. He basicially does
+    nothing all day. Hence the fingerpainting tacked to all the walls.
+    The furniture is more fitting to a 7 year old than that of a commander.
+    Small plastic furniture and plastic flowers adorn the office.
+    You see a glass door with the townguard emblem to the south.
+  exits:
+    - roomId: "solace:r10295"
+      direction: south
+  npcs:
+    - id: "solace:m10202"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10306
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+  exits:
+    - roomId: "solace:r10316"
+      direction: north
+    - roomId: "solace:r10296"
+      direction: south
+- id: r10307
+  title: "Long Hallway"
+  description: >-
+    This hallway is sparse compared to some of the others. It seems to go
+    on and on. The marble floors are barren of any type of decorations.
+    The walls are rough stone bound by large wooden beams. This is maybe
+    the only hallway that doesn't have large amounts of gold and other artifacts.
+  exits:
+    - roomId: "solace:r10317"
+      direction: north
+    - roomId: "solace:r10297"
+      direction: south
+- id: r10308
+  title: "Reading Room."
+  description: >-
+    This is an afternoon reading room. Its especially nice on sunny days when
+    the afternoon sun shines through the large picture window. Many books
+    line the walls. All look pretty boring and seem to be more for show than
+    for reading.
+  exits:
+    - roomId: "solace:r10298"
+      direction: south
+    - roomId: "solace:r10309"
+      direction: east
+  npcs:
+    - id: "solace:m10206"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10309
+  title: "Hallway"
+  description: >-
+    You are standing in an old vallenwood hallway.
+    This corridor is lined with the more expensive private rooms.
+    There is a door to the south.
+  exits:
+    - roomId: "solace:r10299"
+      direction: south
+    - roomId: "solace:r10310"
+      direction: east
+    - roomId: "solace:r10308"
+      direction: west
+- id: r10310
+  title: "Hallway"
+  description: >-
+    You are standing in an old vallenwood hallway.
+    This corridor is lined with the more expensive private rooms.
+    There is a door to the south.
+  exits:
+    - roomId: "solace:r10300"
+      direction: south
+    - roomId: "solace:r10311"
+      direction: east
+    - roomId: "solace:r10309"
+      direction: west
+- id: r10311
+  title: "Hallway"
+  description: >-
+    You are standing in an old vallenwood hallway.
+    This corridor is lined with the more expensive private rooms.
+    There is a door to the south.
+  exits:
+    - roomId: "solace:r10301"
+      direction: south
+    - roomId: "solace:r10310"
+      direction: west
+- id: r10312
+  title: "Captain's Waiting Room."
+  description: >-
+    This is the Reception area for the the Captain of the Guard. A large portrait
+    of the Captain is on the north wall. With the amount of extravagance and 
+    expensive items that decorate this room you wonder how he gets away with
+    it. The title Sultan would be more appropriate than Captain of the Guard.
+    You see an oak door to the east.
+    There are a pair of glass double doors to the south.
+  exits:
+    - roomId: "solace:r10302"
+      direction: south
+    - roomId: "solace:r10313"
+      direction: east
+  npcs:
+    - id: "solace:m10247"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10313
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+    The Captain of the Guard's waiting room is to the west.
+  exits:
+    - roomId: "solace:r10303"
+      direction: south
+    - roomId: "solace:r10314"
+      direction: east
+    - roomId: "solace:r10312"
+      direction: west
+- id: r10314
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+    There is an oak door to the south.
+  exits:
+    - roomId: "solace:r10304"
+      direction: south
+    - roomId: "solace:r10315"
+      direction: east
+    - roomId: "solace:r10313"
+      direction: west
+- id: r10315
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+  exits:
+    - roomId: "solace:r10316"
+      direction: east
+    - roomId: "solace:r10314"
+      direction: west
+- id: r10316
+  title: "Administration Hallway"
+  description: >-
+    The hallway is just as extravagant as all the others in this building.
+    Gem mosaics cover the walls, and intricate patterns are carved in the
+    gold laden floors. This doesn't look like an admistration building,
+    more like a palace.
+  exits:
+    - roomId: "solace:r10306"
+      direction: south
+    - roomId: "solace:r10317"
+      direction: east
+    - roomId: "solace:r10315"
+      direction: west
+- id: r10317
+  title: "End of Long Hall"
+  description: >-
+    This is the end of a long and lavish hallway. exquisite paintings and
+    statues line the walls. The ceilings are covered with colorful mosaics.
+  exits:
+    - roomId: "solace:r10307"
+      direction: south
+    - roomId: "solace:r10316"
+      direction: west
+- id: r10201
+  title: "Gateway to Solace"
+  description: >-
+    This is the gateway to the town of Solace. It keeps the monsters out and
+    the people in. This is a quiet farming town on the shores of Crytalmir
+    Lake.
+    There is a sign nailed to a nearby tree.
+    There is a plaque embedded in the road.
+    There is a Gate to the south.
+  exits:
+    - roomId: "solace:r10202"
+      direction: north
+    - roomId: "crystalm:r10003"
+      direction: south
+    - roomId: "solace:r10216"
+      direction: east
+    - roomId: "solace:r10217"
+      direction: west
+  npcs:
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10216"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r10202
+  title: "Main Road "
+  description: >-
+    This is the main road in Solace. Down the street you can see various
+    shops and houses.
+  exits:
+    - roomId: "solace:r10203"
+      direction: north
+    - roomId: "solace:r10201"
+      direction: south
+    - roomId: "solace:r10257"
+      direction: east
+    - roomId: "solace:r10246"
+      direction: west
+- id: r10203
+  title: "Main Road"
+  description: >-
+    This is the main road in Solace. Down the street you can see various
+    shops and houses.
+  exits:
+    - roomId: "solace:r10204"
+      direction: north
+    - roomId: "solace:r10202"
+      direction: south
+    - roomId: "solace:r10245"
+      direction: west
+  npcs:
+    - id: "solace:m10241"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10204
+  title: "Main Road"
+  description: >-
+    This is the main road in Solace. Down the street you can see various
+    shops and houses.
+  exits:
+    - roomId: "solace:r10205"
+      direction: north
+    - roomId: "solace:r10203"
+      direction: south
+- id: r10205
+  title: "Intersection at Main Road."
+  description: >-
+    Here there is an intersection at the main road.
+    You see to the east and west, smaller houses and some more shops.
+    To the road continues to the north.
+  exits:
+    - roomId: "solace:r10228"
+      direction: north
+    - roomId: "solace:r10204"
+      direction: south
+    - roomId: "solace:r10206"
+      direction: east
+    - roomId: "solace:r10227"
+      direction: west
+  npcs:
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10216"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r10206
+  title: "East Gullen Way"
+  description: >-
+    This is the road called East Gullen Way. It is lined with small houses and
+    shops.
+  exits:
+    - roomId: "solace:r10251"
+      direction: south
+    - roomId: "solace:r10207"
+      direction: east
+    - roomId: "solace:r10205"
+      direction: west
+- id: r10207
+  title: "East Gullen Way"
+  description: >-
+    This is the road called East Gullen Way. It is lined with small houses and
+    shops.
+  exits:
+    - roomId: "solace:r10252"
+      direction: south
+    - roomId: "solace:r10208"
+      direction: east
+    - roomId: "solace:r10206"
+      direction: west
+- id: r10208
+  title: "East Gullen Way"
+  description: >-
+    This is the road called East Gullen Way. It is lined with small houses and
+    shops.
+  exits:
+    - roomId: "solace:r10209"
+      direction: east
+    - roomId: "solace:r10207"
+      direction: west
+- id: r10209
+  title: "Corner of East Gullen and Ketra Road."
+  description: >-
+    This is the Corner of East Gullen Way and Ketra Road.
+    Everything is amazingly clean here.
+    But this doesn't look like the wealthier part of town.
+    This whole town seems to be one big trading post.
+  exits:
+    - roomId: "solace:r10210"
+      direction: south
+    - roomId: "solace:r10208"
+      direction: west
+  npcs:
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10210
+  title: "Ketra Road."
+  description: >-
+    It is one of the sidestreets of Solace. But even here there are shops.
+    Most of it is run down houses and shacks.
+    Even though this looks like the poorer part of town, it is amazingly clean.
+  exits:
+    - roomId: "solace:r10209"
+      direction: north
+    - roomId: "solace:r10211"
+      direction: south
+  npcs:
+    - id: "solace:m10216"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10211
+  title: "Ketra Road."
+  description: >-
+    It is one of the sidestreets of Solace. But even here there are shops.
+    Most of it is run down houses and shacks.
+    Even though this looks like the poorer part of town, it is amazingly clean.
+  exits:
+    - roomId: "solace:r10210"
+      direction: north
+    - roomId: "solace:r10212"
+      direction: south
+    - roomId: "solace:r10254"
+      direction: west
+  npcs:
+    - id: "solace:m10206"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r10212
+  title: "Ketra Road."
+  description: >-
+    It is one of the sidestreets of Solace. But even here there are shops.
+    Most of it is run down houses and shacks.
+    Even though this looks like the poorer part of town, it is amazingly clean.
+  exits:
+    - roomId: "solace:r10211"
+      direction: north
+    - roomId: "solace:r10213"
+      direction: south
+    - roomId: "solace:r10255"
+      direction: west
+- id: r10213
+  title: "Southeast Guardpost and Watchtower."
+  description: >-
+    This is the Southeast guardpost and guardpost of Solace.
+    It is used as a watch station and coffee break area for the town guards.
+    There are some stairs in the corner leading up to the watchtower.
+    There is a sign above the stairway.
+  exits:
+    - roomId: "solace:r10212"
+      direction: north
+    - roomId: "solace:r10214"
+      direction: west
+    - roomId: "solace:r10260"
+      direction: up
+  npcs:
+    - id: "solace:m10204"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10204"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10214
+  title: "Small Alleyway."
+  description: >-
+    You are walking down a small alleyway along the north wall of the town.
+  exits:
+    - roomId: "solace:r10213"
+      direction: east
+    - roomId: "solace:r10215"
+      direction: west
+- id: r10215
+  title: "Small Alleyway."
+  description: >-
+    You are walking down a small alleyway along the north wall of the town.
+  exits:
+    - roomId: "solace:r10256"
+      direction: north
+    - roomId: "solace:r10214"
+      direction: east
+    - roomId: "solace:r10216"
+      direction: west
+- id: r10216
+  title: "Small Alleyway."
+  description: >-
+    You are walking down a small alleyway along the north wall of the town.
+  exits:
+    - roomId: "solace:r10215"
+      direction: east
+    - roomId: "solace:r10201"
+      direction: west
+- id: r10217
+  title: "Small Alleyway."
+  description: >-
+    You are walking down a small alleyway along the north wall of the town.
+  exits:
+    - roomId: "solace:r10201"
+      direction: east
+    - roomId: "solace:r10218"
+      direction: west
+- id: r10218
+  title: "Small Alleyway."
+  description: >-
+    You are walking down a small alleyway along the north wall of the town.
+  exits:
+    - roomId: "solace:r10247"
+      direction: north
+    - roomId: "solace:r10217"
+      direction: east
+    - roomId: "solace:r10219"
+      direction: west
+  npcs:
+    - id: "solace:m10216"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r10219
+  title: "Small Alleyway."
+  description: >-
+    You are walking down a small alleyway along the north wall of the town.
+  exits:
+    - roomId: "solace:r10218"
+      direction: east
+    - roomId: "solace:r10220"
+      direction: west
+- id: r10220
+  title: "Southwest Guardpost and Watchtower."
+  description: >-
+    This is the Southwest guardpost and guardpost of Solace.
+    It is used as a watch station and coffee break area for the town guards.
+    There are some stairs in the corner leading up to the watchtower.
+    There is a sign above the stairway.
+  exits:
+    - roomId: "solace:r10221"
+      direction: north
+    - roomId: "solace:r10219"
+      direction: east
+    - roomId: "solace:r10261"
+      direction: up
+  npcs:
+    - id: "solace:m10204"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10204"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10221
+  title: "Harvest Road."
+  description: >-
+    You are walking down Harvest Road.
+    It is quiet and peacefull here. The smell of baked goods and other foods
+    fill the air.
+  exits:
+    - roomId: "solace:r10222"
+      direction: north
+    - roomId: "solace:r10220"
+      direction: south
+    - roomId: "solace:r10248"
+      direction: east
+- id: r10222
+  title: "Harvest Road."
+  description: >-
+    You are walking down Harvest Road.
+    It is quiet and peacefull here. The smell of baked goods and other foods
+    fill the air.
+  exits:
+    - roomId: "solace:r10223"
+      direction: north
+    - roomId: "solace:r10221"
+      direction: south
+    - roomId: "solace:r10249"
+      direction: east
+  npcs:
+    - id: "solace:m10216"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10241"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10223
+  title: "Harvest Road."
+  description: >-
+    You are walking down Harvest Road.
+    It is quiet and peacefull here. The smell of baked goods and other foods
+    fill the air.
+  exits:
+    - roomId: "solace:r10224"
+      direction: north
+    - roomId: "solace:r10222"
+      direction: south
+- id: r10224
+  title: "Corner of West Gullen Way and Harvest Road."
+  description: >-
+    This is the corner of West Gullen and Harvest road.
+    To the south you can smell baked goods and other food.
+    To the east are various small shops and houses.
+  exits:
+    - roomId: "solace:r10223"
+      direction: south
+    - roomId: "solace:r10225"
+      direction: east
+  npcs:
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10225
+  title: "West Gullen Way"
+  description: >-
+    This is the road called West Gullen Way. It is lined with small houses and
+    shops.
+  exits:
+    - roomId: "solace:r10242"
+      direction: south
+    - roomId: "solace:r10226"
+      direction: east
+    - roomId: "solace:r10224"
+      direction: west
+- id: r10226
+  title: "West Gullen Way"
+  description: >-
+    This is the road called West Gullen Way. It is lined with small houses and
+    shops.
+  exits:
+    - roomId: "solace:r10243"
+      direction: south
+    - roomId: "solace:r10227"
+      direction: east
+    - roomId: "solace:r10225"
+      direction: west
+  npcs:
+    - id: "solace:m10242"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10227
+  title: "West Gullen Way"
+  description: >-
+    This is the road called West Gullen Way. It is lined with small houses and
+    shops.
+  exits:
+    - roomId: "solace:r10244"
+      direction: south
+    - roomId: "solace:r10205"
+      direction: east
+    - roomId: "solace:r10226"
+      direction: west
+- id: r10228
+  title: "Main Road"
+  description: >-
+    This is the main road in Solace. Down the street you can see various
+    shops and houses.
+  exits:
+    - roomId: "solace:r10229"
+      direction: north
+    - roomId: "solace:r10205"
+      direction: south
+- id: r10229
+  title: "End of the Main Road"
+  description: >-
+    The main road of Solace stops here. Other smaller roadways lead off
+    in various directions.
+    To the west is the marketplace, where farmers go to sell thier harvests.
+    Farther north you see a large building.
+    To the East is the Townguard Administration Building.
+  exits:
+    - roomId: "solace:r10272"
+      direction: north
+    - roomId: "solace:r10228"
+      direction: south
+    - roomId: "solace:r10262"
+      direction: east
+    - roomId: "solace:r10230"
+      direction: west
+- id: r10230
+  title: "Marketplace."
+  description: >-
+    This is the Marketplace of Solace. Where the farmers come to sell their
+    crops. The smell of vegetables and fruit fill the air. There are a couple
+    other vendors selling trinkets and other items.
+    There is a sign at the entrance to the market.
+  exits:
+    - roomId: "solace:r10241"
+      direction: north
+    - roomId: "solace:r10237"
+      direction: south
+    - roomId: "solace:r10229"
+      direction: east
+    - roomId: "solace:r10231"
+      direction: west
+- id: r10231
+  title: "Marketplace."
+  description: >-
+    This is the Marketplace of Solace. Where the farmers come to sell their
+    crops. The smell of vegetables and fruit fill the air. There are a couple
+    other vendors selling trinkets and other items.
+  exits:
+    - roomId: "solace:r10240"
+      direction: north
+    - roomId: "solace:r10236"
+      direction: south
+    - roomId: "solace:r10230"
+      direction: east
+    - roomId: "solace:r10232"
+      direction: west
+  npcs:
+    - id: "solace:m10206"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "solace:m10241"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10232
+  title: "Marketplace."
+  description: >-
+    This is the Marketplace of Solace. Where the farmers come to sell their
+    crops. The smell of vegetables and fruit fill the air. There are a couple
+    other vendors selling trinkets and other items.
+  exits:
+    - roomId: "solace:r10239"
+      direction: north
+    - roomId: "solace:r10235"
+      direction: south
+    - roomId: "solace:r10231"
+      direction: east
+    - roomId: "solace:r10233"
+      direction: west
+- id: r10233
+  title: "Marketplace."
+  description: >-
+    This is the Marketplace of Solace. Where the farmers come to sell their
+    crops. The smell of vegetables and fruit fill the air. There are a couple
+    other vendors selling trinkets and other items.
+    These are the last stalls in the marketplace. Next to you stands the West wall
+    of the town.
+  exits:
+    - roomId: "solace:r10238"
+      direction: north
+    - roomId: "solace:r10234"
+      direction: south
+    - roomId: "solace:r10232"
+      direction: east
+  npcs:
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "solace:m10215"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10234
+  title: "Jhen's Vegetable Cart."
+  description: >-
+    This is where Jhen the farmer comes to sell his crops. His wooden vegtable
+    cart stands here filled with all sorts of vegetables. All his vegtables are 
+    unusually large. What kind of plant food does he use anyway...?
+    There is a small sign nailed to the cart.
+  exits:
+    - roomId: "solace:r10233"
+      direction: north
+  npcs:
+    - id: "solace:m10219"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10235
+  title: "Krista's Fruit Stand."
+  description: >-
+    This is where Krista peddles her fruits. Every year she travels from her
+    orchards in the mountains to Solace to sell her fruit. Everything seems
+    to have an unusually small size. I wonder if she shrinks heads too...
+    There is a small sign hanging above the fruit stand.
+  exits:
+    - roomId: "solace:r10232"
+      direction: north
+  npcs:
+    - id: "solace:m10220"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10236
+  title: "Janni's Souvenirs."
+  description: >-
+    This is Janni's Souvenir shop. He makes trinkets year round that he peddles
+    here in the market. You wouldn't want to leave Solace without a souvenir
+    would you?
+    there is a sign behind the glass case.
+  exits:
+    - roomId: "solace:r10231"
+      direction: north
+  npcs:
+    - id: "solace:m10221"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10237
+  title: "Nisi's Frozen Food"
+  description: >-
+    This is one of the oddest venders in the marketplace. Nisi claims to have
+    various fresh frozen types of vegetables. They are frozen all right. In 
+    fact they are hard enough to stop an axe swing...go figure..
+    And just how does she keep them from melting... 
+    There is a small sign on the wall in the back of the shop.
+  exits:
+    - roomId: "solace:r10230"
+      direction: north
+  npcs:
+    - id: "solace:m10222"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10238
+  title: "Molin's Mulburry Extracts."
+  description: >-
+    This is the shop of the famous mulburry extract. Known throughout the
+    valley to quech the thirst of even the thirstiest traveller. What else it does
+    is just rumor. That person recovered in a month anyway...
+    There is a small sign on the wall.
+  exits:
+    - roomId: "solace:r10233"
+      direction: south
+  npcs:
+    - id: "solace:m10223"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r10239
+  title: "Rashan's Rutabagas"
+  description: >-
+    This is one shop to stay away from. Rashan's rutabagas have been know
+    to do strange things to people. And true to its reputation the shop is
+    very very empty. I'm sure Rashan would be more than willing to sell
+    you one. Business obviously has been very slow....
+    There is a small sign hanging next to you.
+  exits:
+    - roomId: "solace:r10232"
+      direction: south
+  npcs:
+    - id: "solace:m10224"
+      respawnChance: 100
+      maxLoad: "1"

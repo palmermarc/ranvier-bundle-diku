@@ -1,0 +1,763 @@
+- id: r6314
+  title: "On the spider web"
+  description: >-
+    You are balancing carefully on the giant sticky threads that holds the giant
+    web in place.  To the south leads a strand to a cave-like structure made from
+    many layers of a spider web.  Another silky strand continues to the north.
+  exits:
+    - roomId: "arachnos:r6317"
+      direction: north
+    - roomId: "haon:r6133"
+      direction: south
+- id: r6315
+  title: "On the spider web "
+  description: >-
+    You are balancing carefully on the giant sticky threads that holds the giant
+    web in place.  To the north leads a strand to a cave-like structure made from
+    many layers of a spider web.
+  exits:
+    - roomId: "haon:r6134"
+      direction: north
+- id: r6316
+  title: "On the spider web"
+  description: >-
+    You are balancing carefully on the giant sticky threads that holds the giant
+    web in place.  To the east leads a strand to a cave-like structure made from
+    many layers of a spider web.
+  exits:
+    - roomId: "haon:r6134"
+      direction: east
+- id: r6317
+  title: "On the spider web"
+  description: >-
+    You are balancing carefully on the giant sticky threads that holds the giant
+    web in place. A single silky strand lead to the south, while another leads
+    off into the northern direction.
+  exits:
+    - roomId: "arachnos:r6301"
+      direction: north
+    - roomId: "arachnos:r6314"
+      direction: south
+- id: r6301
+  title: "Webbed Entrance"
+  description: >-
+    Sticky, sticky, sticky!  The ground is cluttered with leaves, decayed
+    remains of webbed crickets, beetle, rats, dogs (?), and even humans.
+    You begin to wonder about what lies ahead.  The air is damp here,
+    and even the little light that shines through the canopy seems
+    absorbed into the webbing.
+  exits:
+    - roomId: "arachnos:r6302"
+      direction: north
+    - roomId: "arachnos:r6317"
+      direction: south
+  npcs:
+    - id: "arachnos:m6301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "arachnos:m6301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "arachnos:m6301"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r6302
+  title: "Webby Passage"
+  description: >-
+    You find that footing here is very good, almost too good.  The
+    limbs are coated with cobwebs and seem unusually strong for tree
+    branches.  Paths lead in four directions.  The eastward path goes
+    down a bit.
+  exits:
+    - roomId: "arachnos:r6304"
+      direction: north
+    - roomId: "arachnos:r6301"
+      direction: south
+    - roomId: "arachnos:r6305"
+      direction: east
+    - roomId: "arachnos:r6303"
+      direction: west
+- id: r6303
+  title: "Wasp Hive"
+  description: >-
+    Drones scuttle about in this room.  The cells on the walls
+    are honeycomb in shape and many of the maggots and wasps you see
+    have fang-marks on there bodies.  You sense some order in their markings.
+  exits:
+    - roomId: "arachnos:r6302"
+      direction: east
+  npcs:
+    - id: "arachnos:m6305"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "arachnos:m6305"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "arachnos:m6305"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r6304
+  title: "Webby Passage"
+  description: >-
+    Another webby passage, all sticky and wet.  Tiny ballooning
+    spiders fill the air.  It seems that these young ones are newborns.
+  exits:
+    - roomId: "arachnos:r6302"
+      direction: south
+  npcs:
+    - id: "arachnos:m6301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "arachnos:m6301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "arachnos:m6301"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r6305
+  title: "Beneath the Busy Path"
+  description: >-
+    You hear the sounds of crawling arachnids above.  The rhythms of
+    the footsteps suggest a primitive order in there movement.  The light
+    seems brighter upwards.
+  exits:
+    - roomId: "arachnos:r6302"
+      direction: west
+    - roomId: "arachnos:r6306"
+      direction: up
+- id: r6306
+  title: "On the Busy Path"
+  description: >-
+    Spiders, spiders, everywhere!  It is almost ant-like in efficiency
+    with one big difference.  The spiders here are carrying ant-corpses,
+    as well as rats, wolves, and humans.
+  exits:
+    - roomId: "arachnos:r6307"
+      direction: south
+    - roomId: "arachnos:r6305"
+      direction: down
+  npcs:
+    - id: "arachnos:m6301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "arachnos:m6301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "arachnos:m6301"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "arachnos:m6301"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r6307
+  title: "On the Busy Path"
+  description: >-
+    Spiders, spiders, everywhere!  It is almost ant-like in efficiency
+    with one big difference.  The spiders here are carrying ant-corpses,
+    as well as cats, wolves, and humans.
+  exits:
+    - roomId: "arachnos:r6306"
+      direction: north
+    - roomId: "arachnos:r6308"
+      direction: east
+- id: r6308
+  title: "On the Busy Path"
+  description: >-
+    Spiders, spiders, everywhere!  It is almost ant-like in efficiency
+    with one big difference.  The spiders here are carrying ant-corpses,
+    as well as cats, dogs, and humans.
+  exits:
+    - roomId: "arachnos:r6309"
+      direction: east
+    - roomId: "arachnos:r6307"
+      direction: west
+  npcs:
+    - id: "arachnos:m6308"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "arachnos:m6308"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "arachnos:m6308"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "arachnos:m6308"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "arachnos:m6308"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r6309
+  title: "A Split in the Path"
+  description: >-
+    As always, there is a split in the road.  One road is strewn
+    with cricket feelers.  The other is well-kept and suitable for smooth
+    travelling.  The webbing that was prevalent in earlier rooms is almost
+    non-existent now.
+  exits:
+    - roomId: "arachnos:r6310"
+      direction: north
+    - roomId: "arachnos:r6320"
+      direction: south
+    - roomId: "arachnos:r6308"
+      direction: west
+- id: r6310
+  title: "Fuzzy Tree Limb"
+  description: >-
+    You are on a "fuzzy" tree limb.  Interesting, since the branches
+    seem to have "hairs" sprouting from its bark.  As you look
+    closer you see millions of aphids covering each limb.
+  exits:
+    - roomId: "arachnos:r6309"
+      direction: south
+    - roomId: "arachnos:r6311"
+      direction: west
+- id: r6311
+  title: "Tree Trunk"
+  description: >-
+    You feel that you can rest here safely.  There is evidence of
+    webbing here, but it is of a finer quality.
+  exits:
+    - roomId: "arachnos:r6312"
+      direction: south
+    - roomId: "arachnos:r6310"
+      direction: east
+- id: r6312
+  title: "Tree Lair Entrance"
+  description: >-
+    It seems the inhabitant of this place does not web her
+    victims, as evidenced by the remains before you.  The area
+    is cluttered with desiccated corpses, apparently bitten
+    but unwebbed, and drained of their life juices.
+  exits:
+    - roomId: "arachnos:r6311"
+      direction: north
+    - roomId: "arachnos:r6313"
+      direction: west
+- id: r6313
+  title: "Wolf Spider Lair"
+  description: >-
+    Very dark, as all lairs of spiders are.  Not much of furnishings
+    save an exit.  The wolf spider keeps no corpses here, but rather
+    throws them out at her leisure.
+  exits:
+    - roomId: "arachnos:r6312"
+      direction: east
+  npcs:
+    - id: "arachnos:m6303"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "arachnos:m6303"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r6320
+  title: "The Webless Path"
+  description: >-
+    Strange.  No webbing here.  In fact, no sounds whatsoever.
+    The path continues northward, where you find that you may have to
+    tightrope your way across a ravine.
+  exits:
+    - roomId: "arachnos:r6309"
+      direction: north
+    - roomId: "arachnos:r6321"
+      direction: west
+- id: r6321
+  title: "Above the Ravine"
+  description: >-
+    Stranger still.  Your feet get a real firm grip on the spiderline.
+    You are above a deep ravine.  This line connects you between two trees.
+    Below you can see a prismatic web with lots of animal bones caught in it:
+    some bear and small deer bones in fact.  No human skeletons are visible
+    (yet).
+  exits:
+    - roomId: "arachnos:r6323"
+      direction: south
+    - roomId: "arachnos:r6320"
+      direction: east
+    - roomId: "arachnos:r6322"
+      direction: down
+  npcs:
+    - id: "arachnos:m6306"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "arachnos:m6306"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r6322
+  title: "The Rainbow Web"
+  description: >-
+    This is the rainbow web--each strand, each link, a hue of violently
+    sharp colors and contrasts.  The resident here seems to have a command
+    of light as well.
+  exits:
+    - roomId: "arachnos:r6321"
+      direction: up
+- id: r6323
+  title: "The Web Forest"
+  description: >-
+    The trees here take on a different appearance--they are not trees
+    anymore, but disjointed make-shift silken made shafts, sticky to the touch,
+    and webby in texture.  This is another world it would appear.
+  exits:
+    - roomId: "arachnos:r6321"
+      direction: north
+    - roomId: "arachnos:r6324"
+      direction: down
+- id: r6324
+  title: "The Slave Pit"
+  description: >-
+    You have entered the slave pit.  A voice blares in the distance,
+    "Get back to work, maggots!"  Rails upon rails of mined gold and silver
+    clutter the trail beneath you.
+  exits:
+    - roomId: "arachnos:r6325"
+      direction: north
+    - roomId: "arachnos:r6323"
+      direction: up
+- id: r6325
+  title: "The Tether Path"
+  description: >-
+    Another tether path just like the rest of them.  Surprisingly well
+    -lit by the golden orbs that hang from the sides, you can see the paths
+    become finer and finer in quality.
+  exits:
+    - roomId: "arachnos:r6326"
+      direction: east
+    - roomId: "arachnos:r6324"
+      direction: west
+- id: r6326
+  title: "A Road Crossing"
+  description: >-
+    Another shifty little strand of webs, almost ethereal in nature.
+  exits:
+    - roomId: "arachnos:r6325"
+      direction: west
+    - roomId: "arachnos:r6327"
+      direction: up
+- id: r6327
+  title: "A Leader Strand"
+  description: >-
+    This strand is weightier, more sturdy.  It shimmers as you step on
+    it.  You are definitely not in the Midgaardian realms anymore.  Just
+    where you are you can't tell.  It feels like you're moving through
+    ether.  You can still get back down to more surer lands.
+  exits:
+    - roomId: "arachnos:r6328"
+      direction: north
+    - roomId: "arachnos:r6326"
+      direction: down
+  npcs:
+    - id: "arachnos:m6309"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r6328
+  title: "The Entrance of the Ethereal Web"
+  description: >-
+    You are at the entrance to ethereal web.  Flickering in and out,
+    in and out, each strand reveals a different hue from black to green
+    to blue.
+  exits:
+    - roomId: "arachnos:r6327"
+      direction: south
+    - roomId: "arachnos:r6331"
+      direction: down
+- id: r6330
+  title: "The Young Wormkin's Crib"
+  description: >-
+    A playpen of sorts, with maggots of wasps and other baby vermin
+    lying about.  You feel that humans have been played with here too,
+    and eaten later.  You sense that the maker of this place has
+    an appetite for dragon meat, and uses this room as a breeding
+    area.
+  exits:
+    - roomId: "arachnos:r6331"
+      direction: south
+  npcs:
+    - id: "arachnos:m6306"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "arachnos:m6316"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "arachnos:m6316"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "arachnos:m6316"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r6331
+  title: "The Base of the Web"
+  description: >-
+    Large strands connect at this point.  The node shimmers and
+    flickers within the ether.  You see many flying creatures--
+    insects, pegasi, and dragon wormkins--navigate the dangerous
+    passages of the web.  Exits go in many directions.
+  exits:
+    - roomId: "arachnos:r6330"
+      direction: north
+    - roomId: "arachnos:r6333"
+      direction: south
+    - roomId: "arachnos:r6332"
+      direction: east
+  npcs:
+    - id: "arachnos:m6306"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "arachnos:m6306"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r6332
+  title: "Through the Trees"
+  description: >-
+    This part of the web intersects through the branches of some
+    trees.  Various leaves and other debris that the many drones
+    have not picked up yet lie here.
+  exits:
+    - roomId: "arachnos:r6331"
+      direction: west
+  npcs:
+    - id: "arachnos:m6304"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "arachnos:m6304"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "arachnos:m6304"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r6333
+  title: "Above the Clouds"
+  description: >-
+    You can see all of Midgaard in this ethereal web.  Many
+    of the larger dragons that do wish to fly seem to fly
+    away from the sticky strands of the web.
+  exits:
+    - roomId: "arachnos:r6331"
+      direction: north
+    - roomId: "arachnos:r6334"
+      direction: south
+    - roomId: "arachnos:r6335"
+      direction: west
+  npcs:
+    - id: "arachnos:m6307"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r6334
+  title: "On A Cloud"
+  description: >-
+    Rather thick in consistency.  You realize this is not
+    a typical cloud, but it might be the nest of an aerial creature.
+  exits:
+    - roomId: "arachnos:r6333"
+      direction: north
+- id: r6335
+  title: "A Link in the Ethereal Web"
+  description: >-
+    This is another link in the ethereal web.  Various creatures
+    seem to get caught (or hypnotized) by its sticky strands.
+  exits:
+    - roomId: "arachnos:r6333"
+      direction: east
+    - roomId: "arachnos:r6336"
+      direction: west
+  npcs:
+    - id: "arachnos:m6307"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r6336
+  title: "The Tenuous Strand"
+  description: >-
+    Very windy here since it goes up into the sky somewhat.
+    Still, it's safe enough to move around.
+  exits:
+    - roomId: "arachnos:r6340"
+      direction: south
+    - roomId: "arachnos:r6335"
+      direction: east
+    - roomId: "arachnos:r6341"
+      direction: west
+- id: r6340
+  title: "The Elder Wormkin's Room"
+  description: >-
+    A more mature wormkin it seems resides here.  Various tomes of
+    arcane lore clutter the area, along with shards of armor and weaponry.
+  exits:
+    - roomId: "arachnos:r6336"
+      direction: north
+  npcs:
+    - id: "arachnos:m6317"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6341
+  title: "Another Tree Limb"
+  description: >-
+    Once again the web crosses another tree limb.  To the side you
+    see the possible entrance to another creatures lair.
+  exits:
+    - roomId: "arachnos:r6342"
+      direction: south
+    - roomId: "arachnos:r6336"
+      direction: east
+    - roomId: "arachnos:r6345"
+      direction: west
+- id: r6342
+  title: "The Bird Spider's Lair"
+  description: >-
+    This is a big game hunter among most spiders.  Crush jewels
+    and other weapons suggest the inhabitant must have powerful jaws.
+    Beware!
+  exits:
+    - roomId: "arachnos:r6341"
+      direction: north
+  npcs:
+    - id: "arachnos:m6310"
+      respawnChance: 100
+      maxLoad: "4"
+    - id: "arachnos:m6310"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r6345
+  title: "A Link in the Ethereal Web"
+  description: >-
+    This is another link in the ethereal web.  Various creatures
+    seem to get caught (or hypnotized) by its sticky strands.
+  exits:
+    - roomId: "arachnos:r6350"
+      direction: south
+    - roomId: "arachnos:r6341"
+      direction: east
+    - roomId: "arachnos:r6346"
+      direction: west
+- id: r6346
+  title: "The Quiet Tree Top"
+  description: >-
+    Here is a quiet tree top.
+  exits:
+    - roomId: "arachnos:r6345"
+      direction: east
+    - roomId: "arachnos:r6347"
+      direction: west
+- id: r6347
+  title: "On The Web"
+  description: >-
+    RRRRRRRRRRROOOOOOOOOOOOOAAAAAAAAAAAAAARR!  You hear the roar
+    of a powerful beast.  Dragon, you think.  You shiver in your boots
+    as you tiptoe on this section of the web.
+  exits:
+    - roomId: "arachnos:r6355"
+      direction: south
+    - roomId: "arachnos:r6346"
+      direction: east
+- id: r6350
+  title: "The Ki-Rin Chamber"
+  description: >-
+    A wise ki-rin was entrapped here many years ago.  It is from her
+    that the ruler of this realm steals his magical strength.
+  exits:
+    - roomId: "arachnos:r6345"
+      direction: north
+  npcs:
+    - id: "arachnos:m6315"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6355
+  title: "A Link in the Ethereal Web"
+  description: >-
+    This is another link in the ethereal web.  Various creatures
+    seem to get caught (or hypnotized) by its sticky strands.  To
+    the north you sense the heavy breathing of a fiery animal.
+  exits:
+    - roomId: "arachnos:r6347"
+      direction: north
+    - roomId: "arachnos:r6360"
+      direction: west
+    - roomId: "arachnos:r6365"
+      direction: up
+- id: r6360
+  title: "Yevaud's Lair"
+  description: >-
+    Yevaud, the Usurper of Midgaard, resides here.  A voice cries
+    out, "BEWARE, the Usurper of Midgaard lives here!  FLEE while you can!"
+    But even Yevaud has his master...or so you deduce.
+  exits:
+    - roomId: "arachnos:r6355"
+      direction: east
+  npcs:
+    - id: "arachnos:m6302"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6365
+  title: "A Link in the Ethereal Web"
+  description: >-
+    This is another link in the ethereal web.  Various creatures
+    seem to get caught (or hypnotized) by its sticky strands.  A single
+    spider line lies to the north, while ghastly seemings are due
+    southward.  The grim entrance of Arachnos' Lair is downward.
+  exits:
+    - roomId: "arachnos:r6371"
+      direction: north
+    - roomId: "arachnos:r6366"
+      direction: south
+    - roomId: "arachnos:r6390"
+      direction: up
+    - roomId: "arachnos:r6355"
+      direction: down
+- id: r6366
+  title: "Entrance to the Donjonkeep"
+  description: >-
+    A dark path at the end of the web strand, you see ahead
+    a torch lit chamber where the souls of unavenged adventurers
+    come and gnash their teeth.  The howls and screams of many echo
+    through the hall ways.  You see one definite path ahead.
+  exits:
+    - roomId: "arachnos:r6367"
+      direction: east
+- id: r6367
+  title: "The Guardian's Room"
+  description: >-
+    A chair sits here for a tireless guardian who ensures that no
+    soul escapes.  The room is undecorated.
+  exits:
+    - roomId: "arachnos:r6368"
+      direction: east
+    - roomId: "arachnos:r6366"
+      direction: west
+  npcs:
+    - id: "arachnos:m6313"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6368
+  title: "Realm of the Hopeless"
+  description: >-
+    Here you see many misguided souls who think they still live.
+    They search for those who killed them without warrant, and seek the
+    free souls of living beings to inhabit and perhaps adventure once
+    more.
+  exits:
+    - roomId: "arachnos:r6369"
+      direction: east
+    - roomId: "arachnos:r6367"
+      direction: west
+- id: r6369
+  title: "Realm of the Hopeless"
+  description: >-
+    Here you see many misguided souls who think they still live.
+    They search for those who killed them without warrant, and seek the
+    free souls of living beings to inhabit and perhaps adventure once
+    more.
+  exits:
+    - roomId: "arachnos:r6370"
+      direction: east
+    - roomId: "arachnos:r6368"
+      direction: west
+- id: r6370
+  title: "The Donjonkeep"
+  description: >-
+    No souls have ever lived in this place.  The wails of slaves
+    and the howls of wolves are the only way you can describe the sounds
+    you hear.  The walls are thin and wispy.  The only light you receive
+    is the shimmering from the strand of the ethereal web you used to get
+    here.
+  exits:
+    - roomId: "arachnos:r6371"
+      direction: east
+    - roomId: "arachnos:r6369"
+      direction: west
+  npcs:
+    - id: "arachnos:m6312"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6371
+  title: "The Single Spider Line"
+  description: >-
+    A single spider line supports you once more.  As you look
+    across the ether you seen a single shack up ahead with a light in
+    the window.  You sense a great evil coming from the east and feel
+    inclined to go back on the ethereal web and take your chances there.
+  exits:
+    - roomId: "arachnos:r6372"
+      direction: east
+    - roomId: "arachnos:r6370"
+      direction: west
+- id: r6372
+  title: "The Single Spider Line"
+  description: >-
+    A single spider line supports you once more.  The shack comes
+    closer into view and you are even more inclined to go back now.
+  exits:
+    - roomId: "arachnos:r6373"
+      direction: east
+    - roomId: "arachnos:r6371"
+      direction: west
+- id: r6373
+  title: "The Hermit's Corner"
+  description: >-
+    Here you see evidence of a vagrant's abode.  The shack is to the
+    east, if you dare enter it.  You get the sneaking feeling you should
+    go back now.  The skies above you darken and roar with the laughter
+    of thunder.
+  exits:
+    - roomId: "arachnos:r6380"
+      direction: east
+    - roomId: "arachnos:r6372"
+      direction: west
+  npcs:
+    - id: "arachnos:m6311"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r6380
+  title: "Mahatma's Inescapable Trap"
+  description: >-
+    Mahatma, that silly thief, is here, and he steals everything you
+    have.  He says, 'Here, have a quick trip to the Temple of Midgaard.'
+    He plunges a black dagger into your back ...
+- id: r6390
+  title: "The Entrance to the Arachnos' Lair"
+  description: >-
+    All strands inevitably lead here, the center of the web, the
+    entrance to Arachnos' Lair.
+  exits:
+    - roomId: "arachnos:r6391"
+      direction: north
+    - roomId: "arachnos:r6365"
+      direction: down
+- id: r6391
+  title: "The Sticky Chamber"
+  description: >-
+    You can still bail out since your knees are shaking from the
+    anticipation (or is it fear?).  The sky is clear on this strand of
+    web, surprisingly unsticky.  The strand does not vibrate like the
+    others.  A few ballooning spiders pass by, cackling "You're gonna
+    die, you're gonna fry.  Good bye!"
+  exits:
+    - roomId: "arachnos:r6392"
+      direction: north
+    - roomId: "arachnos:r6390"
+      direction: south
+- id: r6392
+  title: "The Great Door"
+  description: >-
+    Before you you see a large, web-like door.  Various designs
+    of ancient runes and names of Midgaard heroes are etched into
+    the webwork.  Perhaps lists of victims?  You can't tell.
+  exits:
+    - roomId: "arachnos:r6399"
+      direction: north
+    - roomId: "arachnos:r6391"
+      direction: south
+- id: r6399
+  title: "The Lair of Arachnos"
+  description: >-
+    This is the lair of the Empress Spider, Arachnos.  A lavishly
+    adorned rainbow web, her lair allows her to move to any universe
+    she wishes by using her magical strands to the Prime Material Plane.
+    Coffers upon coffers of gold, magical jewels and gems await.  Unfor-
+    tunately Arachnos is a baggy spider too, and webs all her treasures
+    to her beautiful silken body.
+  exits:
+    - roomId: "arachnos:r6392"
+      direction: south
+  npcs:
+    - id: "arachnos:m6314"
+      respawnChance: 100
+      maxLoad: "1"

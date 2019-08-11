@@ -1,0 +1,492 @@
+- id: o26400
+  name: "sword lightbringer"
+  roomDesc: "Lightbringer, the Sword of the Elven Kingdoms, glows brillinatly here."
+  keywords: ["sword","lightbringer"]
+  description: "Lightbringer, the Sword of the Elven Kingdoms, glows brillinatly here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26401
+  name: "crown"
+  roomDesc: "The Crown of the Rulers of Celene is here."
+  keywords: ["crown"]
+  description: "The Crown of the Rulers of Celene is here."
+  type: LIGHTARMOR
+- id: o26402
+  name: "cloak"
+  roomDesc: "The Famous Cloak of Melf Brightflame, Prince of Celene, floats past you."
+  keywords: ["cloak"]
+  description: "The Famous Cloak of Melf Brightflame, Prince of Celene, floats past you."
+  type: ACCESSORY
+- id: o26403
+  name: "ring"
+  roomDesc: "The Queen of Celene's Ring glitters here."
+  keywords: ["ring"]
+  description: "The Queen of Celene's Ring glitters here."
+  type: ACCESSORY
+- id: o26404
+  name: "diadem"
+  roomDesc: "The Queen of Celene's Diadem twinkles here."
+  keywords: ["diadem"]
+  description: "The Queen of Celene's Diadem twinkles here."
+  type: LIGHTARMOR
+- id: o26405
+  name: "slippers"
+  roomDesc: "The Queen of Celene's Slippers are here."
+  keywords: ["slippers"]
+  description: "The Queen of Celene's Slippers are here."
+  type: LIGHTARMOR
+- id: o26406
+  name: "robe"
+  roomDesc: "The Archmage Theodain Eriason's Robe is here."
+  keywords: ["robe"]
+  description: "The Archmage Theodain Eriason's Robe is here."
+  type: LIGHTARMOR
+- id: o26407
+  name: "gem"
+  roomDesc: "A Power Gem rests here."
+  keywords: ["gem"]
+  description: "A Power Gem rests here."
+  type: TREASURE
+- id: o26408
+  name: "spellbook"
+  roomDesc: "The Archmage Theodain Eriason's Spellbook is here."
+  keywords: ["spellbook"]
+  description: "The Archmage Theodain Eriason's Spellbook is here."
+  type: SCROLL
+- id: o26409
+  name: "scroll"
+  roomDesc: "The Archmage Theodain Eriason's emergency Scroll is here."
+  keywords: ["scroll"]
+  description: "The Archmage Theodain Eriason's emergency Scroll is here."
+  type: SCROLL
+- id: o26410
+  name: "wand"
+  roomDesc: "The Archmage Theodain Eriason's Wondrous Wand is here."
+  keywords: ["wand"]
+  description: "The Archmage Theodain Eriason's Wondrous Wand is here."
+  type: WAND
+- id: o26411
+  name: "orb"
+  roomDesc: "The Orb of Yuul sits here, glowing strangely."
+  keywords: ["orb"]
+  description: "The Orb of Yuul sits here, glowing strangely."
+  type: STAFF
+- id: o26412
+  name: "mitre"
+  roomDesc: "High Priest Lallinthenera's Mitre is here."
+  keywords: ["mitre"]
+  description: "High Priest Lallinthenera's Mitre is here."
+  type: LIGHTARMOR
+- id: o26413
+  name: "symbol"
+  roomDesc: "A Holy Symbol of Corellon Larethian is here."
+  keywords: ["symbol"]
+  description: "A Holy Symbol of Corellon Larethian is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26414
+  name: "hoard"
+  roomDesc: "A Dragon's Hoard of Coins is here."
+  keywords: ["hoard"]
+  description: "A Dragon's Hoard of Coins is here."
+  type: MONEY
+- id: o26415
+  name: "scale"
+  roomDesc: "This Dragon Scale would make an EXCELLENT Shield..."
+  keywords: ["scale"]
+  description: "This Dragon Scale would make an EXCELLENT Shield..."
+  type: SHIELD
+- id: o26416
+  name: "chest"
+  roomDesc: "The Treasure Chest of the Blackmoor Dragon Hautna Masq. It looks EXTREMELY heavy..."
+  keywords: ["chest"]
+  description: "The Treasure Chest of the Blackmoor Dragon Hautna Masq. It looks EXTREMELY heavy..."
+  type: CONTAINER
+  items: ["celene:o26414","celene:o26418"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o26417
+  name: "key"
+  roomDesc: "Hautna Masq's WyrmKey lies here."
+  keywords: ["key"]
+  description: "Hautna Masq's WyrmKey lies here."
+  type: KEY
+- id: o26418
+  name: "helmet"
+  roomDesc: "This Helmet looks WONDERFUL! Coming from a Dragon's Hoard it is doubtless very valuable."
+  keywords: ["helmet"]
+  description: "This Helmet looks WONDERFUL! Coming from a Dragon's Hoard it is doubtless very valuable."
+  type: HEAVYARMOR
+- id: o26419
+  name: "helm"
+  roomDesc: "An Elite Helm is here."
+  keywords: ["helm"]
+  description: "An Elite Helm is here."
+  type: HEAVYARMOR
+- id: o26420
+  name: "ring signet"
+  roomDesc: "A Celene Signet Ring rests here."
+  keywords: ["ring","signet"]
+  description: "A Celene Signet Ring rests here."
+  type: ACCESSORY
+- id: o26421
+  name: "armor elite"
+  roomDesc: "The Armor of an Elite Guard rests here."
+  keywords: ["armor","elite"]
+  description: "The Armor of an Elite Guard rests here."
+  type: HEAVYARMOR
+- id: o26422
+  name: "leggings"
+  roomDesc: "Some Silvery Leggings are here."
+  keywords: ["leggings"]
+  description: "Some Silvery Leggings are here."
+  type: HEAVYARMOR
+- id: o26423
+  name: "sword"
+  roomDesc: "A Shiny Steel Sword is here."
+  keywords: ["sword"]
+  description: "A Shiny Steel Sword is here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26424
+  name: "shield"
+  roomDesc: "A Shield bearing the Coat of Arms of Celene is here."
+  keywords: ["shield"]
+  description: "A Shield bearing the Coat of Arms of Celene is here."
+  type: SHIELD
+- id: o26425
+  name: "bow"
+  roomDesc: "A sturdy longbow rests here."
+  keywords: ["bow"]
+  description: "A sturdy longbow rests here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26426
+  name: "javelin"
+  roomDesc: "A sturdy javelin rests here."
+  keywords: ["javelin"]
+  description: "A sturdy javelin rests here."
+  type: STAKE
+- id: o26427
+  name: "cloak"
+  roomDesc: "A humble Scout's Cloak is here."
+  keywords: ["cloak"]
+  description: "A humble Scout's Cloak is here."
+  type: ACCESSORY
+- id: o26428
+  name: "boots"
+  roomDesc: "A pair of dirty boots rests here. They look very well-used."
+  keywords: ["boots"]
+  description: "A pair of dirty boots rests here. They look very well-used."
+  type: MEDIUMARMOR
+- id: o26429
+  name: "banner"
+  roomDesc: "A Celenean War Banner is here."
+  keywords: ["banner"]
+  description: "A Celenean War Banner is here."
+  type: LIGHT
+- id: o26430
+  name: "shield"
+  roomDesc: "A sturdy-looking Elven shield is here."
+  keywords: ["shield"]
+  description: "A sturdy-looking Elven shield is here."
+  type: SHIELD
+- id: o26431
+  name: "sword"
+  roomDesc: "A sturdy-looking Elven sword is here."
+  keywords: ["sword"]
+  description: "A sturdy-looking Elven sword is here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26432
+  name: "helm"
+  roomDesc: "A sturdy-looking Elven helm is here."
+  keywords: ["helm"]
+  description: "A sturdy-looking Elven helm is here."
+  type: HEAVYARMOR
+- id: o26433
+  name: "breastplate"
+  roomDesc: "A sturdy-looking Elven breastplate is here."
+  keywords: ["breastplate"]
+  description: "A sturdy-looking Elven breastplate is here."
+  type: HEAVYARMOR
+- id: o26434
+  name: "leggings"
+  roomDesc: "A pair of sturdy-looking Elven leggings is here."
+  keywords: ["leggings"]
+  description: "A pair of sturdy-looking Elven leggings is here."
+  type: HEAVYARMOR
+- id: o26435
+  name: "mittens"
+  roomDesc: "An Elven Acolyte uses these fluffy mittens to keep his hands all warm :)"
+  keywords: ["mittens"]
+  description: "An Elven Acolyte uses these fluffy mittens to keep his hands all warm :)"
+  type: LIGHTARMOR
+- id: o26436
+  name: "sword guardian"
+  roomDesc: "The High Guardian's Two-Handed Sword is here."
+  keywords: ["sword","guardian"]
+  description: "The High Guardian's Two-Handed Sword is here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26437
+  name: "mask"
+  roomDesc: "The High Guardian borrowed this device from the Man in the Iron Mask..."
+  keywords: ["mask"]
+  description: "The High Guardian borrowed this device from the Man in the Iron Mask..."
+  type: LIGHTARMOR
+- id: o26438
+  name: "collar"
+  roomDesc: "This Collar marks the wearer as being a faithful pet of the Elven Nation..."
+  keywords: ["collar"]
+  description: "This Collar marks the wearer as being a faithful pet of the Elven Nation..."
+  type: ACCESSORY
+- id: o26439
+  name: "toy"
+  roomDesc: "An Elven infant has carelessly discarded its toy."
+  keywords: ["toy"]
+  description: "An Elven infant has carelessly discarded its toy."
+  type: TRASH
+- id: o26440
+  name: "wand fud"
+  roomDesc: "A Wand of Fud fuds its way along here."
+  keywords: ["wand","fud"]
+  description: "A Wand of Fud fuds its way along here."
+  type: WAND
+- id: o26441
+  name: "cup water"
+  roomDesc: "A Cup of Water which fills to the brim on command!"
+  keywords: ["cup","water"]
+  description: "A Cup of Water which fills to the brim on command!"
+  type: DRINKCON
+- id: o26442
+  name: "stone"
+  roomDesc: "A Shield Stone shimmers here."
+  keywords: ["stone"]
+  description: "A Shield Stone shimmers here."
+  type: SHIELD
+- id: o26443
+  name: "staff"
+  roomDesc: "A Staff of Acid is here."
+  keywords: ["staff"]
+  description: "A Staff of Acid is here."
+  type: STAFF
+- id: o26444
+  name: "scroll"
+  roomDesc: "A Random Scroll!!!"
+  keywords: ["scroll"]
+  description: "A Random Scroll!!!"
+  type: SCROLL
+- id: o26445
+  name: "chair"
+  roomDesc: "A Comfortable-looking Chair is here."
+  keywords: ["chair"]
+  description: "A Comfortable-looking Chair is here."
+  type: FURNITURE
+- id: o26446
+  name: "ottoman"
+  roomDesc: "An Ottoman sits here."
+  keywords: ["ottoman"]
+  description: "An Ottoman sits here."
+  type: FURNITURE
+- id: o26447
+  name: "table"
+  roomDesc: "An elaborately-carved Oak Table is here."
+  keywords: ["table"]
+  description: "An elaborately-carved Oak Table is here."
+  type: FURNITURE
+- id: o26448
+  name: "light globe"
+  roomDesc: "A Light Globe bobs along here."
+  keywords: ["light","globe"]
+  description: "A Light Globe bobs along here."
+  type: LIGHT
+- id: o26449
+  name: "book"
+  roomDesc: "A Spellbook hums strangely here..."
+  keywords: ["book"]
+  description: "A Spellbook hums strangely here..."
+  type: SCROLL
+- id: o26450
+  name: "spellbook book"
+  roomDesc: "A Spellbook bound in bronze sits here."
+  keywords: ["spellbook","book"]
+  description: "A Spellbook bound in bronze sits here."
+  type: SCROLL
+- id: o26451
+  name: "scroll"
+  roomDesc: "This scroll looks to be VERY well-read..."
+  keywords: ["scroll"]
+  description: "This scroll looks to be VERY well-read..."
+  type: SCROLL
+- id: o26452
+  name: "book"
+  roomDesc: "An old history book lies here."
+  keywords: ["book"]
+  description: "An old history book lies here."
+  type: TRASH
+- id: o26453
+  name: "book"
+  roomDesc: "An old science book lies here."
+  keywords: ["book"]
+  description: "An old science book lies here."
+  type: TRASH
+- id: o26454
+  name: "book"
+  roomDesc: "An old geography book lies here."
+  keywords: ["book"]
+  description: "An old geography book lies here."
+  type: TRASH
+- id: o26455
+  name: "desk"
+  roomDesc: "An Ornate Desk rests here."
+  keywords: ["desk"]
+  description: "An Ornate Desk rests here."
+  type: FURNITURE
+- id: o26456
+  name: "phonograph"
+  roomDesc: "Whoa! That looks like the thing off the old RCA Victor ads!"
+  keywords: ["phonograph"]
+  description: "Whoa! That looks like the thing off the old RCA Victor ads!"
+  type: TREASURE
+- id: o26457
+  name: "fountain"
+  roomDesc: "This Fountain has been supplying visitors to Celene with water for centuries..."
+  keywords: ["fountain"]
+  description: "This Fountain has been supplying visitors to Celene with water for centuries..."
+  type: FOUNTAIN
+- id: o26458
+  name: "portrait"
+  roomDesc: "Whoa! What a Handsome Guy! What an EXCELLENT Portrait to have!!!"
+  keywords: ["portrait"]
+  description: "Whoa! What a Handsome Guy! What an EXCELLENT Portrait to have!!!"
+  type: TRASH
+- id: o26459
+  name: "backpack"
+  roomDesc: "A sturdy backpack lies here."
+  keywords: ["backpack"]
+  description: "A sturdy backpack lies here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o26460
+  name: "helmet"
+  roomDesc: "A sturdy Elven helmet has been discarded here."
+  keywords: ["helmet"]
+  description: "A sturdy Elven helmet has been discarded here."
+  type: HEAVYARMOR
+- id: o26461
+  name: "waterskin"
+  roomDesc: "A waterskin lies here."
+  keywords: ["waterskin"]
+  description: "A waterskin lies here."
+  type: DRINKCON
+- id: o26462
+  name: "girdle"
+  roomDesc: "This girdle increases the wearer's agility."
+  keywords: ["girdle"]
+  description: "This girdle increases the wearer's agility."
+  type: ACCESSORY
+- id: o26463
+  name: "sword blade"
+  roomDesc: "A Fine Elven Blade glimmers here."
+  keywords: ["sword","blade"]
+  description: "A Fine Elven Blade glimmers here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26464
+  name: "bow"
+  roomDesc: "A fine Elven Bow is here."
+  keywords: ["bow"]
+  description: "A fine Elven Bow is here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26465
+  name: "dagger"
+  roomDesc: "This dagger would be an excellent weapon for backstabbing..."
+  keywords: ["dagger"]
+  description: "This dagger would be an excellent weapon for backstabbing..."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26466
+  name: "mace"
+  roomDesc: "This Elven mace is magically enchanted."
+  keywords: ["mace"]
+  description: "This Elven mace is magically enchanted."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o26467
+  name: "potion"
+  roomDesc: "A potion rests here."
+  keywords: ["potion"]
+  description: "A potion rests here."
+  type: POTION
+- id: o26468
+  name: "herb"
+  roomDesc: "When ingested, this herb renders the target extremely resistant to poison."
+  keywords: ["herb"]
+  description: "When ingested, this herb renders the target extremely resistant to poison."
+  type: PILL
+- id: o26469
+  name: "bread"
+  roomDesc: "Some Elven Bread."
+  keywords: ["bread"]
+  description: "Some Elven Bread."
+  type: FOOD
+- id: o26470
+  name: "wine"
+  roomDesc: "Some Elven wine."
+  keywords: ["wine"]
+  description: "Some Elven wine."
+  type: DRINKCON
+- id: o26471
+  name: "map"
+  roomDesc: "This map shows the places around Celene."
+  keywords: ["map"]
+  description: "This map shows the places around Celene."
+  type: TRASH
+- id: o26472
+  name: "potion brew"
+  roomDesc: "This herbal brew will give you great mobility."
+  keywords: ["potion","brew"]
+  description: "This herbal brew will give you great mobility."
+  type: POTION
+- id: o26473
+  name: "brain mind nightmare druid"
+  roomDesc: "You see the dying form of a druid lying here. You feel drawn toward it."
+  keywords: ["brain","mind","nightmare","druid"]
+  description: "You see the dying form of a druid lying here. You feel drawn toward it."
+  type: QUEST

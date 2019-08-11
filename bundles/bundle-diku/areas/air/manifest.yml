@@ -1,0 +1,12 @@
+title: "In the Air"
+metadata:
+  id: 2
+  name: "In the Air"
+  createdBy: "copper"
+  starting_vnum: 1000
+  ending_vnum: 1049
+  item_requirements: 40000
+  filename: "air.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

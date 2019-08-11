@@ -1,0 +1,1040 @@
+- id: m5300
+  keywords: ["baby","beholder"]
+  name: "the baby beholder"
+  description: >-
+    You meet a baby beholder's cute gaze!
+  level: 1
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 213.75
+          max: 236.25
+      pools:
+        "mirror:o5243": 75
+  metadata:
+    areaId: 48
+    exp_level: 290
+    sex: 0
+- id: m5301
+  keywords: ["lamia","pet"]
+  name: "the pet lamia"
+  description: >-
+    A pet lamia stands here waiting for her next command.
+  level: 9
+  attributes:
+    health: 300
+    armor: 6
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "mirror:o5300": 75
+  metadata:
+    areaId: 48
+    exp_level: 700
+    sex: 2
+- id: m5302
+  keywords: ["citizen","man"]
+  name: "a citizen of Thalos"
+  description: >-
+    A citizen of Thalos is here, conversing with everyone.
+  level: 15
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 48
+    exp_level: 1179
+    sex: 1
+- id: m5303
+  keywords: ["guard","imperial","cityguard"]
+  name: "an imperial cityguard"
+  description: >-
+    An imperial cityguard is here, keeping the peace of Thalos.
+  level: 30
+  attributes:
+    health: 300
+    armor: -5
+    hitroll: 10
+    damroll: 10
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+      pools:
+        "mirror:o5321": 75
+        "mirror:o5319": 75
+        "mirror:o5327": 75
+        "mirror:o5329": 75
+        "mirror:o5318": 75
+        "mirror:o5320": 75
+        "mirror:o5317": 75
+        "mirror:o5328": 75
+        "mirror:o5330": 75
+  metadata:
+    areaId: 48
+    exp_level: 2300
+    sex: 1
+- id: m5304
+  keywords: ["citizen","woman","female"]
+  name: "a female citizen of Thalos"
+  description: >-
+    A female citizen of Thalos is here, showing off her new dress.
+  level: 15
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 48
+    exp_level: 1199
+    sex: 2
+- id: m5305
+  keywords: ["gordon","defender"]
+  name: "Gordon the Brave"
+  description: >-
+    Gordon the Brave, the Defender of Thalos, is here, looking at noone but you, the only stranger in town.
+  level: 46
+  attributes:
+    health: 300
+    armor: -10
+    hitroll: 10
+    damroll: 10
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "mirror:o5204": 75
+        "mirror:o5203": 75
+        "mirror:o5205": 75
+        "mirror:o5206": 75
+        "mirror:o5201": 75
+        "mirror:o5202": 75
+        "mirror:o5301": 75
+        "mirror:o5221": 75
+        "mirror:o5226": 75
+  metadata:
+    areaId: 48
+    exp_level: 3501
+    sex: 1
+- id: m5306
+  keywords: ["priest"]
+  name: "the fanatic priest"
+  description: >-
+    A fanatic priest is here, foretelling the destruction of Thalos.
+  level: 1
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "mirror:o5218": 75
+        "mirror:o5222": 75
+        "mirror:o5252": 75
+        "mirror:o5239": 75
+  metadata:
+    areaId: 48
+    exp_level: 2000
+    sex: 1
+- id: m5307
+  keywords: ["priest"]
+  name: "the priest of Thalos"
+  description: >-
+    The priest of Thalos tells you of the glories of this city.
+  level: 2
+  attributes:
+    health: 300
+    armor: -5
+    hitroll: 10
+    damroll: 10
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "mirror:o5302": 75
+        "mirror:o5223": 75
+  metadata:
+    areaId: 48
+    exp_level: 2300
+    sex: 1
+- id: m5308
+  keywords: ["golem","stone"]
+  name: "the stone golem"
+  description: >-
+    In the corner you see a large, stone golem faithfully standing watch.
+  level: 43
+  attributes:
+    health: 1200
+    armor: -5
+    hitroll: 20
+    damroll: 20
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4037.5
+          max: 4462.5
+      pools:
+        "mirror:o5221": 75
+        "mirror:o5232": 75
+        "mirror:o5233": 75
+        "mirror:o5235": 75
+        "mirror:o5237": 75
+  metadata:
+    areaId: 48
+    exp_level: 3291
+    sex: 0
+- id: m5309
+  keywords: ["mayor"]
+  name: "the mayor of Thalos"
+  description: >-
+    The mayor of Thalos is sitting here, doing his paperwork.
+  level: 31
+  attributes:
+    health: 600
+    armor: -5
+    hitroll: 10
+    damroll: 10
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "mirror:o5224": 75
+  metadata:
+    areaId: 48
+    exp_level: 2345
+    sex: 2
+- id: m5310
+  keywords: ["dan","barkeep"]
+  name: "Dan the Barkeep"
+  description: >-
+    Dan the Barkeep stands by the counter wiping a glass.
+  level: 42
+  attributes:
+    health: 1200
+    armor: -10
+    hitroll: 20
+    damroll: 20
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "mirror:o648": 75
+        "mirror:o649": 75
+        "mirror:o650": 75
+  metadata:
+    vendor:
+      items:
+        "mirror:o648":
+          cost: 10
+          currency: gold
+        "mirror:o649":
+          cost: 20
+          currency: gold
+        "mirror:o650":
+          cost: 20
+          currency: gold
+    areaId: 48
+    exp_level: 3201
+    sex: 1
+- id: m5311
+  keywords: ["george","butcher"]
+  name: "George the Butcher"
+  description: >-
+    George the Butcher is here whacking away at a side of beef.
+  level: 37
+  attributes:
+    health: 1200
+    armor: -10
+    hitroll: 20
+    damroll: 20
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "mirror:o601": 75
+        "mirror:o5219": 75
+        "mirror:o602": 75
+        "mirror:o603": 75
+        "mirror:o604": 75
+        "mirror:o605": 75
+  metadata:
+    vendor:
+      items:
+        "mirror:o601":
+          cost: 150
+          currency: gold
+        "mirror:o5219":
+          cost: 100
+          currency: gold
+        "mirror:o602":
+          cost: 50
+          currency: gold
+        "mirror:o603":
+          cost: 45
+          currency: gold
+        "mirror:o604":
+          cost: 60
+          currency: gold
+        "mirror:o605":
+          cost: 30
+          currency: gold
+    areaId: 48
+    exp_level: 2800
+    sex: 1
+- id: m5312
+  keywords: ["farmer","betty"]
+  name: "Farmer Betty"
+  description: >-
+    Farmer Betty looks at you sweetly offering you some apples.
+  level: 21
+  attributes:
+    health: 1200
+    armor: -10
+    hitroll: 20
+    damroll: 20
+    alignment: 650
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "mirror:o609": 75
+        "mirror:o610": 75
+        "mirror:o611": 75
+        "mirror:o612": 75
+        "mirror:o613": 75
+  metadata:
+    vendor:
+      items:
+        "mirror:o609":
+          cost: 20
+          currency: gold
+        "mirror:o610":
+          cost: 20
+          currency: gold
+        "mirror:o611":
+          cost: 40
+          currency: gold
+        "mirror:o612":
+          cost: 5
+          currency: gold
+        "mirror:o613":
+          cost: 5
+          currency: gold
+    areaId: 48
+    exp_level: 1600
+    sex: 2
+- id: m5313
+  keywords: ["thaellor","dwarf"]
+  name: "Thaellor the dwarf"
+  description: >-
+    Thaellor is here selling his metal wares.
+  level: 23
+  attributes:
+    health: 1200
+    armor: -10
+    hitroll: 20
+    damroll: 20
+    alignment: 550
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+  metadata:
+    vendor:
+      items:
+    areaId: 48
+    exp_level: 1799
+    sex: 2
+- id: m5314
+  keywords: ["ben","smith"]
+  name: "Ben the Smith"
+  description: >-
+    Ben the Smith sells metal odds and ends to anyone interested.
+  level: 25
+  attributes:
+    health: 1200
+    armor: -10
+    hitroll: 20
+    damroll: 20
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "mirror:o601": 75
+        "mirror:o615": 75
+  metadata:
+    vendor:
+      items:
+        "mirror:o601":
+          cost: 150
+          currency: gold
+        "mirror:o615":
+          cost: 50
+          currency: gold
+    areaId: 48
+    exp_level: 1899
+    sex: 1
+- id: m5315
+  keywords: ["librarian"]
+  name: "the librarian"
+  description: >-
+    The librarian is here shelving books away neatly.
+  level: 14
+  attributes:
+    health: 300
+    armor: 2
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 48
+    exp_level: 1120
+    sex: 2
+- id: m5316
+  keywords: ["scholar","boy"]
+  name: "a young scholar"
+  description: >-
+    A young scholar studies quietly in the corner.
+  level: 11
+  attributes:
+    health: 300
+    armor: 4
+    hitroll: 5
+    damroll: 5
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 48
+    exp_level: 891
+    sex: 1
+- id: m5317
+  keywords: ["wizard"]
+  name: "an old wizard"
+  description: >-
+    An old wizard sits quietly at the counter waiting for a sale.
+  level: 4
+  attributes:
+    health: 1200
+    armor: -10
+    hitroll: 20
+    damroll: 20
+    alignment: 550
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "mirror:o5210": 75
+        "mirror:o5211": 75
+  metadata:
+    vendor:
+      items:
+        "mirror:o5210":
+          cost: 6000
+          currency: gold
+        "mirror:o5211":
+          cost: 7500
+          currency: gold
+    areaId: 48
+    exp_level: 1748
+    sex: 1
+- id: m5318
+  keywords: ["masseuse","woman"]
+  name: "a beautiful masseuse"
+  description: >-
+    A beautiful woman is here offering you a massage.
+  level: 13
+  attributes:
+    health: 300
+    armor: 6
+    hitroll: 5
+    damroll: 5
+    alignment: 700
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+  metadata:
+    areaId: 48
+    exp_level: 1000
+    sex: 2
+- id: m5319
+  keywords: ["bather","man"]
+  name: "a man"
+  description: >-
+    A man is here bathing.
+  level: 13
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 650
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 48
+    exp_level: 1001
+    sex: 1
+- id: m5320
+  keywords: ["guard","imperial","cityguard"]
+  name: "An imperial cityguard"
+  description: >-
+    An imperial cityguard overseeing patrols in the city.
+  level: 34
+  attributes:
+    health: 300
+    armor: -5
+    hitroll: 10
+    damroll: 10
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+      pools:
+        "mirror:o5330": 75
+        "mirror:o5321": 75
+        "mirror:o5319": 75
+        "mirror:o5327": 75
+        "mirror:o5328": 75
+        "mirror:o5317": 75
+        "mirror:o5329": 75
+        "mirror:o5318": 75
+  metadata:
+    areaId: 48
+    exp_level: 2600
+    sex: 1
+- id: m5321
+  keywords: ["guard","cityguard"]
+  name: "an imperial cityguard"
+  description: >-
+    An imperial cityguard guards the Grand Gate.
+  level: 33
+  attributes:
+    health: 300
+    armor: -5
+    hitroll: 10
+    damroll: 10
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+      pools:
+        "mirror:o5331": 75
+        "mirror:o5319": 75
+        "mirror:o5322": 75
+        "mirror:o5323": 75
+        "mirror:o5324": 75
+        "mirror:o5325": 75
+        "mirror:o5320": 75
+        "mirror:o5318": 75
+        "mirror:o5326": 75
+        "mirror:o5317": 75
+  metadata:
+    areaId: 48
+    exp_level: 2500
+    sex: 1
+- id: m5322
+  keywords: ["doe"]
+  name: "a doe"
+  description: >-
+    A doe munches on grass.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 48
+    exp_level: 400
+    sex: 2
+- id: m5323
+  keywords: ["deer"]
+  name: "a deer"
+  description: >-
+    A deer stares back at you.
+  level: 10
+  attributes:
+    health: 300
+    armor: 4
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 48
+    exp_level: 751
+    sex: 1
+- id: m5324
+  keywords: ["stag","deer"]
+  name: "a stag"
+  description: >-
+    A large deer stag protects his territory.
+  level: 9
+  attributes:
+    health: 300
+    armor: 2
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 48
+    exp_level: 690
+    sex: 1
+- id: m5325
+  keywords: ["bunny","rabbit"]
+  name: "a small bunny"
+  description: >-
+    A small bunny pokes from bush to bush.
+  level: 10
+  attributes:
+    health: 300
+    armor: 8
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 48
+    exp_level: 781
+    sex: 0
+- id: m5326
+  keywords: ["snake"]
+  name: "a harmless snake"
+  description: >-
+    A small snake slithers between the grass.
+  level: 11
+  attributes:
+    health: 300
+    armor: 4
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1.9
+          max: 2.1
+  metadata:
+    areaId: 48
+    exp_level: 850
+    sex: 0
+- id: m5327
+  keywords: ["druid"]
+  name: "a druid"
+  description: >-
+    A druid is here in meditation.
+  level: 1
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "mirror:o5313": 75
+        "mirror:o5315": 75
+  metadata:
+    areaId: 48
+    exp_level: 1001
+    sex: 1
+- id: m5328
+  keywords: ["druidess"]
+  name: "a druidess"
+  description: >-
+    A druidess peers at you.
+  level: 1
+  attributes:
+    health: 300
+    armor: 0
+    hitroll: 5
+    damroll: 5
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 47.5
+          max: 52.5
+      pools:
+        "mirror:o5314": 75
+        "mirror:o5316": 75
+  metadata:
+    areaId: 48
+    exp_level: 1000
+    sex: 2
+- id: m5329
+  keywords: ["musician","bard"]
+  name: "bard of Thalos"
+  description: >-
+    A bard sings of the glory of Thalos.
+  level: 26
+  attributes:
+    health: 300
+    armor: 4
+    hitroll: 5
+    damroll: 5
+    alignment: 450
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "mirror:o5309": 75
+        "mirror:o5310": 75
+  metadata:
+    areaId: 48
+    exp_level: 2019
+    sex: 1
+- id: m5330
+  keywords: ["musician","bard"]
+  name: "bard of Thalos"
+  description: >-
+    This bard merrily skips along singing of the glory of Thalos.
+  level: 177
+  attributes:
+    health: 300
+    armor: 3
+    hitroll: 5
+    damroll: 5
+    alignment: 550
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 142.5
+          max: 157.5
+      pools:
+        "mirror:o5311": 75
+  metadata:
+    areaId: 48
+    exp_level: 13346
+    sex: 1
+- id: m5331
+  keywords: ["cityguard","guard"]
+  name: "the cityguard"
+  description: >-
+    A cityguard stands here.
+  level: 19
+  attributes:
+    health: 600
+    armor: -2
+    hitroll: 10
+    damroll: 10
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "mirror:o3235": 75
+        "mirror:o3234": 75
+        "mirror:o3220": 75
+        "mirror:o3223": 75
+        "mirror:o3225": 75
+  metadata:
+    areaId: 48
+    exp_level: 1449
+    sex: 1
+- id: m5332
+  keywords: ["janitor"]
+  name: "the janitor"
+  description: >-
+    A janitor is walking around, cleaning up.
+  level: 13
+  attributes:
+    health: 300
+    armor: 9
+    hitroll: 5
+    damroll: 5
+    alignment: 900
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 48
+    exp_level: 999
+    sex: 1
+- id: m5333
+  keywords: ["fido","dog"]
+  name: "the beastly fido"
+  description: >-
+    Beastly Fido is here.
+  level: 8
+  attributes:
+    health: 300
+    armor: 10
+    hitroll: 5
+    damroll: 5
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 48
+    exp_level: 600
+    sex: 1
+- id: m5334
+  keywords: ["cityguard","guard"]
+  name: "the cityguard"
+  description: >-
+    A cityguard is here, guarding the gate.
+  level: 20
+  attributes:
+    health: 600
+    armor: -2
+    hitroll: 10
+    damroll: 10
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "mirror:o3235": 75
+        "mirror:o3234": 75
+        "mirror:o3220": 75
+        "mirror:o3223": 75
+        "mirror:o3224": 75
+  metadata:
+    areaId: 48
+    exp_level: 1500
+    sex: 1

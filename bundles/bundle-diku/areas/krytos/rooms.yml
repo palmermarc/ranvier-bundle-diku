@@ -1,0 +1,853 @@
+- id: r13065
+  title: "Entrance to the Tower of Krytos"
+  description: >-
+    This is one of the smallest chambers anyone has ever seen. 
+    Small and circular, it looks like the room could barely fit 
+    even 4 people at the most. 
+    So much for a lord of the land being wealthy.
+  exits:
+    - roomId: "krytos:r13104"
+      direction: north
+    - roomId: "krytos:r13066"
+      direction: west
+- id: r13066
+  title: "The Common Room"
+  description: >-
+    You stand in the middle of a suddenly much larger room, 
+    probably the base of the tower. It is eerily quiet in 
+    here and your hair stands on end. Continue on up if 
+    you're starting to feel queasy.
+  exits:
+    - roomId: "krytos:r13065"
+      direction: east
+    - roomId: "krytos:r13067"
+      direction: up
+    - roomId: "krytos:r13106"
+      direction: down
+  npcs:
+    - id: "krytos:m13066"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r13067
+  title: "The Stairway up the Base"
+  description: >-
+    The stairs wind up and up, seemingly never ending. Where will they stop?
+  exits:
+    - roomId: "krytos:r13070"
+      direction: north
+    - roomId: "krytos:r13072"
+      direction: south
+    - roomId: "krytos:r13068"
+      direction: east
+    - roomId: "krytos:r13069"
+      direction: west
+    - roomId: "krytos:r13071"
+      direction: up
+    - roomId: "krytos:r13066"
+      direction: down
+- id: r13068
+  title: "Eastern Wing of the Base"
+  description: >-
+    There is really not much in here except for piles of 
+    dust and some random objects lying around, probably 
+    not yours. You had best go back to where you came from.
+  exits:
+    - roomId: "krytos:r13067"
+      direction: west
+  npcs:
+    - id: "krytos:m13067"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r13069
+  title: "Western Wing of the Base"
+  description: >-
+    The room is completely empty! You'd think high lords 
+    would have more to hoard, but apparently he has come 
+    upon hard times. Hopefully he'll get rich quick 
+    (and allow you to loot something soon)
+  exits:
+    - roomId: "krytos:r13067"
+      direction: east
+  npcs:
+    - id: "krytos:m13067"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r13070
+  title: "North of the Base"
+  description: >-
+    This appears to be the main congregation hall for the 
+    royal guards of the high lord. There are many seated 
+    at the tables, and they eye you warily.
+  exits:
+    - roomId: "krytos:r13067"
+      direction: south
+  npcs:
+    - id: "krytos:m13066"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r13071
+  title: "Beginning of the Tower"
+  description: >-
+    This is the formal entrance up the tower. Due to the 
+    stones used in contruction, you can hear the deafening 
+    chatter of almost everyone in the tower, driving you 
+    insane. To the south you can a window, and to the 
+    north you can hear clanging sounds.
+  exits:
+    - roomId: "krytos:r13074"
+      direction: north
+    - roomId: "krytos:r13073"
+      direction: south
+    - roomId: "krytos:r13075"
+      direction: east
+    - roomId: "krytos:r13076"
+      direction: west
+    - roomId: "krytos:r13077"
+      direction: up
+    - roomId: "krytos:r13067"
+      direction: down
+- id: r13072
+  title: "South of the Base"
+  description: >-
+    This is the bedroom for the most elite of the royal guards. 
+    Careful now...they don't take too kindly to strangers in 
+    their private space. Best be heading back out.
+  exits:
+    - roomId: "krytos:r13067"
+      direction: north
+  npcs:
+    - id: "krytos:m13065"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r13073
+  title: "The Window South"
+  description: >-
+    What a view! You can see the mountains and valleys for 
+    many miles out to the south. The lake out beside the 
+    tower seems to glow, and the tranquility of this room 
+    is amazingly calming. It's no wonder that many of the 
+    tower guards come here to meditate and contemplate life.
+  exits:
+    - roomId: "krytos:r13071"
+      direction: north
+- id: r13074
+  title: "The Repair Room"
+  description: >-
+    This is where armor and weapons are repaired. There is 
+    a full service blacksmith standing here, and a few bored 
+    guards waiting for their equipment to be fixed. 
+    Unfortunately, as good as he is, the blacksmith 
+    only services the tower's personnel.
+  exits:
+    - roomId: "krytos:r13071"
+      direction: south
+  npcs:
+    - id: "krytos:m13066"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "krytos:m13077"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r13075
+  title: "The Treasury"
+  description: >-
+    The room is curiously enough, empty. Is it because the 
+    lord is bankrupt, or is he just hiding the gold somewhere 
+    else...? The lone guard in the corner seems bored out of 
+    his mind, and you question the lord's decision to keep 
+    this empty room guarded.
+  exits:
+    - roomId: "krytos:r13071"
+      direction: west
+  npcs:
+    - id: "krytos:m13066"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r13076
+  title: "The Equipment Room"
+  description: >-
+    So this is where all of their armor and weapons are stored. 
+    Along the walls you can see plates of mail and huge swords, 
+    all with plaques engraved with the names of their owners.
+  exits:
+    - roomId: "krytos:r13071"
+      direction: east
+- id: r13077
+  title: "The Gathering"
+  description: >-
+    This is the main room for tower gatherings, whether for 
+    briefings, entertainment, or whatever else the guards 
+    can think of. Great aromas arise out of the room to the 
+    east, while in the west it stinks of garbage. Head north 
+    to continue one's voyage further up the tower.
+  exits:
+    - roomId: "krytos:r13080"
+      direction: north
+    - roomId: "krytos:r13078"
+      direction: east
+    - roomId: "krytos:r13079"
+      direction: west
+    - roomId: "krytos:r13071"
+      direction: down
+  npcs:
+    - id: "krytos:m13066"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r13078
+  title: "The Dining Room"
+  description: >-
+    You are standing in a semi-large room with 3 windows open 
+    to the world outside. There sits a table in the very center 
+    of the room, with quite a few chairs set around it. The 
+    chefs rush in and out constantly to keep the guards well fed.
+  exits:
+    - roomId: "krytos:r13077"
+      direction: west
+    - roomId: "krytos:r13119"
+      direction: down
+  npcs:
+    - id: "krytos:m13066"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "krytos:m13068"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r13079
+  title: "The Big Dump"
+  description: >-
+    The smell of trash overwhelms you the instant you enter this 
+    room, and as you try to recover you can see huge piles of 
+    left-over food, human wastes, and some unidentifiable junk. 
+    It is amazing that anyone walk in this room at all without 
+    vomiting all over themselves.
+  exits:
+    - roomId: "krytos:r13077"
+      direction: east
+    - roomId: "krytos:r13094"
+      direction: down
+- id: r13080
+  title: "On the way up"
+  description: >-
+    As this large tower is built on a mountainside, the foundations 
+    are built in a slant, which explains why the tower seems to be 
+    split the way it is internally. This small room contains only a 
+    small ladder to assist in reaching the upper parts of the 
+    building, and exits to to more wings.
+  exits:
+    - roomId: "krytos:r13077"
+      direction: south
+    - roomId: "krytos:r13081"
+      direction: east
+    - roomId: "krytos:r13082"
+      direction: west
+    - roomId: "krytos:r13083"
+      direction: up
+  npcs:
+    - id: "krytos:m13066"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r13081
+  title: "A training room"
+  description: >-
+    You enter a large room designated for practice. Many young men are 
+    training and sparring against one another here, hoping to one day 
+    be worthy of serving Lord Krytos.
+  exits:
+    - roomId: "krytos:r13080"
+      direction: west
+  npcs:
+    - id: "krytos:m13073"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "krytos:m13073"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "krytos:m13073"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "krytos:m13074"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r13082
+  title: "Another room for training"
+  description: >-
+    This large room contains more young men honing their battle skills. 
+    As you enter, the weaponsmaster gazes at your warily. 
+    You can never be too careful.
+  exits:
+    - roomId: "krytos:r13080"
+      direction: east
+  npcs:
+    - id: "krytos:m13073"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "krytos:m13073"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "krytos:m13073"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "krytos:m13074"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r13083
+  title: "More Stairs"
+  description: >-
+    You walk in here expecting nothing but stairs, and that is exactly 
+    what you see. A large winding stairway goes up, with bedrooms for 
+    the tower workers to the east and west.
+  exits:
+    - roomId: "krytos:r13084"
+      direction: east
+    - roomId: "krytos:r13085"
+      direction: west
+    - roomId: "krytos:r13086"
+      direction: up
+    - roomId: "krytos:r13080"
+      direction: down
+- id: r13084
+  title: "Bedroom for the servants"
+  description: >-
+    Here are the bedrooms for the servants of the tower. It is 
+    incredibly empty except for wooden beds. You wonder how someone 
+    could possibly survive in here.
+  exits:
+    - roomId: "krytos:r13083"
+      direction: west
+  npcs:
+    - id: "krytos:m13067"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "krytos:m13067"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r13085
+  title: "Bedroom for the wenches"
+  description: >-
+    This is a bedroom for the serving wenches. It is completely 
+    empty except for some beds, and a mirror on the wall. You begin 
+    to question the humanity of keeping human beings in such conditions.
+  exits:
+    - roomId: "krytos:r13083"
+      direction: east
+  npcs:
+    - id: "krytos:m13068"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "krytos:m13068"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r13086
+  title: "The Chamber of Meditation"
+  description: >-
+    This is a room used by all in times of personal turmoil, or 
+    for general relaxation. Many guards journey here after 
+    practice to increase their mental prowess as well as physical.
+  exits:
+    - roomId: "krytos:r13087"
+      direction: up
+    - roomId: "krytos:r13083"
+      direction: down
+  npcs:
+    - id: "krytos:m13066"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r13087
+  title: "An Empty Chamber"
+  description: >-
+    There used to be some purpose for this room, but no more. 
+    It's just a large empty space now used for whatever purpose 
+    the lord of the tower can think of.
+  exits:
+    - roomId: "krytos:r13088"
+      direction: east
+    - roomId: "krytos:r13089"
+      direction: up
+    - roomId: "krytos:r13086"
+      direction: down
+  npcs:
+    - id: "krytos:m13066"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r13088
+  title: "The Chamber of Deflowerment"
+  description: >-
+    You see many young girls crying in this chamber, and can only 
+    wonder crying about what. Then you see the sadistic toys, 
+    some white spotches, Lord Krytos's personal clothes, 
+    and you get the idea.
+  exits:
+    - roomId: "krytos:r13087"
+      direction: west
+  npcs:
+    - id: "krytos:m13075"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "krytos:m13075"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "krytos:m13075"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r13089
+  title: "The Winding Stairs"
+  description: >-
+    As you wander the stairs, with a pounding heart you realize you are now hopelessly LOST.
+  exits:
+    - roomId: "krytos:r13090"
+      direction: east
+    - roomId: "krytos:r13087"
+      direction: down
+- id: r13090
+  title: "The Entrance to Lord Krytos' Bedroom"
+  description: >-
+    You are standing in front of Lord Krytos' bedroom. 
+    His Elite Guards are here to stop you from going any further.
+  exits:
+    - roomId: "krytos:r13091"
+      direction: north
+    - roomId: "krytos:r13092"
+      direction: east
+    - roomId: "krytos:r13093"
+      direction: west
+    - roomId: "krytos:r13089"
+      direction: down
+  npcs:
+    - id: "krytos:m13065"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r13091
+  title: "Lord Krytos's Bedroom"
+  description: >-
+    You're here finally! You get to meet the great Lord Krytos himself, 
+    as well as become his latest victim. Good Night.
+  exits:
+    - roomId: "krytos:r13090"
+      direction: south
+    - roomId: "krytos:r13105"
+      direction: up
+    - roomId: "krytos:r13099"
+      direction: down
+  npcs:
+    - id: "krytos:m13071"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "krytos:m13072"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r13092
+  title: "The Ladies' Room"
+  description: >-
+    This is the room where the wives of Lord Krytos' guards sleep. 
+    You had best no disturb them, for dispite their good looks, 
+    aren't all that nice.
+  exits:
+    - roomId: "krytos:r13090"
+      direction: west
+  npcs:
+    - id: "krytos:m13070"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r13093
+  title: "The Recreation Room"
+  description: >-
+    This is Lord Krytos' personal recreation room. No one really 
+    knows what he does in here, and most people don't want to know, 
+    except for the two guards standing at the door.
+  exits:
+    - roomId: "krytos:r13090"
+      direction: east
+  npcs:
+    - id: "krytos:m13066"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r13094
+  title: "The Forbidden Area"
+  description: >-
+    You have entered a hidden room that is unnervingly silent, 
+    yet you can hear heavy breathing in the corner. 
+    Maybe you should find the exit and leave.
+  exits:
+    - roomId: "krytos:r13095"
+      direction: north
+    - roomId: "krytos:r13096"
+      direction: south
+    - roomId: "krytos:r13098"
+      direction: east
+    - roomId: "krytos:r13097"
+      direction: west
+    - roomId: "krytos:r13079"
+      direction: up
+  npcs:
+    - id: "krytos:m13076"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r13095
+  title: "The Forbidden Arena"
+  description: >-
+    This was used for the lord's personal entertainment, 
+    until he ran out of monsters to bring in. Still, you 
+    had best be on your guard, for it is not known what remains here.
+  exits:
+    - roomId: "krytos:r13099"
+      direction: north
+    - roomId: "krytos:r13094"
+      direction: south
+  npcs:
+    - id: "krytos:m13078"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r13096
+  title: "The Forbidden Arena"
+  description: >-
+    This was used for the lord's personal entertainment, 
+    until he ran out of monsters to bring in. Still, you 
+    had best be on your guard, for it is not known what remains here.
+  exits:
+    - roomId: "krytos:r13094"
+      direction: north
+  npcs:
+    - id: "krytos:m13078"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r13097
+  title: "The Forbidden Arena"
+  description: >-
+    This was used for the lord's personal entertainment, 
+    until he ran out of monsters to bring in. Still, you 
+    had best be on your guard, for it is not known what remains here.
+  exits:
+    - roomId: "krytos:r13094"
+      direction: east
+  npcs:
+    - id: "krytos:m13078"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r13098
+  title: "The Forbidden Arena"
+  description: >-
+    This was used for the lord's personal entertainment, 
+    until he ran out of monsters to bring in. Still, you 
+    had best be on your guard, for it is not known what remains here.
+  exits:
+    - roomId: "krytos:r13094"
+      direction: west
+  npcs:
+    - id: "krytos:m13078"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r13099
+  title: "A secret shortcut"
+  description: >-
+    What is this...a hidden shortcut through the tower? 
+    It could be...or it could be just another dead end.
+  exits:
+    - roomId: "krytos:r13100"
+      direction: north
+    - roomId: "krytos:r13095"
+      direction: south
+    - roomId: "krytos:r13091"
+      direction: up
+  npcs:
+    - id: "krytos:m13065"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r13100
+  title: "A Dungeon"
+  description: >-
+    This, unknown to the world, is where Lord Krytos kept 
+    prisoners from wars, insurrections, or just out of 
+    sadistic pleasure. It is extremely dirty and smelly, 
+    and you can barely see in here.
+  exits:
+    - roomId: "krytos:r13101"
+      direction: north
+    - roomId: "krytos:r13099"
+      direction: south
+    - roomId: "krytos:r13103"
+      direction: east
+    - roomId: "krytos:r13102"
+      direction: west
+  npcs:
+    - id: "krytos:m13079"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r13101
+  title: "More of the Dungeon"
+  description: >-
+    You wander through more of the dungeon, wondering how 
+    big it is, and how many prisoners it kept.
+  exits:
+    - roomId: "krytos:r13100"
+      direction: south
+  npcs:
+    - id: "krytos:m13079"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r13102
+  title: "More of the Dungeon"
+  description: >-
+    You wander through more of the dungeon, wondering 
+    how big it is, and how many prisoners it kept.
+  exits:
+    - roomId: "krytos:r13100"
+      direction: east
+  npcs:
+    - id: "krytos:m13079"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r13103
+  title: "More of the Dungeon"
+  description: >-
+    You wander through more of the dungeon, wondering 
+    how big it is, and how many prisoners it kept.
+  exits:
+    - roomId: "krytos:r13100"
+      direction: west
+  npcs:
+    - id: "krytos:m13079"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r13104
+  title: "Mouth of the River"
+  description: >-
+    You are at the northern mouth of the river. 
+    There is a pier here that leads to land to
+    the south.
+  exits:
+    - roomId: "joker1:r24209"
+      direction: north
+    - roomId: "krytos:r13065"
+      direction: south
+- id: r13105
+  title: "Tower Crown"
+  description: >-
+    WOW! What a sight! From here you are at least 800 feet 
+    up from the highest patch of land this tower was built on. 
+    The freezing air passes through your hair and past your 
+    head as you experience new found freedom.
+  exits:
+    - roomId: "krytos:r13091"
+      direction: down
+  npcs:
+    - id: "krytos:m13080"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r13106
+  title: "The Underground"
+  description: >-
+    You have entered a long hidden room deep under the tower. 
+    It is completely dark, and you strain to see anything at all.
+  exits:
+    - roomId: "krytos:r13107"
+      direction: north
+    - roomId: "krytos:r13111"
+      direction: south
+    - roomId: "krytos:r13109"
+      direction: east
+    - roomId: "krytos:r13110"
+      direction: west
+    - roomId: "krytos:r13066"
+      direction: up
+- id: r13107
+  title: "The Hidden Tunnels"
+  description: >-
+    You are standing in the middle of wet gooey muck that surrounds 
+    your feet. This tunnel is damp and smelly, probably used as a sewer.
+  exits:
+    - roomId: "krytos:r13106"
+      direction: south
+- id: r13108
+  title: "Another Underground Tunnel"
+  description: >-
+    This is more of the strange underground tunnel system. 
+    Hope you don't get too lost.
+- id: r13109
+  title: "More Tunnels"
+  description: >-
+    There's more? You can't believe your eyes as you try to 
+    get out of here - More gray walls block your way out. What to do?
+  exits:
+    - roomId: "krytos:r13106"
+      direction: west
+- id: r13110
+  title: "A Dark Room"
+  description: >-
+    You can't see anything in here. Best try to feel your way back out.
+  exits:
+    - roomId: "krytos:r13106"
+      direction: east
+  npcs:
+    - id: "krytos:m13081"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "krytos:m13081"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "krytos:m13081"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "krytos:m13081"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r13111
+  title: "A Death Trap"
+  description: >-
+    You've stumbled upon the lair of a beast, and a not 
+    too friendly one at that. Prepare to die.
+  exits:
+    - roomId: "krytos:r13106"
+      direction: north
+    - roomId: "krytos:r13112"
+      direction: down
+  npcs:
+    - id: "krytos:m13082"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r13112
+  title: "Even further out"
+  description: >-
+    This is insane. You shouldn't be here. Go journey 
+    closer to the surface of the earth. Head back up.
+  exits:
+    - roomId: "krytos:r13111"
+      direction: up
+    - roomId: "krytos:r13113"
+      direction: down
+- id: r13113
+  title: "The Unknown Abyss"
+  description: >-
+    As you finally reach the bottom of the stairs, you hope 
+    this is the end of the journey down. You can feel your 
+    ears popping from the pressure.
+  exits:
+    - roomId: "krytos:r13114"
+      direction: north
+    - roomId: "krytos:r13115"
+      direction: south
+    - roomId: "krytos:r13117"
+      direction: east
+    - roomId: "krytos:r13116"
+      direction: west
+    - roomId: "krytos:r13112"
+      direction: up
+- id: r13114
+  title: "The Endless Abyss"
+  description: >-
+    The rooms extend out from the central abyss, making 
+    finding your way back harder than you think. 
+    Should have brought a map.
+  exits:
+    - roomId: "krytos:r13113"
+      direction: south
+- id: r13115
+  title: "The Endless Abyss"
+  description: >-
+    More weblike paths make getting out of here difficult. 
+    The lack of light sure doesn't help any.
+  exits:
+    - roomId: "krytos:r13113"
+      direction: north
+- id: r13116
+  title: "The Endless Abyss"
+  description: >-
+    Could it be you are lost? Going in circles? Or are you 
+    just walking into the same room over and over again?
+  exits:
+    - roomId: "krytos:r13113"
+      direction: east
+- id: r13117
+  title: "The Endless Abyss"
+  description: >-
+    Your heart beats faster as you try to find a way out. 
+    What to do? You are hopelessly lost, and there is no one to help you.
+  exits:
+    - roomId: "krytos:r13118"
+      direction: east
+    - roomId: "krytos:r13113"
+      direction: west
+- id: r13118
+  title: "The End!"
+  description: >-
+    Finally! You've reached the end of the abyss, and can 
+    start planning your way back all over again. 
+    The Gods laugh at your misery.
+  exits:
+    - roomId: "krytos:r13117"
+      direction: west
+  npcs:
+    - id: "krytos:m13083"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r13119
+  title: "The Coup"
+  description: >-
+    Look at all the little chickens! They're everywhere! 
+    Maybe you can steal one without anyone noticing.
+  exits:
+    - roomId: "krytos:r13121"
+      direction: north
+    - roomId: "krytos:r13122"
+      direction: south
+    - roomId: "krytos:r13120"
+      direction: east
+    - roomId: "krytos:r13078"
+      direction: up
+  npcs:
+    - id: "krytos:m13084"
+      respawnChance: 100
+      maxLoad: "11"
+    - id: "krytos:m13084"
+      respawnChance: 100
+      maxLoad: "11"
+    - id: "krytos:m13084"
+      respawnChance: 100
+      maxLoad: "11"
+    - id: "krytos:m13084"
+      respawnChance: 100
+      maxLoad: "11"
+    - id: "krytos:m13084"
+      respawnChance: 100
+      maxLoad: "11"
+- id: r13120
+  title: "More Chickens!"
+  description: >-
+    There are still more chickens in here! How many does this tower keep??
+  exits:
+    - roomId: "krytos:r13119"
+      direction: west
+  npcs:
+    - id: "krytos:m13084"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "krytos:m13084"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r13121
+  title: "More Chickens!"
+  description: >-
+    There are still more chickens in here! How many does this tower keep??
+  exits:
+    - roomId: "krytos:r13119"
+      direction: south
+  npcs:
+    - id: "krytos:m13084"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "krytos:m13084"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r13122
+  title: "More Chickens!"
+  description: >-
+    There are still more chickens in here! How many does this tower keep??
+  exits:
+    - roomId: "krytos:r13119"
+      direction: north
+  npcs:
+    - id: "krytos:m13084"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "krytos:m13084"
+      respawnChance: 100
+      maxLoad: "8"

@@ -1,0 +1,9 @@
+---
+body: |
+  Syntax: cast <charm> player/mob
+  Syntax: order <player> action
+  
+  This command allows you to charm players and mobs, but due to some abuses
+  it's power has been greatly reduced. 
+  
+  - charm

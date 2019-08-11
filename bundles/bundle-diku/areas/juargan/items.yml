@@ -1,0 +1,72 @@
+- id: o4700
+  name: "key small"
+  roomDesc: "A small key of red rock lies here on the ground."
+  keywords: ["key","small"]
+  description: "A small key of red rock lies here on the ground."
+  type: KEY
+- id: o4701
+  name: "pick mining"
+  roomDesc: "A small pick lies here on the ground."
+  keywords: ["pick","mining"]
+  description: "A small pick lies here on the ground."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o4702
+  name: "helm dwarven"
+  roomDesc: "A large dwarven helm lies here on the ground."
+  keywords: ["helm","dwarven"]
+  description: "A large dwarven helm lies here on the ground."
+  type: HEAVYARMOR
+- id: o4703
+  name: "plate dwarven breast"
+  roomDesc: "A dwarven breast plate lies here on the ground."
+  keywords: ["plate","dwarven","breast"]
+  description: "A dwarven breast plate lies here on the ground."
+  type: HEAVYARMOR
+- id: o4704
+  name: "shield large dwarven"
+  roomDesc: "A large dwarven shield lies here on the ground."
+  keywords: ["shield","large","dwarven"]
+  description: "A large dwarven shield lies here on the ground."
+  type: SHIELD
+- id: o4705
+  name: "coins large pile"
+  roomDesc: "A large pile of coins are piled here."
+  keywords: ["coins","large","pile"]
+  description: "A large pile of coins are piled here."
+  type: MONEY
+- id: o4706
+  name: "dwarven battle axe"
+  roomDesc: "A large battle axe lies here on the ground."
+  keywords: ["dwarven","battle","axe"]
+  description: "A large battle axe lies here on the ground."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o4707
+  name: "large stone sarcophagus"
+  roomDesc: "A large stone sarcophagus lies here, the lid fallen on the floor."
+  keywords: ["large","stone","sarcophagus"]
+  description: "A large stone sarcophagus lies here, the lid fallen on the floor."
+  type: CONTAINER
+  items: ["juargan:o4708"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o4708
+  name: "staff ruling large"
+  roomDesc: "A large and intricate staff rests here."
+  keywords: ["staff","ruling","large"]
+  description: "A large and intricate staff rests here."
+  type: STAFF
+- id: o4709
+  name: "dragonquest666"
+  roomDesc: "A Ruby Dragonstone lies here gleaming."
+  keywords: ["dragonquest666"]
+  description: "A Ruby Dragonstone lies here gleaming."
+  type: FOOD

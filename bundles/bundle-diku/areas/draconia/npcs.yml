@@ -1,0 +1,558 @@
+- id: m2200
+  keywords: ["hatchling","dragon","baby"]
+  name: "the dragon hatchling"
+  description: >-
+    A dragon hatchling is here, chewing on a bone.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "draconia:o2231": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 0
+- id: m2201
+  keywords: ["draconian"]
+  name: "the Draconian"
+  description: >-
+    The Draconian is standing here.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -900
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "draconia:o2200": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 1
+- id: m2202
+  keywords: ["master"]
+  name: "the dragon master"
+  description: >-
+    The lord of this crypt is here.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 33250
+          max: 36750
+      pools:
+        "draconia:o2202": 75
+        "draconia:o2281": 75
+        "draconia:o2271": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 1
+- id: m2203
+  keywords: ["man","mage","wizard"]
+  name: "a powerful mage"
+  description: >-
+    A man is here, studying some books.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 570
+          max: 630
+      pools:
+        "draconia:o2223": 75
+        "draconia:o2250": 75
+        "draconia:o2261": 75
+        "draconia:o2251": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 1
+- id: m2204
+  keywords: ["cleric","draconian"]
+  name: "the holy Draconian"
+  description: >-
+    A Draconian is here, deep in thought.          
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -900
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 380
+          max: 420
+      pools:
+        "draconia:o2220": 75
+        "draconia:o2211": 75
+        "draconia:o2210": 75
+        "draconia:o2270": 75
+        "draconia:o2252": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 1
+- id: m2205
+  keywords: ["king","draconian"]
+  name: "the Draconian King"
+  description: >-
+    A Draconian wearing fine clothes is here, pondering his greatness.          
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 760
+          max: 840
+      pools:
+        "draconia:o2222": 75
+        "draconia:o2276": 75
+        "draconia:o2242": 75
+        "draconia:o2254": 75
+        "draconia:o2232": 75
+  metadata:
+    areaId: 18
+    exp_level: 1200
+    sex: 1
+- id: m2206
+  keywords: ["concubine","draconian"]
+  name: "a concubine"
+  description: >-
+    A concubine is resting here. 
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "draconia:o2201": 75
+        "draconia:o2233": 75
+        "draconia:o2240": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 2
+- id: m2207
+  keywords: ["bodyguard","draconian"]
+  name: "A bodyguard"
+  description: >-
+    A bodyguard is here, staring at you menacingly. 
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "draconia:o2286": 75
+        "draconia:o2260": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 1
+- id: m2220
+  keywords: ["tiamat","dragon"]
+  name: "Tiamat"
+  description: >-
+    A five headed dragon hisses at you as you enter this room.
+  level: 28
+  attributes:
+    health: 600
+    armor: 100
+    hitroll: 25
+    damroll: 25
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "draconia:o2224": 75
+  metadata:
+    areaId: 18
+    exp_level: 2000
+    sex: 2
+- id: m2221
+  keywords: ["dragon","red"]
+  name: "the Great Red Dragon"
+  description: >-
+    A red dragon is here, contemplating your existence. 
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "draconia:o2275": 75
+        "draconia:o2245": 75
+        "draconia:o2299": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 1
+- id: m2222
+  keywords: ["dragon","black"]
+  name: "the Great Black Dragon"
+  description: >-
+    A black dragon is here, laughing at your insolence. 
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -900
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 19000
+          max: 21000
+      pools:
+        "draconia:o2280": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 1
+- id: m2223
+  keywords: ["dragon","white"]
+  name: "the Great White Dragon"
+  description: >-
+    A white dragon is here, waiting for you. 
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 33250
+          max: 36750
+      pools:
+        "draconia:o2246": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 2
+- id: m2225
+  keywords: ["dragon","green"]
+  name: "the Ancient Green Dragon"
+  description: >-
+    A green dragon is here, looking distraught. 
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 19000
+          max: 21000
+      pools:
+        "draconia:o2261": 75
+        "draconia:o2241": 75
+        "draconia:o2285": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 2
+- id: m2226
+  keywords: ["hydra"]
+  name: "a large hydra"
+  description: >-
+    A hydra is here, blocking the doorway. 
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -800
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "draconia:o2244": 75
+        "draconia:o2234": 75
+        "draconia:o2243": 75
+        "draconia:o2223": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 0
+- id: m2227
+  keywords: ["slave","human"]
+  name: "A human slave"
+  description: >-
+    A Human slave is here, hard at work.          
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 1
+- id: m2240
+  keywords: ["zombie","draconian"]
+  name: "a Draconian zombie"
+  description: >-
+    A Draconian zombie is here, staring at nothing in particular.
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 0
+- id: m2241
+  keywords: ["dragon","phase"]
+  name: "the phase dragon"
+  description: >-
+    A Phase Dragon is darting around the room.          
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 1
+- id: m2242
+  keywords: ["fool","draconian"]
+  name: "the draconian fool"
+  description: >-
+    A Fool is here, making fun of you.          
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 1
+- id: m2243
+  keywords: ["queen","draconian"]
+  name: "the Draconian Queen"
+  description: >-
+    A Female Draconian sits, here, looking very important.          
+  level: 5
+  attributes:
+    health: 300
+    armor: 5
+    hitroll: 5
+    damroll: 5
+    alignment: -600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "draconia:o2203": 75
+        "draconia:o2204": 75
+        "draconia:o2201": 75
+  metadata:
+    areaId: 18
+    exp_level: 1000
+    sex: 2

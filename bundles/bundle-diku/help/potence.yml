@@ -1,0 +1,20 @@
+---
+body: |
+  This Discipline defines the superior strength that vampires often 
+  possess. This physical might allows the user to inflict much larger 
+  amounts of damage in combat than normal.
+  
+  #cCrush (Rank 1)
+  #eGain increased damage
+  
+  #cThe Fist of Lillith (Rank 2)
+  #eGains a large boost to dam (3 rounds)
+  
+  #cEarthshock (Rank 3)
+  #eStrike the ground making it unsteady reducing dodge/parry for enemies and dealing damage.
+  
+  #cAftershock (Rank 4)
+  #eGain the ability to absorb damage
+  
+  #cThe Forger's Hammer (Rank 5)
+  #eCan add additional hit/dam to their weapons.

@@ -1,0 +1,444 @@
+- id: m25500
+  keywords: ["vishna'ak","warrior"]
+  name: "a Vishna'Ak Warrior"
+  description: >-
+    An insectoid creature is observing you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vishnaak:o25505": 75
+        "vishnaak:o25527": 75
+        "vishnaak:o25501": 75
+        "vishnaak:o25521": 75
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 1
+- id: m25501
+  keywords: ["vishna'ak","guard"]
+  name: "a Vishna'Ak Guard"
+  description: >-
+    An insectoid creature is observing you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vishnaak:o25507": 75
+        "vishnaak:o25529": 75
+        "vishnaak:o25503": 75
+        "vishnaak:o25523": 75
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 1
+- id: m25502
+  keywords: ["vishna'ak","elder"]
+  name: "a Vishna'Ak Elder"
+  description: >-
+    An insectoid creature is observing you.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vishnaak:o25518": 75
+        "vishnaak:o25509": 75
+        "vishnaak:o25537": 75
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 2
+- id: m25503
+  keywords: ["vishna'ak","priest"]
+  name: "a Vishna'Ak Priest"
+  description: >-
+    An insectoid creature observe you intently.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vishnaak:o25517": 75
+        "vishnaak:o25511": 75
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 2
+- id: m25504
+  keywords: ["vishna'ak","child"]
+  name: "a Vishna'Ak Child"
+  description: >-
+    An insectoid creature observes you
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 2
+- id: m25505
+  keywords: ["vishna'ak","child"]
+  name: "a Vishna'Ak Child"
+  description: >-
+    An insectoid creature observes you
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 1
+- id: m25506
+  keywords: ["vishna'ak","hunter"]
+  name: "a Vishna'Ak Hunter"
+  description: >-
+    An insectoid creature searcges for food.
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vishnaak:o25505": 75
+        "vishnaak:o25528": 75
+        "vishnaak:o25513": 75
+        "vishnaak:o25501": 75
+        "vishnaak:o25521": 75
+        "vishnaak:o25525": 75
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 1
+- id: m25507
+  keywords: ["vishna'ak","warrior"]
+  name: "a dark Vishna'Ak Warrior"
+  description: >-
+    An insectoid creature attacks you
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vishnaak:o25506": 75
+        "vishnaak:o25527": 75
+        "vishnaak:o25502": 75
+        "vishnaak:o25522": 75
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 1
+- id: m25508
+  keywords: ["vishna'ak","guard"]
+  name: "a dark Vishna'Ak Guard"
+  description: >-
+    An insectoid creature attacks you
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vishnaak:o25508": 75
+        "vishnaak:o25529": 75
+        "vishnaak:o25504": 75
+        "vishnaak:o25524": 75
+        "vishnaak:o25500": 75
+        "vishnaak:o25526": 75
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 1
+- id: m25509
+  keywords: ["vishna'ak","elder"]
+  name: "a dark Vishna'Ak Elder"
+  description: >-
+    An insectoid creature attacks you
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vishnaak:o25516": 75
+        "vishnaak:o25515": 75
+        "vishnaak:o25510": 75
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 2
+- id: m25510
+  keywords: ["vishna'ak","shaman"]
+  name: "a dark Vishna'Ak Shaman"
+  description: >-
+    An insectoid creature attacks you
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vishnaak:o25512": 75
+        "vishnaak:o25534": 75
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 2
+- id: m25511
+  keywords: ["vishna'ak","hunter"]
+  name: "a dark Vishna'Ak Hunter"
+  description: >-
+    An insectoid creature attacks you
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -750
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vishnaak:o25506": 75
+        "vishnaak:o25528": 75
+        "vishnaak:o25514": 75
+        "vishnaak:o25502": 75
+        "vishnaak:o25524": 75
+        "vishnaak:o25526": 75
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 1
+- id: m25512
+  keywords: ["ythaca","demon"]
+  name: "Ythaca the Dark Devourer"
+  description: >-
+    A Greater Demon has been summoned here
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "vishnaak:o25519": 75
+        "vishnaak:o25520": 75
+        "vishnaak:o25535": 75
+        "vishnaak:o25533": 75
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 0
+- id: m25513
+  keywords: ["servitor","demon"]
+  name: "a servitor demon"
+  description: >-
+    A greater demon has been summoned here
+  level: 100
+  attributes:
+    health: 2600
+    armor: 600
+    hitroll: 100
+    damroll: 100
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 82
+    exp_level: 4000
+    sex: 0

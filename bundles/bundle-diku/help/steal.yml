@@ -1,0 +1,18 @@
+---
+body: |
+  Syntax: STEAL coins <character>
+  Syntax: STEAL <object> <character>
+  
+  STEAL attempts to steal coins, or an object, from a character. If you fail
+  against a mob, it will typically attack you. There are *NO* penalties for 
+  using STEAL on other players, except that it announces to the mud when you 
+  fail, so if you spam steal and fail everytime - you spam the mud and that
+  will get you in big trouble.
+  
+  In order to STEAL successfully, you must practice the appropriate skill.
+  
+  *NOTE* - Currently, steal is a useless skill, you will be able to steal
+  NOTHING of value from a a mob you cannot kill and if by some chance
+  you do manage to steal something from a player, it'll probaly be
+  claimed and they'll just type: call all and get it back.
+  

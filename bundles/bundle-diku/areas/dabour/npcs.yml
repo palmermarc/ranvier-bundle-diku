@@ -1,0 +1,443 @@
+- id: m8000
+  keywords: ["dog"]
+  name: "The dog"
+  description: >-
+    The dog sniffs about the street looking for scraps
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dabour:o8015": 75
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8001
+  keywords: ["carpet","merchant"]
+  name: "The carpet merchant"
+  description: >-
+    The merchant sells carpets for a expensive fee
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dabour:o8005": 75
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8002
+  keywords: ["fanatic"]
+  name: "A Suspicious Fanatic"
+  description: >-
+    The fanatic looks at you for signs of witchcraft
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dabour:o8009": 75
+        "dabour:o8008": 75
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8003
+  keywords: ["horse"]
+  name: "horse"
+  description: >-
+    The horse is patiently awaiting its masters return
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8004
+  keywords: ["sheep"]
+  name: "sheep"
+  description: >-
+    A Sheep is standing here looking stupid
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -150
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 0
+- id: m8005
+  keywords: ["cow"]
+  name: "A Cow"
+  description: >-
+    A Cow is standing here chewing its curd
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 0
+- id: m8006
+  keywords: ["Doctors","Receptionist"]
+  name: "The Doctors Receptionist"
+  description: >-
+    The Receptionist does not want you to see the doctor
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8007
+  keywords: ["doctor"]
+  name: "Doctor Tanjin"
+  description: >-
+    The doctor trembles in fear at the thought of being tried for witchcraft
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8008
+  keywords: ["Disciple"]
+  name: "Favoured Ulesim"
+  description: >-
+    Ulesim, is the most favoured of the disciples of Arasham
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dabour:o8010": 75
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8009
+  keywords: ["knight"]
+  name: "Martel the Renegade Knight"
+  description: >-
+    Martel is plotting on ways to destroy the Pandion Order
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dabour:o8016": 75
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8010
+  keywords: ["knight"]
+  name: "Mirrelek"
+  description: >-
+    Mirrelek looks like a prosperous cattle seller
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 300
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8011
+  keywords: ["Arasham"]
+  name: "Holy Arasham"
+  description: >-
+    Arasham is calling the faithful to prayer
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dabour:o8011": 75
+        "dabour:o8000": 75
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8012
+  keywords: ["fanatic"]
+  name: "Religious Fanatic"
+  description: >-
+    The fanatic attacks anyone who does not look like one of the holy
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: -400
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dabour:o8006": 75
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8013
+  keywords: ["prisoner"]
+  name: "Terrified Prisoner"
+  description: >-
+    The prisoner is scared out of its wits
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8014
+  keywords: ["seller"]
+  name: "Holy Item seller"
+  description: >-
+    The man tries to sell you holy relics
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dabour:o8003": 75
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8015
+  keywords: ["seller"]
+  name: "The holy writing seller"
+  description: >-
+    The man tries to sell you holy writings
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "dabour:o8012": 75
+        "dabour:o8013": 75
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1
+- id: m8016
+  keywords: ["Guard"]
+  name: "Arasham's Guard"
+  description: >-
+    This man is here to protect Arasham's Tent
+  level: 120
+  attributes:
+    health: 4800
+    armor: 800
+    hitroll: 150
+    damroll: 150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 16
+    exp_level: 6000
+    sex: 1

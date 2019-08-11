@@ -1,0 +1,12 @@
+title: "New Ofcol"
+metadata:
+  id: 56
+  name: "New Ofcol"
+  createdBy: "hatchet"
+  starting_vnum: 600
+  ending_vnum: 699
+  item_requirements: 0
+  filename: "ofcol2.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

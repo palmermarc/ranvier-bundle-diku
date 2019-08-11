@@ -1,0 +1,9 @@
+---
+body: |
+  Syntax: sacrifice <object>
+  
+  SACRIFICE sacrifices an object to the Gods, who in return give you a certain
+  amount of gold depending on the value of the item sacrificed. The item must be on
+  the ground when you sacrifice it.
+  
+  - sac

@@ -1,0 +1,8 @@
+---
+body: |
+  Syntax: cast 'enchant weapon' <weapon>
+  
+  This spell magically enchants a weapon, increasing its to-hit and to-dam
+  bonuses. The weapon must be un-magical to start with. This spell also
+  causes the weapon to be aligned with the alignment with the caster.
+  

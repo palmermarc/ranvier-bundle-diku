@@ -1,0 +1,12 @@
+title: "Mordor"
+metadata:
+  id: 50
+  name: "Mordor"
+  createdBy: "blind"
+  starting_vnum: 9500
+  ending_vnum: 9599
+  item_requirements: 12000
+  filename: "mordor.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

@@ -1,0 +1,63 @@
+- id: r30000
+  title: "A Stagnant swamp"
+  description: >-
+    You are standing knee high is some smelly shit.
+- id: r30001
+  title: "The Dark Crypt"
+  description: >-
+    You are standing within a small dark crypt.
+    There is a small sign that reads:
+            Recharge incomplete cards
+                at your own risk!
+    
+  exits:
+    - roomId: "midgaard:r3054"
+      direction: up
+  items:
+    - id: "oddsandends:o30040"
+      respawnChance: 75
+- id: r30002
+  title: "The Disconnection Room"
+  description: >-
+    This is the room where everyone goes just before they quit.  If you are a 
+    mortal you should *NOT* be here, so please get out...NOW.
+- id: r30003
+  title: "The elevator"
+  description: >-
+    You are standing inside a small elevator.
+  items:
+    - id: "oddsandends:o30015"
+      respawnChance: 75
+    - id: "oddsandends:o30048"
+      respawnChance: 75
+- id: r30004
+  title: "Ground floor"
+  description: >-
+    You are standing on the ground floor.
+  items:
+    - id: "oddsandends:o30016"
+      respawnChance: 75
+- id: r30005
+  title: "First floor"
+  description: >-
+    You are standing on the first floor.
+  items:
+    - id: "oddsandends:o30017"
+      respawnChance: 75
+- id: r30006
+  title: "Second floor"
+  description: >-
+    You are standing on the second floor.
+  items:
+    - id: "oddsandends:o30018"
+      respawnChance: 75
+- id: r30007
+  title: "Third floor"
+  description: >-
+    You are standing on the third floor.
+  items:
+    - id: "oddsandends:o30019"
+      respawnChance: 75
+- id: r30008
+  title: "The object room"
+  description: >-

@@ -1,0 +1,162 @@
+- id: r700
+  title: "Welcome to Vampire Wars MUD"
+  description: >-
+    There are several things that you need to know when playing
+    this MUD, so these rooms are designed to show you the basics
+    of playing Vampire Wars. The first thing you need to know
+    is how to move around. Type "exits" to see where you can go.
+    Then type the direction that you wish to go. North takes you
+    to the next room, where you will learn something about your
+    armour class. To bring up this description again, type "look"
+  exits:
+    - roomId: "newbie:r701"
+      direction: north
+    - roomId: "midgaard:r3054"
+      direction: south
+- id: r701
+  title: "Your Armour Class"
+  description: >-
+    Now type "score". This brings up a screen of information
+    about your character. One important piece of information
+    is your armour class - this determines how tough you are
+    and how resistant to attacks you will be. Basically, the
+    lower your armour class, the less likely you are to be 
+    hurt. In the score sheet, your armour class is represented
+    by the value next to "ac". To lower this value, you must
+    wear armour and other equipment. To see what you are 
+    currently wearing, type "equipment".
+  exits:
+    - roomId: "newbie:r702"
+      direction: north
+    - roomId: "newbie:r700"
+      direction: south
+- id: r702
+  title: "Killing"
+  description: >-
+    In this room there is a monster called a munchkin. 
+    It is a very weak monster, so you won't have any trouble 
+    killing it - type "consider munchkin". However, it is wearing a munchkin helmet that you 
+    might want to use. To kill it, type "kill munchkin". When 
+    it is dead, you will see a message saying "The corpse of 
+    the munchkin contains : a munchkin helmet". Take the helmet 
+    by typing "get helmet corpse". Now wear it by typing 
+    "wear helmet". If you type "score" now, you will see that 
+    your ac has gone down, and you have more exp. We will learn 
+    about this later. Now go north to the next room.
+  exits:
+    - roomId: "newbie:r703"
+      direction: north
+    - roomId: "newbie:r701"
+      direction: south
+  npcs:
+    - id: "newbie:m700"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r703
+  title: "Weapons"
+  description: >-
+    In this room is another monster. This monster, however, 
+    is equipped with a munckin sword. Kill it, and then you 
+    can take the sword from the corpse and wield it 
+    (type "wield sword"). Now when  you type "score", you 
+    will notice that your hit and dam values have gone up. 
+    These values mean that you will be more likely to hit 
+    your opponent and do more damage to them during combat. 
+    The higher these values, the better.
+    One more thing you might like to do is sacrifice the 
+    corpse. This will give you one piece of gold, and the 
+    satisfaction that your opponent - type "sacrifice 
+    corpse". Proceed north to the next room.
+  exits:
+    - roomId: "newbie:r704"
+      direction: north
+    - roomId: "newbie:r702"
+      direction: south
+  npcs:
+    - id: "newbie:m700"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r704
+  title: "Spells"
+  description: >-
+    After you have read this, type "prac1" and then "prac2" 
+    (Remember you can view this description again by typing 
+    "look"). These screens show what you have practise - most
+    of them are spells. You will notice that they are all 
+    on 0% - you can increase this by typing "practise" 
+    followed by the spell name. This uses up some experience
+    points, which you have gained by killing the munchkins 
+    in the previous rooms. When you have done this, go north
+    to the next room.
+  exits:
+    - roomId: "newbie:r705"
+      direction: north
+    - roomId: "newbie:r703"
+      direction: south
+- id: r705
+  title: "Training"
+  description: >-
+    Now we will find out some of the other things that you
+    use experience points for. Type "train". This shows 
+    you the things you can train, and for how many experience
+    points. Type "train hp" - this increases your hit points,
+    which means you will last longer in fights. To save you
+    time, you can type "train hp all", meaning that all your
+    experience points will be used to train your hit points.
+    If you now type "score" the you will see that your total 
+    hit points have gone up. Go north to the next room now.
+  exits:
+    - roomId: "newbie:r706"
+      direction: north
+    - roomId: "newbie:r704"
+      direction: south
+- id: r706
+  title: "Doors"
+  description: >-
+    Now try to go east. You will see that there is a door
+    blocking your way - this means that it doesn't show up
+    when you type "exits". To open the door, all you have 
+    to do is type "open door", and then the exit east will 
+    show up when you type "exits". Go east, and then you can 
+    return to proceed north.
+  exits:
+    - roomId: "newbie:r707"
+      direction: north
+    - roomId: "newbie:r705"
+      direction: south
+    - roomId: "newbie:r708"
+      direction: east
+- id: r707
+  title: "Time to enter the game..."
+  description: >-
+    Now you are ready to enter Vampire Wars. You now know how
+    to move around and kill monsters, how to equip yourself 
+    and train yourself to a higher standard. These are the bare
+    basics that you will need to survive in Vampire Wars, but
+    there is much, much more to discover. A couple of things 
+    you might like to try are - ansi (this *may* give you colour),
+    autoexit (shows you the obvious exits to the room on 
+    entering), autoloot and autosac (these get all from a corpse
+    and sacrifice it automatically after a kill - be careful 
+    though, because you may sacrifice a corpse which has something
+    valuable in it, as you have a limit to the amount you can 
+    carry). Also, all commands can be shortened - for instance, 
+    "look" can be just "l" and "east" can be just "e". 
+    Now, type "recall" to enter the game!
+  exits:
+    - roomId: "newbie:r706"
+      direction: south
+- id: r708
+  title: "Just a room."
+  description: >-
+    Now you can return West to go on North.
+  exits:
+    - roomId: "newbie:r706"
+      direction: west
+- id: r709
+  title: "A room"
+  description: >-
+    You are standing in room #12.
+  exits:
+    - roomId: "newbie:r700"
+      direction: north

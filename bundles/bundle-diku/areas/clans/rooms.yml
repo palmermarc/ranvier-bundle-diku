@@ -1,0 +1,1023 @@
+- id: r24900
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24981"
+      direction: south
+    - roomId: "clans:r24901"
+      direction: east
+    - roomId: "clans:r24904"
+      direction: west
+    - roomId: "castle:r24318"
+      direction: up
+- id: r24901
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24937"
+      direction: north
+    - roomId: "clans:r24948"
+      direction: south
+    - roomId: "clans:r24902"
+      direction: east
+    - roomId: "clans:r24900"
+      direction: west
+- id: r24902
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24959"
+      direction: north
+    - roomId: "clans:r24970"
+      direction: south
+    - roomId: "clans:r24903"
+      direction: east
+    - roomId: "clans:r24901"
+      direction: west
+- id: r24903
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24988"
+      direction: north
+    - roomId: "clans:r24905"
+      direction: south
+    - roomId: "clans:r24904"
+      direction: east
+    - roomId: "clans:r24902"
+      direction: west
+- id: r24904
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24915"
+      direction: north
+    - roomId: "clans:r24926"
+      direction: south
+    - roomId: "clans:r24900"
+      direction: east
+    - roomId: "clans:r24903"
+      direction: west
+- id: r24905
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24903"
+      direction: north
+    - roomId: "clans:r24907"
+      direction: south
+- id: r24906
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24909"
+      direction: south
+    - roomId: "clans:r24907"
+      direction: east
+- id: r24907
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24905"
+      direction: north
+    - roomId: "clans:r24910"
+      direction: south
+    - roomId: "clans:r24908"
+      direction: east
+    - roomId: "clans:r24906"
+      direction: west
+- id: r24908
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24911"
+      direction: south
+    - roomId: "clans:r24907"
+      direction: west
+- id: r24909
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24906"
+      direction: north
+    - roomId: "clans:r24912"
+      direction: south
+    - roomId: "clans:r24910"
+      direction: east
+- id: r24910
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24907"
+      direction: north
+    - roomId: "clans:r24913"
+      direction: south
+    - roomId: "clans:r24911"
+      direction: east
+    - roomId: "clans:r24909"
+      direction: west
+- id: r24911
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24908"
+      direction: north
+    - roomId: "clans:r24987"
+      direction: south
+    - roomId: "clans:r24910"
+      direction: west
+- id: r24912
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24909"
+      direction: north
+    - roomId: "clans:r24913"
+      direction: east
+- id: r24913
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24910"
+      direction: north
+    - roomId: "clans:r24914"
+      direction: south
+    - roomId: "clans:r24987"
+      direction: east
+    - roomId: "clans:r24912"
+      direction: west
+- id: r24914
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24913"
+      direction: north
+- id: r24915
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24917"
+      direction: north
+    - roomId: "clans:r24904"
+      direction: south
+- id: r24916
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24919"
+      direction: north
+    - roomId: "clans:r24917"
+      direction: east
+- id: r24917
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24920"
+      direction: north
+    - roomId: "clans:r24915"
+      direction: south
+    - roomId: "clans:r24918"
+      direction: east
+    - roomId: "clans:r24916"
+      direction: west
+- id: r24918
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24921"
+      direction: north
+    - roomId: "clans:r24917"
+      direction: west
+- id: r24919
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24922"
+      direction: north
+    - roomId: "clans:r24916"
+      direction: south
+    - roomId: "clans:r24920"
+      direction: east
+- id: r24920
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24923"
+      direction: north
+    - roomId: "clans:r24917"
+      direction: south
+    - roomId: "clans:r24921"
+      direction: east
+    - roomId: "clans:r24919"
+      direction: west
+- id: r24921
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24924"
+      direction: north
+    - roomId: "clans:r24918"
+      direction: south
+    - roomId: "clans:r24920"
+      direction: west
+- id: r24922
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24919"
+      direction: south
+    - roomId: "clans:r24923"
+      direction: east
+- id: r24923
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24925"
+      direction: north
+    - roomId: "clans:r24920"
+      direction: south
+    - roomId: "clans:r24924"
+      direction: east
+    - roomId: "clans:r24922"
+      direction: west
+- id: r24924
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24921"
+      direction: south
+    - roomId: "clans:r24923"
+      direction: west
+- id: r24925
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24923"
+      direction: south
+- id: r24926
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24904"
+      direction: north
+    - roomId: "clans:r24928"
+      direction: south
+- id: r24927
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24930"
+      direction: south
+    - roomId: "clans:r24928"
+      direction: east
+- id: r24928
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24926"
+      direction: north
+    - roomId: "clans:r24931"
+      direction: south
+    - roomId: "clans:r24929"
+      direction: east
+    - roomId: "clans:r24927"
+      direction: west
+- id: r24929
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24932"
+      direction: south
+    - roomId: "clans:r24928"
+      direction: west
+- id: r24930
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24927"
+      direction: north
+    - roomId: "clans:r24933"
+      direction: south
+    - roomId: "clans:r24931"
+      direction: east
+- id: r24931
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24928"
+      direction: north
+    - roomId: "clans:r24934"
+      direction: south
+    - roomId: "clans:r24932"
+      direction: east
+    - roomId: "clans:r24930"
+      direction: west
+- id: r24932
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24929"
+      direction: north
+    - roomId: "clans:r24935"
+      direction: south
+    - roomId: "clans:r24931"
+      direction: west
+- id: r24933
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24930"
+      direction: north
+    - roomId: "clans:r24934"
+      direction: east
+- id: r24934
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24931"
+      direction: north
+    - roomId: "clans:r24936"
+      direction: south
+    - roomId: "clans:r24935"
+      direction: east
+    - roomId: "clans:r24933"
+      direction: west
+- id: r24935
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24932"
+      direction: north
+    - roomId: "clans:r24934"
+      direction: west
+- id: r24936
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24934"
+      direction: north
+- id: r24937
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24939"
+      direction: north
+    - roomId: "clans:r24901"
+      direction: south
+- id: r24938
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24941"
+      direction: north
+    - roomId: "clans:r24939"
+      direction: east
+- id: r24939
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24942"
+      direction: north
+    - roomId: "clans:r24937"
+      direction: south
+    - roomId: "clans:r24940"
+      direction: east
+    - roomId: "clans:r24938"
+      direction: west
+- id: r24940
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24943"
+      direction: north
+    - roomId: "clans:r24939"
+      direction: west
+- id: r24941
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24944"
+      direction: north
+    - roomId: "clans:r24938"
+      direction: south
+    - roomId: "clans:r24942"
+      direction: east
+- id: r24942
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24945"
+      direction: north
+    - roomId: "clans:r24939"
+      direction: south
+    - roomId: "clans:r24943"
+      direction: east
+    - roomId: "clans:r24941"
+      direction: west
+- id: r24943
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24946"
+      direction: north
+    - roomId: "clans:r24940"
+      direction: south
+    - roomId: "clans:r24942"
+      direction: west
+- id: r24944
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24941"
+      direction: south
+    - roomId: "clans:r24945"
+      direction: east
+- id: r24945
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24947"
+      direction: north
+    - roomId: "clans:r24942"
+      direction: south
+    - roomId: "clans:r24946"
+      direction: east
+    - roomId: "clans:r24944"
+      direction: west
+- id: r24946
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24943"
+      direction: south
+    - roomId: "clans:r24945"
+      direction: west
+- id: r24947
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24945"
+      direction: south
+- id: r24948
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24901"
+      direction: north
+    - roomId: "clans:r24950"
+      direction: south
+- id: r24949
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24952"
+      direction: south
+    - roomId: "clans:r24950"
+      direction: east
+- id: r24950
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24948"
+      direction: north
+    - roomId: "clans:r24953"
+      direction: south
+    - roomId: "clans:r24951"
+      direction: east
+    - roomId: "clans:r24949"
+      direction: west
+- id: r24951
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24954"
+      direction: south
+    - roomId: "clans:r24950"
+      direction: west
+- id: r24952
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24949"
+      direction: north
+    - roomId: "clans:r24955"
+      direction: south
+    - roomId: "clans:r24953"
+      direction: east
+- id: r24953
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24950"
+      direction: north
+    - roomId: "clans:r24956"
+      direction: south
+    - roomId: "clans:r24954"
+      direction: east
+    - roomId: "clans:r24952"
+      direction: west
+- id: r24954
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24951"
+      direction: north
+    - roomId: "clans:r24957"
+      direction: south
+    - roomId: "clans:r24953"
+      direction: west
+- id: r24955
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24952"
+      direction: north
+    - roomId: "clans:r24956"
+      direction: east
+- id: r24956
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24953"
+      direction: north
+    - roomId: "clans:r24958"
+      direction: south
+    - roomId: "clans:r24957"
+      direction: east
+    - roomId: "clans:r24955"
+      direction: west
+- id: r24957
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24954"
+      direction: north
+    - roomId: "clans:r24956"
+      direction: west
+- id: r24958
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24956"
+      direction: north
+- id: r24959
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24961"
+      direction: north
+    - roomId: "clans:r24902"
+      direction: south
+- id: r24960
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24963"
+      direction: north
+    - roomId: "clans:r24961"
+      direction: east
+- id: r24961
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24964"
+      direction: north
+    - roomId: "clans:r24959"
+      direction: south
+    - roomId: "clans:r24962"
+      direction: east
+    - roomId: "clans:r24960"
+      direction: west
+- id: r24962
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24965"
+      direction: north
+    - roomId: "clans:r24961"
+      direction: west
+- id: r24963
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24966"
+      direction: north
+    - roomId: "clans:r24960"
+      direction: south
+    - roomId: "clans:r24964"
+      direction: east
+- id: r24964
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24967"
+      direction: north
+    - roomId: "clans:r24961"
+      direction: south
+    - roomId: "clans:r24965"
+      direction: east
+    - roomId: "clans:r24963"
+      direction: west
+- id: r24965
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24968"
+      direction: north
+    - roomId: "clans:r24962"
+      direction: south
+    - roomId: "clans:r24964"
+      direction: west
+- id: r24966
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24963"
+      direction: south
+    - roomId: "clans:r24967"
+      direction: east
+- id: r24967
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24969"
+      direction: north
+    - roomId: "clans:r24964"
+      direction: south
+    - roomId: "clans:r24968"
+      direction: east
+    - roomId: "clans:r24966"
+      direction: west
+- id: r24968
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24965"
+      direction: south
+    - roomId: "clans:r24967"
+      direction: west
+- id: r24969
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24967"
+      direction: south
+    - roomId: "icycaver:r9601"
+      direction: down
+- id: r24970
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24902"
+      direction: north
+    - roomId: "clans:r24972"
+      direction: south
+- id: r24971
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24974"
+      direction: south
+    - roomId: "clans:r24972"
+      direction: east
+- id: r24972
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24970"
+      direction: north
+    - roomId: "clans:r24975"
+      direction: south
+    - roomId: "clans:r24973"
+      direction: east
+    - roomId: "clans:r24971"
+      direction: west
+- id: r24973
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24976"
+      direction: south
+    - roomId: "clans:r24972"
+      direction: west
+- id: r24974
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24971"
+      direction: north
+    - roomId: "clans:r24977"
+      direction: south
+    - roomId: "clans:r24975"
+      direction: east
+- id: r24975
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24972"
+      direction: north
+    - roomId: "clans:r24978"
+      direction: south
+    - roomId: "clans:r24976"
+      direction: east
+    - roomId: "clans:r24974"
+      direction: west
+- id: r24976
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24973"
+      direction: north
+    - roomId: "clans:r24979"
+      direction: south
+    - roomId: "clans:r24975"
+      direction: west
+- id: r24977
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24974"
+      direction: north
+    - roomId: "clans:r24978"
+      direction: east
+- id: r24978
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24975"
+      direction: north
+    - roomId: "clans:r24980"
+      direction: south
+    - roomId: "clans:r24979"
+      direction: east
+    - roomId: "clans:r24977"
+      direction: west
+- id: r24979
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24976"
+      direction: north
+    - roomId: "clans:r24978"
+      direction: west
+- id: r24980
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24978"
+      direction: north
+- id: r24981
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24900"
+      direction: north
+    - roomId: "clans:r24982"
+      direction: south
+- id: r24982
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24981"
+      direction: north
+    - roomId: "clans:r24983"
+      direction: east
+- id: r24983
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24982"
+      direction: west
+    - roomId: "clans:r24984"
+      direction: down
+- id: r24984
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24983"
+      direction: up
+    - roomId: "clans:r24985"
+      direction: down
+- id: r24985
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24984"
+      direction: up
+    - roomId: "clans:r24986"
+      direction: down
+- id: r24986
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24985"
+      direction: up
+- id: r24987
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24911"
+      direction: north
+    - roomId: "clans:r24913"
+      direction: west
+- id: r24988
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24990"
+      direction: north
+    - roomId: "clans:r24903"
+      direction: south
+- id: r24989
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24992"
+      direction: north
+    - roomId: "clans:r24990"
+      direction: east
+- id: r24990
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24993"
+      direction: north
+    - roomId: "clans:r24988"
+      direction: south
+    - roomId: "clans:r24991"
+      direction: east
+    - roomId: "clans:r24989"
+      direction: west
+- id: r24991
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24994"
+      direction: north
+    - roomId: "clans:r24990"
+      direction: west
+- id: r24992
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24995"
+      direction: north
+    - roomId: "clans:r24989"
+      direction: south
+    - roomId: "clans:r24993"
+      direction: east
+- id: r24993
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24996"
+      direction: north
+    - roomId: "clans:r24990"
+      direction: south
+    - roomId: "clans:r24994"
+      direction: east
+    - roomId: "clans:r24992"
+      direction: west
+- id: r24994
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24997"
+      direction: north
+    - roomId: "clans:r24991"
+      direction: south
+    - roomId: "clans:r24993"
+      direction: west
+- id: r24995
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24992"
+      direction: south
+    - roomId: "clans:r24996"
+      direction: east
+- id: r24996
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24998"
+      direction: north
+    - roomId: "clans:r24993"
+      direction: south
+    - roomId: "clans:r24997"
+      direction: east
+    - roomId: "clans:r24995"
+      direction: west
+- id: r24997
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24994"
+      direction: south
+    - roomId: "clans:r24996"
+      direction: west
+- id: r24998
+  title: "A room in the basement"
+  description: >-
+    You are in a room in the basement of Joker's castle.
+  exits:
+    - roomId: "clans:r24996"
+      direction: south

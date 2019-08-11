@@ -1,0 +1,21 @@
+---
+body: |
+  Syntax: HIDE
+  Syntax: SNEAK
+  Syntax: VISIBLE
+  
+  If you successfully HIDE, then other characters can't see you. If you 
+  attack while hidden, the surprise attack will inflict one and a half 
+  times your normal damage (assuming your opponent cannot see you).
+  
+  If you successfully SNEAK, then you can move in and out of rooms without
+  being noticed.
+  
+  In order to HIDE or SNEAK successfully, you must practice the appropriate
+  skill.
+  
+  VISIBLE cancels your hiding and sneaking, as well as any invisibility,
+  making you visible again.
+  
+  - sneak
+  - visible

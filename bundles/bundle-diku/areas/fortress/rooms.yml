@@ -1,0 +1,36 @@
+- id: r11000
+  title: "Fortess Gates"
+  description: >-
+    Gates made from a blackened iron stand before you. Surrounded on either side by large stone bricks. These seem as though they would be almost impenetrable.
+  exits:
+    - roomId: "fortress:r11001"
+      direction: north
+- id: r11001
+  title: "Entrance to the Fortress"
+  description: >-
+    You stand on a long path, to the south are the gates, to the north is the fortress. The large iron double doors stand before you. A
+     wooden ladder leads up to the walls.
+  exits:
+    - roomId: "fortress:r11002"
+      direction: north
+    - roomId: "fortress:r11000"
+      direction: south
+- id: r11002
+  title: "Cold Stone Hallway"
+  description: >-
+    You are surrounded by cold stone, though it is the natural color the craftmanship 
+    is superb.
+  exits:
+    - roomId: "fortress:r11003"
+      direction: north
+    - roomId: "fortress:r11001"
+      direction: south
+- id: r11003
+  title: "Cold Stone Hallway"
+  description: >-
+    You are surrounded by cold stone, though it is the natural color the craftmanship 
+    is superb. To the west the stone seems to be painted green. 
+    To the east the stones appear to be painted red.
+  exits:
+    - roomId: "fortress:r11002"
+      direction: south

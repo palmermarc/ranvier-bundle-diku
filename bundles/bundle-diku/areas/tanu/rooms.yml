@@ -1,0 +1,501 @@
+- id: r8700
+  title: "Castle Gateway Entrance"
+  description: >-
+    Before you stands a marvelous castle, the walls are made of polished marble gleaming in the light.  Statues of warriors and priests stand either side of the path.  As you approach you notice they are of an unfamiliar race.
+    The portcullis is raised.
+  exits:
+    - roomId: "tanu:r8701"
+      direction: north
+    - roomId: "joker1:r24214"
+      direction: south
+  npcs:
+    - id: "tanu:m8700"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r8701
+  title: "Hallway Inside the Castle "
+  description: >-
+    Along this hallway you notice fine tapestries depicitng a great battle.  The floor is carpeted with fine emerald green velvet.
+  exits:
+    - roomId: "tanu:r8702"
+      direction: north
+    - roomId: "tanu:r8700"
+      direction: south
+- id: r8702
+  title: "Main Hall Intersection"
+  description: >-
+    You stand in the main foyer of the ground floor, hanging from the ceiling is a diamond chandalier, unfortunatley you are unable reach it allthough you try many ways.
+    To the north there is a door with a plaque.
+    Huge archways lie east and west.
+  exits:
+    - roomId: "tanu:r8701"
+      direction: south
+    - roomId: "tanu:r8703"
+      direction: east
+    - roomId: "tanu:r8704"
+      direction: west
+  npcs:
+    - id: "tanu:m8700"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r8703
+  title: "Hallway Inside the Castle"
+  description: >-
+    Along this hallway you notice fine tapestries depiciting a great battle.   The floor is carpeted with a fine emerald green carpet.
+  exits:
+    - roomId: "tanu:r8709"
+      direction: east
+    - roomId: "tanu:r8702"
+      direction: west
+- id: r8704
+  title: "Hallway Inside the castle"
+  description: >-
+    Along this hallway you notice fine tapestries depicitng a great battle.  The floor is carpeted with a fine emerald green velvet.
+  exits:
+    - roomId: "tanu:r8702"
+      direction: east
+    - roomId: "tanu:r8705"
+      direction: west
+- id: r8705
+  title: "Hallway Inside the Castle"
+  description: >-
+    Along this hallway you notice fine tapestries depiciting a great battle.  The floor is carpeted with a fine emerald green velvet.
+  exits:
+    - roomId: "tanu:r8716"
+      direction: north
+    - roomId: "tanu:r8704"
+      direction: east
+    - roomId: "tanu:r8706"
+      direction: west
+  npcs:
+    - id: "tanu:m8700"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r8706
+  title: "Hallway Inside the castle"
+  description: >-
+    Along this hallway you notice tapestries depicting a great battle.  The floor is carpeted with a fine emerald green velvet.
+  exits:
+    - roomId: "tanu:r8707"
+      direction: south
+    - roomId: "tanu:r8705"
+      direction: east
+    - roomId: "tanu:r8711"
+      direction: west
+- id: r8707
+  title: "Hallway Inside the Castle"
+  description: >-
+    Along this hallway you notice tapestries depicting a great battle.  The floor is carpeted with a fine emerald green velvet.
+  exits:
+    - roomId: "tanu:r8706"
+      direction: north
+    - roomId: "tanu:r8708"
+      direction: south
+- id: r8708
+  title: "Spiraling Staircase"
+  description: >-
+    Here stands a spiraling staircase that reaches higher than the eye can see.
+  exits:
+    - roomId: "tanu:r8707"
+      direction: north
+    - roomId: "vlord:r32006"
+      direction: south
+- id: r8709
+  title: "Hallway Inside the Castle"
+  description: >-
+    Along this hallway you notice fine tapestries depiting a great battle.  The floor is carpeted with a fine emerald green velvet.
+  exits:
+    - roomId: "tanu:r8713"
+      direction: south
+    - roomId: "tanu:r8710"
+      direction: east
+    - roomId: "tanu:r8703"
+      direction: west
+- id: r8710
+  title: "Hallway Inside the Castle"
+  description: >-
+    Along this hallway you notice fine tapestries depicting a great battle.  The floor is carpeted with a fine emerald green velvet.
+  exits:
+    - roomId: "tanu:r8714"
+      direction: north
+    - roomId: "tanu:r8712"
+      direction: east
+    - roomId: "tanu:r8709"
+      direction: west
+- id: r8711
+  title: "Leyr's Study"
+  description: >-
+    Lining the walls are many deadly looking weapons.  You see many caskets each containg several decapitated heads of foul creatures you have never seen before.
+    Leyr must obviously be a great hunter.
+  exits:
+    - roomId: "tanu:r8706"
+      direction: east
+  npcs:
+    - id: "tanu:m8702"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8712
+  title: "Minanonn's Study"
+  description: >-
+    You enter the study of Minanonn the Heretic, a Tanu said to be as wise as the earth itself, a planet of which he did not originate from.
+  exits:
+    - roomId: "tanu:r8710"
+      direction: west
+  npcs:
+    - id: "tanu:m8703"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8713
+  title: "Fian Skybreaker's Quarters"
+  description: >-
+    As you enter the room you notice strange aromas.
+    There are potions, vials, tubes and bottles containing various coloured fluids.
+  exits:
+    - roomId: "tanu:r8709"
+      direction: north
+  npcs:
+    - id: "tanu:m8704"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8714
+  title: "Hallway Inside the Castle"
+  description: >-
+    Along this hallway you notice fine tapestries depicting a great battle.  The floor is carpeted with a fine emerald green velvet.
+  exits:
+    - roomId: "tanu:r8715"
+      direction: north
+    - roomId: "tanu:r8710"
+      direction: south
+- id: r8715
+  title: "Spiraling Staircase"
+  description: >-
+    Here stands a spiraling staircase that reaches higher than the eye can see.
+  exits:
+    - roomId: "tanu:r8714"
+      direction: south
+    - roomId: "tanu:r8717"
+      direction: up
+- id: r8716
+  title: "Kahul Earthshaker's Study"
+  description: >-
+    This room contains many books, scrolls, manuals and scripts.  There is a bookcase in the corner that seems to contain an infinte amount of literature.
+  exits:
+    - roomId: "tanu:r8705"
+      direction: south
+- id: r8717
+  title: "Spiraling Staircase"
+  description: >-
+    Here stands a long winding staircase downwards.
+  exits:
+    - roomId: "tanu:r8718"
+      direction: south
+    - roomId: "tanu:r8715"
+      direction: down
+- id: r8718
+  title: "Intersection in the Hallway"
+  description: >-
+    You are standing at a junction in the hallway.
+  exits:
+    - roomId: "tanu:r8717"
+      direction: north
+    - roomId: "tanu:r8719"
+      direction: south
+    - roomId: "tanu:r8724"
+      direction: east
+- id: r8719
+  title: "Corridor in the Hallway"
+  description: >-
+    You are standing in a well furnished corridor, many chairs align the wall, you also note the familiar tapestries hanging upon the wall.
+  exits:
+    - roomId: "tanu:r8718"
+      direction: north
+    - roomId: "tanu:r8720"
+      direction: south
+  npcs:
+    - id: "tanu:m8700"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r8720
+  title: "Intersection in the Hallway"
+  description: >-
+    You stand at an intersection, you can hear hammering from your the east, someone sounds hard at work.
+  exits:
+    - roomId: "tanu:r8719"
+      direction: north
+    - roomId: "tanu:r8721"
+      direction: south
+    - roomId: "tanu:r8730"
+      direction: east
+- id: r8721
+  title: "Corridor in the Hallway"
+  description: >-
+    You are standing in a well furnished corridor, many chairs align the wall and familiar tapestries hang upon it.
+  exits:
+    - roomId: "tanu:r8720"
+      direction: north
+    - roomId: "tanu:r8722"
+      direction: south
+- id: r8722
+  title: "Intersection in the Hallway"
+  description: >-
+    You stand at an intersection, at this junction you have a choice of directions...to the south you think you can see a huge staircase.
+  exits:
+    - roomId: "tanu:r8721"
+      direction: north
+    - roomId: "tanu:r8723"
+      direction: south
+    - roomId: "tanu:r8732"
+      direction: west
+  npcs:
+    - id: "tanu:m8700"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r8723
+  title: "Spiraling Staircase"
+  description: >-
+    Here stands a huge spiraling staircase that reaches upwards for what seems eternity.
+  exits:
+    - roomId: "tanu:r8722"
+      direction: north
+    - roomId: "tanu:r8738"
+      direction: up
+- id: r8724
+  title: "Corridor in the Hallway"
+  description: >-
+    You are standing in a well furnished corridor, chairs are evenly spaced along the sides of the hallway.
+  exits:
+    - roomId: "tanu:r8725"
+      direction: east
+    - roomId: "tanu:r8718"
+      direction: west
+- id: r8725
+  title: "Intersection in the Hallway"
+  description: >-
+    You are at the end of the hallway, you can either turn left or turn right.
+  exits:
+    - roomId: "tanu:r8731"
+      direction: north
+    - roomId: "tanu:r8726"
+      direction: south
+    - roomId: "tanu:r8724"
+      direction: west
+  npcs:
+    - id: "tanu:m8700"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r8726
+  title: "Corridor in the Hallway"
+  description: >-
+    You are standing in a well furnished corridor, more chairs are evenly spaced along the sides of the hallway.
+  exits:
+    - roomId: "tanu:r8725"
+      direction: north
+    - roomId: "tanu:r8727"
+      direction: south
+- id: r8727
+  title: "Corridor in the Hallway"
+  description: >-
+    You are standing in a well furnished corridor, to your right you can hear faint murmurs.
+  exits:
+    - roomId: "tanu:r8726"
+      direction: north
+    - roomId: "tanu:r8728"
+      direction: west
+- id: r8728
+  title: "Corridor in the Hallway"
+  description: >-
+    You are standing in a well furnished corridor, chairs are evenly spaced along the sides of the hallway, the murmurs are getting louder.
+  exits:
+    - roomId: "tanu:r8727"
+      direction: east
+    - roomId: "tanu:r8729"
+      direction: west
+- id: r8729
+  title: "Dionket's Chapel"
+  description: >-
+    Inside the chapel you feel peaceful.
+    An ancient looking tanu stands at the alter reciting words from a crumbling tablet.
+    He mumbles quietly to the congragation.
+  exits:
+    - roomId: "tanu:r8728"
+      direction: east
+  npcs:
+    - id: "tanu:m8705"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8730
+  title: "Aluyten Craftmaster's Workshop"
+  description: >-
+    As you enter the room you sense magical forces working about you.  In the centre of the workshop is a table with a strange globe mounted firmly upon it.  The globe is pulsing with energy.
+  exits:
+    - roomId: "tanu:r8720"
+      direction: west
+  npcs:
+    - id: "tanu:m8706"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8731
+  title: "Alberonn Mindeater's Laboratry"
+  description: >-
+    Earghhhhh, the stench of roting brains makes you feel sick.  All sorts of disection equipment is lying upon a table, awaiting use.  Along the walls many shelves hold jars containing preserved brains.
+  exits:
+    - roomId: "tanu:r8725"
+      direction: south
+  npcs:
+    - id: "tanu:m8707"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8732
+  title: "Corridor in the Hallway"
+  description: >-
+    You are standing in a well furnished corridor, many chairs align the wall and familiar tapestries hang upon it.
+  exits:
+    - roomId: "tanu:r8722"
+      direction: east
+    - roomId: "tanu:r8733"
+      direction: west
+- id: r8733
+  title: "Corridor in the Hallway"
+  description: >-
+    You are standing in a well furnished corridor, many chairs align the wall and familiar tapestries hang upon it.
+  exits:
+    - roomId: "tanu:r8734"
+      direction: north
+    - roomId: "tanu:r8732"
+      direction: east
+- id: r8734
+  title: "Corridor in the Hallway"
+  description: >-
+    You are standing in a well furnished corridor, many chairs align the walls and familiar tapestries hang upon it.
+  exits:
+    - roomId: "tanu:r8735"
+      direction: north
+    - roomId: "tanu:r8733"
+      direction: south
+- id: r8735
+  title: "Intersection in the Hallway"
+  description: >-
+    You stand at an intersection, at this junction you notice that the two directions lead to the quarters of more Tanu.
+  exits:
+    - roomId: "tanu:r8736"
+      direction: north
+    - roomId: "tanu:r8734"
+      direction: south
+    - roomId: "tanu:r8737"
+      direction: west
+- id: r8736
+  title: "Lady Epone's Chamber"
+  description: >-
+    This is the private chamber of Lady Epone.
+    You feel calm and civil though strangely curious due to the strange aura emitted by this room.
+  exits:
+    - roomId: "tanu:r8735"
+      direction: south
+  npcs:
+    - id: "tanu:m8708"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8737
+  title: "Lord Creyn's Office"
+  description: >-
+    This room is just like an office, be it an untidy one.  Papers and notes are scattered all over the desks and chairs, the occupant seriosly needs to organise himself.
+  exits:
+    - roomId: "tanu:r8735"
+      direction: east
+- id: r8738
+  title: "Spiraling Staircase"
+  description: >-
+    Here stands a huge staircase, spiraling down into the tower.
+  exits:
+    - roomId: "tanu:r8739"
+      direction: north
+    - roomId: "tanu:r8723"
+      direction: down
+- id: r8739
+  title: "Guard Post 1"
+  description: >-
+    Here stand the Silver Torc Guard, they are awesome in physique and look well trained in their weapons.
+  exits:
+    - roomId: "tanu:r8738"
+      direction: south
+    - roomId: "tanu:r8740"
+      direction: up
+  npcs:
+    - id: "tanu:m8710"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r8740
+  title: "Guard Post 2"
+  description: >-
+    Here stand the second group of Silver Torc Guard, as awesome as the first.
+  exits:
+    - roomId: "tanu:r8741"
+      direction: north
+    - roomId: "tanu:r8739"
+      direction: down
+  npcs:
+    - id: "tanu:m8700"
+      respawnChance: 100
+      maxLoad: "3"
+    - id: "tanu:m8710"
+      respawnChance: 100
+      maxLoad: "4"
+- id: r8741
+  title: "Guard Post 3"
+  description: >-
+    Here stand the third group of silver torc guard, as magnificent as the others.
+  exits:
+    - roomId: "tanu:r8740"
+      direction: south
+    - roomId: "tanu:r8742"
+      direction: up
+  npcs:
+    - id: "tanu:m8710"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r8742
+  title: "Before the Throne"
+  description: >-
+    To the north you can picture a mighty figure upon a throne, do you venture forth?
+  exits:
+    - roomId: "tanu:r8743"
+      direction: north
+    - roomId: "tanu:r8741"
+      direction: down
+- id: r8743
+  title: "The Throne Room"
+  description: >-
+    Before you is King Thagdal's Throne.
+    The throne looks to be made of pure gold and has what looks to be an infinite number of jewells of every colour, what a prize it would be if you could kill the occupant then move the huge mass.
+  exits:
+    - roomId: "tanu:r8744"
+      direction: north
+    - roomId: "tanu:r8742"
+      direction: south
+  npcs:
+    - id: "tanu:m8711"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r8744
+  title: "Portal to Brede"
+  description: >-
+    You feel a shiver up your spine as your molecules seem to disperse to all corners of this portal then reform again in the centre.
+    Ahead of you you now notice the room shiver and reform too, but this time with no walls.
+  exits:
+    - roomId: "tanu:r8745"
+      direction: north
+    - roomId: "tanu:r8743"
+      direction: south
+- id: r8745
+  title: "Room Without Walls"
+  description: >-
+    This room radiates peace harmony and calm.
+    Strangely it appears to have no walls but you still feel enclosed, maybe by a force.
+    In the centre of the room lies an altar
+  exits:
+    - roomId: "tanu:r8744"
+      direction: south
+  npcs:
+    - id: "tanu:m8712"
+      respawnChance: 100
+      maxLoad: "1"

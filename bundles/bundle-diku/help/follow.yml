@@ -1,0 +1,21 @@
+---
+body: |
+  Syntax: follow <character>
+  Syntax: group
+  Syntax: group <character>
+  
+  FOLLOW starts you following another character. To stop following anyone else,
+  just FOLLOW <yourself>.
+  
+  GROUP <character> makes someone who is following you a member of your group.
+  Group members share experience points from kills and may use the GTELL and
+  SPLIT commands. If anyone in your group is attacked, you will automatically
+  join the fight.
+  
+  If the <character> is already a member of your group, then GROUP will
+  kick out the <character> from your group. Characters can also leave your
+  group by using a FOLLOW command to stop following you.
+  
+  GROUP with no argument shows statistics for each character in your group.
+  
+  - group

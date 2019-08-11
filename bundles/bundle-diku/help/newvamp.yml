@@ -1,0 +1,21 @@
+---
+body: |
+  When you become a vampire, there are certain things that you must do to
+  activate your new found powers.
+  
+  Depending on your generation, you may be able to gain more disciplines.
+  To check if this is possible, type CLANDI. If it say pick a discipline(s),
+  type CLANDI <discipline>.
+  
+  When you become a newvamp, or are rebitten after being staked, you may
+  need to <depending on your disciplines>:
+  
+  shield
+  truesight
+  fang
+  claw
+  set your home <home here>
+  
+  see also: HELP VAMPIRE, HELP CLANNED, HELP UPKEEP.
+  
+  

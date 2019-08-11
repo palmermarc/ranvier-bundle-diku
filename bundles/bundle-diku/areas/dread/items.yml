@@ -1,0 +1,88 @@
+- id: o550
+  name: "dagger shadow"
+  roomDesc: "A patch of darkness lurks in the corner"
+  keywords: ["dagger","shadow"]
+  description: "A patch of darkness lurks in the corner"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o551
+  name: "sword shadow"
+  roomDesc: "A patch of darkness lurks in the corner"
+  keywords: ["sword","shadow"]
+  description: "A patch of darkness lurks in the corner"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o552
+  name: "sword shadow"
+  roomDesc: "A patch of darkness lurks in the corner"
+  keywords: ["sword","shadow"]
+  description: "A patch of darkness lurks in the corner"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o553
+  name: "sword shadow"
+  roomDesc: "A patch of darkness lurks in the corner"
+  keywords: ["sword","shadow"]
+  description: "A patch of darkness lurks in the corner"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o554
+  name: "cloak shadow"
+  roomDesc: "A patch of darkness lurks in the corner"
+  keywords: ["cloak","shadow"]
+  description: "A patch of darkness lurks in the corner"
+  type: ACCESSORY
+- id: o555
+  name: "cloak shadow"
+  roomDesc: "A patch of darkness lurks in the corner"
+  keywords: ["cloak","shadow"]
+  description: "A patch of darkness lurks in the corner"
+  type: ACCESSORY
+- id: o556
+  name: "cloak shadow"
+  roomDesc: "A patch of darkness lurks in the corner"
+  keywords: ["cloak","shadow"]
+  description: "A patch of darkness lurks in the corner"
+  type: ACCESSORY
+- id: o557
+  name: "ring shadow"
+  roomDesc: "A patch of darkness lurks in the corner"
+  keywords: ["ring","shadow"]
+  description: "A patch of darkness lurks in the corner"
+  type: ACCESSORY
+- id: o558
+  name: "ring shadow"
+  roomDesc: "A patch of darkness lurks in the corner"
+  keywords: ["ring","shadow"]
+  description: "A patch of darkness lurks in the corner"
+  type: ACCESSORY
+- id: o559
+  name: "bracer shadow"
+  roomDesc: "A patch of darkness lurks in the corner"
+  keywords: ["bracer","shadow"]
+  description: "A patch of darkness lurks in the corner"
+  type: LIGHTARMOR
+- id: o560
+  name: "bracer shadow"
+  roomDesc: "A patch of darkness lurks in the corner"
+  keywords: ["bracer","shadow"]
+  description: "A patch of darkness lurks in the corner"
+  type: LIGHTARMOR
+- id: o561
+  name: "ring shadow"
+  roomDesc: "A patch of darkness lurks in the corner"
+  keywords: ["ring","shadow"]
+  description: "A patch of darkness lurks in the corner"
+  type: ACCESSORY

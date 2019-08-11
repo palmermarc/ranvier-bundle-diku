@@ -1,0 +1,218 @@
+- id: o200
+  name: "heavy wooden club"
+  roomDesc: "A bloodstained club is lying here"
+  keywords: ["heavy","wooden","club"]
+  description: "A bloodstained club is lying here"
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o201
+  name: "Tiger paw"
+  roomDesc: "A withered limb lies here forgotten"
+  keywords: ["Tiger","paw"]
+  description: "A withered limb lies here forgotten"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o202
+  name: "small fish"
+  roomDesc: "A small red fish is here.It looks suspiciously like a red herring"
+  keywords: ["small","fish"]
+  description: "A small red fish is here.It looks suspiciously like a red herring"
+  type: PILL
+- id: o203
+  name: "clear potion tear crocodile"
+  roomDesc: "A clear potion is lying here"
+  keywords: ["clear","potion","tear","crocodile"]
+  description: "A clear potion is lying here"
+  type: POTION
+- id: o204
+  name: "can coke"
+  roomDesc: "A small red drink can is rolling around here"
+  keywords: ["can","coke"]
+  description: "A small red drink can is rolling around here"
+  type: POTION
+- id: o205
+  name: "ham sandwich"
+  roomDesc: "A ham sandwich is here uneaten"
+  keywords: ["ham","sandwich"]
+  description: "A ham sandwich is here uneaten"
+  type: FOOD
+- id: o206
+  name: "crisp bag"
+  roomDesc: "A bag of crisps are here uneaten"
+  keywords: ["crisp","bag"]
+  description: "A bag of crisps are here uneaten"
+  type: FOOD
+- id: o207
+  name: "basket picnic"
+  roomDesc: "A picnic basket is here unnatended.Better pick it up before the bears get it."
+  keywords: ["basket","picnic"]
+  description: "A picnic basket is here unnatended.Better pick it up before the bears get it."
+  type: CONTAINER
+  items: ["zoo:o204","zoo:o205","zoo:o206"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o208
+  name: "bucket metal"
+  roomDesc: "A bucket lies here smelling of fish"
+  keywords: ["bucket","metal"]
+  description: "A bucket lies here smelling of fish"
+  type: CONTAINER
+  items: ["zoo:o202","zoo:o209"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o209
+  name: "fish"
+  roomDesc: "A nice fresh fish is here"
+  keywords: ["fish"]
+  description: "A nice fresh fish is here"
+  type: FOOD
+- id: o210
+  name: "souvenir"
+  roomDesc: "A small platic elephant is lying here"
+  keywords: ["souvenir"]
+  description: "A small platic elephant is lying here"
+  type: TRASH
+- id: o211
+  name: "souvenir"
+  roomDesc: "A small plastic elephant is lying here"
+  keywords: ["souvenir"]
+  description: "A small plastic elephant is lying here"
+  type: TRASH
+- id: o212
+  name: "lion skin lionskin cloak"
+  roomDesc: "A tatty pile of fur is in the corner"
+  keywords: ["lion","skin","lionskin","cloak"]
+  description: "A tatty pile of fur is in the corner"
+  type: ACCESSORY
+- id: o213
+  name: "bearskin skin bear pelt cloak"
+  roomDesc: "A pile of fur has been carelessly thrown here"
+  keywords: ["bearskin","skin","bear","pelt","cloak"]
+  description: "A pile of fur has been carelessly thrown here"
+  type: ACCESSORY
+- id: o214
+  name: "tigerskin skin tiger cape"
+  roomDesc: "A mouldy pile of fur is here"
+  keywords: ["tigerskin","skin","tiger","cape"]
+  description: "A mouldy pile of fur is here"
+  type: ACCESSORY
+- id: o215
+  name: "monkyskin vest skin monkey"
+  roomDesc: "Another pile of fur is here"
+  keywords: ["monkyskin","vest","skin","monkey"]
+  description: "Another pile of fur is here"
+  type: MEDIUMARMOR
+- id: o216
+  name: "armadillo breastplate plate"
+  roomDesc: "A pile of scales are lying here"
+  keywords: ["armadillo","breastplate","plate"]
+  description: "A pile of scales are lying here"
+  type: HEAVYARMOR
+- id: o217
+  name: "aardvaark scale shield"
+  roomDesc: "A reptilian scale is lying here forgotten"
+  keywords: ["aardvaark","scale","shield"]
+  description: "A reptilian scale is lying here forgotten"
+  type: SHIELD
+- id: o218
+  name: "gloves sealskin skin"
+  roomDesc: "A small pile of fur is here"
+  keywords: ["gloves","sealskin","skin"]
+  description: "A small pile of fur is here"
+  type: LIGHTARMOR
+- id: o219
+  name: "necklace tooth sharktooth"
+  roomDesc: "A tooth necklace is here"
+  keywords: ["necklace","tooth","sharktooth"]
+  description: "A tooth necklace is here"
+  type: ACCESSORY
+- id: o220
+  name: "wardens hat"
+  roomDesc: "A blue peaked cap is here"
+  keywords: ["wardens","hat"]
+  description: "A blue peaked cap is here"
+  type: LIGHTARMOR
+- id: o221
+  name: "nightstick rubber black"
+  roomDesc: "A black rubber nightstick is here on the floor"
+  keywords: ["nightstick","rubber","black"]
+  description: "A black rubber nightstick is here on the floor"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o222
+  name: "security cap"
+  roomDesc: "A black peaked cap is here"
+  keywords: ["security","cap"]
+  description: "A black peaked cap is here"
+  type: LIGHTARMOR
+- id: o223
+  name: "black security uniform"
+  roomDesc: "A black uniform is lynig crumpled here"
+  keywords: ["black","security","uniform"]
+  description: "A black uniform is lynig crumpled here"
+  type: LIGHTARMOR
+- id: o224
+  name: "heavy automatic pistol"
+  roomDesc: "A luger 9mm automatic pistol is lying here"
+  keywords: ["heavy","automatic","pistol"]
+  description: "A luger 9mm automatic pistol is lying here"
+  type: WAND
+- id: o225
+  name: "boots black hobnailed"
+  roomDesc: "A heavy pair black hobnailed boots are here"
+  keywords: ["boots","black","hobnailed"]
+  description: "A heavy pair black hobnailed boots are here"
+  type: MEDIUMARMOR
+- id: o226
+  name: "shirt checked"
+  roomDesc: "A checked shirt lies here"
+  keywords: ["shirt","checked"]
+  description: "A checked shirt lies here"
+  type: LIGHTARMOR
+- id: o227
+  name: "torch rubber black"
+  roomDesc: "A black rubber torch is here"
+  keywords: ["torch","rubber","black"]
+  description: "A black rubber torch is here"
+  type: LIGHT
+- id: o228
+  name: "key steel"
+  roomDesc: "A steel key is glinting in the dirt"
+  keywords: ["key","steel"]
+  description: "A steel key is glinting in the dirt"
+  type: KEY
+- id: o229
+  name: "brass key small"
+  roomDesc: "A small brass key is lying in the dirt"
+  keywords: ["brass","key","small"]
+  description: "A small brass key is lying in the dirt"
+  type: KEY
+- id: o230
+  name: "large ruby"
+  roomDesc: "A large red gem is here in the dirt"
+  keywords: ["large","ruby"]
+  description: "A large red gem is here in the dirt"
+  type: TREASURE
+- id: o231
+  name: "litter bin"
+  roomDesc: "A Zoo litter bin is standing here for your rubbish"
+  keywords: ["litter","bin"]
+  description: "A Zoo litter bin is standing here for your rubbish"
+  type: FURNITURE
+- id: o232
+  name: "dragonquest666"
+  roomDesc: "A Blue Dragonstone lies here gleaming."
+  keywords: ["dragonquest666"]
+  description: "A Blue Dragonstone lies here gleaming."
+  type: FOOD

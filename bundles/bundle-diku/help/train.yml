@@ -1,0 +1,19 @@
+---
+body: |
+  Syntax: train
+  Syntax: train <'str'|'int'|'wis'|'dex'|'con'>
+  Syntax: train <'avatar'|'hp'|'mana'|'move'>
+  Syntax: train <'slash'|'stab'|'smash'|'beast'|'grab'>
+  Syntax: train <'charm'|'heat'|'cold'|'lightning'|'acid'>
+  
+  TRAIN increases one of your attributes. When you start the game, your
+  character has standard attributes based on your class. You can increase 
+  your attributes by spending experience points (exp).
+  
+  TRAIN with no arguments displays what you can train, and how much it costs to
+  train that particular attribute.
+  
+  You can also train weapon resistances and spell immunities. For information on
+  this, type : help immunities
+  
+  see also: help EXPERIENCE

@@ -1,0 +1,114 @@
+- id: o3700
+  name: "mace"
+  roomDesc: "You see a sub issue mace here."
+  keywords: ["mace"]
+  description: "You see a sub issue mace here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3701
+  name: "dagger"
+  roomDesc: "You see a sub issue dagger here."
+  keywords: ["dagger"]
+  description: "You see a sub issue dagger here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3702
+  name: "sword"
+  roomDesc: "You see a sub issue sword here."
+  keywords: ["sword"]
+  description: "You see a sub issue sword here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o3703
+  name: "vest"
+  roomDesc: "You see a sub issue vest here."
+  keywords: ["vest"]
+  description: "You see a sub issue vest here."
+  type: LIGHTARMOR
+- id: o3704
+  name: "shield"
+  roomDesc: "You see a sub issue shield here."
+  keywords: ["shield"]
+  description: "You see a sub issue shield here."
+  type: SHIELD
+- id: o3705
+  name: "cloak"
+  roomDesc: "You see a sub issue cloak here."
+  keywords: ["cloak"]
+  description: "You see a sub issue cloak here."
+  type: ACCESSORY
+- id: o3706
+  name: "helmet"
+  roomDesc: "You see a sub issue helmet here."
+  keywords: ["helmet"]
+  description: "You see a sub issue helmet here."
+  type: MEDIUMARMOR
+- id: o3707
+  name: "leggings"
+  roomDesc: "You see a pair of sub issue leggings here."
+  keywords: ["leggings"]
+  description: "You see a pair of sub issue leggings here."
+  type: MEDIUMARMOR
+- id: o3708
+  name: "boots"
+  roomDesc: "You see a pair of sub issue boots here."
+  keywords: ["boots"]
+  description: "You see a pair of sub issue boots here."
+  type: MEDIUMARMOR
+- id: o3709
+  name: "gloves"
+  roomDesc: "You see a pair of sub issue gloves here."
+  keywords: ["gloves"]
+  description: "You see a pair of sub issue gloves here."
+  type: MEDIUMARMOR
+- id: o3710
+  name: "sleeves"
+  roomDesc: "You see a pair of sub issue sleeves here."
+  keywords: ["sleeves"]
+  description: "You see a pair of sub issue sleeves here."
+  type: MEDIUMARMOR
+- id: o3711
+  name: "cape"
+  roomDesc: "You see a sub issue cape here."
+  keywords: ["cape"]
+  description: "You see a sub issue cape here."
+  type: ACCESSORY
+- id: o3712
+  name: "belt"
+  roomDesc: "You see a sub issue belt here."
+  keywords: ["belt"]
+  description: "You see a sub issue belt here."
+  type: ACCESSORY
+- id: o3713
+  name: "bracer"
+  roomDesc: "You see a sub issue bracer here."
+  keywords: ["bracer"]
+  description: "You see a sub issue bracer here."
+  type: MEDIUMARMOR
+- id: o3714
+  name: "key"
+  roomDesc: "You see a very important key here!"
+  keywords: ["key"]
+  description: "You see a very important key here!"
+  type: KEY
+- id: o3715
+  name: "diploma"
+  roomDesc: "You see a mud school diploma here."
+  keywords: ["diploma"]
+  description: "You see a mud school diploma here."
+  type: TREASURE
+- id: o3716
+  name: "banner"
+  roomDesc: "A war banner is on the floor here."
+  keywords: ["banner"]
+  description: "A war banner is on the floor here."
+  type: LIGHT

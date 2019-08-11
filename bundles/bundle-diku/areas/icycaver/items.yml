@@ -1,0 +1,60 @@
+- id: o9601
+  name: "ice rod icy"
+  roomDesc: "An icy rod sits here, frozen to the ground."
+  keywords: ["ice","rod","icy"]
+  description: "An icy rod sits here, frozen to the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9602
+  name: "crystal small ice"
+  roomDesc: "A Small Ice crystal is here glittering."
+  keywords: ["crystal","small","ice"]
+  description: "A Small Ice crystal is here glittering."
+  type: TREASURE
+- id: o9603
+  name: "ice claw"
+  roomDesc: "An Ice Claw is hovering here, pulsing with energy."
+  keywords: ["ice","claw"]
+  description: "An Ice Claw is hovering here, pulsing with energy."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9604
+  name: "artifact petri petrified"
+  roomDesc: "A small petrified Artifact lies on the ground here."
+  keywords: ["artifact","petri","petrified"]
+  description: "A small petrified Artifact lies on the ground here."
+  type: TREASURE
+- id: o9605
+  name: "blade grass"
+  roomDesc: "A small blade of grass was left on the ground here."
+  keywords: ["blade","grass"]
+  description: "A small blade of grass was left on the ground here."
+  type: TREASURE
+- id: o9606
+  name: "Sword Ice"
+  roomDesc: "A Long Sword of Ice hovers here"
+  keywords: ["Sword","Ice"]
+  description: "A Long Sword of Ice hovers here"
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9607
+  name: "ice shell icy"
+  roomDesc: "A Peculiar shell of Ice is lieing here"
+  keywords: ["ice","shell","icy"]
+  description: "A Peculiar shell of Ice is lieing here"
+  type: HEAVYARMOR
+- id: o9608
+  name: "helmet eye crystal"
+  roomDesc: "A crystal ficture lies on the ground"
+  keywords: ["helmet","eye","crystal"]
+  description: "A crystal ficture lies on the ground"
+  type: HEAVYARMOR

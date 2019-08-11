@@ -1,0 +1,704 @@
+- id: o1301
+  name: "oven black"
+  roomDesc: "A huge black oven is here."
+  keywords: ["oven","black"]
+  description: "A huge black oven is here."
+  type: CONTAINER
+  items: ["hitower:o1304"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1302
+  name: "locker"
+  roomDesc: "An enormous meat locker is here."
+  keywords: ["locker"]
+  description: "An enormous meat locker is here."
+  type: CONTAINER
+  items: ["hitower:o1305","hitower:o1306"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1304
+  name: "pizza slice"
+  roomDesc: "A slice of pizza is here looking very tasty."
+  keywords: ["pizza","slice"]
+  description: "A slice of pizza is here looking very tasty."
+  type: FOOD
+- id: o1305
+  name: "chunk meat"
+  roomDesc: "A large chunk of meat is here."
+  keywords: ["chunk","meat"]
+  description: "A large chunk of meat is here."
+  type: FOOD
+- id: o1306
+  name: "sandwich"
+  roomDesc: "A finger sandwich is here."
+  keywords: ["sandwich"]
+  description: "A finger sandwich is here."
+  type: FOOD
+- id: o1307
+  name: "broom straw"
+  roomDesc: "A straw broom is here leaning against the wall."
+  keywords: ["broom","straw"]
+  description: "A straw broom is here leaning against the wall."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1308
+  name: "machine coffee"
+  roomDesc: "A coffee machine is here."
+  keywords: ["machine","coffee"]
+  description: "A coffee machine is here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1309
+  name: "cabinet"
+  roomDesc: "A cabinet is here."
+  keywords: ["cabinet"]
+  description: "A cabinet is here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1310
+  name: "bar silver"
+  roomDesc: "A bar of silver has been left here."
+  keywords: ["bar","silver"]
+  description: "A bar of silver has been left here."
+  type: TREASURE
+- id: o1311
+  name: "bar gold"
+  roomDesc: "A bar of gold has been left here."
+  keywords: ["bar","gold"]
+  description: "A bar of gold has been left here."
+  type: TREASURE
+- id: o1312
+  name: "bar mithril"
+  roomDesc: "A bar of mithril has been left here."
+  keywords: ["bar","mithril"]
+  description: "A bar of mithril has been left here."
+  type: TREASURE
+- id: o1313
+  name: "bar adamantite"
+  roomDesc: "A bar of adamantite has been left here."
+  keywords: ["bar","adamantite"]
+  description: "A bar of adamantite has been left here."
+  type: TREASURE
+- id: o1314
+  name: "hammer mithril"
+  roomDesc: "A mithril hammer has been left here"
+  keywords: ["hammer","mithril"]
+  description: "A mithril hammer has been left here"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1315
+  name: "chest"
+  roomDesc: "A chest is here."
+  keywords: ["chest"]
+  description: "A chest is here."
+  type: CONTAINER
+  items: ["hitower:o1317","hitower:o1318","hitower:o1319"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1316
+  name: "key"
+  roomDesc: "A small key has been left here."
+  keywords: ["key"]
+  description: "A small key has been left here."
+  type: KEY
+- id: o1317
+  name: "long sword"
+  roomDesc: "A long sword has been left here."
+  keywords: ["long","sword"]
+  description: "A long sword has been left here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1318
+  name: "dagger silver"
+  roomDesc: "A finely crafted dagger made of silver is on the ground here."
+  keywords: ["dagger","silver"]
+  description: "A finely crafted dagger made of silver is on the ground here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1319
+  name: "scimitar"
+  roomDesc: "A curved scimitar is here in a jewel-covered sheath."
+  keywords: ["scimitar"]
+  description: "A curved scimitar is here in a jewel-covered sheath."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1320
+  name: "staff wooden"
+  roomDesc: "A wooden staff is against the wall here."
+  keywords: ["staff","wooden"]
+  description: "A wooden staff is against the wall here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1321
+  name: "cabinet silver"
+  roomDesc: "A large cabinet with a silver finish is here."
+  keywords: ["cabinet","silver"]
+  description: "A large cabinet with a silver finish is here."
+  type: CONTAINER
+  items: ["hitower:o1326","hitower:o1327"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1322
+  name: "cabinet silver"
+  roomDesc: "A large cabinet with a silver finish is here."
+  keywords: ["cabinet","silver"]
+  description: "A large cabinet with a silver finish is here."
+  type: CONTAINER
+  items: ["hitower:o1328","hitower:o1329","hitower:o1330"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1323
+  name: "key old"
+  roomDesc: "An old key is here"
+  keywords: ["key","old"]
+  description: "An old key is here"
+  type: KEY
+- id: o1324
+  name: "silvery key"
+  roomDesc: "A silvery key has been left here."
+  keywords: ["silvery","key"]
+  description: "A silvery key has been left here."
+  type: KEY
+- id: o1325
+  name: "silvery key"
+  roomDesc: "A silvery key has been left here."
+  keywords: ["silvery","key"]
+  description: "A silvery key has been left here."
+  type: KEY
+- id: o1326
+  name: "staff red white"
+  roomDesc: "A red and white staff is leaning against the wall here"
+  keywords: ["staff","red","white"]
+  description: "A red and white staff is leaning against the wall here"
+  type: STAFF
+- id: o1327
+  name: "staff burnt"
+  roomDesc: "A burnt staff is leaning against the wall here."
+  keywords: ["staff","burnt"]
+  description: "A burnt staff is leaning against the wall here."
+  type: STAFF
+- id: o1328
+  name: "rod black"
+  roomDesc: "A black rod has been left here."
+  keywords: ["rod","black"]
+  description: "A black rod has been left here."
+  type: WAND
+- id: o1329
+  name: "wand wooden"
+  roomDesc: "A wooden stick is here"
+  keywords: ["wand","wooden"]
+  description: "A wooden stick is here"
+  type: WAND
+- id: o1330
+  name: "wand metal"
+  roomDesc: "A metal wand is here."
+  keywords: ["wand","metal"]
+  description: "A metal wand is here."
+  type: WAND
+- id: o1331
+  name: "cauldron black"
+  roomDesc: "A large black cauldron is here bubbling."
+  keywords: ["cauldron","black"]
+  description: "A large black cauldron is here bubbling."
+  type: CONTAINER
+  items: ["hitower:o1332","hitower:o1333"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1332
+  name: "wings"
+  roomDesc: "A small pair of bat wings is here."
+  keywords: ["wings"]
+  description: "A small pair of bat wings is here."
+  type: TRASH
+- id: o1333
+  name: "eye eyeball"
+  roomDesc: "An eyeball has been left here"
+  keywords: ["eye","eyeball"]
+  description: "An eyeball has been left here"
+  type: TRASH
+- id: o1334
+  name: "book tome"
+  roomDesc: "An enormous book is lying open here"
+  keywords: ["book","tome"]
+  description: "An enormous book is lying open here"
+  type: CONTAINER
+  items: ["hitower:o1335"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1335
+  name: "spectacles glasses"
+  roomDesc: "A pair of wire-rimmed spectacles has been left here."
+  keywords: ["spectacles","glasses"]
+  description: "A pair of wire-rimmed spectacles has been left here."
+  type: LIGHTARMOR
+- id: o1336
+  name: "altar"
+  roomDesc: ""
+  keywords: ["altar"]
+  description: ""
+  type: CONTAINER
+  items: ["hitower:o1337"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1337
+  name: "medallion heart"
+  roomDesc: "A heart shaped medallion is here."
+  keywords: ["medallion","heart"]
+  description: "A heart shaped medallion is here."
+  type: ACCESSORY
+- id: o1338
+  name: "chest"
+  roomDesc: "A large chest is here."
+  keywords: ["chest"]
+  description: "A large chest is here."
+  type: CONTAINER
+  items: ["hitower:o1340"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1339
+  name: "key intricate"
+  roomDesc: "An intricately carved key has been left here."
+  keywords: ["key","intricate"]
+  description: "An intricately carved key has been left here."
+  type: KEY
+- id: o1340
+  name: "a pile of coins"
+  roomDesc: "A pile of coins is here."
+  keywords: ["a","pile","of","coins"]
+  description: "A pile of coins is here."
+  type: MONEY
+- id: o1341
+  name: "cloak brown"
+  roomDesc: "A travel worn cloak has carelessly been left here."
+  keywords: ["cloak","brown"]
+  description: "A travel worn cloak has carelessly been left here."
+  type: ACCESSORY
+- id: o1342
+  name: "chameleon poncho"
+  roomDesc: "Some multicolored cloth is on the ground here"
+  keywords: ["chameleon","poncho"]
+  description: "Some multicolored cloth is on the ground here"
+  type: ACCESSORY
+- id: o1343
+  name: "boots worn"
+  roomDesc: "A pair of old boots is here, they look very comfortable."
+  keywords: ["boots","worn"]
+  description: "A pair of old boots is here, they look very comfortable."
+  type: MEDIUMARMOR
+- id: o1344
+  name: "ring seashell"
+  roomDesc: "A small seashell has been left here."
+  keywords: ["ring","seashell"]
+  description: "A small seashell has been left here."
+  type: ACCESSORY
+- id: o1345
+  name: "backpack leather"
+  roomDesc: "A leather backpack is here."
+  keywords: ["backpack","leather"]
+  description: "A leather backpack is here."
+  type: CONTAINER
+  items: ["hitower:o1344"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1351
+  name: "cup brew herbal"
+  roomDesc: "A herbal brew is here."
+  keywords: ["cup","brew","herbal"]
+  description: "A herbal brew is here."
+  type: DRINKCON
+- id: o1352
+  name: "waybread"
+  roomDesc: "A loaf of waybread has been left here."
+  keywords: ["waybread"]
+  description: "A loaf of waybread has been left here."
+  type: FOOD
+- id: o1355
+  name: "cleaver"
+  roomDesc: "A meat cleaver is sticking in the wall here."
+  keywords: ["cleaver"]
+  description: "A meat cleaver is sticking in the wall here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1356
+  name: "shackles chain"
+  roomDesc: "Some chain shackles have been discarded here"
+  keywords: ["shackles","chain"]
+  description: "Some chain shackles have been discarded here"
+  type: TRASH
+- id: o1357
+  name: "dagger silvery"
+  roomDesc: "A long dagger that seems to be made of silver is here."
+  keywords: ["dagger","silvery"]
+  description: "A long dagger that seems to be made of silver is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1359
+  name: "scroll"
+  roomDesc: "A scroll is here."
+  keywords: ["scroll"]
+  description: "A scroll is here."
+  type: SCROLL
+- id: o1360
+  name: "scroll bound"
+  roomDesc: "A bound scroll is here blowing in the breeze."
+  keywords: ["scroll","bound"]
+  description: "A bound scroll is here blowing in the breeze."
+  type: SCROLL
+- id: o1361
+  name: "tube"
+  roomDesc: "A long cylindrical tube is rolling around here."
+  keywords: ["tube"]
+  description: "A long cylindrical tube is rolling around here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1362
+  name: "scroll old"
+  roomDesc: "An old scroll has been left here."
+  keywords: ["scroll","old"]
+  description: "An old scroll has been left here."
+  type: SCROLL
+- id: o1363
+  name: "scroll blue"
+  roomDesc: "A blue scroll has been left here."
+  keywords: ["scroll","blue"]
+  description: "A blue scroll has been left here."
+  type: SCROLL
+- id: o1364
+  name: "pouch leather"
+  roomDesc: "A leather pouch is on the ground here."
+  keywords: ["pouch","leather"]
+  description: "A leather pouch is on the ground here."
+  type: CONTAINER
+  items: ["hitower:o1365","hitower:o1367","hitower:o1368","hitower:o1369","hitower:o1370"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1365
+  name: "spoon silver"
+  roomDesc: "A silver stirring spoon has been left here."
+  keywords: ["spoon","silver"]
+  description: "A silver stirring spoon has been left here."
+  type: TRASH
+- id: o1366
+  name: "potion blue"
+  roomDesc: "A blue potion is here."
+  keywords: ["potion","blue"]
+  description: "A blue potion is here."
+  type: POTION
+- id: o1367
+  name: "potion red"
+  roomDesc: "A bright red potion is here."
+  keywords: ["potion","red"]
+  description: "A bright red potion is here."
+  type: POTION
+- id: o1368
+  name: "potion green"
+  roomDesc: "A green potion is here."
+  keywords: ["potion","green"]
+  description: "A green potion is here."
+  type: POTION
+- id: o1369
+  name: "potion effervescent"
+  roomDesc: "An efervecent potion is bubbling away here"
+  keywords: ["potion","effervescent"]
+  description: "An efervecent potion is bubbling away here"
+  type: POTION
+- id: o1370
+  name: "white milky potion"
+  roomDesc: "A milky white potion is here."
+  keywords: ["white","milky","potion"]
+  description: "A milky white potion is here."
+  type: POTION
+- id: o1371
+  name: "staff black"
+  roomDesc: "A black staff is leaning against the wall here."
+  keywords: ["staff","black"]
+  description: "A black staff is leaning against the wall here."
+  type: STAFF
+- id: o1372
+  name: "flute golden"
+  roomDesc: "A golden flute has been left here."
+  keywords: ["flute","golden"]
+  description: "A golden flute has been left here."
+  type: STAFF
+- id: o1373
+  name: "figurine"
+  roomDesc: "A small figurine in the shape of a humanoid is standing here."
+  keywords: ["figurine"]
+  description: "A small figurine in the shape of a humanoid is standing here."
+  type: STAFF
+- id: o1374
+  name: "belt holster"
+  roomDesc: "A holstered belt is here."
+  keywords: ["belt","holster"]
+  description: "A holstered belt is here."
+  type: CONTAINER
+  items: ["hitower:o1375"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1375
+  name: "wand"
+  roomDesc: "A blackened wand is here."
+  keywords: ["wand"]
+  description: "A blackened wand is here."
+  type: WAND
+- id: o1376
+  name: "chisel runed"
+  roomDesc: "A runed chisel is here."
+  keywords: ["chisel","runed"]
+  description: "A runed chisel is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1377
+  name: "pouch belt beltpouch"
+  roomDesc: "A beltpouch is here."
+  keywords: ["pouch","belt","beltpouch"]
+  description: "A beltpouch is here."
+  type: CONTAINER
+  items: ["hitower:o1378"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1378
+  name: "dust"
+  roomDesc: "Some sparkling dust is in a pile here."
+  keywords: ["dust"]
+  description: "Some sparkling dust is in a pile here."
+  type: STAFF
+- id: o1379
+  name: "cowl dark"
+  roomDesc: "A dark cowl is here."
+  keywords: ["cowl","dark"]
+  description: "A dark cowl is here."
+  type: LIGHTARMOR
+- id: o1380
+  name: "wand ashen"
+  roomDesc: "An ashen wand is here"
+  keywords: ["wand","ashen"]
+  description: "An ashen wand is here"
+  type: WAND
+- id: o1381
+  name: "club"
+  roomDesc: "A huge spiked club has been left here."
+  keywords: ["club"]
+  description: "A huge spiked club has been left here."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1382
+  name: "robe grey"
+  roomDesc: "A pile of grey cloth has been left here."
+  keywords: ["robe","grey"]
+  description: "A pile of grey cloth has been left here."
+  type: CONTAINER
+  items: []
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1383
+  name: "cloak grey"
+  roomDesc: "A pile of grey cloth has been left here."
+  keywords: ["cloak","grey"]
+  description: "A pile of grey cloth has been left here."
+  type: ACCESSORY
+- id: o1384
+  name: "bracelet silver"
+  roomDesc: "A glinting hoop of silvery metal is here."
+  keywords: ["bracelet","silver"]
+  description: "A glinting hoop of silvery metal is here."
+  type: LIGHTARMOR
+- id: o1385
+  name: "staff"
+  roomDesc: "A grey piece of wood shod in iron has been left here."
+  keywords: ["staff"]
+  description: "A grey piece of wood shod in iron has been left here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1386
+  name: "minor ward cube clear"
+  roomDesc: "A small clear cube is sitting here."
+  keywords: ["minor","ward","cube","clear"]
+  description: "A small clear cube is sitting here."
+  type: TRASH
+- id: o1387
+  name: "robe black"
+  roomDesc: "A pile of black cloth is on the ground here."
+  keywords: ["robe","black"]
+  description: "A pile of black cloth is on the ground here."
+  type: LIGHTARMOR
+- id: o1388
+  name: "bracelet onyx"
+  roomDesc: "A hoop of black onyx is here."
+  keywords: ["bracelet","onyx"]
+  description: "A hoop of black onyx is here."
+  type: LIGHTARMOR
+- id: o1389
+  name: "cloak black dark"
+  roomDesc: "A pile of black cloth is on the ground here."
+  keywords: ["cloak","black","dark"]
+  description: "A pile of black cloth is on the ground here."
+  type: ACCESSORY
+- id: o1390
+  name: "shard black obsidian"
+  roomDesc: "A piece of black glass is here."
+  keywords: ["shard","black","obsidian"]
+  description: "A piece of black glass is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1391
+  name: "robe white"
+  roomDesc: "A pile of white cloth is on the ground here."
+  keywords: ["robe","white"]
+  description: "A pile of white cloth is on the ground here."
+  type: LIGHTARMOR
+- id: o1392
+  name: "bracelet white gold"
+  roomDesc: "A hoop of silvery metal is here."
+  keywords: ["bracelet","white","gold"]
+  description: "A hoop of silvery metal is here."
+  type: LIGHTARMOR
+- id: o1393
+  name: "cloak white"
+  roomDesc: "A pile of white cloth is on the ground here."
+  keywords: ["cloak","white"]
+  description: "A pile of white cloth is on the ground here."
+  type: ACCESSORY
+- id: o1394
+  name: "ivory dagger"
+  roomDesc: "An ivory hilted dagger has been left here"
+  keywords: ["ivory","dagger"]
+  description: "An ivory hilted dagger has been left here"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1395
+  name: "collar spiked"
+  roomDesc: "A small spiked collar is here."
+  keywords: ["collar","spiked"]
+  description: "A small spiked collar is here."
+  type: ACCESSORY
+- id: o1396
+  name: "cloak shimmering"
+  roomDesc: "A multi-colored pile of cloth is here."
+  keywords: ["cloak","shimmering"]
+  description: "A multi-colored pile of cloth is here."
+  type: ACCESSORY
+- id: o1397
+  name: "emerald ring"
+  roomDesc: "A small ring with a green gemstone is here."
+  keywords: ["emerald","ring"]
+  description: "A small ring with a green gemstone is here."
+  type: ACCESSORY
+- id: o1398
+  name: "bracelet emerald"
+  roomDesc: "A beautifully crafted hoop of emerald is here."
+  keywords: ["bracelet","emerald"]
+  description: "A beautifully crafted hoop of emerald is here."
+  type: LIGHTARMOR
+- id: o1399
+  name: "ward major clear crystal"
+  roomDesc: "A large clear crystal cube is here."
+  keywords: ["ward","major","clear","crystal"]
+  description: "A large clear crystal cube is here."
+  type: TRASH
+- id: o1400
+  name: "ebony kris"
+  roomDesc: "A wavy bladed knife made of ebony is here."
+  keywords: ["ebony","kris"]
+  description: "A wavy bladed knife made of ebony is here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o1401
+  name: "green scale shirt"
+  roomDesc: "Some green dragon scales which have been sewn together are here."
+  keywords: ["green","scale","shirt"]
+  description: "Some green dragon scales which have been sewn together are here."
+  type: MEDIUMARMOR
+- id: o1402
+  name: "fridge refrigerator"
+  roomDesc: "A small refrigerator."
+  keywords: ["fridge","refrigerator"]
+  description: "A small refrigerator."
+  type: CONTAINER
+  items: ["hitower:o1403","hitower:o1404"]
+  closed: true
+  metadata:
+    noPickup: true
+- id: o1403
+  name: "bottle vodka"
+  roomDesc: "A bottle of Absolut vodka is here to drink."
+  keywords: ["bottle","vodka"]
+  description: "A bottle of Absolut vodka is here to drink."
+  type: DRINKCON
+- id: o1404
+  name: "juice bottle"
+  roomDesc: "A bottle of cranberry juice is here."
+  keywords: ["juice","bottle"]
+  description: "A bottle of cranberry juice is here."
+  type: DRINKCON
+- id: o1405
+  name: "clan ventrue book"
+  roomDesc: "A tightly bound leather book, filled with clan secrets lies here."
+  keywords: ["clan","ventrue","book"]
+  description: "A tightly bound leather book, filled with clan secrets lies here."
+  type: FURNITURE

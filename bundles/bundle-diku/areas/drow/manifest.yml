@@ -1,0 +1,12 @@
+title: "Drow City"
+metadata:
+  id: 21
+  name: "Drow City"
+  createdBy: "anon"
+  starting_vnum: 5100
+  ending_vnum: 5199
+  item_requirements: 4000
+  filename: "drow.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

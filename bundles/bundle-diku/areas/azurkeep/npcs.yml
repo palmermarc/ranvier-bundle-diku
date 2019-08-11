@@ -1,0 +1,152 @@
+- id: m9700
+  keywords: ["monolith","flame","guardian"]
+  name: "Monolith Flame Guardian"
+  description: >-
+    A Monolith Flame Guardian is here, protecting the Keep
+  level: 373
+  attributes:
+    health: 49508
+    armor: 25320
+    hitroll: 6300
+    damroll: 3150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "azurkeep:o9703": 75
+        "azurkeep:o9707": 75
+  metadata:
+    areaId: 5
+    exp_level: 32000
+    sex: 0
+- id: m9701
+  keywords: ["flame","monolith","warrior"]
+  name: "Monolith Flame Warrior"
+  description: >-
+    A Monolith Flame Warrior is here to dice you up.
+  level: 373
+  attributes:
+    health: 49508
+    armor: 25320
+    hitroll: 6300
+    damroll: 3150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "azurkeep:o9703": 75
+        "azurkeep:o9707": 75
+  metadata:
+    areaId: 5
+    exp_level: 32000
+    sex: 1
+- id: m9702
+  keywords: ["wisp","blue","flame","fire"]
+  name: "Blue Energy Wisp"
+  description: >-
+    A Blue Wisp sits here, eminating an eerie hum.
+  level: 373
+  attributes:
+    health: 49508
+    armor: 25320
+    hitroll: 6300
+    damroll: 3150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "azurkeep:o9707": 75
+  metadata:
+    areaId: 5
+    exp_level: 32000
+    sex: 0
+- id: m9703
+  keywords: ["invisible","stalker","invis","stalk"]
+  name: "Invisible Stalker"
+  description: >-
+    An Invisible Stalker floats here...waiting for a victim.
+  level: 373
+  attributes:
+    health: 49508
+    armor: 25320
+    hitroll: 6300
+    damroll: 3150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 5
+    exp_level: 32000
+    sex: 1
+- id: m9704
+  keywords: ["sentinal","statue"]
+  name: "Sentinel of Azazel"
+  description: >-
+    The Sentinel is here, guarding Azazel's Statue.
+  level: 373
+  attributes:
+    health: 49508
+    armor: 25320
+    hitroll: 6300
+    damroll: 3150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "azurkeep:o9705": 75
+        "azurkeep:o9707": 75
+  metadata:
+    areaId: 5
+    exp_level: 32000
+    sex: 1
+- id: m9705
+  keywords: ["Vampiric","Plant"]
+  name: "Vampiric Plant"
+  description: >-
+    A Vampiric Plant is here waiting to feast!
+  level: 373
+  attributes:
+    health: 49508
+    armor: 25320
+    hitroll: 6300
+    damroll: 3150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "azurkeep:o9704": 75
+        "azurkeep:o9706": 75
+  metadata:
+    areaId: 5
+    exp_level: 32000
+    sex: 1

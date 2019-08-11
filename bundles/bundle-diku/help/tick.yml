@@ -1,0 +1,14 @@
+---
+body: |
+  Many of the game actions are based upon interval timers, including combat,
+  most autonomous monster actions, hp/mana/move regeneration, spell duration,
+  weather, and area resetting.
+  
+  Of these timers, the hp/mana/move regeneration timer is popularly called the
+  'tick'. Ticks on this mud average 30 seconds of real time, but the actual
+  amount varies randomly from 15 seconds to 45 seconds.
+  
+  Area resetting happens roughly every 3 minutes if no one is in the area; less
+  often (15 minutes) if some one is. Also note that objects lying on the ground
+  will not be regenerated if anyone is in the area when it resets.
+  

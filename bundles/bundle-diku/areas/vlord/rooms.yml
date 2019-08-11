@@ -1,0 +1,88 @@
+- id: r32000
+  title: "The room of the Vampire Lords"
+  description: >-
+    You are standing in a dank, musky room. The odours of decay spread around you, filling your every pore with the essence of death and decay. On the borders of your senses you can tell you are not alone in here.
+  exits:
+    - roomId: "sewer:r7114"
+      direction: north
+  npcs:
+    - id: "vlord:m32000"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r32001
+  title: "The room of the Vampire Lords"
+  description: >-
+    You are standing in a dank, musky room. The odours of decay spread around you, filling your every pore with the essence of death and decay. On the borders of your senses you can tell you are not alone in here.
+  exits:
+    - roomId: "dylan:r9199"
+      direction: south
+  npcs:
+    - id: "vlord:m32001"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r32002
+  title: "The room of the Vampire Lords"
+  description: >-
+    You are standing in a dank, musky room. The odours of decay spread around you, filling your every pore with the essence of death and decay. On the borders of your senses you can tell you are not alone in here.
+  exits:
+    - roomId: "midgaard:r3133"
+      direction: up
+  npcs:
+    - id: "vlord:m32002"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r32003
+  title: "The room of the Vampire Lords"
+  description: >-
+    You are standing in a dank, musky room. The odours of decay spread around you, filling your every pore with the essence of death and decay. On the borders of your senses you can tell you are not alone in here.
+  exits:
+    - roomId: "midennir:r3556"
+      direction: west
+  npcs:
+    - id: "vlord:m32003"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r32004
+  title: "The room of the Vampire Lords"
+  description: >-
+    You are standing in a dank, musky room. The odours of decay spread around you, filling your every pore with the essence of death and decay. On the borders of your senses you can tell you are not alone in here.
+  exits:
+    - roomId: "tree:r10113"
+      direction: south
+  npcs:
+    - id: "vlord:m32004"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r32005
+  title: "The room of the Vampire Lords"
+  description: >-
+    You are standing in a dank, musky room. The odours of decay spread around you, filling your every pore with the essence of death and decay. On the borders of your senses you can tell you are not alone in here.
+  exits:
+    - roomId: "canyon:r9260"
+      direction: south
+  npcs:
+    - id: "vlord:m32005"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r32006
+  title: "The room of the Vampire Lords"
+  description: >-
+    You are standing in a dank, musky room. The odours of decay spread around you, filling your every pore with the essence of death and decay. On the borders of your senses you can tell you are not alone in here.
+  exits:
+    - roomId: "tanu:r8708"
+      direction: north
+  npcs:
+    - id: "vlord:m32006"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r32007
+  title: "The room of the Vampire Lords"
+  description: >-
+    You are standing in a dank, musky room. The odours of decay spread around you, filling your every pore with the essence of death and decay. On the borders of your senses you can tell you are not alone in here.
+  exits:
+    - roomId: "wyvern:r1634"
+      direction: south
+  npcs:
+    - id: "vlord:m32007"
+      respawnChance: 100
+      maxLoad: "1"

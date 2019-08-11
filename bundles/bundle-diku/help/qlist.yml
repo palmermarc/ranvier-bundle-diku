@@ -1,0 +1,15 @@
+---
+body: |
+  syntax: QLIST
+  syntax: QBUY <item>
+  
+  Players can now create their own 'created' eq without the aid of an Admin. 
+  To see which items you may create, type: QLIST. To purchase the item, 
+  type: QBUY <ITEM>. The QP price for each item will be automatically removed 
+  from your pfile. You will be given a created item with a generic name. If 
+  you would like to change the name of this eq, please feel free to go fighter, 
+  and then you can rename it yourself.
+  
+  see also: CLAIM, SPELLPROOF, FBONUS, INDEST, QUEST, and QP.
+  
+  - qbuy

@@ -1,0 +1,3165 @@
+- id: m12000
+  keywords: ["catfish","fish"]
+  name: "the catfish"
+  description: >-
+    The catfish swims straight at you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12001": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12001
+  keywords: ["catfish","fish"]
+  name: "the catfish"
+  description: >-
+    The catfish swims straight at you!
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 2
+- id: m12002
+  keywords: ["cotton","farmer"]
+  name: "the cotton farmer"
+  description: >-
+    The cotton farmer is busy doing backbreaking labor in his field.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12031": 75
+        "hc:o12000": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12003
+  keywords: ["soybean","farmer"]
+  name: "the soybean farmer"
+  description: >-
+    The soybean farmer is here, letting his crop go to waste.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12030": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12004
+  keywords: ["mississippi","highway","patrol","officer"]
+  name: "the Mississippi Highway Patrol Officer"
+  description: >-
+    The officer looks you up and down, wondering if he should give you aticketor not.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12004": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12005
+  keywords: ["sheriff","roscoe","pico","locomotive"]
+  name: "Sheriff Rosco Pico Locomotive"
+  description: >-
+    Sheriff Rosco is here, plotting some way to get back at the Dikes.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12006
+  keywords: ["deputy","cleothus"]
+  name: "Deputy Cleothus"
+  description: >-
+    This guy is too stupid for his own good.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12007
+  keywords: ["deputy","enische"]
+  name: "Deputy Enische"
+  description: >-
+    Deputy Enische is well respected in the community.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12008
+  keywords: ["kooter","mechanic"]
+  name: "Kooter the mechanic"
+  description: >-
+    Kooter is here, tinkering on something.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12009
+  keywords: ["daisy","dike"]
+  name: "Daisy Dike"
+  description: >-
+    Daisy Dike prances around.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12019": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12010
+  keywords: ["luke","dike"]
+  name: "Luke Dike"
+  description: >-
+    Luke Dike is here, trying to stay out of trouble.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12008": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12011
+  keywords: ["bo","dike"]
+  name: "Bo Dike"
+  description: >-
+    Bo Dike is here, trying to stay out of trouble.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12007": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12012
+  keywords: ["deputy"]
+  name: "the deputy"
+  description: >-
+    A silly deputy is here.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12013
+  keywords: ["deputy"]
+  name: "the deputy"
+  description: >-
+    A silly deputy is here.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 2
+- id: m12014
+  keywords: ["uncle","jesse","dike"]
+  name: "Uncle Jesse Dike"
+  description: >-
+    Uncle Jesse Dike is here, trying to figure out why you're here.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12017": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12015
+  keywords: ["chicken"]
+  name: "the chicken"
+  description: >-
+    A chicken is here, clucking away.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12016
+  keywords: ["goat"]
+  name: "the goat"
+  description: >-
+    A goat eats anything that will be still.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12035": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12017
+  keywords: ["pig"]
+  name: "the pig"
+  description: >-
+    The pig grunts.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12035": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12018
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    The cow chews some grass.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12019
+  keywords: ["resident"]
+  name: "the resident"
+  description: >-
+    Now you see what type of person lives around here.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12006": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12020
+  keywords: ["grand","resident"]
+  name: "a grand resident"
+  description: >-
+    A pretty important looking person has walked in.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12032": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12021
+  keywords: ["resident"]
+  name: "the resident"
+  description: >-
+    A p(r)etty thief, eh?
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12006": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 2
+- id: m12022
+  keywords: ["grand","resident"]
+  name: "a grand resident"
+  description: >-
+    A pretty important looking person has walked in.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12032": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 2
+- id: m12023
+  keywords: ["boss","hogg","head","hogghead"]
+  name: "Boss HoggHead"
+  description: >-
+    Boss HoggHead is here, eating a piece of chicken and licking hisfingers.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12020": 75
+        "hc:o12011": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12024
+  keywords: ["thug"]
+  name: "the thug"
+  description: >-
+    The thug wanders around, up to no good.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12002": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12025
+  keywords: ["perch"]
+  name: "the perch"
+  description: >-
+    The perch swims around.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12002": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 0
+- id: m12026
+  keywords: ["buffalo","fish"]
+  name: "the buffalo fish"
+  description: >-
+    The buffalo fish swims around in the water, master of its domain.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12027
+  keywords: ["alligator"]
+  name: "the alligator"
+  description: >-
+    The alligator calmly swims in your direction.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12028
+  keywords: ["water","snake"]
+  name: "the water snake"
+  description: >-
+    The water snake slithers towards you, threatening to attack.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12029
+  keywords: ["whooping","crane"]
+  name: "the whooping crane"
+  description: >-
+    The whooping crane swoops in and out of the picture.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12030
+  keywords: ["panther"]
+  name: "the panther"
+  description: >-
+    The panther slips in and out of the shadows.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 2
+- id: m12031
+  keywords: ["wild","boar","pig"]
+  name: "the wild boar"
+  description: >-
+    A wild pig runs at you at a hundred miles per hour!
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12032
+  keywords: ["bobcat","cat"]
+  name: "the bobcat"
+  description: >-
+    The bobcat is here, searching for its missing tail.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12033
+  keywords: ["jeweler","jeweller","shopkeeper","keeper"]
+  name: "the jeweler"
+  description: >-
+    The jeweler stands here.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12020": 75
+  metadata:
+    vendor:
+      items:
+        "hc:o12020":
+          cost: 5000
+          currency: gold
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12034
+  keywords: ["grocer","shopkeeper","keeper"]
+  name: "the grocer"
+  description: >-
+    The grocer stands here.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12032": 75
+        "hc:o12012": 75
+  metadata:
+    vendor:
+      items:
+        "hc:o12032":
+          cost: 5000
+          currency: gold
+        "hc:o12012":
+          cost: 5000
+          currency: gold
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12035
+  keywords: ["shopkeeper","keeper"]
+  name: "Duke Allan, the shopkeeper"
+  description: >-
+    Duke Allan stands here, minding his own business.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12020": 75
+        "hc:o12015": 75
+        "hc:o12009": 75
+        "hc:o12029": 75
+        "hc:o12033": 75
+  metadata:
+    vendor:
+      items:
+        "hc:o12020":
+          cost: 5000
+          currency: gold
+        "hc:o12015":
+          cost: 5000
+          currency: gold
+        "hc:o12009":
+          cost: 5000
+          currency: gold
+        "hc:o12033":
+          cost: 5000
+          currency: gold
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12036
+  keywords: ["jack","turner","shopkeeper","keeper"]
+  name: "Jack Turner"
+  description: >-
+    Jack Turner deals in weapons.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+        "hc:o12032": 75
+        "hc:o12017": 75
+  metadata:
+    vendor:
+      items:
+        "hc:o12005":
+          cost: 5000
+          currency: gold
+        "hc:o12032":
+          cost: 5000
+          currency: gold
+        "hc:o12017":
+          cost: 5000
+          currency: gold
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12037
+  keywords: ["child","kid","boy"]
+  name: "the child"
+  description: >-
+    The child peacefully plays with his toys.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12002": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12038
+  keywords: ["child","kid","girl"]
+  name: "the child"
+  description: >-
+    The girl peacefully plays with her toys.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12002": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 2
+- id: m12039
+  keywords: ["worshipper","man","person"]
+  name: "the worshipper"
+  description: >-
+    A bored person walks around, chanting something.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12040
+  keywords: ["worshipper","woman","person"]
+  name: "the worshipper"
+  description: >-
+    An excited person claps her hands and shouts!
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12041
+  keywords: ["priest",""]
+  name: "the priest"
+  description: >-
+    The priest advocates corporal punishment.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12042
+  keywords: ["little","red","devil"]
+  name: "the little red devil"
+  description: >-
+    A little red devil attacks you!
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 0
+- id: m12043
+  keywords: ["little","red","devil"]
+  name: "the little red devil"
+  description: >-
+    The little red devil attacks you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 0
+- id: m12044
+  keywords: ["little","red","devil"]
+  name: "the little red devil"
+  description: >-
+    The little red devil will kill you!
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 0
+- id: m12045
+  keywords: ["town","drunk"]
+  name: "the town drunk"
+  description: >-
+    The town drunk stumbles along.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12023": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12046
+  keywords: ["catfish","farmer","fish","cat"]
+  name: "the catfish farmer"
+  description: >-
+    The catfish farmer peacefully tends to his fish.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12031": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12047
+  keywords: ["bartender","shopkeeper","keeper"]
+  name: "the bartender"
+  description: >-
+    The bartender slowly stirs a drink.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12032": 75
+        "hc:o12022": 75
+        "hc:o12024": 75
+  metadata:
+    vendor:
+      items:
+        "hc:o12032":
+          cost: 5000
+          currency: gold
+        "hc:o12022":
+          cost: 5000
+          currency: gold
+        "hc:o12024":
+          cost: 5000
+          currency: gold
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12048
+  keywords: ["white","spirit"]
+  name: "white ghost"
+  description: >-
+    A shadowy white apparition flies toward you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12049
+  keywords: ["little","red","devil"]
+  name: "the little red devil"
+  description: >-
+    The little red devil hits you Supernaturally Hard!!!!!
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12034": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 0
+- id: m12050
+  keywords: ["catfish","cat","fish"]
+  name: "the catfish"
+  description: >-
+    The catfish swims straight at you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12051
+  keywords: ["catfish","cat","fish"]
+  name: "the catfish"
+  description: >-
+    The catfish swims towards you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12052
+  keywords: ["catfish","cat","fish"]
+  name: "the catfish"
+  description: >-
+    The catfish swims straight at you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12001": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12053
+  keywords: ["deputy"]
+  name: "the deputy"
+  description: >-
+    The deputy patrols the area.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12054
+  keywords: ["deputy"]
+  name: "the deputy"
+  description: >-
+    The deputy patrols the area.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12055
+  keywords: ["deputy"]
+  name: "the deputy"
+  description: >-
+    The deputy patrols the area
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12056
+  keywords: ["deputy"]
+  name: "the deputy"
+  description: >-
+    The deputy patrols the area.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12057
+  keywords: ["deputy"]
+  name: "the deputy"
+  description: >-
+    The deputy patrols the area.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12058
+  keywords: ["deputy"]
+  name: "the deputy"
+  description: >-
+    The deputy patrols the area.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 500
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12059
+  keywords: ["deputy"]
+  name: "Deputy John"
+  description: >-
+    Deputy John patrols the area.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12005": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12060
+  keywords: ["chicken"]
+  name: "the chicken"
+  description: >-
+    The chicken pecks at the ground.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12061
+  keywords: ["chicken"]
+  name: "the chicken"
+  description: >-
+    The chicken pecks at the ground.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12062
+  keywords: ["pig"]
+  name: "the pig"
+  description: >-
+    The pig grunts its way around.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12035": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12063
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    The cow moos at the clear blue sky.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12064
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    The cow moos at the clear blue sky.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12065
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    The cow moos at the clear blue sky.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12066
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    The cow moos at the clear blue sky.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12067
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    The cow moos at the clear blue sky.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12068
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    The cow moos to nothing at all.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12069
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    The cow moos at the clear blue sky.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12070
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    The cow moos at the clear blue sky.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12071
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    The cow moos at the clear blue sky.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12072
+  keywords: ["cow"]
+  name: "the cow"
+  description: >-
+    The cow moos at the clear blue sky.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12073
+  keywords: ["resident"]
+  name: "the resident"
+  description: >-
+    The resident stalks you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12006": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12074
+  keywords: ["resident"]
+  name: "the resident"
+  description: >-
+    The resident stalks you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12006": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12075
+  keywords: ["resident"]
+  name: "the resident"
+  description: >-
+    The resident reaches into your pockets.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12006": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12076
+  keywords: ["resident"]
+  name: "the resident"
+  description: >-
+    The resident leaps from its concealment.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12006": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12077
+  keywords: ["resident"]
+  name: "the resident"
+  description: >-
+    The resident walks west.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12023": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12078
+  keywords: ["resident"]
+  name: "the resident"
+  description: >-
+    The resident walks in and out.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12024": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12079
+  keywords: ["resident","grand"]
+  name: "a grand resident"
+  description: >-
+    A grand resident stands here, looking very stately.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12032": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12080
+  keywords: ["resident","grand"]
+  name: "a grand resident"
+  description: >-
+    A grand resident stands before you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12032": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12081
+  keywords: ["perch","fish"]
+  name: "the perch"
+  description: >-
+    The perch swims happily.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12082
+  keywords: ["perch","fish"]
+  name: "the perch"
+  description: >-
+    The perch swims happily.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12083
+  keywords: ["perch"]
+  name: "the perch"
+  description: >-
+    The perch swims happily.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12084
+  keywords: ["buffalo","fish"]
+  name: "the buffalo fish"
+  description: >-
+    The buffalo fish swims around the lake.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12085
+  keywords: ["buffalo","fish"]
+  name: "the buffalo fish"
+  description: >-
+    The buffalo fish swims around the lake
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12086
+  keywords: ["buffalo","fish"]
+  name: "the buffalo fish"
+  description: >-
+    The buffalo fish swims around the lake.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12087
+  keywords: ["alligator","gator"]
+  name: "the alligator"
+  description: >-
+    The alligator lazily creeps along.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12088
+  keywords: ["alligator","gator"]
+  name: "the alligator"
+  description: >-
+    The alligator fishes for a meal.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12089
+  keywords: ["snake","water"]
+  name: "the water snake"
+  description: >-
+    The water snake swims in the lake.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12033": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12090
+  keywords: ["snake","water"]
+  name: "the water snake"
+  description: >-
+    The water snake swims in and out of the picture.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12091
+  keywords: ["crane","whooping","whoop"]
+  name: "the whooping crane"
+  description: >-
+    The whooping crane is a rare bird, indeed.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12092
+  keywords: ["panther","cat"]
+  name: "the panther"
+  description: >-
+    The panther looks to eat you for dinner.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 2
+- id: m12093
+  keywords: ["panther","cat"]
+  name: "the panther"
+  description: >-
+    The panther flickers in and out of the shadows.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12094
+  keywords: ["boar","wild","pig"]
+  name: "the wild boar"
+  description: >-
+    The wild boar rubs its nose into the ground, eating roots.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12095
+  keywords: ["worshipper"]
+  name: "the worshipper"
+  description: >-
+    The worshipper walks around in some sort of trance.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12096
+  keywords: ["worshipper","man","person"]
+  name: "the worshipper "
+  description: >-
+    A man trips over his own feet.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12097
+  keywords: ["worshipper","man","person"]
+  name: "the worshipper"
+  description: >-
+    A man walks into the room, and stares you down.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12098
+  keywords: ["worshipper"]
+  name: "the worshipper"
+  description: >-
+    The worshipper sings from his hymnbook.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12099
+  keywords: ["worshipper"]
+  name: "the worshipper"
+  description: >-
+    A person sits here, half-asleep.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12100
+  keywords: ["worshipper"]
+  name: "the worshipper"
+  description: >-
+    This person is busy looking around, and taking notes.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12101
+  keywords: ["red","devil","little"]
+  name: "the little red devil"
+  description: >-
+    The little red devil attacks you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 0
+- id: m12102
+  keywords: ["devil","little","red"]
+  name: "the little red devil"
+  description: >-
+    The little red devil attacks you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 0
+- id: m12103
+  keywords: ["devil","little","red"]
+  name: "the little red devil"
+  description: >-
+    The little red devil attacks you!
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 0
+- id: m12104
+  keywords: ["devil","little","red"]
+  name: "the little red devil"
+  description: >-
+    The little red devil attacks you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 0
+- id: m12105
+  keywords: ["devil","little","red"]
+  name: "the little red devil"
+  description: >-
+    The little red devil attacks you!
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 0
+- id: m12106
+  keywords: ["devil","little","red"]
+  name: "the little red devil"
+  description: >-
+    The little red devil attacks you!
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 0
+- id: m12107
+  keywords: ["devil","little","red"]
+  name: "the little red devil"
+  description: >-
+    The little red devil attacks you!
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 0
+- id: m12108
+  keywords: ["farmer","catfish"]
+  name: "the catfish farmer"
+  description: >-
+    The catfish farmer silently works on his pond.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12109
+  keywords: ["farmer","catfish"]
+  name: "the catfish farmer"
+  description: >-
+    The catfish farmer waddles through the fish pond.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12110
+  keywords: ["farmer","catfish"]
+  name: "the catfish farmer"
+  description: >-
+    The catfish farmer waddles through the pond.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "hc:o12001": 75
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1
+- id: m12111
+  keywords: ["white","spirit"]
+  name: "white ghost"
+  description: >-
+    A shadowy white apparition flies toward you.
+  level: 166
+  attributes:
+    health: 19502
+    armor: 7680
+    hitroll: 1800
+    damroll: 900
+    alignment: -1000
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 33
+    exp_level: 14000
+    sex: 1

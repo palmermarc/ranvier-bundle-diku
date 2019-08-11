@@ -1,0 +1,6 @@
+---
+body: |
+  Syntax: cast 'flamestrike' <victim>
+  
+  This spell inflicts damage on the victim.
+  

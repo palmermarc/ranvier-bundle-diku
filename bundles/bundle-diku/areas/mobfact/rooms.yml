@@ -1,0 +1,535 @@
+- id: r9400
+  title: "Entrance to the Mob Factory"
+  description: >-
+    You find that you have entered a strange factory. This factory doesn't
+    make cars or computers or something - it makes mobs! The sound of
+    machinery can be heard in the background; the grinding gears drive you
+    crazy! To the north you see the storage area, to the south the
+    foreman's office, to the east the entrance hallway, and to the west the
+    eastern end of alley.
+  exits:
+    - roomId: "mobfact:r9401"
+      direction: north
+    - roomId: "mobfact:r9403"
+      direction: south
+    - roomId: "mobfact:r9407"
+      direction: east
+    - roomId: "midgaard:r3046"
+      direction: west
+- id: r9401
+  title: "Mob Factory Storage Area "
+  description: >-
+    This is where the raw materials from which mobs are manufactured are
+    stored. You see sacks of sawdust, cans of pink paint, a large box
+    containing wigs and a bottle mysteriously labelled "solution x". Exits
+    are more of storage to the east and north, and entrance to the mob
+    factory to the south.
+  exits:
+    - roomId: "mobfact:r9402"
+      direction: north
+    - roomId: "mobfact:r9400"
+      direction: south
+    - roomId: "mobfact:r9406"
+      direction: east
+  npcs:
+    - id: "mobfact:m9405"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "mobfact:m9405"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "mobfact:m9405"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r9402
+  title: "Mob Factory Storage Area"
+  description: >-
+    This is where the raw materials from which mobs are manufactured are
+    stored. You see sacks of sawdust, cans of pink paint, a large box
+    containing wigs and a bottle mysteriously labelled "solution X". Exits
+    are more of storage to the east and south.
+  exits:
+    - roomId: "mobfact:r9401"
+      direction: south
+    - roomId: "mobfact:r9405"
+      direction: east
+  npcs:
+    - id: "mobfact:m9401"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "mobfact:m9401"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "mobfact:m9401"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r9403
+  title: "Foreman's Office"
+  description: >-
+    This is the ofice of the mob factory foreman. The room is sparsely
+    furnished with a metal desk, a couple of chairs, a shelf with helmets
+    of various sizes and a Sports Illustrated Swimsuit calendar on the west
+    wall. Exits lead north to the mob factory entrance and south to the
+    foreman's bathroom.
+  exits:
+    - roomId: "mobfact:r9400"
+      direction: north
+    - roomId: "mobfact:r9404"
+      direction: south
+  npcs:
+    - id: "mobfact:m9402"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r9404
+  title: "Foreman's Bathroom"
+  description: >-
+    This is the place where the foreman makes frequent visits. The smell
+    here is very strong and reminds you of bovine excrement! There is a
+    shower to the back, and a urinal to the left. On the floor you can
+    see stains of a very suspicious nature. The only exit leads north to
+    the foreman's office.
+  exits:
+    - roomId: "mobfact:r9403"
+      direction: north
+  npcs:
+    - id: "mobfact:m9405"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "mobfact:m9405"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r9405
+  title: "Mob Factory Storage Area"
+  description: >-
+    This is where the raw materials from which mobs are manufactured are
+    stored. You see sacks of sawdust, cans of pink paint, a large box
+    containing wigs and a bottle mysteriously labelled "solution X". Exits
+    are more of storage to the west and south, and an inspection room to
+    the east.
+  exits:
+    - roomId: "mobfact:r9406"
+      direction: south
+    - roomId: "mobfact:r9410"
+      direction: east
+    - roomId: "mobfact:r9402"
+      direction: west
+- id: r9406
+  title: "Mob Factory Storage Area"
+  description: >-
+    This is where the raw materials from which mobs are manufactured are
+    stored. You see sacks of sawdust, cans of pink paint, a large box
+    containing wigs and a bottle mysteriously labelled "solution X". Exits
+    are more of storage to the west and north, an inspection room to the
+    east and the entrance hallway to the south.
+  exits:
+    - roomId: "mobfact:r9405"
+      direction: north
+    - roomId: "mobfact:r9407"
+      direction: south
+    - roomId: "mobfact:r9411"
+      direction: east
+    - roomId: "mobfact:r9401"
+      direction: west
+  npcs:
+    - id: "mobfact:m9403"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "mobfact:m9403"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r9407
+  title: "Entrance Hallway to Mob Factoy"
+  description: >-
+    You are standing in the entrance hallway of the mob factory. The sound
+    of machinery gets louder now, and you can hear people shouting in the
+    distance. Every once in a while you get creepy feeling that a pair of
+    eyes is observing you...... Exits are north to the storage area, east
+    to the entrance hallway, south to the cafeteria and west to the mob
+    factory entrance.
+  exits:
+    - roomId: "mobfact:r9406"
+      direction: north
+    - roomId: "mobfact:r9408"
+      direction: south
+    - roomId: "mobfact:r9412"
+      direction: east
+    - roomId: "mobfact:r9400"
+      direction: west
+- id: r9408
+  title: "Mob Factory Cafeteria"
+  description: >-
+    You find that you have entered the cafeteria of the mob factory. There
+    are many workers eating at the numerous tables placed around the room.
+    The food doesn't look too appetising, but the factory workers don't
+    seem to care. There are many places where food and drink have been
+    spilled on the ground. Exits are north to the entrance hallway and
+    south to the mob factory cafeteria.
+  exits:
+    - roomId: "mobfact:r9407"
+      direction: north
+    - roomId: "mobfact:r9409"
+      direction: south
+  npcs:
+    - id: "mobfact:m9405"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mobfact:m9401"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r9409
+  title: "Mob Factory Cafeteria"
+  description: >-
+    You find that you have entered the cafeteria of the mob factory. There
+    are many workers eating at the numerous tables placed around the room.
+    The food doesn't look too appetising, but the factory workers don't
+    seem to care. There are many places where food and drink have been
+    spilled on the ground. The only exit is north to the mob factory
+    cafeteria.
+  exits:
+    - roomId: "mobfact:r9408"
+      direction: north
+  npcs:
+    - id: "mobfact:m9405"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r9410
+  title: "Mob Factory Inspection Room"
+  description: >-
+    You have entered the mob factory inspections room. This is where the
+    mobs manufactured on the assembly lines are inspected for defects. A
+    whole team of inspectors from the Midgaard Inspections Bureau is
+    standing around, trying to look busy. Exits are south to the mob
+    factory inspection room, east to the primary assembly line and west to
+    the storage area.
+  exits:
+    - roomId: "mobfact:r9411"
+      direction: south
+    - roomId: "mobfact:r9415"
+      direction: east
+    - roomId: "mobfact:r9405"
+      direction: west
+  npcs:
+    - id: "mobfact:m9407"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "mobfact:m9404"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "mobfact:m9403"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "mobfact:m9403"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r9411
+  title: "Mob Factory Inspection Room"
+  description: >-
+    You have entered the mob factory inspections room. This is where the
+    mobs manufactured on the assembly lines are inspected for defects. A
+    whole team of inspectors from the Midgaard Inspections Bureau is
+    standing around, trying to look busy. Exits are south to the mob
+    factory inspection room, east to the primary assembly line and west to
+    the storage area.
+  exits:
+    - roomId: "mobfact:r9410"
+      direction: north
+    - roomId: "mobfact:r9412"
+      direction: south
+    - roomId: "mobfact:r9416"
+      direction: east
+    - roomId: "mobfact:r9406"
+      direction: west
+  npcs:
+    - id: "mobfact:m9407"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "mobfact:m9401"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r9412
+  title: "Entrance Hallway to Mob Factoy"
+  description: >-
+    You are standing in the entrance hallway of the mob factory. The sound
+    of machinery gets louder now, and you can hear people shouting in the
+    distance. Every once in a while you get creepy feeling that a pair of
+    eyes is observing you...... Exits are north to the inspection room,
+    east to the primary assembly line, south to the reject room and west
+    to the entrance hallway.
+  exits:
+    - roomId: "mobfact:r9411"
+      direction: north
+    - roomId: "mobfact:r9413"
+      direction: south
+    - roomId: "mobfact:r9417"
+      direction: east
+    - roomId: "mobfact:r9407"
+      direction: west
+- id: r9413
+  title: "Mob Factory Reject Room"
+  description: >-
+    This is the factory reject room. All the mobs that are manufactured
+    incorrectly or have some defect are placed here before subsequent
+    destruction. You shudder at the many deformed and grotesque shapes
+    present before you. Exits are south to the reject room and north to
+    the entrance hallway.
+  exits:
+    - roomId: "mobfact:r9412"
+      direction: north
+    - roomId: "mobfact:r9414"
+      direction: south
+  npcs:
+    - id: "mobfact:m9404"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "mobfact:m9404"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9414
+  title: "Mob Factory Reject Room"
+  description: >-
+    This is the factory reject room. All the mobs that are manufactured
+    incorrectly or have some defect are placed here before subsequent
+    destruction. You shudder at the many deformed and grotesque shapes
+    present before you. The only exit is north to the reject room.
+  exits:
+    - roomId: "mobfact:r9413"
+      direction: north
+  npcs:
+    - id: "mobfact:m9403"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "mobfact:m9403"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r9415
+  title: "Primary Assembly Line"
+  description: >-
+    This is the primary assembly line of the mob factory. Here, all the
+    mobs seen roaming around the city of Midgaard are manufactured from
+    raw materials. There is a big conveyor belt present which makes a lot
+    of noise! It seems that the workers are making drunks today. Exits are
+    east to the secondary assembly line, south to the primary assembly
+    line and west to the inspection room.
+  exits:
+    - roomId: "mobfact:r9416"
+      direction: south
+    - roomId: "mobfact:r9420"
+      direction: east
+    - roomId: "mobfact:r9410"
+      direction: west
+  npcs:
+    - id: "mobfact:m9405"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r9416
+  title: "Primary Assembly Line"
+  description: >-
+    This is the primary assembly line of the mob factory. Here, all the
+    mobs seen roaming around the city of Midgaard are manufactured from
+    raw materials. There is a big conveyor belt present which makes a lot
+    of noise! It seems that the workers are making drunks today. Exits are
+    east to the secondary assembly line, north and south to the primary
+    assembly line and west to the inspection room.
+  exits:
+    - roomId: "mobfact:r9415"
+      direction: north
+    - roomId: "mobfact:r9417"
+      direction: south
+    - roomId: "mobfact:r9421"
+      direction: east
+    - roomId: "mobfact:r9411"
+      direction: west
+  npcs:
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r9417
+  title: "Primary Assembly Line"
+  description: >-
+    This is the primary assembly line of the mob factory. Here, all the
+    mobs seen roaming around the city of Midgaard are manufactured from
+    raw materials. There is a big conveyor belt present which makes a lot
+    of noise! It seems that the workers are making drunks today. Exits are
+    east to the secondary assembly line, north and south to the primary
+    assembly line and west to the entrance hallway.
+  exits:
+    - roomId: "mobfact:r9416"
+      direction: north
+    - roomId: "mobfact:r9418"
+      direction: south
+    - roomId: "mobfact:r9422"
+      direction: east
+    - roomId: "mobfact:r9412"
+      direction: west
+  npcs:
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r9418
+  title: "Primary Assembly Line"
+  description: >-
+    This is the primary assembly line of the mob factory. Here, all the
+    mobs seen roaming around the city of Midgaard are manufactured from
+    raw materials. There is a big conveyor belt present which makes a lot
+    of noise! It seems that the workers are making drunks today. Exits are
+    east to the secondary assembly line, north and south to the primary
+    assembly line.
+  exits:
+    - roomId: "mobfact:r9417"
+      direction: north
+    - roomId: "mobfact:r9419"
+      direction: south
+    - roomId: "mobfact:r9423"
+      direction: east
+  npcs:
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "mobfact:m9401"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r9419
+  title: "Primary Assembly Line"
+  description: >-
+    This is the primary assembly line of the mob factory. Here, all the
+    mobs seen roaming around the city of Midgaard are manufactured from
+    raw materials. There is a big conveyor belt present which makes a lot
+    of noise! It seems that the workers are making drunks today. Exits are
+    east to the secondary assembly line and north to the primary
+    assembly line.
+  exits:
+    - roomId: "mobfact:r9418"
+      direction: north
+    - roomId: "mobfact:r9424"
+      direction: east
+  npcs:
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+- id: r9420
+  title: "Secondary Assembly Line"
+  description: >-
+    This is the secondary asembly line of the mob factory. You are
+    surprised to see cityguard heads come floating on the conveyor belt!
+    The very sight is sickening, but the workers seem to be quite
+    cheerful about their work. Exits are south to the secondary assembly
+    line and west to the primary assembly line.
+  exits:
+    - roomId: "mobfact:r9421"
+      direction: south
+    - roomId: "mobfact:r9415"
+      direction: west
+  npcs:
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "mobfact:m9407"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r9421
+  title: "Secondary Assembly Line"
+  description: >-
+    This is the secondary asembly line of the mob factory. You are
+    surprised to see cityguard heads come floating on the conveyor belt!
+    The very sight is sickening, but the workers seem to be quite
+    cheerful about their work. Exits are north and south to the secondary
+    assembly line and west to the primary assembly line.
+  exits:
+    - roomId: "mobfact:r9420"
+      direction: north
+    - roomId: "mobfact:r9422"
+      direction: south
+    - roomId: "mobfact:r9416"
+      direction: west
+  npcs:
+    - id: "mobfact:m9405"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "mobfact:m9403"
+      respawnChance: 100
+      maxLoad: "32"
+- id: r9422
+  title: "Secondary Assembly Line"
+  description: >-
+    This is the secondary asembly line of the mob factory. You are
+    surprised to see cityguard heads come floating on the conveyor belt!
+    The very sight is sickening, but the workers seem to be quite
+    cheerful about their work. Exits are north and south to the secondary
+    assembly line and west to the primary assembly line.
+  exits:
+    - roomId: "mobfact:r9421"
+      direction: north
+    - roomId: "mobfact:r9423"
+      direction: south
+    - roomId: "mobfact:r9417"
+      direction: west
+  npcs:
+    - id: "mobfact:m9403"
+      respawnChance: 100
+      maxLoad: "32"
+- id: r9423
+  title: "Secondary Assembly Line"
+  description: >-
+    This is the secondary asembly line of the mob factory. You are
+    surprised to see cityguard heads come floating on the conveyor belt!
+    The very sight is sickening, but the workers seem to be quite
+    cheerful about their work. Exits are north and south to the secondary
+    assembly line and west to the primary assembly line.
+  exits:
+    - roomId: "mobfact:r9422"
+      direction: north
+    - roomId: "mobfact:r9424"
+      direction: south
+    - roomId: "mobfact:r9418"
+      direction: west
+  npcs:
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "32"
+    - id: "mobfact:m9403"
+      respawnChance: 100
+      maxLoad: "32"
+- id: r9424
+  title: "Secondary Assembly Line"
+  description: >-
+    This is the secondary asembly line of the mob factory. You are
+    surprised to see cityguard heads come floating on the conveyor belt!
+    The very sight is sickening, but the workers seem to be quite
+    cheerful about their work. Exits are north to the secondary
+    assembly line and west to the primary assembly line.
+  exits:
+    - roomId: "mobfact:r9423"
+      direction: north
+    - roomId: "mobfact:r9419"
+      direction: west
+  npcs:
+    - id: "mobfact:m9403"
+      respawnChance: 100
+      maxLoad: "32"
+    - id: "mobfact:m9406"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "mobfact:m9405"
+      respawnChance: 100
+      maxLoad: "15"

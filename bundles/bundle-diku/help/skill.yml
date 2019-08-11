@@ -1,0 +1,17 @@
+---
+body: |
+  Syntax: skill | skill <player>
+  
+  This shows the target player's skill with the weapon they are currently 
+  wielding. The following shows the different skill ratings:
+  
+  1) Totally unskilled. 6) Very dangerous.
+  2) Slightly skilled. 7) Extremely deadly.
+  3) Reasonable. 8) An expert.
+  4) Fairly competent. 9) A master.
+  5) Highly skilled. 10) A grandmaster.
+  
+  Note that these are only rough estimates; one master might well be 
+  slightly more skilled than another master, and so on.
+  
+  See also: SPELL SSKILL WEAPON BASIC

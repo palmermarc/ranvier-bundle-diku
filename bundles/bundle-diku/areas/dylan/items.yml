@@ -1,0 +1,30 @@
+- id: o9101
+  name: "winged boots"
+  roomDesc: "A pair of winged boots flutters about"
+  keywords: ["winged","boots"]
+  description: "A pair of winged boots flutters about"
+  type: LIGHTARMOR
+- id: o9102
+  name: "bronze bracers"
+  roomDesc: "A pair of carved bronze bracers"
+  keywords: ["bronze","bracers"]
+  description: "A pair of carved bronze bracers"
+  type: HEAVYARMOR
+- id: o9103
+  name: "ornate brooch"
+  roomDesc: "An ornate brooch was carelessly left here."
+  keywords: ["ornate","brooch"]
+  description: "An ornate brooch was carelessly left here."
+  type: ACCESSORY
+- id: o9104
+  name: "magenta potion"
+  roomDesc: "Bright magenta potion gathers dust."
+  keywords: ["magenta","potion"]
+  description: "Bright magenta potion gathers dust."
+  type: POTION
+- id: o9105
+  name: "ancient parchment"
+  roomDesc: "An ancient illustrated parchment in the corner"
+  keywords: ["ancient","parchment"]
+  description: "An ancient illustrated parchment in the corner"
+  type: SCROLL

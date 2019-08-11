@@ -1,0 +1,421 @@
+- id: r30300
+  title: "The Clearing"
+  description: >-
+    You are standing in a large clearing.  In the side of a grassy bank,
+    entwined with the roots of an old tree, stands a massive door of stone. 
+    Tall letters are carved across the face of it.  You pick moss from them with
+    a knife, revealing the words, "Here lies Vallandar, who was and will again
+    be King."  
+  exits:
+    - roomId: "grove:r8901"
+      direction: south
+    - roomId: "vallandar:r30301"
+      direction: down
+- id: r30301
+  title: "Entrance corridor"
+  description: >-
+    You find yourself at the eastern end of a long gothic-arched corridor
+    about 12 feet wide.  A faded tapestry hangs along the wall to your south. 
+    It depicts a host of warriors locked in gory battle.  
+  exits:
+    - roomId: "vallandar:r30302"
+      direction: south
+    - roomId: "vallandar:r30303"
+      direction: west
+    - roomId: "vallandar:r30300"
+      direction: up
+- id: r30302
+  title: "The map room"
+  description: >-
+    You enter an octagonal room about 15 feet across.  The floor is
+    extraordinary - it seems to be made of smooth polished quartz, and below it
+    you can see a curious design of greens and blues overlaid with a scattering
+    of glowing red symbols.  
+  exits:
+    - roomId: "vallandar:r30301"
+      direction: north
+- id: r30303
+  title: "Tapestry magic"
+  description: >-
+    You are approaching the end of the corridor.  Double doors lie ahead - of
+    black wood bound with verdigris-stained copper.  There is a smaller door in
+    the north wall, and a passage leading off to the south.  The tapestry
+    flutters, though there is no breeze.  Even as you watch, three of the
+    warriors become solid and step into the corridor behind you.  They wear
+    strange sculpted armour, still in the faded hue of the tapestry, and their
+    faces are the colour of old cloth.  But their wide-bladed short- swords
+    appear all too real...  
+  exits:
+    - roomId: "vallandar:r30307"
+      direction: north
+    - roomId: "vallandar:r30304"
+      direction: south
+    - roomId: "vallandar:r30301"
+      direction: east
+    - roomId: "vallandar:r30305"
+      direction: west
+  npcs:
+    - id: "vallandar:m30300"
+      respawnChance: 100
+      maxLoad: "3"
+- id: r30304
+  title: "A hovering wand"
+  description: >-
+    The passage brings you to a small circular chamber with no other exits. 
+    The wall is covered with markings that follow some unfathomable geometric
+    principle.  A wand hangs in the air in the middle of the chamber.  It is
+    rotating about its centre, at a rate of roughly one revolution a second. 
+    One end of the wand glows a dull red, the other sparkles with blue-white
+    light.  The central section is black and unreflective.  
+  exits:
+    - roomId: "vallandar:r30303"
+      direction: north
+  items:
+    - id: "vallandar:o30302"
+      respawnChance: 75
+- id: r30305
+  title: "A steep climb"
+  description: >-
+    You walk along a roughly hewn passageway.  Soon you see a wall of rock
+    towering ahead of you.  A glimmer of golden light filters down from above.  
+  exits:
+    - roomId: "vallandar:r30303"
+      direction: east
+    - roomId: "vallandar:r30306"
+      direction: up
+- id: r30306
+  title: "The wizard's cave"
+  description: >-
+    At last you reach the top and haul yourself up into a vast cavern. 
+    Stalactites sparkle in light which seems to come from all around.  Your
+    heart skips a beat as you behold, curled atop an enormous mound of treasure,
+    the long sinuous form of a huge red Dragon!  Luckily for you, it is
+    sleeping; wisps of blue smoke curl gently up from its black nostrils.  Near
+    it, contained within a red pentacle inscribed on the cavern floor, is a
+    stout old oak whose branches reach up to the shadows beyond the magic light.
+  exits:
+    - roomId: "vallandar:r30305"
+      direction: down
+  npcs:
+    - id: "vallandar:m30301"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "vallandar:o30301"
+      respawnChance: 75
+- id: r30307
+  title: "The north wind's hall"
+  description: >-
+    You swing back the heavy door of a long hall.  At the north end, Your
+    lantern-light falls upon a podium of grey marble carved to resemble a
+    bulbous-cheeked face blowing at you.  A silver goblet rests on the podium. 
+    Beyond, another door leads deeper into the underworld.  
+  exits:
+    - roomId: "vallandar:r30308"
+      direction: north
+    - roomId: "vallandar:r30303"
+      direction: south
+  items:
+    - id: "vallandar:o30322"
+      respawnChance: 75
+- id: r30308
+  title: "A choice of ways"
+  description: >-
+    You are in a 9 foot wide corridor running east and west.  To the east,
+    the corridor opens out into a room after only a few feet.  To the west, you
+    can just make out that the corridor turns to head north after some 45 feet. 
+  exits:
+    - roomId: "vallandar:r30307"
+      direction: south
+    - roomId: "vallandar:r30309"
+      direction: east
+    - roomId: "vallandar:r30310"
+      direction: west
+- id: r30309
+  title: "The spider's web"
+  description: >-
+    You can see that a bronze helmet lies on a wooden table against the far
+    wall of the room.  As you step through the archway into the room, your
+    ankles become entangled in a web of fine strong strands.  
+  exits:
+    - roomId: "vallandar:r30308"
+      direction: west
+  npcs:
+    - id: "vallandar:m30302"
+      respawnChance: 100
+      maxLoad: "1"
+  items:
+    - id: "vallandar:o30319"
+      respawnChance: 75
+- id: r30310
+  title: "A trap"
+  description: >-
+    As you approach the bend in the corridor, a flagstone gives slightly
+    under your feet.  There is an ominous click.  
+    Suddenly a massive gleaming axe-blade swings out of the side wall!
+  exits:
+    - roomId: "vallandar:r30311"
+      direction: north
+    - roomId: "vallandar:r30308"
+      direction: east
+  npcs:
+    - id: "vallandar:m30303"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r30311
+  title: "Barrier of light"
+  description: >-
+    The way on is blocked by a flickering barrier of violet light that
+    shimmers in the air between two baroquely carved pillars on either side of
+    the passage.  Through the shimmering, you can just barely discern the
+    outlines of the corridor as it continues north.  
+    Just in front of this barrier, set back in alcoves to your left and right,
+    are two fountains.  In the western alcove, a chalky grey liquid issues
+    from a snarling stone face and runs down into the fountain beneath.  The
+    eastern fountain is filled by a purple liquid that bubbles from a face
+    sculpted in an expression of fear.
+  exits:
+    - roomId: "vallandar:r30312"
+      direction: north
+    - roomId: "vallandar:r30310"
+      direction: south
+  items:
+    - id: "vallandar:o30318"
+      respawnChance: 75
+- id: r30312
+  title: "Underground river"
+  description: >-
+    Passing through the barrier of light, you continue north along the
+    corridor.  The sound of a surging underground river echoes from the darkness
+    ahead.  
+    Before long you come to a short flight of steps.  At the bottom you see a
+    stone quay beside the rushing black waters.  A rickety plank bridge leads
+    across to another quay on the far side.
+    A figure of rose-coloured rock stands between the steps and the bridge.  It
+    looks like an uncompleted statue - the upper torso, arms and head are
+    perfectly sculpted, but the lower body is a single lump of unworked stone.
+    With a harsh grating noise it slowly flexes its massive sinews.  Its long
+    talons are knives of flint.
+  exits:
+    - roomId: "vallandar:r30313"
+      direction: north
+    - roomId: "vallandar:r30311"
+      direction: south
+  npcs:
+    - id: "vallandar:m30304"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r30313
+  title: "A flimsy bridge"
+  description: >-
+    You stand upon a narrow plank bridge, which creaks and sways with every
+    step you take.  Carefully you make your way across, wincing at the sound of
+    rotten wood breaking under your feet.  
+  exits:
+    - roomId: "vallandar:r30314"
+      direction: north
+    - roomId: "vallandar:r30312"
+      direction: south
+- id: r30314
+  title: "Short passage"
+  description: >-
+    You climb a short stairway like the one on the south bank of the river. 
+    You are standing in front of a small black door.  There is a strong feeling
+    of peace and serenity here.  
+  exits:
+    - roomId: "vallandar:r30315"
+      direction: north
+    - roomId: "vallandar:r30313"
+      direction: south
+- id: r30315
+  title: "The chapel"
+  description: >-
+    You enter a low-ceilinged chamber hung with sombre drapes.  A flickering
+    sanctuary lamp burns on an altar stone in an alcove in the east wall.  A
+    large crucifix hangs above this.  There are double doors in the west wall
+    and another small door, like the one you have entered by, directly opposite
+    you, too the north.  
+  exits:
+    - roomId: "vallandar:r30316"
+      direction: north
+    - roomId: "vallandar:r30314"
+      direction: south
+    - roomId: "vallandar:r30318"
+      direction: west
+- id: r30316
+  title: "Long passage"
+  description: >-
+    A narrow passage leads north for a short distance and then turns to the
+    east.  Looking along it, you see that the first 30 feet or so are not
+    illuminated, but from that point onwards bright red lamps hang from the
+    ceiling.  The passage extends as far east as you can see.  
+  exits:
+    - roomId: "vallandar:r30315"
+      direction: south
+    - roomId: "vallandar:r30317"
+      direction: east
+- id: r30317
+  title: "Nagging doubts?"
+  description: >-
+    You continue until you have almost reached the first of the lamps.  There
+    is something odd here - the lamps seem to dim slightly as you approach, and
+    become redder.  
+  exits:
+    - roomId: "vallandar:r30324"
+      direction: east
+    - roomId: "vallandar:r30316"
+      direction: west
+- id: r30318
+  title: "Light ahead"
+  description: >-
+    Beyond the double doors lies a 9 foot wide corridor which leads west.  A
+    little over 25 feet away from where you are standing, it is joined by
+    another corridor leading north.  The east-west corridor is gloomy,
+    illuminated only by the murky light of your lanterns.  But you can see
+    bright light flooding from the northern branch.  
+  exits:
+    - roomId: "vallandar:r30315"
+      direction: east
+    - roomId: "vallandar:r30319"
+      direction: west
+- id: r30319
+  title: "A lady in waiting"
+  description: >-
+    You walk towards the T-junction.  In the bright bar of light thrown
+    across the corridor from the northern branch, you now notice a looming
+    shadow.  Someone is waiting just around the next corner.  You pause and hold
+    your breath as you study the outline of the shadow.  Could it be a robed
+    woman with an elaborate coiffure?  A soft, evil hissing reaches your ears...
+  exits:
+    - roomId: "vallandar:r30320"
+      direction: north
+    - roomId: "vallandar:r30318"
+      direction: east
+  npcs:
+    - id: "vallandar:m30305"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r30320
+  title: "At the junction"
+  description: >-
+    The northern branch of the corridor, where the Gorgon was lying in wait,
+    extends only a few feet and then ends in stout oak doors bound with iron. 
+    The light comes from a glowing crystal globe hanging from the ceiling.  
+    Shining your lantern west, you discover that the transverse corridor also
+    ends in double doors after another 20 or 30 feet.
+  exits:
+    - roomId: "vallandar:r30323"
+      direction: north
+    - roomId: "vallandar:r30319"
+      direction: south
+    - roomId: "vallandar:r30321"
+      direction: west
+- id: r30321
+  title: "The ancient guard room"
+  description: >-
+    On the other side of the doors lies a dusty room with a mouldering reek
+    in the air.  Suddenly a host of grinning skeletons hurl themselves forward
+    from the shadowy corners of the room.  
+  exits:
+    - roomId: "vallandar:r30322"
+      direction: north
+    - roomId: "vallandar:r30320"
+      direction: east
+  npcs:
+    - id: "vallandar:m30306"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r30322
+  title: "Short walk and long drop"
+  description: >-
+    This narrow passage goes north a short distance and ends in a pit. 
+    Looking down, you see only stygian darkness which the light of your lamp
+    does nothing to dispel.  Iron rungs set in the wall of the pit form a ladder
+    of sorts.  
+  exits:
+    - roomId: "vallandar:r30321"
+      direction: south
+    - roomId: "vallandar:r30327"
+      direction: down
+- id: r30323
+  title: "The balcony"
+  description: >-
+    You find yourself on a balcony overlooking a vast circular hall full of
+    shadows.  You cannot see the far wall or the souring roof above.  
+    Off to the east, stone steps sweep down to the floor of the hall.  At
+    the foot of the steps, your lantern picks out the shining surface of
+    a massive gold casket.
+  exits:
+    - roomId: "vallandar:r30320"
+      direction: south
+    - roomId: "vallandar:r30325"
+      direction: east
+- id: r30324
+  title: "The dark passage"
+  description: >-
+    As you approach, the lamps on the walls dim slightly and become redder. 
+    This passage seems to be very long...  
+  exits:
+    - roomId: "vallandar:r30324"
+      direction: east
+    - roomId: "vallandar:r30317"
+      direction: west
+- id: r30325
+  title: "The stone steps"
+  description: >-
+    Tatters of deepest shadow flit from the furthest recesses of the hall,
+    clustering and coalescing on the steps in front of you.  Two darkly
+    glittering eyes fix upon you as a manlike form takes shape.  The sense of
+    abiding malevolence descends like a pall.  The figure drifts up towards you.
+    Its body and fluttering robes are murky and indistinct, but you see its
+    white hands and hate-filled visage with a terrible clarity.  It reaches back
+    and seems to draw a spectral sword from the empty air.  
+  exits:
+    - roomId: "vallandar:r30323"
+      direction: west
+    - roomId: "vallandar:r30326"
+      direction: down
+  npcs:
+    - id: "vallandar:m30307"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r30326
+  title: "The High King's Hall"
+  description: >-
+    In the centre of the chamber, within a pillar of green light that streams
+    down out of the darkness, waits a tall man on horseback.  Both horse and
+    rider wear great plates of decorated armour.  Their heads are bowed as
+    though in slumber, and on the man's brow you see a golden crown.  
+    Around Vallandar, twelve mighty swords stand balanced upon their points
+    in a perfect circle.
+  exits:
+    - roomId: "vallandar:r30325"
+      direction: up
+  items:
+    - id: "vallandar:o30315"
+      respawnChance: 75
+    - id: "vallandar:o30313"
+      respawnChance: 75
+- id: r30327
+  title: "The dark pit"
+  description: >-
+    You clamber down to the final rung of the ladder and let yourself fall
+    the last few feet to the bottom of the pit.  You peer around intently, but
+    cannot see anything of interest.  
+  exits:
+    - roomId: "vallandar:r30322"
+      direction: up
+    - roomId: "vallandar:r30328"
+      direction: down
+- id: r30328
+  title: "The gateway to the vortex"
+  description: >-
+    You stand in front of a dark gateway.  The guardian who is assigned to 
+    guard it will only let you through if you solve his riddle!
+  exits:
+    - roomId: "vallandar:r30327"
+      direction: up
+  npcs:
+    - id: "vallandar:m30330"
+      respawnChance: 100
+      maxLoad: "1"

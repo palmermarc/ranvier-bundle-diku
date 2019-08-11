@@ -1,0 +1,12 @@
+title: "The Icy Caverns"
+metadata:
+  id: 37
+  name: "The Icy Caverns"
+  createdBy: "azureflame"
+  starting_vnum: 9600
+  ending_vnum: 9699
+  item_requirements: 16000
+  filename: "icycaver.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

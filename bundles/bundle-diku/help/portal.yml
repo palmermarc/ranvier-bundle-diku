@@ -1,0 +1,12 @@
+---
+body: |
+  Syntax: cast portal <victim>
+  
+  This spell creates a magical portal between the caster and the target. 
+  The portal remains in existance for 2 or 3 hours (mud time), during which 
+  time anyone can 'enter' the portal on one side and come out on the other.
+  
+  Portal is area wide, until you reach Grand Master in all spell colours, when it
+  becomes mud wide. This was implemented to stop players creating characters that
+  were only there so that they could portal to difficult to reach areas.
+  

@@ -1,0 +1,57 @@
+- id: m1250
+  keywords: ["shadow","guardian"]
+  name: "a shadow guardian"
+  description: >-
+    A shadow guardian screams a challenge and attacks.
+  level: 1
+  attributes:
+    health: 300
+    armor: 1
+    hitroll: 5
+    damroll: 5
+    alignment: -350
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 68
+    exp_level: 378
+    sex: 0
+- id: m1252
+  keywords: ["edgar"]
+  name: "Edgar"
+  description: >-
+    Edgar the Human Swordpupil
+  level: 33
+  attributes:
+    health: 3000
+    armor: 10
+    hitroll: 5
+    damroll: 25
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 21.85
+          max: 24.15
+  metadata:
+    areaId: 68
+    exp_level: 2544
+    sex: 1

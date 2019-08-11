@@ -1,0 +1,1613 @@
+- id: m3090
+  keywords: ["kitten"]
+  name: "the kitten"
+  description: >-
+    A small loyal kitten is here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 0
+- id: m3091
+  keywords: ["puppy"]
+  name: "the puppy"
+  description: >-
+    A small loyal puppy is here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 0
+- id: m3092
+  keywords: ["beagle"]
+  name: "the beagle"
+  description: >-
+    A small, quick, loyal beagle is here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 0
+- id: m3093
+  keywords: ["rottweiler"]
+  name: "the rottweiler"
+  description: >-
+    A large, loyal rottweiler is here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 0
+- id: m3094
+  keywords: ["wolf"]
+  name: "the wolf"
+  description: >-
+    A large, trained wolf is here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 0
+- id: m3100
+  keywords: ["maid"]
+  name: "the maid"
+  description: >-
+    The maid is waiting for your order.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "midgaard:o3100": 75
+        "midgaard:o3101": 75
+        "midgaard:o3102": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3100":
+          cost: 5
+          currency: gold
+        "midgaard:o3101":
+          cost: 7
+          currency: gold
+        "midgaard:o3102":
+          cost: 2
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 2
+- id: m3120
+  keywords: ["sexton"]
+  name: "the sexton"
+  description: >-
+    A sexton is sitting here, drinking hot tea.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 12.35
+          max: 13.65
+      pools:
+        "midgaard:o3121": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3121
+  keywords: ["swan"]
+  name: "the swan"
+  description: >-
+    A swan is swimming around in the pond.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 0
+- id: m3122
+  keywords: ["duckling"]
+  name: "the duckling"
+  description: >-
+    A duckling is swimming around in the pond.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 0
+- id: m3123
+  keywords: ["sparrow"]
+  name: "the sparrow"
+  description: >-
+    A sparrow is flapping around on the ground.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 0
+- id: m3124
+  keywords: ["duck"]
+  name: "the duck"
+  description: >-
+    A duck is here, quacking happily.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 0
+- id: m3140
+  keywords: ["captain"]
+  name: "the captain"
+  description: >-
+    The captain of the guard is looking very upset.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "midgaard:o3122": 75
+        "midgaard:o3137": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3141
+  keywords: ["cityguard","guard"]
+  name: "the cityguard"
+  description: >-
+    A cityguard stands here, looking very upset.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3142
+  keywords: ["secretary"]
+  name: "the secretary"
+  description: >-
+    A secretary is sitting at the desk.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 2
+- id: m3143
+  keywords: ["mayor"]
+  name: "the mayor"
+  description: >-
+    The mayor is here.  He shakes your hand.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "midgaard:o3133": 75
+        "midgaard:o3124": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3144
+  keywords: ["crier"]
+  name: "the town crier"
+  description: >-
+    The town crier is here, weeping quietly.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3000
+  keywords: ["wizard"]
+  name: "the wizard"
+  description: >-
+    A wizard walks around behind the counter, talking to himself.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "midgaard:o3040": 75
+        "midgaard:o3041": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3040":
+          cost: 2000
+          currency: gold
+        "midgaard:o3041":
+          cost: 400
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3001
+  keywords: ["baker"]
+  name: "the baker"
+  description: >-
+    The baker looks at you calmly, wiping flour from his face with one hand.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "midgaard:o3009": 75
+        "midgaard:o3022": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3009":
+          cost: 100
+          currency: gold
+        "midgaard:o3022":
+          cost: 100
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3002
+  keywords: ["grocer"]
+  name: "the grocer"
+  description: >-
+    A grocer stands at the counter, with a slightly impatient look on his face.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "midgaard:o3030": 75
+        "midgaard:o3031": 75
+        "midgaard:o3138": 75
+        "midgaard:o3022": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3030":
+          cost: 10
+          currency: gold
+        "midgaard:o3031":
+          cost: 60
+          currency: gold
+        "midgaard:o3138":
+          cost: 30
+          currency: gold
+        "midgaard:o3022":
+          cost: 100
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3003
+  keywords: ["weaponsmith"]
+  name: "the weaponsmith"
+  description: >-
+    A weaponsmith.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "midgaard:o3020": 75
+        "midgaard:o3021": 75
+        "midgaard:o3022": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3020":
+          cost: 10
+          currency: gold
+        "midgaard:o3021":
+          cost: 60
+          currency: gold
+        "midgaard:o3022":
+          cost: 100
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3004
+  keywords: ["armorer","armorer"]
+  name: "the armorer"
+  description: >-
+    An armorer stands here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 142500
+          max: 157500
+      pools:
+        "midgaard:o3072": 75
+        "midgaard:o3073": 75
+        "midgaard:o3074": 75
+        "midgaard:o3075": 75
+        "midgaard:o3076": 75
+        "midgaard:o3077": 75
+        "midgaard:o3097": 75
+        "midgaard:o3022": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3072":
+          cost: 500
+          currency: gold
+        "midgaard:o3073":
+          cost: 250
+          currency: gold
+        "midgaard:o3074":
+          cost: 250
+          currency: gold
+        "midgaard:o3075":
+          cost: 250
+          currency: gold
+        "midgaard:o3076":
+          cost: 250
+          currency: gold
+        "midgaard:o3077":
+          cost: 250
+          currency: gold
+        "midgaard:o3097":
+          cost: 500
+          currency: gold
+        "midgaard:o3022":
+          cost: 100
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3005
+  keywords: ["thief"]
+  name: "the thief"
+  description: >-
+    A thief, all dressed in black.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 100
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+      pools:
+        "midgaard:o3020": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3006
+  keywords: ["captain"]
+  name: "the captain"
+  description: >-
+    A retired captain stands here, selling boats.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+      pools:
+        "midgaard:o3050": 75
+        "midgaard:o3051": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3050":
+          cost: 400
+          currency: gold
+        "midgaard:o3051":
+          cost: 1000
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3007
+  keywords: ["sailor"]
+  name: "the sailor"
+  description: >-
+    A sailor stands here, waiting to train you.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3008
+  keywords: ["boy"]
+  name: "the pet shop boy"
+  description: >-
+    A pet shop boy is here, humming gently.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 11400
+          max: 12600
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3009
+  keywords: ["jeweller"]
+  name: "the jeweller"
+  description: >-
+    The jeweller is standing behind the desk.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 285000
+          max: 315000
+  metadata:
+    vendor:
+      items:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3010
+  keywords: ["leather","worker"]
+  name: "the leather worker"
+  description: >-
+    The leather worker is sitting by the table, sewing a leather cap.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 95000
+          max: 105000
+      pools:
+        "midgaard:o3066": 75
+        "midgaard:o3067": 75
+        "midgaard:o3068": 75
+        "midgaard:o3069": 75
+        "midgaard:o3070": 75
+        "midgaard:o3071": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3066":
+          cost: 200
+          currency: gold
+        "midgaard:o3067":
+          cost: 100
+          currency: gold
+        "midgaard:o3068":
+          cost: 100
+          currency: gold
+        "midgaard:o3069":
+          cost: 100
+          currency: gold
+        "midgaard:o3070":
+          cost: 100
+          currency: gold
+        "midgaard:o3071":
+          cost: 100
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3011
+  keywords: ["executioner"]
+  name: "the executioner"
+  description: >-
+    The executioner is here polishing his blade.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 4750
+          max: 5250
+      pools:
+        "midgaard:o3005": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3012
+  keywords: ["healer"]
+  name: "the healer"
+  description: >-
+    A healer is here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3020
+  keywords: ["guildmaster","master"]
+  name: "the guildmaster"
+  description: >-
+    Your guildmaster is standing here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 8354.3
+          max: 9233.7
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 2
+- id: m3021
+  keywords: ["guildmaster","master"]
+  name: "the guildmaster"
+  description: >-
+    Your guildmaster is standing here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 8354.3
+          max: 9233.7
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3022
+  keywords: ["guildmaster","master"]
+  name: "the guildmaster"
+  description: >-
+    Your guildmaster is standing here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 8354.3
+          max: 9233.7
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 2
+- id: m3023
+  keywords: ["guildmaster","master"]
+  name: "the guildmaster"
+  description: >-
+    Your guildmaster is standing here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 8354.3
+          max: 9233.7
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3024
+  keywords: ["sorcerer"]
+  name: "the sorcerer"
+  description: >-
+    A sorcerer is guarding the entrance.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "midgaard:o3022": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3025
+  keywords: ["templar"]
+  name: "the knight templar"
+  description: >-
+    A knight templar is guarding the entrance.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "midgaard:o3022": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3026
+  keywords: ["assassin"]
+  name: "the assassin"
+  description: >-
+    An assassin is guarding the entrance.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "midgaard:o3022": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3027
+  keywords: ["knight"]
+  name: "the knight"
+  description: >-
+    A knight is guarding the entrance.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 800
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "midgaard:o3022": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3040
+  keywords: ["bartender"]
+  name: "the bartender"
+  description: >-
+    A bartender watches you calmly, while he skillfully mixes a drink.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "midgaard:o3000": 75
+        "midgaard:o3001": 75
+        "midgaard:o3022": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3000":
+          cost: 300
+          currency: gold
+        "midgaard:o3001":
+          cost: 20
+          currency: gold
+        "midgaard:o3022":
+          cost: 100
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3041
+  keywords: ["waiter"]
+  name: "the waiter"
+  description: >-
+    A waiter is going around from one place to another.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3042
+  keywords: ["waiter"]
+  name: "the waiter"
+  description: >-
+    A man who in his young days was a famous sorcerer but now leads a quiet,peaceful life as a waiter.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "midgaard:o3002": 75
+        "midgaard:o3003": 75
+        "midgaard:o3022": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3002":
+          cost: 10
+          currency: gold
+        "midgaard:o3003":
+          cost: 50
+          currency: gold
+        "midgaard:o3022":
+          cost: 100
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3043
+  keywords: ["waiter"]
+  name: "the waiter"
+  description: >-
+    A waiter who seems to have reached contact with God.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "midgaard:o3002": 75
+        "midgaard:o3004": 75
+        "midgaard:o3022": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3002":
+          cost: 10
+          currency: gold
+        "midgaard:o3004":
+          cost: 20
+          currency: gold
+        "midgaard:o3022":
+          cost: 100
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3044
+  keywords: ["waiter"]
+  name: "the waiter"
+  description: >-
+    A waiter who knows where all his customers keep their money.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "midgaard:o3003": 75
+        "midgaard:o3004": 75
+        "midgaard:o3022": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3003":
+          cost: 50
+          currency: gold
+        "midgaard:o3004":
+          cost: 20
+          currency: gold
+        "midgaard:o3022":
+          cost: 100
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3045
+  keywords: ["waiter"]
+  name: "the waiter"
+  description: >-
+    A waiter who easily could kill you, and still carry quite a few firebreathers.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "midgaard:o3002": 75
+        "midgaard:o3003": 75
+        "midgaard:o3004": 75
+        "midgaard:o3022": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3002":
+          cost: 10
+          currency: gold
+        "midgaard:o3003":
+          cost: 50
+          currency: gold
+        "midgaard:o3004":
+          cost: 20
+          currency: gold
+        "midgaard:o3022":
+          cost: 100
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3046
+  keywords: ["filthy"]
+  name: "Filthy"
+  description: >-
+    Filthy is standing here, eager to serve you a special drink.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 1900
+          max: 2100
+      pools:
+        "midgaard:o3003": 75
+        "midgaard:o3004": 75
+        "midgaard:o3022": 75
+  metadata:
+    vendor:
+      items:
+        "midgaard:o3003":
+          cost: 50
+          currency: gold
+        "midgaard:o3004":
+          cost: 20
+          currency: gold
+        "midgaard:o3022":
+          cost: 100
+          currency: gold
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3050
+  keywords: ["dealer"]
+  name: "Aod the Dealer"
+  description: >-
+    Aod the Dealer stands in the shadows here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+  metadata:
+    vendor:
+      items:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3060
+  keywords: ["cityguard","guard"]
+  name: "the cityguard"
+  description: >-
+    A cityguard stands here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "midgaard:o3235": 75
+        "midgaard:o3234": 75
+        "midgaard:o3220": 75
+        "midgaard:o3223": 75
+        "midgaard:o3225": 75
+        "midgaard:o3226": 75
+        "midgaard:o3227": 75
+        "midgaard:o3228": 75
+        "midgaard:o3229": 75
+        "midgaard:o3120": 75
+        "midgaard:o3233": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3061
+  keywords: ["janitor"]
+  name: "the janitor"
+  description: >-
+    A janitor is walking around, cleaning up.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 900
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 32.3
+          max: 35.7
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3062
+  keywords: ["fido","dog"]
+  name: "the beastly fido"
+  description: >-
+    Beastly Fido is here.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3063
+  keywords: ["vagabond"]
+  name: "the vagabond"
+  description: >-
+    A vagabond is here, looking for victims.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 44.65
+          max: 49.35
+      pools:
+        "midgaard:o3021": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3064
+  keywords: ["drunk"]
+  name: "the drunk"
+  description: >-
+    A singing, happy drunk.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 400
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 80.75
+          max: 89.25
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3065
+  keywords: ["beggar"]
+  name: "the beggar"
+  description: >-
+    A beggar is here, asking for a few coins.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 2
+- id: m3066
+  keywords: ["cat"]
+  name: "an alley cat"
+  description: >-
+    An alley cat hisses at you.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: false
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3067
+  keywords: ["cityguard","guard"]
+  name: "the cityguard"
+  description: >-
+    A cityguard is here, guarding the gate.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "midgaard:o3235": 75
+        "midgaard:o3234": 75
+        "midgaard:o3220": 75
+        "midgaard:o3223": 75
+        "midgaard:o3230": 75
+        "midgaard:o3224": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3068
+  keywords: ["cityguard","guard"]
+  name: "the cityguard"
+  description: >-
+    A cityguard is here, guarding the gate.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "midgaard:o3235": 75
+        "midgaard:o3234": 75
+        "midgaard:o3220": 75
+        "midgaard:o3223": 75
+        "midgaard:o3231": 75
+        "midgaard:o3232": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1
+- id: m3069
+  keywords: ["cityguard","guard"]
+  name: "the cityguard"
+  description: >-
+    A cityguard is here, guarding the mayor.
+  level: 600
+  attributes:
+    health: 79514
+    armor: 40000
+    hitroll: 10000
+    damroll: 5000
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "midgaard:o3235": 75
+        "midgaard:o3234": 75
+        "midgaard:o3220": 75
+  metadata:
+    areaId: 47
+    exp_level: 50000
+    sex: 1

@@ -1,0 +1,1237 @@
+- id: m14100
+  keywords: ["herring"]
+  name: "a herring"
+  description: >-
+    A herring is swimming towards you in an aggressive manner.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14135": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 0
+- id: m14101
+  keywords: ["lemminkainen"]
+  name: "Lemminkainen"
+  description: >-
+    Lemminkainen is here. He offers you a beer.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14102": 75
+        "notale:o14110": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14102
+  keywords: ["tuuslar","wizard"]
+  name: "Tuuslar the wind-wizard"
+  description: >-
+    Tuuslar the wind-wizard is here, doing his dirty deeds.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14132": 75
+        "notale:o14102": 75
+        "notale:o14101": 75
+        "notale:o14104": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14103
+  keywords: ["wife","fat"]
+  name: "Tuuslar's fat wife"
+  description: >-
+    Tuuslar's fat wife is here, trying to seduce you.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14112": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 2
+- id: m14104
+  keywords: ["saam"]
+  name: "Saam"
+  description: >-
+    A Saam is here, singing a song with no words.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14106": 75
+        "notale:o14105": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14105
+  keywords: ["shaman","saam","old"]
+  name: "Old Saam shaman"
+  description: >-
+    An Old Saam shaman has summoned all four winds here.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14134": 75
+        "notale:o14107": 75
+        "notale:o14106": 75
+        "notale:o14105": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14106
+  keywords: ["poro"]
+  name: "a poro"
+  description: >-
+    A poro lowers his hornie head and attacks you.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14131": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 0
+- id: m14107
+  keywords: ["sorts"]
+  name: "a sorts"
+  description: >-
+    A sorts attacks you, screaming annoyingly.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14109": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14108
+  keywords: ["warlord","viking"]
+  name: "the Viking Warlord"
+  description: >-
+    The Viking Warlord is here, yelling at he's men.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14115": 75
+        "notale:o14119": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14109
+  keywords: ["warrior","viking"]
+  name: "a Viking warrior"
+  description: >-
+    A Viking warrior is here, singing he's battlesong.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14115": 75
+        "notale:o14119": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14110
+  keywords: ["blacksmith","nordic"]
+  name: "the famous Nordic Blacksmith"
+  description: >-
+    The famous Nordic Blacksmith is here, telling some boring stories.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14103": 75
+        "notale:o14102": 75
+        "notale:o14111": 75
+  metadata:
+    vendor:
+      items:
+        "notale:o14103":
+          cost: 5000
+          currency: gold
+        "notale:o14102":
+          cost: 5000
+          currency: gold
+        "notale:o14111":
+          cost: 5000
+          currency: gold
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14111
+  keywords: ["son"]
+  name: "the Blacksmith's son"
+  description: >-
+    The Blacksmith's son is here, acting really annoyingly.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14103": 75
+        "notale:o14102": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14112
+  keywords: ["daughter"]
+  name: "the Blacksmith's daughter"
+  description: >-
+    The Blacksmith's daughter is here, knitting peacefully.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14103": 75
+        "notale:o14112": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 2
+- id: m14113
+  keywords: ["wife"]
+  name: "the Blacksmith's wife"
+  description: >-
+    The Blacksmith's wife is here, offering you a nice meal.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14103": 75
+        "notale:o14112": 75
+        "notale:o14113": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 2
+- id: m14114
+  keywords: ["villager","fat"]
+  name: "a fat villager"
+  description: >-
+    A fat villager is here, burping calmly.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14103": 75
+        "notale:o14102": 75
+        "notale:o14145": 75
+        "notale:o14137": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14115
+  keywords: ["villager","starving"]
+  name: "a starving villager"
+  description: >-
+    A starving villager is here, begging for food for his family.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14153": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14116
+  keywords: ["leiger","disturbed","hero"]
+  name: "Leiger the disturbed hero"
+  description: >-
+    Leiger the disturbed hero, trying to find out what is going on.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14103": 75
+        "notale:o14102": 75
+        "notale:o14119": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14117
+  keywords: ["villager","musician"]
+  name: "a village musician"
+  description: >-
+    A village musician, playing his lyre in an especially annoying manner.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14103": 75
+        "notale:o14102": 75
+        "notale:o14116": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14118
+  keywords: ["villager","sneaky"]
+  name: "a sneaky villager"
+  description: >-
+    A sneaky villager is here, standing too close to you.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14102": 75
+        "notale:o14117": 75
+        "notale:o14157": 75
+        "notale:o14150": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14119
+  keywords: ["villager","thief"]
+  name: "a village thief"
+  description: >-
+    A village thief is here, trying to pick your pockets.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14102": 75
+        "notale:o14117": 75
+        "notale:o14124": 75
+        "notale:o14138": 75
+        "notale:o14147": 75
+        "notale:o14136": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14120
+  keywords: ["suurtoll","slowthinking"]
+  name: "Suurtoll the slowthinking hero"
+  description: >-
+    Suurtoll the slowthinking hero, having a dumb look on his face.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14156": 75
+        "notale:o14102": 75
+        "notale:o14119": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14121
+  keywords: ["villager","drinking"]
+  name: "a beer drinking villager"
+  description: >-
+    A beer drinking villager tries to look sober.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14102": 75
+        "notale:o14126": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14122
+  keywords: ["beauty","arrogant"]
+  name: "an arrogant village beauty"
+  description: >-
+    An arrogant village beauty, looking like she owns the place.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14156": 75
+        "notale:o14112": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 2
+- id: m14123
+  keywords: ["lady","complaining"]
+  name: "a complaining village lady"
+  description: >-
+    A complaining village lady, saying bad things to her husband.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14156": 75
+        "notale:o14112": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 2
+- id: m14124
+  keywords: ["Lembitu"]
+  name: "Lembitu"
+  description: >-
+    Lembitu is here, gathering the men to fight the evil crusaders.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14103": 75
+        "notale:o14115": 75
+        "notale:o14102": 75
+        "notale:o14119": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14125
+  keywords: ["brother","Olev"]
+  name: "Olev"
+  description: >-
+    Olev the brother of Kalevipoeg is here, trying to look important.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14124": 75
+        "notale:o14102": 75
+        "notale:o14114": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14126
+  keywords: ["brother","Sulev"]
+  name: "Sulev"
+  description: >-
+    Sulev the brother of Kalevipoeg is here, trying to look important.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14124": 75
+        "notale:o14102": 75
+        "notale:o14114": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14127
+  keywords: ["brother","Jalev"]
+  name: "Jalev"
+  description: >-
+    Jalev the brother of Kalevipoeg is here, trying to look important.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14124": 75
+        "notale:o14102": 75
+        "notale:o14114": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14128
+  keywords: ["brother","Nolev"]
+  name: "Nolev"
+  description: >-
+    Nolev the brother of Kalevipoeg is here, trying to look important.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14124": 75
+        "notale:o14102": 75
+        "notale:o14114": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14129
+  keywords: ["brother","Rulev"]
+  name: "Rulev"
+  description: >-
+    Rulev the brother of Kalevipoeg is here, trying to look important.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14124": 75
+        "notale:o14102": 75
+        "notale:o14114": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14130
+  keywords: ["spirit","king","Kalev"]
+  name: "Spirit of the dead king Kalev"
+  description: >-
+    Spirit of the dead king Kalev is playing with his own skull.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14125": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14131
+  keywords: ["Linda","wife","weeping"]
+  name: "weeping Linda"
+  description: >-
+    Weeping Linda, wife of the dead king Kalev.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14124": 75
+        "notale:o14112": 75
+        "notale:o14102": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 2
+- id: m14132
+  keywords: ["warrior","ymera"]
+  name: "an ymera warrior"
+  description: >-
+    An ymera warrior is hiding here in the bushes.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14103": 75
+        "notale:o14115": 75
+        "notale:o14102": 75
+        "notale:o14114": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14133
+  keywords: ["evil","crusader"]
+  name: "an evil crusader"
+  description: >-
+    An evil crusader is here, planning to rob the villages in Kalev's land.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14122": 75
+        "notale:o14121": 75
+        "notale:o14120": 75
+        "notale:o14123": 75
+        "notale:o14118": 75
+        "notale:o14114": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14134
+  keywords: ["traitor","Kaupo"]
+  name: "Kaupo the traitor"
+  description: >-
+    Kaupo the traitor is here, looking ashamed.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14102": 75
+        "notale:o14114": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14135
+  keywords: ["rebane"]
+  name: "a rebane"
+  description: >-
+    A rebane runs around, chewing a bone.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14127": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 0
+- id: m14136
+  keywords: ["siil","hedgehog"]
+  name: "Siil the Hedgehog"
+  description: >-
+    Siil the Hedgehog is teaching the heroes here.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14158": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 0
+- id: m14137
+  keywords: ["Lacplecis","killer"]
+  name: "Lacplecis the Bearkiller"
+  description: >-
+    Lacplecis the Bearkiller, looking like a wannabe.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14103": 75
+        "notale:o14102": 75
+        "notale:o14128": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14138
+  keywords: ["bear"]
+  name: "a bear"
+  description: >-
+    A cute bear runs from the hunters.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14139
+  keywords: ["kurivaim"]
+  name: "a kurivaim"
+  description: >-
+    A kurivaim is guarding the passageway, looking naughty.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14129": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14140
+  keywords: ["maiden","kidnapped"]
+  name: "a kidnapped maiden"
+  description: >-
+    A kidnapped maiden has been tied up here.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14156": 75
+        "notale:o14112": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 2
+- id: m14141
+  keywords: ["kalevipoeg"]
+  name: "Kalevipoeg"
+  description: >-
+    Kalevipoeg is here, fighting the Old Hornie.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14124": 75
+        "notale:o14102": 75
+        "notale:o14130": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1
+- id: m14142
+  keywords: ["old","hornie"]
+  name: "the Old Hornie"
+  description: >-
+    The Old Hornie is here, fighting Kalevipoeg.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "notale:o14132": 75
+        "notale:o14122": 75
+        "notale:o14131": 75
+  metadata:
+    areaId: 1
+    exp_level: 16000
+    sex: 1

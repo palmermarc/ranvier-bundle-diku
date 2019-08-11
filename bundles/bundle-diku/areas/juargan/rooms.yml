@@ -1,0 +1,1098 @@
+- id: r4700
+  title: "The Spiral Stair"
+  description: >-
+    A spiral stone stair leads up higher in the mountain, spiraling into the
+    spine of the Dra-Korrin.  A small glint of light can be seen far up the
+    stair shaft.
+  exits:
+    - roomId: "juargan:r4701"
+      direction: west
+    - roomId: "juargan:r4772"
+      direction: up
+- id: r4701
+  title: "Mines "
+  description: >-
+    A small glint of the burning torches is all that lights the way here.  Spots
+    along the jagged wall show that these mines are rich as gold and silver glitters
+    all around you.
+  exits:
+    - roomId: "juargan:r4700"
+      direction: east
+    - roomId: "juargan:r4702"
+      direction: west
+- id: r4702
+  title: "Mines"
+  description: >-
+    This small dark tunnel continues to the north where to light no longer allows
+    normal sight.  To the east the small mine leads a a better lit area and you can
+    smell a brisk fresh air.
+  exits:
+    - roomId: "juargan:r4703"
+      direction: north
+    - roomId: "juargan:r4701"
+      direction: east
+- id: r4703
+  title: "Mines"
+  description: >-
+    This small tunnel is only five to six feet high and possibly the same
+    dimensions wide.  It travels on a slight downslope to the west and to the south
+    some light can be seen.
+  exits:
+    - roomId: "juargan:r4702"
+      direction: south
+    - roomId: "juargan:r4704"
+      direction: west
+- id: r4704
+  title: "Mines"
+  description: >-
+    The small mine continues east and west here, small rocks and precious jewels
+    scattered about.  There is a small tunnel that leads to the south here.
+  exits:
+    - roomId: "juargan:r4705"
+      direction: south
+    - roomId: "juargan:r4703"
+      direction: east
+    - roomId: "juargan:r4706"
+      direction: west
+- id: r4705
+  title: "Unfinished Mine"
+  description: >-
+    This is a small area that has been left unfinished at the moment.  It would
+    have continued south from the main shaft that is to the north of here.
+  exits:
+    - roomId: "juargan:r4704"
+      direction: north
+  npcs:
+    - id: "juargan:m4700"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4706
+  title: "Mines"
+  description: >-
+    This small shaft of the mines continues its tunneling east and west.  Small
+    glints of metal can be seen within the walls.
+  exits:
+    - roomId: "juargan:r4704"
+      direction: east
+    - roomId: "juargan:r4707"
+      direction: west
+- id: r4707
+  title: "Turn in the Mine"
+  description: >-
+    The small shaft travels east and south here, the masterful mining skills that
+    made this turn possible are evidently by the smooth cuts in the walls.  Almost
+    as if a hot knife made its way through some warm butter.
+  exits:
+    - roomId: "juargan:r4708"
+      direction: south
+    - roomId: "juargan:r4706"
+      direction: east
+- id: r4708
+  title: "Mines"
+  description: >-
+    This is a three-way intersection in these mazes of mines with directions
+    going north, west, and south which travels further down into the heart of the
+    mountain itself.
+  exits:
+    - roomId: "juargan:r4707"
+      direction: north
+    - roomId: "juargan:r4709"
+      direction: south
+    - roomId: "juargan:r4736"
+      direction: west
+- id: r4709
+  title: "Dwarven mine"
+  description: >-
+    The walls of this mine are chipped and cut to perfection.  Workmanship of
+    this type could only have been done by the masterful Dwarven race.  Tunnels
+    continue to the south and east, and the tunnel travels upward to the north.
+  exits:
+    - roomId: "juargan:r4708"
+      direction: north
+    - roomId: "juargan:r4710"
+      direction: south
+    - roomId: "juargan:r4724"
+      direction: east
+  npcs:
+    - id: "juargan:m4700"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4710
+  title: "Dwarven mine"
+  description: >-
+    Tunnels spread off in all directions except to the west where the wall is made
+    of a dark and bleak stone.  A small glow emanates from the walls of the mines,
+    but not enough to see by.
+  exits:
+    - roomId: "juargan:r4709"
+      direction: north
+    - roomId: "juargan:r4711"
+      direction: south
+    - roomId: "juargan:r4712"
+      direction: east
+- id: r4711
+  title: "Dwarven mine"
+  description: >-
+    The small shaft ends abruptly at a jewel encrusted wall.  To the north the
+    small shaft continues some past some small rocks.
+  exits:
+    - roomId: "juargan:r4710"
+      direction: north
+- id: r4712
+  title: "Dwarven mine"
+  description: >-
+    This section of small shaft is a turning point and continues to the west and to
+    the south.  Small glints of gold and silver can be seen in the walls.
+  exits:
+    - roomId: "juargan:r4713"
+      direction: south
+    - roomId: "juargan:r4710"
+      direction: west
+- id: r4713
+  title: "Dwarven mine"
+  description: >-
+    The small shaft continues north and south deep inside this large mountain.  A
+    light glow can be seen in the walls, but not enough to see by.
+  exits:
+    - roomId: "juargan:r4712"
+      direction: north
+    - roomId: "juargan:r4714"
+      direction: south
+  npcs:
+    - id: "juargan:m4700"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4714
+  title: "Dwarven mines"
+  description: >-
+    This section of the small shafts is a intersection of three separate tunnels.
+    They lead north, east, and west.  A faint glow is within the walls of this
+    small intersection.
+  exits:
+    - roomId: "juargan:r4713"
+      direction: north
+    - roomId: "juargan:r4719"
+      direction: east
+    - roomId: "juargan:r4715"
+      direction: west
+- id: r4715
+  title: "Dwarven mines"
+  description: >-
+    The small shaft of glittering gold and silver travels east and south here.
+    The faint glow from within the walls give you a sense of safety.
+  exits:
+    - roomId: "juargan:r4716"
+      direction: south
+    - roomId: "juargan:r4714"
+      direction: east
+  npcs:
+    - id: "juargan:m4705"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4716
+  title: "Dwarven mines"
+  description: >-
+    The small Dwarven carved shaft continues to the north and to the east here.
+    Small clumps of precious metals can be seen within the rocky walls.
+  exits:
+    - roomId: "juargan:r4715"
+      direction: north
+    - roomId: "juargan:r4717"
+      direction: east
+  npcs:
+    - id: "juargan:m4700"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4717
+  title: "Dwarven mines"
+  description: >-
+    The small shaft of the mine continues to the west and to the south here.  A
+    small amount of light can be seen to the south.
+  exits:
+    - roomId: "juargan:r4718"
+      direction: south
+    - roomId: "juargan:r4716"
+      direction: west
+- id: r4718
+  title: "End of the mine"
+  description: >-
+    The south section of the small tunnel is covered in a blue light, and also
+    radiating a aura of heat.  The eastern and western walls also glow but not as
+    fierce as the southern section.
+  exits:
+    - roomId: "juargan:r4717"
+      direction: north
+- id: r4719
+  title: "Dwarven mines"
+  description: >-
+    Small shafts lead off in all directions except northerly, where the wall seems
+    to have a tinted blue color to it.  The southern tunnel seems to end a small
+    ways down.
+  exits:
+    - roomId: "juargan:r4720"
+      direction: south
+    - roomId: "juargan:r4721"
+      direction: east
+    - roomId: "juargan:r4714"
+      direction: west
+- id: r4720
+  title: "Unfinished shaft"
+  description: >-
+    The walls here are jagged and unfinished in there cuts, leaving sharp and
+    jagged edges at every turn.  The only exit appears to be to the north.
+  exits:
+    - roomId: "juargan:r4719"
+      direction: north
+  npcs:
+    - id: "juargan:m4700"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "juargan:m4707"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r4721
+  title: "Dwarven mines"
+  description: >-
+    This small shaft travels to the west and to the south, sporting small clumps
+    of precious metals as they go.
+  exits:
+    - roomId: "juargan:r4722"
+      direction: south
+    - roomId: "juargan:r4719"
+      direction: west
+- id: r4722
+  title: "Dwarven mines"
+  description: >-
+    A slight downslope is present as this tunnel continues to the south and to the
+    north.  To the south is where the small slope is present, traveling slightly
+    further down into the depths of the mountain.
+  exits:
+    - roomId: "juargan:r4721"
+      direction: north
+    - roomId: "juargan:r4723"
+      direction: south
+- id: r4723
+  title: "Unfinished mine"
+  description: >-
+    The southern wall of this mine has been left uncarved and unfinished as you
+    can see that the amount of metals in the walls have decreased slightly here.
+    The tunnel leads to the north out of this dead end.
+  exits:
+    - roomId: "juargan:r4722"
+      direction: north
+  npcs:
+    - id: "juargan:m4700"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4724
+  title: "Dwarven mine"
+  description: >-
+    This small shaft travels to the east and west while along the way several
+    spots of precious metal and rock jut forth from the red rock.
+  exits:
+    - roomId: "juargan:r4725"
+      direction: east
+    - roomId: "juargan:r4709"
+      direction: west
+- id: r4725
+  title: "Dwarven mine"
+  description: >-
+    The small tunnel continues to the west and to the south from this turning
+    point.  Small spots of gold and silver can be seen in the walls.
+  exits:
+    - roomId: "juargan:r4726"
+      direction: south
+    - roomId: "juargan:r4724"
+      direction: west
+  npcs:
+    - id: "juargan:m4700"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4726
+  title: "Dwarven mines"
+  description: >-
+    This is a north and south shaft that has been carved to perfection.  The walls
+    are almost square here, giving it a hall like appearance.
+  exits:
+    - roomId: "juargan:r4725"
+      direction: north
+    - roomId: "juargan:r4727"
+      direction: south
+- id: r4727
+  title: "Dwarven mines"
+  description: >-
+    The small shaft here continues to the north and to the east. As it slopes
+    slightly downward to the east, the walls have a more unfinished look to them.
+  exits:
+    - roomId: "juargan:r4726"
+      direction: north
+    - roomId: "juargan:r4728"
+      direction: east
+  npcs:
+    - id: "juargan:m4700"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4728
+  title: "Dwarven mines"
+  description: >-
+    This small east-west shaft, which travels slightly downward to the east, has
+    a distinct smell to it.  The smell is revolting, coming close to that of rotting
+    flesh.
+  exits:
+    - roomId: "juargan:r4729"
+      direction: east
+    - roomId: "juargan:r4727"
+      direction: west
+- id: r4729
+  title: "Dwarven mines"
+  description: >-
+    This intersection combines three tunnels, the western tunnel leading up.  To
+    the south is darkness, but there is a disgusting stench emanating from a very
+    large cavern.
+  exits:
+    - roomId: "juargan:r4732"
+      direction: north
+    - roomId: "juargan:r4730"
+      direction: south
+    - roomId: "juargan:r4728"
+      direction: west
+  npcs:
+    - id: "juargan:m4700"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "juargan:m4705"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "juargan:m4705"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4730
+  title: "Dwarven mines"
+  description: >-
+    This is a small north and south passage that is bleak and void of any gold or
+    silver in the walls.  It continues into darkness to the south.
+  exits:
+    - roomId: "juargan:r4729"
+      direction: north
+    - roomId: "juargan:r4731"
+      direction: south
+- id: r4731
+  title: "Dwarven mines"
+  description: >-
+    This small shaft ends abruptly at the southern wall.  There is a faint blue
+    glow to the southern wall but no metals of jewels are present.
+  exits:
+    - roomId: "juargan:r4730"
+      direction: north
+- id: r4732
+  title: "Duergar Outcamp"
+  description: >-
+    This is a large cavern that stinks of decay and death.  To the north there is
+    a rather large hut, while to the west there is a small fire and several big
+    boulders.
+  exits:
+    - roomId: "juargan:r4733"
+      direction: north
+    - roomId: "juargan:r4729"
+      direction: south
+    - roomId: "juargan:r4735"
+      direction: west
+  npcs:
+    - id: "juargan:m4705"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4733
+  title: "Duergar Barracks"
+  description: >-
+    Several small cots line the walls here  inside this large thatched hut.  Small
+    scraps of food and several small disfigured bodies lie about, no doubt the
+    remains of some unfortunate dwarf.
+  exits:
+    - roomId: "juargan:r4732"
+      direction: south
+  npcs:
+    - id: "juargan:m4705"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "juargan:m4705"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "juargan:m4705"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "juargan:m4705"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4734
+  title: "Small cave"
+  description: >-
+    Many small and disfigured bodies have been piled up here stinking up the whole
+    cavern.  Blood stains line the walls and entrails are strewn about the floor.
+  exits:
+    - roomId: "juargan:r4735"
+      direction: south
+- id: r4735
+  title: "By a small fire"
+  description: >-
+    Several large rocks surround a petty little fire that has formed a cloud in
+    the ceiling of this large cavern.  A window of the hut looks out over this small
+    meeting area.  To the north a small dark cave can be seen.
+  exits:
+    - roomId: "juargan:r4734"
+      direction: north
+    - roomId: "juargan:r4732"
+      direction: east
+  npcs:
+    - id: "juargan:m4705"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "juargan:m4705"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4736
+  title: "Carved Tunnel"
+  description: >-
+    This small tunnel has been carved to perfection, the walls are smooth and the
+    floor has been worn soft through years of passage.  The red coloring of the
+    rock gives this small tunnel a soft glow.
+  exits:
+    - roomId: "juargan:r4737"
+      direction: north
+    - roomId: "juargan:r4708"
+      direction: east
+- id: r4737
+  title: "Carved Tunnel"
+  description: >-
+    The walls of the small tunnel have been carved to perfection as well as the
+    floor that has been worn smooth.  It travels south and west leading off into
+    darkness.
+  exits:
+    - roomId: "juargan:r4736"
+      direction: south
+    - roomId: "juargan:r4738"
+      direction: west
+- id: r4738
+  title: "Carved Tunnel"
+  description: >-
+    The walls here are red and smooth as they have been carved into perfection.
+    The floor has been worm smooth with use and clear of any rubble.
+  exits:
+    - roomId: "juargan:r4739"
+      direction: south
+    - roomId: "juargan:r4737"
+      direction: east
+  npcs:
+    - id: "juargan:m4700"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4739
+  title: "Stone Gates"
+  description: >-
+    Two monstrous pillars of stone support a great stone gate that leads south
+    into a gigantic cavern with a small city inside.  The redden rock of the of
+    mountain gives this small gate and cavern within a slight reddish glow.
+  exits:
+    - roomId: "juargan:r4738"
+      direction: north
+    - roomId: "juargan:r4740"
+      direction: south
+  npcs:
+    - id: "juargan:m4702"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "juargan:m4702"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r4740
+  title: "Walkway"
+  description: >-
+    A small stone walkway leads its way through the immense cavern and all of its
+    scattered boulders and misplaced stalagmites.  To the south you can see a large
+    area of many multicolored rock, rising up in the center of which is a small
+    building.
+  exits:
+    - roomId: "juargan:r4739"
+      direction: north
+    - roomId: "juargan:r4741"
+      direction: south
+    - roomId: "juargan:r4750"
+      direction: west
+  npcs:
+    - id: "juargan:m4701"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "juargan:m4701"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4741
+  title: "Rock Garden"
+  description: >-
+    A small path works its way through all types of multicolored boulders of all
+    sizes and shapes.  Despite it's hardness and great size it has a certain
+    beauty to it.
+  exits:
+    - roomId: "juargan:r4740"
+      direction: north
+    - roomId: "juargan:r4742"
+      direction: east
+    - roomId: "juargan:r4748"
+      direction: west
+- id: r4742
+  title: "Rock Garden"
+  description: >-
+    A small path works its way south and west from this section of a enormously
+    large, yet beautiful conglomeration of rocks and boulders.
+  exits:
+    - roomId: "juargan:r4743"
+      direction: south
+    - roomId: "juargan:r4741"
+      direction: west
+- id: r4743
+  title: "Rock Garden"
+  description: >-
+    A small path works its way north and south through this large display of many
+    different colored boulders and rocks.  A large building can be seen rising above
+    the boulders directly to the west.
+  exits:
+    - roomId: "juargan:r4742"
+      direction: north
+    - roomId: "juargan:r4744"
+      direction: south
+  npcs:
+    - id: "juargan:m4703"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r4744
+  title: "Rock Garden"
+  description: >-
+    A small path works its way to the north and to the west as the many different
+    colored boulders and rocks perform a array of beauty before you.
+  exits:
+    - roomId: "juargan:r4743"
+      direction: north
+    - roomId: "juargan:r4745"
+      direction: west
+- id: r4745
+  title: "Rock Garden"
+  description: >-
+    A small path works its way west and east through this array of multicolored
+    boulders and rocks.  To the north a smooth path leads to a large and immaculate
+    stone building.
+  exits:
+    - roomId: "juargan:r4749"
+      direction: north
+    - roomId: "juargan:r4744"
+      direction: east
+    - roomId: "juargan:r4746"
+      direction: west
+- id: r4746
+  title: "Rock Garden"
+  description: >-
+    A small path works its way east and north through this small section of the
+    large array of boulders and rocks of all different colors.
+  exits:
+    - roomId: "juargan:r4747"
+      direction: north
+    - roomId: "juargan:r4745"
+      direction: east
+- id: r4747
+  title: "Rock Garden"
+  description: >-
+    A small path works its way north and south through this small section of the
+    large garden of multicolored boulders.  Directly to the east a large building
+    can be seen rising above the piles of boulders.
+  exits:
+    - roomId: "juargan:r4748"
+      direction: north
+    - roomId: "juargan:r4746"
+      direction: south
+- id: r4748
+  title: "Rock Garden"
+  description: >-
+    A small path works its way east and south through this section of the great
+    multicolored array of boulders and rock formations.
+  exits:
+    - roomId: "juargan:r4747"
+      direction: south
+    - roomId: "juargan:r4741"
+      direction: east
+- id: r4749
+  title: "Temple of Juargan"
+  description: >-
+    This large building is circular in shape and open on all sides, as the ceiling
+    is supported by pillars made of the deep red stone from the heart of the
+    Dra-Korrin.
+      In the center there is rests a large throne, formed of red rock.
+  exits:
+    - roomId: "juargan:r4745"
+      direction: south
+  npcs:
+    - id: "juargan:m4702"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "juargan:m4702"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "juargan:m4704"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r4750
+  title: "Walkway"
+  description: >-
+    A small stone walkway travels east and west through the many stalagmites and
+    stray boulders that scatter the floor of the great cavern.
+  exits:
+    - roomId: "juargan:r4740"
+      direction: east
+    - roomId: "juargan:r4751"
+      direction: west
+- id: r4751
+  title: "Walkway"
+  description: >-
+    A small stone walkway travels east and south through the debris of many
+    boulders and stalagmites.  Another small walkway leads west to a small building
+    pushing a black smoke from its roof.
+  exits:
+    - roomId: "juargan:r4753"
+      direction: south
+    - roomId: "juargan:r4750"
+      direction: east
+    - roomId: "juargan:r4752"
+      direction: west
+- id: r4752
+  title: "Blacksmith's Home"
+  description: >-
+    A large black forge lies in the center of this small house pushing waves of
+    heat into your face, barley allowing you to stand within the entranceway.  A
+    large trough of water and several anvils are resting here as well.
+  exits:
+    - roomId: "juargan:r4751"
+      direction: east
+- id: r4753
+  title: "Walkway"
+  description: >-
+    A small walkway travels north and south through the many scattered boulders
+    and stalagmites.  A separate, less used path leads to the west.
+  exits:
+    - roomId: "juargan:r4751"
+      direction: north
+    - roomId: "juargan:r4759"
+      direction: south
+    - roomId: "juargan:r4754"
+      direction: west
+- id: r4754
+  title: "Path in the Rock"
+  description: >-
+    A small path leads west further into the less carved rock while to the east
+    the larger walkway can be seen.
+  exits:
+    - roomId: "juargan:r4753"
+      direction: east
+    - roomId: "juargan:r4755"
+      direction: west
+- id: r4755
+  title: "Path in the Rock"
+  description: >-
+    This small uncarved path travels south and east as the edge of the cavern
+    blocks any travel further west.  The wall of the cavern has a deep red color to
+    it and with the many stalactites parts resemble dripping blood.
+  exits:
+    - roomId: "juargan:r4756"
+      direction: south
+    - roomId: "juargan:r4754"
+      direction: east
+- id: r4756
+  title: "Path in the Rock"
+  description: >-
+    This small, uncarved path leads north and south along the cavern wall, over
+    many boulders at points.  To the east you can see a path leading up to a small
+    hole in a large boulder.
+  exits:
+    - roomId: "juargan:r4755"
+      direction: north
+    - roomId: "juargan:r4757"
+      direction: south
+    - roomId: "juargan:r4771"
+      direction: east
+- id: r4757
+  title: "Path in the Rock"
+  description: >-
+    A small path travels over boulders and crevices to the north and east.  The
+    edge of the cavern lies to the west while mounds of boulders are heaped to the
+    south.
+  exits:
+    - roomId: "juargan:r4756"
+      direction: north
+    - roomId: "juargan:r4758"
+      direction: east
+  npcs:
+    - id: "juargan:m4702"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "juargan:m4702"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r4758
+  title: "Path in the Rock"
+  description: >-
+    A small and unused path travels over boulders and by many large hole as it
+    makes its way to the west.  To the east the small path ends in the larger walk-
+    way of the city.  To the south a path leads to a small hut perched on top of a
+    large boulder.
+  exits:
+    - roomId: "juargan:r4761"
+      direction: south
+    - roomId: "juargan:r4760"
+      direction: east
+    - roomId: "juargan:r4757"
+      direction: west
+- id: r4759
+  title: "Walkway"
+  description: >-
+    A stone walkway travels north and south through this section of this rocky
+    city.  To the west you can see a uncarved and hug mound of rock and boulder.
+  exits:
+    - roomId: "juargan:r4753"
+      direction: north
+    - roomId: "juargan:r4760"
+      direction: south
+  npcs:
+    - id: "juargan:m4701"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "juargan:m4701"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4760
+  title: "Walkway"
+  description: >-
+    A stone walkway travels north and south through this section of the city.  A
+    small and unused path can be seen traveling west into the uncut and jagged rock.
+  exits:
+    - roomId: "juargan:r4759"
+      direction: north
+    - roomId: "juargan:r4762"
+      direction: south
+    - roomId: "juargan:r4758"
+      direction: west
+- id: r4761
+  title: "Pasty's Dwelling"
+  description: >-
+    This is a small stone dwelling with a large oven on the south wall.  There are
+    many tables and chairs placed about the place and by the oven there is a table
+    piled with grains and a small bowl of dough.
+  exits:
+    - roomId: "juargan:r4758"
+      direction: north
+- id: r4762
+  title: "Walkway"
+  description: >-
+    A stone walkway travels north and east through this section of the stone city.
+    A small path leads south to a small rock dwelling.
+  exits:
+    - roomId: "juargan:r4760"
+      direction: north
+    - roomId: "juargan:r4764"
+      direction: south
+    - roomId: "juargan:r4763"
+      direction: east
+- id: r4763
+  title: "Walkway"
+  description: >-
+    A stone walkway leads west from here.  To the east the small walkway ends in a
+    large building, and to the south a small path leads to a small stone dwelling.
+  exits:
+    - roomId: "juargan:r4765"
+      direction: south
+    - roomId: "juargan:r4766"
+      direction: east
+    - roomId: "juargan:r4762"
+      direction: west
+  npcs:
+    - id: "juargan:m4701"
+      respawnChance: 100
+      maxLoad: "20"
+    - id: "juargan:m4701"
+      respawnChance: 100
+      maxLoad: "20"
+- id: r4764
+  title: "Leatherbies Home"
+  description: >-
+    This is a small stone dwelling with many sizes of leather strewn about the
+    place.  A small table with a few chairs sits in the center of the house.
+  exits:
+    - roomId: "juargan:r4762"
+      direction: north
+- id: r4765
+  title: "The Stone Jewel"
+  description: >-
+    Many different colors and sizes of jewels hang from the walls of this well
+    kept dwelling.  A small counter sits on the far wall with other small tables
+    lining the walls.
+  exits:
+    - roomId: "juargan:r4763"
+      direction: north
+- id: r4766
+  title: "Guard Barrack"
+  description: >-
+    Many small cots line the walls of this large building as it serves for the
+    homes of many brave Dwarven men who pledge their lives to the suppression of
+    their Duergar enemies.  A small archway leads south to a lower level.
+  exits:
+    - roomId: "juargan:r4767"
+      direction: south
+    - roomId: "juargan:r4763"
+      direction: west
+  npcs:
+    - id: "juargan:m4702"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "juargan:m4702"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "juargan:m4702"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "juargan:m4702"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "juargan:m4702"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r4767
+  title: "Alcove"
+  description: >-
+    A small alcove serves as a turning point for this small, dark tunnel that goes
+    north and west from here.
+  exits:
+    - roomId: "juargan:r4766"
+      direction: north
+    - roomId: "juargan:r4768"
+      direction: west
+- id: r4768
+  title: "Entrance to Tomb"
+  description: >-
+    A large archway leads north to a dark vault.  An old stench emanates from it,
+    as dust seems to continually flow from the old arch.  There is a small tunnel
+    that travels east into a darkness.
+  exits:
+    - roomId: "juargan:r4769"
+      direction: north
+    - roomId: "juargan:r4767"
+      direction: east
+- id: r4769
+  title: "Ancients Tomb"
+  description: >-
+    Two large stone sarcophagus's lie stagnant in the center of this small tomb.
+    The walls are lined with holes that contain many coffers containing, no doubt,
+    the remains of some ancient dwarf.
+      A great stone door leads to the west, it has many inscriptions upon it.
+  exits:
+    - roomId: "juargan:r4768"
+      direction: south
+    - roomId: "juargan:r4770"
+      direction: west
+  npcs:
+    - id: "juargan:m4706"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "juargan:m4708"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "juargan:m4708"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "juargan:m4708"
+      respawnChance: 100
+      maxLoad: "10"
+  items:
+    - id: "juargan:o4707"
+      respawnChance: 75
+- id: r4770
+  title: "Ancients Vault"
+  description: >-
+    This is more of a small alcove than anything else.  The ceiling is covered
+    with many descriptive carvings, as are the walls and floor.  Where it not for
+    the years of decay and no upkeep, this would be a glamorous chamber.
+  exits:
+    - roomId: "juargan:r4769"
+      direction: east
+  items:
+    - id: "juargan:o4704"
+      respawnChance: 75
+    - id: "juargan:o4705"
+      respawnChance: 75
+- id: r4771
+  title: "Siven's Stone"
+  description: >-
+    A small and dark little room entombed within a large boulder, a very strange
+    place to want to live.  There is a small table in the center, but the room is
+    void of any other objects.
+  exits:
+    - roomId: "juargan:r4756"
+      direction: west
+- id: r4772
+  title: "The small cave"
+  description: >-
+    You barely squeeze through into this cave, and you don't see much to it
+    either.  All you see are piles of stones.  At least none of the stones has
+    fallen over your exit north.
+  exits:
+    - roomId: "juargan:r4773"
+      direction: north
+    - roomId: "juargan:r4700"
+      direction: down
+- id: r4773
+  title: "Beneath the waterfall"
+  description: >-
+    As you wring your clothes, you see sunlight reflect beautifully off the
+    waterfall, forming at rainbow.  With the sparkling illumination, you think you
+    see a cave to the south.
+  exits:
+    - roomId: "juargan:r4772"
+      direction: south
+    - roomId: "juargan:r4774"
+      direction: west
+- id: r4774
+  title: "By the beautiful waterfall"
+  description: >-
+    You see a VERY beautiful waterfall here.  It looks almost as if diamonds are
+    falling down the mountain.  (You reach out and grab and no, it IS only water.)
+    It looks so nice here, you feel like taking a nap.
+    The trail leads north and south.
+  exits:
+    - roomId: "thalos:r5279"
+      direction: north
+    - roomId: "juargan:r4775"
+      direction: south
+    - roomId: "juargan:r4773"
+      direction: east
+- id: r4775
+  title: "A valley"
+  description: >-
+    You see a fresh green valley.  Flowers blossom everywhere around you, and you
+    have a big urge to giggle.  To the north, you can see the source of this
+    greenness, a waterfall.  To the west, you see the trail along the valley.
+  exits:
+    - roomId: "juargan:r4774"
+      direction: north
+    - roomId: "juargan:r4776"
+      direction: west
+- id: r4776
+  title: "A valley"
+  description: >-
+    You see a fresh green valley.  Flowers blossom everywhere around you, and you
+    have a big urge to giggle.  The valley continues to the east, or you can take
+    a steep trail up.
+  exits:
+    - roomId: "juargan:r4775"
+      direction: east
+    - roomId: "juargan:r4777"
+      direction: up
+- id: r4777
+  title: "At the end of the hills"
+  description: >-
+    What a view!  From here, you can see a waterfall toward the east, and lush
+    green forests south-east.  To the north, you see the Mountains of Moria.  To
+    the west, you see the dirty trail again.  A trail leads down to the valley
+    below.
+  exits:
+    - roomId: "juargan:r4778"
+      direction: west
+    - roomId: "juargan:r4776"
+      direction: down
+- id: r4778
+  title: "A trail along the hills"
+  description: >-
+    The dirt road you are treading on is as gentle as you can believe.  Rocks
+    catch on you as you try to keep your balance.  The trail continues east and
+    back west to relative safety.
+  exits:
+    - roomId: "juargan:r4777"
+      direction: east
+    - roomId: "juargan:r4779"
+      direction: west
+- id: r4779
+  title: "A trail along the hills"
+  description: >-
+    The trail flattens out a bit, giving you time to breathe.  You don't see much
+    water and don't think the sun is going to help your thirst.  The closest shade
+    appears to be the dwarf forest, which is VERY far away.
+  exits:
+    - roomId: "juargan:r4778"
+      direction: east
+    - roomId: "juargan:r4780"
+      direction: down
+- id: r4780
+  title: "Up the hill"
+  description: >-
+    You continue to climb this hill as sweat breaks out upon your forehead.  It
+    looks like you are close to the plateau.  Down is the relative comfort of
+    ground again, but you are SO close to the top!
+  exits:
+    - roomId: "juargan:r4779"
+      direction: up
+    - roomId: "juargan:r4781"
+      direction: down
+- id: r4781
+  title: "Up the hill"
+  description: >-
+    You continue to climb this hill as sweat breaks out upon your forehead.  It
+    looks like you are close to the plateau.  Down is the relative comfort of
+    ground again, but you are SO close to the top!
+  exits:
+    - roomId: "juargan:r4780"
+      direction: up
+    - roomId: "juargan:r4782"
+      direction: down
+- id: r4782
+  title: "Up the hill"
+  description: >-
+    You continue to climb this hill as sweat breaks out upon your forehead.  It
+    looks like you are close to the plateau.  Down is the relative comfort of
+    ground again, but you are SO close to the top!
+  exits:
+    - roomId: "juargan:r4781"
+      direction: up
+    - roomId: "juargan:r4783"
+      direction: down
+- id: r4783
+  title: "Up the hill"
+  description: >-
+    You continue to climb this hill as sweat breaks out upon your forehead.  It
+    looks like you are close to the plateau.  Down is the relative comfort of
+    ground again, but you are SO close to the top!
+  exits:
+    - roomId: "juargan:r4782"
+      direction: up
+    - roomId: "juargan:r4784"
+      direction: down
+- id: r4784
+  title: "The hills"
+  description: >-
+    You sigh as the trail continues straight up into the mountain.  West leads
+    back to the more stable ground, but you wonder what's on the other side of this
+    little hill.....
+  exits:
+    - roomId: "wolfden:r25900"
+      direction: south
+    - roomId: "juargan:r4785"
+      direction: west
+    - roomId: "juargan:r4783"
+      direction: up
+- id: r4785
+  title: "The hills"
+  description: >-
+    You see all around you ... hills.  You're lucky you get to get so much
+    exercise today!  You wonder if you should save your breath and go back west or
+    continue east toward the hills.  There is a trail leading south towards
+    a black glassy mountain range.  A small plaque is on the rock.
+  exits:
+    - roomId: "vishnaak:r25500"
+      direction: north
+    - roomId: "firenewt:r2900"
+      direction: south
+    - roomId: "juargan:r4784"
+      direction: east
+    - roomId: "moria:r4000"
+      direction: west

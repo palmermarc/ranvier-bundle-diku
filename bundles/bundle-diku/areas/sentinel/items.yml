@@ -1,0 +1,22 @@
+- id: o12452
+  name: "light amulet radiance"
+  roomDesc: "A light amulet of radiance glows."
+  keywords: ["light","amulet","radiance"]
+  description: "A light amulet of radiance glows."
+  type: ACCESSORY
+- id: o12453
+  name: "ring"
+  roomDesc: "A blight ring rests here."
+  keywords: ["ring"]
+  description: "A blight ring rests here."
+  type: ACCESSORY
+- id: o12454
+  name: "blight sword"
+  roomDesc: "A blight sword has been strewn aside here."
+  keywords: ["blight","sword"]
+  description: "A blight sword has been strewn aside here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8

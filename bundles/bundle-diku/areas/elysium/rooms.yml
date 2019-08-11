@@ -1,0 +1,301 @@
+- id: r26300
+  title: "The Entrance to the Elysium"
+  description: >-
+    You stand before the entrance to the 
+    Elysium.  This place is set aside to show
+    all that enter about the world they have 
+    entered, and to prepare them for the
+    dangers they shall meet.
+  exits:
+    - roomId: "elysium:r26301"
+      direction: north
+    - roomId: "prehistoria:r11200"
+      direction: east
+- id: r26301
+  title: "A junction in the hallways"
+  description: >-
+    The Halls split here, be careful as you 
+    proceed.  Learn what you may, but know
+    that only a small amount of knowledge is
+    contained within.  To fully understand the
+    clans, you will have to research long
+    and hard.
+  exits:
+    - roomId: "elysium:r26300"
+      direction: south
+    - roomId: "elysium:r26302"
+      direction: east
+    - roomId: "elysium:r26303"
+      direction: west
+  npcs:
+    - id: "elysium:m26300"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26302
+  title: "The Halls of the Elysium"
+  description: >-
+    The walls of this hall are made of ancient
+    stones and covered with arcane symbols
+    and great works of art.
+  exits:
+    - roomId: "elysium:r26310"
+      direction: north
+    - roomId: "elysium:r26301"
+      direction: west
+  npcs:
+    - id: "elysium:m26310"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r26303
+  title: "The Halls of the Elysium"
+  description: >-
+    The walls of this hall are made of ancient
+    stones and covered with arcane symbols
+    and great works of art.
+  exits:
+    - roomId: "elysium:r26304"
+      direction: north
+    - roomId: "elysium:r26301"
+      direction: east
+  npcs:
+    - id: "elysium:m26310"
+      respawnChance: 100
+      maxLoad: "2"
+- id: r26304
+  title: "The Halls of the Elysium"
+  description: >-
+    The walls of this hall are made of ancient
+    stones and covered with arcane symbols
+    and great works of art.  To the west is a
+    Nosferatu marker, and to the east is a 
+    Gangrel marker.
+  exits:
+    - roomId: "elysium:r26305"
+      direction: north
+    - roomId: "elysium:r26303"
+      direction: south
+    - roomId: "elysium:r26315"
+      direction: east
+    - roomId: "elysium:r26314"
+      direction: west
+- id: r26305
+  title: "The Halls of the Elysium"
+  description: >-
+    The walls of this hall are made of ancient
+    stones and covered with arcane symbols
+    and great works of art. To the west is a
+    Toreador marker, and to the east is a 
+    Ventrue marker.
+  exits:
+    - roomId: "elysium:r26306"
+      direction: north
+    - roomId: "elysium:r26304"
+      direction: south
+    - roomId: "elysium:r26313"
+      direction: east
+    - roomId: "elysium:r26312"
+      direction: west
+- id: r26306
+  title: "The Halls of the Elysium"
+  description: >-
+    The walls of this hall are made of ancient
+    stones and covered with arcane symbols
+    and great works of art.
+  exits:
+    - roomId: "elysium:r26305"
+      direction: south
+    - roomId: "elysium:r26307"
+      direction: east
+- id: r26307
+  title: "The Halls of the Elysium"
+  description: >-
+    The walls of this hall are made of ancient
+    stones and covered with arcane symbols
+    and great works of art.
+  exits:
+    - roomId: "elysium:r26308"
+      direction: east
+    - roomId: "elysium:r26306"
+      direction: west
+    - roomId: "elysium:r26311"
+      direction: up
+  npcs:
+    - id: "elysium:m26301"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26308
+  title: "The Halls of the Elysium"
+  description: >-
+    The walls of this hall are made of ancient
+    stones and covered with arcane symbols
+    and great works of art.
+  exits:
+    - roomId: "elysium:r26309"
+      direction: south
+    - roomId: "elysium:r26307"
+      direction: west
+- id: r26309
+  title: "The Halls of the Elysium"
+  description: >-
+    The walls of this hall are made of ancient
+    stones and covered with arcane symbols
+    and great works of art. To the west is a
+    Cappadocian marker, and to the east is a
+    Tremere marker.
+  exits:
+    - roomId: "elysium:r26308"
+      direction: north
+    - roomId: "elysium:r26310"
+      direction: south
+    - roomId: "elysium:r26317"
+      direction: east
+    - roomId: "elysium:r26316"
+      direction: west
+- id: r26310
+  title: "The Halls of the Elysium"
+  description: >-
+    The walls of this hall are made of ancient
+    stones and covered with arcane symbols
+    and great works of art. To the west is a
+    Malkavian marker, and to the east is a
+    Brujah marker.
+  exits:
+    - roomId: "elysium:r26309"
+      direction: north
+    - roomId: "elysium:r26302"
+      direction: south
+    - roomId: "elysium:r26319"
+      direction: east
+    - roomId: "elysium:r26318"
+      direction: west
+- id: r26311
+  title: "The Skylight"
+  description: >-
+    >From this high perch, you can see out into
+    a dark land, full of danger and intrigue.
+    If you dare venture out, watch yourself,
+    because the Vampires of this world follow
+    their traditions closely.  Make sure you
+    never anger one.
+  exits:
+    - roomId: "elysium:r26307"
+      direction: down
+- id: r26312
+  title: "a Toreador Marker"
+  description: >-
+    The clan Toreador has left a marker here
+    for all to see.  This clan is comprised
+    of artists, musicians, and writers.  The
+    clan of the rose is famous for its passion
+    for all things artistic.
+  exits:
+    - roomId: "elysium:r26305"
+      direction: east
+  npcs:
+    - id: "elysium:m26304"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26313
+  title: "a Ventrue Marker"
+  description: >-
+    The clan Ventrue has left a marker here 
+    for all to see.  This clan is comprised
+    of leaders and politicians.  The Ventrue
+    are known for their impeccable taste and
+    tradition. They are masters of manipulation.
+  exits:
+    - roomId: "elysium:r26305"
+      direction: west
+  npcs:
+    - id: "elysium:m26309"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26314
+  title: "a Nosferatu Marker"
+  description: >-
+    The clan Nosferatu has left a marker here
+    for all to see.  These vampires are hideosly
+    disfigured, and therefore have taken great
+    pains to perfect their ability to go unseen.
+    They are also known as information brokers.
+  exits:
+    - roomId: "elysium:r26304"
+      direction: east
+  npcs:
+    - id: "elysium:m26308"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26315
+  title: "a Gangrel Marker"
+  description: >-
+    The clan Gangrel has left a marker here
+    for all to see.  The clan is comprised of
+    nomads and wanderers.  The Gangrel are fierce
+    warriors with close ties to the animal
+    world.
+  exits:
+    - roomId: "elysium:r26304"
+      direction: west
+  npcs:
+    - id: "elysium:m26302"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26316
+  title: "a Cappadocian Marker"
+  description: >-
+    The clan Cappadocian has left a marker here
+    for all to see.  This clan is comprised
+    of necromancers and death prophets. These
+    vampires have made great strides towards
+    unlocking the secrets of death.
+  exits:
+    - roomId: "elysium:r26309"
+      direction: east
+  npcs:
+    - id: "elysium:m26307"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26317
+  title: "a Tremere Marker"
+  description: >-
+    The clan Tremere has left a marker here 
+    for all to see.  This mysterious clan is
+    made up of a group of warlocks and magicians.
+    The Tremere are a clan with many rituals
+    and traditions.
+  exits:
+    - roomId: "elysium:r26309"
+      direction: west
+  npcs:
+    - id: "elysium:m26303"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26318
+  title: "a Malkavian Marker"
+  description: >-
+    The clan Malkavian has left a marker here
+    for all to see. Every member of this clan is insane in some way. These vampires are
+    known for their madness, which they consider
+    a gift rather than a curse.
+  exits:
+    - roomId: "elysium:r26310"
+      direction: east
+  npcs:
+    - id: "elysium:m26306"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26319
+  title: "a Brujah Marker"
+  description: >-
+    The clan Brujah has left a marker here
+    for all to see. This clan is comprised of
+    rebels and anarchs.  The Brujah are known for
+    their quick tempers and great fighting
+    abilities.
+  exits:
+    - roomId: "elysium:r26310"
+      direction: west
+  npcs:
+    - id: "elysium:m26305"
+      respawnChance: 100
+      maxLoad: "1"

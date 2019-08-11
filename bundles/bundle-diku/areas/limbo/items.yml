@@ -1,0 +1,30 @@
+- id: o2
+  name: "coin gold"
+  roomDesc: "One miserable gold coin."
+  keywords: ["coin","gold"]
+  description: "One miserable gold coin."
+  type: MONEY
+- id: o20
+  name: "mushroom"
+  roomDesc: "A delicious magic mushroom is here."
+  keywords: ["mushroom"]
+  description: "A delicious magic mushroom is here."
+  type: FOOD
+- id: o21
+  name: "ball light"
+  roomDesc: "A bright ball of light shimmers in the air."
+  keywords: ["ball","light"]
+  description: "A bright ball of light shimmers in the air."
+  type: LIGHT
+- id: o22
+  name: "spring"
+  roomDesc: "A magical spring flows from the ground here."
+  keywords: ["spring"]
+  description: "A magical spring flows from the ground here."
+  type: FOUNTAIN
+- id: o23
+  name: "spring blood"
+  roomDesc: "A spring of dark red liquid flows from the ground here."
+  keywords: ["spring","blood"]
+  description: "A spring of dark red liquid flows from the ground here."
+  type: FOUNTAIN

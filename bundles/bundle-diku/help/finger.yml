@@ -1,0 +1,12 @@
+---
+body: |
+  The FINGER command allows you gather information about
+  players that are online while you are on the mud.
+  
+  To FINGER a player, you must be able to see them, so make
+  sure you have the 'detect invisible' and 'detect hidden' 
+  spells.
+  
+  When you FINGER a GOD/ADMIN, they are notified, so do not SPAM them with 
+  FINGER, or you will pay the price.
+  

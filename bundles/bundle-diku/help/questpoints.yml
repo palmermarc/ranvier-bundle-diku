@@ -1,0 +1,25 @@
+---
+body: |
+  QUEST POINTS are the 'currency' used on the mud to improve equipment.
+  To gain QUEST POINTS, you must complete a QUESTCARD. <see help QUESTING>
+  Once you have gained QP, you can then use them to improve your EQ in 
+  various ways. You can raise the Hitroll, damroll, attributes, add spells, 
+  lower ac, reduce weight, and add/remove special flags.
+  The syntax for questing different things on EQ follows:
+  
+  Hit/Damroll: quest <item> hitroll/damroll <number>
+  ProtectionAc: quest <item> protection <number>
+  AC: quest <item> ac < -number> (make sure this # is negative!)
+  Attributes: quest <item> str/int/dex/wis/con <number>
+  Extra: quest <item> extra <anti-good/anti-evil/invis/etc..> 
+  (You type the same thing to add OR remove. It is a toggle) 
+  Hp/Mana/Move: quest <item> hp/mana/move <number>
+  Weight: quest <item> weight 
+  Min/Max: quest <weapon> min/max <number>
+  Spell: quest <item> spell <spellname> (leave <spellname> off to list>
+  Power: quest <weapon> power <number>
+  Naming Eq: See help FBONUS
+  
+  Type QUEST to see the prices of adding this to your EQ.
+  
+  - qp

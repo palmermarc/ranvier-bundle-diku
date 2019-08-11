@@ -1,0 +1,76 @@
+- id: o300
+  name: "herbs herb timian"
+  roomDesc: "Some herbs are lying here, small green leaves and tiny pink flowers."
+  keywords: ["herbs","herb","timian"]
+  description: "Some herbs are lying here, small green leaves and tiny pink flowers."
+  type: FOOD
+- id: o301
+  name: "herbs herb gyvel"
+  roomDesc: "Some black gyvel is lying here, dark green with black leaves and tiny\n\rblood red flowers."
+  keywords: ["herbs","herb","gyvel"]
+  description: "Some black gyvel is lying here, dark green with black leaves and tiny\n\rblood red flowers."
+  type: FOOD
+- id: o302
+  name: "plant ivy"
+  roomDesc: "Some poison ivy is growing here."
+  keywords: ["plant","ivy"]
+  description: "Some poison ivy is growing here."
+  type: FOOD
+- id: o303
+  name: "blood jar"
+  roomDesc: "A small jar in a dark, red colour."
+  keywords: ["blood","jar"]
+  description: "A small jar in a dark, red colour."
+  type: DRINKCON
+- id: o304
+  name: "wild flowers"
+  roomDesc: "A bunch of pretty wild flowers is here."
+  keywords: ["wild","flowers"]
+  description: "A bunch of pretty wild flowers is here."
+  type: TRASH
+- id: o307
+  name: "amulet"
+  roomDesc: "A strange looking amulet is lying here, half covered with dust."
+  keywords: ["amulet"]
+  description: "A strange looking amulet is lying here, half covered with dust."
+  type: ACCESSORY
+- id: o308
+  name: "staff stick"
+  roomDesc: "A staff with druidic marks have been left here."
+  keywords: ["staff","stick"]
+  description: "A staff with druidic marks have been left here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o309
+  name: "rabbit roast wabbit"
+  roomDesc: "You see a deliciously looking rabbit roast."
+  keywords: ["rabbit","roast","wabbit"]
+  description: "You see a deliciously looking rabbit roast."
+  type: FOOD
+- id: o310
+  name: "template scroll"
+  roomDesc: "A strange template made of an exotic green metal is placed here"
+  keywords: ["template","scroll"]
+  description: "A strange template made of an exotic green metal is placed here"
+  type: SCROLL
+- id: o311
+  name: "potion clear"
+  roomDesc: "A clear potion wrapped in leather is unnoticed placed here."
+  keywords: ["potion","clear"]
+  description: "A clear potion wrapped in leather is unnoticed placed here."
+  type: POTION
+- id: o312
+  name: "scroll jhyfrdow"
+  roomDesc: "An odd looking scroll is here."
+  keywords: ["scroll","jhyfrdow"]
+  description: "An odd looking scroll is here."
+  type: SCROLL
+- id: o313
+  name: "dragonquest666"
+  roomDesc: "A Green Dragonstone lies here gleaming."
+  keywords: ["dragonquest666"]
+  description: "A Green Dragonstone lies here gleaming."
+  type: FOOD

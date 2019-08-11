@@ -1,0 +1,218 @@
+- id: o9216
+  name: "staff ice"
+  roomDesc: "A ice staff lies forgotten on the ground."
+  keywords: ["staff","ice"]
+  description: "A ice staff lies forgotten on the ground."
+  type: STAFF
+- id: o9217
+  name: "staff earthquake"
+  roomDesc: "A earthquake staff lies forgotten on the ground."
+  keywords: ["staff","earthquake"]
+  description: "A earthquake staff lies forgotten on the ground."
+  type: WAND
+- id: o9218
+  name: "wand air wind"
+  roomDesc: "An air wand lies forgotten on the ground."
+  keywords: ["wand","air","wind"]
+  description: "An air wand lies forgotten on the ground."
+  type: WAND
+- id: o9219
+  name: "wand"
+  roomDesc: "A lightning wand lies forgotten on the ground."
+  keywords: ["wand"]
+  description: "A lightning wand lies forgotten on the ground."
+  type: WAND
+- id: o9220
+  name: "stone club"
+  roomDesc: "A large stone club lies on the ground."
+  keywords: ["stone","club"]
+  description: "A large stone club lies on the ground."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9221
+  name: "lode load lodestone loadstone stone"
+  roomDesc: "A dull red rock lies here amid the weeds."
+  keywords: ["lode","load","lodestone","loadstone","stone"]
+  description: "A dull red rock lies here amid the weeds."
+  type: WAND
+- id: o9222
+  name: "lava lamp"
+  roomDesc: "A lantern which glows with a red glowing light has been dumped."
+  keywords: ["lava","lamp"]
+  description: "A lantern which glows with a red glowing light has been dumped."
+  type: LIGHT
+- id: o9223
+  name: "energy scroll"
+  roomDesc: "A scroll of energy replacement lies here."
+  keywords: ["energy","scroll"]
+  description: "A scroll of energy replacement lies here."
+  type: SCROLL
+- id: o9224
+  name: "water jug"
+  roomDesc: "A large but surprisingly light jug of water stands here."
+  keywords: ["water","jug"]
+  description: "A large but surprisingly light jug of water stands here."
+  type: DRINKCON
+- id: o9225
+  name: "dust"
+  roomDesc: "A pile of dust of appearance has gathered here."
+  keywords: ["dust"]
+  description: "A pile of dust of appearance has gathered here."
+  type: PILL
+- id: o9226
+  name: "flame lance"
+  roomDesc: "A lance of blue flame burns the ground around it."
+  keywords: ["flame","lance"]
+  description: "A lance of blue flame burns the ground around it."
+  type: WEAPON2HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9227
+  name: "icicle dagger ice"
+  roomDesc: "A glowing icicle dagger lies here amid a patch of frost."
+  keywords: ["icicle","dagger","ice"]
+  description: "A glowing icicle dagger lies here amid a patch of frost."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9228
+  name: "avalanche"
+  roomDesc: "An avalanche is about to crush you!"
+  keywords: ["avalanche"]
+  description: "An avalanche is about to crush you!"
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9229
+  name: "star morning"
+  roomDesc: "A chain with a star on the end lies here."
+  keywords: ["star","morning"]
+  description: "A chain with a star on the end lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9230
+  name: "shock whip"
+  roomDesc: "A whip hums innocently too itself."
+  keywords: ["shock","whip"]
+  description: "A whip hums innocently too itself."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9231
+  name: "elixir anti"
+  roomDesc: "An elixir to ward off cyclopi has been bought then left behind here."
+  keywords: ["elixir","anti"]
+  description: "An elixir to ward off cyclopi has been bought then left behind here."
+  type: POTION
+- id: o9201
+  name: "ring earth"
+  roomDesc: "A dark ring which seems to absorb all the light around it lies here."
+  keywords: ["ring","earth"]
+  description: "A dark ring which seems to absorb all the light around it lies here."
+  type: ACCESSORY
+- id: o9202
+  name: "breastplate stoney breast plate"
+  roomDesc: "A breastplate made of the stone from deep within the earth lies here."
+  keywords: ["breastplate","stoney","breast","plate"]
+  description: "A breastplate made of the stone from deep within the earth lies here."
+  type: HEAVYARMOR
+- id: o9203
+  name: "dagger fiery"
+  roomDesc: "A dagger made of fire crackles mysteriously here."
+  keywords: ["dagger","fiery"]
+  description: "A dagger made of fire crackles mysteriously here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9204
+  name: "cape flame flaming red"
+  roomDesc: "A cape made of ethereal red fiber lies neatly folded on the ground here."
+  keywords: ["cape","flame","flaming","red"]
+  description: "A cape made of ethereal red fiber lies neatly folded on the ground here."
+  type: ACCESSORY
+- id: o9205
+  name: "boots wind"
+  roomDesc: "A pair of boots that look fast standing still are here."
+  keywords: ["boots","wind"]
+  description: "A pair of boots that look fast standing still are here."
+  type: MEDIUMARMOR
+- id: o9206
+  name: "helmet hurricane"
+  roomDesc: "A helmet that looks like it has weathered many storms has been set here."
+  keywords: ["helmet","hurricane"]
+  description: "A helmet that looks like it has weathered many storms has been set here."
+  type: HEAVYARMOR
+- id: o9207
+  name: "sword lightning bolt"
+  roomDesc: "A lightning bolt fashioned into a sword spits sparks here."
+  keywords: ["sword","lightning","bolt"]
+  description: "A lightning bolt fashioned into a sword spits sparks here."
+  type: WEAPON15HAND
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o9208
+  name: "shield electric"
+  roomDesc: "A shield made entirely of energy buzzes here."
+  keywords: ["shield","electric"]
+  description: "A shield made entirely of energy buzzes here."
+  type: SHIELD
+- id: o9209
+  name: "girth icy"
+  roomDesc: "A girth made of magical ice has been left here."
+  keywords: ["girth","icy"]
+  description: "A girth made of magical ice has been left here."
+  type: ACCESSORY
+- id: o9210
+  name: "cloak waterfall"
+  roomDesc: "A cloak fashioned from a small magical waterfall is here."
+  keywords: ["cloak","waterfall"]
+  description: "A cloak fashioned from a small magical waterfall is here."
+  type: ACCESSORY
+- id: o9211
+  name: "amulet elemental"
+  roomDesc: "An amulet depicting fire, water, lightning, earth, and air lies here."
+  keywords: ["amulet","elemental"]
+  description: "An amulet depicting fire, water, lightning, earth, and air lies here."
+  type: ACCESSORY
+- id: o9212
+  name: "bracelet elemental"
+  roomDesc: "A bracelet made of elemental magic lies here."
+  keywords: ["bracelet","elemental"]
+  description: "A bracelet made of elemental magic lies here."
+  type: LIGHTARMOR
+- id: o9213
+  name: "armbands platinum bands"
+  roomDesc: "A pair of platinum arm bands, once worn by the Cyclops, lie here."
+  keywords: ["armbands","platinum","bands"]
+  description: "A pair of platinum arm bands, once worn by the Cyclops, lie here."
+  type: LIGHTARMOR
+- id: o9214
+  name: "legbands platinum bands"
+  roomDesc: "A pair of platinum leg bands, once worn by the Cyclops, lie here."
+  keywords: ["legbands","platinum","bands"]
+  description: "A pair of platinum leg bands, once worn by the Cyclops, lie here."
+  type: LIGHTARMOR
+- id: o9215
+  name: "wand"
+  roomDesc: "A fire wand lies forgotten on the ground."
+  keywords: ["wand"]
+  description: "A fire wand lies forgotten on the ground."
+  type: WAND

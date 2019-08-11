@@ -1,0 +1,21 @@
+---
+body: |
+  When someone attacks someone else, a damage message is displayed to give 
+  you an idea of how much damage you have caused. The following messages 
+  represent the following amounts of damage.
+  
+  If you missed, then you did 0 points of damage.
+  If you hit very lightly, then you did 1-10 points of damage.
+  If you hit lightly, then you did 11-25 points of damage.
+  If you hit hard, then you did 26-50 points of damage.
+  If you hit very hard, then you did 51-75 points of damage.
+  If you hit extremely hard, then you did 76-99 points of damage.
+  If you hit incredably hard, then you did 100-150 points of damage.
+  If you hit amazingly hard, then you did 151-250 points of damage.
+  If you hit stupendously hard, then you did 251-450 points of damage.
+  if you hit unfeasably hard, then you did 451-600 points of damage.
+  if you hit impossibly hard, then you did 601-999 points of damage.
+  if you hit supernaturally hard, then you did 1000 or more points of damage.
+  
+  You final blow will be a death move, depending on your weapon type.
+  

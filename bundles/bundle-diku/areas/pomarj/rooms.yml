@@ -1,0 +1,1101 @@
+- id: r26200
+  title: "A Mountain Path"
+  description: >-
+    You are on a mountain path which ascends a steep mountainside.  The trail
+    curves around the mountain so that you cannot really see what lies ahead.
+    You do sense great evil though coming from the area behind the mountain.
+  exits:
+    - roomId: "moria:r4031"
+      direction: east
+    - roomId: "pomarj:r26201"
+      direction: up
+  npcs:
+    - id: "pomarj:m26200"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "pomarj:m26200"
+      respawnChance: 100
+      maxLoad: "10"
+- id: r26201
+  title: "A Mountain Path"
+  description: >-
+    You are on a rocky mountain path leading up and around a steep mountainside.
+    You sense an evil presence from the area beyond the mountain, which you cannot 
+    see yet.
+  exits:
+    - roomId: "pomarj:r26202"
+      direction: up
+    - roomId: "pomarj:r26200"
+      direction: down
+  npcs:
+    - id: "pomarj:m26200"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "pomarj:m26200"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "pomarj:m26234"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26202
+  title: "Mountainside Tombs"
+  description: >-
+    There are a few stone heaps here and there, the tombs of those who did not
+    last the arduous journey up the mountain.  Curiously you notice a few
+    uncovered bodies which don't seem to have died of exhaustion.  The path curves
+    east around the mountain.
+  exits:
+    - roomId: "pomarj:r26203"
+      direction: up
+    - roomId: "pomarj:r26201"
+      direction: down
+  npcs:
+    - id: "pomarj:m26200"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "pomarj:m26236"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26203
+  title: "A Blind Curve on the Mountain Path."
+  description: >-
+    This looks like a normal mountain path, but it is NOT!  This section of the
+    path is habitated by a huge (and of course, man-eating) Hill giant.  The path
+    makes its final ascent to an overlook.
+  exits:
+    - roomId: "pomarj:r26204"
+      direction: up
+    - roomId: "pomarj:r26202"
+      direction: down
+  npcs:
+    - id: "pomarj:m26201"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r26204
+  title: "Vista"
+  description: >-
+    This is a stunning vista overlooking the Pomarj Peninsula.  There is a sign here that says:
+    		BEHOLD -- The Orcish empire of Turrosh Mak, ruler of the Pomarj
+    Fire leaps up from burning pyres in the western part of the Pomarj.  There is a 
+    rise at the end of the peninsula to the north.  To the east you see a stagnant
+    swamp, along the shoreline of the Azure sea. Also to the east you spy a cave entrance
+    leading into the Pomarj peninsula.  The path descends to the north to another
+    overlook.
+  exits:
+    - roomId: "pomarj:r26205"
+      direction: north
+    - roomId: "pomarj:r26203"
+      direction: down
+- id: r26205
+  title: "The Overlook"
+  description: >-
+    You see various Orc servants wandering around the Pomarj.  The noise of
+    activity coming from the Pomarj gets louder.  The path makes a steep descent
+    into a shallow vally from here.
+  exits:
+    - roomId: "pomarj:r26204"
+      direction: south
+    - roomId: "pomarj:r26206"
+      direction: down
+- id: r26206
+  title: "Entrance to Orcish Empire of the Pomarj"
+  description: >-
+    You are awed by the sounds and sights of great powers at works here.
+    Orc servants bustle back and forth doing the biddings of the Orc
+    priests.  You see a sort of cross roads to the north, and you can climb up to
+    the overlook here.
+  exits:
+    - roomId: "pomarj:r26208"
+      direction: north
+    - roomId: "pomarj:r26205"
+      direction: up
+  npcs:
+    - id: "pomarj:m26204"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "pomarj:m26234"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26207
+  title: "The Pomarj Peninsula"
+  description: >-
+    Various Orc soldiers and camp followers wander the Pomarj Peninsula.  
+    Some seem to be going about their business, seting up camps and cook 
+    fires, while others are sharpening weapons, polishing armor, and having 
+    mock combats.  The Pomarj continues north and east.
+  exits:
+    - roomId: "pomarj:r26210"
+      direction: north
+    - roomId: "pomarj:r26208"
+      direction: east
+  npcs:
+    - id: "pomarj:m26202"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26230"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26208
+  title: "The Pomarj Peninsula"
+  description: >-
+    To the west a path dips and winds among some flowing firepits.  To the
+    northeast a path goes toward the swamp.  Beyond toward the northeast and
+    northwest are outcrops which rise up from the Pomarj peninsula. To the east there
+    is a cave mouth which leads into the Pomarj wall.  And to the south the path
+    leads up, away, and out of the Pomarj.  Various pure and cross-breeds of
+    Orc forms wander the Pomarj peninsula, which extends in a wide swath
+    northwards.
+  exits:
+    - roomId: "pomarj:r26211"
+      direction: north
+    - roomId: "pomarj:r26206"
+      direction: south
+    - roomId: "pomarj:r26209"
+      direction: east
+    - roomId: "pomarj:r26207"
+      direction: west
+  npcs:
+    - id: "pomarj:m26203"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "pomarj:m26204"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "pomarj:m26206"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "pomarj:m26230"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26209
+  title: "The peninsula of the Pomarj"
+  description: >-
+    Various Orc forms wander the peninsula of the Pomarj.  Some seem to be
+    going about their business, while others seem to have no business at
+    all.  In general, it is calm, yet there is always a incessant buzz of
+    things going on about.  The Pomarj peninsula extends north and west.  There is a
+    cave mouth set into the Pomarj wall to the east.
+  exits:
+    - roomId: "pomarj:r26212"
+      direction: north
+    - roomId: "pomarj:r26219"
+      direction: east
+    - roomId: "pomarj:r26208"
+      direction: west
+  npcs:
+    - id: "pomarj:m26202"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26221"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26210
+  title: "The peninsula of the Pomarj"
+  description: >-
+    Various Orc soldiers and camp followers wander the Pomarj Peninsula.  
+    Some seem to be going about their business, seting up camps and cook 
+    fires, while others are sharpening weapons, polishing armor, and having 
+    mock combats.  The Pomarj peninsula extends off to the north, east,
+    and south.
+  exits:
+    - roomId: "pomarj:r26213"
+      direction: north
+    - roomId: "pomarj:r26207"
+      direction: south
+    - roomId: "pomarj:r26211"
+      direction: east
+  npcs:
+    - id: "pomarj:m26229"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r26211
+  title: "The Pomarj Peninsula"
+  description: >-
+    Various Orc soldiers and camp followers wander the Pomarj Peninsula.  
+    Some seem to be going about their business, seting up camps and cook 
+    fires, while others are sharpening weapons, polishing armor, and having 
+    mock combats.  The Pomarj peninsula extends in all directions.
+  exits:
+    - roomId: "pomarj:r26214"
+      direction: north
+    - roomId: "pomarj:r26208"
+      direction: south
+    - roomId: "pomarj:r26212"
+      direction: east
+    - roomId: "pomarj:r26210"
+      direction: west
+  npcs:
+    - id: "pomarj:m26205"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "pomarj:m26214"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r26212
+  title: "The Pomarj Peninsula"
+  description: >-
+    Various Orc soldiers and camp followers wander the Pomarj Peninsula.  
+    Some seem to be going about their business, seting up camps and cook 
+    fires, while others are sharpening weapons, polishing armor, and having 
+    mock combats.  The Pomarj peninsula extends north, south, and west.
+    A path leads into the swamp to the east.
+  exits:
+    - roomId: "pomarj:r26215"
+      direction: north
+    - roomId: "pomarj:r26209"
+      direction: south
+    - roomId: "pomarj:r26227"
+      direction: east
+    - roomId: "pomarj:r26211"
+      direction: west
+  npcs:
+    - id: "pomarj:m26220"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26213
+  title: "The Pomarj Peninsula"
+  description: >-
+    Various Orc soldiers and camp followers wander the Pomarj Peninsula.  
+    Some seem to be going about their business, seting up camps and cook 
+    fires, while others are sharpening weapons, polishing armor, and having 
+    mock combats.   The Pomarj peninsula extends north, east, and south.
+    To the west you see open fire pits.
+  exits:
+    - roomId: "pomarj:r26216"
+      direction: north
+    - roomId: "pomarj:r26210"
+      direction: south
+    - roomId: "pomarj:r26214"
+      direction: east
+    - roomId: "pomarj:r26236"
+      direction: west
+- id: r26214
+  title: "The Pomarj Peninsula"
+  description: >-
+    Various Orc soldiers and camp followers wander the Pomarj Peninsula.  
+    Some seem to be going about their business, seting up camps and cook 
+    fires, while others are sharpening weapons, polishing armor, and having 
+    mock combats.  The Pomarj peninsula extends in all directions.
+  exits:
+    - roomId: "pomarj:r26217"
+      direction: north
+    - roomId: "pomarj:r26211"
+      direction: south
+    - roomId: "pomarj:r26215"
+      direction: east
+    - roomId: "pomarj:r26213"
+      direction: west
+  npcs:
+    - id: "pomarj:m26202"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26202"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26215
+  title: "The Pomarj Peninsula"
+  description: >-
+    Various Orc soldiers and camp followers wander the Pomarj Peninsula.  
+    Some seem to be going about their business, seting up camps and cook 
+    fires, while others are sharpening weapons, polishing armor, and having 
+    mock combats.  The Pomarj peninsula extends north, south and west.
+  exits:
+    - roomId: "pomarj:r26218"
+      direction: north
+    - roomId: "pomarj:r26212"
+      direction: south
+    - roomId: "pomarj:r26214"
+      direction: west
+  npcs:
+    - id: "pomarj:m26229"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r26216
+  title: "The Pomarj Peninsula"
+  description: >-
+    Various Orc soldiers and camp followers wander the Pomarj Peninsula.  
+    Some seem to be going about their business, seting up camps and cook 
+    fires, while others are sharpening weapons, polishing armor, and having 
+    mock combats.  You can climb a rise in the peninsula to the north.
+  exits:
+    - roomId: "pomarj:r26247"
+      direction: north
+    - roomId: "pomarj:r26213"
+      direction: south
+    - roomId: "pomarj:r26217"
+      direction: east
+  npcs:
+    - id: "pomarj:m26202"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26217
+  title: "The Pomarj Peninsula"
+  description: >-
+    Various Orc soldiers and camp followers wander the Pomarj Peninsula.  
+    Some seem to be going about their business, seting up camps and cook 
+    fires, while others are sharpening weapons, polishing armor, and having 
+    mock combats.  The Pomarj peninsula extends east, south, and west.
+  exits:
+    - roomId: "pomarj:r26214"
+      direction: south
+    - roomId: "pomarj:r26218"
+      direction: east
+    - roomId: "pomarj:r26216"
+      direction: west
+  npcs:
+    - id: "pomarj:m26202"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26204"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26206"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "pomarj:m26206"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "pomarj:m26231"
+      respawnChance: 100
+      maxLoad: "7"
+- id: r26218
+  title: "The Pomarj Peninsula"
+  description: >-
+    Various Orc soldiers and camp followers wander the Pomarj Peninsula.  
+    Some seem to be going about their business, seting up camps and cook 
+    fires, while others are sharpening weapons, polishing armor, and having 
+    mock combats.  You can climb a rise in the peninsula to the north.
+  exits:
+    - roomId: "pomarj:r26248"
+      direction: north
+    - roomId: "pomarj:r26215"
+      direction: south
+    - roomId: "pomarj:r26217"
+      direction: west
+  npcs:
+    - id: "pomarj:m26202"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26219
+  title: "Dark Cave"
+  description: >-
+    You notice a path winding east among some huge boulders.  You feel a powerful
+    source of evil from that direction.
+  exits:
+    - roomId: "pomarj:r26220"
+      direction: east
+    - roomId: "pomarj:r26209"
+      direction: west
+  npcs:
+    - id: "pomarj:m26234"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26218"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26220
+  title: "Darker Caves"
+  description: >-
+    You can barely see your way even with a light source.  The rocks of the cave
+    are even darker than the darkness.  You hear a powerful chanting all around
+    you.  Cave paths go south and east roughly, its hard to tell exactly when you
+    can't see where you are going.
+  exits:
+    - roomId: "pomarj:r26222"
+      direction: south
+    - roomId: "pomarj:r26221"
+      direction: east
+    - roomId: "pomarj:r26219"
+      direction: west
+  npcs:
+    - id: "pomarj:m26215"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26218"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "pomarj:m26221"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26221
+  title: "Darker Caves"
+  description: >-
+    You can barely see your way even with a light source.  The rocks of the cave
+    are even darker than the darkness.  You hear a powerful chanting all around
+    you.  Cave paths go south and west roughly; it's hard to tell exactly when you
+    can't see where you are going.
+  exits:
+    - roomId: "pomarj:r26223"
+      direction: south
+    - roomId: "pomarj:r26220"
+      direction: west
+  npcs:
+    - id: "pomarj:m26204"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "pomarj:m26215"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26219"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "pomarj:m26219"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "pomarj:m26222"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26222
+  title: "Darker Caves"
+  description: >-
+    You can barely see your way even with a light source.  The rocks of the cave
+    are even darker than the darkness.  You hear a powerful chanting all around you.
+    Cave paths go north, south and east roughly; it's hard to tell exactly when
+    you can't see where you are going.
+  exits:
+    - roomId: "pomarj:r26220"
+      direction: north
+    - roomId: "pomarj:r26224"
+      direction: south
+    - roomId: "pomarj:r26223"
+      direction: east
+  npcs:
+    - id: "pomarj:m26215"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26223
+  title: "Darker Caves"
+  description: >-
+    You can barely see your way even with a light source.  The rocks of the cave
+    are even darker than the darkness.  You hear a powerful chanting all around you.
+    Cave paths go north, south and west roughly, it's hard to tell exactly when you
+    can't see where you are going.
+  exits:
+    - roomId: "pomarj:r26221"
+      direction: north
+    - roomId: "pomarj:r26225"
+      direction: south
+    - roomId: "pomarj:r26222"
+      direction: west
+  npcs:
+    - id: "pomarj:m26215"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26224
+  title: "Darkest Caves"
+  description: >-
+    Your light doesn't even seem to work here.  Even magical light sources seem
+    only to illuminate about a foot ahead of you.  You suddenly realize that the
+    path has descended quite a bit but you didn't notice before because of the
+    darkness.  You sense a great presence off to the east aways.
+  exits:
+    - roomId: "pomarj:r26222"
+      direction: north
+    - roomId: "pomarj:r26225"
+      direction: east
+  npcs:
+    - id: "pomarj:m26205"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "pomarj:m26215"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26214"
+      respawnChance: 100
+      maxLoad: "5"
+- id: r26225
+  title: "Darkest Caves"
+  description: >-
+    Your light doesn't even seem to work here.  Even magical light sources seem
+    only to illuminate about a foot ahead of you.  You suddenly realize that the
+    path has descended quite a bit but you didn't notice before because of the
+    darkness.  You sense a great presence directly to the east.
+  exits:
+    - roomId: "pomarj:r26223"
+      direction: north
+    - roomId: "pomarj:r26226"
+      direction: east
+    - roomId: "pomarj:r26224"
+      direction: west
+  npcs:
+    - id: "pomarj:m26215"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26226
+  title: "Temple of Shargaas the Nightlord"
+  description: >-
+    This is the abode of the priest of Shargaas.  He decides about assasinations,
+    poisonings, and murders.  The priest sits upon a huge black marble throne
+    carved into the wall.
+  exits:
+    - roomId: "pomarj:r26225"
+      direction: west
+  npcs:
+    - id: "pomarj:m26207"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "pomarj:m26215"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26215"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26222"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26227
+  title: "By the Swamp"
+  description: >-
+    The stagnant water in the swamp seems to swarm with insects.  Half submerged
+    in the swamp are rotting elven bodies.  The path leads north closer
+    to the Azure sea. To the west you see a T-intersection.
+  exits:
+    - roomId: "pomarj:r26228"
+      direction: north
+    - roomId: "pomarj:r26212"
+      direction: west
+  npcs:
+    - id: "pomarj:m26234"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26217"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26228
+  title: "In the Swamp"
+  description: >-
+    To continue you had to walk right into the swamp.  You walk along in stagnant
+    water up to your knees, and you feel leeches clinging to you.  A bay stretches out to
+    the north and the swamp goes south.
+  exits:
+    - roomId: "pomarj:r26229"
+      direction: north
+    - roomId: "pomarj:r26227"
+      direction: south
+  npcs:
+    - id: "pomarj:m26217"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26229
+  title: "The Azure Sea"
+  description: >-
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  You see sharks not to far in the distance.
+  exits:
+    - roomId: "pomarj:r26232"
+      direction: north
+    - roomId: "pomarj:r26228"
+      direction: south
+    - roomId: "pomarj:r26230"
+      direction: east
+  npcs:
+    - id: "pomarj:m26232"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "pomarj:m26212"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26230
+  title: "The Azure Sea"
+  description: >-
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  You see sharks not to far in the distance.
+  exits:
+    - roomId: "pomarj:r26233"
+      direction: north
+    - roomId: "pomarj:r26231"
+      direction: east
+    - roomId: "pomarj:r26229"
+      direction: west
+  npcs:
+    - id: "pomarj:m26212"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26219"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "pomarj:m26219"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26231
+  title: "The Azure Sea"
+  description: >-
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  You see sharks not to far in the distance.
+  exits:
+    - roomId: "pomarj:r26234"
+      direction: north
+    - roomId: "pomarj:r26230"
+      direction: west
+  npcs:
+    - id: "pomarj:m26212"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26214"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "pomarj:m26214"
+      respawnChance: 100
+      maxLoad: "5"
+    - id: "pomarj:m26220"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26232
+  title: "The Azure Sea"
+  description: >-
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  You see sharks not to far in the distance.
+  exits:
+    - roomId: "pomarj:r26229"
+      direction: south
+    - roomId: "pomarj:r26233"
+      direction: east
+  npcs:
+    - id: "pomarj:m26212"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26233
+  title: "The Azure Sea"
+  description: >-
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  You see sharks not to far in the distance.
+  exits:
+    - roomId: "pomarj:r26230"
+      direction: south
+    - roomId: "pomarj:r26234"
+      direction: east
+    - roomId: "pomarj:r26232"
+      direction: west
+  npcs:
+    - id: "pomarj:m26204"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "pomarj:m26212"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26234
+  title: "The Azure Sea"
+  description: >-
+    The water is crystal clear here and you can see the bottom of the bay 30 feet
+    below you.  You see sharks not to far in the distance.
+  exits:
+    - roomId: "pomarj:r26231"
+      direction: south
+    - roomId: "pomarj:r26233"
+      direction: west
+    - roomId: "pomarj:r26235"
+      direction: down
+  npcs:
+    - id: "pomarj:m26212"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26235
+  title: "Temple of Yertrus"
+  description: >-
+    This chamber has ben dug out of the swamp floor, not far from the sea. It looks
+    like it's been here for a long, long time.  There is a disgusting stench coming
+    from a rotting corpse sitting on a slime encrusted throne, oops that corpse just 
+    opened its eyes!
+  exits:
+    - roomId: "pomarj:r26234"
+      direction: up
+  npcs:
+    - id: "pomarj:m26211"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "pomarj:m26212"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26212"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26236
+  title: "A Fiery Pathway"
+  description: >-
+    You tread carefully along a path which dips and turns among geysers of fire.
+    Miniature volcanoes spew lava in rivers.  The fire is hot and extremely
+    dangerous.  You smell burning flesh all around you. The path extends east and south.
+  exits:
+    - roomId: "pomarj:r26237"
+      direction: south
+    - roomId: "pomarj:r26213"
+      direction: east
+  npcs:
+    - id: "pomarj:m26234"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26237
+  title: "A Fiery Pathway"
+  description: >-
+    You tread carefully along a path which dips and turns among pits of fire and
+    beds of coals.  A pyre of burning elves to the west glows with an everlasting fire.
+  exits:
+    - roomId: "pomarj:r26236"
+      direction: north
+    - roomId: "pomarj:r26238"
+      direction: west
+  npcs:
+    - id: "pomarj:m26224"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "pomarj:m26225"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "pomarj:m26232"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "pomarj:m26217"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "pomarj:m26218"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26238
+  title: "The Burning Pyre"
+  description: >-
+    You see pyres of elves all around you, they are screaming in agony, yet the flames
+    do not seem to consume thier flesh.  A path leads east among some fire pits.
+  exits:
+    - roomId: "pomarj:r26237"
+      direction: east
+    - roomId: "pomarj:r26239"
+      direction: west
+  npcs:
+    - id: "pomarj:m26206"
+      respawnChance: 100
+      maxLoad: "10"
+    - id: "pomarj:m26226"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "pomarj:m26227"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "pomarj:m26228"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "pomarj:m26213"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26213"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26213"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26218"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26239
+  title: "The Temple of Gruumsh"
+  description: >-
+    The high priest of Gruumsh sits upon a throne of polished elven bone.
+  exits:
+    - roomId: "pomarj:r26238"
+      direction: east
+  npcs:
+    - id: "pomarj:m26208"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "pomarj:m26213"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26213"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26213"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26240
+  title: "Bone Pathway"
+  description: >-
+    You walk along a pethway made of the bones of Turrosh Maks enemies, you feel a
+    crunch of a baby elfs skull beneath your heel.  To the north there is a
+    sunken-in area.  A path leads east also.
+  exits:
+    - roomId: "pomarj:r26242"
+      direction: north
+    - roomId: "pomarj:r26247"
+      direction: east
+  npcs:
+    - id: "pomarj:m26205"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "pomarj:m26234"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26216"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26217"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26241
+  title: "The battleground"
+  description: >-
+    You see many Orcs engaged in (not so) mock combat, some are barely higher 
+    than your waist. You here loud cursed and orders coming from an outcropping
+    not far from you.  The battleground extends north and east.
+  exits:
+    - roomId: "pomarj:r26243"
+      direction: north
+    - roomId: "pomarj:r26242"
+      direction: east
+  npcs:
+    - id: "pomarj:m26216"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26242
+  title: "The battleground"
+  description: >-
+    You see many Orcs engaged in (not so) mock combat, some are barely higher 
+    than your waist. You here loud cursed and orders coming from an outcropping
+    not far from you.  The battleground extends north and west.
+  exits:
+    - roomId: "pomarj:r26244"
+      direction: north
+    - roomId: "pomarj:r26240"
+      direction: south
+    - roomId: "pomarj:r26241"
+      direction: west
+  npcs:
+    - id: "pomarj:m26216"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26221"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26243
+  title: "The battleground"
+  description: >-
+    You see many Orcs engaged in (not so) mock combat, some are barely higher 
+    than your waist. You here loud cursed and orders coming from an outcropping
+    not far from you.The battleground continues south and east.
+  exits:
+    - roomId: "pomarj:r26241"
+      direction: south
+    - roomId: "pomarj:r26244"
+      direction: east
+  npcs:
+    - id: "pomarj:m26233"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "pomarj:m26216"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26244
+  title: "The battleground"
+  description: >-
+    You see many Orcs engaged in (not so) mock combat, some are barely higher 
+    than your waist. You here loud cursed and orders coming from an outcropping
+    not far from you.
+  exits:
+    - roomId: "pomarj:r26242"
+      direction: south
+    - roomId: "pomarj:r26245"
+      direction: east
+    - roomId: "pomarj:r26243"
+      direction: west
+  npcs:
+    - id: "pomarj:m26204"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "pomarj:m26216"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26245
+  title: "Bone Causeway"
+  description: >-
+    Up a set of stairs carved into the hill you see a large orc in red chainmail
+    atop an iron throne, he is yelling orders at the soldiers below him. To the west
+    is the battleground.
+  exits:
+    - roomId: "pomarj:r26244"
+      direction: west
+    - roomId: "pomarj:r26246"
+      direction: up
+  npcs:
+    - id: "pomarj:m26216"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26246
+  title: "The Temple of Ilneval"
+  description: >-
+    The Priest of Ilneval sits upon an iron throne, and supervises the Orc battle 
+    training from here. He wields a sword and shield of pure magic. Steps from here 
+    lead down to the battleground.
+  exits:
+    - roomId: "pomarj:r26245"
+      direction: down
+  npcs:
+    - id: "pomarj:m26210"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "pomarj:m26216"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26216"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26247
+  title: "Pile of Skulls"
+  description: >-
+    A bone path starts to the west.  The pile of skulls continues to the east.
+    Or you can climb down to the Pomarj peninsula to the south.
+  exits:
+    - roomId: "pomarj:r26216"
+      direction: south
+    - roomId: "pomarj:r26248"
+      direction: east
+    - roomId: "pomarj:r26240"
+      direction: west
+  npcs:
+    - id: "pomarj:m26231"
+      respawnChance: 100
+      maxLoad: "8"
+    - id: "pomarj:m26221"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26248
+  title: "Pile of Skulls"
+  description: >-
+    A bone path starts to the north.  The pile of skulls continues to the west.
+    Or you can climb down to the Pomarj peninsula to the south.
+  exits:
+    - roomId: "pomarj:r26249"
+      direction: north
+    - roomId: "pomarj:r26218"
+      direction: south
+    - roomId: "pomarj:r26247"
+      direction: west
+  npcs:
+    - id: "pomarj:m26205"
+      respawnChance: 100
+      maxLoad: "18"
+    - id: "pomarj:m26220"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26249
+  title: "Along the clifftops"
+  description: >-
+    Last you knew, you were walking on the pile of skulls.  Abruptly the pile 
+    ended atop a granite cliff face with blood red iron ore streaked through it.
+    You see elven noblemen and noblewoman staked out in the sun, it is hard to 
+    tell whether they are dead or alive.  The cliffs continue to the north and east.
+    The pile of skulls you came from is to the south.
+  exits:
+    - roomId: "pomarj:r26251"
+      direction: north
+    - roomId: "pomarj:r26248"
+      direction: south
+    - roomId: "pomarj:r26250"
+      direction: east
+  npcs:
+    - id: "pomarj:m26231"
+      respawnChance: 100
+      maxLoad: "7"
+    - id: "pomarj:m26234"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26223"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26223"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26220"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26250
+  title: "Along the Clifftops"
+  description: >-
+    You look down and see the azure sea 100 feet below you.  In the distance across 
+    the expanse of the Wooley bay, you see the shores of the Bright Desert.  To the 
+    east aways you spy an archway.  To the west is more thin air.
+  exits:
+    - roomId: "pomarj:r26252"
+      direction: north
+    - roomId: "pomarj:r26249"
+      direction: west
+  npcs:
+    - id: "pomarj:m26223"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26251
+  title: "Along the Clifftops"
+  description: >-
+    You look down and see the azure sea 100 feet below you.  In the distance across 
+    the expanse of the Wooley bay, you see the shores of the Bright Desert.  To the 
+    east aways you spy an archway.  To the south is more thin air.
+  exits:
+    - roomId: "pomarj:r26249"
+      direction: south
+    - roomId: "pomarj:r26252"
+      direction: east
+  npcs:
+    - id: "pomarj:m26233"
+      respawnChance: 100
+      maxLoad: "2"
+    - id: "pomarj:m26223"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26222"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26252
+  title: "Along the Clifftops"
+  description: >-
+    You look down and see the azure sea 100 feet below you.  In the distance across 
+    the expanse of the Wooley bay, you see the shores of the Bright Desert.  To the 
+    east aways you spy an archway.  There is a hideously carved archway leading into
+    a cave here. It is to the east.  You can continue south or west if you'd like.
+  exits:
+    - roomId: "pomarj:r26250"
+      direction: south
+    - roomId: "pomarj:r26253"
+      direction: east
+    - roomId: "pomarj:r26251"
+      direction: west
+  npcs:
+    - id: "pomarj:m26223"
+      respawnChance: 100
+      maxLoad: "15"
+- id: r26253
+  title: "Tunnel lined with corpses"
+  description: >-
+    A cave leads east.  It is lined with corpses of Elven Knights of Luna, many still
+    in their elven plate mail and holding fine forged weapons. They all bear the scars
+    and wounds of prolonged torture.
+  exits:
+    - roomId: "pomarj:r26254"
+      direction: east
+    - roomId: "pomarj:r26252"
+      direction: west
+  npcs:
+    - id: "pomarj:m26223"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26222"
+      respawnChance: 100
+      maxLoad: "8"
+- id: r26254
+  title: "Temple of Bahgtru"
+  description: >-
+    You enter a granite chamber.  The walls are lined with weapons, armor and 
+    battle standards of deafeated enemies. A gigantic, dirty tan skinned, muscular
+    Orc sits atop a throne made of elven children.  A cave leads west.
+  exits:
+    - roomId: "pomarj:r26253"
+      direction: west
+  npcs:
+    - id: "pomarj:m26209"
+      respawnChance: 100
+      maxLoad: "1"
+    - id: "pomarj:m26206"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "pomarj:m26223"
+      respawnChance: 100
+      maxLoad: "15"
+    - id: "pomarj:m26223"
+      respawnChance: 100
+      maxLoad: "15"

@@ -1,0 +1,146 @@
+- id: o6400
+  name: "cleaver"
+  roomDesc: "A wicked cleaver rests here."
+  keywords: ["cleaver"]
+  description: "A wicked cleaver rests here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o6401
+  name: "lighter"
+  roomDesc: "A lighter for candles rests here."
+  keywords: ["lighter"]
+  description: "A lighter for candles rests here."
+  type: LIGHT
+- id: o6402
+  name: "key"
+  roomDesc: "A strange key is here."
+  keywords: ["key"]
+  description: "A strange key is here."
+  type: KEY
+- id: o6403
+  name: "hat"
+  roomDesc: "A funny hat lays here in a heap."
+  keywords: ["hat"]
+  description: "A funny hat lays here in a heap."
+  type: LIGHTARMOR
+- id: o6404
+  name: "coat"
+  roomDesc: "A coat of sorts lies here, covered in blood."
+  keywords: ["coat"]
+  description: "A coat of sorts lies here, covered in blood."
+  type: LIGHTARMOR
+- id: o6405
+  name: "pants"
+  roomDesc: "A pair of bloody pants lie here."
+  keywords: ["pants"]
+  description: "A pair of bloody pants lie here."
+  type: LIGHTARMOR
+- id: o6406
+  name: "shoes"
+  roomDesc: "A pair of bloody shoes lie here."
+  keywords: ["shoes"]
+  description: "A pair of bloody shoes lie here."
+  type: LIGHTARMOR
+- id: o6407
+  name: "cloak"
+  roomDesc: "A cloak the color of darkness lies here."
+  keywords: ["cloak"]
+  description: "A cloak the color of darkness lies here."
+  type: ACCESSORY
+- id: o6408
+  name: "chain"
+  roomDesc: "A chain made of rare stones lies here."
+  keywords: ["chain"]
+  description: "A chain made of rare stones lies here."
+  type: ACCESSORY
+- id: o6409
+  name: "necklace"
+  roomDesc: "A rare necklace lies here discarded."
+  keywords: ["necklace"]
+  description: "A rare necklace lies here discarded."
+  type: ACCESSORY
+- id: o6410
+  name: "talisman"
+  roomDesc: "A strange talisman lies here."
+  keywords: ["talisman"]
+  description: "A strange talisman lies here."
+  type: ACCESSORY
+- id: o6411
+  name: "ring"
+  roomDesc: "A ring with the head of a ram lies here."
+  keywords: ["ring"]
+  description: "A ring with the head of a ram lies here."
+  type: ACCESSORY
+- id: o6412
+  name: "helmet"
+  roomDesc: "A marble helmet lies here."
+  keywords: ["helmet"]
+  description: "A marble helmet lies here."
+  type: HEAVYARMOR
+- id: o6413
+  name: "amulet ebony silver veined marble"
+  roomDesc: "A marble amulet rests here."
+  keywords: ["amulet","ebony","silver","veined","marble"]
+  description: "A marble amulet rests here."
+  type: ACCESSORY
+- id: o6414
+  name: "plate"
+  roomDesc: "A marble breastplate lies here."
+  keywords: ["plate"]
+  description: "A marble breastplate lies here."
+  type: HEAVYARMOR
+- id: o6415
+  name: "bands armbands silver"
+  roomDesc: "A set of marble armbands lies here."
+  keywords: ["bands","armbands","silver"]
+  description: "A set of marble armbands lies here."
+  type: LIGHTARMOR
+- id: o6416
+  name: "gauntlets"
+  roomDesc: "A pair of marble gauntlets lie here."
+  keywords: ["gauntlets"]
+  description: "A pair of marble gauntlets lie here."
+  type: HEAVYARMOR
+- id: o6417
+  name: "plates"
+  roomDesc: "A pair of marble legplates lie here."
+  keywords: ["plates"]
+  description: "A pair of marble legplates lie here."
+  type: HEAVYARMOR
+- id: o6418
+  name: "boots"
+  roomDesc: "A pair of marble boots lie discarded here."
+  keywords: ["boots"]
+  description: "A pair of marble boots lie discarded here."
+  type: HEAVYARMOR
+- id: o6419
+  name: "aura"
+  roomDesc: "A strange aura hangs here in mid air."
+  keywords: ["aura"]
+  description: "A strange aura hangs here in mid air."
+  type: ACCESSORY
+- id: o6420
+  name: "bola"
+  roomDesc: "A bola of marble and chain lies here."
+  keywords: ["bola"]
+  description: "A bola of marble and chain lies here."
+  type: WEAPON
+  metadata:
+    minDamage: 7
+    maxDamage: 15
+    speed: 2.8
+- id: o6421
+  name: "robe robes"
+  roomDesc: "A robe lies heaped up on the ground."
+  keywords: ["robe","robes"]
+  description: "A robe lies heaped up on the ground."
+  type: LIGHTARMOR
+- id: o6422
+  name: "collar"
+  roomDesc: "A collar of opals and emeralds lies here, the words RA ingraved at its center."
+  keywords: ["collar"]
+  description: "A collar of opals and emeralds lies here, the words RA ingraved at its center."
+  type: ACCESSORY

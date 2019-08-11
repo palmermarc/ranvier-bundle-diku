@@ -1,0 +1,586 @@
+- id: r12452
+  title: "Corner"
+  description: >-
+    You are standing in a corner.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12461"
+      direction: south
+    - roomId: "sentinel:r12453"
+      direction: east
+- id: r12453
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12462"
+      direction: south
+    - roomId: "sentinel:r12454"
+      direction: east
+    - roomId: "sentinel:r12452"
+      direction: west
+- id: r12454
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12463"
+      direction: south
+    - roomId: "sentinel:r12455"
+      direction: east
+    - roomId: "sentinel:r12453"
+      direction: west
+- id: r12455
+  title: "Portal"
+  description: >-
+    You are standing at a gateway.  
+    The marble floors suggest elegance, 
+    and the walls are an off-white in color.
+  exits:
+    - roomId: "sentinel:r12456"
+      direction: east
+    - roomId: "sentinel:r12454"
+      direction: west
+- id: r12456
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12464"
+      direction: south
+    - roomId: "sentinel:r12457"
+      direction: east
+    - roomId: "sentinel:r12455"
+      direction: west
+- id: r12457
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12465"
+      direction: south
+    - roomId: "sentinel:r12458"
+      direction: east
+    - roomId: "sentinel:r12456"
+      direction: west
+- id: r12458
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12466"
+      direction: south
+    - roomId: "sentinel:r12459"
+      direction: east
+    - roomId: "sentinel:r12457"
+      direction: west
+- id: r12459
+  title: "Entranceway"
+  description: >-
+    You are standing at an entranceway.  
+    You hear death cries coming from within.  
+    Now is your last chance to turn back.
+  exits:
+    - roomId: "sentinel:r12460"
+      direction: east
+    - roomId: "sentinel:r12458"
+      direction: west
+- id: r12460
+  title: "End of the Path"
+  description: >-
+    You are standing at the end of the path.  
+    To the west is an entranceway.  
+    You faintly hear cries coming from that direction.
+  exits:
+    - roomId: "crystalm:r10018"
+      direction: east
+    - roomId: "sentinel:r12459"
+      direction: west
+- id: r12461
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12452"
+      direction: north
+    - roomId: "sentinel:r12467"
+      direction: south
+    - roomId: "sentinel:r12462"
+      direction: east
+- id: r12462
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12453"
+      direction: north
+    - roomId: "sentinel:r12468"
+      direction: south
+    - roomId: "sentinel:r12463"
+      direction: east
+    - roomId: "sentinel:r12461"
+      direction: west
+  npcs:
+    - id: "sentinel:m12454"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "sentinel:m12454"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "sentinel:m12454"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "sentinel:m12454"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r12463
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12454"
+      direction: north
+    - roomId: "sentinel:r12469"
+      direction: south
+    - roomId: "sentinel:r12462"
+      direction: west
+- id: r12464
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12456"
+      direction: north
+    - roomId: "sentinel:r12470"
+      direction: south
+    - roomId: "sentinel:r12465"
+      direction: east
+- id: r12465
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12457"
+      direction: north
+    - roomId: "sentinel:r12471"
+      direction: south
+    - roomId: "sentinel:r12466"
+      direction: east
+    - roomId: "sentinel:r12464"
+      direction: west
+  npcs:
+    - id: "sentinel:m12453"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "sentinel:m12453"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r12466
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12458"
+      direction: north
+    - roomId: "sentinel:r12472"
+      direction: south
+    - roomId: "sentinel:r12465"
+      direction: west
+- id: r12467
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12461"
+      direction: north
+    - roomId: "sentinel:r12473"
+      direction: south
+    - roomId: "sentinel:r12468"
+      direction: east
+- id: r12468
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12462"
+      direction: north
+    - roomId: "sentinel:r12469"
+      direction: east
+    - roomId: "sentinel:r12467"
+      direction: west
+- id: r12469
+  title: "Corner"
+  description: >-
+    You are standing in a corner.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12463"
+      direction: north
+    - roomId: "sentinel:r12468"
+      direction: west
+- id: r12470
+  title: "Corner"
+  description: >-
+    You are standing in a corner.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12464"
+      direction: north
+    - roomId: "sentinel:r12471"
+      direction: east
+- id: r12471
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12465"
+      direction: north
+    - roomId: "sentinel:r12472"
+      direction: east
+    - roomId: "sentinel:r12470"
+      direction: west
+- id: r12472
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12466"
+      direction: north
+    - roomId: "sentinel:r12474"
+      direction: south
+    - roomId: "sentinel:r12471"
+      direction: west
+- id: r12473
+  title: "Portal"
+  description: >-
+    You are standing at a gateway.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12467"
+      direction: north
+    - roomId: "sentinel:r12475"
+      direction: south
+- id: r12474
+  title: "Portal"
+  description: >-
+    You are standing at a gateway.  
+    The marble floors suggest elegance, 
+    and the walls are an off-white in color.
+  exits:
+    - roomId: "sentinel:r12472"
+      direction: north
+    - roomId: "sentinel:r12480"
+      direction: south
+- id: r12475
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12473"
+      direction: north
+    - roomId: "sentinel:r12481"
+      direction: south
+    - roomId: "sentinel:r12476"
+      direction: east
+- id: r12476
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12482"
+      direction: south
+    - roomId: "sentinel:r12477"
+      direction: east
+    - roomId: "sentinel:r12475"
+      direction: west
+  npcs:
+    - id: "sentinel:m12457"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12477
+  title: "Corner"
+  description: >-
+    You are standing in a corner.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12483"
+      direction: south
+    - roomId: "sentinel:r12476"
+      direction: west
+  npcs:
+    - id: "sentinel:m12452"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12478
+  title: "Corner"
+  description: >-
+    You are standing in a corner.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12484"
+      direction: south
+    - roomId: "sentinel:r12479"
+      direction: east
+- id: r12479
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12485"
+      direction: south
+    - roomId: "sentinel:r12480"
+      direction: east
+    - roomId: "sentinel:r12478"
+      direction: west
+- id: r12480
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12474"
+      direction: north
+    - roomId: "sentinel:r12486"
+      direction: south
+    - roomId: "sentinel:r12479"
+      direction: west
+- id: r12481
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12475"
+      direction: north
+    - roomId: "sentinel:r12487"
+      direction: south
+    - roomId: "sentinel:r12482"
+      direction: east
+- id: r12482
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12476"
+      direction: north
+    - roomId: "sentinel:r12488"
+      direction: south
+    - roomId: "sentinel:r12483"
+      direction: east
+    - roomId: "sentinel:r12481"
+      direction: west
+  npcs:
+    - id: "sentinel:m12455"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "sentinel:m12455"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "sentinel:m12455"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "sentinel:m12455"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r12483
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12477"
+      direction: north
+    - roomId: "sentinel:r12489"
+      direction: south
+    - roomId: "sentinel:r12482"
+      direction: west
+  npcs:
+    - id: "sentinel:m12458"
+      respawnChance: 100
+      maxLoad: "1"
+- id: r12484
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12478"
+      direction: north
+    - roomId: "sentinel:r12491"
+      direction: south
+    - roomId: "sentinel:r12485"
+      direction: east
+- id: r12485
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12479"
+      direction: north
+    - roomId: "sentinel:r12492"
+      direction: south
+    - roomId: "sentinel:r12486"
+      direction: east
+    - roomId: "sentinel:r12484"
+      direction: west
+  npcs:
+    - id: "sentinel:m12456"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "sentinel:m12456"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "sentinel:m12456"
+      respawnChance: 100
+      maxLoad: "6"
+    - id: "sentinel:m12456"
+      respawnChance: 100
+      maxLoad: "6"
+- id: r12486
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12480"
+      direction: north
+    - roomId: "sentinel:r12493"
+      direction: south
+    - roomId: "sentinel:r12485"
+      direction: west
+- id: r12487
+  title: "Corner"
+  description: >-
+    You are standing in a corner.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12481"
+      direction: north
+    - roomId: "sentinel:r12488"
+      direction: east
+- id: r12488
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12482"
+      direction: north
+    - roomId: "sentinel:r12489"
+      direction: east
+    - roomId: "sentinel:r12487"
+      direction: west
+- id: r12489
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12483"
+      direction: north
+    - roomId: "sentinel:r12490"
+      direction: east
+    - roomId: "sentinel:r12488"
+      direction: west
+- id: r12490
+  title: "Portal"
+  description: >-
+    You are standing at a gateway.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12491"
+      direction: east
+    - roomId: "sentinel:r12489"
+      direction: west
+- id: r12491
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12484"
+      direction: north
+    - roomId: "sentinel:r12492"
+      direction: east
+    - roomId: "sentinel:r12490"
+      direction: west
+- id: r12492
+  title: "Room"
+  description: >-
+    You are standing in a room.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12485"
+      direction: north
+    - roomId: "sentinel:r12493"
+      direction: east
+    - roomId: "sentinel:r12491"
+      direction: west
+- id: r12493
+  title: "Corner"
+  description: >-
+    You are standing in a corner.  
+    The marble floors suggest elegance, 
+    and the walls are a lovely shade of deep red.
+  exits:
+    - roomId: "sentinel:r12486"
+      direction: north
+    - roomId: "sentinel:r12492"
+      direction: west

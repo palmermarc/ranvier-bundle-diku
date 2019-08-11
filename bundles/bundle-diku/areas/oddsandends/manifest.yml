@@ -1,0 +1,12 @@
+title: "Odds and Ends"
+metadata:
+  id: 54
+  name: "Odds and Ends"
+  createdBy: "kavir"
+  starting_vnum: 30000
+  ending_vnum: 30099
+  item_requirements: 0
+  filename: "oddsandends.json"
+behaviors:
+  progressive-respawn:
+    interval: 20

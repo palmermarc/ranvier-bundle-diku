@@ -1,0 +1,166 @@
+- id: m9601
+  keywords: ["Icy","crystal","Mist"]
+  name: "Crystal Mist"
+  description: >-
+    An icy Crystal Mist is blending into the surrounding caverns.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "icycaver:o9601": 75
+        "icycaver:o9602": 75
+        "icycaver:o9603": 75
+        "icycaver:o9605": 75
+  metadata:
+    areaId: 37
+    exp_level: 16000
+    sex: 1
+- id: m9602
+  keywords: ["Terror","deep"]
+  name: "Terror from the Deep"
+  description: >-
+    The Terror from the Deep is here, waiting to strike fear into your mind.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "icycaver:o9607": 75
+        "icycaver:o9604": 75
+        "icycaver:o9601": 75
+        "icycaver:o9608": 75
+        "icycaver:o9606": 75
+        "icycaver:o9602": 75
+        "icycaver:o9603": 75
+        "icycaver:o9605": 75
+  metadata:
+    areaId: 37
+    exp_level: 16000
+    sex: 1
+- id: m9603
+  keywords: ["Sprite","Ice"]
+  name: "A Small Sprite"
+  description: >-
+    A small Sprite is here to kill you.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "icycaver:o9604": 75
+        "icycaver:o9608": 75
+  metadata:
+    areaId: 37
+    exp_level: 16000
+    sex: 1
+- id: m9604
+  keywords: ["Frozen","Slime","Jelly"]
+  name: "Frozen Slime"
+  description: >-
+    A Frozen Slime is here.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "icycaver:o9604": 75
+        "icycaver:o9602": 75
+  metadata:
+    areaId: 37
+    exp_level: 16000
+    sex: 1
+- id: m9605
+  keywords: ["Raging","Ice","Wolf"]
+  name: "Raging Ice Wolf"
+  description: >-
+    A Raging Ice Wolf wants to feast on your blood.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "icycaver:o9608": 75
+        "icycaver:o9603": 75
+        "icycaver:o9602": 75
+  metadata:
+    areaId: 37
+    exp_level: 16000
+    sex: 1
+- id: m9606
+  keywords: ["Energy","Cloud","Icy"]
+  name: "Icy Energy Cloud"
+  description: >-
+    An Energy cloud is here surrounded by ice.
+  level: 189
+  attributes:
+    health: 22836
+    armor: 9640
+    hitroll: 2300
+    damroll: 1150
+    alignment: 1000
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 0
+          max: 0
+      pools:
+        "icycaver:o9607": 75
+        "icycaver:o9602": 75
+        "icycaver:o9601": 75
+  metadata:
+    areaId: 37
+    exp_level: 16000
+    sex: 1

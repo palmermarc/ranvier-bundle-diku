@@ -1,0 +1,491 @@
+- id: m4200
+  keywords: ["asp","snake"]
+  name: "A horrible asp"
+  description: >-
+    A small, poisonous asp slithers over your feet.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 9.5
+          max: 10.5
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 0
+- id: m4201
+  keywords: ["cobra","snake"]
+  name: "A hooded cobra snake"
+  description: >-
+    A cobra snake rears up and opens its fearsome hood.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 23.75
+          max: 26.25
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 0
+- id: m4202
+  keywords: ["mongoose"]
+  name: "A wily little mongoose"
+  description: >-
+    A small mongoose slinks along the ground, hunting snakes.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 10
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 95
+          max: 105
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 2
+- id: m4203
+  keywords: ["pyramid","watcher"]
+  name: "A pyramid watcher"
+  description: >-
+    The pyramid watcher protects the tombs from intruders.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 250
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 190
+          max: 210
+      pools:
+        "pyramid:o4200": 75
+        "pyramid:o4201": 75
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 1
+- id: m4204
+  keywords: ["thief","tomb"]
+  name: "A tomb thief"
+  description: >-
+    A sneaky tomb thief moves about in search of treasure.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -250
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 475
+          max: 525
+      pools:
+        "pyramid:o4202": 75
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 1
+- id: m4205
+  keywords: ["ali","baba","thief"]
+  name: "Ali Baba"
+  description: >-
+    Ali Baba is here, hunting for the pharoah's tomb.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -300
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 950
+          max: 1050
+      pools:
+        "pyramid:o4203": 75
+        "pyramid:o4202": 75
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 1
+- id: m4206
+  keywords: ["magic","carpet"]
+  name: "The magic carpet"
+  description: >-
+    A small woven carpet lies under your feet.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 237.5
+          max: 262.5
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 0
+- id: m4207
+  keywords: ["mummy","corpse"]
+  name: "A mummy"
+  description: >-
+    A mummy reaches for you, disturbed by your presence.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 712.5
+          max: 787.5
+      pools:
+        "pyramid:o4204": 75
+        "pyramid:o4206": 75
+        "pyramid:o4205": 75
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 0
+- id: m4208
+  keywords: ["sand","man","sandman"]
+  name: "A sandman"
+  description: >-
+    A sandman rises up from the desert floor.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 0
+  behaviors:
+    combat: true
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 1425
+          max: 1575
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 1
+- id: m4209
+  keywords: ["efreeti","efreet"]
+  name: "The efreeti"
+  description: >-
+    The efreeti stands here, sheathed in a column of fire.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -600
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    lootable:
+      currencies:
+        gold:
+          min: 10450
+          max: 11550
+      pools:
+        "pyramid:o4207": 75
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 1
+- id: m4210
+  keywords: ["caryatid","column"]
+  name: "A caryatid"
+  description: >-
+    A sandstone column stands here, carved into a feminine figure.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 0
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 33250
+          max: 36750
+      pools:
+        "pyramid:o4208": 75
+        "pyramid:o4209": 75
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 2
+- id: m4211
+  keywords: ["djinn","genie"]
+  name: "The djinn"
+  description: >-
+    The djinn issues forth from the confines of a small lamp.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 600
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 57000
+          max: 63000
+      pools:
+        "pyramid:o4213": 75
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 1
+- id: m4212
+  keywords: ["hieracosphinx","sphinx"]
+  name: "A hieracosphinx"
+  description: >-
+    A hieracosphinx looks at you cunningly.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: -200
+  behaviors:
+    combat: true
+    ranvier-aggro:
+      delay: 5
+      towards:
+        players: true
+        npcs: false
+    ranvier-wander:
+      interval: 30
+      areaRestricted: true
+    lootable:
+      currencies:
+        gold:
+          min: 7125
+          max: 7875
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 0
+- id: m4213
+  keywords: ["gynosphinx","sphinx"]
+  name: "A gynosphinx"
+  description: >-
+    A gynosphinx sits here, befuddled by a riddle.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 100
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 9500
+          max: 10500
+      pools:
+        "pyramid:o4214": 75
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 2
+- id: m4214
+  keywords: ["criosphinx","sphinx"]
+  name: "A criosphinx"
+  description: >-
+    A criosphinx calmly watches you.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 300
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 23750
+          max: 26250
+      pools:
+        "pyramid:o4215": 75
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 1
+- id: m4215
+  keywords: ["androsphinx","sphinx"]
+  name: "An androsphinx"
+  description: >-
+    A mighty androsphinx tosses its lion-like mane.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 400
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 47500
+          max: 52500
+      pools:
+        "pyramid:o4216": 75
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 0
+- id: m4216
+  keywords: ["great","sphinx"]
+  name: "The great sphinx"
+  description: >-
+    A mighty sphinx rests here in the sand, dormant now for centuries.The great sphinx appears to be indestructible!
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 500
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 118750
+          max: 131250
+      pools:
+        "pyramid:o4217": 75
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 0
+- id: m4217
+  keywords: ["ramses","mummy"]
+  name: "Ramses the Damned"
+  description: >-
+    You have awakened the mighty servant to the pharoahs, Ramses.
+  level: 281
+  attributes:
+    health: 36172
+    armor: 17480
+    hitroll: 4300
+    damroll: 2150
+    alignment: 150
+  behaviors:
+    combat: true
+    lootable:
+      currencies:
+        gold:
+          min: 83600
+          max: 92400
+      pools:
+        "pyramid:o4222": 75
+        "pyramid:o4219": 75
+        "pyramid:o4220": 75
+        "pyramid:o4221": 75
+        "pyramid:o30052": 75
+  metadata:
+    areaId: 61
+    exp_level: 24000
+    sex: 1

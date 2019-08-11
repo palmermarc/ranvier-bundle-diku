@@ -1,4 +1,5 @@
 node_modules
+bundles
 plugins/**/*.*
 data/player/*.json
 data/account/*.json

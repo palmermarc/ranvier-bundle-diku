@@ -53,6 +53,7 @@ async function main() {
     'https://github.com/RanvierMUD/progressive-respawn',
     'https://github.com/RanvierMUD/telnet-networking',
     'https://github.com/RanvierMUD/websocket-networking',
+    'https://github.com/palmermarc/bundle-diku.git'
   ];
   const enabledBundles = [];
 
